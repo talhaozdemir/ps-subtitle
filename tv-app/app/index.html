@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GTA VI Türkçe Altyazı</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <video id="hdmi" autoplay aria-label="PlayStation 5 HDMI görüntüsü"></video>
+  <div id="subtitle" role="status" hidden></div>
+  <div id="notice" role="status" hidden></div>
+
+  <main id="settings" aria-label="GTA VI Türkçe Altyazı">
+    <form id="setup">
+      <div id="setupTabs" role="tablist" aria-label="Ayarlar">
+        <button id="tabHdmi" type="button" role="tab" aria-selected="true" aria-controls="stepHdmi">HDMI</button>
+        <button id="tabPs5" type="button" role="tab" aria-selected="false" aria-controls="stepPs5" tabindex="-1">PS5</button>
+        <button id="tabSubtitle" type="button" role="tab" aria-selected="false" aria-controls="stepSubtitle" tabindex="-1">Altyazı</button>
+      </div>
+      <section id="stepHdmi" role="tabpanel" aria-labelledby="tabHdmi">
+        <label for="port">PS5’in HDMI girişi</label>
+        <select id="port">
+          <option value="" disabled selected>Giriş seç</option>
+          <option value="1">HDMI 1</option>
+          <option value="2">HDMI 2</option>
+          <option value="3">HDMI 3</option>
+          <option value="4">HDMI 4</option>
+        </select>
+      </section>
+
+      <section id="stepPs5" role="tabpanel" aria-labelledby="tabPs5" hidden>
+        <button id="findPs5" type="button" aria-controls="consoleList">PS5’i bul</button>
+        <p id="discoveryStatus" role="status" hidden></p>
+        <div id="consoleList" role="group" aria-label="Ağda bulunan PS5’ler" hidden></div>
+
+        <label for="address">PS5 IP adresi</label>
+        <input id="address" type="text" placeholder="192.168.1.50" maxlength="15"
+               autocomplete="off" spellcheck="false" required>
+
+        <label for="account">İkinci hesabın PSN hesap kimliği (sayı veya Base64)</label>
+        <input id="account" type="password" maxlength="20" autocomplete="off" spellcheck="false">
+
+        <label for="pin">8 haneli eşleştirme kodu</label>
+        <input id="pin" type="text" inputmode="numeric" maxlength="9" autocomplete="off">
+        <details id="pairingHelp">
+          <summary tabindex="0">Kodu nereden alırım?</summary>
+          <p>İkinci PSN hesabında Ayarlar → Sistem → Uzaktan Oynatma → Cihazı Eşleştir.</p>
+        </details>
+        <div class="actions"><button id="pair" type="button">PS5’i eşleştir</button></div>
+      </section>
+      <section id="stepSubtitle" role="tabpanel" aria-labelledby="tabSubtitle" hidden>
+        <p id="trialHelp" hidden></p>
+        <label for="quality">Okuma çözünürlüğü</label>
+        <select id="quality">
+          <option value="540">540p</option>
+          <option value="720">720p</option>
+        </select>
+        <div class="actions">
+          <button id="start" class="primary" type="submit">Altyazıyı dene</button>
+        </div>
+        <div id="subtitleOptions" class="actions" hidden>
+          <button id="editArea" type="button" disabled>Altyazı alanı</button>
+          <button id="editAppearance" type="button" disabled>Altyazı görünümü</button>
+          <button id="updatePack" type="button">Altyazı paketini güncelle</button>
+        </div>
+      </section>
+      <div class="actions setup-navigation">
+        <button id="previousStep" type="button">Geri</button>
+        <button id="nextStep" class="primary" type="button">İleri</button>
+        <button id="finishSetup" class="primary" type="button" hidden disabled>Kurulumu bitir</button>
+        <button id="close" type="button">Oyuna dön</button>
+      </div>
+    </form>
+    <p id="status" role="status" aria-live="polite">Ayarlar yükleniyor…</p>
+  </main>
+  <section id="regionEditor" aria-labelledby="regionTitle" tabindex="-1" hidden>
+    <div id="regionBox" aria-hidden="true"><span id="regionHandle" hidden></span></div>
+    <div id="regionPanel">
+      <h2 id="regionTitle">Altyazı alanını taşı</h2>
+      <p id="regionHelp">Yön tuşlarıyla kutuyu altyazının üzerine getir.</p>
+      <p id="regionPreview" aria-live="off">Metin aranıyor…</p>
+      <p id="regionError" role="alert" hidden></p>
+      <div class="actions">
+        <button id="regionAction" type="button">OK · Boyutlandır</button>
+        <button id="regionCancel" type="button">Geri · İptal</button>
+      </div>
+    </div>
+  </section>
+  <section id="appearanceEditor" aria-labelledby="appearanceTitle" hidden>
+    <h2 id="appearanceTitle">Altyazı görünümü</h2>
+    <button id="appearancePosition" class="appearanceChoice" type="button">
+      Konum <span id="appearancePositionValue">Alt orta</span>
+    </button>
+    <label for="appearanceOffset" class="appearanceLabel">
+      <span id="appearanceEdge">Alt kenardan mesafe</span><span id="appearanceOffsetValue">%5</span>
+    </label>
+    <input id="appearanceOffset" type="range" min="0" max="30" value="5">
+    <label for="appearanceSize" class="appearanceLabel">
+      Yazı boyutu <span id="appearanceSizeValue">38 px</span>
+    </label>
+    <input id="appearanceSize" type="range" min="24" max="64" value="38">
+    <button id="appearanceBackground" class="appearanceChoice" type="button" aria-pressed="true">
+      Siyah arka plan <span id="appearanceBackgroundValue" aria-hidden="true">Açık</span>
+    </button>
+    <label for="appearanceOpacity" class="appearanceLabel">
+      Arka plan opaklığı <span id="appearanceOpacityValue">%90</span>
+    </label>
+    <input id="appearanceOpacity" type="range" min="0" max="100" value="90">
+    <p id="appearanceError" role="alert" hidden></p>
+    <div class="actions">
+      <button id="saveAppearance" type="button">Kaydet</button>
+      <button id="cancelAppearance" type="button">İptal</button>
+    </div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>

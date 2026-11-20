@@ -1,0 +1,19 @@
+{
+  "id": "com.gtavi.turkce.altyazi",
+  "description": "Yerel PS5 altyazı servisi",
+  "services": [
+    {
+      "name": "com.gtavi.turkce.altyazi",
+      "commands": [
+        { "name": "settings" },
+        { "name": "completeSetup" },
+        { "name": "discover" },
+        { "name": "pair" },
+        { "name": "setRegion" },
+        { "name": "setAppearance" },
+        { "name": "updatePack" },
+        { "name": "start" }
+      ]
+    }
+  ]
+}
