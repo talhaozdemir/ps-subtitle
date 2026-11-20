@@ -1,16 +1,26 @@
 # GTA VI Türkçe Altyazı
 
-OLED55CX6LA ve webOS 5 hedeflenerek hazırlanmış ilk TV prototipi. Uygulama PS5’in HDMI görüntüsünü gösterir. TV içindeki Remote Play alıcısı İngilizce altyazıyı okur. Türkçe karşılığı uygulamaya gömülü paketten bulunur.
+OLED55CX6LA ve webOS 5 hedeflenerek hazırlanmış ilk TV prototipi. Uygulama PS5’in HDMI görüntüsünü gösterir. TV içindeki Remote Play alıcısı İngilizce altyazıyı okur. Türkçe karşılık için yerel paket ve isteğe bağlı Gemini veya OpenAI bağlantısı kullanılabilir.
 
 ## Kurulum
 
 1. LG Content Store’dan **Developer Mode** uygulamasını aç, LG geliştirici hesabıyla modu etkinleştir ve **Key Server**’ı aç.
-2. Bilgisayarda [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop) ile TV’yi ekle. TV’nin gösterdiği kodu kullanıp `com.gtavi.turkce_1.0.1_all.ipk` dosyasını kur.
+2. Bilgisayarda [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop) ile TV’yi ekle. TV’nin gösterdiği kodu kullanıp `com.gtavi.turkce_1.0.2_all.ipk` dosyasını kur.
 3. PS5’te ikinci bir PSN hesabıyla oturum aç. **Ayarlar → Sistem → Uzaktan Oynatma** bölümünde Uzaktan Oynatma’yı aç ve **Cihazı Bağla** ekranından 8 haneli kodu al.
 4. TV ile PS5’i aynı ev ağına bağla. LG uygulaması ilk açılışta **HDMI** sekmesini gösterir. TV tek bir girişi PS5 olarak tanıyorsa o port otomatik seçilir. Gerekirse portu elle seç ve **PS5** sekmesinde **PS5’i bul** düğmesine bas. Konsol listelenmezse IPv4 adresini elle gir. İkinci hesabın sayısal veya Base64 PSN hesap kimliğini ve ekrandaki kodu gir, ardından **PS5’i eşleştir** düğmesine bas. [PSN hesap kimliği arama sayfası](https://psn.flipscreen.games/)
 5. **Altyazı** adımında PS5’te ana hesabına dön, İngilizce oyun altyazısını aç ve **Altyazıyı dene** düğmesine bas. Bağlantı kurulunca **Kurulumu bitir** ile tamamla. Sonraki açılışlarda uygulama kayıtlı ayarlarla altyazıyı başlatır.
 
 Oyun sırasında ayarlara LG kumandasındaki **Geri** tuşuyla dönülür. İlk tarama çözünürlüğü 540p. Oyun yazısı okunamayacak kadar küçük kalırsa 720p denenebilir. Uygulama altyazı başlarken eşleştirilmiş PS5’i ağda arar ve IP adresi değişmişse yeni adresi kaydeder. PS5’i bulamazsa son kayıtlı adresi dener. Bu özellik eklenmeden önce eşleştirilen konsolları bir kez yeniden eşleştirerek otomatik adres güncellemesini etkinleştir.
+
+### iPhone veya bilgisayardan ayar girme
+
+1. TV’de **Başka cihazdan doldur** düğmesine bas. iPhone’da QR kodunu okut. Bilgisayarda TV’de gösterilen adresi aç ve 5 dakikalık kurulum kodunu gir.
+2. Tarayıcıda değiştirmek istediğin alanları seç. PS5 eşleştirme bilgileri, HDMI girişi, okuma çözünürlüğü, altyazı alanı ve görünümü ile çeviri ayarlarını birlikte veya ayrı ayrı gönderebilirsin. Gemini ve OpenAI anahtarları aynı gönderimde girilebilir. Boş bıraktığın isteğe bağlı alanlar kayıtlı değerlerini kullanır.
+3. **TV’ye gönder** düğmesine bas. TV’de gelen ayarları kontrol edip **Uygula**’yı seç.
+
+TV ile formu açan cihaz internete bağlı olduğu sürece farklı ağları kullanabilir. Tarayıcı veriyi şifreler ve Worker yalnızca şifreli paketi geçici olarak tutar. TV uyguladıktan sonra oturumu kapatır. PS5 eşleştirmesi için TV ile konsol aynı yerel ağda kalır.
+
+Kurulum formunu yayımlamak için repo kökündeki `setup-worker` klasöründen, `u-talha-o` alt alan adının sahibi olan Cloudflare hesabıyla `npx wrangler@4 deploy --no-bundle` çalıştırılır. Worker yapılandırması geçici oturum verileri için Durable Object bağını ve migrasyonu içerir. [Cloudflare Durable Objects](https://developers.cloudflare.com/durable-objects/get-started/)
 
 ### Altyazı alanı
 
@@ -31,6 +41,16 @@ Kumandanın yukarı ve aşağı tuşlarıyla ayar seç, sol ve sağ tuşlarıyla
 3. TV’de **Geri → Altyazı paketini güncelle** seçeneğine bas. Dosya doğrulanıp TV’ye kaydedilince yeni çeviriler mevcut oturumda devreye girer.
 
 Sonraki yayınlarda aynı `subtitle.json.gz` dosya adını kullan. Paket `gta-6` kimlikli CouchSubs biçim 2 olmalı. TV, GitHub’ın dosya boyutu ve SHA-256 bilgisini kontrol eder. Sorun olursa son çalışan kopya devrede kalır. Paket indirmek için internet bağlantısı gerekir.
+
+### Canlı çeviri
+
+1. Kullanacağın hizmetten bir API anahtarı oluştur. [Gemini API anahtarı](https://aistudio.google.com/apikey) · [OpenAI API anahtarı](https://platform.openai.com/api-keys)
+2. TV’de **Geri → Altyazı → Çeviri** ekranında **API sağlayıcısı** olarak Gemini veya OpenAI’yi seç ve anahtarını gir. **Bağlantıyı test et** düğmesi seçili sağlayıcıyla örnek bir replik çevirir.
+3. Çeviri kaynağını seç ve **Kaydet** düğmesine bas.
+
+**Paket öncelikli** mod eşleşen replikleri yerel paketten gösterir, diğerlerini seçili sağlayıcıya gönderir. Seçili sağlayıcının anahtarı yoksa bu mod yerel paketle çalışır. **Sadece API** modunda her yeni replik seçili sağlayıcıyla çevrilir. Tekrarlanan API çevirileri oturum boyunca TV’nin belleğinde tutulur.
+
+TV, OCR ile okuduğu altyazı metnini HTTPS üzerinden doğrudan seçili sağlayıcıya gönderir. Gemini, **Gemini 3.5 Flash-Lite** kullanır. OpenAI, **GPT‑6 Luna** modelini `reasoning.effort: none` ayarıyla kullanır. Anahtarlar TV’de ayrı ayrı saklanır. **Anahtarı kaldır → Kaydet** seçili sağlayıcının anahtarını siler ve yerel paket moduna döner.
 
 ## Prototip doğrulaması
 
@@ -62,4 +82,5 @@ python tv-app/tools/package.py --runtime /tmp/gtavi-runtime --pack dist/subtitle
 - Remote Play motoru [chiaki-ng](https://github.com/streetpea/chiaki-ng/tree/43728af2e639fecb8a7af1cd68c29820a40de973) üzerinden çalışır. Kod AGPL-3.0 lisanslıdır.
 - LG HDMI davranışı için [CouchSubs](https://github.com/yorulmazsinan/couchsubs/blob/main/tv-webos/platform.js) ve TV’de Remote Play için [Hotaru](https://github.com/renjfk/hotaru-webos) referans alındı.
 - Altyazı paketi CouchSubs kataloğundaki GTA VI v5 paketidir. Paketin kendi kaynak bilgisi arşivde durur.
+- Kurulum QR kodu MIT lisanslı [qrcode-generator 2.0.4](https://github.com/kazuhikoarase/qrcode-generator) ile çizilir.
 - ARM kütüphanelerinin lisans bildirimleri `runtime/licenses` altında paketlenir.

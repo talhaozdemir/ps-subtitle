@@ -58,6 +58,7 @@
         </select>
         <div class="actions">
           <button id="start" class="primary" type="submit">Altyazıyı dene</button>
+          <button id="editTranslation" type="button" disabled>Çeviri</button>
         </div>
         <div id="subtitleOptions" class="actions" hidden>
           <button id="editArea" type="button" disabled>Altyazı alanı</button>
@@ -69,6 +70,7 @@
         <button id="previousStep" type="button">Geri</button>
         <button id="nextStep" class="primary" type="button">İleri</button>
         <button id="finishSetup" class="primary" type="button" hidden disabled>Kurulumu bitir</button>
+        <button id="openRemoteSetup" type="button" disabled>Başka cihazdan doldur</button>
         <button id="close" type="button">Oyuna dön</button>
       </div>
     </form>
@@ -113,6 +115,40 @@
       <button id="cancelAppearance" type="button">İptal</button>
     </div>
   </section>
+  <section id="translationEditor" aria-labelledby="translationTitle" hidden>
+    <h2 id="translationTitle">Çeviri</h2>
+    <button id="translationMode" class="appearanceChoice" type="button">
+      Çeviri kaynağı <span id="translationModeValue">Paket öncelikli</span>
+    </button>
+    <button id="translationProvider" class="appearanceChoice" type="button">
+      API sağlayıcısı <span id="translationProviderValue">Gemini</span>
+    </button>
+    <label id="translationKeyLabel" for="translationKey">Gemini API anahtarı</label>
+    <input id="translationKey" type="password" maxlength="512"
+           autocomplete="off" autocapitalize="off" spellcheck="false">
+    <div class="actions">
+      <button id="testTranslation" type="button">Bağlantıyı test et</button>
+      <button id="removeTranslationKey" type="button" hidden>Anahtarı kaldır</button>
+      <button id="saveTranslation" class="primary" type="button">Kaydet</button>
+      <button id="cancelTranslation" type="button">İptal</button>
+    </div>
+    <p id="translationStatus" role="status" hidden></p>
+  </section>
+  <section id="remoteSetupEditor" aria-labelledby="remoteSetupTitle" hidden>
+    <h2 id="remoteSetupTitle">Başka cihazdan doldur</h2>
+    <div id="remoteSetupCodePanel" hidden>
+      <canvas id="remoteSetupQr" aria-label="Kurulum QR kodu" role="img"></canvas>
+      <p>iPhone’da QR kodu okut. Bilgisayarda aşağıdaki adresi aç ve kodu gir.</p>
+      <p><span id="remoteSetupAddress"></span><br><strong id="remoteSetupCode"></strong></p>
+    </div>
+    <p id="remoteSetupStatus" role="status"></p>
+    <div class="actions">
+      <button id="remoteSetupApply" class="primary" type="button" hidden>Uygula</button>
+      <button id="remoteSetupRetry" type="button" hidden>Yeni kod al</button>
+      <button id="remoteSetupCancel" type="button">Geri</button>
+    </div>
+  </section>
+  <script src="vendor/qrcode.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

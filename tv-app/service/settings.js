@@ -3,6 +3,8 @@
 const net = require('net');
 const defaultRegion = { x: 6, y: 77, width: 88, height: 23 };
 const defaultAppearance = { position: 'bottom', offset: 5, background: true, opacity: 90, fontSize: 38 };
+const translationProviderNames = { gemini: 'Gemini', openai: 'OpenAI' };
+const defaultTranslation = { mode: 'pack', provider: 'gemini', keys: { gemini: '', openai: '' } };
 
 function subtitleRegion(value) {
   if (!value || !['x', 'y', 'width', 'height'].every(function (key) { return Number.isInteger(value[key]); }) ||
@@ -60,6 +62,43 @@ function subtitleAppearance(value) {
     opacity: value.opacity, fontSize: value.fontSize };
 }
 
+function translationSettings(value, previous = defaultTranslation) {
+  if (value && value.provider === undefined && (value.apiKey === null || typeof value.apiKey === 'string')) {
+    value = { mode: value.mode, provider: 'gemini', keys: { gemini: value.apiKey } };
+  }
+  const providers = Object.keys(translationProviderNames);
+  if (!value || ['pack', 'api'].indexOf(value.mode) === -1 || providers.indexOf(value.provider) === -1 ||
+      !value.keys || typeof value.keys !== 'object' || Array.isArray(value.keys)) {
+    throw Error('Çeviri ayarları geçersiz.');
+  }
+  const keys = {};
+  for (const provider of providers) {
+    const entry = value.keys[provider];
+    const key = typeof entry === 'string' ? entry.trim() : '';
+    if ((entry !== undefined && entry !== null && typeof entry !== 'string') ||
+        (key && !/^[!-~]{1,512}$/.test(key))) {
+      throw Error(translationProviderNames[provider] + ' API anahtarını boşluksuz gir.');
+    }
+    keys[provider] = entry === null ? '' : key || previous.keys[provider];
+  }
+  if (value.mode === 'api' && !keys[value.provider]) {
+    throw Error('Önce ' + translationProviderNames[value.provider] + ' API anahtarını gir.');
+  }
+  return { mode: value.mode, provider: value.provider, keys: keys };
+}
+
+function savedTranslation(saved) {
+  if (saved.translation) {
+    try { return translationSettings(saved.translation); } catch (error) {}
+  }
+  return defaultTranslation;
+}
+
+function publicTranslation(config) {
+  return { mode: config.mode, provider: config.provider,
+    hasKeys: { gemini: Boolean(config.keys.gemini), openai: Boolean(config.keys.openai) } };
+}
+
 function publicSettings(saved) {
   const paired = Boolean(saved.registKey && saved.rpKey);
   let appearance = defaultAppearance;
@@ -69,7 +108,8 @@ function publicSettings(saved) {
   }
   return { address: saved.address || '', port: saved.port || 1, quality: saved.quality || 540,
     paired: paired, setupComplete: paired && saved.setupComplete !== false, consoleId: consoleId(saved.consoleId),
-    region: saved.region || defaultRegion, appearance: appearance };
+    region: saved.region || defaultRegion, appearance: appearance, translation: publicTranslation(savedTranslation(saved)) };
 }
 
-module.exports = { accountBytes, settings, publicSettings, subtitleRegion, subtitleAppearance, consoleId };
+module.exports = { accountBytes, settings, publicSettings, subtitleRegion, subtitleAppearance, consoleId,
+  translationSettings, savedTranslation, publicTranslation, translationProviderNames };

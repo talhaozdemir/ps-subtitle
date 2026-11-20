@@ -11,7 +11,7 @@ body { margin: 0; background: transparent; overflow: hidden; }
 body.browser-preview { background: #141014; }
 #hdmi { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; border: 0; }
 
-#settings, #appearanceEditor {
+#settings, #appearanceEditor, #translationEditor, #remoteSetupEditor {
   position: fixed;
   left: 5vw;
   max-height: 84vh;
@@ -160,7 +160,7 @@ button:disabled { opacity: 0.47; }
 #regionPreview { color: #fff3a8; white-space: pre-line; overflow-wrap: break-word; }
 #regionError { color: #ffae9b; }
 
-#appearanceEditor {
+#appearanceEditor, #translationEditor {
   top: 50%;
   transform: translateY(-50%);
   width: 30vw;
@@ -169,7 +169,7 @@ button:disabled { opacity: 0.47; }
   padding: 24px 28px;
 }
 
-#appearanceEditor h2 { margin: 0 0 16px; font-size: 28px; }
+#appearanceEditor h2, #translationEditor h2 { margin: 0 0 16px; font-size: 28px; }
 .appearanceChoice, .appearanceLabel { display: flex; justify-content: space-between; }
 .appearanceChoice { width: 100%; margin: 0; }
 .appearanceChoice span, .appearanceLabel span:last-child { color: #fff3a8; }
@@ -179,3 +179,24 @@ button:disabled { opacity: 0.47; }
 #appearanceEditor .actions button { margin-bottom: 0; }
 #saveAppearance { background: #ffbcae; color: #271b21; border-color: #ffbcae; }
 #appearanceError { color: #ffae9b; }
+#translationEditor { width: 36vw; max-width: 580px; }
+#translationProvider { margin-top: 10px; }
+#translationStatus { margin: 6px 0 0; font-size: 18px; overflow-wrap: break-word; }
+#translationStatus[data-error="true"] { color: #ffae9b; }
+#remoteSetupEditor {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 46vw;
+  min-width: 420px;
+  max-width: 620px;
+  padding: 24px 28px;
+}
+#remoteSetupEditor h2 { margin: 0 0 16px; font-size: 28px; }
+#remoteSetupEditor p { margin: 10px 0; font-size: 18px; line-height: 1.45; white-space: pre-line; }
+#remoteSetupEditor .actions { margin-top: 14px; }
+#remoteSetupQr { display: block; width: 29vh; max-width: 260px; height: auto; image-rendering: pixelated; }
+#remoteSetupCode { font-family: monospace; overflow-wrap: break-word; }
+#remoteSetupStatus[data-error="true"] { color: #ffae9b; }
+@media (max-width: 460px) {
+  #translationEditor, #remoteSetupEditor { width: 90vw; min-width: 0; padding: 22px; }
+}

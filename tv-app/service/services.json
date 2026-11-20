@@ -11,6 +11,10 @@
         { "name": "pair" },
         { "name": "setRegion" },
         { "name": "setAppearance" },
+        { "name": "setTranslation" },
+        { "name": "testTranslation" },
+        { "name": "startRemoteSetup" },
+        { "name": "applyRemoteSetup" },
         { "name": "updatePack" },
         { "name": "start" }
       ]

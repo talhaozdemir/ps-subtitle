@@ -16,6 +16,9 @@
   var regionRevision = 0;
   var appearanceDraft;
   var appearanceSaving = false;
+  var translationDraft;
+  var translationBusy = false;
+  var remoteSetupDraft;
   var setupStep = 0;
   var setupSaving = false;
 
@@ -28,12 +31,18 @@
     'appearanceBackground', 'appearanceBackgroundValue', 'appearanceOpacity', 'appearanceOpacityValue',
     'appearanceError', 'saveAppearance', 'cancelAppearance', 'tabHdmi', 'tabPs5',
     'tabSubtitle', 'stepHdmi', 'stepPs5', 'stepSubtitle', 'trialHelp', 'subtitleOptions', 'previousStep',
-    'nextStep', 'finishSetup']
+    'nextStep', 'finishSetup', 'editTranslation', 'translationEditor', 'translationMode', 'translationModeValue',
+    'translationProvider', 'translationProviderValue', 'translationKeyLabel', 'translationKey', 'testTranslation',
+    'removeTranslationKey', 'saveTranslation', 'cancelTranslation', 'translationStatus',
+    'openRemoteSetup', 'remoteSetupEditor', 'remoteSetupCodePanel', 'remoteSetupQr', 'remoteSetupAddress',
+    'remoteSetupCode', 'remoteSetupStatus', 'remoteSetupApply', 'remoteSetupRetry', 'remoteSetupCancel']
     .forEach(function (id) { view[id] = document.getElementById(id); });
   var setupTabs = [view.tabHdmi, view.tabPs5, view.tabSubtitle];
   var setupPanels = [view.stepHdmi, view.stepPs5, view.stepSubtitle];
   var appearanceControls = [view.appearancePosition, view.appearanceOffset, view.appearanceSize,
     view.appearanceBackground, view.appearanceOpacity, view.saveAppearance, view.cancelAppearance];
+  var translationControls = [view.translationMode, view.translationProvider, view.translationKey, view.testTranslation,
+    view.removeTranslationKey, view.saveTranslation, view.cancelTranslation];
 
   function call(method, parameters, success, failure) {
     return callLuna(service + method, parameters, success, failure);
@@ -137,6 +146,8 @@
     view.pair.disabled = pending;
     view.editArea.disabled = pending || !saved.region;
     view.editAppearance.disabled = pending || !saved.appearance;
+    view.editTranslation.disabled = pending || !saved.translation;
+    view.openRemoteSetup.disabled = pending || setupSaving || !saved.translation;
     view.previousStep.hidden = complete || setupStep === 0;
     view.previousStep.disabled = pending || setupSaving;
     view.nextStep.hidden = complete || setupStep === 2;
@@ -369,6 +380,212 @@
     });
   }
 
+  function translationStatus(text, error) {
+    view.translationStatus.textContent = text;
+    view.translationStatus.hidden = !text;
+    view.translationStatus.dataset.error = String(Boolean(error));
+  }
+
+  function drawTranslationEditor() {
+    var provider = translationDraft.provider;
+    var label = provider === 'openai' ? 'OpenAI' : 'Gemini';
+    view.translationModeValue.textContent = translationDraft.mode === 'api' ? 'Sadece API' : 'Paket öncelikli';
+    view.translationProviderValue.textContent = label;
+    view.translationKeyLabel.textContent = label + ' API anahtarı';
+    var hasKey = saved.translation.hasKeys[provider] && translationDraft.keys[provider] !== null;
+    view.translationKey.placeholder = hasKey ? 'Kayıtlı anahtar kullanılıyor' : '';
+    view.removeTranslationKey.hidden = !hasKey;
+    translationControls.forEach(function (control) { control.disabled = translationBusy; });
+  }
+
+  function openTranslationEditor() {
+    translationDraft = { mode: saved.translation.mode, provider: saved.translation.provider, keys: {} };
+    view.translationKey.value = '';
+    translationStatus('');
+    drawTranslationEditor();
+    view.settings.hidden = true;
+    view.notice.hidden = true;
+    subtitle('');
+    view.translationEditor.hidden = false;
+    view.translationMode.focus();
+  }
+
+  function closeTranslationEditor() {
+    translationDraft = null;
+    view.translationEditor.hidden = true;
+    view.translationKey.value = '';
+    showSettings(view.editTranslation);
+  }
+
+  function rememberTranslationKey() {
+    var provider = translationDraft.provider;
+    var key = view.translationKey.value.trim();
+    if (key || translationDraft.keys[provider] !== null) translationDraft.keys[provider] = key;
+  }
+
+  function submitTranslation(test) {
+    if (translationBusy) return;
+    var button = test ? view.testTranslation : view.saveTranslation;
+    rememberTranslationKey();
+    var draft = translationDraft;
+    if (test) {
+      draft = { mode: draft.mode, provider: draft.provider, keys: {} };
+      draft.keys[draft.provider] = translationDraft.keys[draft.provider];
+    }
+    translationBusy = true;
+    drawTranslationEditor();
+    translationStatus(test ? 'Örnek replik çevriliyor…' : 'Kaydediliyor…');
+    function finish() {
+      translationBusy = false;
+      drawTranslationEditor();
+      button.focus();
+    }
+    call(test ? 'testTranslation' : 'setTranslation', draft, function (response) {
+      finish();
+      if (test) translationStatus('Bağlantı başarılı · ' + response.text);
+      else {
+        saved.translation = response.translation;
+        closeTranslationEditor();
+        status('Çeviri ayarları kaydedildi.');
+      }
+    }, function (error) {
+      finish();
+      translationStatus(error, true);
+    });
+  }
+
+  function remoteSetupStatus(text, error) {
+    view.remoteSetupStatus.textContent = text;
+    view.remoteSetupStatus.dataset.error = String(Boolean(error));
+  }
+
+  function drawSetupQr(link) {
+    var qr = window.qrcode(0, 'M');
+    qr.addData(link);
+    qr.make();
+    var canvas = view.remoteSetupQr;
+    var modules = qr.getModuleCount();
+    var pixel = 5;
+    var size = (modules + 8) * pixel;
+    canvas.width = canvas.height = size;
+    var context = canvas.getContext('2d');
+    context.fillStyle = '#fff';
+    context.fillRect(0, 0, size, size);
+    context.fillStyle = '#000';
+    for (var row = 0; row < modules; row++) {
+      for (var col = 0; col < modules; col++) {
+        if (qr.isDark(row, col)) context.fillRect((col + 4) * pixel, (row + 4) * pixel, pixel, pixel);
+      }
+    }
+  }
+
+  function beginRemoteSetup() {
+    if (remoteSetupDraft && remoteSetupDraft.bridge) remoteSetupDraft.bridge.cancel();
+    var draft = { bridge: null, summary: null, applying: false };
+    remoteSetupDraft = draft;
+    view.settings.hidden = true;
+    view.notice.hidden = true;
+    subtitle('');
+    view.remoteSetupEditor.hidden = false;
+    view.remoteSetupCodePanel.hidden = true;
+    view.remoteSetupApply.hidden = view.remoteSetupRetry.hidden = true;
+    remoteSetupStatus('Kurulum bağlantısı açılıyor…');
+    view.remoteSetupCancel.focus();
+    draft.bridge = call('startRemoteSetup', { subscribe: true }, function (message) {
+      if (remoteSetupDraft !== draft) return;
+      if (message.type === 'waiting') {
+        drawSetupQr(message.link);
+        view.remoteSetupAddress.textContent = message.address;
+        view.remoteSetupCode.textContent = message.code.toUpperCase().match(/.{4}/g).join(' ');
+        view.remoteSetupCodePanel.hidden = false;
+        remoteSetupStatus('Kod 5 dakika geçerli.');
+      }
+      if (message.type === 'received') {
+        draft.summary = message.summary;
+        var labels = [];
+        if (draft.summary.ps5) labels.push('PS5 · ' + draft.summary.ps5.address + ' · HDMI ' + draft.summary.ps5.port);
+        if (draft.summary.translation) labels.push(draft.summary.translation.provider + ' · ' +
+          (draft.summary.translation.mode === 'api' ? 'Sadece API' : 'Paket öncelikli'));
+        if (draft.summary.translation && draft.summary.translation.keys) {
+          labels.push('API anahtarları · ' + draft.summary.translation.keys.join(', '));
+        }
+        var video = draft.summary.video;
+        if (video) {
+          if (video.port && !draft.summary.ps5) labels.push('HDMI ' + video.port);
+          if (video.quality) labels.push('Okuma çözünürlüğü · ' + video.quality + 'p');
+          if (video.region) labels.push('Altyazı alanı · ' + video.region.width + ' × ' + video.region.height + '%');
+          if (video.appearance) labels.push('Altyazı görünümü · ' +
+            (video.appearance.position === 'top' ? 'Üst orta' : 'Alt orta') + ' · ' + video.appearance.fontSize + ' px');
+        }
+        view.remoteSetupCodePanel.hidden = true;
+        view.remoteSetupApply.hidden = false;
+        remoteSetupStatus('Ayarlar ulaştı.\n' + labels.join('\n'));
+        view.remoteSetupApply.focus();
+      }
+    }, function (error) {
+      if (remoteSetupDraft !== draft) return;
+      draft.summary = null;
+      view.remoteSetupCodePanel.hidden = view.remoteSetupApply.hidden = true;
+      view.remoteSetupRetry.hidden = false;
+      remoteSetupStatus(error, true);
+      view.remoteSetupRetry.focus();
+    });
+  }
+
+  function closeRemoteSetup() {
+    var draft = remoteSetupDraft;
+    if (!draft || draft.applying) return;
+    remoteSetupDraft = null;
+    if (draft.bridge) draft.bridge.cancel();
+    view.remoteSetupEditor.hidden = true;
+    view.remoteSetupCode.textContent = '';
+    view.remoteSetupQr.width = view.remoteSetupQr.width;
+    showSettings(view.openRemoteSetup);
+  }
+
+  function applyRemoteSetup() {
+    var draft = remoteSetupDraft;
+    if (!draft || !draft.summary || draft.applying) return;
+    draft.applying = true;
+    if (draft.summary.ps5) stop();
+    view.remoteSetupApply.disabled = view.remoteSetupCancel.disabled = true;
+    remoteSetupStatus(draft.summary.ps5 ? 'PS5 eşleştiriliyor…' : 'Ayarlar kaydediliyor…');
+    function finish() {
+      draft.applying = false;
+      view.remoteSetupApply.disabled = view.remoteSetupCancel.disabled = false;
+    }
+    call('applyRemoteSetup', {}, function (response) {
+      finish();
+      saved = response.settings;
+      var video = draft.summary.video || {};
+      if (response.pairedNow) {
+        selectedConsoleId = '';
+        view.address.value = saved.address;
+        view.pin.value = view.account.value = '';
+        clearConsoleList();
+      }
+      if (response.pairedNow || video.port) {
+        manualHdmi = true;
+        view.port.value = saved.port;
+        showHdmi(saved.port);
+      }
+      if (response.pairedNow || video.quality) view.quality.value = saved.quality;
+      if (response.pairedNow || video.appearance) applyAppearance(saved.appearance);
+      closeRemoteSetup();
+      updateButtons();
+      if (response.pairedNow) showStep(2, true);
+      else if (session && (video.quality || video.region)) {
+        start({ port: saved.port, address: saved.address, quality: saved.quality });
+      }
+      status('Ayarlar kaydedildi.');
+    }, function (error) {
+      finish();
+      view.remoteSetupRetry.hidden = false;
+      remoteSetupStatus(error, true);
+      view.remoteSetupRetry.focus();
+    });
+  }
+
   function stop() {
     sessionNumber++;
     if (session) session.cancel();
@@ -379,9 +596,9 @@
     if (edit) view.regionPreview.textContent = 'Canlı önizleme için altyazıyı başlat.';
   }
 
-  function start() {
+  function start(requested) {
     stop();
-    var settings = values();
+    var settings = requested || values();
     var formAddress = settings.address;
     settings.consoleId = saved.consoleId;
     var ticket = sessionNumber;
@@ -410,6 +627,7 @@
         view.regionPreview.textContent = text ? 'Okunan metin · ' + text : 'Bu alanda metin okunamadı.';
       }
       if (message.type === 'subtitle' && !edit) subtitle(message.text);
+      if (message.type === 'translationError' && view.translationEditor.hidden) status(message.text, true);
       if (message.type === 'ended') {
         stop();
         if (edit) regionError(message.text);
@@ -571,6 +789,33 @@
     });
   view.saveAppearance.addEventListener('click', saveAppearance);
   view.cancelAppearance.addEventListener('click', closeAppearanceEditor);
+  view.editTranslation.addEventListener('click', openTranslationEditor);
+  view.translationMode.addEventListener('click', function () {
+    translationDraft.mode = translationDraft.mode === 'api' ? 'pack' : 'api';
+    drawTranslationEditor();
+  });
+  view.translationProvider.addEventListener('click', function () {
+    rememberTranslationKey();
+    translationDraft.provider = translationDraft.provider === 'gemini' ? 'openai' : 'gemini';
+    view.translationKey.value = translationDraft.keys[translationDraft.provider] || '';
+    drawTranslationEditor();
+    translationStatus('');
+  });
+  view.removeTranslationKey.addEventListener('click', function () {
+    translationDraft.keys[translationDraft.provider] = null;
+    translationDraft.mode = 'pack';
+    view.translationKey.value = '';
+    drawTranslationEditor();
+    view.translationKey.focus();
+    translationStatus('Anahtar kaydedince kaldırılacak.');
+  });
+  view.testTranslation.addEventListener('click', function () { submitTranslation(true); });
+  view.saveTranslation.addEventListener('click', function () { submitTranslation(false); });
+  view.cancelTranslation.addEventListener('click', closeTranslationEditor);
+  view.openRemoteSetup.addEventListener('click', beginRemoteSetup);
+  view.remoteSetupApply.addEventListener('click', applyRemoteSetup);
+  view.remoteSetupRetry.addEventListener('click', beginRemoteSetup);
+  view.remoteSetupCancel.addEventListener('click', closeRemoteSetup);
   view.updatePack.addEventListener('click', function () {
     if (view.updatePack.disabled) return;
     view.updatePack.disabled = true;
@@ -607,6 +852,35 @@
   });
 
   document.addEventListener('keydown', function (event) {
+    if (remoteSetupDraft) {
+      if (event.keyCode === 461 || event.keyCode === 27) {
+        event.preventDefault();
+        if (!event.repeat) closeRemoteSetup();
+      } else if (event.keyCode >= 37 && event.keyCode <= 40) {
+        event.preventDefault();
+        if (remoteSetupDraft.applying) return;
+        var remoteControls = [view.remoteSetupApply, view.remoteSetupRetry, view.remoteSetupCancel]
+          .filter(function (control) { return !control.hidden; });
+        var remoteIndex = remoteControls.indexOf(document.activeElement);
+        remoteControls[clamp(remoteIndex + (event.keyCode === 37 || event.keyCode === 38 ? -1 : 1),
+          0, remoteControls.length - 1)].focus();
+      }
+      return;
+    }
+    if (!view.translationEditor.hidden) {
+      if (event.keyCode === 461 || event.keyCode === 27) {
+        if (event.target === view.translationKey) return;
+        event.preventDefault();
+        if (!translationBusy && !event.repeat) closeTranslationEditor();
+      } else if (event.keyCode === 38 || event.keyCode === 40) {
+        event.preventDefault();
+        if (translationBusy) return;
+        var translationFields = translationControls.filter(function (control) { return !control.hidden; });
+        var translationIndex = translationFields.indexOf(document.activeElement);
+        translationFields[clamp(translationIndex + (event.keyCode === 40 ? 1 : -1), 0, translationFields.length - 1)].focus();
+      }
+      return;
+    }
     if (appearanceDraft) {
       if (event.keyCode === 461 || event.keyCode === 27) {
         event.preventDefault();
@@ -661,7 +935,10 @@
   });
 
   document.addEventListener('visibilitychange', function () {
-    if (document.hidden) stop();
+    if (document.hidden) {
+      if (remoteSetupDraft) closeRemoteSetup();
+      stop();
+    }
     else if (saved.setupComplete && isPaired() && view.settings.hidden) start();
   });
   window.addEventListener('unload', stop);

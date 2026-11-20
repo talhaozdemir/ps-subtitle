@@ -179,7 +179,7 @@ function createPackStore(directory, bundledPath) {
 
   return {
     load: load,
-    match: function (text, confidence) { return current.match(text, confidence); },
+    match: function (text, confidence) { return current ? current.match(text, confidence) : ''; },
     update: function () {
       if (!updating) {
         updating = replace().then(function (result) { updating = null; return result; },

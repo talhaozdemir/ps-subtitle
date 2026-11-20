@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PS Altyazı · TV kurulumu</title>
+  <link rel="stylesheet" href="/setup.css">
+  <script src="/setup.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>TV kurulumu</h1>
+    <form id="setup">
+      <div id="codeRow">
+        <label for="code">TV’deki kurulum kodu</label>
+        <input id="code" maxlength="40" autocomplete="off" autocapitalize="off" spellcheck="false" required>
+      </div>
+      <label class="toggle"><input id="includePs5" type="checkbox"> PS5 eşleştirme bilgileri</label>
+      <fieldset id="ps5" disabled hidden>
+        <legend>PS5 eşleştirme</legend>
+        <label for="address">PS5 IP adresi</label>
+        <input id="address" placeholder="192.168.1.50" maxlength="15" autocomplete="off" required>
+        <label for="account">İkinci hesabın PSN kimliği (sayı veya Base64)</label>
+        <input id="account" maxlength="20" autocomplete="off" autocapitalize="off" spellcheck="false" required>
+        <label for="pin">8 haneli eşleştirme kodu</label>
+        <input id="pin" inputmode="numeric" maxlength="9" autocomplete="off" required>
+      </fieldset>
+      <label class="toggle"><input id="includeTranslation" type="checkbox"> Çeviri ayarları</label>
+      <fieldset id="translation" disabled hidden>
+        <legend>Çeviri ayarları</legend>
+        <label for="mode">Çeviri kaynağı</label>
+        <select id="mode">
+          <option value="">Kayıtlı seçim</option>
+          <option value="pack">Paket öncelikli</option><option value="api">Sadece API</option>
+        </select>
+        <label for="provider">API sağlayıcısı</label>
+        <select id="provider">
+          <option value="">Kayıtlı seçim</option>
+          <option value="gemini">Gemini</option><option value="openai">OpenAI</option>
+        </select>
+        <label for="geminiKey">Gemini API anahtarı</label>
+        <input type="password" id="geminiKey" maxlength="512" autocomplete="off" autocapitalize="off" spellcheck="false">
+        <label for="openaiKey">OpenAI API anahtarı</label>
+        <input type="password" id="openaiKey" maxlength="512" autocomplete="off" autocapitalize="off" spellcheck="false">
+        <p class="hint">Kayıtlı anahtarları kullanmak için alanları boş bırak.</p>
+      </fieldset>
+      <label class="toggle"><input id="includeVideo" type="checkbox"> Görüntü ve altyazı ayarları</label>
+      <fieldset id="video" disabled hidden>
+        <legend>Görüntü ve altyazı</legend>
+        <p class="hint">Yalnızca değiştirmek istediğin alanları doldur.</p>
+        <div class="field-grid">
+          <label>HDMI girişi
+            <select id="port">
+              <option value="">Kayıtlı giriş</option>
+              <option value="1">HDMI 1</option><option value="2">HDMI 2</option>
+              <option value="3">HDMI 3</option><option value="4">HDMI 4</option>
+            </select>
+          </label>
+          <label>Okuma çözünürlüğü
+            <select id="quality">
+              <option value="">Kayıtlı çözünürlük</option>
+              <option value="540">540p</option><option value="720">720p</option>
+            </select>
+          </label>
+        </div>
+        <fieldset class="subgroup">
+          <legend>Altyazı okuma alanı</legend>
+          <div class="field-grid">
+            <label>Soldan (%)<input id="regionX" type="number" min="0" max="90" inputmode="numeric"></label>
+            <label>Üstten (%)<input id="regionY" type="number" min="0" max="95" inputmode="numeric"></label>
+            <label>Genişlik (%)<input id="regionWidth" type="number" min="10" max="100" inputmode="numeric"></label>
+            <label>Yükseklik (%)<input id="regionHeight" type="number" min="5" max="100" inputmode="numeric"></label>
+          </div>
+        </fieldset>
+        <fieldset class="subgroup">
+          <legend>Altyazı görünümü</legend>
+          <div class="field-grid">
+            <label>Konum
+              <select id="position">
+                <option value="">Kayıtlı konum</option>
+                <option value="bottom">Alt orta</option><option value="top">Üst orta</option>
+              </select>
+            </label>
+            <label>Kenar mesafesi (%)<input id="offset" type="number" min="0" max="30" inputmode="numeric"></label>
+            <label>Yazı boyutu (px)<input id="fontSize" type="number" min="24" max="64" inputmode="numeric"></label>
+            <label>Siyah arka plan
+              <select id="background">
+                <option value="">Kayıtlı seçim</option>
+                <option value="on">Açık</option><option value="off">Kapalı</option>
+              </select>
+            </label>
+            <label>Arka plan opaklığı (%)<input id="opacity" type="number" min="0" max="100" inputmode="numeric"></label>
+          </div>
+        </fieldset>
+      </fieldset>
+      <button id="send" type="submit">TV’ye gönder</button>
+    </form>
+    <p id="status" role="status" hidden></p>
+  </main>
+</body>
+</html>
