@@ -3,6 +3,7 @@
 const net = require('net');
 const defaultRegion = { x: 6, y: 77, width: 88, height: 23 };
 const defaultAppearance = { position: 'bottom', offset: 5, background: true, opacity: 90, fontSize: 38 };
+const supportedQualities = [360, 540, 720, 1080];
 const translationProviderNames = { gemini: 'Gemini', openai: 'OpenAI' };
 const defaultTranslation = { mode: 'pack', provider: 'gemini', keys: { gemini: '', openai: '' } };
 
@@ -39,10 +40,14 @@ function accountBytes(value) {
   throw Error('Geçerli bir sayısal veya Base64 PSN hesap kimliği gir.');
 }
 
+function captureQuality(value) {
+  return supportedQualities.indexOf(value) !== -1 ? value : 540;
+}
+
 function settings(payload) {
   if (!net.isIPv4(payload.address)) throw Error('Geçerli bir PS5 IPv4 adresi gir.');
   if ([1, 2, 3, 4].indexOf(payload.port) === -1) throw Error('PS5’in HDMI girişini seç.');
-  return { address: payload.address, port: payload.port, quality: payload.quality === 720 ? 720 : 540 };
+  return { address: payload.address, port: payload.port, quality: captureQuality(payload.quality) };
 }
 
 function consoleId(value) {
@@ -106,10 +111,10 @@ function publicSettings(saved) {
     try { appearance = subtitleAppearance(saved.appearance); }
     catch (error) { /* Use the defaults when stored values are invalid. */ }
   }
-  return { address: saved.address || '', port: saved.port || 1, quality: saved.quality || 540,
+  return { address: saved.address || '', port: saved.port || 1, quality: captureQuality(saved.quality),
     paired: paired, setupComplete: paired && saved.setupComplete !== false, consoleId: consoleId(saved.consoleId),
     region: saved.region || defaultRegion, appearance: appearance, translation: publicTranslation(savedTranslation(saved)) };
 }
 
 module.exports = { accountBytes, settings, publicSettings, subtitleRegion, subtitleAppearance, consoleId,
-  translationSettings, savedTranslation, publicTranslation, translationProviderNames };
+  translationSettings, savedTranslation, publicTranslation, translationProviderNames, supportedQualities };

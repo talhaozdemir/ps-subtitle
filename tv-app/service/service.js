@@ -8,7 +8,7 @@ const path = require('path');
 const readline = require('readline');
 const { createPackStore } = require('./pack');
 const { accountBytes, settings, publicSettings, subtitleRegion, subtitleAppearance, consoleId,
-  translationSettings, savedTranslation, publicTranslation, translationProviderNames } = require('./settings');
+  translationSettings, savedTranslation, publicTranslation, translationProviderNames, supportedQualities } = require('./settings');
 const { createSubtitleFeed, requestTranslation, testLine } = require('./translation');
 const { createRemoteTransfer } = require('./remote-setup');
 
@@ -279,7 +279,7 @@ function remoteSettings(draft, saved) {
       changes.port = video.port;
     }
     if (video.quality !== undefined) {
-      if ([540, 720].indexOf(video.quality) === -1) throw Error('Geçerli bir okuma çözünürlüğü seç.');
+      if (supportedQualities.indexOf(video.quality) === -1) throw Error('Geçerli bir okuma çözünürlüğü seç.');
       changes.quality = video.quality;
     }
     if (video.region !== undefined) changes.region = mergedSetting(previous.region, video.region, subtitleRegion);

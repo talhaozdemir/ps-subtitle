@@ -25,7 +25,7 @@
 #include <tesseract/capi.h>
 #include <wels/codec_api.h>
 
-enum { QUEUE_SIZE = 12, MAX_WIDTH = 1280, MAX_HEIGHT = 720, MAX_PIXELS = MAX_WIDTH * MAX_HEIGHT };
+enum { QUEUE_SIZE = 12, MAX_WIDTH = 1920, MAX_HEIGHT = 1080 };
 
 struct region {
     int x;
@@ -43,7 +43,8 @@ struct packet {
 };
 
 struct crop {
-    uint8_t pixels[MAX_PIXELS];
+    uint8_t *pixels;
+    size_t capacity;
     int width;
     int height;
     int revision;
@@ -321,8 +322,20 @@ static void publish_crop(struct engine *engine, const uint8_t *luma, const SBuff
     int bottom = frame_height - frame_height * (100 - region.y - region.height) / 100;
     int width = right - left;
     int height = bottom - top;
+    size_t size = (size_t)width * (size_t)height;
+    if (size > engine->crop.capacity) {
+        uint8_t *pixels = realloc(engine->crop.pixels, size);
+        if (!pixels) {
+            atomic_store(&engine->done, true);
+            pthread_mutex_unlock(&engine->mutex);
+            message("error", "TV altyazı alanı için yeterli bellek ayıramadı.");
+            return;
+        }
+        engine->crop.pixels = pixels;
+        engine->crop.capacity = size;
+    }
     for (int row = 0; row < height; row++)
-        memcpy(engine->crop.pixels + row * width, luma + (top + row) * stride + left, (size_t)width);
+        memcpy(engine->crop.pixels + row * width, luma + (size_t)(top + row) * stride + left, (size_t)width);
     engine->crop.width = width;
     engine->crop.height = height;
     engine->crop.revision = region.revision;
@@ -390,13 +403,7 @@ static void report_ocr(const char *text, int confidence, int revision) {
 
 static void *read_subtitles(void *context) {
     struct engine *engine = context;
-    struct crop *crop = malloc(sizeof(*crop));
-    uint8_t *mask = malloc(MAX_PIXELS);
-    uint8_t *previous = malloc(MAX_PIXELS);
-    if (!crop || !mask || !previous) {
-        message("error", "TV altyazı okumak için yeterli bellek ayıramadı.");
-        atomic_store(&engine->done, true);
-    }
+    struct crop crop = { 0 };
     size_t previous_size = 0;
     int previous_width = 0;
     int previous_revision = -1;
@@ -410,33 +417,46 @@ static void *read_subtitles(void *context) {
             pthread_mutex_unlock(&engine->mutex);
             break;
         }
-        crop->width = engine->crop.width;
-        crop->height = engine->crop.height;
-        crop->revision = engine->crop.revision;
-        size_t size = (size_t)crop->width * (size_t)crop->height;
-        memcpy(crop->pixels, engine->crop.pixels, size);
+        crop.width = engine->crop.width;
+        crop.height = engine->crop.height;
+        crop.revision = engine->crop.revision;
+        size_t size = (size_t)crop.width * (size_t)crop.height;
+        if (size > crop.capacity) {
+            uint8_t *buffers = realloc(crop.pixels, size * 3);
+            if (!buffers) {
+                atomic_store(&engine->done, true);
+                pthread_mutex_unlock(&engine->mutex);
+                message("error", "TV altyazı okumak için yeterli bellek ayıramadı.");
+                break;
+            }
+            crop.pixels = buffers;
+            crop.capacity = size;
+            previous_size = 0;
+        }
+        memcpy(crop.pixels, engine->crop.pixels, size);
         engine->has_crop = false;
         pthread_mutex_unlock(&engine->mutex);
 
-        build_mask(crop, mask);
-        if (previous_revision != crop->revision || previous_size != size || previous_width != crop->width ||
+        // Keep the cropped image and both masks in one allocation sized to the largest crop received.
+        uint8_t *mask = crop.pixels + crop.capacity;
+        uint8_t *previous = mask + crop.capacity;
+        build_mask(&crop, mask);
+        if (previous_revision != crop.revision || previous_size != size || previous_width != crop.width ||
             !same_text_mask(mask, previous, size)) {
             memcpy(previous, mask, size);
             previous_size = size;
-            previous_width = crop->width;
-            previous_revision = crop->revision;
+            previous_width = crop.width;
+            previous_revision = crop.revision;
             if (text) TessDeleteText(text);
-            TessBaseAPISetImage(engine->ocr, mask, crop->width, crop->height, 1, crop->width);
+            TessBaseAPISetImage(engine->ocr, mask, crop.width, crop.height, 1, crop.width);
             TessBaseAPISetSourceResolution(engine->ocr, 150);
             text = TessBaseAPIGetUTF8Text(engine->ocr);
             confidence = text ? TessBaseAPIMeanTextConf(engine->ocr) : 0;
         }
-        report_ocr(text, confidence, crop->revision);
+        report_ocr(text, confidence, crop.revision);
     }
     if (text) TessDeleteText(text);
-    free(previous);
-    free(mask);
-    free(crop);
+    free(crop.pixels);
     return NULL;
 }
 
@@ -465,10 +485,13 @@ static int stream_console(struct engine *engine, struct json_object *input, cons
         return 1;
     }
     from_hex(field(input, "account"), info.psn_account_id, sizeof(info.psn_account_id));
-    struct json_object *quality;
-    int height = json_object_object_get_ex(input, "quality", &quality) ? json_object_get_int(quality) : 540;
-    ChiakiVideoResolutionPreset resolution = height == 720
-        ? CHIAKI_VIDEO_RESOLUTION_PRESET_720p : CHIAKI_VIDEO_RESOLUTION_PRESET_540p;
+    ChiakiVideoResolutionPreset resolution;
+    switch (nonnegative_int(input, "quality")) {
+    case 360: resolution = CHIAKI_VIDEO_RESOLUTION_PRESET_360p; break;
+    case 720: resolution = CHIAKI_VIDEO_RESOLUTION_PRESET_720p; break;
+    case 1080: resolution = CHIAKI_VIDEO_RESOLUTION_PRESET_1080p; break;
+    default: resolution = CHIAKI_VIDEO_RESOLUTION_PRESET_540p; break;
+    }
     chiaki_connect_video_profile_preset(&info.video_profile, resolution, CHIAKI_VIDEO_FPS_PRESET_30);
     info.video_profile.codec = CHIAKI_CODEC_H264;
     info.video_profile_auto_downgrade = true;
@@ -527,6 +550,7 @@ cleanup:
     }
     if (decoding) pthread_join(decoder_thread, NULL);
     if (recognizing) pthread_join(ocr_thread, NULL);
+    free(engine->crop.pixels);
     for (size_t index = 0; index < engine->count; index++)
         free(engine->packets[(engine->head + index) % QUEUE_SIZE].bytes);
     if (session_initialized) chiaki_session_fini(&engine->session);
