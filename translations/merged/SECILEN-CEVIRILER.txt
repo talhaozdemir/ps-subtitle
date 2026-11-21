@@ -1,0 +1,1615 @@
+﻿1:p01-00010 | old
+EN: Stranger: Oh, really? How so?
+ÖNCEKİ: Yabancı: Öyle mi? Neymiş o?
+SEÇİLEN: Yabancı: Öyle mi? Nasıl yani?
+
+1:p01-00029 | old
+EN: Stranger: Why? Crazy?
+I said that's enough.
+ÖNCEKİ: Yabancı: Niye? Deli?
+Yeter dedim.
+SEÇİLEN: Yabancı: Niye? Deli mi? Yeter dedim.
+
+1:p01-00044 | old
+EN: Stranger: She's tryin' to become a real estate broker.
+ÖNCEKİ: Yabancı: Emlakçılığa girmeye çalışıyor.
+SEÇİLEN: Yabancı: Emlakçı olmaya çalışıyor.
+
+1:p01-00061 | old
+EN: Lucia: You come back all keyed up, with a roll of bills.
+ÖNCEKİ: Lucia: Dönünce yerinde duramıyorsun, elinde de tomarla para.
+SEÇİLEN: Lucia: Bir tomar parayla, iyice gaza gelmiş hâlde dönüyorsun.
+
+1:p01-00090 | old
+EN: Yolanda: Lu, you staring at that window again?
+ÖNCEKİ: Yolanda: Lu, yine o pencereye mi bakıyorsun?
+SEÇİLEN: Yolanda: Lu, yine o pencereye mi dalıp gittin?
+
+1:p01-00141 | old
+EN: Shayna: You gotta drive careful out there, bro.
+ÖNCEKİ: Shayna: Dışarıda araba kullanırken dikkat edeceksin, dostum.
+SEÇİLEN: Shayna: Dışarıda dikkatli araba sürmen lazım, kardeş.
+
+1:p01-00159 | old
+EN: CO Wilson: and you ain't the only one asking.
+ÖNCEKİ: Gardiyan Wilson: merak eden bir tek sen değilsin.
+SEÇİLEN: Gardiyan Wilson: onu soran bir tek sen değilsin.
+
+1:p01-00169 | old
+EN: CO Wilson: Just tell her what she needs to know,
+ÖNCEKİ: Gardiyan Wilson: Sadece bilmesi gerekenleri söyle,
+SEÇİLEN: Gardiyan Wilson: Bilmesi gerekenleri anlat yeter,
+
+1:p01-00192 | old
+EN: Stefanie: You just need to help me understand you, okay?
+ÖNCEKİ: Stefanie: Tek yapman gereken, seni anlamama yardım etmek. Tamam mı?
+SEÇİLEN: Stefanie: Seni anlamama yardım etmen yeter, tamam mı?
+
+1:p01-00201 | old
+EN: Lucia: I got a sign.
+ÖNCEKİ: Lucia: Bir işaret geldi.
+SEÇİLEN: Lucia: Bir işaret aldım.
+
+1:s01-00671000 | old
+EN: Lucia: Hey, I just realized, that I left my money in my car.
+ÖNCEKİ: Lucia: Selam, paramı arabada unuttuğumu yeni fark ettim.
+SEÇİLEN: Lucia: Hey, şimdi fark ettim, paramı arabamda bırakmışım.
+
+1:s01-00723500 | old
+EN: Lucia: This better be all of it.
+ÖNCEKİ: Lucia: Umarım hepsi budur.
+SEÇİLEN: Lucia: Hepsi bu olsa iyi olur.
+
+1:s01-00824000 | old
+EN: Manager: I got frijoles burning back there.
+ÖNCEKİ: Müdür: Arkada fasulye yanıyor benim.
+SEÇİLEN: Müdür: Arkada ocakta fasulyem yanıyor.
+
+1:s01-00844000 | old
+EN: Stefanie: Honey. you don't know how many beds we need to free
+up.
+ÖNCEKİ: Stefanie: Canım, kaç yatak boşaltmamız gerektiğini bilmiyorsun sen.
+SEÇİLEN: Stefanie: Tatlım, kaç yatağı boşaltmamız gerektiğini bir bilsen.
+
+1:s01-00875500 | old
+EN: Stefanie: you've put the father's address as your intended
+residence:
+ÖNCEKİ: Stefanie: kalacağın adres olarak babasının adresini yazmışsın.
+SEÇİLEN: Stefanie: kalmayı düşündüğün yer olarak çocuğun babasının adresini yazmışsın:
+
+1:p01-00267 | old
+EN: Cal: That is what I'm telling you, man.
+ÖNCEKİ: Cal: Ben de sana bunu diyorum, dostum.
+SEÇİLEN: Cal: Sana onu diyorum işte, dostum.
+
+1:s01-00997000 | old
+EN: Cal: A couple of key bumps on a night out.
+Hand jobs from fat chicks.
+ÖNCEKİ: Cal: Gece çıkınca iki fırt çekmek.
+Şişman kızlara otuzbir çektirmek.
+SEÇİLEN: Cal: Gece dışarı çıkınca anahtar ucundan bir iki doz. Şişman hatunlara otuz bir çektirmek.
+
+1:s01-01014500 | old
+EN: Cal: Hey, do you know what road signs are all about?
+ÖNCEKİ: Cal: Yol tabelalarının asıl amacını biliyor musun?
+SEÇİLEN: Cal: Hey, trafik tabelalarının ne işe yaradığını biliyor musun?
+
+1:s01-01020000 | old
+EN: Cal: Dude, I been running stop signs my whole life and look at me.
+ÖNCEKİ: Cal: Abi, ömrüm boyunca dur tabelalarında durmadım. Bak bana.
+SEÇİLEN: Cal: Dostum, hayatım boyunca dur tabelalarını takmadım, bak bana.
+
+1:s01-01021500 | old
+EN: Cal: Dude, I been running stop signs my whole life and look at me.
+ÖNCEKİ: Cal: Abi, ömrüm boyunca dur tabelalarında durmadım. Bak bana.
+SEÇİLEN: Cal: Dostum, hayatım boyunca dur tabelalarını takmadım, bak bana.
+
+1:p01-00299 | old
+EN: Donnie: Uh... A-okay! We are just, uh.. moments away, gentlemen.
+ÖNCEKİ: Donnie: Şey... Sapasağlamım! Az kaldı beyler, geliyoruz.
+SEÇİLEN: Donnie: Iı... gayet iyiyim! İşte, ıı... varmamıza saniyeler kaldı, beyler.
+
+1:s01-01103500 | old
+EN: Donnie: I'm 'bout to make the drop.
+ÖNCEKİ: Donnie: Paketi bırakıyorum.
+SEÇİLEN: Donnie: Teslimatı yapmak üzereyim.
+
+1:s01-01178000 | old
+EN: Cal: You better call her and book in a conjugal 'cause
+ÖNCEKİ: Cal: Kızı ara da bir özel görüş ayarla, çünkü...
+SEÇİLEN: Cal: Sen iyisi mi onu ara da bir pembe oda görüşmesi ayarla, çünkü
+
+1:p01-00338 | old
+EN: Cal: I'm getting some pent up vibes over here.
+ÖNCEKİ: Cal: Üstünde bir birikmişlik seziyorum.
+SEÇİLEN: Cal: burada birikmiş bir cinsel gerginlik hissediyorum.
+
+1:s01-01180500 | old
+EN: Cal: I'm getting some pent up vibes over here.
+ÖNCEKİ: Cal: Üstünde bir birikmişlik seziyorum.
+SEÇİLEN: Cal: burada birikmiş bir cinsel gerginlik hissediyorum.
+
+1:p01-00353 | old
+EN: Jason: Alright, come take the wheel.
+ÖNCEKİ: Jason: Tamam, gel de dümeni al.
+SEÇİLEN: Jason: Tamam, gel dümene geç.
+
+1:s01-01277500 | old
+EN: Donnie: You got the... moolah?
+ÖNCEKİ: Donnie: Şey... Paracıklar geldi mi?
+SEÇİLEN: Donnie: Mangırlar... sende mi?
+
+1:s01-01292000 | old
+EN: Kingfishers: Double check.
+ÖNCEKİ: Kingfishers: Bir daha kontrol edelim.
+SEÇİLEN: Kingfishers: Bir daha kontrol et.
+
+1:p01-00384 | old
+EN: Cal: They, like, piss blood, and torture baby animals.
+ÖNCEKİ: Cal: Bunlar kan işeyip hayvan yavrularına işkence yapıyor.
+SEÇİLEN: Cal: Adamlar kan işiyor, yavru hayvanlara işkence ediyor falan.
+
+1:p01-00390 | old
+EN: Jason: I'll go get Donnie. Don't get out of the boat.
+ÖNCEKİ: Jason: Ben Donnie’yi alacağım. Tekneden çıkma.
+SEÇİLEN: Jason: Gidip Donnie'yi alacağım. Tekneden çıkma.
+
+1:p01-00415 | old
+EN: Kingfishers: What's doin'?
+ÖNCEKİ: Kingfishers: Neler oluyor?
+SEÇİLEN: Kingfishers: Naber?
+
+1:p01-00419 | old
+EN: Donnie: Hey, that radio tower still giving you problems?
+ÖNCEKİ: Donnie: Hey, o telsiz kulesi hâlâ sorun çıkarıyor mu?
+SEÇİLEN: Donnie: Hey, o radyo kulesi hâlâ sorun mu çıkarıyor?
+
+1:p01-00424 | old
+EN: Donnie: Hey, you still got those tigers?
+ÖNCEKİ: Donnie: Hey, o kaplanlar hâlâ duruyor mu?
+SEÇİLEN: Donnie: Hey, o kaplanlar hâlâ sende mi?
+
+1:p01-00442 | old
+EN: Kingfishers: They got Donnie in the shack.
+ÖNCEKİ: Kingfishers: Donnie’yi kulübeye almışlar.
+SEÇİLEN: Kingfishers: Donnie'yi kulübede tutuyorlar.
+
+1:s01-01669000 | old
+EN: Donnie: I'm following your orders.
+ÖNCEKİ: Donnie: Senin emrindeyim.
+SEÇİLEN: Donnie: Emirlerini yerine getiriyorum.
+
+1:p01-00543 | old
+EN: Jason: Yeah, I- I don't know the details,
+ÖNCEKİ: Jason: Evet, ayrıntıları zaten bilmiyorum,
+SEÇİLEN: Jason: Evet, de- detayları bilmiyorum,
+
+1:p01-00551 | old
+EN: Donnie: Just head back to Brian's, she'll get us there.
+ÖNCEKİ: Donnie: Sen Brian’a doğru git, bizi oraya götürür.
+SEÇİLEN: Donnie: Brian'ın oraya dön yeter, bizi oraya götürür.
+
+1:p01-00559 | old
+EN: Donnie: Alright, here we go,
+just cruise on over and pull up next to the dock.
+ÖNCEKİ: Donnie: Tamam, işte geldik.
+Yavaşça git, iskelenin yanına yanaş.
+SEÇİLEN: Donnie: Tamam, hadi bakalım, sakince ilerle ve rıhtımın yanına yanaş.
+
+1:p01-00567 | old
+EN: Jason: Yeah, don't worry. You look great.
+ÖNCEKİ: Jason: Boş ver. Gayet iyi görünüyorsun.
+SEÇİLEN: Jason: Yok, merak etme. Harika görünüyorsun.
+
+1:p01-00581 | old
+EN: Donnie: It's just cosmetic. Yeah!
+Cosmetic. Yeah?
+ÖNCEKİ: Donnie: Sadece dışı çizilmiş. Evet!
+Dışı, öyle mi?
+SEÇİLEN: Donnie: Sadece dışı hasarlı. Evet! Dışı. Öyle mi?
+
+1:p01-00589 | old
+EN: Donnie: Y-yeah, I-I radioed soon as shit went sour. Right?
+ÖNCEKİ: Donnie: E-evet, işler sarpa sarınca hemen telsizden seslendim. Değil mi?
+SEÇİLEN: Donnie: E-evet, i-işler sarpa sarar sarmaz telsizden haber verdim. Değil mi?
+
+1:s01-02114000 | old
+EN: Donnie: Y-yeah, I-I radioed soon as shit went sour. Right?
+ÖNCEKİ: Donnie: E-evet, işler sarpa sarınca hemen telsizden seslendim. Değil mi?
+SEÇİLEN: Donnie: E-evet, i-işler sarpa sarar sarmaz telsizden haber verdim. Değil mi?
+
+1:p01-00600 | old
+EN: Donnie: I didn't fuck up happy hour, the Kingfishers did.
+Mm-hmm.
+ÖNCEKİ: Donnie: Keyif saatini ben bok etmedim, Kingfishers etti.
+Hı hı.
+SEÇİLEN: Donnie: İndirimli içki saatini ben bok etmedim, Kingfishers etti. Hı hı.
+
+1:p01-00604 | old
+EN: Brian: Ain't fucking chill, Jason.
+ÖNCEKİ: Brian: Hiç hoş değil, Jason.
+SEÇİLEN: Brian: Hiç hoş değil amına koyayım, Jason.
+
+1:p01-00613 | old
+EN: Brian: Lori wants you to come by for Sangria.
+ÖNCEKİ: Brian: Lori, Sangria içmeye uğramanı istiyor.
+SEÇİLEN: Brian: Lori seni Sangria içmeye bekliyor.
+
+1:p01-00631 | old
+EN: Cal: as soon as I heard gunshots I had to bail.
+ÖNCEKİ: Cal: silah sesini duyunca hemen sıvışmam gerekti.
+SEÇİLEN: Cal: silah seslerini duyar duymaz tüymem gerekti.
+
+1:s01-02238500 | old
+EN: Cal: as soon as I heard gunshots I had to bail.
+ÖNCEKİ: Cal: silah sesini duyunca hemen sıvışmam gerekti.
+SEÇİLEN: Cal: silah seslerini duyar duymaz tüymem gerekti.
+
+1:p01-00633 | old
+EN: Cal: This is not the job I signed up for. Not even close.
+ÖNCEKİ: Cal: Ben bu işe girmemiştim. Alakası bile yok.
+SEÇİLEN: Cal: Ben bu işe girerken böyle bir şeye razı olmadım. Alakası bile yok.
+
+1:p01-00663 | corrected
+EN: Jason: You still living with your sister and her husband?
+ÖNCEKİ: Jason: Hâlâ kız kardeşinle kocasında mı kalıyorsun?
+SEÇİLEN: Jason: Hâlâ kız kardeşinle kocasının yanında mı kalıyorsun?
+
+1:s01-02497000 | old
+EN: Lucia: Hey, you there?
+ÖNCEKİ: Lucia: Hey, orada mısın?
+SEÇİLEN: Lucia: Alo, orada mısın?
+
+1:p01-00728 | old
+EN: Lucia: That's a whole, different thing. I- I,
+I'll tell you when I see you.
+ÖNCEKİ: Lucia: O bambaşka bir şey. Ben...
+Görüşünce anlatırım.
+SEÇİLEN: Lucia: O apayrı bir konu. B-ben, görüşünce anlatırım.
+
+1:s01-02657500 | old
+EN: Jason: Hey, I'm just lookin' after the place, man.
+ÖNCEKİ: Jason: Hey, eve bakıyorum sadece abi.
+SEÇİLEN: Jason: Ben sadece eve göz kulak oluyorum, dostum.
+
+1:s01-02667000 | old
+EN: Brian: I got some properties with paying tenants...
+ÖNCEKİ: Brian: Bir de kira ödeyen kiracıların oturduğu yerlerim var...
+SEÇİLEN: Brian: Kira ödeyen kiracıları olan birkaç mülküm var...
+
+1:s01-03308500 | old
+EN: Andrew: The Hawk & Little there, the Mediator, hell of a carbine.
+ÖNCEKİ: Andrew: Şu Hawk & Little, Mediator modeli.
+Müthiş bir kısa namlulu tüfek.
+SEÇİLEN: Andrew: Şuradaki Hawk & Little, Mediator, taş gibi bir karabina.
+
+1:s01-03372500 | old
+EN: Andrew: Mag, white light, muzzle brake, sight.
+ÖNCEKİ: Andrew: Şarjör, fener, namlu freni, nişangâh.
+SEÇİLEN: Andrew: Şarjör, beyaz ışıklı fener, namlu freni, nişangâh.
+
+1:p01-00810 | old
+EN: Donnie: Sounds like you got a little sloppy there, hoss.
+Keep your head on the swivel, 'kay? Stay in the game.
+ÖNCEKİ: Donnie: Biraz dikkatsiz davranmışsın sanki, koçum.
+Gözün dört açsın, tamam mı? Oyundan kopma.
+SEÇİLEN: Donnie: Görünüşe göre biraz dalgınlık etmişsin, evlat. Çevrene dikkat et, tamam mı? Oyunda kal.
+
+1:s01-03788500 | old
+EN: Joey: Rod bearings, brother.
+I could hear 'em from down the street.
+ÖNCEKİ: Joey: Kol yatakları abi.
+Sokağın başından duydum.
+SEÇİLEN: Joey: Biyel yatakları, kardeşim. Sokağın öbür ucundan duyabiliyordum.
+
+1:p01-00862 | old
+EN: Jason: Man, dead to rights.
+ÖNCEKİ: Jason: Tam isabet, dostum.
+SEÇİLEN: Jason: Tam üstüne bastın, dostum.
+
+1:s01-03811000 | old
+EN: Joey: How's that sound to you?
+ÖNCEKİ: Joey: Nasıl, anlaştık mı?
+SEÇİLEN: Joey: Ne dersin?
+
+1:s01-03821500 | old
+EN: Joey: Go ahead, pull up in the shop.
+ÖNCEKİ: Joey: Hadi, arabayı dükkâna çek.
+SEÇİLEN: Joey: Hadi, arabayı atölyeye çek.
+
+1:p01-00872 | old
+EN: Joey: Alright, alright, let's fix her up.
+ÖNCEKİ: Joey: Tamam, tamam. Hadi toparlayalım şunu.
+SEÇİLEN: Joey: Tamam, tamam, şunu adam edelim.
+
+1:s01-03849500 | old
+EN: Joey: Like I said, I'll throw in a respray too.
+ÖNCEKİ: Joey: Dediğim gibi, bir de bedavaya boya atarım.
+SEÇİLEN: Joey: Dediğim gibi, bir de boya benden.
+
+1:s01-04000000 | old
+EN: Jason: Hey, so I'm at that boutique.
+ÖNCEKİ: Jason: Selam, butiğe geldim.
+SEÇİLEN: Jason: Hey, ben şu butikteyim.
+
+1:s01-04003000 | old
+EN: Brian: ask those dorks how many windchimes they sold since they
+moved in there.
+ÖNCEKİ: Brian: Şu ineklere bir sor,
+oraya taşındıklarından beri kaç rüzgâr çanı satmışlar.
+SEÇİLEN: Brian: Sor şu eziklere, oraya taşındıklarından beri kaç rüzgâr çanı satmışlar.
+
+1:s01-04080000 | old
+EN: Clerk: Whoa, hey, hey... Chill, my guy!
+ÖNCEKİ: Tezgâhtar: Hop, hey... Sakin ol dostum!
+SEÇİLEN: Tezgâhtar: Hop, hey, hey... Sakin ol, dostum!
+
+1:s01-04089500 | old
+EN: Clerk: I don't have the rent. Just- just take the acid.
+ÖNCEKİ: Tezgâhtar: Kira parası yok. Asidi al işte!
+SEÇİLEN: Tezgâhtar: Kira param yok. Sadece- sadece asidi al.
+
+1:p01-00988 | old
+EN: Jason: Brian said something about picking up a payment?
+ÖNCEKİ: Jason: Brian bir ödeme almamız gerektiğini söyledi?
+SEÇİLEN: Jason: Brian bir ödeme almayla ilgili bir şey mi dedi?
+
+1:s01-04553000 | old
+EN: Cal: This guy runs a grow house and pays Brian in weed.
+ÖNCEKİ: Cal: Adam ot yetiştiriyor, Brian'a da ödemeyi otla yapıyor.
+SEÇİLEN: Cal: Adam evde ot yetiştiriyor, Brian'a da ödemeyi otla yapıyor.
+
+1:s01-04610000 | old
+EN: Cal: Be honest, you were contracting for Merryweather and the
+IAA.
+ÖNCEKİ: Cal: Dürüst ol, Merryweather'la IAA için çalışıyordun.
+SEÇİLEN: Cal: Dürüst ol, Merryweather ve IAA için sözleşmeli çalışıyordun.
+
+1:s01-04617000 | old
+EN: Jason: There was a group for everyone comin' out the army that
+didn't get into Merryweather,
+ÖNCEKİ: Jason: Ordudan ayrılıp Merryweather'a giremeyenlerin
+gittiği bir grup vardı.
+SEÇİLEN: Jason: Ordudan ayrılıp Merryweather'a giremeyenler için bir grup vardı.
+
+1:s01-04975500 | old
+EN: Brian: in just about every facility in Mariana County.
+ÖNCEKİ: Brian: Mariana County'deki neredeyse her depoda bulunur.
+SEÇİLEN: Brian: Mariana County'deki hemen her tesiste.
+
+1:s01-05611000 | old
+EN: Shirley: Sorry about that, hon.
+Her anxiety is just through the roof these days
+ÖNCEKİ: Shirley: Kusura bakma canım.
+Bu aralar acayip huzursuz.
+SEÇİLEN: Shirley: Kusura bakma tatlım. Bu aralar kaygısı tavan yapmış durumda.
+
+1:s01-05946500 | old
+EN: Mandy: Not my fault he gets the worst appliances ever.
+ÖNCEKİ: Mandy: Gidip en berbat aletleri alması benim suçum değil.
+SEÇİLEN: Mandy: En berbat ev aletlerini alması benim suçum değil.
+
+1:s01-06003500 | old
+EN: Mandy: So, how've you been? Haven't seen you in here, in like,
+a hundred years.
+ÖNCEKİ: Mandy: Ee, nasılsın? Seni burada görmeyeli
+sanki yüz yıl oldu.
+SEÇİLEN: Mandy: Nasılsın bu arada? Seni burada görmeyeli yüzyıl olmuş resmen.
+
+1:s01-06006000 | old
+EN: Mandy: So, how've you been? Haven't seen you in here, in like,
+a hundred years.
+ÖNCEKİ: Mandy: Ee, nasılsın? Seni burada görmeyeli
+sanki yüz yıl oldu.
+SEÇİLEN: Mandy: Nasılsın bu arada? Seni burada görmeyeli yüzyıl olmuş resmen.
+
+1:p01-01039 | old
+EN: Mandy: Ugh, I know, I've been so busy, too. So much... fun stuff.
+ÖNCEKİ: Mandy: Of, biliyorum, ben de çok yoğundum. Bir sürü... eğlenceli iş.
+SEÇİLEN: Mandy: Öf, biliyorum, ben de çok yoğundum. Bir sürü... eğlenceli şey.
+
+1:s01-06018500 | old
+EN: Mandy: I'm Chief Director of Product now.
+ÖNCEKİ: Mandy: Artık ürün direktörüyüm.
+SEÇİLEN: Mandy: Artık Ürün Baş Direktörüyüm.
+
+1:s01-06078000 | old
+EN: Mandy: Umm... no? Like what?
+ÖNCEKİ: Mandy: Şey... Yok? Ne olabilir ki?
+SEÇİLEN: Mandy: Iıı... yok? Ne gibi?
+
+1:s01-06211500 | old
+EN: Jason: You're taking this to another level, Mandy.
+ÖNCEKİ: Jason: İşi iyice abartıyorsun Mandy.
+SEÇİLEN: Jason: İşin dozunu iyice kaçırıyorsun Mandy.
+
+1:p01-01078 | old
+EN: Bert: Inconsiderate fucking commie fucktards, that's who.
+ÖNCEKİ: Bert: Düşüncesiz komünist gerizekâlılar, işte onlar.
+SEÇİLEN: Bert: Başkalarını siklemeyen, sikik komünist gerizekâlılar, kim olacak.
+
+1:p01-01081 | old
+EN: Bert: It's about to get real creative out here, folks!
+Real right turn Clyde.
+ÖNCEKİ: Bert: Burada yaratıcılık patlayacak millet!
+Sağa dön, Clyde!
+SEÇİLEN: Bert: Millet, burada birazdan yaratıcılığın dibine vurulacak! Bildiğin 'Sağa dön, Clyde'.
+
+1:p01-01169 | old
+EN: Brian: So I'm calling him, you know. No response, that's fine.
+ÖNCEKİ: Brian: Arıyorum, anlıyor musun? Cevap yok, tamam.
+SEÇİLEN: Brian: İşte, arıyorum onu. Cevap yok, neyse.
+
+1:p01-01175 | old
+EN: Brian: Cal's on it. I need you to drive so I can pick him up.
+ÖNCEKİ: Brian: Cal uğraşıyor. Onu almamız için arabayı senin sürmen lazım.
+SEÇİLEN: Brian: Cal bakıyor o işe. Onu alabilmem için arabayı sen kullan.
+
+1:s01-06774500 | corrected
+EN: Brian: Do what now?
+ÖNCEKİ: Brian: Ne yapmıyor?
+SEÇİLEN: Brian: Ne dedin sen?
+
+1:s01-06775000 | corrected
+EN: Brian: Do what now?
+Cal: Oh, man, c'mon, you know.
+When you're hooking up with a chick, or...
+ÖNCEKİ: Brian: Ne yapmıyor?
+Cal: Abi, hadi, biliyorsun işte.
+Bir kızla takılırken ya da...
+SEÇİLEN: Brian: Ne dedin sen?
+Cal: Abi, hadi, biliyorsun işte.
+Bir kızla takılırken ya da...
+
+1:p01-01224 | old
+EN: Cal: No, yeah, that's a good point..
+didn't- didn't think of that part.
+ÖNCEKİ: Cal: Evet, doğru diyorsun...
+O kısmını düşünmemiştim.
+SEÇİLEN: Cal: Yok, evet, haklısın... O- o kısmını düşünmemiştim.
+
+1:s01-06854500 | old
+EN: Arnold: I bring you in, and then what? You start a turf war?
+ÖNCEKİ: Arnold: Seni işe alıyorum, sonra ne oluyor? Bölge savaşı çıkarıyorsun.
+SEÇİLEN: Arnold: Seni işe alıyorum, sonra ne oluyor? Bölge savaşı mı başlatıyorsun?
+
+1:s01-06913500 | old
+EN: Arnold: I'm gonna put word out about you, Bri.
+ÖNCEKİ: Arnold: Haberini herkese salacağım Bri.
+SEÇİLEN: Arnold: Senin hakkında herkese haber salacağım, Bri.
+
+1:s01-06921000 | old
+EN: Brian: Alright, I've had enough of this asshole. Let's do it your way.
+ÖNCEKİ: Brian: Tamam, bu götü yeterince çektim. Senin yöntemini deneyelim.
+SEÇİLEN: Brian: Tamam, bu göt heriften bıktım. Senin bildiğin gibi yapalım.
+
+1:p01-01275 | old
+EN: Jason: Yeah, Arnold's gonna keep his mouth shut.
+ÖNCEKİ: Jason: Evet, Arnold çenesini kapalı tutacak.
+SEÇİLEN: Jason: Evet, Arnold ağzını sıkı tutacak.
+
+1:p01-01297 | old
+EN: Kenton: It would be, if I could still do it.
+ÖNCEKİ: Kenton: Hâlâ yapabilseydim öyle olurdu.
+SEÇİLEN: Kenton: Olurdu da, hâlâ yapabilseydim.
+
+1:p01-01301 | old
+EN: Kenton: It's too late for me to do that, Cal.
+ÖNCEKİ: Kenton: Benim için artık çok geç, Cal.
+SEÇİLEN: Kenton: Bunu yapmak için artık çok geç, Cal.
+
+1:p01-01582 | old
+EN: Joey: Mm-hm, just gimme a minute. Be right with ya.
+ÖNCEKİ: Joey: Hı hı, bir dakika ver bana. Hemen hallediyorum.
+SEÇİLEN: Joey: Hı-hı, sadece bir dakika ver. Hemen geliyorum.
+
+1:s01-08651500 | old
+EN: Kenton: I mean, you could know the shipwrecks like the back of
+your hand,
+ÖNCEKİ: Kenton: Yani, batıkları avucunun içi gibi bilirsin,
+SEÇİLEN: Kenton: Yani, batıkları avucunun içi gibi biliyor olabilirsin,
+
+1:s01-08686000 | old
+EN: Kenton: Now, I can only go out with a cover.
+ÖNCEKİ: Kenton: Artık ancak bir bahaneyle açılabiliyorum.
+SEÇİLEN: Kenton: Artık ancak bir paravanla denize açılabiliyorum.
+
+1:s01-08758500 | old
+EN: Kenton: That's why you sign the waiver, eh?
+ÖNCEKİ: Kenton: Sorumluluk belgesini bu yüzden imzalıyorsunuz ya, ha?
+SEÇİLEN: Kenton: Feragatnameyi bunun için imzalıyorsunuz, ha?
+
+1:s01-08765000 | old
+EN: Jeremy: Can we just go quadding, or something?
+ÖNCEKİ: Jeremy: ATV'ye falan binsek olmaz mı?
+SEÇİLEN: Jeremy: ATV sürmeye falan gitsek olmaz mı?
+
+1:p01-01648 | old
+EN: Jason: Great. I think I got it under control.
+ÖNCEKİ: Jason: Güzel. Sanırım işi çözdüm.
+SEÇİLEN: Jason: Harika. Sanırım kontrol bende.
+
+1:s01-08793000 | old
+EN: Kenton: I don't give a shit what they do,
+ÖNCEKİ: Kenton: Onların ne yaptığı umurumda değil,
+SEÇİLEN: Kenton: Ne yaptıkları sikimde değil,
+
+1:p01-01652 | old
+EN: Jeremy: Wait, they're in this part of the water too?
+ÖNCEKİ: Jeremy: Dur, onlar suyun bu tarafında da mı var?
+SEÇİLEN: Jeremy: Dur, bu sularda da mı varlar?
+
+1:s01-08816000 | old
+EN: Dobbs: Yeah, like- like a stripper whale.
+ÖNCEKİ: Dobbs: Evet, bir de striptizci balinalar falan.
+SEÇİLEN: Dobbs: Evet, mesela striptizci bir balina gibi.
+
+1:p01-01656 | old
+EN: Kyle: A bitchy whale... named Beth!
+ÖNCEKİ: Kyle: Beth adında... dırdırcı bir balina!
+SEÇİLEN: Kyle: Beth adında çirkef bir balina.
+
+1:s01-08888000 | old
+EN: Dobbs: Because you're a lame, bro.
+ÖNCEKİ: Dobbs: Sen sünepe olduğun için abi.
+SEÇİLEN: Dobbs: Çünkü eziksin, kardeşim.
+
+1:s01-08890500 | old
+EN: Kenton: Everybody got a buddy?
+ÖNCEKİ: Kenton: Herkes eşini buldu mu?
+SEÇİLEN: Kenton: Herkesin dalış arkadaşı var mı?
+
+1:s01-08898500 | old
+EN: Kenton: Everybody stay with your buddy and listen to Jason.
+ÖNCEKİ: Kenton: Herkes eşinden ayrılmasın ve Jason'ı dinlesin.
+SEÇİLEN: Kenton: Herkes dalış arkadaşının yanında kalsın ve Jason'ı dinlesin.
+
+1:p01-01666 | old
+EN: Kenton: You do all that,
+and you'll come back with some epic memories.
+ÖNCEKİ: Kenton: Bunların hepsini yaparsanız
+unutamayacağınız anılarla dönersiniz.
+SEÇİLEN: Kenton: Bunları yaparsanız efsane anılarla dönersiniz.
+
+1:s01-08983000 | old
+EN: Jeremy: So we can tell 'em to fuck off.
+ÖNCEKİ: Jeremy: Siktir olup gitmelerini söyleriz.
+SEÇİLEN: Jeremy: Siktir olup gitmelerini söyleyebilelim diye.
+
+1:s01-08996500 | old
+EN: Jeremy: Oh. I kinda feel like I'm in that- that movie...
+ÖNCEKİ: Jeremy: Aa, kendimi biraz şu... şu filmde gibi hissediyorum...
+SEÇİLEN: Jeremy: Sanki şu... şu filmdeymişim gibi...
+
+1:s01-09016500 | old
+EN: Dobbs: I'm gonna hold it gently, dumbass!
+ÖNCEKİ: Dobbs: Yavaşça tutacağım, gerizekâlı!
+SEÇİLEN: Dobbs: Nazikçe tutacağım, geri zekalı!
+
+1:s01-09167000 | old
+EN: Jeremy: Hey, we're supposed to stay with our buddies!
+ÖNCEKİ: Jeremy: Hey, eşlerimizden ayrılmamamız gerekiyor!
+SEÇİLEN: Jeremy: Hey, dalış arkadaşlarımızdan ayrılmamamız gerekiyor!
+
+1:s01-09169000 | old
+EN: Dobbs: My buddies can eat a dick. Jason said so.
+ÖNCEKİ: Dobbs: Eşim sikimi yesin. Jason öyle dedi.
+SEÇİLEN: Dobbs: Arkadaşlarım sik yesin. Jason öyle dedi.
+
+1:p01-01742 | old
+EN: Jeremy: Shit, man, shit! Is he gonna be okay?
+ÖNCEKİ: Jeremy: Kahretsin abi, kahretsin! İyi olacak mı?
+SEÇİLEN: Jeremy: Siktir, dostum, siktir! İyi olacak mı?
+
+1:p01-01743 | old
+EN: Jason: He's gonna be fine.
+We just have to get him back to Kenton.
+ÖNCEKİ: Jason: İyi olacak. Onu Kenton'a geri götürmemiz lazım.
+SEÇİLEN: Jason: İyi olacak. Onu Kenton'a geri götürmemiz yeter.
+
+1:s01-09338000 | old
+EN: Kenton: Just a little Scuba tour, Todd!
+ÖNCEKİ: Kenton: Küçük bir dalış turu işte Todd!
+SEÇİLEN: Kenton: Sadece ufak bir tüplü dalış turu, Todd!
+
+1:s01-09351500 | old
+EN: Todd: Well, it's not my fault you weren't properly appraising
+artifacts!
+ÖNCEKİ: Todd: Eserlerin değerini doğru düzgün belirlememen
+benim suçum değil!
+SEÇİLEN: Todd: Şey, eserlere doğru dürüst değer biçmemen benim suçum değil!
+
+1:s01-09369000 | old
+EN: Cameron: thanks to his tireless efforts to keep the ocean safe...
+ÖNCEKİ: Cameron: okyanusu korumak için yılmadan gösterdiği çabalar sayesinde...
+SEÇİLEN: Cameron: okyanusu güvenli tutma konusundaki yorulmak bilmeyen çabaları sayesinde.
+
+1:s01-09384000 | old
+EN: Todd: are following all the maritime rules and regulations, huh?
+ÖNCEKİ: Todd: bütün denizcilik kurallarına ve düzenlemelerine uyuyorsunuzdur, ha?
+SEÇİLEN: Todd: bütün denizcilik kurallarına ve yönetmeliklerine uyuyorsunuzdur, ha?
+
+1:s01-09399000 | old
+EN: Kenton: Bancroft, that square little cyat.
+ÖNCEKİ: Kenton: Bancroft, o sıkıcı küçük şerefsiz.
+SEÇİLEN: Kenton: Bancroft, o küçük kuralcı amcık.
+
+1:s01-09437500 | old
+EN: Dobbs: How scary was that?
+Really fucking scary.
+ÖNCEKİ: Dobbs: Ne kadar korkunçtu ama?
+Çok fena korkunçtu.
+SEÇİLEN: Dobbs: Ne kadar korkunçtu? Harbiden korkunçtu amına koyayım.
+
+1:s01-09475500 | old
+EN: Kenton: You made it through half a scuba tour.
+ÖNCEKİ: Kenton: Yarım bir dalış turunu bitirdiniz.
+SEÇİLEN: Kenton: Bir tüplü dalış turunun yarısını tamamladınız.
+
+1:s01-09644000 | old
+EN: Jason: I was fixing the roof, hanging some drywall.
+ÖNCEKİ: Jason: Çatıyı tamir ettim, biraz alçıpan döşedim.
+SEÇİLEN: Jason: Çatıyı tamir ediyordum, alçıpan asıyordum.
+
+1:s01-09653000 | old
+EN: Cal: Okay... okay. You know what we gotta do? I got you.
+ÖNCEKİ: Cal: Tamam... Tamam. Ne yapmamız lazım, biliyor musun? Bende.
+SEÇİLEN: Cal: Tamam... tamam. Ne yapmamız lazım, biliyor musun? Ben hallederim.
+
+1:s01-09657000 | old
+EN: Cal: I got you. Here, help me with this.
+ÖNCEKİ: Cal: Bende o iş. Gel, şuna yardım et.
+SEÇİLEN: Cal: Ben hallederim. Gel, şunda bana yardım et.
+
+1:s01-09810500 | old
+EN: Cal: She like it?
+ÖNCEKİ: Cal: Sevdi mi?
+SEÇİLEN: Cal: Beğendi mi?
+
+1:s01-09811500 | old
+EN: Jason: I dunno. When I went out of town,
+she peaced out and ghosted me,
+ÖNCEKİ: Jason: Bilmiyorum. Ben şehir dışına çıkınca
+çekip gitti, bana dönmedi de.
+SEÇİLEN: Jason: Bilmem. Ben şehir dışına gidince o da çekip gitti, iletişimi kesti,
+
+1:p01-01778 | old
+EN: Cal: You know, with Lucia and ghosting, it's..
+ÖNCEKİ: Cal: Hani Lucia var ya, bir de ortadan kaybolma meselesi...
+SEÇİLEN: Cal: Biliyorsun, Lucia'nın iletişimi kesip kaybolması meselesi...
+
+1:s01-09903000 | old
+EN: Cal: he could just make shit quicker.
+ÖNCEKİ: Cal: kendisi daha çabuk yapar zaten.
+SEÇİLEN: Cal: işleri daha hızlı halledebilirdi.
+
+1:s01-09905000 | old
+EN: Cal: You know, you can see it on the screen, man,
+it's so fuckin' raw.
+ÖNCEKİ: Cal: Ekranda da görüyorsun abi,
+acayip katıksız bir şey.
+SEÇİLEN: Cal: Ekranda görüyorsun, dostum, çok sahici amına koyayım.
+
+1:s01-10637500 | old
+EN: Cal: So why did she ghost you, bro?
+ÖNCEKİ: Cal: Ee, sana niye dönmedi abi?
+SEÇİLEN: Cal: Peki, neden seninle iletişimini kesti, kanka?
+
+1:p01-01867 | old
+EN: Jason: So I went on a job and when I came back, she was gone.
+ÖNCEKİ: Jason: Ben de bir işe gittim. Döndüğümde gitmişti.
+SEÇİLEN: Jason: Bir işe çıktım, döndüğümde o gitmişti.
+
+1:p01-01868 | old
+EN: Cal: Yeah. With your bun in her oven, dude!
+ÖNCEKİ: Cal: Evet. Karnında da senin çocuğun vardı abi!
+SEÇİLEN: Cal: Evet. Hem de senin çocuğuna hamileyken, dostum!
+
+1:p01-01879 | old
+EN: Cal: You're lucky you got me.
+ÖNCEKİ: Cal: Ben varım diye şanslısın.
+SEÇİLEN: Cal: Şanslısın ki ben varım.
+
+1:s01-10798500 | old
+EN: Jason: Anything.
+ÖNCEKİ: Jason: Herhangi bir şey.
+SEÇİLEN: Jason: Her şey olur.
+
+1:p01-01907 | old
+EN: Lucia: She's my size and she said she could lend me some
+clothes.
+ÖNCEKİ: Lucia: Bedenlerimiz aynı,
+bana birkaç kıyafet verebileceğini söyledi.
+SEÇİLEN: Lucia: Onunla aynı bedendeyiz, bana birkaç kıyafet ödünç verebileceğini söyledi.
+
+1:p01-01942 | old
+EN: Cal: No, I'm king.
+ÖNCEKİ: Cal: Hayır, benim kral.
+SEÇİLEN: Cal: Hayır, ben kralım.
+
+1:p01-02030 | old
+EN: Jason: I've got my own boat, but no gear.
+ÖNCEKİ: Jason: Teknem var ama ekipmanım yok.
+SEÇİLEN: Jason: Kendi teknem var ama ekipmanım yok.
+
+1:p01-02031 | old
+EN: Kenton: No problem. I'll get you set up. In the meantime,
+just come back and use my stuff, alright?
+ÖNCEKİ: Kenton: Sorun değil. Sana ayarlarım. O zamana kadar
+gel benimkileri kullan, tamam mı?
+SEÇİLEN: Kenton: Sorun değil. Sana ekipman ayarlarım. Şimdilik yine gelip benimkileri kullan, tamam mı?
+
+1:p01-02034 | old
+EN: Jason: Will do. Thanks, Kenton.
+ÖNCEKİ: Jason: Olur. Sağ ol Kenton.
+SEÇİLEN: Jason: Öyle yaparım. Sağ ol, Kenton.
+
+1:p01-02035 | old
+EN: Kenton: We gettin' to the riches, Jay.
+ÖNCEKİ: Kenton: Zengin oluyoruz Jay.
+SEÇİLEN: Kenton: Köşeyi dönüyoruz, Jay.
+
+1:p01-02071 | old
+EN: Stranger: Wait, w-wait, hold on! I'm goin' there now, I just got lost!
+ÖNCEKİ: Yabancı: Dur, bir dakika! Şimdi oraya gidiyorum, yolu kaybettim!
+SEÇİLEN: Yabancı: Bekle, b-bekle, dur! Şimdi oraya gidiyorum, sadece kayboldum!
+
+1:p01-02073 | old
+EN: Stranger: Okay, I'll be there, I'll be there, I swear.
+Y-you can count on me.
+ÖNCEKİ: Yabancı: Tamam, geleceğim, yemin ederim geleceğim.
+Bana güvenebilirsiniz.
+SEÇİLEN: Yabancı: Tamam, orada olacağım, olacağım, yemin ederim. B-bana güvenebilirsin.
+
+1:p01-02191 | old
+EN: Jason: I'm in the green stilt house,
+by the water off Peach Palm Drive.
+ÖNCEKİ: Jason: Peach Palm Drive'ın orada, su kenarındaki
+ayaklar üstüne kurulmuş yeşil evdeyim.
+SEÇİLEN: Jason: Peach Palm Drive'daki su kenarındaki yeşil kazıklı evdeyim.
+
+1:p01-02230 | old
+EN: Jason: Great, thanks for taking the trouble.
+ÖNCEKİ: Jason: Harika, zahmet verdim, sağ ol.
+SEÇİLEN: Jason: Harika, zahmet ettiğin için sağ ol.
+
+1:s01-12650000 | old
+EN: Lucia: Look, it was good catching up.
+ÖNCEKİ: Lucia: Neyse, konuşmak güzeldi.
+SEÇİLEN: Lucia: Bak, hasret gidermek güzeldi.
+
+1:s01-13188000 | old
+EN: Lucia: Bitch.
+ÖNCEKİ: Lucia: Pislik.
+SEÇİLEN: Lucia: Orospu.
+
+1:s01-13213000 | old
+EN: Jason: Oh, the guy who's connected to some connected people?
+ÖNCEKİ: Jason: Ha, şu sağlam bağlantıları olan insanlarla tanışan adam mı?
+SEÇİLEN: Jason: Ha, tanıdıkların tanıdıkları olan adam mı?
+
+1:s01-13260000 | corrected
+EN: Lucia: Now it's my turn to get us some drinks.
+ÖNCEKİ: Lucia: Şimdi de ben bize bir şeyler içmeye alayım.
+SEÇİLEN: Lucia: Şimdi de içkileri ben alayım.
+
+1:s01-13549500 | old
+EN: Mattia: I hated to think of her alone there.
+ÖNCEKİ: Mattia: Onu orada yalnız düşünmek beni mahvediyordu.
+SEÇİLEN: Mattia: Orada yalnız kalmasını düşünmeye dayanamıyordum.
+
+1:s01-13794000 | old
+EN: Jason: Oh, just like that?
+ÖNCEKİ: Jason: Aa, öyle mi?
+SEÇİLEN: Jason: Öyle hemen mi?
+
+1:s01-13833000 | old
+EN: Lucia: Girl taught me how to shoplift.
+ÖNCEKİ: Lucia: Bana dükkânlardan mal aşırmayı öğreten kız.
+SEÇİLEN: Lucia: Kız bana mağazadan bir şeyler yürütmeyi öğretti.
+
+1:p01-02661 | old
+EN: Cal: I'm fine with ladies...I'm kidding.
+ÖNCEKİ: Cal: Benim kadınlarla bir sorunum yok... Şaka yapıyorum.
+SEÇİLEN: Cal: Kadınlarla aram iyidir... Şaka yapıyorum.
+
+1:s01-13948500 | old
+EN: Donnie: What say we adjourn to the mens room for a little
+booger sugar, huh?
+ÖNCEKİ: Donnie: Erkekler tuvaletine geçip biraz burun şekeri çekmeye
+ne dersin, ha?
+SEÇİLEN: Donnie: Erkekler tuvaletine gidip biraz toz çekmeye ne dersin, ha?
+
+1:s01-14086500 | old
+EN: Mattia: And that's me on the decks.
+ÖNCEKİ: Mattia: Kabinin başındaki de benim.
+SEÇİLEN: Mattia: DJ kabininin başında da ben varım.
+
+1:s01-14087500 | old
+EN: Jason: Oh. So, you're like a- like a DJ, or something?
+ÖNCEKİ: Jason: Aa. Yani sen DJ falan mısın?
+SEÇİLEN: Jason: Ah. Yani sen bir... DJ falan mısın?
+
+1:s01-14104500 | old
+EN: Mattia: What are you talking about, bro?
+ÖNCEKİ: Mattia: Sen neden bahsediyorsun kardeşim?
+SEÇİLEN: Mattia: Ne diyorsun, kanka?
+
+1:s01-14446500 | old
+EN: Aviator: Bust his ass, D-man!
+Make this pussy your prom date, baby! Fuck him up!
+ÖNCEKİ: Havacı: Dağıt şunu D-man!
+Bu tırsağı baloda dansa kaldırır gibi yakala bebeğim! Ağzına sıç!
+SEÇİLEN: Havacı: Patakla şunu, D-man! Bu amcığı balo partnerin yap, bebeğim! Dağıt onu amına koyayım!
+
+1:s01-14497000 | old
+EN: Jason: You feel that?
+ÖNCEKİ: Jason: Hissettin mi bunu?
+SEÇİLEN: Jason: Hissediyor musun?
+
+1:s01-14550000 | old
+EN: Lucia: Nice night for a run!
+ÖNCEKİ: Lucia: Koşmak için güzel gece!
+SEÇİLEN: Lucia: Koşu için güzel bir gece!
+
+1:s01-14685500 | old
+EN: Jason: Through there.
+ÖNCEKİ: Jason: Şu tarafta.
+SEÇİLEN: Jason: Şuradan.
+
+1:p01-02838 | old
+EN: Jason: Donnie, I recovered that drop for you...
+ÖNCEKİ: Jason: Donnie, attığın paketi geri aldım...
+SEÇİLEN: Jason: Donnie, senin için o paketi geri aldım...
+
+1:s01-15384000 | old
+EN: Donnie: smashed outta my fuckin' mind from one of your jailbird's
+little parties,
+ÖNCEKİ: Donnie: senin o hapis kuşunun ufak partilerinden birinde
+kafamı taş gibi yapmışken,
+SEÇİLEN: Donnie: senin mapus kuşunun küçük partilerinden birinde kafayı fena bulmuşken amına koyayım,
+
+2:s02-00029000 | old
+EN: Jason: Hey, Joey, you got someone that could bring the car
+over?
+ÖNCEKİ: Jason: Hey Joey, arabayı getirebilecek birini bulabilir misin?
+SEÇİLEN: Jason: Hey Joey, arabayı buraya getirebilecek birin var mı?
+
+2:s02-00080000 | old
+EN: Manager: Mind if I drive?
+ÖNCEKİ: Müdür: Ben geçebilir miyim?
+SEÇİLEN: Müdür: Ben devralsam olur mu?
+
+2:s02-00147000 | old
+EN: Jason: Yeah, my girl needs one, too. She just got out of prison.
+ÖNCEKİ: Jason: Evet, kız arkadaşımın da ihtiyacı var. Hapisten yeni çıktı.
+SEÇİLEN: Jason: Evet, sevgilimin de bir hesaba ihtiyacı var. Hapisten yeni çıktı.
+
+2:s02-00160000 | old
+EN: Jason: What do we need a loan for?
+ÖNCEKİ: Jason: Kredi bize ne için lazım?
+SEÇİLEN: Jason: Krediye ne ihtiyacımız var?
+
+2:s02-00187500 | old
+EN: Jason: Didn't leave on the best of terms.
+ÖNCEKİ: Jason: Pek iyi şartlarda ayrılmadım.
+SEÇİLEN: Jason: Pek iyi ayrılmadık.
+
+2:s02-00212500 | old
+EN: Lucia: Are you bullshittin' me? We need an account.
+ÖNCEKİ: Lucia: Benimle dalga mı geçiyorsun? Hesap açmamız gerekiyor.
+SEÇİLEN: Lucia: Benimle taşak mı geçiyorsun? Bir hesaba ihtiyacımız var.
+
+2:s02-00245000 | old
+EN: Jason: Send me a link to the app.
+ÖNCEKİ: Jason: Uygulamanın bağlantısını bana gönder.
+SEÇİLEN: Jason: Uygulamanın linkini bana gönder.
+
+2:s02-00601000 | old
+EN: Cal: Well, I think I earned myself a beer!
+ÖNCEKİ: Cal: Bence bir birayı hak ettim!
+SEÇİLEN: Cal: Bence bir bira hak ettim!
+
+2:s02-00634500 | old
+EN: Brian: Alright, we have a window-
+ÖNCEKİ: Brian: Tamam, uygun bir aralığımız var-
+SEÇİLEN: Brian: Tamam, bir fırsatımız var-
+
+2:s02-00666000 | old
+EN: Jason: You're not going anywhere with that homing beacon
+strapped to your ankle.
+ÖNCEKİ: Jason: Bileğine bağlı o yer bildiriciyle
+hiçbir yere gitmiyorsun.
+SEÇİLEN: Jason: Ayak bileğine bağlı o takip cihazıyla hiçbir yere gidemezsin.
+
+2:s02-00721000 | old
+EN: Jason: He's just telling me to stay sharp,
+ÖNCEKİ: Jason: Sadece dikkatli olmamı söylüyor,
+SEÇİLEN: Jason: Sadece tetikte olmamı söylüyor,
+
+2:s02-00757000 | old
+EN: Jason: Accelerator. Keep your hands off it.
+ÖNCEKİ: Jason: Gaz. Ellerini ondan uzak tut.
+SEÇİLEN: Jason: Gaz. Elini sürme.
+
+2:s02-00955000 | old
+EN: Jason: Now inch us forward...
+ÖNCEKİ: Jason: Şimdi yavaşça ileri götür...
+SEÇİLEN: Jason: Şimdi bizi santim santim ilerlet...
+
+2:s02-00959000 | old
+EN: Jason: That's backwards, Lu.
+ÖNCEKİ: Jason: O geri Lu.
+SEÇİLEN: Jason: Ters oldu bu, Lu.
+
+2:s02-01047500 | old
+EN: Lucia: We still doing the drop?
+ÖNCEKİ: Lucia: Hâlâ teslimatı mı yapacağız?
+SEÇİLEN: Lucia: Hâlâ teslimatı yapacak mıyız?
+
+2:s02-01211000 | old
+EN: Jason: Yeah, shit. We're drawing too much attention landing like
+this.
+ÖNCEKİ: Jason: Evet, siktir. Böyle inip kalkarak fazla dikkat
+çekiyoruz.
+SEÇİLEN: Jason: Evet, siktir. Böyle iniş yaparak çok fazla dikkat çekiyoruz.
+
+2:s02-01391000 | old
+EN: Parole Officer: It plays up in the weather, you know?
+ÖNCEKİ: Denetim memuru: Havaya göre azıyor, bilirsin.
+SEÇİLEN: Denetim memuru: Hava değişince azıyor, bilirsin.
+
+2:s02-01394000 | old
+EN: Parole Officer: How 'bout, you come down and,
+we'll have a little chat.
+ÖNCEKİ: Denetim memuru: Sen aşağı insen de,
+biraz konuşsak nasıl olur?
+SEÇİLEN: Denetim memuru: Şöyle bir aşağı gelsen de, biraz laflasak nasıl olur?
+
+2:s02-01564000 | old
+EN: Jason: So, you want me to kill him?
+ÖNCEKİ: Jason: Ee, öldürmemi ister misin?
+SEÇİLEN: Jason: Yani, onu öldürmemi mi istiyorsun?
+
+2:s02-02201500 | old
+EN: Patron: One bogan to another.
+ÖNCEKİ: Müşteri: Bir hödükten diğerine söylüyorum.
+SEÇİLEN: Müşteri: Bir kırodan diğerine.
+
+2:s02-02228000 | old
+EN: Patron: I get it. "Eye contact"
+ÖNCEKİ: Müşteri: Anladım. "Göz göze gelmek".
+SEÇİLEN: Müşteri: Anladım. "Göz teması".
+
+2:s02-02238500 | old
+EN: Brian: Yeah. I got enough fun on my hands.
+ÖNCEKİ: Brian: Evet. Benim elimde yeterince eğlence var zaten.
+SEÇİLEN: Brian: Evet. Yeterince eğlencem var zaten.
+
+2:s02-02266500 | old
+EN: Donnie: Bri! Well, where the hell you been?
+ÖNCEKİ: Donnie: Bri! Neredesin lan sen?
+SEÇİLEN: Donnie: Bri! Eee, nerelerdeydin lan sen?
+
+2:s02-02500000 | old
+EN: Donnie: Yeah, but it don't taste the same now, does it?
+ÖNCEKİ: Donnie: Evet ama tadı aynı değildir şimdi, değil mi?
+SEÇİLEN: Donnie: Evet ama tadı artık aynı değil, öyle değil mi?
+
+2:s02-02673500 | old
+EN: Devil's Dozen Contact: Listen,
+you gotta understand the kinda people you're dealing with.
+ÖNCEKİ: Devil's Dozen bağlantısı: Dinle,
+kiminle iş yaptığınızı anlamanız lazım.
+SEÇİLEN: Devil's Dozen bağlantısı: Bak, nasıl tiplerle uğraştığını anlaman lazım.
+
+2:s02-02686500 | old
+EN: Devil's Dozen Contact: I owe 'em a favour here. That's the buy-in.
+ÖNCEKİ: Devil's Dozen bağlantısı: Onlara bir iyilik borcum var. Bu işin giriş bedeli bu.
+SEÇİLEN: Devil's Dozen bağlantısı: Onlara bir iyilik borçluyum. İşe girmenin bedeli bu.
+
+2:s02-02698500 | old
+EN: Devil's Dozen Contact: Everything we agreed.
+ÖNCEKİ: Devil's Dozen bağlantısı: Her şey anlaştığımız gibi.
+SEÇİLEN: Devil's Dozen bağlantısı: Anlaştığımız her şey.
+
+2:s02-02839000 | old
+EN: Final Chapter: Oh, this guy's so fucked.
+ÖNCEKİ: Final Chapter: Bu herifi fena sikeceğiz.
+SEÇİLEN: Final Chapter: Of, bu adam fena yarrağı yedi.
+
+2:s02-02870000 | old
+EN: Donnie: You wanna clue me in, maybe fuckin' help me out here?
+ÖNCEKİ: Donnie: Bir ipucu versen, biraz yardım etsen diyorum lan?
+SEÇİLEN: Donnie: Bana neler olduğunu anlatıp bir yardım etsene amına koyayım?
+
+2:s02-03060500 | old
+EN: Donnie: Okay, soldier boy!
+ÖNCEKİ: Donnie: Tamam komando!
+SEÇİLEN: Donnie: Tamam, asker efendi!
+
+2:s02-03318000 | old
+EN: Donnie: Oh fuck, man. What's with all the fucking questions, man?
+ÖNCEKİ: Donnie: Siktir ya abi. Ne bu kadar soru soruyorsun lan?
+SEÇİLEN: Donnie: Hay siktir, dostum. Niye bu kadar soru soruyorsun amına koyayım, dostum?
+
+2:s02-03327500 | old
+EN: Donnie: Okay, I just- I just gotta think.
+ÖNCEKİ: Donnie: Tamam, sadece- biraz düşünmem lazım.
+SEÇİLEN: Donnie: Tamam. Sadece- Sadece düşünmem lazım.
+
+2:s02-03395000 | old
+EN: Lucia: You mind?
+ÖNCEKİ: Lucia: Senin için sorun olur mu?
+SEÇİLEN: Lucia: Sakıncası var mı?
+
+2:s02-03402000 | old
+EN: Lucia: Here, help me screw in the other two legs.
+ÖNCEKİ: Lucia: Al, diğer iki ayağı vidalamama yardım et.
+SEÇİLEN: Lucia: Gel de şu diğer iki bacağı vidalamama yardım et.
+
+2:s02-03430500 | old
+EN: Jason: Now, we just... rotate these fuckers, and reattach.
+ÖNCEKİ: Jason: Şimdi şu meretleri... çevirip tekrar takacağız.
+SEÇİLEN: Jason: Şimdi, sadece... şu siktiğimin parçalarını döndüreceğiz ve tekrar takacağız.
+
+2:s02-03992500 | old
+EN: Lucia: 'Cause some of us have to work.
+ÖNCEKİ: Lucia: Çünkü bazılarımızın çalışması gerekiyor.
+SEÇİLEN: Lucia: Çünkü bazılarımız çalışmak zorunda.
+
+2:s02-03996500 | old
+EN: Lucia: Another shift on the side of the highway,
+getting soda cups thrown at my head.
+ÖNCEKİ: Lucia: Yine yol kenarında bir vardiya,
+kafama içecek bardakları fırlatıldı.
+SEÇİLEN: Lucia: Otoyol kenarında bir vardiya daha. Kafama kola bardakları fırlatılıyor.
+
+2:s02-04020500 | old
+EN: Lucia: Convicts Weekly?
+ÖNCEKİ: Lucia: Haftalık Mahkûm'a mı?
+SEÇİLEN: Lucia: Convicts Weekly mi?
+
+2:s02-04235000 | old
+EN: Mattia: Ah, all work is bullshit, bro, but when I first came here,
+I had no money, no nothing.
+ÖNCEKİ: Mattia: Çalışmak boş iş abi ama buraya ilk geldiğimde
+ne param vardı ne bir şeyim.
+SEÇİLEN: Mattia: Ah, bütün işler boktan kardeşim, ama buraya ilk geldiğimde hiç param yoktu. Hiçbir şeyim yoktu.
+
+2:s02-04254500 | old
+EN: Jason: Must be some guy.
+ÖNCEKİ: Jason: Sağlam bir adam olmalı.
+SEÇİLEN: Jason: Belli ki önemli biri.
+
+2:s02-04457500 | old
+EN: Lucia: Watch your back, bro!
+ÖNCEKİ: Lucia: Arkana dikkat et kardeşim!
+SEÇİLEN: Lucia: Arkanı kolla, kardeşim!
+
+2:s02-04862500 | old
+EN: Mattia: That's what I'm talking about. Ciao, baby, until next time,
+eh?
+ÖNCEKİ: Mattia: İşte bundan bahsediyorum. Ciao bebeğim, bir dahaki sefere görüşürüz, ha?
+SEÇİLEN: Mattia: İşte budur. Ciao bebeğim, bir dahaki sefere görüşürüz, ha?
+
+2:s02-04880500 | old
+EN: Mattia: Just dropped you a pin.
+Last one to the club pays the drinks, motherfucker.
+ÖNCEKİ: Mattia: Sana konum attım.
+Kulübe son gelen içkileri öder, orospu çocuğu.
+SEÇİLEN: Mattia: Sana konum attım. Kulübe en son gelen içkileri ısmarlar, orospu çocuğu.
+
+2:s02-04898500 | old
+EN: Jason: Punch it, babe, all the way.
+ÖNCEKİ: Jason: Bas bebeğim, sonuna kadar.
+SEÇİLEN: Jason: Bas gaza bebeğim, sonuna kadar.
+
+2:s02-04907000 | old
+EN: Jason: Think it's a left up here.
+ÖNCEKİ: Jason: Galiba az ileriden sola.
+SEÇİLEN: Jason: İleriden sola döneceğiz galiba.
+
+2:s02-04949000 | old
+EN: Mattia: Always, my brother.
+ÖNCEKİ: Mattia: Her zamanki gibi kardeşim.
+SEÇİLEN: Mattia: Her zaman, kardeşim.
+
+2:s02-05221500 | old
+EN: Brian: Get over here now.
+We got to deal with this shit once and for all,
+ÖNCEKİ: Brian: Hemen buraya gel.
+Bu boka artık kökten bir çözüm bulmalıyız,
+SEÇİLEN: Brian: Hemen buraya gel. Bu boktan meseleyi kökten halletmemiz lazım.
+
+2:s02-05354000 | old
+EN: Brian: So what you got for me, babe?
+ÖNCEKİ: Brian: Peki, benim için neyin var, bebeğim?
+SEÇİLEN: Brian: Eee, bana ne getirdin bebeğim?
+
+2:s02-05420500 | old
+EN: Brian: effin' hubristic all of a sudden?
+ÖNCEKİ: Brian: bu kadar lanet olası kendini beğenmiş birine dönüştü?
+SEÇİLEN: Brian: birdenbire bu kadar kibirlendi, lan?
+
+2:s02-05480000 | old
+EN: Brian: He was supposed to be salvaging a wreck for me out by
+the stilthouses,
+ÖNCEKİ: Brian: Benim için kazık üstündeki evlerin orada
+bir batığı çıkarması gerekiyordu,
+SEÇİLEN: Brian: Kazık evlerin orada benim için bir batıktan mal çıkarması gerekiyordu,
+
+2:s02-05634500 | old
+EN: Brian: You sure this is the right road?
+ÖNCEKİ: Brian: Doğru yol bu, emin misin?
+SEÇİLEN: Brian: Doğru yolda olduğumuzdan emin misin?
+
+2:s02-05658000 | old
+EN: Lori: You two... be careful, yourselves.
+ÖNCEKİ: Lori: Siz ikiniz... siz kendinize dikkat edin.
+SEÇİLEN: Lori: Siz ikiniz kendinize dikkat edin.
+
+2:s02-06112000 | old
+EN: Lori: My husband's comin' to get y'all!
+ÖNCEKİ: Lori: Kocam geliyor, göreceksiniz gününüzü!
+SEÇİLEN: Lori: Kocam sizi halletmeye geliyor!
+
+2:s02-06127000 | old
+EN: Doug: I want 'em gone. She's with me in the truck.
+ÖNCEKİ: Doug: Şunları halledin. Kadın benimle kamyonete gelecek.
+SEÇİLEN: Doug: Onlardan kurtulmak istiyorum. Kamyonette benimle.
+
+2:s02-06258000 | old
+EN: Lori: Kick his ass, Jason!
+ÖNCEKİ: Lori: Dağıt şunu, Jason!
+SEÇİLEN: Lori: Ağzını burnunu dağıt, Jason!
+
+2:s02-06399500 | old
+EN: Lucia: Hey, so, uh, Andy was tellin' me about this civil rights lawyer.
+ÖNCEKİ: Lucia: Hey, şey, Andy bana insan haklarıyla ilgilenen bir avukattan bahsetti.
+SEÇİLEN: Lucia: Hey, şey, ee, Andy bana şu sivil haklar avukatından bahsediyordu.
+
+2:s02-06404000 | old
+EN: Lucia: Can help move things along with Tommy, without the PO.
+ÖNCEKİ: Lucia: Denetim memuruna gerek kalmadan Tommy'nin işini hızlandırabilirmiş.
+SEÇİLEN: Lucia: Denetim memurunu karıştırmadan Tommy'yle ilgili işleri hızlandırabilir.
+
+2:s02-06486500 | old
+EN: Lucia: There's gonna be other work, right?
+ÖNCEKİ: Lucia: Başka işler olacak, değil mi?
+SEÇİLEN: Lucia: Başka işler de çıkacaktır, değil mi?
+
+2:s02-06642500 | old
+EN: Brian: I don't care how, just be discreet and far away as possible.
+ÖNCEKİ: Brian: Nasıl yaptığın umurumda değil, göze batma ve mümkün olduğunca uzağa git.
+SEÇİLEN: Brian: Nasıl olduğu umurumda değil, yeter ki göze batmadan, olabildiğince uzakta yap.
+
+2:s02-06693000 | old
+EN: Aviator: You're not gonna sucker punch me again!
+ÖNCEKİ: Havacı: Yine beni gafil avlayamayacaksın!
+SEÇİLEN: Havacı: Bana yine öyle sinsice yumruk atmayacaksın!
+
+2:s02-07005000 | old
+EN: Lucia: She said Cal's acting wild, was asking about Donnie.
+ÖNCEKİ: Lucia: Cal'in delirdiğini söyledi, Donnie'yi soruyordu.
+SEÇİLEN: Lucia: Cal'ın kontrolden çıktığını, Donnie'yi sorduğunu söyledi.
+
+2:s02-07025000 | old
+EN: Jason: The whole Donnie thing got Cal in kind of a tailspin,
+he'll be fine.
+ÖNCEKİ: Jason: Donnie meselesi Cal'i biraz sarstı,
+iyi olacak.
+SEÇİLEN: Jason: Şu Donnie meselesi Cal'ı biraz sarstı, düzelir.
+
+2:s02-07068000 | old
+EN: Lucia: God, thought you were Cal's sister again.
+ÖNCEKİ: Lucia: Tanrım, yine Cal'in kardeşi sandım.
+SEÇİLEN: Lucia: Tanrım, yine Cal'ın kız kardeşi sandım.
+
+2:s02-07191000 | old
+EN: Jason: I always liked fishing.
+ÖNCEKİ: Jason: Ben balık tutmayı hep severdim.
+SEÇİLEN: Jason: Balık tutmayı her zaman sevmişimdir.
+
+2:s02-07432000 | old
+EN: Cal: Aw, look at you guys... I love you guys.
+ÖNCEKİ: Cal: Ah, size bakın... Sizi seviyorum ben.
+SEÇİLEN: Cal: Ah, şunlara bak... Sizi seviyorum.
+
+2:s02-07466500 | old
+EN: Cal: There hasn't even been a funeral, it's weird.
+ÖNCEKİ: Cal: Cenazesi bile olmadı, tuhaf.
+SEÇİLEN: Cal: Daha cenaze bile yapılmadı, çok tuhaf.
+
+2:s02-07561500 | old
+EN: Cal: this whole fucking thing could be a plot.
+ÖNCEKİ: Cal: bütün bu siktiğimin olayı bir komplo olabilir.
+SEÇİLEN: Cal: tüm bu lanet olası mevzu bir kurgu olabilir.
+
+2:s02-07565500 | old
+EN: Cal: who's faked his own death to take over the Caribbean drug
+trade, and then like
+ÖNCEKİ: Cal: Karayipler'deki uyuşturucu ticaretini ele geçirmek için
+ölümünü tezgâhladı. Sonra da
+SEÇİLEN: Cal: Karayip uyuşturucu ticaretini ele geçirmek için kendi ölümünü sahnelemiş. Sonra da, şey
+
+2:s02-07579000 | old
+EN: Cal: Dude, I'm probably marked for death.
+ÖNCEKİ: Cal: Dostum, muhtemelen ölüm listesine girdim.
+SEÇİLEN: Cal: Dostum, muhtemelen ölüm fermanım yazıldı.
+
+2:s02-07647500 | old
+EN: Jason: It's fucked up, I know. That's why I didn't wanna say.
+ÖNCEKİ: Jason: Korkunç, biliyorum. O yüzden söylemek istemedim.
+SEÇİLEN: Jason: Boktan bir şey. Biliyorum. O yüzden söylemek istemedim.
+
+2:s02-07799500 | old
+EN: Lucia: Anyway, not totally free yet.
+Still got this fucking ankle bracelet on.
+ÖNCEKİ: Lucia: Hem daha tamamen özgür değilim.
+Şu siktiğimin kelepçesi hâlâ ayağımda.
+SEÇİLEN: Lucia: Her neyse, henüz tam özgür değilim. Hâlâ şu siktiğimin elektronik kelepçesi ayağımda.
+
+2:s02-07925500 | old
+EN: Cal: We're just chillin', what?
+ÖNCEKİ: Cal: Takılıyoruz işte, ne?
+SEÇİLEN: Cal: Takılıyoruz işte, ne var ki?
+
+2:s02-08094000 | old
+EN: Cal: My bad, bro. I seriously fucked up there, didn't I?
+ÖNCEKİ: Cal: Kusura bakma kardeşim. Fena bok yedim, değil mi?
+SEÇİLEN: Cal: Kusura bakma kardeşim. Orada fena çuvalladım, değil mi?
+
+2:s02-08155500 | old
+EN: Lucia: I need you to listen to me.
+ÖNCEKİ: Lucia: Beni dinlemeni istiyorum.
+SEÇİLEN: Lucia: Beni dinlemen lazım.
+
+2:s02-08179500 | old
+EN: Lucia: Hm. I don't know what's going on with you that you can't
+see that.
+ÖNCEKİ: Lucia: Hım. Derdin ne bilmiyorum ki bunu göremiyorsun.
+SEÇİLEN: Lucia: Hm. Neyin var da bunu göremiyorsun, bilmiyorum.
+
+2:s02-08239000 | old
+EN: Lucia: C'mon, let's go to bed.
+ÖNCEKİ: Lucia: Hadi, yatağa gidelim.
+SEÇİLEN: Lucia: Hadi, yatalım artık.
+
+2:s02-08296500 | old
+EN: Lucia: They're ready when we are.
+ÖNCEKİ: Lucia: Biz ne zaman istersek hazırlar.
+SEÇİLEN: Lucia: Biz hazır olduğumuzda onlar da hazır.
+
+2:s02-08298000 | old
+EN: Lucia: Come pick me up at work, or meet me at home later?
+ÖNCEKİ: Lucia: Beni işten alırsın ya da sonra evde buluşuruz?
+SEÇİLEN: Lucia: Beni işten almaya gelir misin, yoksa sonra evde mi buluşalım?
+
+3:s03-00014500 | old
+EN: Jason: Let's go. If Kat says they're ready, let's do it.
+ÖNCEKİ: Jason: Hadi yapalım. Kat hazırlar diyorsa girişelim şu işe.
+SEÇİLEN: Jason: Hadi gidelim. Kat hazır olduklarını söylüyorsa, yapalım şu işi.
+
+3:s03-00187500 | old
+EN: Mattia: Nothing is wrong. You'll be fine, and, uh, we'll be here.
+ÖNCEKİ: Mattia: Hiçbir şey ters gitmiyor. Sorun çıkmaz, biz de burada olacağız.
+SEÇİLEN: Mattia: Bir sorun yok. İyi olacaksın ve, şey, burada olacağız.
+
+3:s03-00336000 | old
+EN: Lucia: Watch your fuckin' hands!
+ÖNCEKİ: Lucia: Eline sahip ol lan!
+SEÇİLEN: Lucia: Elini kolunu akıllı tut amına koyayım!
+
+3:s03-00409000 | old
+EN: Galecki: Bullshit. Don't play stupid with me.
+ÖNCEKİ: Galecki: Yalan. Bana salağa yatma.
+SEÇİLEN: Galecki: Sallama. Bana aptal ayağı yapma.
+
+3:s03-00564500 | old
+EN: Cop: You fucking-
+Shut up!
+ÖNCEKİ: Polis: Seni lanet-
+Kes sesini!
+SEÇİLEN: Polis: Seni siktiğimin- Kapa çeneni!
+
+3:s03-00688000 | old
+EN: Jason: Shit, straight ahead!
+ÖNCEKİ: Jason: Siktir, dümdüz git!
+SEÇİLEN: Jason: Siktir, tam karşıda!
+
+3:s03-00995500 | old
+EN: Jason: and get out. They're gonna come looking.
+ÖNCEKİ: Jason: ve kaç. Aramaya gelecekler.
+SEÇİLEN: Jason: ve çık git. Peşimize düşecekler.
+
+3:s03-01089500 | old
+EN: Lucia: Take this. Make sure it stays close to him.
+What, why? Why?
+ÖNCEKİ: Lucia: Bunu al. Yanından ayrılmadığından emin ol.
+Ne, neden? Neden?
+SEÇİLEN: Lucia: Al bunu. Hep onun yanında olsun. Ne, neden? Neden?
+
+3:s03-01155000 | old
+EN: Gang Member: Mattia ask you to take for him, you take, yes?
+ÖNCEKİ: Çete üyesi: Mattia onun için almanı istedi, aldın, evet?
+SEÇİLEN: Çete üyesi: Mattia onun için almanı istedi, aldın, değil mi?
+
+3:s03-01260500 | old
+EN: Police: Neighbors said guy who lived here was pretty much a
+loner.
+ÖNCEKİ: Polis: Komşular burada yaşayan adamın bayağı içine kapanık
+olduğunu söyledi.
+SEÇİLEN: Polis: Komşular, burada yaşayan adamın yalnız takılan biri olduğunu söyledi.
+
+3:s03-02082000 | old
+EN: Jason: My heart might explode.
+ÖNCEKİ: Jason: Kalbim patlayacak gibi.
+SEÇİLEN: Jason: Kalbim yerinden çıkacak gibi.
+
+3:s03-02150000 | old
+EN: Jason: Lu, no flashing lights. Just blacked out SUVs.
+ÖNCEKİ: Jason: Lu, çakarları yok. Sadece camları kapkara SUV'ler.
+SEÇİLEN: Jason: Lu, çakar yanmıyor. Sadece karartılmış SUV'lar.
+
+3:s03-02344000 | old
+EN: Jason: What's he saying? That's the guy he had killed.
+A proud and
+ÖNCEKİ: Jason: Ne diyor bu? O adamı öldürten kendisiydi.
+Gururlu ve
+SEÇİLEN: Jason: Ne diyor bu? Öldürttüğü adam bu. Gururlu ve
+
+3:s03-02564000 | old
+EN: Linda: And I'll write you up for vandalizing the property. Again.
+ÖNCEKİ: Linda: Ben de mala zarar vermekten seni şikâyet ederim. Yine.
+SEÇİLEN: Linda: Ve mülke zarar verdiğin için hakkında tutanak tutacağım. Yine.
+
+3:s03-02583000 | old
+EN: Linda: I want rent, plus ten percent for the trouble. Like,
+right now.
+ÖNCEKİ: Linda: Kirayı istiyorum, çıkardığınız sıkıntı için de yüzde on fazlasını.
+Hem de hemen.
+SEÇİLEN: Linda: Kira istiyorum, bir de zahmet payı olarak yüzde on. Hemen şimdi.
+
+3:s03-02639500 | old
+EN: Linda: The crap I have to put up with...
+ÖNCEKİ: Linda: Uğraştığım saçmalıklara bak...
+SEÇİLEN: Linda: Katlanmak zorunda kaldığım şu pisliğe bak...
+
+3:s03-03022500 | old
+EN: Lucia: I got them from Vicki, the girl from a few doors down.
+ÖNCEKİ: Lucia: Birkaç oda ilerideki Vicki'den aldım.
+SEÇİLEN: Lucia: Onları birkaç kapı ötedeki Vicki'den aldım.
+
+3:s03-03090500 | old
+EN: Vicki: As a former "fuckin' junkie," I don't keep that shit in my
+place anymore, okay?
+ÖNCEKİ: Vicki: Eski bir "keş" olarak, artık evde o boku tutmuyorum,
+tamam mı?
+SEÇİLEN: Vicki: Eski bir "sikik keş" olarak, o boku artık evimde tutmuyorum, tamam mı?
+
+3:s03-03169000 | old
+EN: Vicki: Oh, cool. Makes sense. No follow up questions here.
+ÖNCEKİ: Vicki: Ha, güzel. Anladım. Başka soru sormuyorum.
+SEÇİLEN: Vicki: Oh, ha süper. Mantıklı. Başka soru sormaya gerek yok.
+
+3:s03-03218000 | old
+EN: Vicki: There she is, the ol' breadwinner.
+ÖNCEKİ: Vicki: İşte orada, bizim ekmek kapısı.
+SEÇİLEN: Vicki: İşte orada, bizim emektar ekmek teknemiz.
+
+3:s03-03280000 | old
+EN: Vicki: I'm gonna tip out the DJ, tip out the doorman.
+ÖNCEKİ: Vicki: DJ'e vereceğim, kapıcıya vereceğim.
+SEÇİLEN: Vicki: DJ'e de bahşiş vereceğim, kapıdaki adama da.
+
+3:s03-03333500 | old
+EN: Vicki: Yeah, that's the least you could do for a vet like me.
+ÖNCEKİ: Vicki: Evet, benim gibi kıdemli biri için en azından bunu yapabilirsin.
+SEÇİLEN: Vicki: Evet, benim gibi bir emektar için yapabileceğin en az şey bu.
+
+3:s03-03398000 | old
+EN: Lucia: Hey... you know where I can get some new clothes?
+ÖNCEKİ: Lucia: Hey... Yeni giysi nereden bulabilirim, biliyor musun?
+SEÇİLEN: Lucia: Hey... yeni kıyafet bulabileceğim bir yer biliyor musun?
+
+3:s03-03404500 | old
+EN: Vicki: Woof. Been there, sister.
+ÖNCEKİ: Vicki: Of. Bilirim o hâli bacım.
+SEÇİLEN: Vicki: Off. O yollardan ben de geçtim, bacım.
+
+3:s03-03411000 | old
+EN: Vicki: The gems only find you if you're willing to dig for 'em.
+ÖNCEKİ: Vicki: Eşelemeye razı olursan güzel parçalar da seni bulur.
+SEÇİLEN: Vicki: Güzel parçalar, ancak didik didik aramaya razıysan karşına çıkar.
+
+3:s03-03424500 | old
+EN: Vicki: Kolt & Associates. They're a big pill gang around here.
+ÖNCEKİ: Vicki: Kolt ve Ortakları. Buralarda büyük bir hap çetesi.
+SEÇİLEN: Vicki: Kolt & Associates. Buralarda büyük bir hap çetesi.
+
+3:s03-03451000 | old
+EN: Vicki: They have a bunch of stash houses around here.
+ÖNCEKİ: Vicki: Buralarda mal sakladıkları bir sürü ev var.
+SEÇİLEN: Vicki: Buralarda bir sürü zula evi var.
+
+3:s03-03457000 | old
+EN: Vicki: Unless, of course, you want to get shot in the face.
+ÖNCEKİ: Vicki: Tabii suratına kurşun yemek istemiyorsan.
+SEÇİLEN: Vicki: Tabii yüzüne kurşun yemek istiyorsan, o başka.
+
+3:s03-03501500 | old
+EN: Vicki: Sounds wholesome. Thanks.
+ÖNCEKİ: Vicki: Ne güzel, ne masum. Sağ olun.
+SEÇİLEN: Vicki: Ne kadar da masum. Sağ ol.
+
+3:s03-03593000 | old
+EN: Vicki: Oh I know you do, Spartan. Can't wait to hear all about it.
+ÖNCEKİ: Vicki: Halledeceğini biliyorum Spartalı. Neler olduğunu anlatmanı sabırsızlıkla bekliyorum.
+SEÇİLEN: Vicki: Ah, halledeceğini biliyorum, Spartan. Anlatacaklarını duymak için sabırsızlanıyorum.
+
+3:s03-03680000 | old
+EN: Vicki: So stupid it hurts.
+ÖNCEKİ: Vicki: Bu kadar aptallık can yakıyor.
+SEÇİLEN: Vicki: Acı verecek kadar aptalca.
+
+3:s03-03710500 | old
+EN: Vicki: As you can see, he's got some PTSD from the war.
+ÖNCEKİ: Vicki: Gördüğünüz gibi savaştan kalma biraz travması var.
+SEÇİLEN: Vicki: Gördüğünüz gibi, savaş yüzünden travma sonrası stres bozukluğu var.
+
+3:s03-03756000 | old
+EN: Vicki: C'mon honey, earn that scampi. Push.
+ÖNCEKİ: Vicki: Hadi tatlım, karidesi hak et. İt.
+SEÇİLEN: Vicki: Hadi tatlım, şu karidesin hakkını ver. İt.
+
+3:s03-03817000 | old
+EN: Dunk: They mix 'em with all sorts of sketchy shit,
+ÖNCEKİ: Dunk: İçlerine her türlü şüpheli boku karıştırıyorlar,
+SEÇİLEN: Dunk: İçlerine ne idüğü belirsiz her türlü boku katıyorlar,
+
+3:s03-03846500 | old
+EN: Dunk: Thank you for getting me outta there!
+ÖNCEKİ: Dunk: Beni oradan kurtardığın için asıl ben sağ ol diyeyim!
+SEÇİLEN: Dunk: Beni oradan çıkardığın için sağ ol!
+
+3:s03-03931000 | old
+EN: Vicki: Urgh, so sorry about that.
+ÖNCEKİ: Vicki: Of, bunun için çok üzgünüm.
+SEÇİLEN: Vicki: Ah, kusura bakma.
+
+3:s03-04796000 | old
+EN: Moses: I don't know nothing about you 'cept you got a name,
+and a ride that ain't yours.
+ÖNCEKİ: Moses: Senin hakkında bir adın olduğunu,
+bir de sana ait olmayan bir araban olduğunu biliyorum sadece.
+SEÇİLEN: Moses: Senin hakkında bir ismin ve sana ait olmayan bir araban dışında hiçbir şey bilmiyorum.
+
+3:s03-04880000 | old
+EN: Moses: One thing I don't do is trackers.
+ÖNCEKİ: Moses: Takip cihazı olanlarla uğraşmam.
+SEÇİLEN: Moses: Ben takip cihazlı araçlarla uğraşmam.
+
+3:s03-04934500 | old
+EN: Moses: Yup, that's mine...
+ÖNCEKİ: Moses: Evet, o benim...
+SEÇİLEN: Moses: Evet, o benimki...
+
+3:s03-05026500 | old
+EN: Lucia: Yeah. Pretty much.
+ÖNCEKİ: Lucia: Evet. Gayet iyi.
+SEÇİLEN: Lucia: Evet, hemen hemen.
+
+3:s03-05052500 | old
+EN: Moses: Just this once, I'll get your ride registered for you on the
+house.
+ÖNCEKİ: Moses: Sadece bu seferlik, arabanın ruhsatını bedavaya
+çıkaracağım.
+SEÇİLEN: Moses: Sadece bu seferlik, aracının kaydını ben halledeceğim, benden olsun.
+
+3:s03-05180000 | old
+EN: Lucia: He got us a new ride and should have some other work,
+too.
+ÖNCEKİ: Lucia: Bize yeni bir araba ayarladı, başka işler de
+ayarlayabilir.
+SEÇİLEN: Lucia: Bize yeni bir araç buldu, başka işleri de olmalı.
+
+3:s03-05635000 | old
+EN: Lucia: Just give him a kiss from me.
+ÖNCEKİ: Lucia: Benim için bir öpücük ver ona.
+SEÇİLEN: Lucia: Benden ona bir öpücük kondur.
+
+3:s03-05696000 | old
+EN: Dunk: My people are talking to his people kinda thing.
+ÖNCEKİ: Dunk: Benim adamlar onun adamlarla konuşuyor falan işte.
+SEÇİLEN: Dunk: Benimkiler onun adamlarıyla falan konuşuyor tarzı bir şey.
+
+3:s03-05872500 | old
+EN: Guard: Forever on what? What you waitin' on?
+ÖNCEKİ: Koruma: Neyi halledemedi? Ne bekliyorsun ki?
+SEÇİLEN: Koruma: Bu kadar süren ne? Neyi bekliyorsun?
+
+3:s03-06282000 | old
+EN: Lucia: How soon?
+ÖNCEKİ: Lucia: Ne kadar birazdan?
+SEÇİLEN: Lucia: Ne kadar sürede?
+
+3:s03-06573500 | old
+EN: Kolt & Associates: Don't know... driver's pretty hot, though.
+ÖNCEKİ: Kolt ve Ortakları: Bilmem... Ama şoför epey taşmış.
+SEÇİLEN: Kolt ve Ortakları: Bilmiyorum. Ama sürücü bayağı ateşli.
+
+3:s03-06612500 | old
+EN: Dr. Bill: Barbara Kolt sends me a Christmas card, for Pete's sake.
+ÖNCEKİ: Dr. Bill: Barbara Kolt bana Noel kartı gönderiyor, aşk olsun.
+SEÇİLEN: Dr. Bill: Barbara Kolt bana Noel kartı gönderiyor, Allah aşkına.
+
+3:s03-06618500 | old
+EN: Lucia: A lot of fucking guys here, Bill.
+ÖNCEKİ: Lucia: Çok fazla adam var burada, Bill.
+SEÇİLEN: Lucia: Burada çok adam var amına koyayım, Bill.
+
+4:s04-03639000 | old
+EN: Lucia: Sorry.
+ÖNCEKİ: Lucia: Üzgünüm.
+SEÇİLEN: Lucia: Kusura bakma.
+
+4:s04-05250000 | old
+EN: Lucia: Why you out so late? Come to bed.
+ÖNCEKİ: Lucia: Niye bu kadar geç kaldın? Gel yatağa.
+SEÇİLEN: Lucia: Bu geç saatte dışarıda ne arıyorsun? Yatağa gel.
+
+4:s04-09265000 | old
+EN: Raul: Hey, you there?
+ÖNCEKİ: Raul: Hey, orada mısın?
+SEÇİLEN: Raul: Alo, orada mısın?
+
+4:s04-09876500 | old
+EN: Bae-Luxe: Who?
+ÖNCEKİ: Bae-Luxe: Kimin?
+SEÇİLEN: Bae-Luxe: Kim...
+
+5:s05-02435000 | old
+EN: Thief: Oh, shit!
+ÖNCEKİ: Hırsız: Hay sıçayım!
+SEÇİLEN: Hırsız: Hassiktir!
+
+5:s05-03346000 | old
+EN: Security Guard: Stop running!
+ÖNCEKİ: Güvenlik görevlisi: Koşma!
+SEÇİLEN: Güvenlik görevlisi: Kaçmayı bırak!
+
+7:s07-07482000 | corrected
+EN: Lucia: Go...
+ÖNCEKİ: Lucia: Cehennemin...
+SEÇİLEN: Lucia: Git...
+
+7:s07-07596500 | old
+EN: Andrea: We're good!
+ÖNCEKİ: Andrea: Tamamız!
+SEÇİLEN: Andrea: Sorun yok.
+
+8:s08-01432500 | corrected
+EN: Kordell: How's that?
+ÖNCEKİ: Kordell: Nasıl böyle?
+SEÇİLEN: Kordell: Böyle nasıl?
+
+8:s08-04125500 | old
+EN: Lucia: Get the fuck off me!
+ÖNCEKİ: Lucia: Siktir git üstümden!
+SEÇİLEN: Lucia: Çekil üstümden amına koyayım!
+
+8:s08-07176500 | old
+EN: Jason: Yo.
+ÖNCEKİ: Jason: Efendim.
+SEÇİLEN: Jason: Selam.
+
+9:s09-00847000 | old
+EN: Lucia: Fuck it. Okay.
+ÖNCEKİ: Lucia: Sikmişim. Tamam.
+SEÇİLEN: Lucia: Siktir et, tamam!
+
+9:s09-05737000 | old
+EN: Liz: Oh, shit.
+ÖNCEKİ: Liz: Oha.
+SEÇİLEN: Liz: Hassiktir!

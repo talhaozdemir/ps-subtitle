@@ -1,0 +1,26 @@
+﻿1–8. BÖLÜMLER — CÜMLE DEVAMI KONTROLÜ
+21 Kasım 2026
+
+Toplam 22547 mevcut İngilizce/Türkçe kayıt zaman sırasıyla okundu.
+154 kayıt düzeltildi: 153 Türkçe, 1 İngilizce.
+
+Bölüm | Okunan kayıt | Düzeltilen kayıt | Doğru paket eşleşmesi | Güvenli dışlama
+01 | 2943 | 29 | 2943 | 0
+02 | 2054 | 28 | 2054 | 0
+03 | 2853 | 19 | 2853 | 0
+04 | 2504 | 14 | 2504 | 0
+05 | 2072 | 7 | 2072 | 0
+06 | 2603 | 9 | 2603 | 0
+07 | 2273 | 12 | 2273 | 0
+08 | 5245 | 36 | 5242 | 3
+
+Ekranlar arasında devam eden cümleler beraber değerlendirildi. Asılı yüklemler, karşılaştırmalar, koşullar, soru devamları ve zamir göndermeleri doğal Türkçe akışına göre düzeltildi. Araya giren başka konuşmacılar ve etiketsiz yanıtlar korundu. Değiştirilen/şüpheli zincirler kaynak karelerden doğrulandı. İngilizce/Türkçe TXT, JSON, yaklaşık SRT ve format-2 paketler yeniden oluşturuldu.
+
+Noktalama kaldırıldığında farklı bağlamları aynı anahtara dönüşen kısa replikler çift dilli dosyalarda ayrı tutulur; yanlış Türkçe göstermemeleri için belirsiz paket anahtarları ve yedekleri dışlanır. Gerçek uygulama okuyucusunda tüm kesin kayıtlar doğru eşleşti, dışlananların yanlış bir yedeğe dönmediği kontrol edildi.
+
+Videoların sınırlarında açık kalan cümle bulunmadı. Siyah bantla gizlenen kelimeler uydurulmadı. Birinci bölümde p01-01047 (where they work out...) parçasının eksik bağlamı mevcut görüntülerden çözülemediği için tahminle değiştirilmedi.
+
+Bu denetim mevcut çıkarılmış metne yöneliktir; baştan OCR taraması veya son altyazı zaman senkronu değildir.
+
+Bölüm bazında önce/sonra ve gerekçeler: part-XX/continuation-review.json
+Toplu makine raporu: continuation-review-summary.json

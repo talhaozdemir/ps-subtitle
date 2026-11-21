@@ -1,0 +1,312 @@
+﻿NPC / KONUŞMACI İSİM RENKLERİ
+
+1–9. bölümlerde ekranda görünen isim ve rol etiketlerinin gözlenen renkleri. Aynı isim/rol birden fazla renkte olabilir. Asıl bilgi her repliğin dialogues.json → speaker_labels → color_occurrences alanındadır. Aynı karedeki iki Polis etiketi de ayrı tutulur.
+
+HEX değerleri video pikselinden yaklaşık örneklerdir; oyunun kesin paleti değildir. Gözle renk ailesi görülen ama sayısal ölçüm yapılamayan yerlerde HEX boş bırakılır. Görünmeyen veya seçilemeyen etiketler tahmin edilmez.
+
+Toplam 26624 isim/rol görünümü: 26505 ölçülen, 115 gözle tanımlanan, 4 belirsiz.
+
+Abe | Abe | Nane yeşili #9AEDCE; Pembe #F2ADB7; Sarı #CFDC89; Mor / lila #EDB3EC; Turkuaz / açık mavi #BAE6E1; Turuncu / şeftali #837366; Beyaz #E0EDD8; Açık yeşil #D4F2C3
+Abel | Abel | Nane yeşili #B7E5DB; Turkuaz / açık mavi #B9E6E1
+Addict | Bağımlı | Nane yeşili #9EECCF; Turuncu / şeftali #E8B680; Sarı #D1DB8D; Pembe #EFAFBA; Mor / lila #E9B3EA; Açık yeşil #D2F3C6
+Andre | Andre | Turuncu / şeftali #F2B378
+Andrea | Andrea | Sarı #D0DD8B; Nane yeşili #9AEECE; Açık yeşil #D5FACA; Mor / lila #EDB3EF; Pembe #F3ADB7; Beyaz #DEE9D8; Turkuaz / açık mavi #BAE6E3; Yeşil #8F9B7B; Turuncu / şeftali #F0B67C
+Andrew | Andrew | Açık yeşil #D0F4C7; Nane yeşili #A9EDD2; Beyaz #E1EED8; Yeşil #93AD8E
+Andrés | Andrés | Sarı #CFDD88; Nane yeşili #BBE7DE; Pembe #F2ADB7; Turkuaz / açık mavi #BBE7E1; Açık yeşil #D6FBCA; Mor / lila #F1B3F2; Sarı-yeşil (HEX ölçülmedi); Turuncu / şeftali #F0B578
+Andy | Andy | Sarı #D3DE9D; Açık yeşil #AAEDCD; Nane yeşili #AAECD4; Turuncu / şeftali #EBB780; Mor / lila #E9B8E8; Beyaz #DEECD8
+Annabelle | Annabelle | Nane yeşili #BAE6DC
+Antonia | Antonia | Sarı #D0DF99
+Arlo | Arlo | Açık yeşil #D7FACB
+Arnold | Arnold | Açık yeşil #D5F6C8; Beyaz #E2ECD6; Sarı #B7C39B
+Assistant | Asistan | Sarı #D3DB98; Nane yeşili #9BEED0; Mor / lila #E7B4E7; Açık yeşil #9CECC9
+Attendant | Görevli | Açık yeşil #D9FAC9
+Automated Voice | Otomatik ses | Turuncu / şeftali #EDB87E
+Aviator | Havacı | Nane yeşili #9CECD0; Açık yeşil #D4F7C7; Mor / lila #E7B9E7; Pembe #EDB4BC; Turuncu / şeftali #E9B681; Turkuaz / açık mavi #BCE4DF; Beyaz #DAEEDB; Yeşil #95AA85
+Bachelorette | Bekârlığa veda konuğu | Mor / lila #E9B7E8; Nane yeşili #BAE8DD
+Baddie | Güzel kız | Açık yeşil #D6F9C9
+Bae-Luxe | Bae-Luxe | Nane yeşili #A5EAD3; Sarı #D1DC8E; Turuncu / şeftali #EDB77E; Pembe #F0AEB7; Açık yeşil #9CEEC9; Mor / lila #EBB4E8; Turkuaz / açık mavi #BBE5E1
+Baggage staff | Bagaj görevlisi | Nane yeşili #BAE6DE
+Band | Müzik grubu | Nane yeşili #ABEDD4
+Bartender | Barmen | Turuncu / şeftali #EFB580; Nane yeşili #BBE7DE; Sarı #D0DD9E; Mor / lila #EFB4F1; Açık yeşil #D6FBCA; Turkuaz / açık mavi #BAE6E0
+Bert | Bert | Açık yeşil #C2E1B5; Beyaz #E1EDDC; Turuncu / şeftali #E7BA90; Nane yeşili #C1ECE5; Turkuaz / açık mavi #BBE1E2
+Big Mike | Big Mike | Mor / lila #ECB3EC
+Billy | Billy | Pembe #EBADB6; Nane yeşili #B9E6DC; Turkuaz / açık mavi #BBE6E1; Açık yeşil #9AEDCA
+Bledar | Bledar | Turuncu / şeftali #F1B57A; Açık yeşil #D4FAC9; Nane yeşili #BBE7DE
+Bones | Bones | Açık yeşil #D7F8CA; Beyaz #DCE5D7; Sarı #D7DE9B
+Boobie | Boobie | Nane yeşili #A3EDCF; Açık yeşil #A6EDCB; Mor / lila #EDB5ED; Sarı #D0DC8C; Turkuaz / açık mavi #BBE5E1
+Both | İkisi birden | Mor / lila #EDB3EC
+Bouncer | Kapı görevlisi | Turuncu / şeftali #EEB77F; Pembe #F2ADB4; Nane yeşili #9BEFCC; Mor / lila #EEB4F1; Açık yeşil #9AEFCA
+Brian | Brian | Mor / lila #EAB3E9; Turuncu / şeftali #E8B884; Nane yeşili #B9E6DC; Sarı #D5DD9F; Açık yeşil #AEECCF; Turkuaz / açık mavi #BBE6E1; Beyaz #C6D8D2; Pembe #E7B2BA
+Briana | Briana | Açık yeşil #98EFC7; Sarı #D0DE89; Nane yeşili #9AEDCF
+Bride | Gelin | Nane yeşili #B9E6DE; Turkuaz / açık mavi #BBE2E5; Beyaz #C8DBD8
+Brittney | Brittney | Turuncu / şeftali #E8BB88; Sarı #D2DC8A
+Burim | Burim | Açık yeşil #D9F9CA; Sarı #D2DC88
+Bush | Bush | Açık yeşil #98EEC8; Sarı #D1DD89; Nane yeşili #99EECD; Pembe #ECAFB7
+Buyer | Alıcı | Sarı #D1DC8F
+Bystander | Çevredeki kişi | Mor / lila #EEB3EE
+Cal | Cal | Pembe #E6B2B8; Mor / lila #EAB4EB; Sarı #D1DB91; Beyaz #C9DAD5; Turuncu / şeftali #E7BB93; Nane yeşili #819C97; Açık yeşil #D8FBC9; Turkuaz / açık mavi #B5DFDB; Kırmızı #A86350; Mavi #7B8DA1; Gri #B1BBB7
+Caller | Arayan kişi | Nane yeşili #9DEDD1; Açık yeşil #9EEDCB
+Cameron | Cameron | Turkuaz / açık mavi #B3DAD7; Nane yeşili #C0ECE5; Beyaz #C5DBD9; Turuncu / şeftali #AA8574
+Camila | Camila | Pembe #F1AEB6
+Cartel member | Kartel üyesi | Nane yeşili #9CEFD0
+Cash City | Cash City | Pembe #F1AFB6
+Cash City Gang | Cash City çetesi | Pembe #A14C7C; Açık yeşil #CEF4C8; Sarı #D2DB8C; Yeşil #A6BC98; Nane yeşili #A4EED0; Mor / lila #E7B4E9
+Cash City Member | Cash City üyesi | Pembe #EDAEB9; Turuncu / şeftali #E3BA81
+Castro | Castro | Nane yeşili #B9E6DC; Turkuaz / açık mavi #B9E6E3
+Ceecee | Ceecee | Açık yeşil #D7FBCA; Beyaz #DFF1D9
+Charles | Charles | Açık yeşil #DAF9CC; Beyaz #DBE9D7; Yeşil #819479; Sarı #F1FBCB; Turuncu / şeftali #86735E
+Chester | Chester | Açık yeşil #D9F6C8; Turuncu / şeftali #EAB680; Mor / lila #EAB3EB
+Clerk | Danışma görevlisi, Kasiyer, Satış görevlisi, Tezgâhtar | Mor / lila #E9B7EA; Turuncu / şeftali #E7B98D; Pembe #EAB3BC; Sarı #D5DFA0; Nane yeşili #BAE4DC; Açık yeşil #DDF2C8; Turkuaz / açık mavi #B8E6E0; Lila / pembe-mor (HEX ölçülmedi)
+CO Johnson | Gardiyan Johnson | Açık yeşil #D4F5C7
+CO Wilson | Gardiyan Wilson | Turuncu / şeftali #E7BC92
+Coastguard | Sahil güvenlik | Sarı #D3DB97; Nane yeşili #BBE8DE; Pembe #EAAFB5
+Connie | Connie | Mor / lila #E7B9E6
+Construction Worker | İnşaat işçisi | Açık yeşil #D7FBCB
+Contact | Bağlantı | Açık yeşil #D7FACB
+Cop | Polis | Nane yeşili #AEEED7; Turuncu / şeftali #EBB784; Mor / lila #EDB4EB; Sarı #D2DC8F; Pembe #E9AFB9; Açık yeşil #D7FACB; Beyaz #CADDD9; Turkuaz / açık mavi #BCE5E2; Kırmızı #B02032
+Criminal | Suçlu | Pembe #EAAEB6; Açık yeşil #D8F7C9; Turkuaz / açık mavi #BEE9E3
+Crowd member | Kalabalıktan biri | Sarı #CFDC85; Mor / lila #EDB3F0
+Crowex Dealer | Crowex satıcısı | Mor / lila #EFB3EE
+Customer | Müşteri | Pembe #E5B3BC; Açık yeşil #CEF4C2
+César | César | Pembe #F0AFB8; Sarı #D1DD8C; Nane yeşili #9EEECF; Açık yeşil #9BEEC7
+Damien | Damien | Nane yeşili #B9E6DE; Turuncu / şeftali #EFB67A; Turkuaz / açık mavi #BBE6E1
+Dancer | Dansçı | Nane yeşili #9BECCF; Açık yeşil #A2ECCB
+Danny | Danny | Sarı #B3B695; Turuncu / şeftali #DEBA8B
+Dardan | Dardan | Sarı #CFDC87; Pembe #F1ADB6; Açık yeşil #D5F9C8; Nane yeşili #96EECA; Beyaz #DFEBDA; Turuncu / şeftali #EFB67B
+Dealer | Satıcı | Pembe #E5B1B1; Sarı #D3DE91; Turuncu / şeftali #E7B77F
+Deputy | Şerif yardımcısı | Nane yeşili #97EECB
+Detective | Dedektif | Nane yeşili #9AEFCF
+Devil's Dozen Contact | Devil's Dozen bağlantısı | Turuncu / şeftali #ECB67E
+Devin | Devin | Nane yeşili #AEEDD3
+Dice | Dice | Pembe #F2ADB6
+Director | Yönetmen | Pembe #E9AFB9
+Dirty cop | Yolsuz polis | Mor / lila #E9B3E9
+Dirty Cop | Yolsuz polis | Nane yeşili #BAE7DE; Turkuaz / açık mavi #B9E7E3
+Dispatch | Merkez | Pembe #EDAFB7; Mor / lila #EBB2EA; Turkuaz / açık mavi #BBE6E0; Nane yeşili #C1ECE2
+Dispatcher | Hava trafik kontrolü | Nane yeşili #9CECCE
+DJ | DJ | Pembe #EFACB1; Nane yeşili #95EECB
+Dobbs | Dobbs | Sarı #D2E0A0
+Donatello | Donatello | Mor / lila #F1B3F0; Turuncu / şeftali #F1B576
+Donatello's Assistant | Donatello'nun asistanı | Nane yeşili #BBE8E0
+Donatello's assistant | Donatello'nun asistanı | Açık yeşil #99EFC8; Nane yeşili #9AEDCD
+Donnie | Donnie | Mor / lila #EAB9E7; Açık yeşil #D9F9CA; Turuncu / şeftali #E9BB8F; Beyaz #DDEBD8; Nane yeşili #AEEED5; Yeşil #869C7F; Turkuaz / açık mavi #B2D6D2; Sarı #9F947A; Pembe #CC8296
+Dook | Dook | Turuncu / şeftali #ECB882; Beyaz #DEECD8; Sarı #D1DB89; Yeşil #9CB491; Açık yeşil #D6FBC8
+Doorman | Kapı görevlisi | Nane yeşili #9DEDD0
+Dorean | Dorean | Sarı #D3E1A1; Pembe #EAB6B3
+Doug | Doug | Pembe #ECADB7
+Dr. Bill | Dr. Bill | Nane yeşili #BBE5DC; Turkuaz / açık mavi #BCE6E0; Beyaz #C8DBD7
+Dre'Quan | Dre'Quan | Mor / lila #EDB3EE; Turuncu / şeftali #ECB67D; Nane yeşili #9BEECF; Açık yeşil #D7FBCA; Pembe #F1AEB8; Sarı #D0DB8B; Beyaz #DCE6D7; Turkuaz / açık mavi #BBE6E2; Yeşil #7F997E; Kırmızı #87746E
+Driver | Sürücü, Şoför | Nane yeşili #ABECD6; Turuncu / şeftali #EEB77D; Açık yeşil #ADEDD2; Pembe #EAB3AE; Turkuaz / açık mavi #BAE5E0
+Dunk | Dunk | Pembe #EBAEB6; Mor / lila #EBB2EC; Turuncu / şeftali #DCB68C; Nane yeşili #BCE7DE; Yeşil #7F9173; Sarı #9A987A; Açık yeşil #DAF5C9; Beyaz #DDE7D3
+DWNPLY | DWNPLY | Nane yeşili #BAE7DD; Mor / lila #F1B2F1; Turuncu / şeftali #E1B78A; Turkuaz / açık mavi #BBE7E1; Açık yeşil #9BECC7
+Eddie | Eddie | Mor / lila #F0B4EE
+EJ | EJ | Beyaz #D8E5D3; Açık yeşil #DAF6CA; Yeşil #91A486
+Elonzo | Elonzo | Mor / lila #EEB3F0; Nane yeşili #98EECD; Sarı #CFDB88; Pembe #F2AFB7; Turuncu / şeftali #F2B77B; Açık yeşil #9BEFCA
+Emelda | Emelda | Turuncu / şeftali #F2B678
+Employee | Çalışan | Mor / lila #EDB3EC
+Enemy | Düşman | Turuncu / şeftali #EDB77C; Sarı #D1DC8C; Nane yeşili #98EDCE; Pembe #F1ABB5
+Enemy Leader | Düşman lideri | Turuncu / şeftali #F1B77A; Nane yeşili #99EFCD
+Erjon | Erjon | Mor / lila #EDB1EF; Sarı #CEDA86
+Ernesto | Ernesto | Nane yeşili #BBE7DF
+Evelyn | Evelyn | Mor / lila #EDB3EE; Pembe #EEAFB7
+Fan | Hayran | Mor / lila #EBB1EC; Sarı #CCDC89
+FAP Guerilla | FAP gerillası | Turuncu / şeftali #F0B579; Pembe #F1AEB5; Mor / lila #EBB4EA
+Felipe | Felipe | Açık yeşil #D8F9CB; Mor / lila #EEB3ED; Beyaz #E1F0DA; Nane yeşili #A2EED1
+Final Chapter | Final Chapter | Pembe #EDAEB8; Sarı #D1DA94; Nane yeşili #AAEAD6; Mor / lila #E9B5E7; Açık yeşil #D3F8C6; Beyaz #DEE9D9
+Fitzroy | Fitzroy | Açık yeşil #D6FBCA; Sarı #CEDC87; Nane yeşili #98EDCE; Pembe #F3AEB8
+Flamingo Man | Flamingolu adam | Turuncu / şeftali #EBB77D
+Francisco | Francisco | Sarı #CFDD8B; Pembe #F1AEB8; Açık yeşil #D7FACA; Nane yeşili #BCE8DE; Turuncu / şeftali #F0B57C; Mor / lila #EDB4EF; Beyaz #E1EBDA; Turkuaz / açık mavi #B8E8E3; Yeşil #7A8E72
+Frankie | Frankie | Nane yeşili #9AEDCE; Pembe #EBAFB5; Açık yeşil #D6F9CA
+Gabby | Gabby | Açık yeşil #D6FAC8
+Galecki | Galecki | Pembe #EBADB8
+Game Developer | Oyun geliştiricisi | Pembe #EFAFAE
+Gang Member | Çete üyesi | Mor / lila #E6B5E7; Nane yeşili #BAE6DD; Turkuaz / açık mavi #BAE6E0; Turuncu / şeftali #EEB67B; Açık yeşil #DEF8CB; Sarı #D0DA8D
+Gang member | Çete üyesi | Sarı #D2DC91
+Gil | Gil | Mor / lila #E5B4EF; Açık yeşil #DFFACD; Pembe #F0B4DC; Nane yeşili #A9E5D0
+Giorgio | Giorgio | Turuncu / şeftali #F0B67B; Nane yeşili #99EDCD; Mor / lila #EDB3EE; Açık yeşil #99EECA; Pembe #F2ADB7; Turkuaz / açık mavi #BBE6E0
+Girl | Kız | Turuncu / şeftali #EDB87E; Sarı #D0DB8B
+Ground Crew | Yer ekibi | Turuncu / şeftali #F1B67C
+Guard | Gardiyan, Görevli, Güvenlik, Güvenlik görevlisi, Koruma, Nöbetçi | Nane yeşili #A2ECD2; Açık yeşil #D8F8CA; Turuncu / şeftali #E4B783; Mor / lila #ECB4EB; Pembe #ECAEB7; Sarı #CFDB8D; Beyaz #D8E4D6; Yeşil #9BB58E; Turkuaz / açık mavi #C4F0EA
+Guardia Brother | Guardia kardeşlerden biri | Mor / lila #E9B4E9
+Guardia Brothers | Guardia Kardeşler | Sarı #CFDB96; Pembe #F1AEB4; Turuncu / şeftali #F2B57A; Mor / lila #E9B5E8; Nane yeşili #BBE7DE; Açık yeşil #DAF7C8; Turkuaz / açık mavi #B7E2E0
+Guardia member | Guardia üyesi | Açık yeşil #D5F7CA; Nane yeşili #BCE7E0; Pembe #EAAFB8
+Guest | Misafir | Pembe #F0AFB6
+Gunman | Silahlı adam | Pembe #F2ADB7; Açık yeşil #D7FBCB; Nane yeşili #BCE8DD; Sarı #D2DE89; Turuncu / şeftali #F2B67B
+Gustavo | Gustavo | Sarı #D0DD8A; Açık yeşil #D6FBCA; Mor / lila #EAB5EB; Nane yeşili #BBE8DE; Pembe #F4AFB0
+Hairdresser | Kuaför | Turuncu / şeftali #EAB680; Sarı #D5DD97
+Halifax | Halifax | Açık yeşil #D8F8C9; Nane yeşili #B9E6DD; Pembe #EBB0B6; Turkuaz / açık mavi #BBE6E2
+Heather | Heather | Nane yeşili #BBE8DA
+Hector | Hector | Sarı #D0DD89
+Hoodlum | Serseri | Turkuaz / açık mavi #BBE7E1
+Host | Karşılama görevlisi | Nane yeşili #BAE7DE
+Hostage | Rehine | Açık yeşil #AAF0D0; Nane yeşili #A3EED0; Sarı #D5DF9A; Beyaz #E0E6D4; Pembe #E3ADB5
+Hostage taker | Rehin alan kişi | Sarı #CEDD88; Açık yeşil #D4FBCA
+Hostage-taker | Rehin alan kişi | Mor / lila #EEB3F0
+Hostess | Karşılama görevlisi | Nane yeşili #99EDCD; Sarı #D1DD89; Açık yeşil #9AEDCA
+Ian | Ian | Nane yeşili (HEX ölçülmedi)
+Inmate | Mahkûm | Mor / lila #EBB7E9
+Isabelle | Isabelle | Nane yeşili #B7E1D3
+J-Wang | J-Wang | Sarı #D0DD88
+Jacki | Jacki | Açık yeşil #D8F6C7
+Janice | Janice | Turuncu / şeftali #EFB77C
+Jasir | Jasir | Açık yeşil #D4FBCA
+Jason | Jason | Sarı #F8FCAD
+Jason and Lucia | Jason ve Lucia | Turuncu / şeftali #EDB67A
+Jaylah | Jaylah | Nane yeşili #B3DCD0; Turkuaz / açık mavi #B9E5E3
+Jeremy | Jeremy | Turuncu / şeftali #E7BC90
+Jimmy | Jimmy | Sarı #CDDF86; Turuncu / şeftali #EEB777
+Joey | Joey | Turuncu / şeftali #E5BB92; Mor / lila #E7B9E8; Beyaz #C9DBDE; Nane yeşili #BBE7DD
+Judd | Judd | Nane yeşili #BAE7DF; Turkuaz / açık mavi #BBE7E2
+Kamal | Kamal | Nane yeşili #BAE7DF; Turkuaz / açık mavi #BBE6E0
+Karim | Karim | Pembe #EEADB6; Sarı #CFDD88; Nane yeşili #B9E7DC; Turuncu / şeftali #EDB87E; Açık yeşil #D7F9CB; Beyaz #DEE8D7; Mor / lila #F0B2F0; Turkuaz / açık mavi #BAE7E3; Lila / pembe-mor (HEX ölçülmedi)
+Kat | Kat | Nane yeşili #A7ECD2; Turuncu / şeftali #E9B98C; Mor / lila #EEB0F0; Sarı #CFDA88; Açık yeşil #A8EBCC; Turkuaz / açık mavi #BAE5E2
+KD | KD | Nane yeşili #BAE7DE; Turuncu / şeftali #F3B578; Turkuaz / açık mavi #BCE5E0
+Kenton | Kenton | Mor / lila #EAB8EA; Pembe #EAB3BA; Sarı #D4DE9E; Beyaz #E3E9D4
+Kevin | Kevin | Nane yeşili #98EDCF; Açık yeşil #D6FAC9; Sarı #CFDC87; Turuncu / şeftali #EDB67B; Turkuaz / açık mavi #BAE6E0
+Kingfishers | Kingfishers | Sarı #D3DC9F; Mor / lila #E5B6E6; Açık yeşil #CEF4C5; Nane yeşili #B6E4D9; Pembe #E6B4B8; Turuncu / şeftali #E6B88E; Beyaz #D9E4D3; Turkuaz / açık mavi #A9CAC6; Yeşil #92B59B
+Kolt & Associates | Kolt ve Ortakları | Mor / lila #EBB3EC; Nane yeşili #9DECD0; Turuncu / şeftali #E7B987; Pembe #E0B0AF; Sarı #D5DC99; Açık yeşil #D8F6C9; Beyaz #DFE6D1
+Kordell | Kordell | Sarı #CFDD88; Turuncu / şeftali #EEB77B; Pembe #F2ADB6; Nane yeşili #98EFCD; Mor / lila #EEB3EC; Turkuaz / açık mavi #BAE6E1; Açık yeşil #99EFCB
+Kyle | Kyle | Nane yeşili #AEECD6; Açık yeşil #AAECCE; Turkuaz / açık mavi #B9E5E0; Beyaz #C7D4CE; Mor / lila #E8BAEA; Sarı #9E977E; Turuncu / şeftali #8F8677
+La Polilla Negra | La Polilla Negra | Sarı #D3DC94; Nane yeşili #A0EDD0; Pembe #EDAEB4; Turuncu / şeftali #E4B986; Mor / lila #EAB4E8; Açık yeşil #9EECC0
+LaVaughn | LaVaughn | Açık yeşil #D7FBC9; Mor / lila #EBB5ED
+Levi | Levi | Açık yeşil #9BEDCA; Nane yeşili #A4EFD4; Pembe #E9AFB9
+Lex | Lex | Nane yeşili #BBE6DB; Beyaz #C5D7D4; Turkuaz / açık mavi #B6E9E8
+Linda | Linda | Nane yeşili #9BECCF; Pembe #EDADB7; Mor / lila #EEB3EE; Sarı #D4D9A6
+Liz | Liz | Açık yeşil #D6FCC9; Mor / lila #F1B2EF; Pembe #EFADB6; Sarı #D1DD89; Nane yeşili #B9E7DD; Sarı-yeşil (HEX ölçülmedi)
+Local | Mahalleli | Mor / lila #ECB4ED; Pembe #EEAFB8; Turuncu / şeftali #EFB77C; Nane yeşili #B9E8DD; Açık yeşil #D6FAC9; Beyaz #DCE7D6; Sarı #D1DB8B; Turkuaz / açık mavi #BCE8E2; Yeşil #8EA285
+Lorena | Lorena | Açık yeşil #D7F8CA; Pembe #E7B1B7; Beyaz #D9EBD6
+Lori | Lori | Sarı #D0DA8C; Pembe #E9AFB9; Beyaz #DDEBD7; Açık yeşil #B0F0D5; Nane yeşili #AAEDD4; Mor / lila #E7B9E5; Turuncu / şeftali #9F8B81; Yeşil #93A582
+Lucia | Lucia | Turkuaz / açık mavi #8BDEE6; Nane yeşili #99D7CD
+Lucky | Lucky | Nane yeşili #9CEDCE
+M7 | M7 | Açık yeşil #DFF9C9; Turuncu / şeftali #E4B483; Nane yeşili #B7E4D9; Mor / lila #F1B2ED; Beyaz #C4CFD0; Sarı #CFDA8F; Gri #BEC5C7; Yeşil #83A092; Turkuaz / açık mavi (HEX ölçülmedi)
+M7 Member | M7 üyesi | Mor / lila #ECB4EA; Nane yeşili #A0EBD1; Turuncu / şeftali #EBB780
+Makeup artist | Makyaj sanatçısı | Turuncu / şeftali #EAB77D
+Maleek | Maleek | Mor / lila #EEB4F3; Nane yeşili #BCE7E0; Sarı #CFDD89; Turkuaz / açık mavi #BCE8E2
+Man | Adam | Pembe #F1AEB5; Nane yeşili #9DEED0; Açık yeşil #98EECA
+Manager | Müdür | Nane yeşili #9BEDCE; Pembe #E9B3BD; Sarı #D0DD8A
+Mandy | Mandy | Pembe #EBB2BA; Turuncu / şeftali #ECB98D
+Mario | Mario | Açık yeşil #D9F7C8; Yeşil #869B7E
+Marti | Marti | Nane yeşili #98EFCE
+Marv | Marv | Mor / lila #E5B3E3; Nane yeşili #9DEBCB
+Maryam | Maryam | Turuncu / şeftali #ECB77D
+Mattia | Mattia | Pembe #E9AEB5; Turuncu / şeftali #ECB57B; Sarı #D5DE9E; Nane yeşili #BAE7DF; Açık yeşil #D6F9C9; Mor / lila #F1B2F0; Turkuaz / açık mavi #B8E6E1; Beyaz #DCE8D6
+MC | Sunucu | Pembe #EAADB7; Turuncu / şeftali #EBB581
+Mechanic | Tamirci | Nane yeşili #B9E3D9; Mor / lila #E5B3E7
+Mia | Mia | Mor / lila #ECB3EB; Turuncu / şeftali #E9B780; Pembe #F0B0B7
+Mobster | Mafyacı | Açık yeşil #D7F8C7; Nane yeşili #BDE7DF; Sarı #CEDB88
+Monterossa | Monterossa | Sarı #D2DC8C; Açık yeşil #D9FACC
+Monty | Monty | Açık yeşil #D8FBCB; Sarı #D1DE89; Nane yeşili #B6E3DB; Beyaz #DEECD7; Turuncu / şeftali #A58A63; Yeşil #899F80
+Moses | Moses | Açık yeşil #D8F9CA; Beyaz #DDE9D8; Nane yeşili #B8E2D9; Yeşil #91A98C; Turkuaz / açık mavi #B9E5E0
+Méndez | Méndez | Nane yeşili #99EECE; Açık yeşil #D8F7C8; Turuncu / şeftali #F1B579; Sarı #D1DC8B; Mor / lila #EEB3EE; Beyaz #C7D9D5
+Nate | Nate | Nane yeşili #99EECE; Açık yeşil #D6FACA; Pembe #F1AEB5; Mor / lila #F0B4F0; Sarı #CFDD88; Beyaz #E0E8D7; Turuncu / şeftali #F3B579; Turkuaz / açık mavi #BAE7E1; Yeşil #7C9679
+Nayib | Nayib | Sarı #C9DD8A
+Nicole | Nicole | Sarı #D1DC8C; Nane yeşili #A0ECD1; Açık yeşil #D7F7CA; Turkuaz / açık mavi #B9E6E0; Yeşil #809A75; Beyaz #D9E3D2
+Nikki | Nikki | Açık yeşil #96F0C9; Nane yeşili #95EFCC; Mor / lila #F0B0F0
+Niko | Niko | Açık yeşil #D5FBC9; Nane yeşili #98EECC
+NOOSE | NOOSE | Mor / lila #E5B6E7; Pembe #ECAEB7; Sarı #CCDA86; Turuncu / şeftali #E9B67D
+Nurse | Hemşire | Nane yeşili #B9E6DE; Turkuaz / açık mavi #BAE3DD
+Officer | Memur | Açık yeşil #D5F9C9; Nane yeşili #A4EACE; Turuncu / şeftali #E7B681; Sarı #CFDB8E; Mor / lila #E9B4ED
+Officer Gutierrez | Memur Gutierrez | Nane yeşili #9EECD0; Açık yeşil #99EFCB
+Officers | Memurlar | Sarı #CFDC87; Mor / lila #E9B3EA; Turuncu / şeftali #EDB77A
+Old Man | Yaşlı adam | Nane yeşili #B6E0D9; Turkuaz / açık mavi (HEX ölçülmedi)
+Olivia | Olivia | Sarı #D2DA9C
+Omar | Omar | Açık yeşil #D6FBCA; Mor / lila #EFB3F1; Sarı #D4DC8C; Pembe #F2ADB5; Beyaz #E1F0DC; Yeşil #768569; Turuncu / şeftali #9A6339
+Opponent | Rakip | Nane yeşili #9DEBCC
+Parole Officer | Denetim memuru | Nane yeşili #B9E6DD; Turkuaz / açık mavi #B9E5E1
+Partygoer | Parti konuğu | Turuncu / şeftali #F2B478; Pembe #E7AFB8; Sarı #CFDC89
+Passenger | Yolcu | Pembe #EEB0B8; Nane yeşili #A6EED4; Sarı #D2DD91; Mor / lila #ECB9EB; Turkuaz / açık mavi #BBE5DF; Turuncu / şeftali #EBBD8F
+Patron | Müşteri | Mor / lila #EDB3EB; Nane yeşili #A9EDD3
+Paulo | Paulo | Pembe #F2AEB8; Mor / lila #F0B4F0
+Peggy | Peggy | Turuncu / şeftali #D9B998; Beyaz #C3D1D4
+Penelope | Penelope | Mor / lila #E9BAE8
+Pete | Pete | Mor / lila #EBB4EC; Pembe #EEAFB9; Sarı #D0DC93
+Petra | Petra | Turuncu / şeftali #F1B77B; Açık yeşil #D6FBCA; Mor / lila #EFB3F0; Nane yeşili #99EFCF
+Pilot | Pilot | Sarı #D0DC88
+Pilot Pete | Pilot Pete | Sarı #CCDC8B
+Podcast Guru | Podcast gurusu | Açık yeşil #D8FACB; Beyaz #DDE7D6; Sarı #978F79
+Police | Polis | Nane yeşili #A1ECD1; Pembe #E6B0BA; Sarı #D1DC8B; Mor / lila #E9B4E6; Beyaz #CFDFDD
+Pooch | Pooch | Nane yeşili #B6E2DB; Turkuaz / açık mavi #BDE5DF; Sarı #D1DB91; Pembe #F0ADB4
+Prison Recording | Cezaevi anonsu | Turuncu / şeftali #E8BC91; Turkuaz / açık mavi #84A3A4; Açık yeşil #C8E4BD; Sarı #D4DFA1
+PTT member | PTT üyesi | Açık yeşil #DBFCCA
+PTT Youngin$ | PTT gençleri | Sarı #D5DBA1; Mor / lila #E9B4EB; Nane yeşili #A2EACD; Açık yeşil #AAECCF; Turkuaz / açık mavi #B5E7E3
+Rafa | Rafa | Açık yeşil #D5FACA; Nane yeşili #BBE8DF; Pembe #F1ADB7; Mor / lila #ECB6EA; Turkuaz / açık mavi #BAE7E2
+Raina | Raina | Turuncu / şeftali #F1B57A; Açık yeşil #D6FACA; Nane yeşili #B9E8DE; Turkuaz / açık mavi #BAE6E4; Pembe #F2ADB4; Sarı #CFDE88; Mor / lila #EFB2F1
+Randy | Randy | Pembe #EBADB7; Sarı #CFDD8A; Açık yeşil #D8F9C9; Turuncu / şeftali #ECB781
+Ranger | Korucu | Beyaz #E0EDD9; Açık yeşil #E2F2C6
+Raul | Raul | Nane yeşili #A2EBD3; Turuncu / şeftali #EEB67B; Mor / lila #EFB3EF; Açık yeşil #D7FACA; Pembe #F1AEB5; Turkuaz / açık mavi #BBE7E2; Beyaz #DEE5D6; Sarı #D2DC8F; Yeşil #ABBD9C
+Raymond | Raymond | Turuncu / şeftali #EDB67C; Nane yeşili #BAE6DB
+Receptionist | Resepsiyon görevlisi | Açık yeşil #D5FBCA; Mor / lila #EEB4EE; Nane yeşili #9AEFCE; Sarı #D1DD89; Pembe #EAAEB8
+Rescuer | Kurtarıcı | Nane yeşili #BCE8E0; Turkuaz / açık mavi #BBE7E1
+Resident | Sakin | Nane yeşili #BBE7D9
+Rhonda | Rhonda | Turuncu / şeftali #EBB98D
+Ricardo | Ricardo | Sarı #D0DC8A; Mor / lila #EAB5EE
+Ricky | Ricky | Nane yeşili #98EBCE; Sarı #D2DB8A
+Rob | Rob | Sarı #CFDD86
+Rocco | Rocco | Nane yeşili #BBE8DD
+Rodney | Rodney | Pembe #E2B0B4; Nane yeşili #A0EFCF
+Rolo | Rolo | Pembe #F0ACB6; Nane yeşili #BCE8DF
+Ronda | Ronda | Pembe #EBB5B8
+Roscoe | Roscoe | Sarı #D2D992
+Roxy | Roxy | Nane yeşili #9CEECF; Açık yeşil #D3F9C9; Turuncu / şeftali #EFB67B; Mor / lila #EAB3EB; Pembe #EBADB5; Sarı #D0DC8C
+Royce | Royce | Nane yeşili #9AEFCE; Açık yeşil #99F0C8; Mor / lila #EFB3ED
+Rude Fan | Terbiyesiz hayran | Mor / lila #EAB4EB
+Salesman | Satıcı | Nane yeşili #9CEFD1
+Sam | Sam | Sarı #D7E19D
+Samantha | Samantha | Nane yeşili #B8E1D8; Beyaz #C5D2CE; Turkuaz / açık mavi #BBE6E0
+San4San | San4San | Nane yeşili #BBE9DF; Açık yeşil #D9F7CA; Pembe #ECAFB7; Turkuaz / açık mavi #BAE5DF
+San4San member | San4San üyesi | Nane yeşili #9CEDD0
+Sandy | Sandy | Turuncu / şeftali #F2B67B; Sarı #CFDB88; Açık yeşil #D7FBCC
+Santino | Santino | Mor / lila #F0B3F1; Açık yeşil #DBFBCE; Sarı #D0DD88; Beyaz #DAEDDC; Yeşil #91A286
+Sasha | Sasha | Beyaz #DDE8D7; Açık yeşil #D7F4C9
+Security | Güvenlik görevlisi | Turuncu / şeftali #E4BF92; Nane yeşili #AEECD4; Açık yeşil #A5ECCB; Pembe #F0AEB7; Sarı #D0D79A; Beyaz #C8D9D4
+Security Guard | Güvenlik görevlisi | Nane yeşili #BBE7DE; Mor / lila #EFB4F1; Turuncu / şeftali #EFB77C; Sarı #D1DC89; Açık yeşil #D7FAC9; Pembe #F2AEB6; Turkuaz / açık mavi #BCE7E3
+Security guard | Güvenlik görevlisi | Sarı #D3DC8E
+Server | Garson | Açık yeşil #E0F1C3; Beyaz #DFEAD6; Pembe #EBB0BA; Sarı #D0DC88
+Sexyy Red | Sexyy Red | Pembe #F1AEB7; Turkuaz / açık mavi #BBE6E2; Nane yeşili #BBE8DF
+Shayna | Shayna | Sarı #D3DE9C
+Shirley | Shirley | Açık yeşil #D4F3C5; Beyaz #DBE6D6; Pembe #D6AFB0; Mor / lila #DAB1D7
+Shop owner | Dükkân sahibi | Turuncu / şeftali #DBC9B5
+Soldier | Asker | Pembe #EEADB5
+Staff | Çalışan | Nane yeşili #A1EBD0
+Staff Member | Personel, Çalışan | Sarı #CFDC8B; Turuncu / şeftali #EDB67C; Nane yeşili #9EECD1; Mor / lila #EFB4F0; Pembe #E9B0B8
+Staff member | Çalışan | Nane yeşili #98F0CD
+Statewide Prosecutor | Eyalet savcısı | Mor / lila #EEB3EF
+Stefanie | Stefanie | Turuncu / şeftali #EBBA8F; Açık yeşil #CBF1C1; Beyaz #D9EAD4
+Stefanie Gates | Stefanie Gates | Turuncu / şeftali #E8BA8D
+Stevie J | Stevie J | Açık yeşil #D6FAC8; Turkuaz / açık mavi #BBE7E2; Nane yeşili #BBE7DD
+Store Manager | Mağaza müdürü | Mor / lila #F1B3F3
+Stranger | Yabancı | Nane yeşili #B9E7DC; Pembe #F0AEB7; Mor / lila #ECB5ED; Sarı #D1DC9C; Açık yeşil #D5FAC9; Turuncu / şeftali #EEB77C; Turkuaz / açık mavi #BAE6E0; Beyaz #DFE9D9; Yeşil #829779
+Stylist | Kuaför | Turuncu / şeftali #EBB780
+SWAT | SWAT | Turuncu / şeftali #F1B479; Sarı #CEDA86; Pembe #F2ACB7; Nane yeşili #BAE6DF; Beyaz #DFEDD8
+Taxi Driver | Taksici | Sarı #D4DD9F
+Teller | Veznedar | Turuncu / şeftali #ECB47B; Turkuaz / açık mavi #8EADAB; Nane yeşili #9AC0B5
+Tera | Tera | Turuncu / şeftali #EABC8E
+Terro | Terro | Pembe #EBAFB5
+The Man | Adam | Açık yeşil #D2F6C7; Yeşil #8D9E82; Beyaz #E0EFDB
+Thief | Hırsız | Sarı #D0DD90; Turuncu / şeftali #E5B881
+Todd | Todd | Açık yeşil #CDF2C3; Beyaz #DFE6D4
+Tourist | Turist | Mor / lila #E5AEE8; Sarı #D2DA8E
+Trafficker | Kaçakçı | Nane yeşili #9EEDD0; Pembe #EDADB6; Turuncu / şeftali #ECB67C
+Tyrone | Tyrone | Pembe #EDAEB6; Nane yeşili #9BEDCE; Açık yeşil #9AEDCA
+Vagrant | Evsiz | Nane yeşili #BBE6DE; Turkuaz / açık mavi #BDE7E1
+Valentina | Valentina | Pembe #F2AEB7; Nane yeşili #BBE7DE; Turuncu / şeftali #ECB77E; Sarı #CFDD88; Açık yeşil #D9FBCB; Turkuaz / açık mavi #BBE6E0
+Valet | Vale | Sarı #D4D995; Açık yeşil #D4FCC9
+Valet Supervisor | Vale sorumlusu | Açık yeşil #DCF9CA
+Vault Manager | Kasa müdürü | Nane yeşili #99EFCE; Açık yeşil #D6FBCB
+Vicki | Vicki | Turuncu / şeftali #DCB68E; Nane yeşili #9DECD0; Açık yeşil #AAEACA; Mor / lila #E8B3EB; Beyaz #DDE8D7; Kırmızı #B23E4C
+Vinny | Vinny | Turuncu / şeftali #F1B579; Nane yeşili #BBE7DD; Açık yeşil #D6FACA; Pembe #F2ACB7; Turkuaz / açık mavi #BCE7E1; Mor / lila #E6B3EA; Beyaz #DDF0DB
+VIP | VIP | Pembe #EDAFAF; Sarı #D1DC86; Nane yeşili #9BEFCC; Açık yeşil #9AF0C9
+Viper | Viper | Turuncu / şeftali #E6B885; Nane yeşili #9EEDD0; Açık yeşil #D9F6CA; Turkuaz / açık mavi #BBE5E1; Beyaz #DCE7D7; Yeşil #85987A
+Voicemail | Telesekreter | Sarı #D8DCA1
+Vypertec | Vypertec | Nane yeşili #BBE8DD; Beyaz #CBDCD2; Turkuaz / açık mavi #B9E7E3
+Waiter | Garson | Pembe #EBAEB5; Sarı #D3DD8E
+Waitress | Garson | Sarı #D0DC8A; Nane yeşili #B3DFD7; Pembe #ECB3BD
+Wax | Wax | Turuncu / şeftali #E6B67D
+Worker | Çalışan, İşçi | Mor / lila #ECB3EE; Pembe #F0AEB6; Turuncu / şeftali #E2B588; Nane yeşili #BBE8DF
+Wyman | Wyman | Pembe #E7B0B4; Nane yeşili #BBE6DF; Turkuaz / açık mavi #BBE6E2
+Yasmani | Yasmani | Nane yeşili #9DEDCF; Sarı #D0DB8C; Turuncu / şeftali #E4B686
+Yolanda | Yolanda | Mor / lila #EBB9ED
+Zach | Zach | Pembe #ECAEB6
+Zeek | Zeek | Turuncu / şeftali #EAB57D
+Zoe | Zoe | Mor / lila #E7B9EA
+Zoey | Zoey | Açık yeşil #ACEDCD; Nane yeşili #AEEDD5

@@ -1,0 +1,33 @@
+{
+  "reviewed_records": 2943,
+  "unique_normalized_captions": 2829,
+  "pack_entries": 5518,
+  "source_evidence_exists": true,
+  "consumer_match_passed_for_all_records": true,
+  "timing_verified": false,
+  "source_censored_omissions": [
+    "s01-09560500"
+  ],
+  "consumer_match_passed_for_all_unambiguous_records": true,
+  "consumer_matched_records": 2943,
+  "consumer_intentionally_omitted_ambiguous_records": [],
+  "wrong_fallback_checks_passed": true,
+  "continuation_review_complete": true,
+  "continuation_review_report": "continuation-review.json",
+  "continuation_reviewed_records": 2943,
+  "continuation_changed_records": 29,
+  "continuation_turkish_changes": 29,
+  "continuation_english_changes": 0,
+  "speaker_color_metadata": {
+    "part": 1,
+    "records": 2943,
+    "label_occurrences": 3048,
+    "measured": 3010,
+    "visually_identified": 38,
+    "unresolved": 0,
+    "pack_payload_unchanged": true,
+    "translations_and_timing_unchanged": true,
+    "consumer_checks_passed": true
+  },
+  "speaker_color_source": "speaker-colors.json"
+}

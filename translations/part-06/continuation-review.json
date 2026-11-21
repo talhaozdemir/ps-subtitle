@@ -1,0 +1,280 @@
+{
+  "part": 6,
+  "complete": true,
+  "reviewed_records": 2603,
+  "read_ranges": [
+    [
+      0,
+      2603
+    ]
+  ],
+  "method": "Every existing English/Turkish record read in chronological order; repeated identical adjacent records compared together. Changed and uncertain continuation chains checked in native source crops. No full video rescan.",
+  "changed_record_count": 9,
+  "turkish_changes": 9,
+  "english_changes": 0,
+  "checked_changed_chains": 6,
+  "checked_chains": [
+    [
+      "s06-00939500",
+      "s06-00942500"
+    ],
+    [
+      "s06-03668000",
+      "s06-03671000",
+      "s06-03673000",
+      "s06-03678000"
+    ],
+    [
+      "s06-06190000",
+      "s06-06192500"
+    ],
+    [
+      "s06-06877000",
+      "s06-06881000",
+      "s06-06885000",
+      "s06-06887500"
+    ],
+    [
+      "s06-07411500",
+      "s06-07412500"
+    ],
+    [
+      "s06-07660000",
+      "s06-07662000",
+      "s06-07664000"
+    ]
+  ],
+  "changes": [
+    {
+      "id": "s06-00942500",
+      "english": "Nicole: if you fuck up once.",
+      "before": "Nicole: bir kere bile işi batırırsan diye.",
+      "after": "Nicole: olur da bir kere işi batırırsan.",
+      "reason": "Önceki emniyet düzeneği cümlesinin koşulu; ikinci diye ile tekrarlanan amaç yapısı giderildi.",
+      "related_ids": [
+        "s06-00939500",
+        "s06-00942500"
+      ],
+      "evidence": [
+        {
+          "id": "s06-00939500",
+          "source_frame": "continuous/frames/s06-00939500.jpg"
+        },
+        {
+          "id": "s06-00942500",
+          "source_frame": "continuous/frames/s06-00942500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s06-03673000",
+      "english": "Mia: You know, a big man like yourself,\non demand twenty-four-seven, you can...",
+      "before": "Mia: Sizin gibi önemli bir adam,\nherkes gece gündüz peşindeyken, burada...",
+      "after": "Mia: Sizin gibi önemli birine\ngece gündüz ihtiyaç duyuluyor. Burada...",
+      "reason": "Önceki yoğun iş günü ve yalnız kalma düşüncesiyle bağlı ikinci kişi hitabı sonraki ekrana doğal aktarılır.",
+      "related_ids": [
+        "s06-03668000",
+        "s06-03671000",
+        "s06-03673000",
+        "s06-03678000"
+      ],
+      "evidence": [
+        {
+          "id": "s06-03668000",
+          "source_frame": "continuous/frames/s06-03668000.jpg"
+        },
+        {
+          "id": "s06-03671000",
+          "source_frame": "continuous/frames/s06-03671000.jpg"
+        },
+        {
+          "id": "s06-03673000",
+          "source_frame": "continuous/frames/s06-03673000.jpg"
+        },
+        {
+          "id": "s06-03678000",
+          "source_frame": "continuous/frames/s06-03678000.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s06-03678000",
+      "english": "Mia: close the door... run a bubble bath... and relax!",
+      "before": "Mia: kapıyı kapatıp... köpük banyosu yapabilir... ve rahatlayabilir!",
+      "after": "Mia: kapıyı kapatıp... köpük banyosu yapabilir... ve rahatlayabilirsiniz!",
+      "reason": "Önceki siz hitabına uygun yüklem; üçüncü kişi rahatlayabilir biçimi giderildi.",
+      "related_ids": [
+        "s06-03668000",
+        "s06-03671000",
+        "s06-03673000",
+        "s06-03678000"
+      ],
+      "evidence": [
+        {
+          "id": "s06-03668000",
+          "source_frame": "continuous/frames/s06-03668000.jpg"
+        },
+        {
+          "id": "s06-03671000",
+          "source_frame": "continuous/frames/s06-03671000.jpg"
+        },
+        {
+          "id": "s06-03673000",
+          "source_frame": "continuous/frames/s06-03673000.jpg"
+        },
+        {
+          "id": "s06-03678000",
+          "source_frame": "continuous/frames/s06-03678000.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s06-06190000",
+      "english": "Dispatch: Possible suspects seen fleeing in a...",
+      "before": "Merkez: Muhtemel şüpheliler bir araçla kaçarken görüldü...",
+      "after": "Merkez: Muhtemel şüpheliler bir...",
+      "reason": "Sonraki ekrandaki araç nitelemesi ve kaçış yüklemiyle tek telsiz cümlesi.",
+      "related_ids": [
+        "s06-06190000",
+        "s06-06192500"
+      ],
+      "evidence": [
+        {
+          "id": "s06-06190000",
+          "source_frame": "continuous/frames/s06-06190000.jpg"
+        },
+        {
+          "id": "s06-06192500",
+          "source_frame": "continuous/frames/s06-06192500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s06-06192500",
+      "english": "Dispatch: red Bison900 pickup.",
+      "before": "Merkez: kırmızı bir Bison900 kamyonet.",
+      "after": "Merkez: kırmızı Bison900 kamyonetle kaçarken görüldü.",
+      "reason": "Önceki ekrandaki bir... sonrasında araç türü ve ortak yüklem tamamlanır.",
+      "related_ids": [
+        "s06-06190000",
+        "s06-06192500"
+      ],
+      "evidence": [
+        {
+          "id": "s06-06190000",
+          "source_frame": "continuous/frames/s06-06190000.jpg"
+        },
+        {
+          "id": "s06-06192500",
+          "source_frame": "continuous/frames/s06-06192500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s06-06881000",
+      "english": "Raul: Slows us down. You let that guard downstairs delay you?",
+      "before": "Raul: Bizi yavaşlatır. Aşağıdaki korumanın seni oyalamasına izin mi verdin?",
+      "after": "Raul: Bizi yavaşlatır. Aşağıdaki korumanın sizi oyalamasına izin verirseniz?",
+      "reason": "Önceki ve sonraki varsayımsal hata örnekleriyle birlikte, henüz başlamamış soygun için uyarı; geçmişte yaşanmış soru değildir.",
+      "related_ids": [
+        "s06-06877000",
+        "s06-06881000",
+        "s06-06885000",
+        "s06-06887500"
+      ],
+      "evidence": [
+        {
+          "id": "s06-06877000",
+          "source_frame": "continuous/frames/s06-06877000.jpg"
+        },
+        {
+          "id": "s06-06881000",
+          "source_frame": "continuous/frames/s06-06881000.jpg"
+        },
+        {
+          "id": "s06-06885000",
+          "source_frame": "continuous/frames/s06-06885000.jpg"
+        },
+        {
+          "id": "s06-06887500",
+          "source_frame": "continuous/frames/s06-06887500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s06-07411500",
+      "english": "Karim: Looks like the rest of them are just waiting",
+      "before": "Karim: Diğerleri de bekliyor gibi görünüyor,",
+      "after": "Karim: Görünüşe göre diğerleri de",
+      "reason": "Sonraki waiting on a green light yüklemi tek kez kurularak iki ekrandaki beklemek tekrarı kaldırılır.",
+      "related_ids": [
+        "s06-07411500",
+        "s06-07412500"
+      ],
+      "evidence": [
+        {
+          "id": "s06-07411500",
+          "source_frame": "continuous/frames/s06-07411500.jpg"
+        },
+        {
+          "id": "s06-07412500",
+          "source_frame": "continuous/frames/s06-07412500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s06-07412500",
+      "english": "Karim: on a green light to come fuck you up.",
+      "before": "Karim: sizi sikmeye gelmek için işaret bekliyorlar.",
+      "after": "Karim: ağzınıza sıçmak için işaret bekliyor.",
+      "reason": "Önceki diğerleri öznesi ve sonraki ekrandaki izin işareti aynı Türkçe cümlede bağlandı.",
+      "related_ids": [
+        "s06-07411500",
+        "s06-07412500"
+      ],
+      "evidence": [
+        {
+          "id": "s06-07411500",
+          "source_frame": "continuous/frames/s06-07411500.jpg"
+        },
+        {
+          "id": "s06-07412500",
+          "source_frame": "continuous/frames/s06-07412500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s06-07662000",
+      "english": "Raul: Well, did he?",
+      "before": "Raul: Geldi mi peki?",
+      "after": "Raul: Denk gelmiş mi peki?",
+      "reason": "Önceki might have run into more security sorusunun kısa cevabı; şoförün gelip gelmediğini sormuyor.",
+      "related_ids": [
+        "s06-07660000",
+        "s06-07662000",
+        "s06-07664000"
+      ],
+      "evidence": [
+        {
+          "id": "s06-07660000",
+          "source_frame": "continuous/frames/s06-07660000.jpg"
+        },
+        {
+          "id": "s06-07662000",
+          "source_frame": "continuous/frames/s06-07662000.jpg"
+        },
+        {
+          "id": "s06-07664000",
+          "source_frame": "continuous/frames/s06-07664000.jpg"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "This audits existing extracted text; it cannot recover subtitles absent from extraction.",
+    "Source-video censorship is preserved and hidden words are not reconstructed.",
+    "Approximate navigation SRT timing is unchanged."
+  ],
+  "baseline_sha256": "f8adb30de021287c7f5534f60e07e2da46d2a158372b91af12fb829b2ef81b76",
+  "real_consumer_passed": true
+}

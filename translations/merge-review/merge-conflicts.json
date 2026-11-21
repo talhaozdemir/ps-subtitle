@@ -1,0 +1,2736 @@
+[
+  {
+    "key": "c19d13308ee19474",
+    "english_key": "lucia hello",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-00077",
+      "2:s02-03610500",
+      "3:s03-12740500",
+      "4:s04-06169000",
+      "8:s08-10049000",
+      "9:s09-05506500"
+    ]
+  },
+  {
+    "key": "2cf24dba5fb0a30e",
+    "english_key": "hello",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-00077",
+      "1:s01-05531000",
+      "1:p01-02484",
+      "2:s02-03610500",
+      "2:s02-07915500",
+      "3:s03-01022000",
+      "3:s03-05675000",
+      "3:s03-11708000",
+      "3:s03-12740500",
+      "4:s04-06169000",
+      "7:s07-00209500",
+      "8:s08-04915000",
+      "8:s08-10049000",
+      "8:s08-15428500",
+      "9:s09-01254000",
+      "9:s09-04694500",
+      "9:s09-05506500"
+    ]
+  },
+  {
+    "key": "db2fcecb944b0633",
+    "english_key": "lucia seriously",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-00134",
+      "3:s03-03479000",
+      "5:s05-04088500"
+    ]
+  },
+  {
+    "key": "3fc96cc70eab1f1e",
+    "english_key": "seriously",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-00134",
+      "3:s03-03479000",
+      "5:s05-04088500"
+    ]
+  },
+  {
+    "key": "3425bf22b18af0da",
+    "english_key": "lucia yeah",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-00578000",
+      "2:s02-00316500",
+      "3:s03-00017500",
+      "4:s04-03089500",
+      "5:s05-00698500",
+      "6:s06-02403500",
+      "7:s07-01315500",
+      "8:s08-00627000",
+      "8:s08-16800000",
+      "9:s09-00398500",
+      "9:s09-04917000",
+      "9:s09-06893000",
+      "9:s09-11350500"
+    ]
+  },
+  {
+    "key": "a495a4b86c1eac64",
+    "english_key": "yeah",
+    "reason": "ambiguous_primary",
+    "records": [
+      "8:s08-07975500"
+    ]
+  },
+  {
+    "key": "41441a2c00a85e0e",
+    "english_key": "lucia right",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-00585500",
+      "2:s02-03758000",
+      "3:s03-08586000",
+      "4:s04-02456000",
+      "5:s05-02324500",
+      "7:s07-01342000",
+      "8:s08-10411000"
+    ]
+  },
+  {
+    "key": "27042f4e6eca7d0b",
+    "english_key": "right",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-00585500",
+      "1:s01-13901500",
+      "2:s02-03758000",
+      "2:s02-07734500",
+      "3:s03-06831000",
+      "3:s03-08586000",
+      "3:s03-08838000",
+      "4:s04-00429000",
+      "4:s04-02456000",
+      "5:s05-02324500",
+      "7:s07-01342000",
+      "7:s07-03130000",
+      "8:s08-05079000",
+      "8:s08-10411000",
+      "8:s08-13908500",
+      "9:s09-10673500",
+      "9:s09-11464500"
+    ]
+  },
+  {
+    "key": "a6a2729cbf6bcadc",
+    "english_key": "thanks",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-00175",
+      "2:s02-00119000",
+      "2:s02-05188000",
+      "2:s02-07782000",
+      "3:s03-02877500",
+      "3:s03-08939000",
+      "4:s04-07730500",
+      "6:s06-00311500",
+      "6:s06-00464500",
+      "7:s07-05287500",
+      "7:s07-08207000",
+      "8:s08-00181000",
+      "8:s08-02979500",
+      "8:s08-18066000",
+      "9:s09-07527500",
+      "9:s09-11651500"
+    ]
+  },
+  {
+    "key": "a68660471dfb7cd6",
+    "english_key": "waitress hey",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-00669500",
+      "7:s07-07812500"
+    ]
+  },
+  {
+    "key": "fa690b82061edfd2",
+    "english_key": "hey",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-00669500",
+      "1:s01-08639500",
+      "1:s01-08640000",
+      "1:s01-13508500",
+      "1:p01-02574",
+      "2:s02-00386500",
+      "2:s02-00474000",
+      "2:s02-05875500",
+      "3:s03-00011000",
+      "3:s03-00011500",
+      "3:s03-01165000",
+      "3:s03-07045500",
+      "4:s04-00822000",
+      "4:s04-07920500",
+      "4:s04-08806500",
+      "5:s05-00007000",
+      "5:s05-00305500",
+      "5:s05-01089500",
+      "5:s05-02448500",
+      "5:s05-06673500",
+      "6:s06-01173500",
+      "6:s06-04231000",
+      "6:s06-04515000",
+      "7:s07-00209000",
+      "7:s07-00468000",
+      "7:s07-01427500",
+      "7:s07-07812500",
+      "8:s08-00128500",
+      "8:s08-01876500",
+      "8:s08-02622000",
+      "8:s08-04867500",
+      "8:s08-12703500",
+      "8:s08-14775500",
+      "8:s08-14854000",
+      "8:s08-15948000",
+      "8:s08-16502500",
+      "9:s09-00029500",
+      "9:s09-00904000",
+      "9:s09-01877500",
+      "9:s09-04531000",
+      "9:s09-04550500",
+      "9:s09-11214000"
+    ]
+  },
+  {
+    "key": "fcd783c70e454475",
+    "english_key": "got it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-00682500",
+      "1:s01-04222000",
+      "2:s02-00953000",
+      "2:s02-00973000",
+      "3:s03-01809000",
+      "3:s03-08078500",
+      "4:s04-06588500",
+      "5:s05-05902500",
+      "6:s06-00282500",
+      "6:s06-06693500",
+      "7:s07-01593500",
+      "7:s07-05100000",
+      "7:s07-06328000",
+      "8:s08-01499000",
+      "8:s08-10213500",
+      "8:s08-12074500",
+      "8:s08-16126500",
+      "9:s09-04632000",
+      "9:s09-11697500"
+    ]
+  },
+  {
+    "key": "091dacd466d10924",
+    "english_key": "that s it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-00720500",
+      "1:p01-01641",
+      "1:s01-13766000",
+      "4:s04-03242500",
+      "7:s07-01233000",
+      "8:s08-06247000"
+    ]
+  },
+  {
+    "key": "e5d3891501d0164a",
+    "english_key": "come on",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-01302000",
+      "1:p01-00479",
+      "1:s01-13288500",
+      "1:s01-14691500",
+      "2:s02-06148500",
+      "3:s03-01625500",
+      "3:s03-04374500",
+      "3:s03-08156000",
+      "5:s05-00073500",
+      "5:s05-01039500",
+      "5:s05-05011000",
+      "6:s06-02539500",
+      "7:s07-03207000",
+      "8:s08-01638500",
+      "8:s08-02019000",
+      "8:s08-10711000",
+      "9:s09-03565000",
+      "9:s09-03688000",
+      "9:s09-09332500",
+      "9:s09-11778500"
+    ]
+  },
+  {
+    "key": "6131cccdf17a5949",
+    "english_key": "okay so",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-01360500",
+      "2:s02-00374000",
+      "3:s03-12878000",
+      "4:s04-07087500",
+      "7:s07-01337000"
+    ]
+  },
+  {
+    "key": "4bf55a9ce713ee0c",
+    "english_key": "donnie",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:p01-00401",
+      "2:s02-00803500",
+      "2:s02-02132000",
+      "2:s02-06674500",
+      "2:s02-07660000"
+    ]
+  },
+  {
+    "key": "2341bdd2d99b4631",
+    "english_key": "what the fuck",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-01543500",
+      "2:s02-05057500",
+      "3:s03-02056000",
+      "3:s03-03607500",
+      "3:s03-05893000",
+      "4:s04-02726500",
+      "4:s04-02967000",
+      "4:s04-04249500",
+      "5:s05-02453000",
+      "6:s06-02173000",
+      "6:s06-03109000",
+      "7:s07-01773000",
+      "8:s08-00497000",
+      "8:s08-01706000",
+      "8:s08-03960500",
+      "8:s08-12825500",
+      "9:s09-05645500",
+      "9:s09-07375000"
+    ]
+  },
+  {
+    "key": "b260539511e16996",
+    "english_key": "woo",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-01581500",
+      "2:s02-04782500",
+      "3:s03-07702000",
+      "3:s03-08465500",
+      "4:s04-03958000",
+      "5:s05-02194000",
+      "5:s05-03283500",
+      "6:s06-02157000",
+      "6:s06-05332000",
+      "6:s06-08873500",
+      "7:s07-04674000",
+      "8:s08-13069000",
+      "9:s09-06486500",
+      "9:s09-07029500"
+    ]
+  },
+  {
+    "key": "f561b32fb81cc959",
+    "english_key": "are you",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-01632500",
+      "5:s05-06953500"
+    ]
+  },
+  {
+    "key": "cc76bf5045e486bd",
+    "english_key": "are you sure",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-01634000",
+      "4:s04-06277500",
+      "4:s04-09944500"
+    ]
+  },
+  {
+    "key": "27b5ebc897524c85",
+    "english_key": "let s go",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-01879500",
+      "1:s01-09832500",
+      "2:s02-04110000",
+      "3:s03-00810500",
+      "3:s03-08085000",
+      "4:s04-05632000",
+      "4:s04-09191500",
+      "5:s05-01279500",
+      "6:s06-00126000",
+      "6:s06-06761000",
+      "6:s06-06804500",
+      "6:s06-07721000",
+      "7:s07-05159500",
+      "7:s07-06318500",
+      "7:s07-07601000",
+      "8:s08-08983000",
+      "8:s08-09285500",
+      "8:s08-13396500",
+      "9:s09-00393500",
+      "9:s09-07989500",
+      "9:s09-10037500",
+      "9:s09-11217000",
+      "9:s09-11460000",
+      "9:s09-12673000"
+    ]
+  },
+  {
+    "key": "8f03973c6b88d933",
+    "english_key": "here we go",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-00564",
+      "2:s02-04503000",
+      "2:s02-04593500",
+      "2:s02-07966000",
+      "3:s03-03200500",
+      "4:s04-03648000",
+      "4:s04-10153500",
+      "7:s07-06410500",
+      "8:s08-03883500",
+      "9:s09-00855000"
+    ]
+  },
+  {
+    "key": "58e2211855c4c49a",
+    "english_key": "jason yeah no",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-00605",
+      "3:s03-07843500"
+    ]
+  },
+  {
+    "key": "50eff366fb0d2613",
+    "english_key": "yeah no",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-00605",
+      "3:s03-07843500",
+      "4:s04-02141000"
+    ]
+  },
+  {
+    "key": "f123c70dc6cc443e",
+    "english_key": "yeah i do",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-04070500",
+      "5:s05-07405000"
+    ]
+  },
+  {
+    "key": "ed5eb9a37e2d8231",
+    "english_key": "now",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-04101000",
+      "2:s02-01611000",
+      "3:s03-08053500",
+      "5:s05-04332500",
+      "6:s06-07077000"
+    ]
+  },
+  {
+    "key": "f380bef94d6c1745",
+    "english_key": "jason got it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-04222000",
+      "2:s02-00973000",
+      "3:s03-08078500",
+      "5:s05-05902500",
+      "6:s06-00282500",
+      "7:s07-05100000",
+      "8:s08-12074500",
+      "9:s09-04632000",
+      "9:s09-11697500"
+    ]
+  },
+  {
+    "key": "f5813914fe978e4f",
+    "english_key": "i wasn t",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-04614000",
+      "3:s03-01324000"
+    ]
+  },
+  {
+    "key": "2fd639fdf108808e",
+    "english_key": "jason what s up",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-05554500",
+      "6:s06-01208500",
+      "9:s09-09098500"
+    ]
+  },
+  {
+    "key": "33df69eff5a099a6",
+    "english_key": "what s up",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-05554500",
+      "4:s04-05977000",
+      "6:s06-01208500",
+      "6:s06-04564500",
+      "6:s06-06618500",
+      "9:s09-09098500"
+    ]
+  },
+  {
+    "key": "5c1d9cd1c2c1082d",
+    "english_key": "oh yeah",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-01121",
+      "1:s01-06365000",
+      "1:s01-10688500",
+      "1:s01-13749500",
+      "1:s01-14347500",
+      "2:s02-03462000",
+      "2:s02-03755000",
+      "3:s03-02850500",
+      "3:s03-03513000",
+      "3:s03-09919000",
+      "3:s03-12418500",
+      "4:s04-01034500",
+      "4:s04-02181000",
+      "5:s05-01251500",
+      "5:s05-03691000",
+      "6:s06-08431000",
+      "7:s07-02700500",
+      "8:s08-01547000",
+      "8:s08-03148500",
+      "8:s08-05477500",
+      "8:s08-07446500",
+      "8:s08-08175000"
+    ]
+  },
+  {
+    "key": "12559fdb2f43e7d8",
+    "english_key": "get in",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:p01-01198",
+      "9:s09-04889500",
+      "9:s09-09733000"
+    ]
+  },
+  {
+    "key": "1e63b104be26b06a",
+    "english_key": "jason yeah sure",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-06807500",
+      "2:s02-03421500",
+      "4:s04-03886500",
+      "6:s06-02485000",
+      "8:s08-11843500"
+    ]
+  },
+  {
+    "key": "e7ed65d6d512124b",
+    "english_key": "yeah sure",
+    "reason": "ambiguous_primary",
+    "records": [
+      "6:s06-00467000"
+    ]
+  },
+  {
+    "key": "23c37701d0339434",
+    "english_key": "stay the fuck away",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-07124000",
+      "3:s03-01817000",
+      "3:s03-12166000"
+    ]
+  },
+  {
+    "key": "2a19f664b2a4790c",
+    "english_key": "jason ugh",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-07912500",
+      "3:s03-00821000",
+      "7:s07-02887500"
+    ]
+  },
+  {
+    "key": "1fbc3aacec66d84e",
+    "english_key": "ugh",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-07912500",
+      "1:p01-02314",
+      "2:s02-07940500",
+      "3:s03-00821000",
+      "3:s03-01250000",
+      "4:s04-06905000",
+      "5:s05-05065000",
+      "6:s06-03101000",
+      "7:s07-01791000",
+      "7:s07-02887500",
+      "8:s08-09487000"
+    ]
+  },
+  {
+    "key": "99817ac25b371dce",
+    "english_key": "hell yeah",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-08162500",
+      "1:s01-12963000",
+      "2:s02-00973500",
+      "5:s05-00832500"
+    ]
+  },
+  {
+    "key": "420e75f474eb9d8a",
+    "english_key": "jason hey",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-08640000",
+      "2:s02-00474000",
+      "3:s03-00011000",
+      "4:s04-08806500",
+      "5:s05-06673500",
+      "6:s06-04231000",
+      "7:s07-00209000",
+      "8:s08-01876500",
+      "8:s08-14775500",
+      "9:s09-00904000",
+      "9:s09-01877500"
+    ]
+  },
+  {
+    "key": "cf04119a706e2c45",
+    "english_key": "oh",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-08745000",
+      "1:s01-08855500",
+      "1:s01-08856000",
+      "1:s01-13753000",
+      "2:s02-02887500",
+      "2:s02-05148500",
+      "2:s02-07737000",
+      "3:s03-08181000",
+      "3:s03-11807000",
+      "4:s04-01020500",
+      "4:s04-02800500",
+      "4:s04-05092000",
+      "4:s04-05802500",
+      "5:s05-03995000",
+      "6:s06-00416000",
+      "6:s06-01973000",
+      "7:s07-00276500",
+      "8:s08-02107500",
+      "8:s08-16584500",
+      "9:s09-01639000",
+      "9:s09-04924000",
+      "9:s09-11336000"
+    ]
+  },
+  {
+    "key": "3f6ffad6c324c6c2",
+    "english_key": "i got mine",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-08893000",
+      "3:s03-12558000"
+    ]
+  },
+  {
+    "key": "3863d99321bb2bc8",
+    "english_key": "that s what he said",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:p01-01696",
+      "5:s05-01208500"
+    ]
+  },
+  {
+    "key": "90288267f3c8ee48",
+    "english_key": "check this out",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-09357500",
+      "6:s06-02051000"
+    ]
+  },
+  {
+    "key": "81740db6dbe62a50",
+    "english_key": "jason i got you",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-09486500",
+      "1:s01-09487000",
+      "2:s02-06277500",
+      "4:s04-00128000",
+      "8:s08-13257000",
+      "9:s09-12170500"
+    ]
+  },
+  {
+    "key": "495cbd7d6ee7d2d2",
+    "english_key": "i got you",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-09486500",
+      "1:s01-09487000",
+      "2:s02-06277500",
+      "3:s03-01822000",
+      "4:s04-00128000",
+      "4:s04-09900000",
+      "8:s08-11967000",
+      "8:s08-13257000",
+      "9:s09-12170500"
+    ]
+  },
+  {
+    "key": "9fcdc1caff6afe79",
+    "english_key": "c mon man",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-09777000",
+      "7:s07-07678500"
+    ]
+  },
+  {
+    "key": "700d2791122474e4",
+    "english_key": "jason oh yeah yeah",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-01784",
+      "5:s05-02341500"
+    ]
+  },
+  {
+    "key": "14b246111c1deccf",
+    "english_key": "oh yeah yeah",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-01784",
+      "2:s02-07803500",
+      "3:s03-03132000",
+      "4:s04-04513000",
+      "5:s05-02341500"
+    ]
+  },
+  {
+    "key": "778111b3eeebf93e",
+    "english_key": "jason let s do it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-11782000",
+      "5:s05-02630500"
+    ]
+  },
+  {
+    "key": "afb1666a691fdca5",
+    "english_key": "let s do it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-11782000",
+      "3:s03-05092500",
+      "5:s05-02630500",
+      "6:s06-00929000",
+      "8:s08-00470000",
+      "8:s08-08982000",
+      "9:s09-05572500",
+      "9:s09-06591000",
+      "9:s09-07131000"
+    ]
+  },
+  {
+    "key": "190a9752d1d034aa",
+    "english_key": "jason hey hey",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-02521",
+      "1:s01-12736000",
+      "2:s02-08290000",
+      "3:s03-08283500",
+      "7:s07-02164500"
+    ]
+  },
+  {
+    "key": "82177fde8e8516ba",
+    "english_key": "hey hey",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-02521",
+      "1:s01-12736000",
+      "1:s01-14584500",
+      "2:s02-08290000",
+      "3:s03-08283500",
+      "3:s03-08540000",
+      "3:s03-10858500",
+      "3:s03-11951000",
+      "7:s07-02164500",
+      "7:s07-02555000",
+      "7:s07-06182000",
+      "8:s08-05127000",
+      "8:s08-05961500"
+    ]
+  },
+  {
+    "key": "d9d714dd7c598cc2",
+    "english_key": "jason this is it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-12785000",
+      "3:s03-12724500"
+    ]
+  },
+  {
+    "key": "f4a3ff3eca0fcbfb",
+    "english_key": "this is it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-12785000",
+      "3:s03-12724500"
+    ]
+  },
+  {
+    "key": "d4d15a5e9b3279e7",
+    "english_key": "jason yeah",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-12851500",
+      "2:s02-00842000",
+      "3:s03-02223500",
+      "4:s04-00852500",
+      "5:s05-03290000",
+      "6:s06-04497500",
+      "7:s07-02733500",
+      "8:s08-00791000",
+      "8:s08-14211500",
+      "9:s09-04848000",
+      "9:s09-09180500",
+      "9:s09-09915500"
+    ]
+  },
+  {
+    "key": "97899162e9b5e28a",
+    "english_key": "what you want",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-12957000",
+      "4:s04-04633000",
+      "6:s06-05706000"
+    ]
+  },
+  {
+    "key": "72b40cbf04e2583f",
+    "english_key": "lucia hell yeah",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-12963000",
+      "2:s02-00973500"
+    ]
+  },
+  {
+    "key": "d75a838dc758ba17",
+    "english_key": "bitch",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-13188000",
+      "4:s04-02320500",
+      "4:s04-04150000",
+      "6:s06-07270500",
+      "7:s07-07221000",
+      "7:s07-07456500"
+    ]
+  },
+  {
+    "key": "a1d9890884c1b4b9",
+    "english_key": "so",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-13254000",
+      "1:s01-13255000",
+      "7:s07-00772500",
+      "8:s08-12409000",
+      "9:s09-04540500"
+    ]
+  },
+  {
+    "key": "71b0874fd1bdd9f9",
+    "english_key": "hold on",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-13509500",
+      "2:s02-04518500",
+      "3:s03-01781500",
+      "5:s05-07470500",
+      "7:s07-06210000"
+    ]
+  },
+  {
+    "key": "403758ca649726a5",
+    "english_key": "mattia in italian what the fuck",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-13570000",
+      "9:s09-01940500"
+    ]
+  },
+  {
+    "key": "046117233fb87113",
+    "english_key": "in italian what the fuck",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-13570000",
+      "9:s09-01940500"
+    ]
+  },
+  {
+    "key": "5c790b451ba6a405",
+    "english_key": "lucia hey",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:p01-02574",
+      "2:s02-00386500",
+      "3:s03-00011500",
+      "4:s04-00822000",
+      "5:s05-00007000",
+      "6:s06-04515000",
+      "7:s07-01427500",
+      "8:s08-02622000",
+      "8:s08-14854000",
+      "9:s09-00029500",
+      "9:s09-04531000"
+    ]
+  },
+  {
+    "key": "d62f13324ab5cbe2",
+    "english_key": "look at you",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-13660000",
+      "9:s09-09945500"
+    ]
+  },
+  {
+    "key": "ba6974b681a7e361",
+    "english_key": "jason oh yeah",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-13749500",
+      "2:s02-03462000",
+      "4:s04-02181000",
+      "5:s05-03691000",
+      "6:s06-08431000",
+      "8:s08-08175000"
+    ]
+  },
+  {
+    "key": "a56586126e9fdf82",
+    "english_key": "jason oh",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-13753000",
+      "3:s03-08181000",
+      "4:s04-01020500",
+      "5:s05-03995000",
+      "9:s09-11336000"
+    ]
+  },
+  {
+    "key": "ecbc6c3f2b15246a",
+    "english_key": "whoa",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-13757500",
+      "1:s01-13758000",
+      "2:s02-04368500",
+      "2:s02-04490000",
+      "4:s04-06514000",
+      "5:s05-04246500",
+      "5:s05-04833500",
+      "5:s05-07394000",
+      "7:s07-01645500",
+      "8:s08-13306500",
+      "8:s08-16100500",
+      "9:s09-10512000",
+      "9:s09-10592000"
+    ]
+  },
+  {
+    "key": "360f84035942243c",
+    "english_key": "left",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-13903000",
+      "6:s06-00680000",
+      "6:s06-00680500"
+    ]
+  },
+  {
+    "key": "4fd8baf4c3266150",
+    "english_key": "lucia mm",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-13906500",
+      "8:s08-02696500",
+      "9:s09-01563500"
+    ]
+  },
+  {
+    "key": "8fa1dddd53606ceb",
+    "english_key": "mm",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-13906500",
+      "1:s01-14773500",
+      "4:s04-06123000",
+      "8:s08-02696500",
+      "8:s08-05589500",
+      "8:s08-11227500",
+      "9:s09-01563500"
+    ]
+  },
+  {
+    "key": "60e836853cac6745",
+    "english_key": "lucia damn",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-14264000",
+      "3:s03-11138500",
+      "4:s04-05564500",
+      "6:s06-00752000"
+    ]
+  },
+  {
+    "key": "e9143a29033d9145",
+    "english_key": "damn",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-14264000",
+      "3:s03-11138500",
+      "4:s04-01222000",
+      "4:s04-05564500",
+      "6:s06-00357500",
+      "6:s06-00752000",
+      "6:s06-06548500",
+      "7:s07-04603500",
+      "7:s07-04920000",
+      "8:s08-05590000"
+    ]
+  },
+  {
+    "key": "70a0d5198ebb88f9",
+    "english_key": "ah",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-14310000",
+      "2:s02-07970000",
+      "3:s03-04489500",
+      "3:s03-12406000",
+      "4:s04-01250500",
+      "6:s06-07656500",
+      "8:s08-16443000"
+    ]
+  },
+  {
+    "key": "cbe9147f7dc0c605",
+    "english_key": "anyone else",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-14493000",
+      "6:s06-03306500"
+    ]
+  },
+  {
+    "key": "683a62ce15fbabb1",
+    "english_key": "move",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-14521000",
+      "3:s03-00344500",
+      "5:s05-00359500",
+      "5:s05-04832500",
+      "8:s08-04078500",
+      "8:s08-13619500",
+      "9:s09-03313000",
+      "9:s09-10555000"
+    ]
+  },
+  {
+    "key": "2509ab86578fa4f9",
+    "english_key": "lucia hey hey",
+    "reason": "ambiguous_primary",
+    "records": [
+      "1:s01-14584500",
+      "3:s03-11951000",
+      "8:s08-05961500"
+    ]
+  },
+  {
+    "key": "5ffec26ef39b6ae6",
+    "english_key": "no no",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-14640000",
+      "5:s05-06405500"
+    ]
+  },
+  {
+    "key": "e3173835f5f8ea8d",
+    "english_key": "what now",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-14777500",
+      "3:s03-08326500",
+      "8:s08-16524000"
+    ]
+  },
+  {
+    "key": "6b1cba6e3185d586",
+    "english_key": "yo what s up",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-15597000",
+      "5:s05-04737000",
+      "6:s06-05606000",
+      "8:s08-12139000"
+    ]
+  },
+  {
+    "key": "924107b0071bcb53",
+    "english_key": "you don t have a bank account",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "1:s01-15619000",
+      "2:s02-00131500"
+    ]
+  },
+  {
+    "key": "0a034dc9c0d0d4fa",
+    "english_key": "hmm",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-00107000",
+      "2:s02-00529000",
+      "2:s02-01473000",
+      "2:s02-02178500",
+      "2:s02-03378000",
+      "3:s03-06901500",
+      "3:s03-11152000",
+      "4:s04-06884000",
+      "4:s04-09433500",
+      "6:s06-01102500",
+      "6:s06-04261500",
+      "7:s07-07753000",
+      "8:s08-08762000",
+      "8:s08-11032000",
+      "9:s09-04946500"
+    ]
+  },
+  {
+    "key": "786535366af6e886",
+    "english_key": "you good",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-00258000",
+      "3:s03-00626500",
+      "6:s06-02188000",
+      "6:s06-07578500",
+      "7:s07-04619500",
+      "8:s08-05299500",
+      "8:s08-15331000"
+    ]
+  },
+  {
+    "key": "5f10c8a2d3452558",
+    "english_key": "lucia okay so",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-00374000",
+      "3:s03-12878000",
+      "4:s04-07087500",
+      "7:s07-01337000"
+    ]
+  },
+  {
+    "key": "bb48ecd5957041bd",
+    "english_key": "hey lucia",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-00609500",
+      "5:s05-00684000",
+      "8:s08-06768500"
+    ]
+  },
+  {
+    "key": "f51c362d5cc7defb",
+    "english_key": "do it",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-00628500",
+      "5:s05-00553500",
+      "6:s06-02622000",
+      "9:s09-00376500"
+    ]
+  },
+  {
+    "key": "ccbae38fd16b797d",
+    "english_key": "lucia you think",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-00822000",
+      "5:s05-04053000"
+    ]
+  },
+  {
+    "key": "ae835325b1206e84",
+    "english_key": "you think",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-00822000",
+      "5:s05-04053000"
+    ]
+  },
+  {
+    "key": "a7722b765d15608d",
+    "english_key": "well",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-00982500",
+      "2:s02-01522000",
+      "3:s03-07765000",
+      "8:s08-11284000",
+      "9:s09-09237500"
+    ]
+  },
+  {
+    "key": "2706dde791ca09ab",
+    "english_key": "jason you got it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-01238000",
+      "8:s08-03755500",
+      "9:s09-02723500",
+      "9:s09-08626000"
+    ]
+  },
+  {
+    "key": "b6ffcf2ef6bf4f1a",
+    "english_key": "you got it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-01238000",
+      "2:s02-07893500",
+      "3:s03-00356500",
+      "3:s03-07277000",
+      "4:s04-09328500",
+      "4:s04-09981000",
+      "7:s07-04497000",
+      "8:s08-03755500",
+      "9:s09-02723500",
+      "9:s09-08626000"
+    ]
+  },
+  {
+    "key": "ea9326c0831b513f",
+    "english_key": "hang on",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-01298000",
+      "3:s03-00584500",
+      "5:s05-00331000",
+      "5:s05-07393000",
+      "6:s06-07664000"
+    ]
+  },
+  {
+    "key": "59e063e8390baaba",
+    "english_key": "lucia huh",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-01433500",
+      "5:s05-02408000",
+      "6:s06-05300500"
+    ]
+  },
+  {
+    "key": "e48510d1ff85568d",
+    "english_key": "huh",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-01433500",
+      "2:s02-04097000",
+      "4:s04-05028000",
+      "4:s04-05306500",
+      "5:s05-02408000",
+      "6:s06-04030000",
+      "6:s06-05300500",
+      "7:s07-02760500",
+      "7:s07-05795500",
+      "9:s09-00089500",
+      "9:s09-10102500",
+      "9:s09-11794500",
+      "9:s09-13164000"
+    ]
+  },
+  {
+    "key": "f45c86bb16db8166",
+    "english_key": "lucia now",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-01611000",
+      "3:s03-08053500",
+      "5:s05-04332500",
+      "6:s06-07077000"
+    ]
+  },
+  {
+    "key": "e5050f9d41d0eb83",
+    "english_key": "lucia yeah right",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-01675500",
+      "3:s03-12845500",
+      "5:s05-04048000"
+    ]
+  },
+  {
+    "key": "4c4e534eae66051d",
+    "english_key": "yeah right",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-01675500",
+      "3:s03-12845500",
+      "5:s05-02660000",
+      "5:s05-04048000"
+    ]
+  },
+  {
+    "key": "4b9ffffd2ca64675",
+    "english_key": "meditate",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-01692000",
+      "2:s02-01693500"
+    ]
+  },
+  {
+    "key": "e3b60cf27536435c",
+    "english_key": "what the fuck man",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-02600000",
+      "5:s05-02451000"
+    ]
+  },
+  {
+    "key": "1dd1307d47945700",
+    "english_key": "no shit",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-03001500",
+      "3:s03-01667000",
+      "8:s08-16707000",
+      "9:s09-09760000"
+    ]
+  },
+  {
+    "key": "e57b6069b14d5611",
+    "english_key": "jason go go go",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-03034000",
+      "6:s06-00654500"
+    ]
+  },
+  {
+    "key": "92d9f353698c260d",
+    "english_key": "go go go",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-03034000",
+      "3:s03-00701500",
+      "5:s05-00586000",
+      "5:s05-00586500",
+      "5:s05-00703500",
+      "6:s06-00654500",
+      "6:s06-02362500",
+      "8:s08-04657000",
+      "9:s09-04270500"
+    ]
+  },
+  {
+    "key": "a4fe2a1768897352",
+    "english_key": "so what now",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-03316500",
+      "3:s03-12201500"
+    ]
+  },
+  {
+    "key": "a09e1d76ab68072f",
+    "english_key": "lucia hmm",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-03378000",
+      "3:s03-11152000",
+      "6:s06-01102500",
+      "9:s09-04946500"
+    ]
+  },
+  {
+    "key": "20846f1526e74ef2",
+    "english_key": "what s that",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-03385500",
+      "3:s03-08676000",
+      "4:s04-04399000",
+      "6:s06-00225500",
+      "8:s08-05025500"
+    ]
+  },
+  {
+    "key": "8f9716ecdf263a32",
+    "english_key": "lucia oh yeah",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-03755000",
+      "3:s03-09919000",
+      "4:s04-01034500",
+      "8:s08-03148500"
+    ]
+  },
+  {
+    "key": "034c80706ccfd26b",
+    "english_key": "jason there she is",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-03986500",
+      "5:s05-06588000"
+    ]
+  },
+  {
+    "key": "187d881c9b21fbc9",
+    "english_key": "there she is",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-03986500",
+      "5:s05-06588000",
+      "6:s06-08127500"
+    ]
+  },
+  {
+    "key": "901722e102abebac",
+    "english_key": "lucia i got it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-04315000",
+      "4:s04-09890000",
+      "6:s06-06159000",
+      "9:s09-03239500",
+      "9:s09-07365500"
+    ]
+  },
+  {
+    "key": "d97a1f3eb64fc9ba",
+    "english_key": "i got it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-04315000",
+      "4:s04-09890000",
+      "6:s06-06159000",
+      "8:s08-10934000",
+      "8:s08-13220500",
+      "8:s08-15374000",
+      "9:s09-03239500",
+      "9:s09-07365500"
+    ]
+  },
+  {
+    "key": "7781e019a6fca986",
+    "english_key": "lucia whoa",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-04368500",
+      "4:s04-06514000",
+      "5:s05-07394000"
+    ]
+  },
+  {
+    "key": "69493c5774b8c6d7",
+    "english_key": "look who it is",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-04390000",
+      "6:s06-03098500"
+    ]
+  },
+  {
+    "key": "6e51f1b1f10ad5a2",
+    "english_key": "can you drive",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-04757500",
+      "3:s03-12602500"
+    ]
+  },
+  {
+    "key": "7a76fcd728ab0f3f",
+    "english_key": "i think so",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-04991500",
+      "4:s04-06014500"
+    ]
+  },
+  {
+    "key": "efab6f6e5f16720c",
+    "english_key": "lucia what the fuck",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-05057500",
+      "3:s03-02056000",
+      "4:s04-02726500",
+      "6:s06-02173000",
+      "9:s09-07375000"
+    ]
+  },
+  {
+    "key": "9bc0377f8a2a565c",
+    "english_key": "jason thanks",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-05188000",
+      "3:s03-08939000",
+      "6:s06-00464500",
+      "7:s07-08207000",
+      "8:s08-00181000"
+    ]
+  },
+  {
+    "key": "b81831c400215ba5",
+    "english_key": "we re cool",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-05874500",
+      "7:s07-07747000"
+    ]
+  },
+  {
+    "key": "29739784135b5f8a",
+    "english_key": "lucia what is it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-06497500",
+      "6:s06-01000000",
+      "9:s09-02404500"
+    ]
+  },
+  {
+    "key": "e58e3633a1bc6407",
+    "english_key": "what is it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-06497500",
+      "4:s04-06515000",
+      "6:s06-01000000",
+      "9:s09-02404500"
+    ]
+  },
+  {
+    "key": "36bc7cd787456675",
+    "english_key": "oh fuck yeah",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-06562500",
+      "7:s07-06772500"
+    ]
+  },
+  {
+    "key": "65da6ca77f0e60f6",
+    "english_key": "will do",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-07216000",
+      "4:s04-07399000",
+      "6:s06-09282000"
+    ]
+  },
+  {
+    "key": "121edbaf5ec35f44",
+    "english_key": "lucia oh",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-07737000",
+      "4:s04-02800500",
+      "6:s06-00416000",
+      "8:s08-02107500",
+      "9:s09-04924000"
+    ]
+  },
+  {
+    "key": "b5e341a8b6b56510",
+    "english_key": "jason ah",
+    "reason": "ambiguous_primary",
+    "records": [
+      "2:s02-07970000",
+      "4:s04-01250500"
+    ]
+  },
+  {
+    "key": "1384f8fbf9c52e71",
+    "english_key": "yes alright",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-08022000",
+      "8:s08-03327500"
+    ]
+  },
+  {
+    "key": "663d3d2432d831d0",
+    "english_key": "you know what",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "2:s02-08152000",
+      "3:s03-13077000",
+      "6:s06-04024000",
+      "7:s07-04874000",
+      "8:s08-00396000"
+    ]
+  },
+  {
+    "key": "e8d4ccdaca02f05f",
+    "english_key": "we got it",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-00070000",
+      "9:s09-12420000"
+    ]
+  },
+  {
+    "key": "51e4f9b053ca8a28",
+    "english_key": "lucia cops",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-00327500",
+      "4:s04-06677000",
+      "5:s05-02252500"
+    ]
+  },
+  {
+    "key": "83f64d85652fbaf0",
+    "english_key": "cops",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-00327500",
+      "4:s04-06677000",
+      "5:s05-02252500"
+    ]
+  },
+  {
+    "key": "05ad33686f78d96a",
+    "english_key": "cop move",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-00344500",
+      "9:s09-10555000"
+    ]
+  },
+  {
+    "key": "56ccc4dcfc96534b",
+    "english_key": "please",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-00387000",
+      "3:s03-00491000",
+      "4:s04-01559000",
+      "9:s09-01598500"
+    ]
+  },
+  {
+    "key": "d1bcd9f18c7cd34a",
+    "english_key": "just go",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-00502000",
+      "3:s03-00825500",
+      "6:s06-00603000"
+    ]
+  },
+  {
+    "key": "c0d55c1d8192a3ad",
+    "english_key": "no you re not",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-00561500",
+      "9:s09-10865500"
+    ]
+  },
+  {
+    "key": "667cde6f66fd1941",
+    "english_key": "okay we re good",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-00731000",
+      "9:s09-02930500"
+    ]
+  },
+  {
+    "key": "6fc1e34f9e34ace8",
+    "english_key": "jason just go",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-00825500",
+      "6:s06-00603000"
+    ]
+  },
+  {
+    "key": "390b978e342e47f2",
+    "english_key": "we just gotta",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-01011000",
+      "4:s04-03302000"
+    ]
+  },
+  {
+    "key": "ee0ded45e09b2ba1",
+    "english_key": "lucia ugh",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-01250000",
+      "4:s04-06905000",
+      "5:s05-05065000",
+      "6:s06-03101000"
+    ]
+  },
+  {
+    "key": "b07b2333bf1a97c6",
+    "english_key": "lucia no shit",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-01667000",
+      "9:s09-09760000"
+    ]
+  },
+  {
+    "key": "3ef0e03902c50fe9",
+    "english_key": "urgh",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-01762000",
+      "7:s07-05300000"
+    ]
+  },
+  {
+    "key": "33ceb621442c846f",
+    "english_key": "lucia i got you",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-01822000",
+      "4:s04-09900000"
+    ]
+  },
+  {
+    "key": "e244f187f696561d",
+    "english_key": "there",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-01890500",
+      "6:s06-04625000",
+      "6:s06-07274500",
+      "9:s09-09503000"
+    ]
+  },
+  {
+    "key": "43e150b813046f15",
+    "english_key": "hey lu",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-01937000",
+      "5:s05-00679500",
+      "6:s06-01173000"
+    ]
+  },
+  {
+    "key": "dfb5594c234ab9ba",
+    "english_key": "lucia here we go",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-03200500",
+      "9:s09-00855000"
+    ]
+  },
+  {
+    "key": "c6a1427d7119cd3c",
+    "english_key": "beautiful",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-03231000",
+      "5:s05-05800500"
+    ]
+  },
+  {
+    "key": "8044aae1f86875d9",
+    "english_key": "how",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-03755000",
+      "5:s05-04488000"
+    ]
+  },
+  {
+    "key": "85ace509e35a3f91",
+    "english_key": "come on man",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-06356500",
+      "4:s04-04259000"
+    ]
+  },
+  {
+    "key": "6d435ccf00253e6d",
+    "english_key": "like what",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-06466000",
+      "7:s07-00759000"
+    ]
+  },
+  {
+    "key": "46578122d4dc12b4",
+    "english_key": "lucia well",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-07765000",
+      "8:s08-11284000",
+      "9:s09-09237500"
+    ]
+  },
+  {
+    "key": "4cd0e21a9a0795a1",
+    "english_key": "go",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-08203000",
+      "6:s06-07092500",
+      "6:s06-07102000",
+      "7:s07-06197000",
+      "7:s07-07482000",
+      "8:s08-07572500",
+      "8:s08-16846000",
+      "8:s08-17377500",
+      "9:s09-00536500",
+      "9:s09-10045000",
+      "9:s09-11871500"
+    ]
+  },
+  {
+    "key": "e742f2fb72c4ef0b",
+    "english_key": "i got him",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-08287000",
+      "8:s08-13330500"
+    ]
+  },
+  {
+    "key": "f796e2f28ae58117",
+    "english_key": "trust",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-08494500",
+      "3:s03-08496500"
+    ]
+  },
+  {
+    "key": "b8f76381c8a05d18",
+    "english_key": "you ll see",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-08594000",
+      "9:s09-08020500"
+    ]
+  },
+  {
+    "key": "ce594438d78578a6",
+    "english_key": "lucia what s that",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-08676000",
+      "8:s08-05025500"
+    ]
+  },
+  {
+    "key": "4feeb2d3d84b166b",
+    "english_key": "jason right",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-08838000",
+      "4:s04-00429000",
+      "8:s08-05079000",
+      "8:s08-13908500"
+    ]
+  },
+  {
+    "key": "33bdd2bd74b3de82",
+    "english_key": "you smell that",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-10183000",
+      "8:s08-14406000"
+    ]
+  },
+  {
+    "key": "e9058ab198f6908f",
+    "english_key": "yo",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-10626000",
+      "3:s03-12485000",
+      "3:s03-12998000",
+      "4:s04-00477500",
+      "4:s04-00535500",
+      "6:s06-04279500",
+      "6:s06-05644000",
+      "7:s07-01812500",
+      "8:s08-05297500",
+      "8:s08-05604500",
+      "8:s08-07176500",
+      "8:s08-07800500",
+      "8:s08-09440000",
+      "8:s08-14286000"
+    ]
+  },
+  {
+    "key": "bfac6fbae353c3be",
+    "english_key": "you know it",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-11301500",
+      "8:s08-04369000"
+    ]
+  },
+  {
+    "key": "cd807b6448863ec6",
+    "english_key": "jason got em",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-12027500",
+      "8:s08-14603000"
+    ]
+  },
+  {
+    "key": "0eff8df97bb31129",
+    "english_key": "got em",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-12027500",
+      "8:s08-14603000"
+    ]
+  },
+  {
+    "key": "cceb8e4c268906cf",
+    "english_key": "the fuck",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-12033500",
+      "4:s04-06784000",
+      "4:s04-06845500",
+      "5:s05-02237500",
+      "5:s05-06551000",
+      "6:s06-07138500",
+      "7:s07-01632500"
+    ]
+  },
+  {
+    "key": "3175a5737ce591ba",
+    "english_key": "here take this",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-12149500",
+      "7:s07-01827500",
+      "8:s08-07263500"
+    ]
+  },
+  {
+    "key": "676a2f43842d7de5",
+    "english_key": "jason stick to the plan",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-12202500",
+      "5:s05-03583000"
+    ]
+  },
+  {
+    "key": "39cd80e906e5321e",
+    "english_key": "stick to the plan",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-12202500",
+      "5:s05-03583000"
+    ]
+  },
+  {
+    "key": "b24d6d33736ecd56",
+    "english_key": "ready",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "3:s03-12218000",
+      "4:s04-05411000",
+      "6:s06-01424000",
+      "6:s06-07580500",
+      "7:s07-01811000",
+      "9:s09-12809500"
+    ]
+  },
+  {
+    "key": "1a154d32b886d1b4",
+    "english_key": "jason yeah me too",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-12763500",
+      "4:s04-09947500"
+    ]
+  },
+  {
+    "key": "dc0af169286d1bb5",
+    "english_key": "yeah me too",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-12763500",
+      "4:s04-09947500",
+      "6:s06-07185000"
+    ]
+  },
+  {
+    "key": "5a815869f8661fa8",
+    "english_key": "jason yo",
+    "reason": "ambiguous_primary",
+    "records": [
+      "3:s03-12998000",
+      "8:s08-07176500"
+    ]
+  },
+  {
+    "key": "6e5cd0bbb95f3ffb",
+    "english_key": "ohh",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-00545500",
+      "7:s07-05468500"
+    ]
+  },
+  {
+    "key": "f5c2e98c1c418552",
+    "english_key": "oh damn",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-01022500",
+      "5:s05-07571500",
+      "6:s06-04262500"
+    ]
+  },
+  {
+    "key": "a2dfc3c837184b0c",
+    "english_key": "lucia i m in",
+    "reason": "ambiguous_primary",
+    "records": [
+      "4:s04-01105000",
+      "8:s08-07028000"
+    ]
+  },
+  {
+    "key": "40cdd5d2ca822c63",
+    "english_key": "i m in",
+    "reason": "ambiguous_primary",
+    "records": [
+      "4:s04-01105000",
+      "8:s08-07028000",
+      "8:s08-13496000"
+    ]
+  },
+  {
+    "key": "4b331902904deffb",
+    "english_key": "look at this",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-02963500",
+      "7:s07-04916000"
+    ]
+  },
+  {
+    "key": "18c39426045066de",
+    "english_key": "mia what the fuck",
+    "reason": "ambiguous_primary",
+    "records": [
+      "4:s04-02967000",
+      "6:s06-03109000"
+    ]
+  },
+  {
+    "key": "5924ada18188b0be",
+    "english_key": "lucia that s it",
+    "reason": "ambiguous_primary",
+    "records": [
+      "4:s04-03242500",
+      "7:s07-01233000"
+    ]
+  },
+  {
+    "key": "30249e4c7b32d186",
+    "english_key": "mami",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-03250500",
+      "6:s06-03963500",
+      "7:s07-00649000",
+      "7:s07-00649500"
+    ]
+  },
+  {
+    "key": "7032b74a2103c723",
+    "english_key": "okay man",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-04755500",
+      "7:s07-01063000"
+    ]
+  },
+  {
+    "key": "9bfed8941f6df0df",
+    "english_key": "we re here",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-05626500",
+      "8:s08-09062500",
+      "8:s08-14893500"
+    ]
+  },
+  {
+    "key": "c0c77ef20cd16abc",
+    "english_key": "yes ma am",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-05805500",
+      "7:s07-01370500",
+      "7:s07-02250000",
+      "9:s09-08048000"
+    ]
+  },
+  {
+    "key": "405dcd7879bc7716",
+    "english_key": "lucia the fuck",
+    "reason": "ambiguous_primary",
+    "records": [
+      "4:s04-06845500",
+      "5:s05-06551000"
+    ]
+  },
+  {
+    "key": "1017bcf9924e1190",
+    "english_key": "lucia will do",
+    "reason": "ambiguous_primary",
+    "records": [
+      "4:s04-07399000",
+      "6:s06-09282000"
+    ]
+  },
+  {
+    "key": "b1d1d7b816614a23",
+    "english_key": "it s for raul",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-07750000",
+      "4:s04-07752000"
+    ]
+  },
+  {
+    "key": "4713b572c1e40ea7",
+    "english_key": "alright let s go",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-08444500",
+      "7:s07-07672500"
+    ]
+  },
+  {
+    "key": "8c649a8f85f3d89d",
+    "english_key": "diablo",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-09024500",
+      "7:s07-00662000"
+    ]
+  },
+  {
+    "key": "f40fe3cf8b7791c6",
+    "english_key": "lucia we got this",
+    "reason": "ambiguous_primary",
+    "records": [
+      "4:s04-09095000",
+      "5:s05-01584000"
+    ]
+  },
+  {
+    "key": "b47a11ed1999eeff",
+    "english_key": "we got this",
+    "reason": "ambiguous_primary",
+    "records": [
+      "4:s04-09095000",
+      "5:s05-01584000",
+      "5:s05-06816000",
+      "7:s07-04220000",
+      "7:s07-07757000"
+    ]
+  },
+  {
+    "key": "c731f89ac1d331e0",
+    "english_key": "in spanish let s go",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-09198500",
+      "6:s06-03336000",
+      "6:s06-06652000",
+      "7:s07-07709500"
+    ]
+  },
+  {
+    "key": "818b9f523587d5bd",
+    "english_key": "we re clear",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-09351000",
+      "6:s06-07720000",
+      "9:s09-03531500",
+      "9:s09-08384500"
+    ]
+  },
+  {
+    "key": "fa835fb5da1fbbc3",
+    "english_key": "kamal",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-10108500",
+      "4:s04-10278500"
+    ]
+  },
+  {
+    "key": "7dbaec1884b2a6de",
+    "english_key": "the party s over",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-10387500",
+      "8:s08-03924000"
+    ]
+  },
+  {
+    "key": "e3b4b8e99bda3a71",
+    "english_key": "excuse me",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "4:s04-10656500",
+      "8:s08-12004000",
+      "9:s09-08470500"
+    ]
+  },
+  {
+    "key": "fea57792e4dcc2fc",
+    "english_key": "gotcha",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "5:s05-00241000",
+      "6:s06-07601500"
+    ]
+  },
+  {
+    "key": "d9bf9daf9a6c2c49",
+    "english_key": "good to see you",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "5:s05-01094000",
+      "9:s09-01860000"
+    ]
+  },
+  {
+    "key": "ffe58fa84a9e2956",
+    "english_key": "raul in spanish understand me",
+    "reason": "ambiguous_primary",
+    "records": [
+      "5:s05-01177000",
+      "7:s07-07762000"
+    ]
+  },
+  {
+    "key": "1eb44ef71395fff2",
+    "english_key": "in spanish understand me",
+    "reason": "ambiguous_primary",
+    "records": [
+      "5:s05-01177000",
+      "7:s07-07762000"
+    ]
+  },
+  {
+    "key": "9e373307521a792a",
+    "english_key": "hey karim",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "5:s05-01244000",
+      "6:s06-00241000"
+    ]
+  },
+  {
+    "key": "433a0886c8b93f6c",
+    "english_key": "jason okay i got you",
+    "reason": "ambiguous_primary",
+    "records": [
+      "5:s05-01805500",
+      "6:s06-06147500"
+    ]
+  },
+  {
+    "key": "f0fab7b0df262e30",
+    "english_key": "okay i got you",
+    "reason": "ambiguous_primary",
+    "records": [
+      "5:s05-01805500",
+      "6:s06-06147500"
+    ]
+  },
+  {
+    "key": "09aae20e4b7106a7",
+    "english_key": "alright here we go",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "5:s05-02691000",
+      "7:s07-07644500",
+      "8:s08-03612000"
+    ]
+  },
+  {
+    "key": "f8b1d2e816c5211f",
+    "english_key": "ugh come on",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "5:s05-03044500",
+      "6:s06-03871000"
+    ]
+  },
+  {
+    "key": "3f8ba893b7c01772",
+    "english_key": "go go",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "5:s05-03325000",
+      "5:s05-04638000"
+    ]
+  },
+  {
+    "key": "84497a182fecb015",
+    "english_key": "go go go go",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "5:s05-04177000",
+      "6:s06-00600500",
+      "9:s09-06463500"
+    ]
+  },
+  {
+    "key": "f6db34d750915a0b",
+    "english_key": "got you",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "5:s05-04854500",
+      "7:s07-05173000",
+      "7:s07-05496000"
+    ]
+  },
+  {
+    "key": "867fd096e2d460fb",
+    "english_key": "you don t",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "5:s05-05244000",
+      "8:s08-07412500"
+    ]
+  },
+  {
+    "key": "47fbb534190f038e",
+    "english_key": "in spanish yeah",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "5:s05-05982500",
+      "8:s08-16928000"
+    ]
+  },
+  {
+    "key": "85114d982806bcb6",
+    "english_key": "lucia yo raul",
+    "reason": "ambiguous_primary",
+    "records": [
+      "5:s05-06672000",
+      "9:s09-00235000"
+    ]
+  },
+  {
+    "key": "1677b3d0c8341c3b",
+    "english_key": "yo raul",
+    "reason": "ambiguous_primary",
+    "records": [
+      "5:s05-06672000",
+      "9:s09-00235000"
+    ]
+  },
+  {
+    "key": "bbb0b5b15842af2a",
+    "english_key": "raul",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "6:s06-00073500",
+      "6:s06-02511000",
+      "7:s07-01994500",
+      "8:s08-00125500",
+      "8:s08-05896500",
+      "9:s09-00079000",
+      "9:s09-00332000"
+    ]
+  },
+  {
+    "key": "0c044a36c373b6a8",
+    "english_key": "eh",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "6:s06-01214500",
+      "6:s06-02119500"
+    ]
+  },
+  {
+    "key": "bb0347a468d97e98",
+    "english_key": "you",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "6:s06-01666000",
+      "7:s07-06676000",
+      "7:s07-07147500"
+    ]
+  },
+  {
+    "key": "3c01eba119e00d79",
+    "english_key": "look",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "6:s06-02062500",
+      "8:s08-05146500",
+      "9:s09-10668500"
+    ]
+  },
+  {
+    "key": "e088c25b5101e37c",
+    "english_key": "oh ohh",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "6:s06-02084500",
+      "8:s08-12703000"
+    ]
+  },
+  {
+    "key": "9b1a30b2238b4a18",
+    "english_key": "check these out",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "6:s06-02113500",
+      "8:s08-10697000"
+    ]
+  },
+  {
+    "key": "14eb256fea469041",
+    "english_key": "papi",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "6:s06-02453500",
+      "8:s08-15078500"
+    ]
+  },
+  {
+    "key": "76ecdc354d84a63d",
+    "english_key": "lucia where you going",
+    "reason": "ambiguous_primary",
+    "records": [
+      "6:s06-03076500",
+      "8:s08-16296000"
+    ]
+  },
+  {
+    "key": "c900cd96a137fbe2",
+    "english_key": "where you going",
+    "reason": "ambiguous_primary",
+    "records": [
+      "6:s06-03076500",
+      "8:s08-04731000",
+      "8:s08-16296000"
+    ]
+  },
+  {
+    "key": "09ea12a6a58b7779",
+    "english_key": "over here",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "6:s06-04082000",
+      "8:s08-13481000",
+      "8:s08-16172000"
+    ]
+  },
+  {
+    "key": "79fc153d7d6ad260",
+    "english_key": "karim yo",
+    "reason": "ambiguous_primary",
+    "records": [
+      "6:s06-04279500",
+      "8:s08-07800500"
+    ]
+  },
+  {
+    "key": "86e0f9409da150db",
+    "english_key": "good times",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "6:s06-05419000",
+      "6:s06-06685500"
+    ]
+  },
+  {
+    "key": "d8caf1229cd5d761",
+    "english_key": "lucia jump",
+    "reason": "ambiguous_primary",
+    "records": [
+      "6:s06-06185500",
+      "9:s09-12761500"
+    ]
+  },
+  {
+    "key": "6bdaf554e42029bd",
+    "english_key": "jump",
+    "reason": "ambiguous_primary",
+    "records": [
+      "6:s06-06185500",
+      "7:s07-07153000",
+      "9:s09-12761500",
+      "9:s09-12834500"
+    ]
+  },
+  {
+    "key": "980ddb8e3b515341",
+    "english_key": "lucia go",
+    "reason": "ambiguous_primary",
+    "records": [
+      "6:s06-07092500",
+      "7:s07-07482000",
+      "8:s08-16846000"
+    ]
+  },
+  {
+    "key": "44546478b03b0b84",
+    "english_key": "move move",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "6:s06-07320000",
+      "8:s08-13484500"
+    ]
+  },
+  {
+    "key": "e52115f65210901c",
+    "english_key": "really really",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "6:s06-08199500",
+      "9:s09-04119000"
+    ]
+  },
+  {
+    "key": "545cbc09207ee4c1",
+    "english_key": "this is us",
+    "reason": "ambiguous_primary",
+    "records": [
+      "6:s06-08284000",
+      "9:s09-03277000",
+      "9:s09-05710000"
+    ]
+  },
+  {
+    "key": "4d780d507ffadfe3",
+    "english_key": "jason yeah yeah me too",
+    "reason": "ambiguous_primary",
+    "records": [
+      "6:s06-09186000",
+      "8:s08-01864000"
+    ]
+  },
+  {
+    "key": "4994585a8fd4b15c",
+    "english_key": "yeah yeah me too",
+    "reason": "ambiguous_primary",
+    "records": [
+      "6:s06-09186000",
+      "8:s08-01864000"
+    ]
+  },
+  {
+    "key": "347e2a9c9d10d186",
+    "english_key": "i m up",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "7:s07-02013500",
+      "9:s09-11914500"
+    ]
+  },
+  {
+    "key": "48b676e2b107da67",
+    "english_key": "man",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "7:s07-02591000",
+      "8:s08-08790000"
+    ]
+  },
+  {
+    "key": "62cd354acc04573a",
+    "english_key": "hey let s go",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "8:s08-00920000",
+      "9:s09-10004000"
+    ]
+  },
+  {
+    "key": "67b9175123442f3c",
+    "english_key": "how s that",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "8:s08-01432500",
+      "9:s09-00990500"
+    ]
+  },
+  {
+    "key": "40d5aac58c9bcb19",
+    "english_key": "yeah no shit",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "8:s08-07259500",
+      "9:s09-08865500",
+      "9:s09-09929500"
+    ]
+  },
+  {
+    "key": "bc6cb054b30a922a",
+    "english_key": "you know that right",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "8:s08-07411500",
+      "8:s08-17905000",
+      "9:s09-12825000"
+    ]
+  },
+  {
+    "key": "0c24734d7bf5954f",
+    "english_key": "together",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "8:s08-10724000",
+      "9:s09-08862500"
+    ]
+  },
+  {
+    "key": "37c950ef7ff9a75a",
+    "english_key": "oh shit she s here",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "8:s08-11002500",
+      "9:s09-11006000"
+    ]
+  },
+  {
+    "key": "8f423cd28596d1e7",
+    "english_key": "you got em",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "8:s08-13385000",
+      "9:s09-05953000"
+    ]
+  },
+  {
+    "key": "07630777646b9ad0",
+    "english_key": "all of it",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "8:s08-15106000",
+      "9:s09-09706500"
+    ]
+  },
+  {
+    "key": "4fbbe7942e703628",
+    "english_key": "mattia again",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "9:s09-01087000",
+      "9:s09-01504500"
+    ]
+  },
+  {
+    "key": "850f84a3fa49606e",
+    "english_key": "what do you want",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "9:s09-01151000",
+      "9:s09-04532000"
+    ]
+  },
+  {
+    "key": "c29f442cb65a6b19",
+    "english_key": "vinny this is us",
+    "reason": "ambiguous_primary",
+    "records": [
+      "9:s09-03277000",
+      "9:s09-05710000"
+    ]
+  },
+  {
+    "key": "908aec4512d80ff4",
+    "english_key": "down",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "9:s09-03329000",
+      "9:s09-05937000",
+      "9:s09-06842500"
+    ]
+  },
+  {
+    "key": "7e1b819a9770b8b3",
+    "english_key": "get out",
+    "reason": "ambiguous_fallback",
+    "records": [
+      "9:s09-09498500",
+      "9:s09-12395500"
+    ]
+  }
+]

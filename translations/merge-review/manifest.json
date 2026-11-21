@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "legacy_sha256": "5196776c454db1db03b07355b5f3b454ae7dedeeda46a1ddc9642ee7aca7fd84",
+  "shared_pack_keys": 7208,
+  "matched_records": 7428,
+  "identical_occurrences": 1895,
+  "review_units": 6064,
+  "queues": [
+    {
+      "file": "review-input-1.json",
+      "units": 2037,
+      "characters": 204127
+    },
+    {
+      "file": "review-input-2.json",
+      "units": 2000,
+      "characters": 204148
+    },
+    {
+      "file": "review-input-3.json",
+      "units": 2027,
+      "characters": 204122
+    }
+  ]
+}

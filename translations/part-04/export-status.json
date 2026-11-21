@@ -1,0 +1,725 @@
+{
+  "reviewed_cues": 2504,
+  "ocr_windows_available": 8357,
+  "not_exported_navigation_windows": 5853,
+  "empty_midpoint_windows": 2488,
+  "earlier_frame_windows_checked": 8,
+  "earlier_frame_windows_with_text": 8,
+  "pack_entries": 4803,
+  "reviewed_earlier_frames": 0,
+  "latest_reviewed_timestamp": 10667.0,
+  "navigation_scan_complete": null,
+  "continuous_scan_candidates": 8357,
+  "continuous_scan_complete": true,
+  "candidate_review_complete": true,
+  "unresolved_source_issues": [
+    "s04-01314000",
+    "s04-01318500",
+    "s04-02479000",
+    "s04-04539000",
+    "s04-06516500",
+    "s04-09019500",
+    "s04-10414500"
+  ],
+  "coverage_verified": false,
+  "timing_verified": false,
+  "ambiguous_primary_records": [],
+  "directly_ambiguous_primary_records": [],
+  "blocked_fallback_primary_records": [],
+  "omitted_ambiguous_keys": [
+    {
+      "english_key": "yeah okay",
+      "alternatives": [
+        [
+          "s04-00019500",
+          "Dre'Quan: He, tamam..."
+        ],
+        [
+          "s04-02492500",
+          "Jason: He, tamam..."
+        ]
+      ]
+    },
+    {
+      "english_key": "i got you",
+      "alternatives": [
+        [
+          "s04-00128000",
+          "Jason: Anladım."
+        ],
+        [
+          "s04-09900000",
+          "Lucia: Tamamdır."
+        ]
+      ]
+    },
+    {
+      "english_key": "you feel me",
+      "alternatives": [
+        [
+          "s04-00196500",
+          "Dre'Quan: Anladın mı?"
+        ],
+        [
+          "s04-03935000",
+          "Boobie: Anladın mı?"
+        ]
+      ]
+    },
+    {
+      "english_key": "a ight",
+      "alternatives": [
+        [
+          "s04-00200500",
+          "Tyrone: Tamam."
+        ],
+        [
+          "s04-00369500",
+          "Mahalleli: Tamam!"
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah",
+      "alternatives": [
+        [
+          "s04-00203500",
+          "Dre'Quan: Evet."
+        ],
+        [
+          "s04-00852500",
+          "Jason: Evet..."
+        ],
+        [
+          "s04-03089500",
+          "Lucia: Evet."
+        ],
+        [
+          "s04-04745500",
+          "Dook: Evet."
+        ],
+        [
+          "s04-09358500",
+          "Raul: Evet!"
+        ]
+      ]
+    },
+    {
+      "english_key": "okay",
+      "alternatives": [
+        [
+          "s04-00206000",
+          "Dre'Quan: Tamam."
+        ],
+        [
+          "s04-03098500",
+          "Mia: Tamam..."
+        ],
+        [
+          "s04-03616000",
+          "Lucia: Tamam."
+        ],
+        [
+          "s04-06314000",
+          "Yabancı: Tamam."
+        ],
+        [
+          "s04-10215000",
+          "Bae-Luxe: Tamam..."
+        ],
+        [
+          "s04-10666000",
+          "Jason: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "for sure",
+      "alternatives": [
+        [
+          "s04-00208000",
+          "Dre'Quan: Tabii ki."
+        ],
+        [
+          "s04-04769000",
+          "Tyrone: Tabii ki."
+        ]
+      ]
+    },
+    {
+      "english_key": "thank you",
+      "alternatives": [
+        [
+          "s04-00366000",
+          "Mahalleli: Sağ ol!"
+        ],
+        [
+          "s04-05437000",
+          "Lucia: Teşekkür ederim."
+        ],
+        [
+          "s04-05756000",
+          "Brian: Teşekkür ederim."
+        ]
+      ]
+    },
+    {
+      "english_key": "right",
+      "alternatives": [
+        [
+          "s04-00429000",
+          "Jason: Tamam."
+        ],
+        [
+          "s04-02456000",
+          "Lucia: Tabii."
+        ]
+      ]
+    },
+    {
+      "english_key": "yo",
+      "alternatives": [
+        [
+          "s04-00477500",
+          "Mahalleli: Hey..."
+        ],
+        [
+          "s04-00535500",
+          "Dre'Quan: Hey..."
+        ]
+      ]
+    },
+    {
+      "english_key": "what",
+      "alternatives": [
+        [
+          "s04-00541500",
+          "Yabancı: Ne?"
+        ],
+        [
+          "s04-01426500",
+          "Jason: Ne?"
+        ],
+        [
+          "s04-05659000",
+          "Lucia: Ne?"
+        ]
+      ]
+    },
+    {
+      "english_key": "shit",
+      "alternatives": [
+        [
+          "s04-00605000",
+          "Dre'Quan: Siktir,"
+        ],
+        [
+          "s04-01227000",
+          "Jason: Siktir."
+        ],
+        [
+          "s04-03016500",
+          "Lucia: Siktir..."
+        ],
+        [
+          "s04-03461500",
+          "Lucia: Siktir..."
+        ],
+        [
+          "s04-03462500",
+          "Lucia: Siktir."
+        ],
+        [
+          "s04-03462000",
+          "Lucia: Siktir."
+        ],
+        [
+          "s04-04738000",
+          "Tyrone: Siktir..."
+        ]
+      ]
+    },
+    {
+      "english_key": "hey",
+      "alternatives": [
+        [
+          "s04-00822000",
+          "Lucia: Alo."
+        ],
+        [
+          "s04-07920500",
+          "Kasiyer: Selam."
+        ],
+        [
+          "s04-08806500",
+          "Jason: Selam."
+        ]
+      ]
+    },
+    {
+      "english_key": "i don t know",
+      "alternatives": [
+        [
+          "s04-00935500",
+          "Lucia: Bilmiyorum."
+        ],
+        [
+          "s04-04524000",
+          "Jason: Bilmiyorum."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh",
+      "alternatives": [
+        [
+          "s04-01020500",
+          "Jason: Aa..."
+        ],
+        [
+          "s04-02800500",
+          "Lucia: Aa..."
+        ],
+        [
+          "s04-05092000",
+          "Charles: Ah!"
+        ],
+        [
+          "s04-05802500",
+          "Lori: Ah!"
+        ]
+      ]
+    },
+    {
+      "english_key": "oh yeah",
+      "alternatives": [
+        [
+          "s04-01034500",
+          "Lucia: Öyle mi?"
+        ],
+        [
+          "s04-02181000",
+          "Jason: Öyle mi?"
+        ]
+      ]
+    },
+    {
+      "english_key": "mm hmm",
+      "alternatives": [
+        [
+          "s04-01063000",
+          "Lucia: Hı hı."
+        ],
+        [
+          "s04-07106000",
+          "Jason: Hı hı."
+        ]
+      ]
+    },
+    {
+      "english_key": "ah shit",
+      "alternatives": [
+        [
+          "s04-01188500",
+          "Yabancı: Ah, siktir..."
+        ],
+        [
+          "s04-01189000",
+          "Yabancı: Ah, siktir..."
+        ],
+        [
+          "s04-05108500",
+          "Jason: Ah, siktir."
+        ],
+        [
+          "s04-08604500",
+          "Lucia: Ah, siktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "damn",
+      "alternatives": [
+        [
+          "s04-01222000",
+          "Jason: Vay be."
+        ],
+        [
+          "s04-05564500",
+          "Lucia: Vay be."
+        ]
+      ]
+    },
+    {
+      "english_key": "i expect the authorities will be right on your heels",
+      "alternatives": [
+        [
+          "s04-01580000",
+          "Evelyn: Eminim polis de peşinize düşmüştür."
+        ],
+        [
+          "s04-02317500",
+          "Lucia: \"Eminim polis de peşinize düşmüştür.\""
+        ]
+      ]
+    },
+    {
+      "english_key": "alright",
+      "alternatives": [
+        [
+          "s04-01686000",
+          "Jason: Pekâlâ."
+        ],
+        [
+          "s04-06702000",
+          "Yabancı: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "of course",
+      "alternatives": [
+        [
+          "s04-01693500",
+          "Halifax: Elbette."
+        ],
+        [
+          "s04-09181000",
+          "Lucia: Tabii ki."
+        ],
+        [
+          "s04-09378000",
+          "Raul: Tabii ki."
+        ]
+      ]
+    },
+    {
+      "english_key": "bitch",
+      "alternatives": [
+        [
+          "s04-02320500",
+          "Lucia: Sürtük."
+        ],
+        [
+          "s04-04150000",
+          "Boobie: Şerefsiz."
+        ]
+      ]
+    },
+    {
+      "english_key": "what the fuck",
+      "alternatives": [
+        [
+          "s04-02726500",
+          "Lucia: Bu ne lan?"
+        ],
+        [
+          "s04-02967000",
+          "Mia: Bu ne lan..."
+        ],
+        [
+          "s04-04249500",
+          "Boobie: Ne oluyor lan?"
+        ]
+      ]
+    },
+    {
+      "english_key": "lucia come on",
+      "alternatives": [
+        [
+          "s04-02970500",
+          "Mia: Lucia, hadi!"
+        ],
+        [
+          "s04-06246000",
+          "Yabancı: Lucia, hadi ama..."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh shit",
+      "alternatives": [
+        [
+          "s04-03079500",
+          "Lucia: Ah, siktir."
+        ],
+        [
+          "s04-03293500",
+          "Mia: Ah, siktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah yeah",
+      "alternatives": [
+        [
+          "s04-03169500",
+          "Lucia: Evet, evet."
+        ],
+        [
+          "s04-08931000",
+          "Jason: Evet.\nEvet."
+        ]
+      ]
+    },
+    {
+      "english_key": "uh huh",
+      "alternatives": [
+        [
+          "s04-03222500",
+          "Lucia: Hı hı..."
+        ],
+        [
+          "s04-06295000",
+          "Yabancı: Hı hı."
+        ],
+        [
+          "s04-09357000",
+          "Raul: Hı hı..."
+        ]
+      ]
+    },
+    {
+      "english_key": "fuck",
+      "alternatives": [
+        [
+          "s04-03253500",
+          "Lucia: Siktir!"
+        ],
+        [
+          "s04-04263500",
+          "Boobie: Siktir!"
+        ],
+        [
+          "s04-05093000",
+          "Charles: Siktir!"
+        ],
+        [
+          "s04-05208000",
+          "Jason: Siktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "fuckin bitch",
+      "alternatives": [
+        [
+          "s04-03409000",
+          "Mia: Lanet orospu!"
+        ],
+        [
+          "s04-10283500",
+          "Kamal: Sikik... orospu!"
+        ]
+      ]
+    },
+    {
+      "english_key": "here we go",
+      "alternatives": [
+        [
+          "s04-03648000",
+          "Mia: İşte buldum."
+        ],
+        [
+          "s04-10153500",
+          "Bae-Luxe: Yine başladık."
+        ]
+      ]
+    },
+    {
+      "english_key": "yep",
+      "alternatives": [
+        [
+          "s04-04660500",
+          "Jason: Aynen."
+        ],
+        [
+          "s04-06015500",
+          "Brian: Evet."
+        ],
+        [
+          "s04-08849000",
+          "Lucia: Aynen."
+        ]
+      ]
+    },
+    {
+      "english_key": "here",
+      "alternatives": [
+        [
+          "s04-04890000",
+          "Jason: Al."
+        ],
+        [
+          "s04-09990500",
+          "Lucia: Al..."
+        ]
+      ]
+    },
+    {
+      "english_key": "huh",
+      "alternatives": [
+        [
+          "s04-05028000",
+          "Charles: Ha?"
+        ],
+        [
+          "s04-05306500",
+          "Jason: Hım."
+        ]
+      ]
+    },
+    {
+      "english_key": "let s go",
+      "alternatives": [
+        [
+          "s04-05632000",
+          "Lucia: Hadi gidelim."
+        ],
+        [
+          "s04-09191500",
+          "Raul: Hadi gidelim."
+        ]
+      ]
+    },
+    {
+      "english_key": "mmhmm",
+      "alternatives": [
+        [
+          "s04-05729000",
+          "Brian: Hı hı."
+        ],
+        [
+          "s04-09945500",
+          "Bae-Luxe: Hı hı."
+        ],
+        [
+          "s04-10257500",
+          "Roxy: Hı hı..."
+        ]
+      ]
+    },
+    {
+      "english_key": "are you sure",
+      "alternatives": [
+        [
+          "s04-06277500",
+          "Lucia: Emin misiniz?"
+        ],
+        [
+          "s04-09944500",
+          "Jason: Emin misin?"
+        ]
+      ]
+    },
+    {
+      "english_key": "on it",
+      "alternatives": [
+        [
+          "s04-06575500",
+          "Lucia: Hallediyorum."
+        ],
+        [
+          "s04-08977500",
+          "Jason: Hallediyorum."
+        ]
+      ]
+    },
+    {
+      "english_key": "the fuck",
+      "alternatives": [
+        [
+          "s04-06784000",
+          "Yabancı: Ne oluyor lan?"
+        ],
+        [
+          "s04-06845500",
+          "Lucia: Bu ne lan?"
+        ]
+      ]
+    },
+    {
+      "english_key": "hmm",
+      "alternatives": [
+        [
+          "s04-06884000",
+          "Jason: Hımm."
+        ],
+        [
+          "s04-09433500",
+          "Raul: Hımm."
+        ]
+      ]
+    },
+    {
+      "english_key": "it s for raul",
+      "alternatives": [
+        [
+          "s04-07750000",
+          "Lucia: Raul için."
+        ],
+        [
+          "s04-07752000",
+          "Randy: Raul için mi?"
+        ]
+      ]
+    },
+    {
+      "english_key": "oh hey",
+      "alternatives": [
+        [
+          "s04-08438500",
+          "Jason: Aa, selam."
+        ],
+        [
+          "s04-09469500",
+          "Andrea: Aa, selam."
+        ]
+      ]
+    },
+    {
+      "english_key": "you got it",
+      "alternatives": [
+        [
+          "s04-09328500",
+          "Lucia: Tamamdır."
+        ],
+        [
+          "s04-09981000",
+          "Kasiyer: Tabii ki."
+        ]
+      ]
+    },
+    {
+      "english_key": "kamal",
+      "alternatives": [
+        [
+          "s04-10108500",
+          "Bae-Luxe: Kamal mı?"
+        ],
+        [
+          "s04-10278500",
+          "Roxy: Kamal!"
+        ]
+      ]
+    },
+    {
+      "english_key": "in spanish shit",
+      "alternatives": [
+        [
+          "s04-03616500",
+          "Mia: İspanyolca: Siktir."
+        ],
+        [
+          "s04-09187000",
+          "Raul: İspanyolca: Siktir..."
+        ]
+      ]
+    }
+  ],
+  "complete": true,
+  "speaker_color_label_occurrences": 2592,
+  "speaker_color_measured_occurrences": 2575,
+  "speaker_color_visually_identified_occurrences": 17,
+  "speaker_color_unresolved_occurrences": 0
+}

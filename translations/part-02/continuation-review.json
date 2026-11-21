@@ -1,0 +1,1039 @@
+{
+  "reviewed_records": 2054,
+  "checked_chains": [
+    {
+      "ids": [
+        "s02-00133500",
+        "s02-00135500",
+        "s02-00137500"
+      ],
+      "result": "Meaning and Turkish continuation retained"
+    },
+    {
+      "ids": [
+        "s02-00155000",
+        "s02-00157500"
+      ],
+      "result": "Appositional continuation retained"
+    },
+    {
+      "ids": [
+        "s02-00189500",
+        "s02-00191500"
+      ],
+      "result": "List continuation retained"
+    },
+    {
+      "ids": [
+        "s02-00206500",
+        "s02-00208000"
+      ],
+      "result": "Much less comparison retained"
+    },
+    {
+      "ids": [
+        "s02-00292500",
+        "s02-00294000"
+      ],
+      "result": "Conditional-time clause retained"
+    },
+    {
+      "ids": [
+        "s02-00491500",
+        "s02-00494000",
+        "s02-00497500"
+      ],
+      "result": "Action list and pointing locations retained"
+    },
+    {
+      "ids": [
+        "s02-00645500",
+        "s02-00647500"
+      ],
+      "result": "And coordination retained"
+    },
+    {
+      "ids": [
+        "s02-00684500",
+        "s02-00686000"
+      ],
+      "result": "Changed temporal clause placement; native crops checked"
+    },
+    {
+      "ids": [
+        "s02-00721000",
+        "s02-00723000"
+      ],
+      "result": "Reason for staying sharp retained"
+    },
+    {
+      "ids": [
+        "s02-00797500",
+        "s02-00801000"
+      ],
+      "result": "Licence explanation continuation retained"
+    },
+    {
+      "ids": [
+        "s02-00844500",
+        "s02-00848500"
+      ],
+      "result": "Question subject continuation retained"
+    },
+    {
+      "ids": [
+        "s02-00852500",
+        "s02-00854500"
+      ],
+      "result": "Changed final list item meaning; native crops checked"
+    },
+    {
+      "ids": [
+        "s02-00910000",
+        "s02-00911500"
+      ],
+      "result": "If clause and reply retained"
+    },
+    {
+      "ids": [
+        "s02-01314000",
+        "s02-01317000"
+      ],
+      "result": "Native crops checked; emphatic house restatement is natural spoken continuation, retained"
+    },
+    {
+      "ids": [
+        "s02-01417500",
+        "s02-01419500",
+        "s02-01421500",
+        "s02-01424000"
+      ],
+      "result": "Release condition and first-call clarification retained"
+    },
+    {
+      "ids": [
+        "s02-01429500",
+        "s02-01430500"
+      ],
+      "result": "Self-corrected explanation retained"
+    },
+    {
+      "ids": [
+        "s02-01434500",
+        "s02-01436000"
+      ],
+      "result": "Reported statement retained"
+    },
+    {
+      "ids": [
+        "s02-01591500",
+        "s02-01593500"
+      ],
+      "result": "Changed one-thing/but contrast to idiomatic Turkish; native checked"
+    },
+    {
+      "ids": [
+        "s02-01623500",
+        "s02-01626000"
+      ],
+      "result": "Cousins/aunt/uncle list retained"
+    },
+    {
+      "ids": [
+        "s02-01649500",
+        "s02-01653000",
+        "s02-01657000"
+      ],
+      "result": "Until clause and echoed promise retained"
+    },
+    {
+      "ids": [
+        "s02-02138000",
+        "s02-02141000"
+      ],
+      "result": "Sequential imperatives retained"
+    },
+    {
+      "ids": [
+        "s02-02204000",
+        "s02-02208500"
+      ],
+      "result": "Incomplete source-censored geographic description retained without filling hidden object"
+    },
+    {
+      "ids": [
+        "s02-02244000",
+        "s02-02247500"
+      ],
+      "result": "Need you to clause retained"
+    },
+    {
+      "ids": [
+        "s02-02281000",
+        "s02-02284500"
+      ],
+      "result": "Hillbilly revenge noun phrase retained"
+    },
+    {
+      "ids": [
+        "s02-02319500",
+        "s02-02326500",
+        "s02-02332000"
+      ],
+      "result": "Rhetorical question and answer retained"
+    },
+    {
+      "ids": [
+        "s02-02403500",
+        "s02-02406000"
+      ],
+      "result": "ATC reported perception retained"
+    },
+    {
+      "ids": [
+        "s02-02492500",
+        "s02-02495500"
+      ],
+      "result": "Question predicate completes naturally in second screen, retained"
+    },
+    {
+      "ids": [
+        "s02-02548000",
+        "s02-02550000"
+      ],
+      "result": "Company vehicle explanation retained"
+    },
+    {
+      "ids": [
+        "s02-02616500",
+        "s02-02617500"
+      ],
+      "result": "Favor/request predicate retained"
+    },
+    {
+      "ids": [
+        "s02-02667000",
+        "s02-02670000"
+      ],
+      "result": "Ex-military explanation retained"
+    },
+    {
+      "ids": [
+        "s02-02744000",
+        "s02-02745500",
+        "s02-02748500",
+        "s02-02749500"
+      ],
+      "result": "Changed interrupted they-dont-make-clubs syntax; four native crops checked"
+    },
+    {
+      "ids": [
+        "s02-03308000",
+        "s02-03310000"
+      ],
+      "result": "Changed interrupted knew-where object/predicate order; native checked"
+    },
+    {
+      "ids": [
+        "s02-03654500",
+        "s02-03656000"
+      ],
+      "result": "Changed suspended I think to bence, preserving following subject; native checked"
+    },
+    {
+      "ids": [
+        "s02-03735500",
+        "s02-03737000"
+      ],
+      "result": "Sleep-talking reason retained"
+    },
+    {
+      "ids": [
+        "s02-03744000",
+        "s02-03745500"
+      ],
+      "result": "Worry and mistaken belief retained"
+    },
+    {
+      "ids": [
+        "s02-03816000",
+        "s02-03819000"
+      ],
+      "result": "Certainty continuation retained"
+    },
+    {
+      "ids": [
+        "s02-03828500",
+        "s02-03832500",
+        "s02-03834000"
+      ],
+      "result": "Paper job/child custody/side-income contextual chain retained"
+    },
+    {
+      "ids": [
+        "s02-04048500",
+        "s02-04052000",
+        "s02-04054500"
+      ],
+      "result": "Subject change from we to he and monitor plan retained"
+    },
+    {
+      "ids": [
+        "s02-04072000",
+        "s02-04075000"
+      ],
+      "result": "Changed dangling dative after prematurely completed verb; native checked"
+    },
+    {
+      "ids": [
+        "s02-04120000",
+        "s02-04121500",
+        "s02-04122000",
+        "s02-04123500"
+      ],
+      "result": "Dues/name contrast retained in all display variants"
+    },
+    {
+      "ids": [
+        "s02-04127000",
+        "s02-04130500"
+      ],
+      "result": "But clause retained"
+    },
+    {
+      "ids": [
+        "s02-04164000",
+        "s02-04165500"
+      ],
+      "result": "Ready-despite-problems contrast retained"
+    },
+    {
+      "ids": [
+        "s02-04257500",
+        "s02-04261000"
+      ],
+      "result": "I forget predicate continues naturally; retained"
+    },
+    {
+      "ids": [
+        "s02-04297000",
+        "s02-04300500",
+        "s02-04303500"
+      ],
+      "result": "Quoted mother and reply retained"
+    },
+    {
+      "ids": [
+        "s02-04629000",
+        "s02-04632000",
+        "s02-04637500"
+      ],
+      "result": "Changed shooting meaning using drinks/party context; native checked"
+    },
+    {
+      "ids": [
+        "s02-04734000",
+        "s02-04735000"
+      ],
+      "result": "Suspended noun question retained as natural hesitation"
+    },
+    {
+      "ids": [
+        "s02-05221500",
+        "s02-05225500"
+      ],
+      "result": "Bring sidearm instruction retained"
+    },
+    {
+      "ids": [
+        "s02-05263500",
+        "s02-05267000"
+      ],
+      "result": "Changed amount/purpose/predicate order; native checked"
+    },
+    {
+      "ids": [
+        "s02-05285000",
+        "s02-05287000"
+      ],
+      "result": "When clause imperative retained"
+    },
+    {
+      "ids": [
+        "s02-05293000",
+        "s02-05294500"
+      ],
+      "result": "Girlfriend topic and relationship question retained"
+    },
+    {
+      "ids": [
+        "s02-05296500",
+        "s02-05299000"
+      ],
+      "result": "Looking at relationship leads to personal conclusion; retained"
+    },
+    {
+      "ids": [
+        "s02-05334000",
+        "s02-05335500"
+      ],
+      "result": "Concessive but retained"
+    },
+    {
+      "ids": [
+        "s02-05346500",
+        "s02-05349500",
+        "s02-05352000"
+      ],
+      "result": "Subject changes from we to Lori retained"
+    },
+    {
+      "ids": [
+        "s02-05359000",
+        "s02-05361500"
+      ],
+      "result": "Conditional threat response retained"
+    },
+    {
+      "ids": [
+        "s02-05418000",
+        "s02-05420500"
+      ],
+      "result": "Delayed adjective/predicate retained"
+    },
+    {
+      "ids": [
+        "s02-05423000",
+        "s02-05425000",
+        "s02-05427500"
+      ],
+      "result": "Changed three-screen complement/verb order; native checked"
+    },
+    {
+      "ids": [
+        "s02-05450500",
+        "s02-05455000"
+      ],
+      "result": "Or-list and deferred trouble predicate retained"
+    },
+    {
+      "ids": [
+        "s02-05472000",
+        "s02-05476000"
+      ],
+      "result": "Medicine-label list retained"
+    },
+    {
+      "ids": [
+        "s02-05480000",
+        "s02-05483500"
+      ],
+      "result": "Intended task versus actual act contrast retained"
+    },
+    {
+      "ids": [
+        "s02-05507500",
+        "s02-05512000",
+        "s02-05514500"
+      ],
+      "result": "Daddy/mommy reported apology clause and predicate retained"
+    },
+    {
+      "ids": [
+        "s02-05518500",
+        "s02-05521500"
+      ],
+      "result": "Conditional business terms retained"
+    },
+    {
+      "ids": [
+        "s02-05534000",
+        "s02-05538000"
+      ],
+      "result": "If extra help then personal offer retained"
+    },
+    {
+      "ids": [
+        "s02-05577500",
+        "s02-05579000"
+      ],
+      "result": "Approach and observation retained"
+    },
+    {
+      "ids": [
+        "s02-05654500",
+        "s02-05656000"
+      ],
+      "result": "Self-care and target-practice explanation retained"
+    },
+    {
+      "ids": [
+        "s02-05661000",
+        "s02-05663000"
+      ],
+      "result": "If help needed call retained"
+    },
+    {
+      "ids": [
+        "s02-05665500",
+        "s02-05667500"
+      ],
+      "result": "When inside imperative retained"
+    },
+    {
+      "ids": [
+        "s02-05670000",
+        "s02-05673000"
+      ],
+      "result": "Stay-close reason retained"
+    },
+    {
+      "ids": [
+        "s02-05743000",
+        "s02-05745000"
+      ],
+      "result": "If in range then would hear retained"
+    },
+    {
+      "ids": [
+        "s02-05798500",
+        "s02-05800500",
+        "s02-05804500"
+      ],
+      "result": "Regulatory noun/predicate and but clause retained"
+    },
+    {
+      "ids": [
+        "s02-05816000",
+        "s02-05817500"
+      ],
+      "result": "When meat cheap purchase clause retained"
+    },
+    {
+      "ids": [
+        "s02-05839000",
+        "s02-05843000"
+      ],
+      "result": "Formal understanding noun phrase and predicate retained"
+    },
+    {
+      "ids": [
+        "s02-05845500",
+        "s02-05848500"
+      ],
+      "result": "So much grass hyperbole result retained"
+    },
+    {
+      "ids": [
+        "s02-05870000",
+        "s02-05872000"
+      ],
+      "result": "Topic and question retained"
+    },
+    {
+      "ids": [
+        "s02-06018500",
+        "s02-06019500"
+      ],
+      "result": "Condition reordered before ransom result already natural, retained"
+    },
+    {
+      "ids": [
+        "s02-06113500",
+        "s02-06115000",
+        "s02-06116000"
+      ],
+      "result": "Interrupted exclamation with anonymous exchange retained"
+    },
+    {
+      "ids": [
+        "s02-06118000",
+        "s02-06120000"
+      ],
+      "result": "Threat and Donnie taunt retained"
+    },
+    {
+      "ids": [
+        "s02-06232500",
+        "s02-06233000",
+        "s02-06235000"
+      ],
+      "result": "Lori curse and warning across Brian interruption retained"
+    },
+    {
+      "ids": [
+        "s02-06399500",
+        "s02-06404000"
+      ],
+      "result": "Lawyer referent and ability retained"
+    },
+    {
+      "ids": [
+        "s02-06519500",
+        "s02-06523500"
+      ],
+      "result": "Voicemail request retained"
+    },
+    {
+      "ids": [
+        "s02-06525500",
+        "s02-06528000"
+      ],
+      "result": "Photo topic and reaction retained"
+    },
+    {
+      "ids": [
+        "s02-06623000",
+        "s02-06625500"
+      ],
+      "result": "Bag and evidence instructions retained"
+    },
+    {
+      "ids": [
+        "s02-07076000",
+        "s02-07079500"
+      ],
+      "result": "Laughter cause retained"
+    },
+    {
+      "ids": [
+        "s02-07083000",
+        "s02-07085000"
+      ],
+      "result": "Visit and paranoid inference retained"
+    },
+    {
+      "ids": [
+        "s02-07095500",
+        "s02-07097500",
+        "s02-07100000"
+      ],
+      "result": "Changed conditional order; native checked"
+    },
+    {
+      "ids": [
+        "s02-07206500",
+        "s02-07208000"
+      ],
+      "result": "Settling-roots purpose retained"
+    },
+    {
+      "ids": [
+        "s02-07225000",
+        "s02-07228000"
+      ],
+      "result": "I stutter followed by own lie retained"
+    },
+    {
+      "ids": [
+        "s02-07242000",
+        "s02-07243000",
+        "s02-07243500"
+      ],
+      "result": "Emphatic clarification of the pig situation retained as natural spoken restatement"
+    },
+    {
+      "ids": [
+        "s02-07260000",
+        "s02-07264500"
+      ],
+      "result": "Quoted looking for answers purpose retained"
+    },
+    {
+      "ids": [
+        "s02-07469000",
+        "s02-07472000"
+      ],
+      "result": "Memorial suggestion retained"
+    },
+    {
+      "ids": [
+        "s02-07504500",
+        "s02-07507500"
+      ],
+      "result": "He repetition continues with same subject, retained"
+    },
+    {
+      "ids": [
+        "s02-07546500",
+        "s02-07549500"
+      ],
+      "result": "Cause and warning retained"
+    },
+    {
+      "ids": [
+        "s02-07554500",
+        "s02-07557500",
+        "s02-07561500",
+        "s02-07563000",
+        "s02-07565500",
+        "s02-07569500"
+      ],
+      "result": "Conspiracy hypothetical, villain subject and next target retained"
+    },
+    {
+      "ids": [
+        "s02-07572000",
+        "s02-07574000",
+        "s02-07576000"
+      ],
+      "result": "Cal accusative apposition and clever-enough clause retained"
+    },
+    {
+      "ids": [
+        "s02-07614500",
+        "s02-07620000",
+        "s02-07622500"
+      ],
+      "result": "Isolation/witnesses/conspiracy coordination retained"
+    },
+    {
+      "ids": [
+        "s02-07638000",
+        "s02-07640000"
+      ],
+      "result": "Kingfishers subject followed by feeding predicate retained"
+    },
+    {
+      "ids": [
+        "s02-07810000",
+        "s02-07812000"
+      ],
+      "result": "Officer referent and monitoring question retained"
+    },
+    {
+      "ids": [
+        "s02-07830000",
+        "s02-07831500"
+      ],
+      "result": "Interrupted certainty retained"
+    },
+    {
+      "ids": [
+        "s02-07847500",
+        "s02-07851500"
+      ],
+      "result": "Hypothetical body-hiding clarification retained"
+    },
+    {
+      "ids": [
+        "s02-07861500",
+        "s02-07863500",
+        "s02-07867000"
+      ],
+      "result": "Not-talk-about complement and shared predicate retained"
+    },
+    {
+      "ids": [
+        "s02-08004500",
+        "s02-07888500"
+      ],
+      "result": "Removed invented food object using grilling/fish context; native checked"
+    },
+    {
+      "ids": [
+        "s02-08043000",
+        "s02-08045500"
+      ],
+      "result": "Changed now-that clause before main Turkish question; native checked"
+    },
+    {
+      "ids": [
+        "s02-08061000",
+        "s02-08063500",
+        "s02-08066000"
+      ],
+      "result": "Changed life description and deferred predicate; native checked"
+    },
+    {
+      "ids": [
+        "s02-08069000",
+        "s02-08070500"
+      ],
+      "result": "Trust-me introductory fragment retained"
+    },
+    {
+      "ids": [
+        "s02-08157500",
+        "s02-08160500",
+        "s02-08164500",
+        "s02-08166500"
+      ],
+      "result": "Changed inverse-meaning Turkish idiom to preserve better-than-work argument; native checked"
+    }
+  ],
+  "changed": [
+    {
+      "id": "s02-00684500",
+      "before": "Cal: Hey, bana seni terk ettiğini söylememiş miydin,",
+      "after": "Cal: Hey, geçen sefer onu dışarı çıkarmak istemediğinde...",
+      "reason": "Sonraki ekrandaki zaman yan cümlesi, Türkçede ana sorudan önce kuruldu; soru ikinci ekranda tamamlanıyor.",
+      "related_ids": [
+        "s02-00686000"
+      ]
+    },
+    {
+      "id": "s02-00686000",
+      "before": "Cal: onu en son dışarı çıkarmak istemediğinde?\nEvet.",
+      "after": "Cal: ...seni terk ettiğini söylememiş miydin?\nEvet.",
+      "reason": "Önceki ekrandaki zaman yan cümlesine bağlı ana soru burada tamamlandı; etiketsiz yanıt korundu.",
+      "related_ids": [
+        "s02-00684500"
+      ]
+    },
+    {
+      "id": "s02-00854500",
+      "before": "Jason: teslim etmek ve Sahil Güvenlik'e göz kulak olmak.",
+      "after": "Jason: teslim etmek ve Sahil Güvenliğe karşı tetikte olmak.",
+      "reason": "Önceki ekranla devam eden görev listesinde keep an eye out, Sahil Güvenliği kollayıp yardım etmek değil ona karşı tetikte olmak anlamındadır.",
+      "related_ids": [
+        "s02-00852500"
+      ]
+    },
+    {
+      "id": "s02-01591500",
+      "before": "Lucia: Her gün boktan muameleye katlanmak bir şey,",
+      "after": "Lucia: Her gün boktan muameleye katlanmak bir yana...",
+      "reason": "Sonraki ekranla kurulan one thing/but karşıtlığı Türkçede bir yana/bir de yapısıyla doğal bağlandı.",
+      "related_ids": [
+        "s02-01593500"
+      ]
+    },
+    {
+      "id": "s02-01593500",
+      "before": "Lucia: bir de bundan hoşlanıyormuş gibi yapmak? Asıl o yoruyor.",
+      "after": "Lucia: ...bir de bundan hoşlanıyormuş gibi yapmak? Asıl o yoruyor.",
+      "reason": "Önceki ekranla karşıtlığın devamı açıklandı.",
+      "related_ids": [
+        "s02-01591500"
+      ]
+    },
+    {
+      "id": "s02-02745500",
+      "before": "Donnie: bunca yıldır hâlâ dimdik ayaktasınız,\nartık kurulmuyor öyle...\nJason: Donnie! Donnie, ben ne dedim?",
+      "after": "Donnie: bunca yıldır hâlâ dimdik ayaktasınız.\nArtık öyle...\nJason: Donnie! Donnie, ben ne dedim?",
+      "reason": "Jason'ın araya girdiği cümlede sonraki ekrandaki kulüpler nesnesinden önce Türkçe yüklem erken tamamlanmıyor.",
+      "related_ids": [
+        "s02-02748500",
+        "s02-02749500"
+      ]
+    },
+    {
+      "id": "s02-02748500",
+      "before": "Jason: Donnie! Donnie, ben ne dedim?\nDonnie: bizim zamanımızdaki gibi kulüpler, değil mi? Özgürlük bebeğim!",
+      "after": "Jason: Donnie! Donnie, ben ne dedim?\nDonnie: ...bizim zamanımızdaki gibi kulüpler kurulmuyor, değil mi? Özgürlük\nbebeğim!",
+      "reason": "Önceki ekrandaki they dont make, Türkçe kulüpler kurulmuyor yüklemiyle tamamlandı.",
+      "related_ids": [
+        "s02-02745500",
+        "s02-02749500"
+      ]
+    },
+    {
+      "id": "s02-02749500",
+      "before": "Donnie: bizim zamanımızdaki gibi kulüpler, değil mi? Özgürlük bebeğim!",
+      "after": "Donnie: ...bizim zamanımızdaki gibi kulüpler kurulmuyor, değil mi? Özgürlük\nbebeğim!",
+      "reason": "Aynı devam cümlesinin bağımsız görünümünde de Türkçe yüklem nesneden sonra tamamlandı.",
+      "related_ids": [
+        "s02-02745500",
+        "s02-02748500"
+      ]
+    },
+    {
+      "id": "s02-03308000",
+      "before": "Donnie: Orospu çocukları biliyordu,\nDonnie, bizi ne boka bulaştırdın?",
+      "after": "Donnie: Orospu çocukları kokainin...\nDonnie, bizi ne boka bulaştırdın?",
+      "reason": "Araya giren etiketsiz soruya rağmen sonraki ekrandaki where-the-coke-came-from tümleci Türkçede yüklemden önce kuruluyor.",
+      "related_ids": [
+        "s02-03310000"
+      ]
+    },
+    {
+      "id": "s02-03310000",
+      "before": "Donnie: kokainin nereden geldiğini, tamam mı?\nEvet.",
+      "after": "Donnie: ...nereden geldiğini biliyordu, tamam mı?\nEvet.",
+      "reason": "Önceki ekranda başlayan nesne ve yüklem Türkçe söz dizimiyle tamamlandı; etiketsiz yanıt korundu.",
+      "related_ids": [
+        "s02-03308000"
+      ]
+    },
+    {
+      "id": "s02-03654500",
+      "before": "Lucia: Bilmiyorum, ben...",
+      "after": "Lucia: Bilmem, bence...",
+      "reason": "Sonraki ekranda özne adam olduğu için asılı ben zamiri yerine I think karşılığı bence ilk ekranda kuruldu.",
+      "related_ids": [
+        "s02-03656000"
+      ]
+    },
+    {
+      "id": "s02-03656000",
+      "before": "Lucia: galiba adam sadece kendi sesini duymayı seviyor, anlıyor musun?",
+      "after": "Lucia: ...adam sadece kendi sesini duymayı seviyor,\nanlıyor musun?",
+      "reason": "Önceki ekrandaki bence devamına bağlandı; özne ve yargı korundu.",
+      "related_ids": [
+        "s02-03654500"
+      ]
+    },
+    {
+      "id": "s02-04072000",
+      "before": "Mattia: Sonra döneceksin,\nyine bok küremeye devam edersin.",
+      "after": "Mattia: Sonra dönersin, yine bok küremeye...",
+      "reason": "Sonraki ekrandaki ya da seçeneği için Türkçe devam etmek yüklemi erken kapatılmadı.",
+      "related_ids": [
+        "s02-04075000"
+      ]
+    },
+    {
+      "id": "s02-04075000",
+      "before": "Mattia: ya da her ne iş yapıyorsan ona.",
+      "after": "Mattia: ...ya da her ne iş yapıyorsan ona devam edersin.",
+      "reason": "Önceki ekranın -meye/ona tümleçlerini bağlayan yüklem burada tamamlandı.",
+      "related_ids": [
+        "s02-04072000"
+      ]
+    },
+    {
+      "id": "s02-04632000",
+      "before": "Mattia: Bu, ateş etmek için değil, tadını çıkarmak için. Yavaş yavaş.",
+      "after": "Mattia: Bu tekte dikmek için değil, tadını çıkarmak için. Ağırdan alın.",
+      "reason": "Önceki ve sonraki içki/parti replikleri ve native karedeki içkiler shooting sözcüğünün atış değil içkiyi tekte içmek anlamını doğruluyor.",
+      "related_ids": [
+        "s02-04629000",
+        "s02-04637500"
+      ]
+    },
+    {
+      "id": "s02-05263500",
+      "before": "Lucia: Snapmatic'te zengin bir adam gördüm,\niki yüz bin falan harcamış,",
+      "after": "Lucia: Snapmatic'te zengin bir adam gördüm; iki yüz bin falan...",
+      "reason": "Sonraki ekrandaki harcama amacı gelmeden Türkçe harcamış yüklemi kapatılmadı.",
+      "related_ids": [
+        "s02-05267000"
+      ]
+    },
+    {
+      "id": "s02-05267000",
+      "before": "Lucia: köpeğinin o sarkık kulaklarına estetik yaptırmak için amına koyayım.",
+      "after": "Lucia: ...köpeğinin o sarkık kulaklarına estetik yaptırmaya harcamış amına koyayım.",
+      "reason": "Önceki ekranın miktarıyla harcama amacı, Türkçe yüklem sonda olacak biçimde birleştirildi.",
+      "related_ids": [
+        "s02-05263500"
+      ]
+    },
+    {
+      "id": "s02-05423000",
+      "before": "Brian: Ben cesaret edemezdim, o kıroların yaşadığı",
+      "after": "Brian: Ben o kıroların yaşadığı...",
+      "reason": "Üç ekrana yayılan mastar tümlecinden önce cesaret edemezdim yüklemi erken kapatılmadı.",
+      "related_ids": [
+        "s02-05425000",
+        "s02-05427500"
+      ]
+    },
+    {
+      "id": "s02-05425000",
+      "before": "Brian: bok çukuru gibi bataklığa dalıp da",
+      "after": "Brian: ...bok çukuru gibi bataklığa dalıp da...",
+      "reason": "Önceki niteleme ve sonraki para alma eylemi Türkçe cümleye bağlandı.",
+      "related_ids": [
+        "s02-05423000",
+        "s02-05427500"
+      ]
+    },
+    {
+      "id": "s02-05427500",
+      "before": "Brian: ceplerindeki parayı almaya.",
+      "after": "Brian: ...ceplerindeki parayı almaya cesaret edemezdim.",
+      "reason": "Üç ekranın ana yargısı Türkçe söz dizimine uygun olarak sona alındı.",
+      "related_ids": [
+        "s02-05423000",
+        "s02-05425000"
+      ]
+    },
+    {
+      "id": "s02-07097500",
+      "before": "Lucia: ben de sorumlu olmak istemiyorum,",
+      "after": "Lucia: ben de bir şey olursa...",
+      "reason": "Sonraki ekrandaki koşul, sorumlu olmak istemiyorum ana yargısından önce alındı.",
+      "related_ids": [
+        "s02-07095500",
+        "s02-07100000"
+      ]
+    },
+    {
+      "id": "s02-07100000",
+      "before": "Lucia: bir şey olursa.",
+      "after": "Lucia: ...sorumlu olmak istemiyorum.",
+      "reason": "Önceki ekranın koşul cümlesi yüklemle tamamlandı.",
+      "related_ids": [
+        "s02-07097500"
+      ]
+    },
+    {
+      "id": "s02-08004500",
+      "before": "Cal: Dostum, çok iyi çevirdin köfteyi. Eline sağlık.",
+      "after": "Cal: Dostum, çok iyi çevirdin. Eline sağlık.",
+      "reason": "Balık/mangal bağlamında kaynakta olmayan köfte nesnesi eklenmişti; native kare doğrulandı, kaynakta belirsiz nesne belirsiz bırakıldı.",
+      "related_ids": [
+        "s02-07888500",
+        "s02-07891500"
+      ]
+    },
+    {
+      "id": "s02-08043000",
+      "before": "Cal: Ee Jay, şimdi ne yapacağına karar verdin mi, malum...",
+      "after": "Cal: Ee Jay, Brian ithalat işlerini yavaştan bıraktığına göre...",
+      "reason": "Sonraki ekranın now-that koşulu Türkçe ana sorudan önce kuruldu.",
+      "related_ids": [
+        "s02-08045500"
+      ]
+    },
+    {
+      "id": "s02-08045500",
+      "before": "Cal: Brian ithalat işlerini yavaştan bırakıyor?",
+      "after": "Cal: ...şimdi ne yapacağına karar verdin mi?",
+      "reason": "Önceki ekranın koşulundan sonra ana soru tamamlandı; ikinci ekran ayrı soru değil aynı cümlenin devamı.",
+      "related_ids": [
+        "s02-08043000"
+      ]
+    },
+    {
+      "id": "s02-08063500",
+      "before": "Cal: ya da kendini ağır aksak bir hayata mahkûm edersin...",
+      "after": "Cal: ...ya da kız kardeşimle kocasınınki gibi...",
+      "reason": "Sonraki ekranın hayatı niteleyen karşılaştırması ana yüklemden önce yerleştirildi.",
+      "related_ids": [
+        "s02-08061000",
+        "s02-08066000"
+      ]
+    },
+    {
+      "id": "s02-08066000",
+      "before": "Cal: Kız kardeşimle kocası nasıl bir hayat yaşıyorsa artık.",
+      "after": "Cal: ...ağır aksak bir hayata razı olursun.",
+      "reason": "Hayatın nasıl olduğu ve razı olmak yüklemi önceki ekranla Türkçe cümle olarak tamamlandı.",
+      "related_ids": [
+        "s02-08063500"
+      ]
+    },
+    {
+      "id": "s02-08160500",
+      "before": "Lucia: O işler senin harcın değil. Bunu bir tek sen göremiyorsun.",
+      "after": "Lucia: O işler senin seviyenin altında. Bunu bir tek sen göremiyorsun.",
+      "reason": "Önceki better-than-jobs ve sonraki daha büyük iş sözleriyle kontrol edildi: senin harcın değil Türkçede güç yetirememek anlamına kayıyordu; kaynak bunun tersini söylüyor.",
+      "related_ids": [
+        "s02-08157500",
+        "s02-08164500",
+        "s02-08166500"
+      ]
+    }
+  ],
+  "complete": true,
+  "limits": [
+    "Source censorship is not completed or inferred.",
+    "Review is for cross-screen meaning and conversational Turkish; timing remains approximate."
+  ],
+  "method": "All 2054 English/Turkish records read in chronological dialogues.json order; suspicious/changed chains verified against native source_frame crops.",
+  "source_text_changed": false,
+  "speaker_labels_changed": false
+}

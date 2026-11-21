@@ -1,0 +1,11 @@
+{
+  "s07-00538500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Lila / pembe-mor",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  }
+}

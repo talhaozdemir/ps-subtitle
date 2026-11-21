@@ -1,0 +1,1784 @@
+{
+  "reviewed_records": 2853,
+  "checked_chains": [
+    {
+      "ids": [
+        "s03-00039500",
+        "s03-00044000"
+      ],
+      "result": "Risk and paid-job rationale retained"
+    },
+    {
+      "ids": [
+        "s03-00071000",
+        "s03-00073000"
+      ],
+      "result": "Conditional loan and Tommy pickup purpose retained"
+    },
+    {
+      "ids": [
+        "s03-00364000",
+        "s03-00368500",
+        "s03-00370000"
+      ],
+      "result": "Exhibition name apposition retained"
+    },
+    {
+      "ids": [
+        "s03-00444000",
+        "s03-00446000",
+        "s03-00451000",
+        "s03-00454000"
+      ],
+      "result": "Training and offer-of-help explanation retained"
+    },
+    {
+      "ids": [
+        "s03-00479000",
+        "s03-00482500"
+      ],
+      "result": "Evidence custody and claimed assistance retained"
+    },
+    {
+      "ids": [
+        "s03-00642500",
+        "s03-00644000"
+      ],
+      "result": "Whoever clause and denial of arrest intent retained"
+    },
+    {
+      "ids": [
+        "s03-00690000",
+        "s03-00694500"
+      ],
+      "result": "Bailed-or-set-up alternative across interruption retained"
+    },
+    {
+      "ids": [
+        "s03-00982000",
+        "s03-00984000",
+        "s03-00987500",
+        "s03-00990000",
+        "s03-00995500"
+      ],
+      "result": "Cal/hospital and separate home/money/escape instructions retained"
+    },
+    {
+      "ids": [
+        "s03-01011000",
+        "s03-01013000"
+      ],
+      "result": "Fainting speaker unfinished lead continues with same verb, retained"
+    },
+    {
+      "ids": [
+        "s03-01029000",
+        "s03-01033000"
+      ],
+      "result": "Intoxication and tone request retained"
+    },
+    {
+      "ids": [
+        "s03-01057000",
+        "s03-01058500"
+      ],
+      "result": "Changed hospital distance modifier placement; native checked"
+    },
+    {
+      "ids": [
+        "s03-01071000",
+        "s03-01072500"
+      ],
+      "result": "Group lifting followed by Cal driving retained"
+    },
+    {
+      "ids": [
+        "s03-01094500",
+        "s03-01096000"
+      ],
+      "result": "Changed dont-know complement order; native checked"
+    },
+    {
+      "ids": [
+        "s03-01101500",
+        "s03-01104500"
+      ],
+      "result": "Snack request and reason retained"
+    },
+    {
+      "ids": [
+        "s03-01114000",
+        "s03-01115500"
+      ],
+      "result": "Changed interrupted added-object coordination to spoken Turkish; native checked"
+    },
+    {
+      "ids": [
+        "s03-01319000",
+        "s03-01321000"
+      ],
+      "result": "As-mentioned evidence statement retained"
+    },
+    {
+      "ids": [
+        "s03-01544500",
+        "s03-01547000"
+      ],
+      "result": "Dose and if-waking condition retained"
+    },
+    {
+      "ids": [
+        "s03-01586500",
+        "s03-01589000",
+        "s03-01592000"
+      ],
+      "result": "Changed employer relative-clause referent to idiomatic Turkish; native checked"
+    },
+    {
+      "ids": [
+        "s03-01593500",
+        "s03-01595500",
+        "s03-01597500",
+        "s03-01600500"
+      ],
+      "result": "Attack/retaliation and further attackers retained"
+    },
+    {
+      "ids": [
+        "s03-01636500",
+        "s03-01639500",
+        "s03-01640500",
+        "s03-01642000"
+      ],
+      "result": "Staff objections and interrupted reply retained"
+    },
+    {
+      "ids": [
+        "s03-01744000",
+        "s03-01745500"
+      ],
+      "result": "Sarcastic injury response retained"
+    },
+    {
+      "ids": [
+        "s03-01960500",
+        "s03-01963500"
+      ],
+      "result": "Sit-tight echo retained"
+    },
+    {
+      "ids": [
+        "s03-02290000",
+        "s03-02296000"
+      ],
+      "result": "Accommodating despite missing information retained"
+    },
+    {
+      "ids": [
+        "s03-02303000",
+        "s03-02304500"
+      ],
+      "result": "Request and infinitive retained"
+    },
+    {
+      "ids": [
+        "s03-02335000",
+        "s03-02338000",
+        "s03-02341000"
+      ],
+      "result": "Anonymous TV voice and Méndez main clause retained"
+    },
+    {
+      "ids": [
+        "s03-02344000",
+        "s03-02346500"
+      ],
+      "result": "Family-man description across anonymous exchange retained"
+    },
+    {
+      "ids": [
+        "s03-02425000",
+        "s03-02428000"
+      ],
+      "result": "Night/day manager contrast retained"
+    },
+    {
+      "ids": [
+        "s03-02431500",
+        "s03-02433500"
+      ],
+      "result": "Motel location fragment retained"
+    },
+    {
+      "ids": [
+        "s03-02441000",
+        "s03-02444000"
+      ],
+      "result": "Rest/heal shared subject retained"
+    },
+    {
+      "ids": [
+        "s03-02460500",
+        "s03-02464000"
+      ],
+      "result": "Lead-in and food/clothing action retained"
+    },
+    {
+      "ids": [
+        "s03-02572000",
+        "s03-02573500",
+        "s03-02577000",
+        "s03-02579000",
+        "s03-02580000"
+      ],
+      "result": "Hypothetical rejection and Danny contrast retained"
+    },
+    {
+      "ids": [
+        "s03-02600500",
+        "s03-02604000"
+      ],
+      "result": "Would-trust/but-collateral contrast retained"
+    },
+    {
+      "ids": [
+        "s03-02844500",
+        "s03-02848500"
+      ],
+      "result": "Source hesitation and explanation retained"
+    },
+    {
+      "ids": [
+        "s03-02852500",
+        "s03-02854000",
+        "s03-02856500"
+      ],
+      "result": "Names found mid-sentence and overheard explanation retained"
+    },
+    {
+      "ids": [
+        "s03-02869500",
+        "s03-02873000",
+        "s03-02876000"
+      ],
+      "result": "Painkiller referral after personal non-use retained"
+    },
+    {
+      "ids": [
+        "s03-03133500",
+        "s03-03135500"
+      ],
+      "result": "Ardışık yön tarifinin ikinci dönüşü korundu."
+    },
+    {
+      "ids": [
+        "s03-03156500",
+        "s03-03157500",
+        "s03-03161000"
+      ],
+      "result": "Doktorun dağınıklığına karşın eldeki en iyi seçenek olması bağlandı."
+    },
+    {
+      "ids": [
+        "s03-03175500",
+        "s03-03179000",
+        "s03-03182500",
+        "s03-03185000"
+      ],
+      "result": "Takım olma ve iyi hissetme konuşması birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-03250000",
+        "s03-03252500"
+      ],
+      "result": "Güzellik iltifatının isim şakasına dönüşmesi korundu."
+    },
+    {
+      "ids": [
+        "s03-03275500",
+        "s03-03277500",
+        "s03-03280000",
+        "s03-03282500",
+        "s03-03284000",
+        "s03-03286000"
+      ],
+      "result": "Motel görevlilerine bahşiş ve avukat giderleri dizisi birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-03305500",
+        "s03-03307500"
+      ],
+      "result": "İltifatın ardından masrafların karşılanması açıklaması korundu."
+    },
+    {
+      "ids": [
+        "s03-03380500",
+        "s03-03382000"
+      ],
+      "result": "Arkadaşların aptallar olarak nitelendirilmesi devamı korundu."
+    },
+    {
+      "ids": [
+        "s03-03428500",
+        "s03-03430000"
+      ],
+      "result": "Zeki olmama ama korkutucu olma karşıtlığı korundu."
+    },
+    {
+      "ids": [
+        "s03-03447000",
+        "s03-03448500"
+      ],
+      "result": "Ucuz haplar ve ölümler karşısında umursamazlık bağlandı."
+    },
+    {
+      "ids": [
+        "s03-03453500",
+        "s03-03457000"
+      ],
+      "result": "Kapı çalmama öğüdünün kurşun yemek istememe istisnası Türkçede doğru bağlanıyor."
+    },
+    {
+      "ids": [
+        "s03-03496000",
+        "s03-03497500",
+        "s03-03499000",
+        "s03-03500000"
+      ],
+      "result": "Oto yıkama yerine gitme amacını açıklayan kekelemeler birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-03532000",
+        "s03-03534500",
+        "s03-03537000"
+      ],
+      "result": "Para kazanma, ev tutma ve Jordy velayeti zinciri korundu."
+    },
+    {
+      "ids": [
+        "s03-03625500",
+        "s03-03629000"
+      ],
+      "result": "İyi kalp/big mouth karşıtlığı kaynak görselle doğrulandı; deyim düzeltildi."
+    },
+    {
+      "ids": [
+        "s03-03672000",
+        "s03-03674500",
+        "s03-03675000",
+        "s03-03675500",
+        "s03-03676000"
+      ],
+      "result": "Kolt/cops karışıklığı ve araya giren Vicki replikleri kaynak bağlamında korundu."
+    },
+    {
+      "ids": [
+        "s03-03736000",
+        "s03-03737500",
+        "s03-03739500",
+        "s03-03740000",
+        "s03-03740500",
+        "s03-03744500",
+        "s03-03750000",
+        "s03-03751500"
+      ],
+      "result": "Scampi reklamı ve Dunk yol tarifi farklı konuşmacılarla birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-03817000",
+        "s03-03820000",
+        "s03-03824000",
+        "s03-03827500",
+        "s03-03829500"
+      ],
+      "result": "Kötü karışım karşısında kaliteli hap sözü korundu."
+    },
+    {
+      "ids": [
+        "s03-03940500",
+        "s03-03941500",
+        "s03-03945000"
+      ],
+      "result": "Araba ve iş bağlantısı açıklaması korundu."
+    },
+    {
+      "ids": [
+        "s03-03953000",
+        "s03-03958000"
+      ],
+      "result": "Bulunan arabayı Moses’a götürme koşulu doğru sırada."
+    },
+    {
+      "ids": [
+        "s03-04539000",
+        "s03-04544000",
+        "s03-04546500"
+      ],
+      "result": "Ay/ beton tavan/ kâğıt hamurundan ay şakası bağlandı."
+    },
+    {
+      "ids": [
+        "s03-04818000",
+        "s03-04821000"
+      ],
+      "result": "Araba getirme karşılığında yardım bağlantısı korundu."
+    },
+    {
+      "ids": [
+        "s03-04825500",
+        "s03-04828500"
+      ],
+      "result": "Yardım ve Delights tanıdığına ilişkin sonradan açıklama doğal konuşma olarak korundu."
+    },
+    {
+      "ids": [
+        "s03-04873000",
+        "s03-04877000"
+      ],
+      "result": "Değeri yeterli araba getirme koşulu korundu."
+    },
+    {
+      "ids": [
+        "s03-04882500",
+        "s03-04884500"
+      ],
+      "result": "Takip cihazının polise yol göstermesi devamı korundu."
+    },
+    {
+      "ids": [
+        "s03-04893000",
+        "s03-04895000"
+      ],
+      "result": "Dedektör listesinin yüklemi listenin sonunda tamamlanıyor."
+    },
+    {
+      "ids": [
+        "s03-04918500",
+        "s03-04921500"
+      ],
+      "result": "Zaman gelince çalmaya değer araç seçme bağlandı."
+    },
+    {
+      "ids": [
+        "s03-04934500",
+        "s03-04936500"
+      ],
+      "result": "Takip cihazı uyarısının devamı birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-05018500",
+        "s03-05022500"
+      ],
+      "result": "Pegassi olmaması ile yine de akıllı davranma karşıtlığı korundu."
+    },
+    {
+      "ids": [
+        "s03-05038500",
+        "s03-05041500"
+      ],
+      "result": "Mevcut arabayı tutma/değiştirme seçeneği korundu."
+    },
+    {
+      "ids": [
+        "s03-05049500",
+        "s03-05052500"
+      ],
+      "result": "İş ilişkisi nedeniyle ilk ruhsatın ücretsiz olması korundu."
+    },
+    {
+      "ids": [
+        "s03-05168500",
+        "s03-05173500"
+      ],
+      "result": "Kira ödenmesine karşın daha fazla para gereksinimi bağlandı."
+    },
+    {
+      "ids": [
+        "s03-05637000",
+        "s03-05640000",
+        "s03-05643000"
+      ],
+      "result": "Birinin gelip sorması durumunda söylenecekler kaynak görselle doğrulandı; söyle yüklemi nesnelerden sonraya alındı, kesilme korundu."
+    },
+    {
+      "ids": [
+        "s03-05874500",
+        "s03-05878000",
+        "s03-05881000",
+        "s03-05884000"
+      ],
+      "result": "Malzeme tedariki, ucuza alma ve malzeme listesi birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-05895000",
+        "s03-05899500"
+      ],
+      "result": "Nakit girişli crack evi, jakuzi ve kanepe ikramı konuşma bağlamında okundu."
+    },
+    {
+      "ids": [
+        "s03-06177000",
+        "s03-06180000",
+        "s03-06183500"
+      ],
+      "result": "Hap ve Dr. Bill önerisinin koşulu korundu."
+    },
+    {
+      "ids": [
+        "s03-06201500",
+        "s03-06204500"
+      ],
+      "result": "Eskiden reçete edilen ilaçların artık kesilmesi bağlandı."
+    },
+    {
+      "ids": [
+        "s03-06216000",
+        "s03-06220000"
+      ],
+      "result": "Eski dostluk nedeniyle rahat davranma açıklaması korundu."
+    },
+    {
+      "ids": [
+        "s03-06266500",
+        "s03-06268500"
+      ],
+      "result": "Kaynakta Dunk’ın kendi kendini boşa düşüren çift olumsuzlu şakası aynen korundu."
+    },
+    {
+      "ids": [
+        "s03-06361000",
+        "s03-06365000"
+      ],
+      "result": "Hap çeşitleri ile eskiden bol dağıtılmaları bağlandı."
+    },
+    {
+      "ids": [
+        "s03-06394500",
+        "s03-06397500"
+      ],
+      "result": "Tehdidin köpeğe de uzaması korundu."
+    },
+    {
+      "ids": [
+        "s03-06404000",
+        "s03-06407000"
+      ],
+      "result": "Emeklilik tehdidinin dünyadan emeklilik esprisine dönüşmesi korundu."
+    },
+    {
+      "ids": [
+        "s03-06435500",
+        "s03-06437500"
+      ],
+      "result": "Adres karşılığında doktor ve köpeği bırakma teklifi bağlandı."
+    },
+    {
+      "ids": [
+        "s03-06449500",
+        "s03-06454000"
+      ],
+      "result": "Yarım kalan hedef sorusu doktor yanıtıyla birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-06480000",
+        "s03-06483500"
+      ],
+      "result": "Peaches’a zarar vermeme yakarışı birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-06491500",
+        "s03-06493000",
+        "s03-06495500"
+      ],
+      "result": "Ne kullandığını bilmeme ve ayık olma alayı zinciri korundu."
+    },
+    {
+      "ids": [
+        "s03-06541000",
+        "s03-06543000"
+      ],
+      "result": "Kekelenerek başlayan endişelenecek bir şey yok cümlesi doğru tamamlanıyor."
+    },
+    {
+      "ids": [
+        "s03-06580000",
+        "s03-06583500",
+        "s03-06586500",
+        "s03-06588500"
+      ],
+      "result": "Bill/Declan buluşması telsiz haberi ve cevabı birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-06646000",
+        "s03-06650000",
+        "s03-06653000"
+      ],
+      "result": "İronik zekâ övgüsü ve emeklilik açıklaması bağlandı."
+    },
+    {
+      "ids": [
+        "s03-06703000",
+        "s03-06705500",
+        "s03-06708000",
+        "s03-06712000",
+        "s03-06715500",
+        "s03-06719000"
+      ],
+      "result": "Telefon tehdidinin başı, şartı ve kesilen sonu birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-06760500",
+        "s03-06763000",
+        "s03-06767000",
+        "s03-06769500"
+      ],
+      "result": "Yeni planın doktor-hap takası ve konumu doğru bağlanıyor."
+    },
+    {
+      "ids": [
+        "s03-06821000",
+        "s03-06824500",
+        "s03-06829000",
+        "s03-06831000",
+        "s03-06832000",
+        "s03-06834000",
+        "s03-06837000"
+      ],
+      "result": "Nefes alamama ve uzay gemisi hakkında Dunk’ın yanlış anlaması korunuyor."
+    },
+    {
+      "ids": [
+        "s03-07064000",
+        "s03-07065500",
+        "s03-07068000"
+      ],
+      "result": "Polislerin gelmekte olmasına karşın şimdilik güvende olma ve gitme gereği bağlandı."
+    },
+    {
+      "ids": [
+        "s03-07070500",
+        "s03-07072500",
+        "s03-07074500"
+      ],
+      "result": "Dunk’ın kendi kendine seslenerek talihinin dönmesini anlatması korundu."
+    },
+    {
+      "ids": [
+        "s03-07135000",
+        "s03-07139000"
+      ],
+      "result": "Genelde işleri bozma ama bu sefer daha büyük aksilik olması karşıtlığı korundu."
+    },
+    {
+      "ids": [
+        "s03-07179000",
+        "s03-07181500",
+        "s03-07184500"
+      ],
+      "result": "Doktorun vurulmasının anlatımı ve Lucia’nın bilme alayı korundu."
+    },
+    {
+      "ids": [
+        "s03-07192500",
+        "s03-07195000",
+        "s03-07197500",
+        "s03-07202000"
+      ],
+      "result": "Kolt tehdidi, Lucia’nın korumayacağı ve Dunk’ın kendisinin unutulduğunu sanması birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-07216000",
+        "s03-07219500",
+        "s03-07221000",
+        "s03-07225500"
+      ],
+      "result": "Her kaynaktan ürün alıp bagaja bırakma ve satış payı teklifinin nesneleri birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-07231500",
+        "s03-07235500",
+        "s03-07238000"
+      ],
+      "result": "Bowling salonu, içindeki mallar ve baskın için gereken güç bağlandı."
+    },
+    {
+      "ids": [
+        "s03-07244000",
+        "s03-07247500",
+        "s03-07252500",
+        "s03-07256500"
+      ],
+      "result": "İçeri davet etmeme bahanesi, pil benzetmesi ve Lucia’nın yeterince yardım edildiği alayı korundu."
+    },
+    {
+      "ids": [
+        "s03-07391000",
+        "s03-07394500"
+      ],
+      "result": "Açılmamış kutuları görünce verilen tepkinin koşulu doğru bağlanıyor."
+    },
+    {
+      "ids": [
+        "s03-07404500",
+        "s03-07407000",
+        "s03-07410500",
+        "s03-07413500",
+        "s03-07415000"
+      ],
+      "result": "Satılacak malı karavana bırakma kuralı ve Jason’ın da katılması bağlandı."
+    },
+    {
+      "ids": [
+        "s03-07534500",
+        "s03-07537500",
+        "s03-07540000"
+      ],
+      "result": "İşi bırakan önceki çalışan ve sakat kolla işi bitirme sonucu korundu."
+    },
+    {
+      "ids": [
+        "s03-07546500",
+        "s03-07550500"
+      ],
+      "result": "Son birkaç tarlayı bitirme karşılığında tam günlük ödeme cümlesi korundu."
+    },
+    {
+      "ids": [
+        "s03-07737000",
+        "s03-07739500",
+        "s03-07741000"
+      ],
+      "result": "Kol iyileşmeme koşulu ek iş olasılığına kaynak görsellerle bağlandı."
+    },
+    {
+      "ids": [
+        "s03-07766500",
+        "s03-07769500"
+      ],
+      "result": "İyileşince işlerde yardım gereksinimi birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-07913000",
+        "s03-07915000"
+      ],
+      "result": "Kaçak olmak/gerçekten kaçmak kelime oyunu Türkçede bağlanıyor."
+    },
+    {
+      "ids": [
+        "s03-07920500",
+        "s03-07922500"
+      ],
+      "result": "Saldırıların nedeninin öğrenilmesi beklentisi korundu."
+    },
+    {
+      "ids": [
+        "s03-07938500",
+        "s03-07940000"
+      ],
+      "result": "Yaşananlar nedeniyle ödeme hak edilmesi zinciri korundu."
+    },
+    {
+      "ids": [
+        "s03-07997500",
+        "s03-08001000"
+      ],
+      "result": "Bir kez soymanın ikinci kez yapılabileceği devamı korundu."
+    },
+    {
+      "ids": [
+        "s03-08011500",
+        "s03-08013500",
+        "s03-08016500"
+      ],
+      "result": "Eldeki araçlarla kasabadaki küçük dükkânları soyma planı tek cümle olarak okundu."
+    },
+    {
+      "ids": [
+        "s03-08039500",
+        "s03-08040500"
+      ],
+      "result": "Tereddütten sonra kötü fikir olmadığının tamamlanması korundu."
+    },
+    {
+      "ids": [
+        "s03-08065000",
+        "s03-08066500"
+      ],
+      "result": "İşi yapma koşulu ve düzgün yapma kararı bağlandı."
+    },
+    {
+      "ids": [
+        "s03-08070500",
+        "s03-08073500"
+      ],
+      "result": "Kalabalığı kontrol eden ve kasayı boşaltan iki kişinin rolü korundu."
+    },
+    {
+      "ids": [
+        "s03-08445000",
+        "s03-08447500"
+      ],
+      "result": "Kaçış sonunda kurtulmuş olma tereddüdü korundu."
+    },
+    {
+      "ids": [
+        "s03-08486500",
+        "s03-08490500",
+        "s03-08494500",
+        "s03-08496500"
+      ],
+      "result": "Takım olma koşulu ve güven sorusu/cevabı bağlandı."
+    },
+    {
+      "ids": [
+        "s03-08515000",
+        "s03-08517000",
+        "s03-08519500",
+        "s03-08522500"
+      ],
+      "result": "Düşünülen para kazanma yöntemi ve çocuğu geri alma amacı bağlandı."
+    },
+    {
+      "ids": [
+        "s03-08541500",
+        "s03-08544000",
+        "s03-08546500",
+        "s03-08549500",
+        "s03-08550500",
+        "s03-08551500"
+      ],
+      "result": "Frankie yüzünden iş arama ve alacağı ödenirse kalma istisnası birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-08563000",
+        "s03-08564500",
+        "s03-08566500",
+        "s03-08568000",
+        "s03-08570000"
+      ],
+      "result": "Varsayımsal soyguncu yerine geçip Delights’ı önerme zinciri korundu."
+    },
+    {
+      "ids": [
+        "s03-08572000",
+        "s03-08574500",
+        "s03-08577000"
+      ],
+      "result": "İçeride çalışan ve para kazandıracak kişi niteliği kaynak görselle birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-08626000",
+        "s03-08630000",
+        "s03-08632500"
+      ],
+      "result": "Vicki’nin merakı ve küçük yerde herkesin birbirinin işine karışması bağlandı."
+    },
+    {
+      "ids": [
+        "s03-08679000",
+        "s03-08680500"
+      ],
+      "result": "Çamur parkurunu sevmemenin denememiş olma nedeni doğru bağlanıyor."
+    },
+    {
+      "ids": [
+        "s03-08728500",
+        "s03-08731000",
+        "s03-08733000",
+        "s03-08735500"
+      ],
+      "result": "Kimsenin yüzleri bilmemesi, Mattia istisnası ve öldü/İtalya’da belirsizliği korundu."
+    },
+    {
+      "ids": [
+        "s03-08738500",
+        "s03-08740000",
+        "s03-08742000"
+      ],
+      "result": "Vice’a dönüş, göz önünde saklanma ve diski satma planı bağlandı."
+    },
+    {
+      "ids": [
+        "s03-08744000",
+        "s03-08745500",
+        "s03-08747000",
+        "s03-08902000",
+        "s03-08905500"
+      ],
+      "result": "Dre’Quan’ın çalıştığı zengin kişi ve yardım olasılığı sonraki telefon görüşmesiyle bağlamlandı."
+    },
+    {
+      "ids": [
+        "s03-08877000",
+        "s03-08879000"
+      ],
+      "result": "Dre’Quan’ı arayıp Vice’a gelebileceklerini söyleme amacı korundu."
+    },
+    {
+      "ids": [
+        "s03-08940000",
+        "s03-08943000",
+        "s03-08946000"
+      ],
+      "result": "Ayağa kaldıranlara teşekkür etme alayı iki ekrandaki soygun önerisiyle kaynak görsellerden doğrulandı."
+    },
+    {
+      "ids": [
+        "s03-09552500",
+        "s03-09557000",
+        "s03-09560000",
+        "s03-09563500",
+        "s03-09569000",
+        "s03-09573000"
+      ],
+      "result": "Oda temizliği teklifi, değerli eşyalar ve tamircinin sabıkası konuşması birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-10060000",
+        "s03-10064000",
+        "s03-10066500"
+      ],
+      "result": "Yedek kıyafet önerisi ile mevcut kıyafetlerin kirleneceği gerekçesi bağlandı."
+    },
+    {
+      "ids": [
+        "s03-10212000",
+        "s03-10213500"
+      ],
+      "result": "Arkadaş tanıtımının adlarla tamamlanması korundu."
+    },
+    {
+      "ids": [
+        "s03-10247500",
+        "s03-10251000"
+      ],
+      "result": "Sabun korkusu esprisinin rehabilitasyon korkusuyla düzeltilmesi korundu."
+    },
+    {
+      "ids": [
+        "s03-10256500",
+        "s03-10261000"
+      ],
+      "result": "EJ’nin kötü motorculuğu ve yeni olma gerekçesi bağlandı."
+    },
+    {
+      "ids": [
+        "s03-10281000",
+        "s03-10286000"
+      ],
+      "result": "Seyretmeye gelmeme varsayımından kiralık motor önerisine geçiş korundu."
+    },
+    {
+      "ids": [
+        "s03-10335000",
+        "s03-10338000",
+        "s03-10340500"
+      ],
+      "result": "Çömezlerin kimliği ve bir yerlerini kırmadan bitirme sınaması bağlandı."
+    },
+    {
+      "ids": [
+        "s03-10564500",
+        "s03-10566500",
+        "s03-10569000",
+        "s03-10569500",
+        "s03-10573000",
+        "s03-10575000",
+        "s03-10578500"
+      ],
+      "result": "İş teklifi, suç iması ve anlama cevabı birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-10585500",
+        "s03-10587000",
+        "s03-10588000"
+      ],
+      "result": "Met üretimi olmama koşulu ve ararsa katılma istisnası doğru bağlanıyor."
+    },
+    {
+      "ids": [
+        "s03-10695500",
+        "s03-10701000",
+        "s03-10701500",
+        "s03-10704000"
+      ],
+      "result": "Kolay sürüş beklentisinin önceki gecenin kafasına bağlanması korundu."
+    },
+    {
+      "ids": [
+        "s03-10778000",
+        "s03-10781500",
+        "s03-10785000",
+        "s03-10788000",
+        "s03-10790500",
+        "s03-10794500"
+      ],
+      "result": "Kibarca istemenin kurşun yağdırmaya dönüşmesi bağlandı."
+    },
+    {
+      "ids": [
+        "s03-10814000",
+        "s03-10815000",
+        "s03-10817500"
+      ],
+      "result": "Fikir sorma, ateşe verme önerisi ve ironik akıllı kişi övgüsü korundu."
+    },
+    {
+      "ids": [
+        "s03-10829000",
+        "s03-10835500"
+      ],
+      "result": "Tüttürecek mal isteyen Billy ile Ricky cevabı birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-10843500",
+        "s03-10844500",
+        "s03-10846500"
+      ],
+      "result": "Patlayıcı kurma/havai fişek ve patlama büyüklüğünü bilmeme şakası korundu."
+    },
+    {
+      "ids": [
+        "s03-10934500",
+        "s03-10936500",
+        "s03-10939000"
+      ],
+      "result": "Akşamdan kalmalık ve henüz kusmama cevabı bağlandı."
+    },
+    {
+      "ids": [
+        "s03-10960500",
+        "s03-10963000",
+        "s03-10965000"
+      ],
+      "result": "Yavaşlama sorusu ve yavaşlamayı bilmeme esprisi korundu."
+    },
+    {
+      "ids": [
+        "s03-11014500",
+        "s03-11017500",
+        "s03-11022000",
+        "s03-11024000",
+        "s03-11029000",
+        "s03-11031000"
+      ],
+      "result": "İyi sürme övgüsü, ketamin ve ayıp olmasın diye alma bahanesi birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-11072000",
+        "s03-11074000",
+        "s03-11075500",
+        "s03-11078000",
+        "s03-11079500"
+      ],
+      "result": "Eksik ekip üyesinin adını sorma ve EJ’yi arama zinciri korundu."
+    },
+    {
+      "ids": [
+        "s03-11124000",
+        "s03-11128000",
+        "s03-11130000"
+      ],
+      "result": "Varsayımsal konuşmayı gerçek soyguna dönüştürme teklifi bağlandı."
+    },
+    {
+      "ids": [
+        "s03-11133000",
+        "s03-11136000",
+        "s03-11138500",
+        "s03-11139500"
+      ],
+      "result": "Frankie’ye kazık atmak için her şeyi yapma koşulu ve kasa şifresi devamı korundu."
+    },
+    {
+      "ids": [
+        "s03-11145500",
+        "s03-11148000",
+        "s03-11152000",
+        "s03-11153500",
+        "s03-11154000",
+        "s03-11158000",
+        "s03-11162000"
+      ],
+      "result": "Beraber kazanma, miktar, Jordy ve herkesin kaçışı tek bağlamda okundu."
+    },
+    {
+      "ids": [
+        "s03-11163500",
+        "s03-11165000",
+        "s03-11167500"
+      ],
+      "result": "Doğru gece koşulu, motelden çıkış ve daha iyi oda şakası korundu."
+    },
+    {
+      "ids": [
+        "s03-11173000",
+        "s03-11176500"
+      ],
+      "result": "Düşünüp konuşma önerisinin hazır olunca buluşmaya bağlanması korundu."
+    },
+    {
+      "ids": [
+        "s03-11218500",
+        "s03-11221500"
+      ],
+      "result": "Motorcu güvenliğine rağmen gösteri başlayınca arkaya geçme planı bağlandı."
+    },
+    {
+      "ids": [
+        "s03-11232000",
+        "s03-11234000"
+      ],
+      "result": "Mutfak üzerinden müdür ofisine geçme yönü bir cümlede tamamlanıyor."
+    },
+    {
+      "ids": [
+        "s03-11236000",
+        "s03-11237000"
+      ],
+      "result": "Gecikme ve gösterinin başlaması gereği bağlandı."
+    },
+    {
+      "ids": [
+        "s03-11246500",
+        "s03-11248000",
+        "s03-11251500",
+        "s03-11253500",
+        "s03-11256500"
+      ],
+      "result": "Jason’ın içeri alınmaması, gösteriyi başlatma amacı ve çok sakin ortam birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-11289500",
+        "s03-11293000",
+        "s03-11297000",
+        "s03-11299000",
+        "s03-11301500",
+        "s03-11303000"
+      ],
+      "result": "Fred’in fazla içmesi ve Lucky ile dansçı karşılaştırması bağlandı."
+    },
+    {
+      "ids": [
+        "s03-11307000",
+        "s03-11311000",
+        "s03-11314500",
+        "s03-11320500",
+        "s03-11323000"
+      ],
+      "result": "Menajere küçük şehir şikâyeti, yedek dansçı yokluğu ve uyuşturucu şakası birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-11356000",
+        "s03-11359000",
+        "s03-11361000",
+        "s03-11365000",
+        "s03-11367500",
+        "s03-11374000"
+      ],
+      "result": "İyilik ricasının dans istemeye dönüşmesi ve reddi bağlandı."
+    },
+    {
+      "ids": [
+        "s03-11378000",
+        "s03-11380500",
+        "s03-11383000",
+        "s03-11387000",
+        "s03-11395000"
+      ],
+      "result": "Mario’nun Jason olmadan çıkmama gerekçesi ve gösteri krizi korundu."
+    },
+    {
+      "ids": [
+        "s03-11402000",
+        "s03-11404000"
+      ],
+      "result": "Yer alma ricasının gösteri başlangıcına bağlanması korundu."
+    },
+    {
+      "ids": [
+        "s03-11411500",
+        "s03-11415000",
+        "s03-11416000"
+      ],
+      "result": "Özel konuk iptali ama Frankie’nin sahne alması zinciri korundu."
+    },
+    {
+      "ids": [
+        "s03-11432500",
+        "s03-11434000",
+        "s03-11437500",
+        "s03-11438000",
+        "s03-11442000",
+        "s03-11444500",
+        "s03-11445000"
+      ],
+      "result": "Soygunun gösteri sanılması farklı konuşmacılarla birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-11584000",
+        "s03-11586000",
+        "s03-11589500"
+      ],
+      "result": "Soygun övgüsünün motorculara üzülmeme gerekçesi bağlandı."
+    },
+    {
+      "ids": [
+        "s03-11633000",
+        "s03-11636000",
+        "s03-11647000",
+        "s03-11649000"
+      ],
+      "result": "Bir daha striptiz kulübü yok sözü ve Vicki’nin parayı kullanması bağlandı."
+    },
+    {
+      "ids": [
+        "s03-11652000",
+        "s03-11653500",
+        "s03-11656500"
+      ],
+      "result": "İlişkinin dolandırılma girişiminden dostluğa dönüşmesi korundu."
+    },
+    {
+      "ids": [
+        "s03-11669000",
+        "s03-11671500",
+        "s03-11674000",
+        "s03-11676500",
+        "s03-11679000"
+      ],
+      "result": "Ürkütücü lunaparkın Vicki dövmeleriyle kıyaslanması korundu."
+    },
+    {
+      "ids": [
+        "s03-11681500",
+        "s03-11683000"
+      ],
+      "result": "Dre’Quan’a kalacak yer sorusu mesaj amacıyla bağlandı."
+    },
+    {
+      "ids": [
+        "s03-11711000",
+        "s03-11715000",
+        "s03-11716500",
+        "s03-11720000"
+      ],
+      "result": "Ceset haberinde Mattia’nın adamlarının kurban değil olası fail olduğu native karelerden netleştirildi."
+    },
+    {
+      "ids": [
+        "s03-11817000",
+        "s03-11820500"
+      ],
+      "result": "Bir daha yolun düşmesi koşulu ve açık kapı cümlesi doğru tamamlanıyor."
+    },
+    {
+      "ids": [
+        "s03-11860000",
+        "s03-11861000",
+        "s03-11862500",
+        "s03-11864500",
+        "s03-11867500"
+      ],
+      "result": "Sıfır altı/altı sıfır altı oda numarası karışıklığı korundu."
+    },
+    {
+      "ids": [
+        "s03-12168500",
+        "s03-12170000",
+        "s03-12173000",
+        "s03-12175500",
+        "s03-12177500"
+      ],
+      "result": "Dunk şüphesinin Linda’ya dönmesi ve kötü yorum tehdidi bağlandı."
+    },
+    {
+      "ids": [
+        "s03-12271500",
+        "s03-12274500",
+        "s03-12278000",
+        "s03-12279500",
+        "s03-12282500"
+      ],
+      "result": "Yorgunluğa karşın Dre’Quan’ın kendi kulübünü görme teklifi birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-12302000",
+        "s03-12309500",
+        "s03-12311000",
+        "s03-12313000"
+      ],
+      "result": "12305.5’te kaynak sansürü cümlenin başını gizliyor; açık son parçaya devam işareti eklendi, gizli söz uydurulmadı."
+    },
+    {
+      "ids": [
+        "s03-12315000",
+        "s03-12317500",
+        "s03-12320000",
+        "s03-12321500"
+      ],
+      "result": "Göze batmama, para kazanma ve diski satıp kaçma planı bağlandı."
+    },
+    {
+      "ids": [
+        "s03-12374500",
+        "s03-12378500",
+        "s03-12384000"
+      ],
+      "result": "İhbar edilme korkusunun kulüp kitlesi gerekçesiyle yatıştırılması korundu."
+    },
+    {
+      "ids": [
+        "s03-12444500",
+        "s03-12445500"
+      ],
+      "result": "In that case iki ekran ve Dre’Quan araya girişiyle doğru tamamlanıyor."
+    },
+    {
+      "ids": [
+        "s03-12449000",
+        "s03-12451500",
+        "s03-12453000"
+      ],
+      "result": "Dans edilecek müzik sağlanınca oturma sözü kaynak şakasıyla bağlandı."
+    },
+    {
+      "ids": [
+        "s03-12468500",
+        "s03-12472000",
+        "s03-12473000"
+      ],
+      "result": "Boobie’nin kimliği, üst katta olması ve tanıştırma vaadi bağlandı."
+    },
+    {
+      "ids": [
+        "s03-12486000",
+        "s03-12487500",
+        "s03-12488500"
+      ],
+      "result": "Bir saat içinde mal sağlayacak kişi sorusu doğru Türkçe sırayla tamamlanıyor."
+    },
+    {
+      "ids": [
+        "s03-12506000",
+        "s03-12509500"
+      ],
+      "result": "Evde ihtiyaç olduğunda haber verme koşulu korundu."
+    },
+    {
+      "ids": [
+        "s03-12516000",
+        "s03-12519000",
+        "s03-12525500",
+        "s03-12527500"
+      ],
+      "result": "Boobie/Bay Ike hitap değişimi ve şaka olduğunun açıklaması korundu."
+    },
+    {
+      "ids": [
+        "s03-12532500",
+        "s03-12535000"
+      ],
+      "result": "Vanessa’nın dönmeme ihtimali ve emin olmama devamı korundu."
+    },
+    {
+      "ids": [
+        "s03-12553500",
+        "s03-12556000",
+        "s03-12558000"
+      ],
+      "result": "Boobie ile tartışmaların farklı iş yapma yöntemlerine bağlanması korundu."
+    },
+    {
+      "ids": [
+        "s03-12584000",
+        "s03-12586000",
+        "s03-12587500"
+      ],
+      "result": "Soran olursa görüşmeyi söylememe koşulu ve kabulü bağlandı."
+    },
+    {
+      "ids": [
+        "s03-12686000",
+        "s03-12690000",
+        "s03-12692000",
+        "s03-12694000",
+        "s03-12697000"
+      ],
+      "result": "Yeni bulunmalarına karşın Vice’a döneceklerinin beklenmeyeceği ve hızlı çıkış planı korundu."
+    },
+    {
+      "ids": [
+        "s03-12786500",
+        "s03-12789000"
+      ],
+      "result": "Brian’ın bahsettiği kişi ile birlikte hapis yatma ilişkisi korundu."
+    },
+    {
+      "ids": [
+        "s03-12793000",
+        "s03-12796500",
+        "s03-12798000"
+      ],
+      "result": "Diski böyle bir kişiye anlatmanın elden alınmasına yol açması ve kendileri yapma kararı bağlandı."
+    },
+    {
+      "ids": [
+        "s03-12816500",
+        "s03-12819000"
+      ],
+      "result": "Cal’i aramaya karşı annenin aranması koşulu korundu."
+    },
+    {
+      "ids": [
+        "s03-12829000",
+        "s03-12831500",
+        "s03-12833500"
+      ],
+      "result": "Striptiz kulübüne gitmeme, iyi gün geçiren Jason ve büfe alayı bağlandı."
+    },
+    {
+      "ids": [
+        "s03-12858000",
+        "s03-12860500",
+        "s03-12862500",
+        "s03-12865000"
+      ],
+      "result": "Çalıntı araba bağlantısı ve VC’de para gereksinimi bağlandı."
+    },
+    {
+      "ids": [
+        "s03-12880500",
+        "s03-12882500",
+        "s03-12885000",
+        "s03-12887000",
+        "s03-12889000",
+        "s03-12890000",
+        "s03-12893500"
+      ],
+      "result": "Disk satışı umudu karşısında başka iş bağlantıları ve bekleme süresi birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-12901500",
+        "s03-12904000"
+      ],
+      "result": "Güneşte görülen pislik ve kaşınma sonucu korundu."
+    },
+    {
+      "ids": [
+        "s03-13015000",
+        "s03-13017500"
+      ],
+      "result": "Saçma sözlerle rap yapma koşulu ve iyice abartma gereği bağlandı."
+    },
+    {
+      "ids": [
+        "s03-13027500",
+        "s03-13029000",
+        "s03-13033000",
+        "s03-13035500",
+        "s03-13038000"
+      ],
+      "result": "Sade parça ve dinleyici bağı öğüdüyle sanatçıların sözleri küçümseme tavrını parçaya yansıtmamaları isteği native karelerden bağlandı."
+    },
+    {
+      "ids": [
+        "s03-13061500",
+        "s03-13064000",
+        "s03-13065500",
+        "s03-13066000",
+        "s03-13067000"
+      ],
+      "result": "Yeni nakaratın beğenilmesi ve kesinleştirilmesi bağlandı."
+    },
+    {
+      "ids": [
+        "s03-13080500",
+        "s03-13083000",
+        "s03-13086500",
+        "s03-13088500"
+      ],
+      "result": "Evden çıkma endişesinin eleman ihtiyacı ve iş teklifiyle açıklanması korundu."
+    },
+    {
+      "ids": [
+        "s03-13115500",
+        "s03-13118500"
+      ],
+      "result": "Eleman sorunu Dre’Quan’ın yükselmesine bağlanıyor."
+    },
+    {
+      "ids": [
+        "s03-13133500",
+        "s03-13136000",
+        "s03-13138000",
+        "s03-13139000",
+        "s03-13141500"
+      ],
+      "result": "Yirmi yılda hiç hit çıkmaması ve stüdyonun kulüp/uyuşturucuyla dönmesi ironisi korundu."
+    },
+    {
+      "ids": [
+        "s03-13175000",
+        "s03-13177500"
+      ],
+      "result": "Arabadan iner inmez soyulma tehdidinin daha önceye genişletilmesi korundu."
+    },
+    {
+      "ids": [
+        "s03-13190000",
+        "s03-13192000"
+      ],
+      "result": "Sevme gerekçesiyle para kazanma fırsatı teklifi doğru tamamlanıyor."
+    },
+    {
+      "ids": [
+        "s03-13198500",
+        "s03-13202000",
+        "s03-13204500",
+        "s03-13206500",
+        "s03-13209000"
+      ],
+      "result": "Kaliteli mal beklentisi, katkılı malı öyle yutturma koşulu ve farkı cebe atma sonucu birlikte okundu."
+    },
+    {
+      "ids": [
+        "s03-13236000",
+        "s03-13239500"
+      ],
+      "result": "Galeri bağlantısı ve ucuz kiralama açıklaması birlikte okundu."
+    }
+  ],
+  "changed": [
+    {
+      "id": "s03-01057000",
+      "before": "Lucia: Onu hastaneye götürmelisin,",
+      "after": "Lucia: Onu buradan olabildiğince uzaktaki...",
+      "reason": "Sonraki ekrandaki uzaklık nitelemesi Türkçede hastane adından önce kuruldu.",
+      "related_ids": [
+        "s03-01058500"
+      ]
+    },
+    {
+      "id": "s03-01058500",
+      "before": "Lucia: buradan olabildiğince uzağa.",
+      "after": "Lucia: ...bir hastaneye götürmelisin.",
+      "reason": "Önceki ekranın uzaklık nitelemesi hastane ve götürme yüklemiyle tamamlandı.",
+      "related_ids": [
+        "s03-01057000"
+      ]
+    },
+    {
+      "id": "s03-01094500",
+      "before": "Cal: Sen ne diyors- Bilmek bile istemiyorum,",
+      "after": "Cal: Sen ne diyors- Nasıl bir...",
+      "reason": "Sonraki ekrandaki nasıl bir belaya tümleci Türkçede bilmek istemiyorum yükleminden önce başladı.",
+      "related_ids": [
+        "s03-01096000"
+      ]
+    },
+    {
+      "id": "s03-01096000",
+      "before": "Cal: nasıl bir belaya bulaştığınızı.\nTamam Cal.",
+      "after": "Cal: ...belaya bulaştığınızı bilmek bile istemiyorum.\nTamam Cal.",
+      "reason": "Önceki ekrandan gelen nesne yan cümlesiyle ana yüklem birleştirildi; etiketsiz yanıt korundu.",
+      "related_ids": [
+        "s03-01094500"
+      ]
+    },
+    {
+      "id": "s03-01115500",
+      "before": "Andy: ve o dolgun, kocaman gö-\nAndy, dinle.",
+      "after": "Andy: bir de o dolgun, kocaman gö-\nAndy, dinle.",
+      "reason": "Önceki tamamlanmış seni düşünüyordum sözünden sonra ek nesne, asılı ve yerine doğal bir de yapısıyla bağlandı; kesilen söz ve etiketsiz müdahale korundu.",
+      "related_ids": [
+        "s03-01114000"
+      ]
+    },
+    {
+      "id": "s03-01589000",
+      "before": "Lucia: Mattia ve Kat değil, onlar için çalıştıkları adamlar.",
+      "after": "Lucia: Mattia ve Kat değil, yanlarında çalıştıkları adamlar.",
+      "reason": "Önceki bazı adamlar öznesini açıklayan relative clause, anlamsız onlar için çalıştıkları yapısı yerine kimin için çalıştıklarını açıkça anlatacak şekilde kuruldu.",
+      "related_ids": [
+        "s03-01586500",
+        "s03-01592000"
+      ]
+    },
+    {
+      "id": "s03-03629000",
+      "before": "Kolt ve Ortakları: Ağzı da bir o kadar büyük.",
+      "after": "Kolt ve Ortakları: Çenesi de bir o kadar düşük.",
+      "reason": "Önceki iyi kalpli nitelemesinden sonra big mouth, kişinin lafını tutamamasını anlatıyor; anatomik büyüklük değil.",
+      "related_ids": [
+        "s03-03625500",
+        "s03-03629000"
+      ]
+    },
+    {
+      "id": "s03-05637000",
+      "before": "Lucia: Biri gelip sorarsa da söyle...",
+      "after": "Lucia: Biri gelip sorarsa da...",
+      "reason": "Sonraki ekrandaki dolaylı anlatım nesneleri Türkçede söyle yükleminden önce gelmeli.",
+      "related_ids": [
+        "s03-05637000",
+        "s03-05640000",
+        "s03-05643000"
+      ]
+    },
+    {
+      "id": "s03-05640000",
+      "before": "Lucia: Benden haber almadığını, nerede olduğumu bilmediğini,\nve...",
+      "after": "Lucia: ...benden haber almadığını, nerede olduğumu bilmediğini söyle,\nbir de...",
+      "reason": "Önceki ekranda başlayan söyle cümlesini nesnelerden sonra tamamlar; kesilen bir de devamı korunur.",
+      "related_ids": [
+        "s03-05637000",
+        "s03-05640000",
+        "s03-05643000"
+      ]
+    },
+    {
+      "id": "s03-07737000",
+      "before": "Kyle: Belli mi olur, ileride yine iş çıkabilir,",
+      "after": "Kyle: Belli mi olur, şu kolum...",
+      "reason": "Ek iş olasılığına bağlanan kolun iyileşmemesi koşulu Türkçe söz diziminde ana cümleden önceye alındı.",
+      "related_ids": [
+        "s03-07737000",
+        "s03-07739500"
+      ]
+    },
+    {
+      "id": "s03-07739500",
+      "before": "Kyle: şu kolum yakında iyileşmezse!",
+      "after": "Kyle: ...yakında iyileşmezse ileride yine iş çıkabilir!",
+      "reason": "Önceki ekrandaki koşul ana cümleyle tamamlanarak Türkçede doğal akış kuruldu.",
+      "related_ids": [
+        "s03-07737000",
+        "s03-07739500"
+      ]
+    },
+    {
+      "id": "s03-08572000",
+      "before": "Vicki: Ama içeriden çalışan birini isterdim,",
+      "after": "Vicki: Ama içeriden çalışan...",
+      "reason": "Sonraki ekrandaki kişi niteliği istek yükleminden önce gelecek şekilde cümle açık bırakıldı.",
+      "related_ids": [
+        "s03-08572000",
+        "s03-08574500",
+        "s03-08577000"
+      ]
+    },
+    {
+      "id": "s03-08574500",
+      "before": "Vicki: bana büyük para kazandırmanın yolunu bilen birini.",
+      "after": "Vicki: ...bana büyük para kazandırmanın yolunu bilen birini isterdim.",
+      "reason": "İçeriden çalışan kişinin niteliği tek Türkçe isim öbeğinde tamamlanarak yüklem sona alındı.",
+      "related_ids": [
+        "s03-08572000",
+        "s03-08574500",
+        "s03-08577000"
+      ]
+    },
+    {
+      "id": "s03-08943000",
+      "before": "Lucia: Suratlarına silah dayamaktan iyi bir yol mu var,",
+      "after": "Lucia: Hey, suratlarına silah dayayıp...",
+      "reason": "Teşekkür etmenin alaylı yolu sonraki ekrandaki ikinci eylemle tek zincir haline getirildi.",
+      "related_ids": [
+        "s03-08940000",
+        "s03-08943000",
+        "s03-08946000"
+      ]
+    },
+    {
+      "id": "s03-08946000",
+      "before": "Lucia: bir de ellerinde ne varsa almaktan.",
+      "after": "Lucia: ...ellerinde ne varsa almaktan iyi teşekkür mü olur?",
+      "reason": "İki eylemin karşılaştırmalı yapısı kaynakta önceki teşekkür sözüne bağlanarak yüklem en sonda tamamlandı.",
+      "related_ids": [
+        "s03-08940000",
+        "s03-08943000",
+        "s03-08946000"
+      ]
+    },
+    {
+      "id": "s03-05878000",
+      "before": "Koruma: Bana ucuza biraz malzeme ayarlayacaktı,\nşey için.",
+      "after": "Koruma: Bana biraz malzeme ayarlayacaktı, şey...\nucuza yani.",
+      "reason": "For the uh, for the low öz düzeltmesi ucuzluk anlamında tamamlanır; Türkçede asılı kalan şey için yapısı çıkarıldı.",
+      "related_ids": [
+        "s03-05874500",
+        "s03-05878000",
+        "s03-05881000"
+      ]
+    },
+    {
+      "id": "s03-11716500",
+      "before": "Jason: Sence Mattia'nın adamları mıydı?\nYanlış çifti mi buldular acaba?",
+      "after": "Jason: Sence bunu Mattia'nın adamları mı yaptı?\nYanlış çifti mi buldular acaba?",
+      "reason": "Önceki ceset haberi ve sonraki yanlış çift cümlesi Mattia’nın adamlarının olası fail olduğunu gösteriyor; kurban sanılabilecek özne açıklığa kavuşturuldu.",
+      "related_ids": [
+        "s03-11711000",
+        "s03-11715000",
+        "s03-11716500",
+        "s03-11720000"
+      ]
+    },
+    {
+      "id": "s03-12309500",
+      "before": "Lucia: VC'de bizi bulduğunda.",
+      "after": "Lucia: ...VC'de bizi bulduğunda.",
+      "reason": "Önceki ekranın sansür nedeniyle aktarılmayan başına bağlı açık parça olduğu devam işaretiyle belirtildi; gizli metin tamamlanmadı.",
+      "related_ids": [
+        "s03-12302000",
+        "s03-12305500",
+        "s03-12309500",
+        "s03-12311000"
+      ]
+    },
+    {
+      "id": "s03-13038000",
+      "before": "Dre'Quan: Ben sadece parçada o hissi duymak istemiyorum.",
+      "after": "Dre'Quan: Yeter ki bunu parçaya yansıtmasınlar.",
+      "reason": "Önceki ekranda şarkıcıların sözleri saçma bulması kastediliyor; parçada istenmeyen hissin küçümseyen tavır olduğu açıklaştırıldı.",
+      "related_ids": [
+        "s03-13029000",
+        "s03-13035500",
+        "s03-13038000"
+      ]
+    }
+  ],
+  "complete": true,
+  "limits": [
+    "Source censorship is not completed or inferred.",
+    "Review is for cross-screen meaning and conversational Turkish; timing remains approximate.",
+    "At s03-12305500 source-video censorship hides the start of the clause continued at s03-12309500. The readable ending is marked as a continuation; no hidden wording was reconstructed. Other pre-existing source censorship remains unchanged."
+  ],
+  "method": "All 2853 English/Turkish entries were read in chronological order, in 180-entry batches. Cross-screen clauses and surrounding replies were compared by meaning, not just heuristics. Native source crops were visually inspected for changed or uncertain chains. Changes preserve displayed speaker labels; source English and source-issues are unchanged.",
+  "source_text_changed": false,
+  "speaker_labels_changed": false
+}

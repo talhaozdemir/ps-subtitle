@@ -1,0 +1,17 @@
+# Local Python and Node.js dependencies and caches.
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
+
+# Generated installation packages and duplicate build outputs.
+/dist/*.ipk
+/dist/*.validation.json
+/dist/merged/
+
+# Local captures, firmware research, experiments and build reports.
+# Keep the existing installation guide available in the repository.
+/output/*
+!/output/pdf/
+
+# Translation sources, review decisions, baselines and test sources remain tracked.

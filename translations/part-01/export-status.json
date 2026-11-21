@@ -1,0 +1,792 @@
+{
+  "reviewed_cues": 2943,
+  "ocr_windows_available": 7570,
+  "not_exported_navigation_windows": 4627,
+  "empty_midpoint_windows": 2144,
+  "earlier_frame_windows_checked": 1014,
+  "earlier_frame_windows_with_text": 200,
+  "pack_entries": 5518,
+  "reviewed_earlier_frames": 65,
+  "latest_reviewed_timestamp": 15633.6,
+  "navigation_scan_complete": true,
+  "continuous_scan_candidates": 4666,
+  "continuous_scan_complete": true,
+  "candidate_review_complete": true,
+  "unresolved_source_issues": [
+    "s01-09560500"
+  ],
+  "coverage_verified": false,
+  "timing_verified": false,
+  "ambiguous_primary_records": [],
+  "directly_ambiguous_primary_records": [],
+  "blocked_fallback_primary_records": [],
+  "omitted_ambiguous_keys": [
+    {
+      "english_key": "okay",
+      "alternatives": [
+        [
+          "p01-00001",
+          "Yabancı: Tamam..."
+        ],
+        [
+          "p01-00039",
+          "Yabancı: Tamam."
+        ],
+        [
+          "p01-00173",
+          "Gardiyan Wilson: Tamam."
+        ],
+        [
+          "s01-00688500",
+          "Lucia: Tamam."
+        ],
+        [
+          "s01-01183500",
+          "Cal: Tamam!"
+        ],
+        [
+          "s01-04038000",
+          "Jason: Tamam..."
+        ],
+        [
+          "s01-08749500",
+          "Jeremy: Tamam."
+        ],
+        [
+          "s01-13845500",
+          "Andy: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh fuck",
+      "alternatives": [
+        [
+          "p01-00002",
+          "Yabancı: Ah, siktir!"
+        ],
+        [
+          "s01-09646500",
+          "Cal: Hassiktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "fuck you",
+      "alternatives": [
+        [
+          "p01-00005",
+          "Yabancı: Siktir git."
+        ],
+        [
+          "p01-00708",
+          "Mahkûm: Siktir git."
+        ],
+        [
+          "s01-14578500",
+          "Lucia: Siktir git!"
+        ]
+      ]
+    },
+    {
+      "english_key": "lucia caminos",
+      "alternatives": [
+        [
+          "p01-00074",
+          "Lucia: Lucia Caminos."
+        ],
+        [
+          "p01-00692",
+          "Lucia: Lucia Caminos."
+        ],
+        [
+          "p01-01903",
+          "Lucia: Lucia Caminos."
+        ],
+        [
+          "p01-02485",
+          "Lucia: Lucia Caminos."
+        ],
+        [
+          "s01-00594500",
+          "Stefanie Gates: Lucia Caminos?"
+        ]
+      ]
+    },
+    {
+      "english_key": "hello",
+      "alternatives": [
+        [
+          "p01-00077",
+          "Lucia: Alo?"
+        ],
+        [
+          "p01-02484",
+          "Jason: Alo?"
+        ],
+        [
+          "s01-05531000",
+          "Shirley: Merhaba!"
+        ]
+      ]
+    },
+    {
+      "english_key": "mm hmm",
+      "alternatives": [
+        [
+          "p01-00103",
+          "Lucia: Hı hı."
+        ],
+        [
+          "s01-02269500",
+          "Jason: Hı hı."
+        ],
+        [
+          "s01-08808000",
+          "Dobbs: Hı hı!"
+        ]
+      ]
+    },
+    {
+      "english_key": "c mon",
+      "alternatives": [
+        [
+          "p01-00154",
+          "Gardiyan Wilson: Hadi."
+        ],
+        [
+          "s01-14468000",
+          "Jason: Hadi."
+        ],
+        [
+          "s01-14524500",
+          "Lucia: Hadi!"
+        ]
+      ]
+    },
+    {
+      "english_key": "uh sure",
+      "alternatives": [
+        [
+          "p01-00176",
+          "Lucia: Şey, tabii."
+        ],
+        [
+          "s01-09584500",
+          "Jason: Şey, tabii."
+        ]
+      ]
+    },
+    {
+      "english_key": "okay okay",
+      "alternatives": [
+        [
+          "p01-00237",
+          "Lucia: Tamam, tamam."
+        ],
+        [
+          "s01-13971000",
+          "Cal: Tamam... tamam..."
+        ]
+      ]
+    },
+    {
+      "english_key": "what",
+      "alternatives": [
+        [
+          "p01-00360",
+          "Donnie: Ne?"
+        ],
+        [
+          "s01-00520000",
+          "Ronda: Ne?"
+        ],
+        [
+          "s01-02508500",
+          "Jason: Ne?"
+        ],
+        [
+          "s01-08818500",
+          "Jeremy: Ne?"
+        ],
+        [
+          "s01-10239500",
+          "Cal: Ne?"
+        ],
+        [
+          "s01-13719000",
+          "Mattia: Ne?"
+        ]
+      ]
+    },
+    {
+      "english_key": "yup",
+      "alternatives": [
+        [
+          "p01-00412",
+          "Kingfishers: Aynen..."
+        ],
+        [
+          "s01-00570000",
+          "Güvenlik görevlisi: Evet."
+        ],
+        [
+          "s01-05349500",
+          "Jason: Evet."
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah",
+      "alternatives": [
+        [
+          "p01-00414",
+          "Kingfishers: Evet."
+        ],
+        [
+          "s01-00578000",
+          "Lucia: Evet."
+        ],
+        [
+          "s01-12851500",
+          "Jason: Öyle mi?"
+        ],
+        [
+          "s01-02343000",
+          "Cal: Evet."
+        ],
+        [
+          "s01-11979500",
+          "Andy: Evet."
+        ],
+        [
+          "s01-14049500",
+          "Mattia: Evet!"
+        ]
+      ]
+    },
+    {
+      "english_key": "come on",
+      "alternatives": [
+        [
+          "p01-00479",
+          "Jason: Hadi."
+        ],
+        [
+          "s01-01302000",
+          "Kingfishers: Hadi."
+        ],
+        [
+          "s01-13288500",
+          "Mahalleli: Hadi!"
+        ],
+        [
+          "s01-14691500",
+          "Lucia: Hadi."
+        ]
+      ]
+    },
+    {
+      "english_key": "mmm",
+      "alternatives": [
+        [
+          "p01-00513",
+          "Kingfishers: Hımm."
+        ],
+        [
+          "s01-00507500",
+          "Heather: Hımm."
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah yeah",
+      "alternatives": [
+        [
+          "p01-00611",
+          "Jason: Evet.\nEvet."
+        ],
+        [
+          "s01-13655500",
+          "Mattia: Evet, evet."
+        ]
+      ]
+    },
+    {
+      "english_key": "fuck",
+      "alternatives": [
+        [
+          "p01-00617",
+          "Jason: Siktir."
+        ],
+        [
+          "s01-04502000",
+          "Cal: Siktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "really",
+      "alternatives": [
+        [
+          "p01-00724",
+          "Lucia: Gerçekten mi?"
+        ],
+        [
+          "s01-00407000",
+          "Yolanda: Gerçekten mi?"
+        ],
+        [
+          "s01-02229500",
+          "Jason: Gerçekten mi?"
+        ]
+      ]
+    },
+    {
+      "english_key": "oh shit",
+      "alternatives": [
+        [
+          "p01-00735",
+          "Jason: Hay siktir."
+        ],
+        [
+          "p01-00808",
+          "Donnie: Hay siktir."
+        ],
+        [
+          "p01-01197",
+          "Cal: Hay siktir!"
+        ],
+        [
+          "s01-00508000",
+          "Connie: Hay siktir."
+        ],
+        [
+          "s01-14651500",
+          "Lucia: Ah, siktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "oh yeah",
+      "alternatives": [
+        [
+          "p01-01121",
+          "Tezgâhtar: Ha, evet."
+        ],
+        [
+          "s01-06365000",
+          "Tezgâhtar: Ha, evet."
+        ],
+        [
+          "s01-10688500",
+          "Cal: Ha.\nEvet."
+        ],
+        [
+          "s01-13749500",
+          "Jason: Öyle mi?"
+        ],
+        [
+          "s01-14347500",
+          "Havacı: Öyle mi?"
+        ]
+      ]
+    },
+    {
+      "english_key": "that s it",
+      "alternatives": [
+        [
+          "p01-01641",
+          "Jeremy: Hepsi bu mu?"
+        ],
+        [
+          "s01-00720500",
+          "Veznedar: Hepsi bu!"
+        ],
+        [
+          "s01-13766000",
+          "Kat: İşte böyle."
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah okay",
+      "alternatives": [
+        [
+          "p01-01645",
+          "Jeremy: He, tamam."
+        ],
+        [
+          "s01-00499500",
+          "Gardiyan Wilson: Evet, tamam."
+        ],
+        [
+          "s01-08762000",
+          "Jeremy: He, tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "hey uh",
+      "alternatives": [
+        [
+          "p01-02070",
+          "Yabancı: Hey, şey..."
+        ],
+        [
+          "s01-02353000",
+          "Cal: Hey, şey..."
+        ]
+      ]
+    },
+    {
+      "english_key": "ugh",
+      "alternatives": [
+        [
+          "p01-02314",
+          "Andy: Üff..."
+        ],
+        [
+          "s01-07912500",
+          "Jason: Uff..."
+        ]
+      ]
+    },
+    {
+      "english_key": "hey hey",
+      "alternatives": [
+        [
+          "p01-02521",
+          "Jason: Selam.\nSelam."
+        ],
+        [
+          "s01-12736000",
+          "Jason: Selam.\nSelam."
+        ],
+        [
+          "s01-14584500",
+          "Lucia: Hey.\nHey."
+        ]
+      ]
+    },
+    {
+      "english_key": "thank you",
+      "alternatives": [
+        [
+          "p01-02532",
+          "Gardiyan: Teşekkürler!"
+        ],
+        [
+          "s01-13085000",
+          "Donnie: Sağ ol!"
+        ]
+      ]
+    },
+    {
+      "english_key": "hey",
+      "alternatives": [
+        [
+          "p01-02574",
+          "Lucia: Hey..."
+        ],
+        [
+          "s01-00669500",
+          "Garson: Selam."
+        ],
+        [
+          "s01-08639500",
+          "Kenton: Selam."
+        ],
+        [
+          "s01-08640000",
+          "Jason: Selam."
+        ],
+        [
+          "s01-13508500",
+          "Mahalleli: Hey!"
+        ]
+      ]
+    },
+    {
+      "english_key": "shit",
+      "alternatives": [
+        [
+          "s01-00338500",
+          "Lucia: Siktir..."
+        ],
+        [
+          "s01-01863000",
+          "Donnie: Siktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "alright",
+      "alternatives": [
+        [
+          "s01-00528500",
+          "Gardiyan Wilson: Tamam."
+        ],
+        [
+          "s01-02341500",
+          "Jason: Tamam."
+        ],
+        [
+          "s01-09733000",
+          "Cal: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "right",
+      "alternatives": [
+        [
+          "s01-00585500",
+          "Lucia: Anladım."
+        ],
+        [
+          "s01-13901500",
+          "Kat: Sağa."
+        ]
+      ]
+    },
+    {
+      "english_key": "got it",
+      "alternatives": [
+        [
+          "s01-00682500",
+          "Lucia: Anladım."
+        ],
+        [
+          "s01-04222000",
+          "Jason: Anladım."
+        ]
+      ]
+    },
+    {
+      "english_key": "stop",
+      "alternatives": [
+        [
+          "s01-00707000",
+          "Mahalleli: Dur!"
+        ],
+        [
+          "s01-14735500",
+          "Lucia: Dur!"
+        ]
+      ]
+    },
+    {
+      "english_key": "good",
+      "alternatives": [
+        [
+          "s01-12926500",
+          "Jason: Güzel."
+        ],
+        [
+          "s01-14197500",
+          "Lucia: Güzel."
+        ]
+      ]
+    },
+    {
+      "english_key": "hell yeah",
+      "alternatives": [
+        [
+          "s01-12963000",
+          "Lucia: Tabii ki!"
+        ],
+        [
+          "s01-08162500",
+          "Kingfishers: İşte bu!"
+        ]
+      ]
+    },
+    {
+      "english_key": "wait",
+      "alternatives": [
+        [
+          "s01-01727500",
+          "Jason: Bekle."
+        ],
+        [
+          "s01-09634000",
+          "Cal: Dur."
+        ]
+      ]
+    },
+    {
+      "english_key": "let s go",
+      "alternatives": [
+        [
+          "s01-01879500",
+          "Donnie: Hadi gidelim!"
+        ],
+        [
+          "s01-09832500",
+          "Cal: Hadi bakalım."
+        ]
+      ]
+    },
+    {
+      "english_key": "why",
+      "alternatives": [
+        [
+          "s01-04039500",
+          "Jason: Niye?"
+        ],
+        [
+          "s01-10680000",
+          "Cal: Niye?"
+        ],
+        [
+          "s01-13904000",
+          "Lucia: Neden?"
+        ]
+      ]
+    },
+    {
+      "english_key": "uhh",
+      "alternatives": [
+        [
+          "s01-05975500",
+          "Jason: Iıı..."
+        ],
+        [
+          "s01-14341000",
+          "Kat: Şey..."
+        ]
+      ]
+    },
+    {
+      "english_key": "uh huh",
+      "alternatives": [
+        [
+          "s01-06032500",
+          "Mandy: Hı hı..."
+        ],
+        [
+          "s01-06040500",
+          "Jason: Hı hı."
+        ]
+      ]
+    },
+    {
+      "english_key": "of course",
+      "alternatives": [
+        [
+          "s01-06626500",
+          "Jason: Tabii."
+        ],
+        [
+          "s01-06627500",
+          "Brian: Tabii."
+        ]
+      ]
+    },
+    {
+      "english_key": "ah shit",
+      "alternatives": [
+        [
+          "s01-06828500",
+          "Arnold: Ah, siktir..."
+        ],
+        [
+          "s01-14522500",
+          "Jason: Ah, siktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "i need another beer",
+      "alternatives": [
+        [
+          "s01-08181000",
+          "Kingfishers: Bir bira daha lazım bana."
+        ],
+        [
+          "s01-08724500",
+          "Dobbs: Bir bira daha lazım bana."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh",
+      "alternatives": [
+        [
+          "s01-08745000",
+          "Dobbs: Aa."
+        ],
+        [
+          "s01-08855500",
+          "Jeremy: Ha."
+        ],
+        [
+          "s01-08856000",
+          "Jeremy: Ha."
+        ],
+        [
+          "s01-13753000",
+          "Jason: Aa."
+        ]
+      ]
+    },
+    {
+      "english_key": "sorry",
+      "alternatives": [
+        [
+          "s01-08776000",
+          "Jeremy: Pardon."
+        ],
+        [
+          "s01-14546500",
+          "Lucia: Pardon!"
+        ]
+      ]
+    },
+    {
+      "english_key": "so",
+      "alternatives": [
+        [
+          "s01-13254000",
+          "Jason: Yani?"
+        ],
+        [
+          "s01-13255000",
+          "Lucia: Yani..."
+        ]
+      ]
+    },
+    {
+      "english_key": "whoa",
+      "alternatives": [
+        [
+          "s01-13757500",
+          "Mattia: Vay."
+        ],
+        [
+          "s01-13758000",
+          "Kat: Vay."
+        ]
+      ]
+    },
+    {
+      "english_key": "mm",
+      "alternatives": [
+        [
+          "s01-13906500",
+          "Lucia: Hım."
+        ],
+        [
+          "s01-14773500",
+          "Jason: Hım."
+        ]
+      ]
+    }
+  ],
+  "complete": true,
+  "speaker_color_label_occurrences": 3048,
+  "speaker_color_measured_occurrences": 3010,
+  "speaker_color_visually_identified_occurrences": 38,
+  "speaker_color_unresolved_occurrences": 0
+}

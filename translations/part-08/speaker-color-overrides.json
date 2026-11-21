@@ -1,0 +1,101 @@
+{
+  "s08-05111500": {
+    "1": {
+      "status": "visually_identified",
+      "name_tr": "Turuncu / şeftali",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s08-08072000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Lila / pembe-mor",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s08-10115500": {
+    "0": {
+      "status": "unresolved",
+      "name_tr": null,
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; speaker name is covered by a black source censorship bar, with only a narrow cyan edge visible. Full label colour cannot be safely determined."
+    }
+  },
+  "s08-10441500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s08-10480000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s08-12045000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Sarı-yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s08-12063500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Sarı-yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s08-13900000": {
+    "0": {
+      "status": "unresolved",
+      "name_tr": null,
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; the map overlay washes out the speaker label, preventing reliable identification of its colour family."
+    }
+  },
+  "s08-16807500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Turkuaz / açık mavi",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s08-17108000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Sarı",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s08-17111000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Turuncu / şeftali",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  }
+}

@@ -33,12 +33,13 @@ set(USE_LIBIDN2 OFF CACHE BOOL "" FORCE)
 
 find_package(PkgConfig REQUIRED)
 find_package(Threads REQUIRED)
-pkg_check_modules(OCR REQUIRED IMPORTED_TARGET tesseract)
 pkg_check_modules(H264 REQUIRED IMPORTED_TARGET openh264)
 pkg_check_modules(JSON REQUIRED IMPORTED_TARGET json-c)
 
 add_subdirectory("${CHIAKI_SOURCE}" chiaki EXCLUDE_FROM_ALL)
-add_executable(subtitle-engine engine.c)
+find_path(ONNXRUNTIME_INCLUDE_DIR onnxruntime_c_api.h PATH_SUFFIXES onnxruntime REQUIRED)
+add_executable(subtitle-engine engine.c ocr_image.c ocr_pending.c paddle_ocr.c)
+target_include_directories(subtitle-engine PRIVATE "${ONNXRUNTIME_INCLUDE_DIR}")
 target_compile_options(subtitle-engine PRIVATE -Wall -Wextra -Werror)
-target_link_libraries(subtitle-engine PRIVATE chiaki-lib PkgConfig::JSON PkgConfig::OCR
-    PkgConfig::H264 Threads::Threads m)
+target_link_libraries(subtitle-engine PRIVATE chiaki-lib PkgConfig::JSON
+    PkgConfig::H264 Threads::Threads m ${CMAKE_DL_LIBS})

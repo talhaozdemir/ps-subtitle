@@ -8,7 +8,8 @@ const path = require('path');
 const readline = require('readline');
 const { createPackStore } = require('./pack');
 const { accountBytes, settings, publicSettings, subtitleRegion, subtitleAppearance, consoleId,
-  translationSettings, savedTranslation, publicTranslation, translationProviderNames, supportedQualities } = require('./settings');
+  translationSettings, savedTranslation, publicTranslation, translationProviderNames, supportedQualities,
+  subtitleOcrRate, savedOcrRate } = require('./settings');
 const { createSubtitleFeed, requestTranslation, testLine } = require('./translation');
 const { createRemoteTransfer } = require('./remote-setup');
 
@@ -177,6 +178,20 @@ service.register('testTranslation', function (message) {
   } catch (error) { replyError(message, error); }
 });
 
+service.register('setOcrRate', function (message) {
+  try {
+    const rate = subtitleOcrRate(message.payload.ocrRate);
+    const config = readSettings();
+    config.ocrRate = rate;
+    saveSettings(config);
+    if (active) {
+      active.ocrRate = rate;
+      if (active.worker) active.worker.send({ ocrRate: rate });
+    }
+    message.respond({ returnValue: true, ocrRate: rate });
+  } catch (error) { replyError(message, error); }
+});
+
 service.register('setRegion', function (message) {
   try {
     const payload = message.payload;
@@ -195,11 +210,16 @@ service.register('setRegion', function (message) {
       saveSettings(config);
     }
     if (active) {
+      const changed = region.x !== active.region.x || region.y !== active.region.y ||
+        region.width !== active.region.width || region.height !== active.region.height;
       active.region = region;
       active.revision = revision;
       active.preview = payload.preview === true;
       active.feed.reset();
-      if (active.worker) active.worker.send({ region: region, revision: revision });
+      if (changed) {
+        active.frameRevision = revision;
+        if (active.worker) active.worker.send({ region: region, revision: revision });
+      }
     }
     message.respond({ returnValue: true });
   } catch (error) { replyError(message, error); }
@@ -237,6 +257,7 @@ function pairConsole(payload, additionalSettings) {
           const previous = publicSettings(previousConfig);
           config.setupComplete = previous.setupComplete;
           config.region = previous.region;
+          if (payload.ocrRate === undefined) config.ocrRate = previous.ocrRate;
           config.appearance = previous.appearance;
           config.translation = savedTranslation(previousConfig);
           if (additionalSettings) Object.assign(config, additionalSettings(previousConfig));
@@ -404,7 +425,40 @@ service.register('applyRemoteSetup', async function (message) {
   } catch (error) { replyError(message, error); }
 });
 
+let videoDiagnostics;
+let previousCapturePermit;
+const capturePermitPath = '/tmp/gtavi-ocr-capture-enable';
+service.register('videoDiagnostics', function (message) {
+  const frames = message.payload && message.payload.captureFrames;
+  if (frames !== undefined) {
+    if (!Number.isInteger(frames) || frames < 1 || frames > 12 || !active || !active.worker ||
+        !videoDiagnostics || videoDiagnostics.phase !== 'reading') {
+      return replyError(message, Error('Örnekler için altyazı akışı açık olmalı. 1–12 kare seçebilirsin.'));
+    }
+    const capture = videoDiagnostics.capture;
+    if (capture && !capture.complete && Date.now() < capture.expiresAt) {
+      return replyError(message, Error('Altyazı kareleri zaten kaydediliyor.'));
+    }
+    try {
+      const permit = message.payload.capturePermit;
+      if (typeof permit !== 'string' || !/^[0-9a-f]{32}$/.test(permit) || permit === previousCapturePermit ||
+          fs.readFileSync(capturePermitPath, 'utf8').trim() !== permit) throw Error('capture permit');
+      previousCapturePermit = permit;
+      try { fs.unlinkSync(capturePermitPath); } catch (error) { /* The developer session can remove its own file. */ }
+    } catch (error) {
+      return replyError(message, Error('Geliştirici yakalama izni bulunamadı.'));
+    }
+    videoDiagnostics.capture = { complete: false, frames: 0, expiresAt: Date.now() + 20000 };
+    active.worker.send({ captureFrames: frames });
+  }
+  message.respond({ returnValue: true, active: Boolean(active), preview: Boolean(active && active.preview),
+    video: videoDiagnostics || null });
+});
+
 const stream = service.register('start');
+const reconnectDelays = [2000, 5000, 10000];
+const videoTimeout = 12000;
+const noVideo = 'PS5’e bağlanıldı ama altyazı için görüntü gelmiyor.';
 stream.on('request', function (message) {
   let slot;
   try {
@@ -418,16 +472,38 @@ stream.on('request', function (message) {
       throw Error('Önce PS5’i eşleştir.');
     }
     if (active) active.close();
-    saveSettings(Object.assign(saved, { port: requested.port, quality: requested.quality }));
+    const ocrRate = message.payload.ocrRate === undefined ? savedOcrRate(saved) : requested.ocrRate;
+    saveSettings(Object.assign(saved, { port: requested.port, quality: requested.quality, ocrRate: ocrRate }));
     const translation = savedTranslation(saved);
-    const feed = createSubtitleFeed(translation, packs.match, function (text) {
-      message.respond({ returnValue: true, type: 'subtitle', text: text });
+    const metrics = { phase: 'starting', attempt: 0, requestedQuality: requested.quality, engine: null,
+      reads: 0, nonEmptyReads: 0, usableReads: 0, staleReads: 0,
+      packMatches: 0, approximatePackMatches: 0, contextualPackMatches: 0, lastPackSimilarity: null, displayed: 0 };
+    videoDiagnostics = metrics;
+    const localSession = packs.createSession();
+    const feed = createSubtitleFeed(translation, function (text, confidence, minimum) {
+      const found = localSession.match(text, confidence, minimum);
+      if (found) {
+        metrics.packMatches++;
+        if (found.approximate) metrics.approximatePackMatches++;
+        if (found.contextual) metrics.contextualPackMatches++;
+        metrics.lastPackSimilarity = Math.round(found.score * 10) / 10;
+      }
+      return found || '';
+    }, function (text, speakers) {
+      if (text) metrics.displayed++;
+      message.respond({ returnValue: true, type: 'subtitle', text: text, speakers: speakers || [] });
     }, function (error) {
       message.respond({ returnValue: true, type: 'translationError', text: error });
-    });
-    slot = { token: message.uniqueToken, worker: null, region: publicSettings(saved).region, revision: 0,
+    }, localSession);
+    let reconnectTimer;
+    let videoTimer;
+    slot = { token: message.uniqueToken, worker: null, ocrRate: ocrRate,
+      region: publicSettings(saved).region, revision: 0, frameRevision: 0,
       preview: false, feed: feed, close: function () {
       if (active === slot) active = null;
+      metrics.phase = 'stopped';
+      clearTimeout(reconnectTimer);
+      clearTimeout(videoTimer);
       feed.reset();
       if (slot.worker) slot.worker.stop();
     } };
@@ -453,28 +529,95 @@ stream.on('request', function (message) {
       if (saved.address !== previousAddress || saved.address !== requested.address) {
         message.respond({ returnValue: true, type: 'address', address: saved.address });
       }
-      let failure;
-      const input = Object.assign({}, saved, { mode: 'stream', region: slot.region, revision: slot.revision });
-      delete input.translation;
-      slot.worker = launch(input, function (result) {
+      let reconnectAttempts = 0;
+      function startWorker() {
         if (active !== slot) return;
-        if (result.type === 'error') failure = result.text;
-        if (result.type === 'ready') message.respond({ returnValue: true, type: 'ready' });
-        if (result.type !== 'ocr' || result.revision !== slot.revision) return;
-        if (slot.preview) {
-          message.respond({ returnValue: true, type: 'preview', text: result.text, revision: slot.revision });
-          return;
+        metrics.phase = 'connecting';
+        metrics.attempt++;
+        metrics.engine = null;
+        let failure;
+        let connected = false;
+        let timedOut = false;
+        let firstFrameAt;
+        let lastFrameAt;
+        function watchVideo() {
+          clearTimeout(videoTimer);
+          videoTimer = setTimeout(function () {
+            if (active !== slot) return;
+            timedOut = true;
+            slot.worker.stop();
+          }, videoTimeout);
         }
-        feed.read(result.text, result.confidence);
-      }, function (error) {
-        if (active !== slot) return;
-        active = null;
-        feed.reset();
-        message.respond({ returnValue: true, type: 'ended', text: failure || error });
-      });
+        const input = Object.assign({}, saved, { mode: 'stream', region: slot.region,
+          revision: slot.frameRevision, ocrRate: slot.ocrRate });
+        delete input.translation;
+        slot.worker = launch(input, function (result) {
+          if (active !== slot || timedOut) return;
+          if (result.type === 'error') failure = result.text;
+          if (result.type === 'sampleCapture') {
+            metrics.capture = Object.assign({}, metrics.capture, { directory: result.directory,
+              frames: result.frames, complete: result.complete });
+          }
+          if (result.type === 'videoStats') {
+            metrics.engine = { videoSamples: result.videoSamples, droppedSamples: result.droppedSamples,
+              sampledCrops: result.sampledCrops, replacedCrops: result.replacedCrops,
+              decodedFrames: result.decodedFrames, ocrRuns: result.ocrRuns, skippedCrops: result.skippedCrops,
+              width: result.width, height: result.height, ocrIntervalMs: result.ocrIntervalMs };
+          }
+          if (result.type === 'ready') {
+            connected = true;
+            metrics.phase = 'waitingVideo';
+            watchVideo();
+            message.respond({ returnValue: true, type: 'waitingVideo' });
+          }
+          if (result.type !== 'ocr') return;
+          metrics.reads++;
+          if (result.text && result.text.trim()) {
+            metrics.nonEmptyReads++;
+            if (result.confidence >= 55) metrics.usableReads++;
+          }
+          lastFrameAt = Date.now();
+          watchVideo();
+          if (firstFrameAt === undefined) {
+            firstFrameAt = lastFrameAt;
+            metrics.phase = 'reading';
+            message.respond({ returnValue: true, type: 'ready' });
+          }
+          if (result.revision !== slot.frameRevision) {
+            metrics.staleReads++;
+            return;
+          }
+          if (result.skipped) return;
+          if (slot.preview) {
+            message.respond({ returnValue: true, type: 'preview', text: result.text, revision: slot.revision });
+            return;
+          }
+          feed.read(result.text, result.confidence);
+        }, function (error) {
+          if (active !== slot) return;
+          clearTimeout(videoTimer);
+          slot.worker = null;
+          feed.reset();
+          if (firstFrameAt !== undefined && lastFrameAt - firstFrameAt >= 30000) reconnectAttempts = 0;
+          const busyAfterRetry = reconnectAttempts > 0 && failure === 'Remote Play on Console is already in use';
+          metrics.lastError = timedOut ? noVideo : failure || error;
+          if ((!failure || connected || busyAfterRetry) && reconnectAttempts < reconnectDelays.length) {
+            metrics.phase = 'reconnecting';
+            reconnectTimer = setTimeout(startWorker, reconnectDelays[reconnectAttempts++]);
+            message.respond({ returnValue: true, type: 'reconnecting' });
+            return;
+          }
+          slot.close();
+          metrics.phase = 'ended';
+          message.respond({ returnValue: true, type: 'ended', text: timedOut ? noVideo : failure || error });
+        });
+      }
+      startWorker();
     }).catch(function (error) {
       if (active !== slot) return;
       slot.close();
+      metrics.phase = 'ended';
+      metrics.lastError = error.message;
       replyError(message, error);
     });
   } catch (error) { replyError(message, error); }

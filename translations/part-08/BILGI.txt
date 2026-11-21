@@ -1,0 +1,27 @@
+﻿8. BÖLÜM — İNGİLİZCE / TÜRKÇE ÇEVİRİ
+
+Kaynak: Downloads klasöründeki Part 8 videosu (1920 × 1080, 05:02:33.670).
+
+part-08.en-tr.txt: Konuşmacı etiketleriyle İngilizce/Türkçe metin.
+dialogues.json: Düzenlenebilir çift dilli kayıtlar ve kaynak görüntü bilgileri.
+reviewed.json: Çevirinin esas düzenleme dosyası; değişiklikten sonra build_translation.py ile çıktılar üretilebilir.
+subtitle.json.gz: Projedeki örneğe uygun format-2 çeviri sözlüğü. Gerçek uygulama tüketicisinde 5242 kayıt doğru eşleşti; bağlama göre farklı karşılık gerektiren 3 kayıt yanlış eşleşmeyi önlemek için yalnız çift dilli metinde tutuldu. Tam ve yaklaşık eşleştirmede yanlış geri dönüş testleri geçti. Pakette 10150 eşleştirme girdisi vardır.
+part-08.en.srt / part-08.tr.srt: Yaklaşık zamanlı başvuru çıktılarıdır; son senkron altyazı değildir.
+
+5245 kaynak görüntüden kontrol edilmiş kayıt bulunur. Tekrarlar ve aynı anda görünen konuşmalar nedeniyle bu sayı benzersiz cümle sayısı değildir. Video baştan sona saniyede 2 kareyle normal ve soluk altyazı profilleriyle tarandı. Bulunan okunabilir konuşmalar görüntüden düzeltilerek Türkçe konuşma dilinde sıfırdan çevrildi. Önceki Türkçe çeviri kaynak alınmadı. Etiketsiz/boş OCR adayları ve tekrar adayları da görüntüden denetlendi.
+
+Ekranda görünen kişi adları ve aksanları korundu; Stranger = Yabancı, Cop/Police = Polis. İsimsiz cevaplara tahminen konuşmacı eklenmedi. Dil etiketlerinin Türkçe karşılıkları korundu; İspanyolca/Rusça konuşmaların videoda gösterilen İngilizce metni temel alındı. Argo ve küfürler bağlama göre konuşma dilinde çevrildi. Juice/Luce Juice lakabı bağlama göre Güçlü Lu olarak aktarıldı. Çalışan/İşçi ve Koruma gibi rol adları sahneye göre seçildi.
+
+Kaynak videodaki siyah sansür bantlarının gizlediği kelimeler tahmin edilmedi. 28 etkin kaynak sorunu source-issues.json içinde belgeli; gizlenen tam replikler pakete eklenmedi. Bağımsız okunabilir replikler ve sansürsüz başka karede bulunan metinler korundu. Çözülen Lucia repliğinin kaydı aynı dosyanın resolved_issues alanındadır.
+
+Tarama çok kısa veya okunamayan yazıları kaçırabilir; tüm konuşmaların eksiksiz yakalandığı garanti edilmez. Menü, tabela ve telefon bildirimlerinin tamamını kapsamaz. İnceleme tamamlandı işareti bulunan adayların ele alındığını gösterir; tam kapsama veya zaman senkronu doğrulaması değildir.
+
+2026-11-21 cümle devamı ve bağlam denetimi: 5245 İngilizce/Türkçe kaydın tamamı zaman sırasıyla okundu. 35 Türkçe kayıt ve kaynak görüntüde eksik aktarılmış 1 İngilizce ikinci satır düzeltildi. Değişen zincirler özgün çözünürlükte kaynak altyazı görüntülerinden doğrulandı; önce/sonra, neden ve görüntü referansları continuation-review.json dosyasındadır. Bu işlem yeni bir tam video/ses taraması değildir. Part8 sonu ile Part9 başındaki metin sınırı ayrıca kontrol edildi; videolar arasında açık kalan cümle yoktur.
+
+
+CÜMLE DEVAMI DENETİMİ — 21 Kasım 2026
+5245 mevcut İngilizce/Türkçe kayıt zaman sırasıyla okundu. Ekranlar arasında süren cümlelerin yüklemleri, zamirleri, soru/koşul yapıları ve araya giren yanıtları bağlamlarıyla denetlendi. 35 Türkçe ve 1 İngilizce kayıt düzeltildi; değişen kayıt sayısı 36. Önce/sonra ve ilgili kaynak kayıtlar continuation-review.json içinde. Kaynak sansürleri ve yaklaşık zamanlar korundu; bu işlem yeniden tam video OCR taraması değildir. Gerçek tüketici: 5242 doğru eşleşme, 3 güvenli dışlama; yanlış yedek eşleşme kontrolü geçti.
+
+
+KONUŞMACI İSİM RENKLERİ
+İngilizce/Türkçe TXT ve dialogues.json içindeki speaker_labels alanına, ekranda görünen isim/rol etiketlerinin renk bilgisi eklendi. speaker-colors.json dosyası her adın her satırdaki görünümünü ayrı tutar; line_index sıfırdan başlar, TXT satır numarası birden başlar. Aynı kişi veya aynı rol farklı sahnelerde, hatta aynı karede başka renkte olabilir. 5452 etiket görünümü: 5441 piksel ölçümü, 9 görsel renk ailesi kontrolü, 2 belirsiz. HEX değerleri sıkıştırılmış video görüntüsünden yaklaşık örneklerdir, oyunun kesin renk paleti değildir. Yalnız gözle rengi seçilen örneklerde HEX uydurulmadı. Rengi seçilmeyen/ismi görünmeyen yerler belirsiz bırakıldı.

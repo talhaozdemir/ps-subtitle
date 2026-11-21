@@ -1,0 +1,1044 @@
+{
+  "reviewed_records": 5245,
+  "read_ranges": [
+    [
+      0,
+      5245
+    ]
+  ],
+  "checked_chains": [
+    {
+      "ids": [
+        "s08-00132000",
+        "s08-00133500"
+      ],
+      "result": "Connected instruction retained."
+    },
+    {
+      "ids": [
+        "s08-00271500",
+        "s08-00274000",
+        "s08-00276500"
+      ],
+      "result": "Relative clause and list rebuilt after checking all three native crops."
+    },
+    {
+      "ids": [
+        "s08-00654000",
+        "s08-00657500",
+        "s08-00666500",
+        "s08-00671500"
+      ],
+      "result": "Conditional setup and resumed argument checked; retained."
+    },
+    {
+      "ids": [
+        "s08-00897000",
+        "s08-00899000"
+      ],
+      "result": "Turkish predicate correctly completed on next screen; retained."
+    },
+    {
+      "ids": [
+        "s08-01169500",
+        "s08-01172500",
+        "s08-01173000"
+      ],
+      "result": "Koşulun nesnesi sonraki ekrandaydı; Türkçede nesne ve yüklem birlikte tamamlandı.",
+      "evidence": "chain02.jpg"
+    },
+    {
+      "ids": [
+        "s08-01568000",
+        "s08-01569500",
+        "s08-01570000"
+      ],
+      "result": "Bana biraz... sorun var gibi geliyor bağlantısı uygun; korundu."
+    },
+    {
+      "ids": [
+        "s08-02299000",
+        "s08-02301500"
+      ],
+      "result": "Dolabın izlendiğini öğrenip sıvışmış olmalı zinciri uygun; korundu."
+    },
+    {
+      "ids": [
+        "s08-02323500",
+        "s08-02325500"
+      ],
+      "result": "Gallo ve paketinizin peşine düşen polisler nesnesi düzgün tamamlanıyor; korundu."
+    },
+    {
+      "ids": [
+        "s08-02656000",
+        "s08-02659000",
+        "s08-02661000"
+      ],
+      "result": "Arabaları niteleyen üç ekran Türkçede son arabalar ismiyle tamamlanıyor; korundu."
+    },
+    {
+      "ids": [
+        "s08-03495000",
+        "s08-03497500"
+      ],
+      "result": "Karşıtlığın not öğesi sonraki ekrandaki nesnelere bağlandı; kaynakta gerçekten metallurgy yazan dil sürçmesi korundu.",
+      "evidence": "chain03.jpg"
+    },
+    {
+      "ids": [
+        "s08-03154500"
+      ],
+      "result": "Oyuncudan söz eden önceki replikle bağlanan Türkçe ifade doğallaştırıldı.",
+      "evidence": "chain03.jpg"
+    },
+    {
+      "ids": [
+        "s08-02336500"
+      ],
+      "result": "Beklerken yan cümlesinin yüklemi ve ekip tamlaması doğal Türkçe sıraya alındı.",
+      "evidence": "chain03.jpg"
+    },
+    {
+      "ids": [
+        "s08-03885000",
+        "s08-03887500",
+        "s08-03889000"
+      ],
+      "result": "Açılış kutlaması için gelenlere teşekkür eden üç ekran tek Türkçe yan cümleye bağlandı; bağımsız yanlış geldiniz yüklemi kaldırıldı.",
+      "evidence": "chain04.jpg"
+    },
+    {
+      "ids": [
+        "s08-04055000",
+        "s08-04056000",
+        "s08-04058000",
+        "s08-04059500"
+      ],
+      "result": "Beyin nesnesi sonraki ekrandaki camlara sıçratma yüklemine bağlandı; aynı eylemi iki ayrı yüklemle yineleme giderildi.",
+      "evidence": "chain04.jpg"
+    },
+    {
+      "ids": [
+        "s08-04905500",
+        "s08-04907000"
+      ],
+      "result": "Bildigimiz bir sey varsa o da kolay para diye bir sey olmadigi zinciri uygun."
+    },
+    {
+      "ids": [
+        "s08-05132500",
+        "s08-05133500"
+      ],
+      "result": "Sakin bana... telefonuyla fotograf cektirecegini soyleme nesnesi tamam."
+    },
+    {
+      "ids": [
+        "s08-05086000",
+        "s08-05088000"
+      ],
+      "result": "Birkac kare yeter / imajlarini parlatmak icin baglantisi anlamca uygun."
+    },
+    {
+      "ids": [
+        "s08-06070000"
+      ],
+      "result": "Önceki ekrandaki Ben öznesiyle tekil gelecek yüklem eşleştirildi; Ben... Haberleşiriz kişi uyuşmazlığı kaldırıldı.",
+      "evidence": "chain05.jpg"
+    },
+    {
+      "ids": [
+        "s08-06137000",
+        "s08-06139500",
+        "s08-06140500"
+      ],
+      "result": "Alnimda... falan mi yaziyor nesne-devami uygun; korundu."
+    },
+    {
+      "ids": [
+        "s08-06950500",
+        "s08-06952500"
+      ],
+      "result": "Iki asama arasinda gecis ve fark etmen lazim yuklemi birlikte anlamli; korundu."
+    },
+    {
+      "ids": [
+        "s08-07051500",
+        "s08-07053500"
+      ],
+      "result": "Olum ihtimali karsilastirmasi Turkce sirayla bagli; korundu."
+    },
+    {
+      "ids": [
+        "s08-07303500",
+        "s08-07308000"
+      ],
+      "result": "Avantajlarindan biri de... ilgilenmemiz zinciri dogru; korundu."
+    },
+    {
+      "ids": [
+        "s08-07627000",
+        "s08-07630000",
+        "s08-07633500"
+      ],
+      "result": "Üç ekranlık zaman-koşul yapısında atlatılan nesneler yüklemden önce birleştirildi; kopuk çıkma durumu tamlaması kaldırıldı.",
+      "evidence": "chain06.jpg"
+    },
+    {
+      "ids": [
+        "s08-07693500"
+      ],
+      "result": "Önceki ekrandaki kadın benzetmesinin öznesi korundu; backing up arkadan yaklaşmak yerine geri geri yanaşmak olarak bağlandı.",
+      "evidence": "chain06.jpg"
+    },
+    {
+      "ids": [
+        "s08-08727000",
+        "s08-08730500",
+        "s08-08732500"
+      ],
+      "result": "Sapigin ev hapsinde olmasindan baska bir sey konusmuyor zinciri Turkcede tamam."
+    },
+    {
+      "ids": [
+        "s08-09169000",
+        "s08-09172500",
+        "s08-09175000"
+      ],
+      "result": "Lucia antrenman gerekcesi, hatirlayis ve ama ile terslenen devam uygun."
+    },
+    {
+      "ids": [
+        "s08-09251500",
+        "s08-09255500"
+      ],
+      "result": "Nate bilerek bozuk Ingilizce konusuyor; Turkcedeki bozuk soz dizimi bilerek korundu."
+    },
+    {
+      "ids": [
+        "s08-09408000",
+        "s08-09410500"
+      ],
+      "result": "Araba ozellik listesi sonraki ekranda anlamca tamam; korundu."
+    },
+    {
+      "ids": [
+        "s08-09749500",
+        "s08-09752000"
+      ],
+      "result": "Dondurma cesitleri tek siparis nesnesi olarak baglaniyor; korundu."
+    },
+    {
+      "ids": [
+        "s08-10244500",
+        "s08-10249500",
+        "s08-10252000"
+      ],
+      "result": "Direk deneyimi saka nesnesi soru sonrasinda devrik olarak geliyor, konusma dili ve vurgu uygun; korundu."
+    },
+    {
+      "ids": [
+        "s08-10430500",
+        "s08-10432500"
+      ],
+      "result": "PT olmadan takilirsam kosulu onceki fakir sanacak yuklemine baglaniyor; korundu."
+    },
+    {
+      "ids": [
+        "s08-10599000"
+      ],
+      "result": "Absent father benzetmesi gerçek babaya dair kaynakta olmayan bir geçmiş iddiasından ayrıldı; KG öznesi korundu.",
+      "evidence": "chain07.jpg"
+    },
+    {
+      "ids": [
+        "s08-10811500",
+        "s08-10812500",
+        "s08-10814000"
+      ],
+      "result": "Masraf sayımı ve araya giren tavuk yeme cümlesi Türkçede tutarlı yüklemlerle bağlandı.",
+      "evidence": "chain07.jpg"
+    },
+    {
+      "ids": [
+        "s08-10756500",
+        "s08-10758500"
+      ],
+      "result": "Andrea hakkindaki yuklem sonraki ekranda dogal Turkceyle tamam; korundu."
+    },
+    {
+      "ids": [
+        "s08-11011500",
+        "s08-11013500"
+      ],
+      "result": "Etiketsiz Glad you could / make it yanitinin Gelebildigine / sevindim baglantisi korunuyor; yeni konusmaci adi eklenmedi."
+    },
+    {
+      "ids": [
+        "s08-11275000",
+        "s08-11277500",
+        "s08-11279000"
+      ],
+      "result": "Bayrak/tabut mecazi kosul ve yuklem baglantisi uygun; korundu."
+    },
+    {
+      "ids": [
+        "s08-11708500",
+        "s08-11711000"
+      ],
+      "result": "Girip locamizi bulana yerlesene kadar zinciri uygun; korundu."
+    },
+    {
+      "ids": [
+        "s08-11584500"
+      ],
+      "result": "Aynı karedeki olumlu soruya gelen Yep yanıtıyla Türkçe soru kutbu eşleştirildi; etiketsiz yanıta ad eklenmedi.",
+      "evidence": "chain08.jpg"
+    },
+    {
+      "ids": [
+        "s08-12456500",
+        "s08-12458500"
+      ],
+      "result": "Birakip... alcakgonullu olmaliyim yuklem baglantisi uygun; korundu."
+    },
+    {
+      "ids": [
+        "s08-12575500",
+        "s08-12579000"
+      ],
+      "result": "Haberin var / cektirdiklerinden sorusu devrik konusma dili olarak uygun; korundu."
+    },
+    {
+      "ids": [
+        "s08-12665000",
+        "s08-12668000",
+        "s08-12668500"
+      ],
+      "result": "Hector ustune sikayet baglantisinin anlam ve zamirleri uygun; korundu."
+    },
+    {
+      "ids": [
+        "s08-13757000",
+        "s08-13759500"
+      ],
+      "result": "Toplantidaydim... yapimcilarla devrik konusma baglantisi uygun; korundu."
+    },
+    {
+      "ids": [
+        "s08-13766500",
+        "s08-13770000"
+      ],
+      "result": "Adamlarin cogu... gonderilmisti yuklemi dogru bagli; korundu."
+    },
+    {
+      "ids": [
+        "s08-13775500",
+        "s08-13777000"
+      ],
+      "result": "Etiketsiz if I have a rat yanitinin bulunmasini istiyorum devami kaynak etiketi uydurulmadan baglaniyor; korundu."
+    },
+    {
+      "ids": [
+        "s08-14530500",
+        "s08-14532000"
+      ],
+      "result": "Looking like önceki ekranda başladığından benzetme yüklemi sonraki nesneyle tamamlandı; etiketsiz video konuşmasına isim eklenmedi.",
+      "evidence": "chain09.jpg"
+    },
+    {
+      "ids": [
+        "s08-14807000"
+      ],
+      "result": "Önceki ekrandaki etkinliğe gelen yer açıklaması Türkçede tek başına kalmış sıfat yerine isimle tamamlandı.",
+      "evidence": "chain10.jpg"
+    },
+    {
+      "ids": [
+        "s08-15066000"
+      ],
+      "result": "Git emrine itiraz eden Should not we stay sorusunun olumlu kalma önerisi korundu; ters anlamlı kalmasak mı düzeltildi.",
+      "evidence": "chain10.jpg"
+    },
+    {
+      "ids": [
+        "s08-15622000",
+        "s08-15624000"
+      ],
+      "result": "Sanmayın yüklemi sonraki ekrandaki nesneyle birleştirildi; kopuk gibi tamlaması kaldırıldı.",
+      "evidence": "chain10.jpg"
+    },
+    {
+      "ids": [
+        "s08-15677000",
+        "s08-15679500"
+      ],
+      "result": "Bankacilik ekibini beklerken... hos sohbet etmeye calisiyorum zinciri Turkce sirayla uygun."
+    },
+    {
+      "ids": [
+        "s08-16247500",
+        "s08-16250000",
+        "s08-16251000"
+      ],
+      "result": "Bavula kokain koyma ve adalara giderken sucu ustune birakma zinciri devrik konusma diliyle anlamli; korundu."
+    },
+    {
+      "ids": [
+        "s08-16458000",
+        "s08-16459500"
+      ],
+      "result": "Raylardan cikma emir yeniden baslatmasi kaynak tekrarini koruyor; tamamlanmayan sozcuk uydurulmadi."
+    },
+    {
+      "ids": [
+        "s08-17980000",
+        "s08-17984000"
+      ],
+      "result": "İki ekrana dağılan döviz bürolarının yer nitelemesi Türkçe tamlamaya yerleştirildi; toplama ve depolama eylemleri bağlandı.",
+      "evidence": "chain11.jpg"
+    },
+    {
+      "ids": [
+        "s08-16800000"
+      ],
+      "result": "Önceki Onunla iyi anlaştın tespitine gelen Yeah? sorusu onay cümlesi yerine doğal soru yapıldı.",
+      "evidence": "chain11.jpg"
+    },
+    {
+      "ids": [
+        "s08-16679000",
+        "s08-16680000",
+        "s08-16681000"
+      ],
+      "result": "Kan, bagirsaklar ve her yerde sozcukleri devrik heyecanli anlatimda baglaniyor; korundu."
+    },
+    {
+      "ids": [
+        "s08-16902500",
+        "s08-16904500"
+      ],
+      "result": "Ispanyolca etiketli iki ekranlik get away with anlami Turkce tamam; korundu."
+    },
+    {
+      "ids": [
+        "s08-17999000",
+        "s08-18001500"
+      ],
+      "result": "Tek bir kisi bile ... farki bilmiyor ozne-yuklem baglantisi uygun; korundu."
+    },
+    {
+      "ids": [
+        "s08-18047000",
+        "s08-18049000"
+      ],
+      "result": "Jason seslenisi sonraki gorev emriyle baglaniyor; korundu."
+    }
+  ],
+  "changed": [
+    {
+      "id": "s08-00271500",
+      "before": "Abe: Sahara'yı o yağmurlu bok çukurundan çıkaran benim.",
+      "after": "Abe: Sahara'yı memleket dedikleri o yağmurlu bok çukurundan çıkaran benim.",
+      "reason": "Üç ekrana yayılan niteleme ve listeyi Türkçe söz dizimiyle bağlama; yinelenen yerden alma ifadesini kaldırma.",
+      "related_ids": [
+        "s08-00271500",
+        "s08-00274000",
+        "s08-00276500"
+      ],
+      "native_source_frames": [
+        "continuous/frames/s08-00271500.jpg",
+        "continuous/frames/s08-00274000.jpg",
+        "continuous/frames/s08-00276500.jpg"
+      ],
+      "evidence": "review/continuation-chain01.jpg"
+    },
+    {
+      "id": "s08-00274000",
+      "before": "Abe: Memleket dedikleri o yerden alıp güneş diyarına getirdim,",
+      "after": "Abe: Onları güneşin,",
+      "reason": "Üç ekrana yayılan niteleme ve listeyi Türkçe söz dizimiyle bağlama; yinelenen yerden alma ifadesini kaldırma.",
+      "related_ids": [
+        "s08-00271500",
+        "s08-00274000",
+        "s08-00276500"
+      ],
+      "native_source_frames": [
+        "continuous/frames/s08-00271500.jpg",
+        "continuous/frames/s08-00274000.jpg",
+        "continuous/frames/s08-00276500.jpg"
+      ],
+      "evidence": "review/continuation-chain01.jpg"
+    },
+    {
+      "id": "s08-00276500",
+      "before": "Abe: bol kalça, sıfır vergi!",
+      "after": "Abe: bol kalçanın ve sıfır verginin diyarına getirdim!",
+      "reason": "Üç ekrana yayılan niteleme ve listeyi Türkçe söz dizimiyle bağlama; yinelenen yerden alma ifadesini kaldırma.",
+      "related_ids": [
+        "s08-00271500",
+        "s08-00274000",
+        "s08-00276500"
+      ],
+      "native_source_frames": [
+        "continuous/frames/s08-00271500.jpg",
+        "continuous/frames/s08-00274000.jpg",
+        "continuous/frames/s08-00276500.jpg"
+      ],
+      "evidence": "review/continuation-chain01.jpg"
+    },
+    {
+      "id": "s08-01169500",
+      "before": "J-Wang: Ha, güzel. Çünkü öyle olsaydın söylemeyecektim,",
+      "after": "J-Wang: Ha, güzel. Öyle olsaydın,",
+      "reason": "Koşulun nesnesi sonraki ekrandaydı; Türkçede nesne ve yüklem birlikte tamamlandı.",
+      "related_ids": [
+        "s08-01169500",
+        "s08-01172500",
+        "s08-01173000"
+      ],
+      "evidence": "review/continuation-chain02.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-01169500.jpg",
+        "continuous/frames/s08-01172500.jpg",
+        "continuous/frames/s08-01173000.jpg"
+      ]
+    },
+    {
+      "id": "s08-01172500",
+      "before": "J-Wang: en fena hatunlar genelde burada takılır.",
+      "after": "J-Wang: en fena hatunların genelde burada takıldığını söylemeyecektim.",
+      "reason": "Koşulun nesnesi sonraki ekrandaydı; Türkçede nesne ve yüklem birlikte tamamlandı.",
+      "related_ids": [
+        "s08-01169500",
+        "s08-01172500",
+        "s08-01173000"
+      ],
+      "evidence": "review/continuation-chain02.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-01169500.jpg",
+        "continuous/frames/s08-01172500.jpg",
+        "continuous/frames/s08-01173000.jpg"
+      ]
+    },
+    {
+      "id": "s08-01173000",
+      "before": "J-Wang: en fena hatunlar genelde burada takılır.\nLucia: Kordell'i daha görmedim. Sorsak mı acaba?",
+      "after": "J-Wang: en fena hatunların genelde burada takıldığını söylemeyecektim.\nLucia: Kordell'i daha görmedim. Sorsak mı acaba?",
+      "reason": "Koşulun nesnesi sonraki ekrandaydı; Türkçede nesne ve yüklem birlikte tamamlandı.",
+      "related_ids": [
+        "s08-01169500",
+        "s08-01172500",
+        "s08-01173000"
+      ],
+      "evidence": "review/continuation-chain02.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-01169500.jpg",
+        "continuous/frames/s08-01172500.jpg",
+        "continuous/frames/s08-01173000.jpg"
+      ]
+    },
+    {
+      "id": "s08-03495000",
+      "before": "Andrés: Metalurjiye odaklansınlar, şey...",
+      "after": "Andrés: Metalurjiye odaklansınlar; şey,",
+      "reason": "Karşıtlığın not öğesi sonraki ekrandaki nesnelere bağlandı; kaynakta gerçekten metallurgy yazan dil sürçmesi korundu.",
+      "related_ids": [
+        "s08-03495000",
+        "s08-03497500"
+      ],
+      "evidence": "review/continuation-chain03.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-03495000.jpg",
+        "continuous/frames/s08-03497500.jpg"
+      ]
+    },
+    {
+      "id": "s08-03497500",
+      "before": "Andrés: Sanatçı adamlar işte, bir de Latin kanı kaynayınca... Anlarsın ya?",
+      "after": "Andrés: sanatçı adamlara ve onların ateşli Latin mizacına değil. Anlarsın ya?",
+      "reason": "Karşıtlığın not öğesi sonraki ekrandaki nesnelere bağlandı; kaynakta gerçekten metallurgy yazan dil sürçmesi korundu.",
+      "related_ids": [
+        "s08-03495000",
+        "s08-03497500"
+      ],
+      "evidence": "review/continuation-chain03.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-03495000.jpg",
+        "continuous/frames/s08-03497500.jpg"
+      ]
+    },
+    {
+      "id": "s08-03154500",
+      "before": "Lucia: Onu en son neyin içinde izlediğimi hatırlamıyorum.",
+      "after": "Lucia: Onu en son hangi yapımda izlediğimi hatırlamıyorum.",
+      "reason": "Oyuncudan söz eden önceki replikle bağlanan Türkçe ifade doğallaştırıldı.",
+      "related_ids": [
+        "s08-03154500"
+      ],
+      "evidence": "review/continuation-chain03.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-03154500.jpg"
+      ]
+    },
+    {
+      "id": "s08-02336500",
+      "before": "Raul: kazıklayacağımız bir ekip kas kafalı var.",
+      "after": "Raul: soyacak bir kas kafalı ekibimiz var.",
+      "reason": "Beklerken yan cümlesinin yüklemi ve ekip tamlaması doğal Türkçe sıraya alındı.",
+      "related_ids": [
+        "s08-02336500"
+      ],
+      "evidence": "review/continuation-chain03.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-02336500.jpg"
+      ]
+    },
+    {
+      "id": "s08-03885000",
+      "before": "César: Bu akşam buraya geldiğiniz için hepinize teşekkür etmek istiyorum...",
+      "after": "César: Bu akşam buraya,",
+      "reason": "Açılış kutlaması için gelenlere teşekkür eden üç ekran tek Türkçe yan cümleye bağlandı; bağımsız yanlış geldiniz yüklemi kaldırıldı.",
+      "related_ids": [
+        "s08-03885000",
+        "s08-03887500",
+        "s08-03889000"
+      ],
+      "evidence": "review/continuation-chain04.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-03885000.jpg",
+        "continuous/frames/s08-03887500.jpg",
+        "continuous/frames/s08-03889000.jpg"
+      ]
+    },
+    {
+      "id": "s08-03887500",
+      "before": "César: Bizimle birlikte...",
+      "after": "César: bizimle birlikte",
+      "reason": "Açılış kutlaması için gelenlere teşekkür eden üç ekran tek Türkçe yan cümleye bağlandı; bağımsız yanlış geldiniz yüklemi kaldırıldı.",
+      "related_ids": [
+        "s08-03885000",
+        "s08-03887500",
+        "s08-03889000"
+      ],
+      "evidence": "review/continuation-chain04.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-03885000.jpg",
+        "continuous/frames/s08-03887500.jpg",
+        "continuous/frames/s08-03889000.jpg"
+      ]
+    },
+    {
+      "id": "s08-03889000",
+      "before": "César: Megamundo'nun Amerikan topraklarındaki ilk şirket merkezinin açılışını kutlamaya geldiniz.",
+      "after": "César: Megamundo'nun Amerikan topraklarındaki ilk şirket merkezinin açılışını kutlamaya geldiğiniz için hepinize teşekkür ediyorum.",
+      "reason": "Açılış kutlaması için gelenlere teşekkür eden üç ekran tek Türkçe yan cümleye bağlandı; bağımsız yanlış geldiniz yüklemi kaldırıldı.",
+      "related_ids": [
+        "s08-03885000",
+        "s08-03887500",
+        "s08-03889000"
+      ],
+      "evidence": "review/continuation-chain04.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-03885000.jpg",
+        "continuous/frames/s08-03887500.jpg",
+        "continuous/frames/s08-03889000.jpg"
+      ]
+    },
+    {
+      "id": "s08-04055000",
+      "before": "Andrés: Kanka, kanka, kanka, kanka, kanka, kanka?\nElonzo: İhtiyar ortaya çıkmazsa bu kokainci salağın beynini dağıtacağım...",
+      "after": "Andrés: Kanka, kanka, kanka, kanka, kanka, kanka?\nElonzo: İhtiyar ortaya çıkmazsa bu kokainci salağın beynini",
+      "reason": "Beyin nesnesi sonraki ekrandaki camlara sıçratma yüklemine bağlandı; aynı eylemi iki ayrı yüklemle yineleme giderildi.",
+      "related_ids": [
+        "s08-04055000",
+        "s08-04056000",
+        "s08-04058000",
+        "s08-04059500"
+      ],
+      "evidence": "review/continuation-chain04.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-04055000.jpg",
+        "continuous/frames/s08-04056000.jpg",
+        "continuous/frames/s08-04058000.jpg",
+        "continuous/frames/s08-04059500.jpg"
+      ]
+    },
+    {
+      "id": "s08-04056000",
+      "before": "Elonzo: İhtiyar ortaya çıkmazsa bu kokainci salağın beynini dağıtacağım...",
+      "after": "Elonzo: İhtiyar ortaya çıkmazsa bu kokainci salağın beynini",
+      "reason": "Beyin nesnesi sonraki ekrandaki camlara sıçratma yüklemine bağlandı; aynı eylemi iki ayrı yüklemle yineleme giderildi.",
+      "related_ids": [
+        "s08-04055000",
+        "s08-04056000",
+        "s08-04058000",
+        "s08-04059500"
+      ],
+      "evidence": "review/continuation-chain04.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-04055000.jpg",
+        "continuous/frames/s08-04056000.jpg",
+        "continuous/frames/s08-04058000.jpg",
+        "continuous/frames/s08-04059500.jpg"
+      ]
+    },
+    {
+      "id": "s08-04058000",
+      "before": "Elonzo: Şu güzelim yepyeni camların her yerine sıçratacağım.",
+      "after": "Elonzo: şu güzelim yepyeni camların her yerine sıçratacağım.",
+      "reason": "Beyin nesnesi sonraki ekrandaki camlara sıçratma yüklemine bağlandı; aynı eylemi iki ayrı yüklemle yineleme giderildi.",
+      "related_ids": [
+        "s08-04055000",
+        "s08-04056000",
+        "s08-04058000",
+        "s08-04059500"
+      ],
+      "evidence": "review/continuation-chain04.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-04055000.jpg",
+        "continuous/frames/s08-04056000.jpg",
+        "continuous/frames/s08-04058000.jpg",
+        "continuous/frames/s08-04059500.jpg"
+      ]
+    },
+    {
+      "id": "s08-04059500",
+      "before": "Elonzo: Şu güzelim yepyeni camların her yerine sıçratacağım.\nDüşman lideri: Parti katı kontrol altında. Hallettik.",
+      "after": "Elonzo: şu güzelim yepyeni camların her yerine sıçratacağım.\nDüşman lideri: Parti katı kontrol altında. Hallettik.",
+      "reason": "Beyin nesnesi sonraki ekrandaki camlara sıçratma yüklemine bağlandı; aynı eylemi iki ayrı yüklemle yineleme giderildi.",
+      "related_ids": [
+        "s08-04055000",
+        "s08-04056000",
+        "s08-04058000",
+        "s08-04059500"
+      ],
+      "evidence": "review/continuation-chain04.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-04055000.jpg",
+        "continuous/frames/s08-04056000.jpg",
+        "continuous/frames/s08-04058000.jpg",
+        "continuous/frames/s08-04059500.jpg"
+      ]
+    },
+    {
+      "id": "s08-04462000",
+      "language": "english",
+      "before": "Construction Worker: Piss in your pants, okay?",
+      "after": "Construction Worker: Piss in your pants, okay?\nI don't care who you are.",
+      "reason": "Native crop contains complete second line already translated in Turkish; missing EN restored.",
+      "related_ids": [
+        "s08-04461500",
+        "s08-04462000",
+        "s08-04463000"
+      ],
+      "evidence": "review/continuation-chain04.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-04461500.jpg",
+        "continuous/frames/s08-04462000.jpg",
+        "continuous/frames/s08-04463000.jpg"
+      ]
+    },
+    {
+      "id": "s08-06070000",
+      "before": "Lucia: Haberleşiriz.",
+      "after": "Lucia: haber veririm.",
+      "reason": "Önceki ekrandaki Ben öznesiyle tekil gelecek yüklem eşleştirildi; Ben... Haberleşiriz kişi uyuşmazlığı kaldırıldı.",
+      "related_ids": [
+        "s08-06070000"
+      ],
+      "evidence": "review/continuation-chain05.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-06070000.jpg"
+      ]
+    },
+    {
+      "id": "s08-07627000",
+      "before": "Omar: Eğer biri bir şekilde sıyrılmayı başarmışsa,",
+      "after": "Omar: Ne zaman biri",
+      "reason": "Üç ekranlık zaman-koşul yapısında atlatılan nesneler yüklemden önce birleştirildi; kopuk çıkma durumu tamlaması kaldırıldı.",
+      "related_ids": [
+        "s08-07627000",
+        "s08-07630000",
+        "s08-07633500"
+      ],
+      "evidence": "review/continuation-chain06.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-07627000.jpg",
+        "continuous/frames/s08-07630000.jpg",
+        "continuous/frames/s08-07633500.jpg"
+      ]
+    },
+    {
+      "id": "s08-07630000",
+      "before": "Omar: o son teknoloji güvenlik sistemlerimizden ve iyi eğitimli personelimizden,",
+      "after": "Omar: son teknoloji güvenlik sistemlerimizi ve iyi eğitimli personelimizi atlatmayı başarmışsa,",
+      "reason": "Üç ekranlık zaman-koşul yapısında atlatılan nesneler yüklemden önce birleştirildi; kopuk çıkma durumu tamlaması kaldırıldı.",
+      "related_ids": [
+        "s08-07627000",
+        "s08-07630000",
+        "s08-07633500"
+      ],
+      "evidence": "review/continuation-chain06.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-07627000.jpg",
+        "continuous/frames/s08-07630000.jpg",
+        "continuous/frames/s08-07633500.jpg"
+      ]
+    },
+    {
+      "id": "s08-07633500",
+      "before": "Omar: asla benim vardiyamda olmamıştır lan.",
+      "after": "Omar: o iş asla benim vardiyamda olmamıştır lan.",
+      "reason": "Üç ekranlık zaman-koşul yapısında atlatılan nesneler yüklemden önce birleştirildi; kopuk çıkma durumu tamlaması kaldırıldı.",
+      "related_ids": [
+        "s08-07627000",
+        "s08-07630000",
+        "s08-07633500"
+      ],
+      "evidence": "review/continuation-chain06.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-07627000.jpg",
+        "continuous/frames/s08-07630000.jpg",
+        "continuous/frames/s08-07633500.jpg"
+      ]
+    },
+    {
+      "id": "s08-07693500",
+      "before": "Omar: sana arkadan yanaşıyormuş gibi, sonra kavrayacaksın.",
+      "after": "Omar: geri geri sana yanaşıyormuş gibi. Sonra kavrayacaksın.",
+      "reason": "Önceki ekrandaki kadın benzetmesinin öznesi korundu; backing up arkadan yaklaşmak yerine geri geri yanaşmak olarak bağlandı.",
+      "related_ids": [
+        "s08-07693500"
+      ],
+      "evidence": "review/continuation-chain06.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-07693500.jpg"
+      ]
+    },
+    {
+      "id": "s08-10599000",
+      "before": "Nate: Heh, bayıldım buna. Doğrusu bir süredir KG'den ses yok,\nbeni terk eden babam gibi oldu.",
+      "after": "Nate: Heh, bayıldım buna. Doğrusu bir süredir KG'den ses yok;\nçocuğunu terk eden babalara döndü.",
+      "reason": "Absent father benzetmesi gerçek babaya dair kaynakta olmayan bir geçmiş iddiasından ayrıldı; KG öznesi korundu.",
+      "related_ids": [
+        "s08-10599000"
+      ],
+      "evidence": "review/continuation-chain07.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-10599000.jpg"
+      ]
+    },
+    {
+      "id": "s08-10811500",
+      "before": "Lucia: Steroid masrafı var,",
+      "after": "Lucia: Steroide para yetiştirmeleri lazım,",
+      "reason": "Masraf sayımı ve araya giren tavuk yeme cümlesi Türkçede tutarlı yüklemlerle bağlandı.",
+      "related_ids": [
+        "s08-10811500",
+        "s08-10812500",
+        "s08-10814000"
+      ],
+      "evidence": "review/continuation-chain07.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-10811500.jpg",
+        "continuous/frames/s08-10812500.jpg",
+        "continuous/frames/s08-10814000.jpg"
+      ]
+    },
+    {
+      "id": "s08-10814000",
+      "before": "Lucia: yol parası, sprey bronzluk, bir sürü bok püsür.",
+      "after": "Lucia: bir de yol masrafı, sprey bronzluk ve bütün o bok püsür var.",
+      "reason": "Masraf sayımı ve araya giren tavuk yeme cümlesi Türkçede tutarlı yüklemlerle bağlandı.",
+      "related_ids": [
+        "s08-10811500",
+        "s08-10812500",
+        "s08-10814000"
+      ],
+      "evidence": "review/continuation-chain07.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-10811500.jpg",
+        "continuous/frames/s08-10812500.jpg",
+        "continuous/frames/s08-10814000.jpg"
+      ]
+    },
+    {
+      "id": "s08-11584500",
+      "before": "Andrés: Haksız mıyım?\nEvet.",
+      "after": "Andrés: Haklı mıyım?\nEvet.",
+      "reason": "Aynı karedeki olumlu soruya gelen Yep yanıtıyla Türkçe soru kutbu eşleştirildi; etiketsiz yanıta ad eklenmedi.",
+      "related_ids": [
+        "s08-11584500"
+      ],
+      "evidence": "review/continuation-chain08.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-11584500.jpg"
+      ]
+    },
+    {
+      "id": "s08-14530500",
+      "before": "Dre'Quan: Oğlum. Bu herif aslında ne boklar yemiş?\nsiktiğimin olay yeri.",
+      "after": "Dre'Quan: Oğlum. Bu herif aslında ne boklar yemiş?\nsiktiğimin olay yerine benziyor.",
+      "reason": "Looking like önceki ekranda başladığından benzetme yüklemi sonraki nesneyle tamamlandı; etiketsiz video konuşmasına isim eklenmedi.",
+      "related_ids": [
+        "s08-14530500",
+        "s08-14532000"
+      ],
+      "evidence": "review/continuation-chain09.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-14530500.jpg",
+        "continuous/frames/s08-14532000.jpg"
+      ]
+    },
+    {
+      "id": "s08-14532000",
+      "before": "siktiğimin olay yeri.",
+      "after": "siktiğimin olay yerine benziyor.",
+      "reason": "Looking like önceki ekranda başladığından benzetme yüklemi sonraki nesneyle tamamlandı; etiketsiz video konuşmasına isim eklenmedi.",
+      "related_ids": [
+        "s08-14530500",
+        "s08-14532000"
+      ],
+      "evidence": "review/continuation-chain09.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-14530500.jpg",
+        "continuous/frames/s08-14532000.jpg"
+      ]
+    },
+    {
+      "id": "s08-14807000",
+      "before": "Briana: VYB'daki.",
+      "after": "Briana: VYB'daki etkinlik için.",
+      "reason": "Önceki ekrandaki etkinliğe gelen yer açıklaması Türkçede tek başına kalmış sıfat yerine isimle tamamlandı.",
+      "related_ids": [
+        "s08-14807000"
+      ],
+      "evidence": "review/continuation-chain10.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-14807000.jpg"
+      ]
+    },
+    {
+      "id": "s08-15066000",
+      "before": "Gustavo: Hepimiz kalmasak mı-",
+      "after": "Gustavo: Hepimiz kalsak daha iyi olmaz-",
+      "reason": "Git emrine itiraz eden Should not we stay sorusunun olumlu kalma önerisi korundu; ters anlamlı kalmasak mı düzeltildi.",
+      "related_ids": [
+        "s08-15066000"
+      ],
+      "evidence": "review/continuation-chain10.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-15066000.jpg"
+      ]
+    },
+    {
+      "id": "s08-15622000",
+      "before": "Andrés: Kadınlar da bayılıyor oraya, o yüzden sakın şey sanmayın,",
+      "after": "Andrés: Kadınlar da bayılıyor oraya, o yüzden",
+      "reason": "Sanmayın yüklemi sonraki ekrandaki nesneyle birleştirildi; kopuk gibi tamlaması kaldırıldı.",
+      "related_ids": [
+        "s08-15622000",
+        "s08-15624000"
+      ],
+      "evidence": "review/continuation-chain10.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-15622000.jpg",
+        "continuous/frames/s08-15624000.jpg"
+      ]
+    },
+    {
+      "id": "s08-15624000",
+      "before": "Andrés: normal striptiz kulübü gibi falan, oğlum.",
+      "after": "Andrés: orayı normal bir striptiz kulübü falan sanmayın, oğlum.",
+      "reason": "Sanmayın yüklemi sonraki ekrandaki nesneyle birleştirildi; kopuk gibi tamlaması kaldırıldı.",
+      "related_ids": [
+        "s08-15622000",
+        "s08-15624000"
+      ],
+      "evidence": "review/continuation-chain10.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-15622000.jpg",
+        "continuous/frames/s08-15624000.jpg"
+      ]
+    },
+    {
+      "id": "s08-17980000",
+      "before": "Raul: Bir havayolu şirketi döviz bürolarından dolar getiriyor,",
+      "after": "Raul: Bir havayolu şirketi Latin Amerika'nın dört bir yanındaki",
+      "reason": "İki ekrana dağılan döviz bürolarının yer nitelemesi Türkçe tamlamaya yerleştirildi; toplama ve depolama eylemleri bağlandı.",
+      "related_ids": [
+        "s08-17980000",
+        "s08-17984000"
+      ],
+      "evidence": "review/continuation-chain11.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-17980000.jpg",
+        "continuous/frames/s08-17984000.jpg"
+      ]
+    },
+    {
+      "id": "s08-17984000",
+      "before": "Raul: Latin Amerika'nın dört bir yanından. Burada depoluyor.",
+      "after": "Raul: döviz bürolarından dolar getirip burada depoluyor.",
+      "reason": "İki ekrana dağılan döviz bürolarının yer nitelemesi Türkçe tamlamaya yerleştirildi; toplama ve depolama eylemleri bağlandı.",
+      "related_ids": [
+        "s08-17980000",
+        "s08-17984000"
+      ],
+      "evidence": "review/continuation-chain11.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-17980000.jpg",
+        "continuous/frames/s08-17984000.jpg"
+      ]
+    },
+    {
+      "id": "s08-16800000",
+      "before": "Lucia: Evet.",
+      "after": "Lucia: Öyle mi?",
+      "reason": "Önceki Onunla iyi anlaştın tespitine gelen Yeah? sorusu onay cümlesi yerine doğal soru yapıldı.",
+      "related_ids": [
+        "s08-16800000"
+      ],
+      "evidence": "review/continuation-chain11.jpg",
+      "native_source_frames": [
+        "continuous/frames/s08-16800000.jpg"
+      ]
+    }
+  ],
+  "limits": [
+    "Review scope is text continuity and contextual Turkish flow, not a new full-video audiovisual transcription. Native source crops were visually checked for every changed chain and suspicious questioned phrase; unchanged records were assessed from full chronological EN/TR text.",
+    "Original 2 fps discovered-candidate coverage limitations and approximate SRT timing remain; no claim of complete spoken-audio coverage or exact timing.",
+    "Source-censored omissions and visibly unfinished/interrupted speech are retained; hidden words and unlabelled speaker identities were not invented.",
+    "Canonical identical source keys with genuine contextual Turkish differences are intentionally omitted from format-2 matching; bilingual text preserves the contextual translations."
+  ],
+  "status": "complete",
+  "read_method": "All 5245 chronological English/Turkish records read, not limited to heuristic candidates. Outputs read in successive chunks; truncated last output was re-read at 5040:5093.",
+  "native_evidence_folder": "review",
+  "allow_ambiguous_primary": true,
+  "changed_records": 36,
+  "chronological_pairs_examined": 5244,
+  "turkish_changed_records": 35,
+  "english_changed_records": 1,
+  "checked_chain_count": 57,
+  "source_issues_unchanged": true,
+  "consumer_validation": {
+    "bilingual_records": 5245,
+    "matched_records": 5242,
+    "ambiguous_records_intentionally_omitted": 3,
+    "omitted_ids": [
+      "s08-00627000",
+      "s08-07975500",
+      "s08-16800000"
+    ],
+    "exact_and_approximate_wrong_fallback_checks_passed": true
+  },
+  "part_08_to_09_boundary": {
+    "result": "No unfinished sentence across videos. Part8 ends with completed Andrea instructions/Jason response; Part9 starts a separate hotel/message scene.",
+    "read_part09_records": [
+      0,
+      36
+    ],
+    "part09_modified": false
+  }
+}

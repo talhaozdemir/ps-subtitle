@@ -1,0 +1,119 @@
+{
+  "issues": [
+    {
+      "id": "s03-00461000",
+      "source_frame": "continuous/frames/s03-00461000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Méndez: [obscured] You're all exposed out here.",
+      "note": "Solid black source-video censor bar covers text directly after the speaker name. Caption omitted rather than inventing obscured source words."
+    },
+    {
+      "id": "s03-01167000",
+      "source_frame": "continuous/frames/s03-01167000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Gang Member: Unknown Language: Stupid [obscured]",
+      "note": "Source censor bar hides the word(s) after Stupid; not guessed or exported."
+    },
+    {
+      "id": "s03-03060500",
+      "source_frame": "continuous/frames/s03-03060500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Vicki: Crazy [obscured]",
+      "note": "Solid source-video censor bar covers word(s) after Crazy. Full caption omitted; hidden wording not guessed."
+    },
+    {
+      "id": "s03-03095500",
+      "source_frame": "continuous/frames/s03-03095500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Vicki: So you can [obscured] me, princess fucking perfect.",
+      "note": "Source-video censor bar covers verb phrase between can and me. Full caption omitted; hidden wording not guessed."
+    },
+    {
+      "id": "s03-04375500",
+      "related_source_ids": [
+        "s03-04374500"
+      ],
+      "source_frame": "continuous/frames/s03-04375500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Kolt & Associates: Just tryin' to shake us down,\nget you [obscured] sucked!",
+      "note": "Black source censor bar hides word(s) between you and sucked. Gang caption omitted; only separately readable Cop: Come on. retained from related overlap frame."
+    },
+    {
+      "id": "s03-05238500",
+      "related_source_ids": [],
+      "source_frame": "continuous/frames/s03-05238500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Addict: You gotta [obscured] on it, bro.",
+      "note": "Source-video black bars obscure words. Alternate frame reveals sucking in second clause but still obscures word(s) after Like; full caption omitted without guessing."
+    },
+    {
+      "id": "s03-05240500",
+      "related_source_ids": [
+        "s03-05241500"
+      ],
+      "source_frame": "continuous/frames/s03-05240500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Addict: Like, [obscured] you're not [obscured] hard enough!",
+      "note": "Source-video black bars obscure words. Alternate frame reveals sucking in second clause but still obscures word(s) after Like; full caption omitted without guessing."
+    },
+    {
+      "id": "s03-06496500",
+      "source_frame": "continuous/frames/s03-06496500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Dr. Bill: Today, it's this. Tomorrow,\nyou're giving [obscured] for a hit of rat poison.",
+      "note": "Black source-video censor bar obscures word(s) after giving. Full caption omitted without guessing."
+    },
+    {
+      "id": "s03-10885500",
+      "related_source_ids": [
+        "s03-10886500"
+      ],
+      "source_frame": "continuous/frames/s03-10885500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Security Guard: Stoner fuckin' [obscured]",
+      "note": "Solid black source-video censor bar hides end of Security Guard caption. Caption omitted without guessing; clean independent Billy reply retained from s03-10887500."
+    },
+    {
+      "id": "s03-12296000",
+      "source_frame": "continuous/frames/s03-12296000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Lucia: Oh, what happened to \"no more [obscured], hm?",
+      "note": "Solid black source-video censor bar obscures words within caption. Full affected caption omitted without guessing."
+    },
+    {
+      "id": "s03-12305500",
+      "source_frame": "continuous/frames/s03-12305500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Lucia: I just don't want someone' [obscured] my face when those\npsychos from the motel",
+      "note": "Solid black source-video censor bar obscures words within caption. Full affected caption omitted without guessing."
+    },
+    {
+      "id": "s03-13003500",
+      "source_frame": "continuous/frames/s03-13003500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Dre'Quan: \"Kiss my [obscured] and pucker\"?\nWatch the cadence, alright?",
+      "note": "Source-video black bar obscures words within caption. Entire affected caption omitted without guessing."
+    },
+    {
+      "id": "s03-13019500",
+      "source_frame": "continuous/frames/s03-13019500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Bae-Luxe: You know some of these hoes be payin' to get they [obscured]\nup.",
+      "note": "Source-video black bar obscures words within caption. Entire affected caption omitted without guessing."
+    },
+    {
+      "id": "s03-13050000",
+      "source_frame": "continuous/frames/s03-13050000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Jason: You want something raw? \"[obscured]\nyou know? That's pretty raw.",
+      "note": "Source-video black bar obscures words within caption. Entire affected caption omitted without guessing."
+    },
+    {
+      "id": "s03-13054500",
+      "source_frame": "continuous/frames/s03-13054500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "[Fully obscured unheaded caption below separately readable Dre'Quan reply]",
+      "note": "Source-video black bar entirely hides lower unheaded caption. Hidden line omitted without guessing; independent fully readable Dre'Quan reply retained."
+    }
+  ]
+}

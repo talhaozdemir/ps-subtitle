@@ -1,0 +1,1134 @@
+{
+  "part": 5,
+  "reviewed_records": 2072,
+  "manual_read_ranges": [
+    [
+      0,
+      560
+    ],
+    [
+      560,
+      1120
+    ],
+    [
+      1120,
+      1680
+    ],
+    [
+      1680,
+      2072
+    ]
+  ],
+  "checked_chains": [
+    {
+      "ids": [
+        "s05-00056500",
+        "s05-00059500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-00062500",
+        "s05-00065500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-00095500",
+        "s05-00097500",
+        "s05-00099500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-00170000",
+        "s05-00173000",
+        "s05-00175000",
+        "s05-00178000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-00269500",
+        "s05-00273500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-00276500",
+        "s05-00280500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-00425000",
+        "s05-00427500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-00796000",
+        "s05-00805500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-00930500",
+        "s05-00932500",
+        "s05-00935500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-00941000",
+        "s05-00943500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-00954500",
+        "s05-00956000",
+        "s05-00961000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-00967500",
+        "s05-00969000",
+        "s05-00971000",
+        "s05-00974000",
+        "s05-00975500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01025500",
+        "s05-01032500",
+        "s05-01036500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01110000",
+        "s05-01113500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01136500",
+        "s05-01138000",
+        "s05-01142000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01162000",
+        "s05-01164000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01168000",
+        "s05-01170500",
+        "s05-01172500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01181000",
+        "s05-01182000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01184000",
+        "s05-01186500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01188500",
+        "s05-01190000",
+        "s05-01192000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01194500",
+        "s05-01196000",
+        "s05-01197500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01256500",
+        "s05-01259000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01262000",
+        "s05-01264000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01323000",
+        "s05-01323500",
+        "s05-01324500",
+        "s05-01325500",
+        "s05-01327000",
+        "s05-01327500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01387500",
+        "s05-01389000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01396500",
+        "s05-01399500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01428000",
+        "s05-01431000",
+        "s05-01433500",
+        "s05-01435500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01442500",
+        "s05-01445000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01650000",
+        "s05-01652500",
+        "s05-01655000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01658000",
+        "s05-01661000",
+        "s05-01663000",
+        "s05-01665500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01685000",
+        "s05-01688000",
+        "s05-01701000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-01826500",
+        "s05-01828000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02020000",
+        "s05-02021500",
+        "s05-02087000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02052500",
+        "s05-02054500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02108000",
+        "s05-02110500",
+        "s05-02111000",
+        "s05-02113000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02195500",
+        "s05-02197500",
+        "s05-02212500",
+        "s05-02215000",
+        "s05-02218500",
+        "s05-02220500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02255000",
+        "s05-02256500",
+        "s05-02259500",
+        "s05-02260000",
+        "s05-02261000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02306000",
+        "s05-02310000",
+        "s05-02312000",
+        "s05-02316500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02343500",
+        "s05-02345000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02352500",
+        "s05-02354500",
+        "s05-02358000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02594000",
+        "s05-02595000",
+        "s05-02597000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02601500",
+        "s05-02603500",
+        "s05-02605500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02632500",
+        "s05-02639000",
+        "s05-02640500",
+        "s05-02644000",
+        "s05-02651500",
+        "s05-02658000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02702000",
+        "s05-02704000",
+        "s05-02705500",
+        "s05-02708500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02794500",
+        "s05-02795500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02798500",
+        "s05-02801000",
+        "s05-02805000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02826000",
+        "s05-02827000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02828500",
+        "s05-02830500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02849500",
+        "s05-02852500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02886500",
+        "s05-02888500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02923500",
+        "s05-02928500",
+        "s05-02930000",
+        "s05-02933000",
+        "s05-02935000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02938000",
+        "s05-02943500",
+        "s05-02945500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-02951000",
+        "s05-02953000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-03071500",
+        "s05-03073000",
+        "s05-03075000",
+        "s05-03077000",
+        "s05-03079500",
+        "s05-03080500",
+        "s05-03083000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-03085000",
+        "s05-03087000",
+        "s05-03089000",
+        "s05-03090000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-03208000",
+        "s05-03208500",
+        "s05-03210000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-03298000",
+        "s05-03300000",
+        "s05-03302500",
+        "s05-03304500",
+        "s05-03305500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-03354500",
+        "s05-03357000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-03577000",
+        "s05-03579000",
+        "s05-03579500",
+        "s05-03580000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-03599000",
+        "s05-03601000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-03607500",
+        "s05-03609500",
+        "s05-03611500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-03680000",
+        "s05-03683500",
+        "s05-03685000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-03703000",
+        "s05-03705500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-03845500",
+        "s05-03847500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-03852000",
+        "s05-03855500",
+        "s05-03860500",
+        "s05-03864500",
+        "s05-03867500",
+        "s05-03868500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-04126000",
+        "s05-04128000",
+        "s05-04131000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-04149000",
+        "s05-04150000",
+        "s05-04153500",
+        "s05-04155500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-04290000",
+        "s05-04291000",
+        "s05-04292500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-04322000",
+        "s05-04323500",
+        "s05-04327000",
+        "s05-04328500",
+        "s05-04330500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-04363500",
+        "s05-04365000",
+        "s05-04366000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-04368500",
+        "s05-04370000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-04413000",
+        "s05-04416000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-04458000",
+        "s05-04459500",
+        "s05-04463000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-04476500",
+        "s05-04480000",
+        "s05-04481500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-04503500",
+        "s05-04505500",
+        "s05-04507500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-04551000",
+        "s05-04554500",
+        "s05-04559000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-04950500",
+        "s05-04952500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-04994500",
+        "s05-04995500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-05036000",
+        "s05-05039000",
+        "s05-05041000",
+        "s05-05042000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-05057000",
+        "s05-05061500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-05142500",
+        "s05-05146000",
+        "s05-05148000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-05152500",
+        "s05-05156500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-05505500",
+        "s05-05508000",
+        "s05-05512000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-05555000",
+        "s05-05558000",
+        "s05-05562000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-05657000",
+        "s05-05658500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-05784000",
+        "s05-05788500",
+        "s05-05792000",
+        "s05-05796000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-05823500",
+        "s05-05825000",
+        "s05-05829000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-05839500",
+        "s05-05844000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-05846500",
+        "s05-05849000",
+        "s05-05851500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-05896500",
+        "s05-05898500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06051000",
+        "s05-06054500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06182500",
+        "s05-06184000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06208000",
+        "s05-06209500",
+        "s05-06212000",
+        "s05-06215500",
+        "s05-06219000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06240000",
+        "s05-06243000",
+        "s05-06246000",
+        "s05-06248000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06280500",
+        "s05-06283000",
+        "s05-06286000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06318500",
+        "s05-06322000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06323500",
+        "s05-06326500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06339500",
+        "s05-06341500",
+        "s05-06342500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06345000",
+        "s05-06348000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06380000",
+        "s05-06382000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06389500",
+        "s05-06391000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06394500",
+        "s05-06397000",
+        "s05-06399000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06420000",
+        "s05-06422000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06435000",
+        "s05-06436500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06439000",
+        "s05-06441500",
+        "s05-06444000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06465500",
+        "s05-06468500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06681000",
+        "s05-06684500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06752000",
+        "s05-06755500",
+        "s05-06759000",
+        "s05-06763000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06798000",
+        "s05-06801000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06858500",
+        "s05-06862500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06865500",
+        "s05-06868000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06884000",
+        "s05-06887000",
+        "s05-06891500",
+        "s05-06895000",
+        "s05-06898000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06904000",
+        "s05-06906500",
+        "s05-06909500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06953500",
+        "s05-06954500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-06975000",
+        "s05-06985500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07023000",
+        "s05-07025500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07034000",
+        "s05-07036500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07454500",
+        "s05-07458000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07462500",
+        "s05-07466000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07525500",
+        "s05-07530000",
+        "s05-07532500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07543500",
+        "s05-07546500",
+        "s05-07548500",
+        "s05-07551500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07640500",
+        "s05-07642000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07662500",
+        "s05-07665000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07667000",
+        "s05-07668500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07670500",
+        "s05-07672000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07687500",
+        "s05-07689000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07691000",
+        "s05-07694000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07698000",
+        "s05-07700500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07711500",
+        "s05-07713000"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07779000",
+        "s05-07780500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07796500",
+        "s05-07801500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    },
+    {
+      "ids": [
+        "s05-07831000",
+        "s05-07833500"
+      ],
+      "check": "Read together with preceding and following dialogue; Turkish continuity checked."
+    }
+  ],
+  "changed": [
+    {
+      "id": "s05-02826000",
+      "before": "Jason: Saçma sapan amına koyayım.\nNe bu kavga dövüş?",
+      "after": "Jason: Saçma sapan amına koyayım.\nNe bu çıkardığın",
+      "reason": "Etiketsiz arka plan sorusu sonraki ekranda devam ediyor; iki ayrı soru gibi yinelenen çeviri tek cümleye bağlandı.",
+      "related_ids": [
+        "s05-02827000"
+      ],
+      "native_source_verified": true
+    },
+    {
+      "id": "s05-02827000",
+      "before": "Dre'Quan: Orası komikti.\nNe bu yaptığın tantana dostum?",
+      "after": "Dre'Quan: Orası komikti.\ntantana dostum?",
+      "reason": "Önceki ekrandaki etiketsiz sorunun devamı; kaynakta konuşmacı etiketi olmayan satıra isim eklenmeden cümle tamamlandı.",
+      "related_ids": [
+        "s05-02826000"
+      ],
+      "native_source_verified": true
+    },
+    {
+      "id": "s05-04950500",
+      "before": "Halifax: O heykeli görmektense ölürüm...",
+      "after": "Halifax: O heykeli...",
+      "reason": "İki ekrana bölünen karşılaştırmada yüklem ve görmektense tekrarı kaldırıldı; cümle ikinci ekranda tamamlanıyor.",
+      "related_ids": [
+        "s05-04952500"
+      ],
+      "native_source_verified": true
+    },
+    {
+      "id": "s05-04952500",
+      "before": "Halifax: sizin gibi kültürsüz,\naptal iki şerefsizin elinde görmektense!",
+      "after": "Halifax: sizin gibi kültürsüz,\naptal iki şerefsizin elinde görmektense ölürüm!",
+      "reason": "Önceki ekranın nesnesiyle birleşen Türkçe cümlenin yüklemi sona taşındı.",
+      "related_ids": [
+        "s05-04950500"
+      ],
+      "native_source_verified": true
+    },
+    {
+      "id": "s05-04994500",
+      "before": "Jason: Yerini göstersen nasıl olur?",
+      "after": "Jason: Şu beynini dağıtmadan",
+      "reason": "İki ekranlık tehdidin koşulu öne alınıp Türkçe soru devam ekranına bağlandı.",
+      "related_ids": [
+        "s05-04995500"
+      ],
+      "native_source_verified": true
+    },
+    {
+      "id": "s05-04995500",
+      "before": "Jason: Beynini dağıtmadan önce, ha?\nHı hı.",
+      "after": "Jason: bize yerini göstersen, ha?\nHı hı.",
+      "reason": "Önceki ekranla tek akıcı Türkçe tehdit sorusu kuruldu; etiketsiz yanıt korundu.",
+      "related_ids": [
+        "s05-04994500"
+      ],
+      "native_source_verified": true
+    },
+    {
+      "id": "s05-06318500",
+      "before": "Nicole: Eğer... Müşterimle ilgili gizli bilgileri\nvermeyi bekliyorsanız benden,",
+      "after": "Nicole: Eğer... Müşterimle ilgili gizli bilgileri\nvermemi bekliyorsanız,",
+      "reason": "Sonraki ekrandaki reddin koşul cümlesinde yanlış mastar eki düzeltildi ve sonda asılı kalan benden kaldırıldı.",
+      "related_ids": [
+        "s05-06322000"
+      ],
+      "native_source_verified": true
+    }
+  ],
+  "limits": [
+    "Only dialogue text and selected native source captions reviewed; timings and exhaustive OCR capture not independently verified.",
+    "Original source censorship preserved; hidden words not inferred."
+  ],
+  "complete": true,
+  "checked_chains_count": 132,
+  "scope": "All 2072 English/Turkish records read in chronological order with adjacent captions; changed chains checked in native source images. This is a continuation-language audit, not a fresh OCR capture or timing audit."
+}

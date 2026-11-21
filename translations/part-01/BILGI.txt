@@ -1,0 +1,24 @@
+﻿İLK VİDEO — İNGİLİZCE / TÜRKÇE ÇEVİRİ
+
+Kaynak: Downloads/1.mp4 (1280 × 720, 4 saat 21 dakika).
+
+part-01.en-tr.txt: Konuşmacı etiketleriyle yan yana İngilizce/Türkçe metin.
+dialogues.json: Düzenlenebilir İngilizce/Türkçe kayıtlar, kaynak görüntüler ve kontrol bilgileri.
+reviewed.json: Çevirinin esas düzenleme dosyası. Değişiklikten sonra build_translation.py ile çıktılar yeniden üretilebilir.
+subtitle.json.gz: Projedeki örneğe uygun format-2 çeviri sözlüğü. Uygulamanın paket okuyucusuyla tüm kayıtlar doğrulandı.
+part-01.en.srt / part-01.tr.srt: Yaklaşık zamanlı başvuru çıktıları; videoda oynatılacak son senkron altyazı değildir.
+
+2.943 kontrol edilmiş kayıt bulunur; tekrar eden replikler ve aynı anda görünen konuşmalar nedeniyle bu sayı benzersiz cümle sayısı değildir. Video saniyede 2 kareyle baştan sona tarandı; bulunan farklı okunabilir konuşmalar görüntüden kontrol edilerek Türkçe konuşma dilinde çevrildi. Tarama çok kısa veya okunamayan yazıları kaçırabilir. Menü, tabela ve kırpılmış telefon bildirimlerinin tamamını kapsamaz.
+
+Ekrandaki isimler korundu; Stranger = Yabancı, Cop = Polis. İsimsiz cevaplara tahminen konuşmacı eklenmedi. Önceki Türkçe çeviri kaynak alınmadı.
+
+02:39:20.500 civarındaki bir replikte kaynak videonun sansür bandıyla kapattığı kelimeler okunamıyor. Bu replik tahminle tamamlanmadı; source-issues.json içinde kayıtlı.
+
+Bu çıktı yalnızca ilk video içindir. Sonraki videolar ayrıca işlenmelidir.
+
+CÜMLE DEVAMI DENETİMİ — 21 Kasım 2026
+2943 mevcut İngilizce/Türkçe kayıt zaman sırasıyla okundu. Ekranlar arasında süren cümlelerin yüklemleri, zamirleri, soru/koşul yapıları ve araya giren yanıtları bağlamlarıyla denetlendi. 29 Türkçe ve 0 İngilizce kayıt düzeltildi; değişen kayıt sayısı 29. Önce/sonra ve ilgili kaynak kayıtlar continuation-review.json içinde. Kaynak sansürleri ve yaklaşık zamanlar korundu; bu işlem yeniden tam video OCR taraması değildir. Gerçek tüketici: 2943 doğru eşleşme, 0 güvenli dışlama; yanlış yedek eşleşme kontrolü geçti.
+
+
+KONUŞMACI İSİM RENKLERİ
+İngilizce/Türkçe TXT ve dialogues.json içindeki speaker_labels alanına, ekranda görünen isim/rol etiketlerinin renk bilgisi eklendi. speaker-colors.json dosyası her adın her satırdaki görünümünü ayrı tutar; line_index sıfırdan başlar, TXT satır numarası birden başlar. Aynı kişi veya aynı rol farklı sahnelerde, hatta aynı karede başka renkte olabilir. 3048 etiket görünümü: 3010 piksel ölçümü, 38 görsel renk ailesi kontrolü, 0 belirsiz. HEX değerleri sıkıştırılmış video görüntüsünden yaklaşık örneklerdir, oyunun kesin renk paleti değildir. Yalnız gözle rengi seçilen örneklerde HEX uydurulmadı. Rengi seçilmeyen/ismi görünmeyen yerler belirsiz bırakıldı.

@@ -1,10 +1,14 @@
 {
   "id": "com.gtavi.turkce",
-  "version": "1.0.3",
+  "version": "1.0.25",
   "vendor": "GTA VI Türkçe Altyazı",
   "type": "web",
   "main": "index.html",
   "title": "GTA VI Türkçe Altyazı",
   "icon": "icon.png",
-  "resolution": "1920x1080"
+  "resolution": "1920x1080",
+  "disableBackHistoryAPI": true,
+  "screenSaverProperties": {
+    "preferredType": 2
+  }
 }

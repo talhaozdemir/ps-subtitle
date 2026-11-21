@@ -1,0 +1,56 @@
+{
+  "s02-01000000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Nane yeşili",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s02-02641000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s02-03038500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Sarı",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s02-03184500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s02-04091500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Pembe",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s02-07651500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Mor / lila",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  }
+}

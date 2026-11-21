@@ -1,0 +1,2977 @@
+{
+  "decisions": [
+    {
+      "id": "c0001",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Tamam."
+    },
+    {
+      "id": "c0002",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Hassiktir!"
+    },
+    {
+      "id": "c0003",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Evet."
+    },
+    {
+      "id": "c0004",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Tamam. Sanırım kurtulduk."
+    },
+    {
+      "id": "c0005",
+      "safe": false,
+      "note": "Telefon açılışı ile yüz yüze selamlama aynı değil."
+    },
+    {
+      "id": "c0006",
+      "safe": false,
+      "note": "Telefon açılışı, selamlama ve soru biçimleri çakışıyor."
+    },
+    {
+      "id": "c0007",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Siktir."
+    },
+    {
+      "id": "c0008",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Gerçekten mi?"
+    },
+    {
+      "id": "c0009",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Şaşırmadım."
+    },
+    {
+      "id": "c0010",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Şaşırmadım."
+    },
+    {
+      "id": "c0011",
+      "safe": false,
+      "note": "Soru ve ciddi olduğunu belirten düz cümle farklı."
+    },
+    {
+      "id": "c0012",
+      "safe": false,
+      "note": "Soru ve düz cümle ayrımı var."
+    },
+    {
+      "id": "c0013",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Evet, tamam."
+    },
+    {
+      "id": "c0014",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Hımm."
+    },
+    {
+      "id": "c0015",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Hassiktir!"
+    },
+    {
+      "id": "c0016",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Ne?"
+    },
+    {
+      "id": "c0017",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Tamam."
+    },
+    {
+      "id": "c0018",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Hadi."
+    },
+    {
+      "id": "c0019",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Evet."
+    },
+    {
+      "id": "c0020",
+      "safe": false,
+      "note": "Evet onayı ve Öyle mi sorusu farklı."
+    },
+    {
+      "id": "c0021",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Evet."
+    },
+    {
+      "id": "c0022",
+      "safe": false,
+      "note": "Anlama, doğrulama ve onay işlevleri ayrı olabilir."
+    },
+    {
+      "id": "c0023",
+      "safe": false,
+      "note": "Sağa yönü, doğrulama ve soru anlamı çakışıyor."
+    },
+    {
+      "id": "c0024",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Teşekkürler."
+    },
+    {
+      "id": "c0025",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Teşekkürler."
+    },
+    {
+      "id": "c0026",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Peki, Lucia."
+    },
+    {
+      "id": "c0027",
+      "safe": false,
+      "note": "Selamlama ve dikkat çağrısı ayrı işlev."
+    },
+    {
+      "id": "c0028",
+      "safe": false,
+      "note": "Selamlama, telefon açılışı ve dikkat çağrısı ayrı."
+    },
+    {
+      "id": "c0029",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Anladım."
+    },
+    {
+      "id": "c0030",
+      "safe": false,
+      "note": "Anladım, aldım, çektim eylemleri ve sorular farklı."
+    },
+    {
+      "id": "c0031",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Dur!"
+    },
+    {
+      "id": "c0032",
+      "safe": false,
+      "note": "Tamamlama, teşvik ve soru anlamları ayrı."
+    },
+    {
+      "id": "c0033",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Bırak lan beni!"
+    },
+    {
+      "id": "c0034",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Bırak lan beni!"
+    },
+    {
+      "id": "c0035",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Of, siktir."
+    },
+    {
+      "id": "c0036",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Of, siktir."
+    },
+    {
+      "id": "c0037",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Ha. Bir şey yok."
+    },
+    {
+      "id": "c0038",
+      "safe": false,
+      "note": "Teşvik, yaklaşma ve itiraz anlamları çakışıyor."
+    },
+    {
+      "id": "c0039",
+      "safe": false,
+      "note": "O zaman, yani ve neyse devam bağlaçları aynı anlamda değil."
+    },
+    {
+      "id": "c0040",
+      "safe": false,
+      "note": "Seslenme ve Donnie mi sorusu farklı."
+    },
+    {
+      "id": "c0041",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Ne oluyor lan?"
+    },
+    {
+      "id": "c0042",
+      "safe": false,
+      "note": "Sevinç çığlığı ve hayranlık şaşkınlığı farklı işlev."
+    },
+    {
+      "id": "c0043",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Orospu çocuğu."
+    },
+    {
+      "id": "c0044",
+      "safe": false,
+      "note": "Eksik cümlelerde hâlâ ek bilgisi farklı."
+    },
+    {
+      "id": "c0045",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Emin misiniz?"
+    },
+    {
+      "id": "c0046",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Ee, ne olmuş?"
+    },
+    {
+      "id": "c0047",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Ee, ne olmuş?"
+    },
+    {
+      "id": "c0048",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Bekle."
+    },
+    {
+      "id": "c0049",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Bekle."
+    },
+    {
+      "id": "c0050",
+      "safe": false,
+      "note": "Ayrılma hareketi ile genel teşvik işlevleri farklı."
+    },
+    {
+      "id": "c0051",
+      "safe": false,
+      "note": "Varma, başlama, bulma ve yine başlama anlamları ayrı."
+    },
+    {
+      "id": "c0052",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Evet. Evet."
+    },
+    {
+      "id": "c0053",
+      "safe": false,
+      "note": "Değil doğrulaması ve yok cevabı bağlamsal olarak farklı."
+    },
+    {
+      "id": "c0054",
+      "safe": false,
+      "note": "Değil, yok ve hiç değil farklı tamamlamalar."
+    },
+    {
+      "id": "c0055",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Evet, evet."
+    },
+    {
+      "id": "c0056",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Evet, evet."
+    },
+    {
+      "id": "c0057",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Siktir."
+    },
+    {
+      "id": "c0058",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Gerçekten mi?"
+    },
+    {
+      "id": "c0059",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Bilmiyorum."
+    },
+    {
+      "id": "c0060",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Bilmiyorum."
+    },
+    {
+      "id": "c0061",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Tamam."
+    },
+    {
+      "id": "c0062",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Sağ ol dostum."
+    },
+    {
+      "id": "c0063",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Sağ ol dostum."
+    },
+    {
+      "id": "c0064",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Gerçekten mi?"
+    },
+    {
+      "id": "c0065",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Hassiktir."
+    },
+    {
+      "id": "c0066",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Neden?"
+    },
+    {
+      "id": "c0067",
+      "safe": false,
+      "note": "Zorunluluk ile onay anlamı farklı."
+    },
+    {
+      "id": "c0068",
+      "safe": false,
+      "note": "Şimdi mi sorusu ve hemen emri farklı."
+    },
+    {
+      "id": "c0069",
+      "safe": false,
+      "note": "Anladım, aldım, çektim eylemleri ve sorular farklı."
+    },
+    {
+      "id": "c0070",
+      "safe": false,
+      "note": "Çalışmıyordum ve değildim farklı eylem bilgisi."
+    },
+    {
+      "id": "c0071",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Evet... Sağ ol."
+    },
+    {
+      "id": "c0072",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Evet... Sağ ol."
+    },
+    {
+      "id": "c0073",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Güzel."
+    },
+    {
+      "id": "c0074",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Evet."
+    },
+    {
+      "id": "c0075",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Az kaldı."
+    },
+    {
+      "id": "c0076",
+      "safe": false,
+      "note": "Naber selamı ile ne oldu sorusu farklı."
+    },
+    {
+      "id": "c0077",
+      "safe": false,
+      "note": "Selamlama ile olay sorusu farklı."
+    },
+    {
+      "id": "c0078",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Aradığınız kişiye şu anda ulaşılamıyor.\nLütfen daha sonra tekrar deneyin. Hoşça kalın."
+    },
+    {
+      "id": "c0079",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Aradığınız kişiye şu anda ulaşılamıyor.\nLütfen daha sonra tekrar deneyin. Hoşça kalın."
+    },
+    {
+      "id": "c0080",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Şey..."
+    },
+    {
+      "id": "c0081",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Şey..."
+    },
+    {
+      "id": "c0082",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Göreceğiz bakalım."
+    },
+    {
+      "id": "c0083",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Göreceğiz bakalım."
+    },
+    {
+      "id": "c0084",
+      "safe": false,
+      "note": "Soru, düz onay ve hiç olumsuzluk farklı."
+    },
+    {
+      "id": "c0085",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Tabii."
+    },
+    {
+      "id": "c0086",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Tabii."
+    },
+    {
+      "id": "c0087",
+      "safe": false,
+      "note": "Araca binmek ve içeri girmek farklı eylem."
+    },
+    {
+      "id": "c0088",
+      "safe": false,
+      "note": "Gerçek onay ile alaycı karşılık farklı."
+    },
+    {
+      "id": "c0089",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Tabii, olur."
+    },
+    {
+      "id": "c0090",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Ah, siktir."
+    },
+    {
+      "id": "c0091",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Siktir et."
+    },
+    {
+      "id": "c0092",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "İmdat!"
+    },
+    {
+      "id": "c0093",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Uzak durun lan!"
+    },
+    {
+      "id": "c0094",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "İşte bunu duymak istiyordum."
+    },
+    {
+      "id": "c0095",
+      "safe": false,
+      "note": "Acı ünlemi ve bıkkınlık sesi aynı işlevde değil."
+    },
+    {
+      "id": "c0096",
+      "safe": false,
+      "note": "Acı, tiksinti ve bıkkınlık sesleri çakışıyor."
+    },
+    {
+      "id": "c0097",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Ah... siktir..."
+    },
+    {
+      "id": "c0098",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Ah... siktir..."
+    },
+    {
+      "id": "c0099",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Ah, siktir!"
+    },
+    {
+      "id": "c0100",
+      "safe": false,
+      "note": "Güçlü onay ve kutlama işlevleri ayrı."
+    },
+    {
+      "id": "c0101",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Hay amına koyayım."
+    },
+    {
+      "id": "c0102",
+      "safe": false,
+      "note": "Selamlama ve dikkat çağrısı/soru farklı."
+    },
+    {
+      "id": "c0103",
+      "safe": false,
+      "note": "Acı, rahatlama ve fark etme sesleri ayrı."
+    },
+    {
+      "id": "c0104",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Ahh."
+    },
+    {
+      "id": "c0105",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Yok."
+    },
+    {
+      "id": "c0106",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Pardon."
+    },
+    {
+      "id": "c0107",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Aman Tanrım."
+    },
+    {
+      "id": "c0108",
+      "safe": false,
+      "note": "Bulma eylemi ve kendine göre olma anlamları farklı."
+    },
+    {
+      "id": "c0109",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Başüstüne kaptan."
+    },
+    {
+      "id": "c0110",
+      "safe": false,
+      "note": "Aynısını da demek ve yalnızca öyle dedi aktarması farklı."
+    },
+    {
+      "id": "c0111",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Dostum."
+    },
+    {
+      "id": "c0112",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Oh, şükürler olsun."
+    },
+    {
+      "id": "c0113",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Hassiktir!"
+    },
+    {
+      "id": "c0114",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Şuna bakın."
+    },
+    {
+      "id": "c0115",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Aynen öyle."
+    },
+    {
+      "id": "c0116",
+      "safe": false,
+      "note": "Anlama, fiziksel tutma ve kurtarma eylemleri farklı."
+    },
+    {
+      "id": "c0117",
+      "safe": false,
+      "note": "Anlama, tutma, kurtarma ve halletme farklı."
+    },
+    {
+      "id": "c0118",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Vay."
+    },
+    {
+      "id": "c0119",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Hadi ama abi."
+    },
+    {
+      "id": "c0120",
+      "safe": false,
+      "note": "Soru-cevap ile düz onay farklı."
+    },
+    {
+      "id": "c0121",
+      "safe": false,
+      "note": "Soru-cevap ve düz onay çakışıyor."
+    },
+    {
+      "id": "c0122",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Aman Tanrım."
+    },
+    {
+      "id": "c0123",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Aman Tanrım."
+    },
+    {
+      "id": "c0124",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Tabii."
+    },
+    {
+      "id": "c0125",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Güzelmiş."
+    },
+    {
+      "id": "c0126",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Kulağa güzel geliyor."
+    },
+    {
+      "id": "c0127",
+      "safe": false,
+      "note": "Satın alma kararı ve genel eylem çağrısı farklı."
+    },
+    {
+      "id": "c0128",
+      "safe": false,
+      "note": "Satın alma ve genel eylem çağrısı farklı."
+    },
+    {
+      "id": "c0129",
+      "safe": false,
+      "note": "Selamlama ve dikkat çağrısı farklı."
+    },
+    {
+      "id": "c0130",
+      "safe": false,
+      "note": "Selamlama, soru ve dikkat çağrısı farklı."
+    },
+    {
+      "id": "c0131",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Teşekkürler."
+    },
+    {
+      "id": "c0132",
+      "safe": false,
+      "note": "Nesne işareti ve yer işareti farklı."
+    },
+    {
+      "id": "c0133",
+      "safe": false,
+      "note": "Nesne ve yer işareti farklı."
+    },
+    {
+      "id": "c0134",
+      "safe": false,
+      "note": "Soru, efendim cevabı ve düz onay ayrı."
+    },
+    {
+      "id": "c0135",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Ne istiyorsunuz?"
+    },
+    {
+      "id": "c0136",
+      "safe": false,
+      "note": "Kutlama ve güçlü onay farklı."
+    },
+    {
+      "id": "c0137",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Sürtük."
+    },
+    {
+      "id": "c0138",
+      "safe": false,
+      "note": "Genel şerefsiz hitabı ve cinsiyetli hakaret birebir eşdeğer değil."
+    },
+    {
+      "id": "c0139",
+      "safe": false,
+      "note": "Soru ve devam dolgu sözü farklı."
+    },
+    {
+      "id": "c0140",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Ee..."
+    },
+    {
+      "id": "c0141",
+      "safe": false,
+      "note": "Bekleme ve fiziksel tutunma eylemleri farklı."
+    },
+    {
+      "id": "c0142",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "İtalyanca: Bu ne lan?"
+    },
+    {
+      "id": "c0143",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "İtalyanca: Bu ne lan?"
+    },
+    {
+      "id": "c0144",
+      "safe": false,
+      "note": "Telefon açılışı, selamlama ve dikkat çağrısı farklı."
+    },
+    {
+      "id": "c0145",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Şu hâline bak."
+    },
+    {
+      "id": "c0146",
+      "safe": false,
+      "note": "Soru ve düz onay farklı."
+    },
+    {
+      "id": "c0147",
+      "safe": false,
+      "note": "Fark etme, şaşırma ve acı sesleri farklı."
+    },
+    {
+      "id": "c0148",
+      "safe": false,
+      "note": "Uyarı ve şaşkınlık ünlemleri farklı."
+    },
+    {
+      "id": "c0149",
+      "safe": false,
+      "note": "Yön bilgisi ile yön sorusu farklı."
+    },
+    {
+      "id": "c0150",
+      "safe": false,
+      "note": "Düşünme sesi ve onay sesi farklı."
+    },
+    {
+      "id": "c0151",
+      "safe": false,
+      "note": "Düşünme ve onaylama işlevleri farklı."
+    },
+    {
+      "id": "c0152",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Evet, aynen öyle."
+    },
+    {
+      "id": "c0153",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Nasıl geçti?"
+    },
+    {
+      "id": "c0154",
+      "safe": false,
+      "note": "Beğeni şaşkınlığı ile olumsuz lanetleme farklı."
+    },
+    {
+      "id": "c0155",
+      "safe": false,
+      "note": "Beğeni ve olumsuz tepki işlevleri farklı."
+    },
+    {
+      "id": "c0156",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Neyse."
+    },
+    {
+      "id": "c0157",
+      "safe": false,
+      "note": "Acı ve fark etme sesleri farklı."
+    },
+    {
+      "id": "c0158",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Hay aksi."
+    },
+    {
+      "id": "c0159",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Bu ne lan?"
+    },
+    {
+      "id": "c0160",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Marifetini görelim bakalım."
+    },
+    {
+      "id": "c0161",
+      "safe": false,
+      "note": "Başka katılmak isteyen ve başka söz almak isteyen aynı eylem değil."
+    },
+    {
+      "id": "c0162",
+      "safe": false,
+      "note": "Yürüme ve yol açmak için çekilme farklı."
+    },
+    {
+      "id": "c0163",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Pardon."
+    },
+    {
+      "id": "c0164",
+      "safe": false,
+      "note": "Selamlama ve dikkat çağrısı farklı."
+    },
+    {
+      "id": "c0165",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Önden buyur."
+    },
+    {
+      "id": "c0166",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Önden buyur."
+    },
+    {
+      "id": "c0167",
+      "safe": false,
+      "note": "Soru-cevap ve iki olumsuzlama farklı."
+    },
+    {
+      "id": "c0168",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Hassiktir!"
+    },
+    {
+      "id": "c0169",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Dur!"
+    },
+    {
+      "id": "c0170",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Görüşürüz."
+    },
+    {
+      "id": "c0171",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Görüşürüz."
+    },
+    {
+      "id": "c0172",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Şimdi ne var?"
+    },
+    {
+      "id": "c0173",
+      "safe": false,
+      "note": "Şimdiki sorunu sorma ve sonraki adımı sorma farklı."
+    },
+    {
+      "id": "c0174",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Tamam, teşekkürler."
+    },
+    {
+      "id": "c0175",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Tamam, teşekkürler."
+    },
+    {
+      "id": "c0176",
+      "safe": false,
+      "note": "Selamlama ile ne oldu sorusu farklı."
+    },
+    {
+      "id": "c0177",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Banka hesabınız yok mu?"
+    },
+    {
+      "id": "c0178",
+      "safe": false,
+      "note": "Soru ve düz düşünme sesi farklı."
+    },
+    {
+      "id": "c0179",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "İyi misin?"
+    },
+    {
+      "id": "c0180",
+      "safe": false,
+      "note": "O zaman, yani, şimdi ve neyse bağlaçlarının işlevleri farklı."
+    },
+    {
+      "id": "c0181",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Hımm."
+    },
+    {
+      "id": "c0182",
+      "safe": false,
+      "note": "Lucia diye seslenme ve kendini Lucia diye tanıtma farklı."
+    },
+    {
+      "id": "c0183",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Almayayım."
+    },
+    {
+      "id": "c0184",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Evet, tamam."
+    },
+    {
+      "id": "c0185",
+      "safe": false,
+      "note": "Gelme çağrısı ve yapma emri farklı."
+    },
+    {
+      "id": "c0186",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Bu iş hoşuma gitmiyor."
+    },
+    {
+      "id": "c0187",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Bu iş hoşuma gitmiyor."
+    },
+    {
+      "id": "c0188",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Evet, tamam."
+    },
+    {
+      "id": "c0189",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Peki ne yapıyoruz?"
+    },
+    {
+      "id": "c0190",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Peki ne yapıyoruz?"
+    },
+    {
+      "id": "c0191",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Bin."
+    },
+    {
+      "id": "c0192",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Bayıldım."
+    },
+    {
+      "id": "c0193",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Evet, şey..."
+    },
+    {
+      "id": "c0194",
+      "safe": false,
+      "note": "Söyleneni teyit etme ile alaycı Yok ya farklı."
+    },
+    {
+      "id": "c0195",
+      "safe": false,
+      "note": "Teyit sorusu ve alaycı tepki farklı."
+    },
+    {
+      "id": "c0196",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Siktir."
+    },
+    {
+      "id": "c0197",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Kahretsin!"
+    },
+    {
+      "id": "c0198",
+      "safe": false,
+      "note": "Düşünme dolgusu, kabul ve açıklama bağlacı farklı."
+    },
+    {
+      "id": "c0199",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Hassiktir."
+    },
+    {
+      "id": "c0200",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Buyurun."
+    },
+    {
+      "id": "c0201",
+      "safe": false,
+      "note": "Soru ve düz onay/iş üstlenme farklı."
+    },
+    {
+      "id": "c0202",
+      "safe": false,
+      "note": "Yenme, anlama sorusu ve iş üstlenme farklı."
+    },
+    {
+      "id": "c0203",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Bir dakika."
+    },
+    {
+      "id": "c0204",
+      "safe": false,
+      "note": "Bekleme ile fiziksel tutunma farklı."
+    },
+    {
+      "id": "c0205",
+      "safe": false,
+      "note": "Soru ve fark etme sesi farklı."
+    },
+    {
+      "id": "c0206",
+      "safe": false,
+      "note": "Soru, düşünme ve fark etme sesi farklı."
+    },
+    {
+      "id": "c0207",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Anlıyor musun?"
+    },
+    {
+      "id": "c0208",
+      "safe": false,
+      "note": "Şimdi mi sorusu ile zaman/emir farklı."
+    },
+    {
+      "id": "c0209",
+      "safe": false,
+      "note": "Soru ve alaycı onay farklı."
+    },
+    {
+      "id": "c0210",
+      "safe": false,
+      "note": "Soru ve alaycı onay farklı."
+    },
+    {
+      "id": "c0211",
+      "safe": false,
+      "note": "Soru ve düz adlandırma farklı."
+    },
+    {
+      "id": "c0212",
+      "safe": false,
+      "note": "Muhatabın yaptığı eylemi sorma ve genel olay sorusu farklı."
+    },
+    {
+      "id": "c0213",
+      "safe": false,
+      "note": "Soru, alaycı onay ve dert yanma farklı."
+    },
+    {
+      "id": "c0214",
+      "safe": false,
+      "note": "Yürüme ve gaza basma eylemleri farklı."
+    },
+    {
+      "id": "c0215",
+      "safe": false,
+      "note": "Koşma, yürüme ve gaza basma farklı."
+    },
+    {
+      "id": "c0216",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Rica ederim."
+    },
+    {
+      "id": "c0217",
+      "safe": false,
+      "note": "Sonraki olay ve bizim eylem planımız sorusu farklı."
+    },
+    {
+      "id": "c0218",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Hiçbir şey!"
+    },
+    {
+      "id": "c0219",
+      "safe": false,
+      "note": "Soru ile düz düşünme sesi farklı."
+    },
+    {
+      "id": "c0220",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "O ne?"
+    },
+    {
+      "id": "c0221",
+      "safe": false,
+      "note": "Nesne sorusu ve söyleneni tekrarlatma isteği farklı."
+    },
+    {
+      "id": "c0222",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Peki."
+    },
+    {
+      "id": "c0223",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Ha, tamam."
+    },
+    {
+      "id": "c0224",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Kim o?"
+    },
+    {
+      "id": "c0225",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Kim o?"
+    },
+    {
+      "id": "c0226",
+      "safe": false,
+      "note": "Varış ve mevcut konumu gösterme farklı."
+    },
+    {
+      "id": "c0227",
+      "safe": false,
+      "note": "Varış ve konum gösterme farklı."
+    },
+    {
+      "id": "c0228",
+      "safe": false,
+      "note": "Varış ve konum gösterme farklı."
+    },
+    {
+      "id": "c0229",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Bilmiyorum."
+    },
+    {
+      "id": "c0230",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Hadi gidelim."
+    },
+    {
+      "id": "c0231",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Evet!"
+    },
+    {
+      "id": "c0232",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Vay."
+    },
+    {
+      "id": "c0233",
+      "safe": false,
+      "note": "Tamamlanmış eylem ve yapmayı üstlenme farklı."
+    },
+    {
+      "id": "c0234",
+      "safe": false,
+      "note": "Anlama, tamamlanmış iş ve üstlenme farklı."
+    },
+    {
+      "id": "c0235",
+      "safe": false,
+      "note": "Uyarı ve şaşkınlık/hayranlık farklı."
+    },
+    {
+      "id": "c0236",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Sorun yok."
+    },
+    {
+      "id": "c0237",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Sorun yok."
+    },
+    {
+      "id": "c0238",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Bakın kim gelmiş."
+    },
+    {
+      "id": "c0239",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Teşekkürler."
+    },
+    {
+      "id": "c0240",
+      "safe": false,
+      "note": "Sürme becerisini sorma ve sürmesini rica etme farklı."
+    },
+    {
+      "id": "c0241",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Vuhuu!"
+    },
+    {
+      "id": "c0242",
+      "safe": false,
+      "note": "Belirsizlik ve görüşe katılma farklı."
+    },
+    {
+      "id": "c0243",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Nerelerdeydin?"
+    },
+    {
+      "id": "c0244",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Ne oluyor lan?"
+    },
+    {
+      "id": "c0245",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Sağ olun."
+    },
+    {
+      "id": "c0246",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Ben başımın çaresine bakarım,"
+    },
+    {
+      "id": "c0247",
+      "safe": false,
+      "note": "Soru ve durum bildirimi farklı."
+    },
+    {
+      "id": "c0248",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Bırak!"
+    },
+    {
+      "id": "c0249",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Gir içeri."
+    },
+    {
+      "id": "c0250",
+      "safe": false,
+      "note": "Yazıyı sorma, nesne ve ağaç türünü sorma farklı."
+    },
+    {
+      "id": "c0251",
+      "safe": false,
+      "note": "Nesne, olay, yazı ve ağaç soruları farklı."
+    },
+    {
+      "id": "c0252",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Yavaşla."
+    },
+    {
+      "id": "c0253",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Yavaşla."
+    },
+    {
+      "id": "c0254",
+      "safe": false,
+      "note": "Güçlü evet ile iki ayrı konuşma turu farklı."
+    },
+    {
+      "id": "c0255",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Hey!\nAa, selam."
+    },
+    {
+      "id": "c0256",
+      "safe": false,
+      "note": "Söyleme, uğrama ve genel onay farklı eylem."
+    },
+    {
+      "id": "c0257",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "kardeşim..."
+    },
+    {
+      "id": "c0258",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Hallediyorum."
+    },
+    {
+      "id": "c0259",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Hallediyorum."
+    },
+    {
+      "id": "c0260",
+      "safe": false,
+      "note": "Rahatlama ve fark etme sesleri farklı."
+    },
+    {
+      "id": "c0261",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Burada."
+    },
+    {
+      "id": "c0262",
+      "safe": false,
+      "note": "Acı ünlemi ve fark etme sesi farklı."
+    },
+    {
+      "id": "c0263",
+      "safe": false,
+      "note": "Genel onay ve başarı teşviki farklı."
+    },
+    {
+      "id": "c0264",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Biliyor musunuz?"
+    },
+    {
+      "id": "c0265",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Valla, bilmiyorum."
+    },
+    {
+      "id": "c0266",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Evet, bilmiyorum."
+    },
+    {
+      "id": "c0267",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Anladım."
+    },
+    {
+      "id": "c0268",
+      "safe": false,
+      "note": "Elinde bulundurma ve halletmeyi üstlenme farklı."
+    },
+    {
+      "id": "c0269",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Bol şans."
+    },
+    {
+      "id": "c0270",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Tamam, hadi gidelim."
+    },
+    {
+      "id": "c0271",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Başka bir şey?"
+    },
+    {
+      "id": "c0272",
+      "safe": false,
+      "note": "Soru ve düz bildirim farklı."
+    },
+    {
+      "id": "c0273",
+      "safe": false,
+      "note": "Soru ve düz bildirim farklı."
+    },
+    {
+      "id": "c0274",
+      "safe": false,
+      "note": "Yürüme ve çekilme farklı."
+    },
+    {
+      "id": "c0275",
+      "safe": false,
+      "note": "Rica, alıntı sorusu, buyurma ve yalvarma farklı."
+    },
+    {
+      "id": "c0276",
+      "safe": false,
+      "note": "Gitme ve gaza basma farklı."
+    },
+    {
+      "id": "c0277",
+      "safe": false,
+      "note": "Soru soramama eylemi ve değilsin yargısı farklı."
+    },
+    {
+      "id": "c0278",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Evet, evet. Hallediyorum."
+    },
+    {
+      "id": "c0279",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Evet, evet. Hallediyorum."
+    },
+    {
+      "id": "c0280",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Yapabilirsin."
+    },
+    {
+      "id": "c0281",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Yapabilirsin."
+    },
+    {
+      "id": "c0282",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Gidiyoruz!"
+    },
+    {
+      "id": "c0283",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Gidiyoruz!"
+    },
+    {
+      "id": "c0284",
+      "safe": false,
+      "note": "İyi olma durumu ve işin bitmesi farklı."
+    },
+    {
+      "id": "c0285",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Ah, siktir."
+    },
+    {
+      "id": "c0286",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Hadi gidelim!"
+    },
+    {
+      "id": "c0287",
+      "safe": false,
+      "note": "Gitme ve gaza basma farklı."
+    },
+    {
+      "id": "c0288",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Az kaldı."
+    },
+    {
+      "id": "c0289",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "İyi misin?"
+    },
+    {
+      "id": "c0290",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Hayır, hayır, hayır, hayır, hayır."
+    },
+    {
+      "id": "c0291",
+      "safe": false,
+      "note": "Eksik devam parçalarında biraz niceliği eklenmiş."
+    },
+    {
+      "id": "c0292",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Seni ararım."
+    },
+    {
+      "id": "c0293",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Bırak beni!"
+    },
+    {
+      "id": "c0294",
+      "safe": false,
+      "note": "Acı ünlemi ve bıkkınlık sesi farklı."
+    },
+    {
+      "id": "c0295",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Hassiktir!"
+    },
+    {
+      "id": "c0296",
+      "safe": false,
+      "note": "Soru ve düz alaycı onay farklı."
+    },
+    {
+      "id": "c0297",
+      "safe": false,
+      "note": "Acı ve tiksinti sesleri farklı."
+    },
+    {
+      "id": "c0298",
+      "safe": false,
+      "note": "Fiziksel tutma ile onay farklı."
+    },
+    {
+      "id": "c0299",
+      "safe": false,
+      "note": "Konum, yön, kişi çoğulu ve nesne sunma farklı."
+    },
+    {
+      "id": "c0300",
+      "safe": false,
+      "note": "Selamlama ve dikkat çağrısı farklı."
+    },
+    {
+      "id": "c0301",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Evet."
+    },
+    {
+      "id": "c0302",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Jay, sıkı tutun!"
+    },
+    {
+      "id": "c0303",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Jay, sıkı tutun!"
+    },
+    {
+      "id": "c0304",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Evet."
+    },
+    {
+      "id": "c0305",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Başka bir şey?"
+    },
+    {
+      "id": "c0306",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Oh, güzel."
+    },
+    {
+      "id": "c0307",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Lanet kaltak..."
+    },
+    {
+      "id": "c0308",
+      "safe": false,
+      "note": "Yine başlayan istenmeyen olay ve genel başlama farklı."
+    },
+    {
+      "id": "c0309",
+      "safe": false,
+      "note": "Güzelim hitabı ve güzel sonucu değerlendirme farklı."
+    },
+    {
+      "id": "c0310",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Merhaba."
+    },
+    {
+      "id": "c0311",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Ee, şey..."
+    },
+    {
+      "id": "c0312",
+      "safe": false,
+      "note": "Yer-kaynak ve yöntem sorusu farklı."
+    },
+    {
+      "id": "c0313",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Hadi yapalım."
+    },
+    {
+      "id": "c0314",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Kim o?"
+    },
+    {
+      "id": "c0315",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Kulağa güzel geliyor."
+    },
+    {
+      "id": "c0316",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "İşte böyle."
+    },
+    {
+      "id": "c0317",
+      "safe": false,
+      "note": "İtiraz ve teşvik çağrısı farklı."
+    },
+    {
+      "id": "c0318",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Ne diyorsun sen?"
+    },
+    {
+      "id": "c0319",
+      "safe": false,
+      "note": "Örnek isteme ve yöntem sorusu farklı."
+    },
+    {
+      "id": "c0320",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Tabii."
+    },
+    {
+      "id": "c0321",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Tahmin ederim."
+    },
+    {
+      "id": "c0322",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Hey, iyi misin?"
+    },
+    {
+      "id": "c0323",
+      "safe": false,
+      "note": "Açıklama bağlacı, tereddüt ve kabul farklı."
+    },
+    {
+      "id": "c0324",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Vay, tamam."
+    },
+    {
+      "id": "c0325",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Vay, tamam."
+    },
+    {
+      "id": "c0326",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "İn şu siktiğimin arabasından!"
+    },
+    {
+      "id": "c0327",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "İn şu siktiğimin arabasından!"
+    },
+    {
+      "id": "c0328",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Git!"
+    },
+    {
+      "id": "c0329",
+      "safe": false,
+      "note": "Gitme, gaza basma ve söyleme farklı."
+    },
+    {
+      "id": "c0330",
+      "safe": false,
+      "note": "Yakalamış olma ve tutmayı üstlenme farklı."
+    },
+    {
+      "id": "c0331",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Neyin var lan senin?"
+    },
+    {
+      "id": "c0332",
+      "safe": false,
+      "note": "Güven sorusu ve güven bildirimi farklı."
+    },
+    {
+      "id": "c0333",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Göreceksiniz..."
+    },
+    {
+      "id": "c0334",
+      "safe": false,
+      "note": "Nesne sorusu ve söyleneni tekrar isteme farklı."
+    },
+    {
+      "id": "c0335",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "İyi adammış."
+    },
+    {
+      "id": "c0336",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "İyi adammış."
+    },
+    {
+      "id": "c0337",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Tamam."
+    },
+    {
+      "id": "c0338",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Şey, alo?"
+    },
+    {
+      "id": "c0339",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Kokuyu aldınız mı?"
+    },
+    {
+      "id": "c0340",
+      "safe": false,
+      "note": "Selamlama, dikkat çağrısı ve Efendim cevabı farklı."
+    },
+    {
+      "id": "c0341",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Yoldayız."
+    },
+    {
+      "id": "c0342",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Evet, tabii."
+    },
+    {
+      "id": "c0343",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Nedenmiş o?"
+    },
+    {
+      "id": "c0344",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Nedenmiş o?"
+    },
+    {
+      "id": "c0345",
+      "safe": false,
+      "note": "Bilinen olgu ve beni tanıma nesnesi farklı."
+    },
+    {
+      "id": "c0346",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Kesinlikle."
+    },
+    {
+      "id": "c0347",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Henüz değil."
+    },
+    {
+      "id": "c0348",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Vurdum!"
+    },
+    {
+      "id": "c0349",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Vurdum!"
+    },
+    {
+      "id": "c0350",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Ne oluyor lan?"
+    },
+    {
+      "id": "c0351",
+      "safe": false,
+      "note": "Kullanma emri ve nesneyi alma emri farklı."
+    },
+    {
+      "id": "c0352",
+      "safe": false,
+      "note": "Soru ve düz plan bildirimi farklı."
+    },
+    {
+      "id": "c0353",
+      "safe": false,
+      "note": "Soru ve düz bildirim farklı."
+    },
+    {
+      "id": "c0354",
+      "safe": false,
+      "note": "Hazır olma bildirimi ve sorusu farklı."
+    },
+    {
+      "id": "c0355",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Tabii ki."
+    },
+    {
+      "id": "c0356",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Tamam."
+    },
+    {
+      "id": "c0357",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Tamam."
+    },
+    {
+      "id": "c0358",
+      "safe": false,
+      "note": "İyelik ve yönelme farklı eksik bağlamlar."
+    },
+    {
+      "id": "c0359",
+      "safe": false,
+      "note": "İyelik, yönelme ve özne eklenmesi farklı."
+    },
+    {
+      "id": "c0360",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Hey, bak."
+    },
+    {
+      "id": "c0361",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Evet, belki."
+    },
+    {
+      "id": "c0362",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Evet, belki."
+    },
+    {
+      "id": "c0363",
+      "safe": false,
+      "note": "Soru biçimli karşılık ve düz selamlama farklı."
+    },
+    {
+      "id": "c0364",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Anlıyor musun?"
+    },
+    {
+      "id": "c0365",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Anlıyor musun?"
+    },
+    {
+      "id": "c0366",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Ne haber Jay?"
+    },
+    {
+      "id": "c0367",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Teşekkürler!"
+    },
+    {
+      "id": "c0368",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "N'aber?"
+    },
+    {
+      "id": "c0369",
+      "safe": false,
+      "note": "Fark etme ve şaşırma sesleri farklı."
+    },
+    {
+      "id": "c0370",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Dinle,"
+    },
+    {
+      "id": "c0371",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Dinle,"
+    },
+    {
+      "id": "c0372",
+      "safe": false,
+      "note": "Hayranlık şaşkınlığı ve olumsuz lanetleme farklı."
+    },
+    {
+      "id": "c0373",
+      "safe": false,
+      "note": "Katılma ve içeri girme farklı."
+    },
+    {
+      "id": "c0374",
+      "safe": false,
+      "note": "Katılma ve fiziksel içeri girme farklı."
+    },
+    {
+      "id": "c0375",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Yok."
+    },
+    {
+      "id": "c0376",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Aa. Gerçekten mi?"
+    },
+    {
+      "id": "c0377",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Ben seni takip ediyorum."
+    },
+    {
+      "id": "c0378",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Ben seni takip ediyorum."
+    },
+    {
+      "id": "c0379",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Lafı mı olur."
+    },
+    {
+      "id": "c0380",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Sen sür."
+    },
+    {
+      "id": "c0381",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Şuna bakın!"
+    },
+    {
+      "id": "c0382",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Ne oluyor lan..."
+    },
+    {
+      "id": "c0383",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Evet, evet."
+    },
+    {
+      "id": "c0384",
+      "safe": false,
+      "note": "Soru ve başarı onayı farklı."
+    },
+    {
+      "id": "c0385",
+      "safe": false,
+      "note": "Anne ve güzelim hitapları farklı."
+    },
+    {
+      "id": "c0386",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Hey, baksana!"
+    },
+    {
+      "id": "c0387",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Bir şey yok."
+    },
+    {
+      "id": "c0388",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Bir şey yok."
+    },
+    {
+      "id": "c0389",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Ben Jason."
+    },
+    {
+      "id": "c0390",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Ben Jason."
+    },
+    {
+      "id": "c0391",
+      "safe": false,
+      "note": "Soru ve düz onay farklı."
+    },
+    {
+      "id": "c0392",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Yok be!"
+    },
+    {
+      "id": "c0393",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Hım."
+    },
+    {
+      "id": "c0394",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Cidden mi Lu?"
+    },
+    {
+      "id": "c0395",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Cidden mi Lu?"
+    },
+    {
+      "id": "c0396",
+      "safe": false,
+      "note": "Varış ve bulunduğu yeri bildirme farklı."
+    },
+    {
+      "id": "c0397",
+      "safe": false,
+      "note": "Coşkulu onay ve emir kabulü farklı işlevler."
+    },
+    {
+      "id": "c0398",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Bas gaza!"
+    },
+    {
+      "id": "c0399",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Ne oluyor lan?"
+    },
+    {
+      "id": "c0400",
+      "safe": false,
+      "note": "Uğrama eylemi ve genel onay farklı."
+    },
+    {
+      "id": "c0401",
+      "safe": false,
+      "note": "Soru ve düz bildirim farklı."
+    },
+    {
+      "id": "c0402",
+      "safe": false,
+      "note": "Harekete/ayrılmaya davet ve genel başlama farklı."
+    },
+    {
+      "id": "c0403",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Evet."
+    },
+    {
+      "id": "c0404",
+      "safe": false,
+      "note": "Olumsuz lanetleme ve hayranlık şaşkınlığı farklı."
+    },
+    {
+      "id": "c0405",
+      "safe": false,
+      "note": "Soru ve kendinden emin bildirim farklı."
+    },
+    {
+      "id": "c0406",
+      "safe": false,
+      "note": "Soru ve bildirim farklı."
+    },
+    {
+      "id": "c0407",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Ne oluyor dostum?"
+    },
+    {
+      "id": "c0408",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "İspanyolca: Hadi gidelim."
+    },
+    {
+      "id": "c0409",
+      "safe": false,
+      "note": "Ayrılma ve genel teşvik/başlama farklı."
+    },
+    {
+      "id": "c0410",
+      "safe": false,
+      "note": "Kaçışın başarısı, ortamın temizliği ve yolun açıklığı farklı."
+    },
+    {
+      "id": "c0411",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Hım."
+    },
+    {
+      "id": "c0412",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Evet, seni anlıyorum."
+    },
+    {
+      "id": "c0413",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Evet, seni anlıyorum."
+    },
+    {
+      "id": "c0414",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Nokta."
+    },
+    {
+      "id": "c0415",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Şşşt!"
+    },
+    {
+      "id": "c0416",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Şşşt!"
+    },
+    {
+      "id": "c0417",
+      "safe": false,
+      "note": "Kamal mı sorusu ve seslenme farklı."
+    },
+    {
+      "id": "c0418",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Emin misin bundan?"
+    },
+    {
+      "id": "c0419",
+      "safe": false,
+      "note": "Soru ve düz bildirim farklı."
+    },
+    {
+      "id": "c0420",
+      "safe": false,
+      "note": "Tekrar isteme ve dikkat çekme farklı."
+    },
+    {
+      "id": "c0421",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Tamam, anlaşıldı."
+    },
+    {
+      "id": "c0422",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Tamam, anlaşıldı."
+    },
+    {
+      "id": "c0423",
+      "safe": false,
+      "note": "Anlama ve yakalama farklı."
+    },
+    {
+      "id": "c0424",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Ne oluyor?"
+    },
+    {
+      "id": "c0425",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Sizi görmek güzel."
+    },
+    {
+      "id": "c0426",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "İspanyolca: Anlıyor musunuz?"
+    },
+    {
+      "id": "c0427",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "İspanyolca: Anlıyor musunuz?"
+    },
+    {
+      "id": "c0428",
+      "safe": false,
+      "note": "Selamlama ve dikkat çekme farklı."
+    },
+    {
+      "id": "c0429",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Kardeşim."
+    },
+    {
+      "id": "c0430",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Kardeşim."
+    },
+    {
+      "id": "c0431",
+      "safe": false,
+      "note": "Destek verme ve fiziksel tutma farklı."
+    },
+    {
+      "id": "c0432",
+      "safe": false,
+      "note": "Destek ve fiziksel tutma farklı."
+    },
+    {
+      "id": "c0433",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Ne oluyor lan?"
+    },
+    {
+      "id": "c0434",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Sorun yok."
+    },
+    {
+      "id": "c0435",
+      "safe": false,
+      "note": "Varış ve başlama farklı."
+    },
+    {
+      "id": "c0436",
+      "safe": false,
+      "note": "İtiraz/bıkkınlık ve acı/acele ettirme farklı."
+    },
+    {
+      "id": "c0437",
+      "safe": false,
+      "note": "Koşma emri ve genel teşvik farklı."
+    },
+    {
+      "id": "c0438",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Şey, ne diyordum ben?"
+    },
+    {
+      "id": "c0439",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Şey, ne diyordum ben?"
+    },
+    {
+      "id": "c0440",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Bilmem ki."
+    },
+    {
+      "id": "c0441",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Ah, siktir."
+    },
+    {
+      "id": "c0442",
+      "safe": false,
+      "note": "Koşma ve gaza basma farklı."
+    },
+    {
+      "id": "c0443",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Pislik!"
+    },
+    {
+      "id": "c0444",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Pardon!"
+    },
+    {
+      "id": "c0445",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Pardon!"
+    },
+    {
+      "id": "c0446",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "İyi misin?"
+    },
+    {
+      "id": "c0447",
+      "safe": false,
+      "note": "Yakalama ve anlama farklı."
+    },
+    {
+      "id": "c0448",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Tamam, güzel."
+    },
+    {
+      "id": "c0449",
+      "safe": false,
+      "note": "Olumsuz bildirim ve karşı soru farklı."
+    },
+    {
+      "id": "c0450",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Şimdi ne yapıyoruz?"
+    },
+    {
+      "id": "c0451",
+      "safe": false,
+      "note": "Soru ve onay farklı."
+    },
+    {
+      "id": "c0452",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Tamam, beni takip et."
+    },
+    {
+      "id": "c0453",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Tamam, beni takip et."
+    },
+    {
+      "id": "c0454",
+      "safe": false,
+      "note": "Selamlama ve soru biçimli seslenme farklı."
+    },
+    {
+      "id": "c0455",
+      "safe": false,
+      "note": "Selamlama ve soru biçimli seslenme farklı."
+    },
+    {
+      "id": "c0456",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Hassiktir!"
+    },
+    {
+      "id": "c0457",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Hadi gidelim."
+    },
+    {
+      "id": "c0458",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "O ne?"
+    },
+    {
+      "id": "c0459",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Selam, benim."
+    },
+    {
+      "id": "c0460",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Selam, benim."
+    },
+    {
+      "id": "c0461",
+      "safe": false,
+      "note": "Seslenme, ad tanıtımı ve soru farklı."
+    },
+    {
+      "id": "c0462",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Üstünde çalışıyorum."
+    },
+    {
+      "id": "c0463",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Selam, naber?"
+    },
+    {
+      "id": "c0464",
+      "safe": false,
+      "note": "Dolgu sesi ve değerlendirme sesi farklı."
+    },
+    {
+      "id": "c0465",
+      "safe": false,
+      "note": "Soru, yarım hitap ve düz işaretleme farklı."
+    },
+    {
+      "id": "c0466",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Tamam. Güzel."
+    },
+    {
+      "id": "c0467",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Tamam. Güzel."
+    },
+    {
+      "id": "c0468",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Bakın."
+    },
+    {
+      "id": "c0469",
+      "safe": false,
+      "note": "Farklı duygu/işlevli iki ünlem dizisi."
+    },
+    {
+      "id": "c0470",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Şunlara bakın."
+    },
+    {
+      "id": "c0471",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Çıkalım buradan."
+    },
+    {
+      "id": "c0472",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Bir telefon etmem lazım."
+    },
+    {
+      "id": "c0473",
+      "safe": false,
+      "note": "Yakışıklı hitabı ve baba hitabı farklı."
+    },
+    {
+      "id": "c0474",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Tamam."
+    },
+    {
+      "id": "c0475",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Nereye gidiyorsunuz?"
+    },
+    {
+      "id": "c0476",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Nereye gidiyorsunuz?"
+    },
+    {
+      "id": "c0477",
+      "safe": false,
+      "note": "Konum bildirimi ve yön emri farklı."
+    },
+    {
+      "id": "c0478",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Hayır, hayır, hayır, hayır, hayır, hayır."
+    },
+    {
+      "id": "c0479",
+      "safe": false,
+      "note": "Hey selamlama/dikkat çağrısı ve Efendim cevabı farklı."
+    },
+    {
+      "id": "c0480",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "İspanyolca: Tanrım."
+    },
+    {
+      "id": "c0481",
+      "safe": false,
+      "note": "Geçmiş güzel zamanlar ve gelecek eğlence farklı."
+    },
+    {
+      "id": "c0482",
+      "safe": false,
+      "note": "Emir ve soru farklı."
+    },
+    {
+      "id": "c0483",
+      "safe": false,
+      "note": "Emir ve soru farklı."
+    },
+    {
+      "id": "c0484",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Sen deli misin?"
+    },
+    {
+      "id": "c0485",
+      "safe": false,
+      "note": "Söyleme, yürüme ve gitme farklı."
+    },
+    {
+      "id": "c0486",
+      "safe": false,
+      "note": "Çekilme ve yürüme farklı."
+    },
+    {
+      "id": "c0487",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Vuhuu!"
+    },
+    {
+      "id": "c0488",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Vuhuu!"
+    },
+    {
+      "id": "c0489",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Aferin!"
+    },
+    {
+      "id": "c0490",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Aferin!"
+    },
+    {
+      "id": "c0491",
+      "safe": false,
+      "note": "Teşekkür vurgusu ve soru/karşılık farklı."
+    },
+    {
+      "id": "c0492",
+      "safe": false,
+      "note": "Yer/yol/nesne işaretleri farklı."
+    },
+    {
+      "id": "c0493",
+      "safe": false,
+      "note": "Özne ve iyelik farklı eksik bağlamlar."
+    },
+    {
+      "id": "c0494",
+      "safe": false,
+      "note": "Özne ve iyelik farklı."
+    },
+    {
+      "id": "c0495",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Tamam, tabii."
+    },
+    {
+      "id": "c0496",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Tamam, tabii."
+    },
+    {
+      "id": "c0497",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Ben de öyle düşündüm."
+    },
+    {
+      "id": "c0498",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Ah!"
+    },
+    {
+      "id": "c0499",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Evet."
+    },
+    {
+      "id": "c0500",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Ah!"
+    },
+    {
+      "id": "c0501",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Sen kimsin lan?"
+    },
+    {
+      "id": "c0502",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Tamam, bakalım ne varmış elimizde."
+    },
+    {
+      "id": "c0503",
+      "safe": false,
+      "note": "Ayakta olma durumu ve kalkma eylemi farklı."
+    },
+    {
+      "id": "c0504",
+      "safe": false,
+      "note": "Ünlem ve hitap farklı."
+    },
+    {
+      "id": "c0505",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Of be."
+    },
+    {
+      "id": "c0506",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Anladın mı ne dediğimi?"
+    },
+    {
+      "id": "c0507",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Git."
+    },
+    {
+      "id": "c0508",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Sanırım."
+    },
+    {
+      "id": "c0509",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Bunun için sağ ol."
+    },
+    {
+      "id": "c0510",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Bunun için sağ ol."
+    },
+    {
+      "id": "c0511",
+      "safe": false,
+      "note": "Birlikte gitme çağrısı ve muhataba yürü emri farklı."
+    },
+    {
+      "id": "c0512",
+      "safe": false,
+      "note": "Bir sonucu değerlendirme ve açıklama isteme farklı."
+    },
+    {
+      "id": "c0513",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Açın."
+    },
+    {
+      "id": "c0514",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Ortalık temiz!"
+    },
+    {
+      "id": "c0515",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Ne oluyor?"
+    },
+    {
+      "id": "c0516",
+      "safe": false,
+      "note": "Soru/alay ve kesin doğrulama farklı."
+    },
+    {
+      "id": "c0517",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Biliyorsunuz, değil mi?"
+    },
+    {
+      "id": "c0518",
+      "safe": false,
+      "note": "Yan yana konum ve birlikte hareket farklı."
+    },
+    {
+      "id": "c0519",
+      "safe": false,
+      "note": "Yeni gelme ve burada bulunma farklı."
+    },
+    {
+      "id": "c0520",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Vurdun onları."
+    },
+    {
+      "id": "c0521",
+      "safe": false,
+      "note": "Nesne durumu eki ile yalın isim farklı eksik cümleler."
+    },
+    {
+      "id": "c0522",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Kes sesini lan!"
+    },
+    {
+      "id": "c0523",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Yok artık lan..."
+    },
+    {
+      "id": "c0524",
+      "safe": false,
+      "note": "Soru ve bildirim farklı."
+    },
+    {
+      "id": "c0525",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Ne istiyorsunuz?"
+    },
+    {
+      "id": "c0526",
+      "safe": false,
+      "note": "Yer/yol ile nesne işareti farklı."
+    },
+    {
+      "id": "c0527",
+      "safe": false,
+      "note": "Kontrollü inme ve düşme farklı."
+    },
+    {
+      "id": "c0528",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Orospu çocuğu!"
+    },
+    {
+      "id": "c0529",
+      "safe": false,
+      "note": "Araçtan inme ve bir yerden çıkma farklı."
+    }
+  ],
+  "reviewed": 529
+}

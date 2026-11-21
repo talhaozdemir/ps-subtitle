@@ -1,0 +1,25 @@
+﻿6. BÖLÜM — İNGİLİZCE / TÜRKÇE ÇEVİRİ
+
+Kaynak: Downloads klasöründeki Part 6 videosu (1920 × 1080, 02:43:45.080).
+
+part-06.en-tr.txt: Konuşmacı etiketleriyle İngilizce/Türkçe metin.
+dialogues.json: Düzenlenebilir çift dilli kayıtlar ve kaynak görüntü bilgileri.
+reviewed.json: Çevirinin esas düzenleme dosyası; değişiklikten sonra build_translation.py ile çıktılar üretilebilir.
+subtitle.json.gz: Projedeki örneğe uygun format-2 çeviri sözlüğü. Tüm kayıtlar uygulamanın paket okuyucusu ve eşleştiricisiyle doğrulandı.
+part-06.en.srt / part-06.tr.srt: Yaklaşık zamanlı başvuru çıktılarıdır; oynatma için son senkron altyazı değildir.
+
+2.603 kaynak görüntüden kontrol edilmiş kayıt ve 5.013 sözlük anahtarı bulunur. Tekrarlar ve aynı anda görünen konuşmalar nedeniyle kayıt sayısı benzersiz cümle sayısı değildir. Video baştan sona saniyede 2 kareyle normal ve soluk altyazı profilleriyle tarandı. Bulunan farklı okunabilir konuşmalar görüntüden düzeltilerek Türkçe konuşma dilinde sıfırdan çevrildi. Önceki Türkçe çeviri kaynak alınmadı.
+
+Ekranda görünen kişi adları ve aksanları korundu; Stranger = Yabancı, Cop = Polis. İsimsiz cevaplara tahminen konuşmacı eklenmedi. Kaynak dil etiketleri Türkçeleştirildi; özel adlar, kurum adları ve sahneye özgü hitaplar bağlama göre korundu.
+
+Kaynak videodaki siyah sansür bantlarının gizlediği kelimeler tahmin edilmedi. 14 kaynak sorun kaydı source-issues.json içinde belgelenmiştir; bağımsız okunabilir konuşmalar korunmuştur. Boş OCR sonuçları ve konuşmacı başlığı okunamamış adaylar da kaynak görüntülerinden kontrol edildi; menü, plaka, tabela, oyun arayüzü ve kırpılmış telefon bildirimleri konuşma çevirisine alınmadı.
+
+Tarama çok kısa veya okunamayan yazıları kaçırabilir; tüm konuşmaların eksiksiz yakalandığı garanti edilmez. İnceleme tamamlandı işareti bulunan adayların ele alındığını gösterir; tam kapsama veya zaman senkronu doğrulaması değildir.
+
+
+CÜMLE DEVAMI DENETİMİ — 21 Kasım 2026
+2603 mevcut İngilizce/Türkçe kayıt zaman sırasıyla okundu. Ekranlar arasında süren cümlelerin yüklemleri, zamirleri, soru/koşul yapıları ve araya giren yanıtları bağlamlarıyla denetlendi. 9 Türkçe ve 0 İngilizce kayıt düzeltildi; değişen kayıt sayısı 9. Önce/sonra ve ilgili kaynak kayıtlar continuation-review.json içinde. Kaynak sansürleri ve yaklaşık zamanlar korundu; bu işlem yeniden tam video OCR taraması değildir. Gerçek tüketici: 2603 doğru eşleşme, 0 güvenli dışlama; yanlış yedek eşleşme kontrolü geçti.
+
+
+KONUŞMACI İSİM RENKLERİ
+İngilizce/Türkçe TXT ve dialogues.json içindeki speaker_labels alanına, ekranda görünen isim/rol etiketlerinin renk bilgisi eklendi. speaker-colors.json dosyası her adın her satırdaki görünümünü ayrı tutar; line_index sıfırdan başlar, TXT satır numarası birden başlar. Aynı kişi veya aynı rol farklı sahnelerde, hatta aynı karede başka renkte olabilir. 2770 etiket görünümü: 2757 piksel ölçümü, 13 görsel renk ailesi kontrolü, 0 belirsiz. HEX değerleri sıkıştırılmış video görüntüsünden yaklaşık örneklerdir, oyunun kesin renk paleti değildir. Yalnız gözle rengi seçilen örneklerde HEX uydurulmadı. Rengi seçilmeyen/ismi görünmeyen yerler belirsiz bırakıldı.

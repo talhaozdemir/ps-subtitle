@@ -1,0 +1,207 @@
+{
+  "issues": [
+    {
+      "id": "s05-02490000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02490000.jpg",
+      "visible_fragment": "Jason: Just had shoes and [black bar] Fuckin' creep.",
+      "note": "Solid black censor bar in source video. Hidden English not inferred; omitted from approved translation."
+    },
+    {
+      "id": "s05-02557000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02557000.jpg",
+      "visible_fragment": "Lucia: He just had a bunch of [black bar] Fucking [black bar]",
+      "note": "Two solid black censor bars in source. Hidden English not inferred; omitted from approved translation."
+    },
+    {
+      "id": "s05-02635500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02635500.jpg",
+      "visible_fragment": "Jason: Yeah, I don't think they were after my [black bar]",
+      "note": "Solid black bar in video source; hidden English not inferred, omitted from approved translation."
+    },
+    {
+      "id": "s05-02646500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02646500.jpg",
+      "visible_fragment": "Lucia: breaking into your place to steal your [black bar]",
+      "note": "Solid black bar in video source; hidden English not inferred, omitted from approved translation."
+    },
+    {
+      "id": "s05-02649000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02649000.jpg",
+      "visible_fragment": "Jason: She's a [black bar]... they're a commodity.",
+      "note": "Solid black bar in video source; hidden English not inferred, omitted from approved translation."
+    },
+    {
+      "id": "s05-02650500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02650500.jpg",
+      "visible_fragment": "Jason: She's a [black bar]... they're a commodity.",
+      "note": "Solid black bar in video source; hidden English not inferred, omitted from approved translation."
+    },
+    {
+      "id": "s05-02654500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02654500.jpg",
+      "visible_fragment": "Lucia: of valuable [black bar] this whole time and we didn't even know it?",
+      "note": "Solid black bar in video source; hidden English not inferred, omitted from approved translation."
+    },
+    {
+      "id": "s05-02636500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02636500.jpg",
+      "visible_fragment": "Jason: Yeah, I don't think they were after my [black bar]",
+      "note": "Solid black bar in source, hidden words not inferred; omitted from approved translation."
+    },
+    {
+      "id": "s05-02656500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02656500.jpg",
+      "visible_fragment": "Lucia: of valuable [black bar] this whole time and we didn't even know it?",
+      "note": "Solid black bar in source, hidden words not inferred; omitted from approved translation."
+    },
+    {
+      "id": "s05-02746000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02746000.jpg",
+      "visible_fragment": "Lucia: We gotta keep our [black bar] safe.",
+      "note": "Solid black bar in source, hidden words not inferred; omitted from approved translation."
+    },
+    {
+      "id": "s05-02637500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02637500.jpg",
+      "visible_fragment": "Jason: Yeah, I don't think they were after my [black bar]",
+      "note": "Duplicate censored source caption; hidden word not inferred."
+    },
+    {
+      "id": "s05-03475500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-03475500.jpg",
+      "visible_fragment": "Dre'Quan: [black bar]-for-a-chain-ass rapper!",
+      "note": "Solid black source censor bar; hidden word not inferred."
+    },
+    {
+      "id": "s05-03477500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-03477500.jpg",
+      "visible_fragment": "Dre'Quan: [black bar]-for-a-chain-ass rapper!",
+      "note": "Duplicate censored source caption; no hidden words inferred."
+    },
+    {
+      "id": "s05-03862500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-03862500.jpg",
+      "visible_fragment": "Lucia: was really [black bar] me about it...",
+      "note": "Solid black censor bar in source video; missing English not inferred."
+    },
+    {
+      "id": "s05-04240000",
+      "status": "partial_source_censorship",
+      "source_frame": "continuous/frames/s05-04240000.jpg",
+      "visible_fragment": "[black bar] it out. I wanna see what I'm paying for. / Jason: That's him.",
+      "note": "Separate unlabelled source caption is censored and omitted, no hidden words inferred. Fully readable labelled Jason: That's him. is retained as its own complete cue."
+    },
+    {
+      "id": "s05-04238000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-04238000.jpg",
+      "visible_fragment": "[black bar] it out. I wanna see what I'm paying for.",
+      "note": "Unlabelled line visibly censored in source; missing words not inferred, caption omitted."
+    },
+    {
+      "id": "s05-04241000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-04241000.jpg",
+      "visible_english": "[obscured] it out. I wanna see what I'm paying for.",
+      "note": "Same censored caption as4238; hidden opening and speaker not inferred."
+    },
+    {
+      "id": "s05-07591500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-07591500.jpg",
+      "visible_english": "Pete: Nothin' a hot bath and a [black bar] won't fix.",
+      "note": "Black bar visibly obscures a word in source; hidden text not inferred and caption omitted."
+    },
+    {
+      "id": "s05-00564500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-00564500.jpg",
+      "visible_english": "Guardia Brothers: [black bar]",
+      "note": "Entire speech visibly obscured by source black bar; not inferred."
+    },
+    {
+      "id": "s05-00565000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-00565000.jpg",
+      "visible_english": "Guardia Brothers: [black bar]",
+      "note": "Same fully source-censored caption as564.5; hidden speech not inferred."
+    },
+    {
+      "id": "s05-00565500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-00565500.jpg",
+      "visible_english": "Guardia Brothers: [black bar]",
+      "note": "Same fully source-censored caption as564.5; hidden speech not inferred."
+    },
+    {
+      "id": "s05-00566000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-00566000.jpg",
+      "visible_english": "Guardia Brothers: [black bar]",
+      "note": "Same fully source-censored caption as564.5; hidden speech not inferred."
+    },
+    {
+      "id": "s05-02638000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02638000.jpg",
+      "visible_english": "Jason: Yeah, I don't think they were after my [black bar]",
+      "note": "Native source black bar hides words; same censored scene as original-pass issues, not inferred."
+    },
+    {
+      "id": "s05-02647000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02647000.jpg",
+      "visible_english": "Lucia: breaking into your place to steal your [black bar]",
+      "note": "Native source black bar hides words; same censored scene as original-pass issues, not inferred."
+    },
+    {
+      "id": "s05-02650000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02650000.jpg",
+      "visible_english": "Jason: She's a [black bar]... they're a commodity.",
+      "note": "Native source black bar hides words; same censored scene as original-pass issues, not inferred."
+    },
+    {
+      "id": "s05-02655500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02655500.jpg",
+      "visible_english": "Lucia: of valuable [black bar] this whole time and we didn't even know it?",
+      "note": "Native source black bar hides words; same censored scene as original-pass issues, not inferred."
+    },
+    {
+      "id": "s05-02647500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02647500.jpg",
+      "visible_english": "Lucia: breaking into your place to steal your [black bar]",
+      "note": "Same censored caption; hidden words not inferred."
+    },
+    {
+      "id": "s05-03476000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-03476000.jpg",
+      "visible_english": "Dre'Quan: [black bar]-for-a-chain-ass rapper!",
+      "note": "Source black censor bar; hidden word not inferred."
+    },
+    {
+      "id": "s05-03476500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-03476500.jpg",
+      "visible_english": "Dre'Quan: [black bar]-for-a-chain-ass rapper!",
+      "note": "Same black-bar caption as s05-03476000; hidden word not inferred."
+    }
+  ]
+}

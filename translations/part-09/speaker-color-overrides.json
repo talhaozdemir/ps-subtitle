@@ -1,0 +1,29 @@
+{
+  "s09-05253000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Pembe",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s09-05615000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Sarı-yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s09-06650000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  }
+}

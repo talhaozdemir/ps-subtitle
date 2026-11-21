@@ -1,0 +1,3873 @@
+{
+  "6a581ee901185606": {
+    "id": "c0001",
+    "translation": "Tamam.",
+    "expected_values": [
+      "peki",
+      "tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c0d19999091b44ea": {
+    "id": "c0002",
+    "translation": "Hassiktir!",
+    "expected_values": [
+      "ah siktir",
+      "hassiktir",
+      "hay sikeyim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c06fc555902938b4": {
+    "id": "c0003",
+    "translation": "Evet.",
+    "expected_values": [
+      "aynen",
+      "evet",
+      "tamam",
+      "tamamdır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "32f8cc8100888d9c": {
+    "id": "c0004",
+    "translation": "Tamam, galiba atlattık.",
+    "expected_values": [
+      "tamam galiba atlattık",
+      "tamam sanırım kurtulduk"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "85fc17f7069acd39": {
+    "id": "c0007",
+    "translation": "Siktir.",
+    "expected_values": [
+      "hassiktir",
+      "sikeyim",
+      "siktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "db8ffbe1cd19708b": {
+    "id": "c0008",
+    "translation": "Gerçekten mi?",
+    "expected_values": [
+      "cidden mi",
+      "ciddi misin",
+      "gercekten mi",
+      "oyle mi"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "af43a9d61fc5c0bb": {
+    "id": "c0009",
+    "translation": "Şaşırmadım.",
+    "expected_values": [
+      "belliydi",
+      "sasırmadım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "dc2e3999e6b3e23f": {
+    "id": "c0010",
+    "translation": "Şaşırmadım.",
+    "expected_values": [
+      "belliydi",
+      "sasırmadım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "2c9051abed4c587d": {
+    "id": "c0013",
+    "translation": "Evet, tamam.",
+    "expected_values": [
+      "evet olur",
+      "evet tamam",
+      "he tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "8b7293f6dd93853c": {
+    "id": "c0014",
+    "translation": "Hımm.",
+    "expected_values": [
+      "hım",
+      "hımm",
+      "mmm"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "6033c5867a2c8e65": {
+    "id": "c0015",
+    "translation": "Hassiktir!",
+    "expected_values": [
+      "ah siktir",
+      "hassiktir",
+      "hay siktir",
+      "hay sıcayım",
+      "siktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "749ab2c0d06c42ae": {
+    "id": "c0016",
+    "translation": "Ne?",
+    "expected_values": [
+      "ne",
+      "ne oldu"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "b8a9dc73f1e1af5b": {
+    "id": "c0017",
+    "translation": "Tamam.",
+    "expected_values": [
+      "eyvallah",
+      "pekala",
+      "tamam",
+      "tamamdır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "83d60c10087c038f": {
+    "id": "c0018",
+    "translation": "Hadi.",
+    "expected_values": [
+      "hadi",
+      "hadi gel"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "853f48ddd500a9a7": {
+    "id": "c0019",
+    "translation": "Evet.",
+    "expected_values": [
+      "aynen",
+      "evet",
+      "tamam",
+      "tamamdır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a495a4b86c1eac64": {
+    "id": "c0021",
+    "translation": "Evet.",
+    "expected_values": [
+      "evet"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "7e5a60d95fdecde4": {
+    "id": "c0024",
+    "translation": "Teşekkürler.",
+    "expected_values": [
+      "sag ol",
+      "sag olun",
+      "tesekkurler"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a6a2729cbf6bcadc": {
+    "id": "c0025",
+    "translation": "Teşekkürler.",
+    "expected_values": [
+      "sag ol",
+      "sag olun",
+      "tesekkurler"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "b63266915d91259d": {
+    "id": "c0026",
+    "translation": "Peki, Lucia.",
+    "expected_values": [
+      "peki lucia",
+      "tamam lucia"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "0d4ee7b128d6662f": {
+    "id": "c0029",
+    "translation": "Anladım.",
+    "expected_values": [
+      "anladım",
+      "anlasıldı",
+      "tamamdır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "6c45cb72a36e63d5": {
+    "id": "c0031",
+    "translation": "Dur!",
+    "expected_values": [
+      "dur",
+      "yapma"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "6979ffd198c76b6f": {
+    "id": "c0033",
+    "translation": "Bırak lan beni!",
+    "expected_values": [
+      "bırak lan beni",
+      "cekil ustumden amına koyayım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c2abd06f164cadae": {
+    "id": "c0034",
+    "translation": "Bırak lan beni!",
+    "expected_values": [
+      "bırak lan beni",
+      "cekil ustumden amına koyayım",
+      "cekil ustumden lan"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "1fabc9e378fa8f39": {
+    "id": "c0035",
+    "translation": "Of, siktir.",
+    "expected_values": [
+      "ah siktir",
+      "of siktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "3133b74c6e81f39b": {
+    "id": "c0036",
+    "translation": "Of, siktir.",
+    "expected_values": [
+      "ah siktir",
+      "of siktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "7e2badacc0db7b37": {
+    "id": "c0037",
+    "translation": "Ha. Bir şey yok.",
+    "expected_values": [
+      "ha bir sey yok",
+      "yok bir sey yok"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "2f5f6ce5ae30b54a": {
+    "id": "c0043",
+    "translation": "Orospu çocuğu.",
+    "expected_values": [
+      "orospu cocu",
+      "orospu cocugu",
+      "orospu evladı"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "bb55fb35b26dec94": {
+    "id": "c0046",
+    "translation": "E, ne yani?",
+    "expected_values": [
+      "e ne yani",
+      "ee ne olmus"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "95b814a7bcbbf083": {
+    "id": "c0047",
+    "translation": "E, ne yani?",
+    "expected_values": [
+      "e ne yani",
+      "ee ne olmus"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "b259300218a8ca1b": {
+    "id": "c0048",
+    "translation": "Bekle.",
+    "expected_values": [
+      "bekle",
+      "dur"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "716ecabb45ac6a88": {
+    "id": "c0049",
+    "translation": "Bekle.",
+    "expected_values": [
+      "bekle",
+      "dur"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "76af331fd55746b4": {
+    "id": "c0052",
+    "translation": "Evet. Evet.",
+    "expected_values": [
+      "evet evet",
+      "tamam tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a427fbfbf469dc9e": {
+    "id": "c0055",
+    "translation": "Evet, evet.",
+    "expected_values": [
+      "evet evet",
+      "he he"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "e2139b41efe816e3": {
+    "id": "c0056",
+    "translation": "Evet, evet.",
+    "expected_values": [
+      "evet evet",
+      "he he",
+      "tamam tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "6ac3c336e4094835": {
+    "id": "c0057",
+    "translation": "Siktir.",
+    "expected_values": [
+      "sikeyim",
+      "siktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "b8bbc171361b3415": {
+    "id": "c0058",
+    "translation": "Gerçekten mi?",
+    "expected_values": [
+      "cidden mi",
+      "gercekten mi",
+      "oyle mi"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "b26dabc3b93ffecf": {
+    "id": "c0059",
+    "translation": "Bilmiyorum.",
+    "expected_values": [
+      "bilmem",
+      "bilmiyorum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c65addef251702b1": {
+    "id": "c0060",
+    "translation": "Bilmiyorum.",
+    "expected_values": [
+      "bilmem",
+      "bilmiyorum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "1eb497916fefe709": {
+    "id": "c0061",
+    "translation": "Tamam.",
+    "expected_values": [
+      "pekala",
+      "tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "e94501d424352de2": {
+    "id": "c0062",
+    "translation": "Sağ ol dostum.",
+    "expected_values": [
+      "sag ol abi",
+      "sag ol dostum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "6c2df2b23ece00d1": {
+    "id": "c0063",
+    "translation": "Sağ ol dostum.",
+    "expected_values": [
+      "sag ol abi",
+      "sag ol dostum",
+      "sag ol kardesim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "ee7758d6c49d6cf6": {
+    "id": "c0064",
+    "translation": "Gerçekten mi?",
+    "expected_values": [
+      "ciddi misin",
+      "gercekten mi"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "b4e5079c15b4e378": {
+    "id": "c0065",
+    "translation": "Hassiktir.",
+    "expected_values": [
+      "ah siktir",
+      "hassiktir",
+      "hay siktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "2be23c585f15e5fd": {
+    "id": "c0066",
+    "translation": "Neden?",
+    "expected_values": [
+      "neden",
+      "niye"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "efff138ec2247457": {
+    "id": "c0071",
+    "translation": "Evet... Sağ ol.",
+    "expected_values": [
+      "evet sag ol",
+      "tamam sag ol"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "f90a4d9139d40178": {
+    "id": "c0072",
+    "translation": "Evet... Sağ ol.",
+    "expected_values": [
+      "evet sag ol",
+      "tamam sag ol"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c34045c1a1db8d1b": {
+    "id": "c0073",
+    "translation": "Güzel.",
+    "expected_values": [
+      "guzel",
+      "super",
+      "tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "94d8726dad141ea1": {
+    "id": "c0074",
+    "translation": "Evet.",
+    "expected_values": [
+      "aynen",
+      "evet"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "60a09adb7e2c7c14": {
+    "id": "c0075",
+    "translation": "Az kaldı.",
+    "expected_values": [
+      "az kaldı",
+      "geldim sayılır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "1803924799d40488": {
+    "id": "c0078",
+    "translation": "Aradığınız kişiye şu anda ulaşılamıyor.\nLütfen daha sonra tekrar deneyin. Hoşça kalın.",
+    "expected_values": [
+      "aradıgınız kisiye su anda ulasılamıyor lutfen daha sonra tekrar deneyin hosca kalın",
+      "aradıgınız kisiye su anda ulasılamıyor lutfen daha sonra tekrar deneyiniz hosca kalın"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "045ff4054ddf83aa": {
+    "id": "c0079",
+    "translation": "Aradığınız kişiye şu anda ulaşılamıyor.\nLütfen daha sonra tekrar deneyin. Hoşça kalın.",
+    "expected_values": [
+      "aradıgınız kisiye su anda ulasılamıyor lutfen daha sonra tekrar deneyin hosca kalın",
+      "aradıgınız kisiye su anda ulasılamıyor lutfen daha sonra tekrar deneyiniz hosca kalın"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "d090c80e1bb9420a": {
+    "id": "c0080",
+    "translation": "Şey...",
+    "expected_values": [
+      "iıı",
+      "sey"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c18a40798cd99509": {
+    "id": "c0081",
+    "translation": "Şey...",
+    "expected_values": [
+      "iıı",
+      "sey"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c9293c762cdf1a11": {
+    "id": "c0082",
+    "translation": "Göreceğiz bakalım.",
+    "expected_values": [
+      "gorecegiz bakalım",
+      "simdi goruruz"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "01fea59bb070db55": {
+    "id": "c0083",
+    "translation": "Göreceğiz bakalım.",
+    "expected_values": [
+      "gorecegiz bakalım",
+      "simdi goruruz"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "42cb1112d7d00eae": {
+    "id": "c0085",
+    "translation": "Tabii.",
+    "expected_values": [
+      "tabii",
+      "tabii ki",
+      "tabii ya"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "19e240f3698d3fd5": {
+    "id": "c0086",
+    "translation": "Tabii.",
+    "expected_values": [
+      "elbette",
+      "ne demek",
+      "tabii",
+      "tabii ki",
+      "tabii ya"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "e7ed65d6d512124b": {
+    "id": "c0089",
+    "translation": "Tabii, olur.",
+    "expected_values": [
+      "tabii olur"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "06ff486ff3fc1a84": {
+    "id": "c0090",
+    "translation": "Ah, siktir.",
+    "expected_values": [
+      "ah sikeyim",
+      "ah siktir",
+      "siktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "67fb0ebf07682159": {
+    "id": "c0091",
+    "translation": "Siktir et.",
+    "expected_values": [
+      "sikerler",
+      "siktir et"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "106a5842fc5fce6f": {
+    "id": "c0092",
+    "translation": "İmdat!",
+    "expected_values": [
+      "imdat",
+      "yardım edin"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "6c63c4c5ebeca41c": {
+    "id": "c0094",
+    "translation": "İşte bunu duymak istiyordum.",
+    "expected_values": [
+      "iste bunu duymak istiyordum",
+      "iste bunu duymak istiyorum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "2a4e0f98bb632d67": {
+    "id": "c0097",
+    "translation": "Ah... siktir...",
+    "expected_values": [
+      "ah siktir",
+      "uff siktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "663c5a034676dc0c": {
+    "id": "c0098",
+    "translation": "Ah... siktir...",
+    "expected_values": [
+      "ah siktir",
+      "uff siktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "32bd8c3c9dacee1d": {
+    "id": "c0099",
+    "translation": "Ah, siktir!",
+    "expected_values": [
+      "ah siktir",
+      "ahh siktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "fb96c27642b4bd11": {
+    "id": "c0101",
+    "translation": "Hay anasını!",
+    "expected_values": [
+      "hay amına koyayım",
+      "hay anasını",
+      "kahretsin",
+      "vay anasını"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "d48865cd20f14706": {
+    "id": "c0104",
+    "translation": "Ah!",
+    "expected_values": [
+      "aah",
+      "ah",
+      "ahh"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "ca3704aa0b06f595": {
+    "id": "c0105",
+    "translation": "Yok.",
+    "expected_values": [
+      "olmaz",
+      "yok"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "484aab2f2cd0f77b": {
+    "id": "c0106",
+    "translation": "Pardon.",
+    "expected_values": [
+      "kusura bakma",
+      "pardon"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "225b8e2de0a4e8bf": {
+    "id": "c0107",
+    "translation": "Aman Tanrım.",
+    "expected_values": [
+      "ah tanrım",
+      "aman tanrım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "5c6cf5b2a64a0db5": {
+    "id": "c0109",
+    "translation": "Başüstüne kaptan.",
+    "expected_values": [
+      "basustune kaptan",
+      "emredersiniz kaptan"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "60e77101e76950a9": {
+    "id": "c0111",
+    "translation": "Dostum.",
+    "expected_values": [
+      "abi",
+      "dostum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "7749b4c6e27b85e2": {
+    "id": "c0112",
+    "translation": "Oh, şükürler olsun.",
+    "expected_values": [
+      "oh sukurler olsun",
+      "oh tanrı ya sukur"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "8c86eee5ba275182": {
+    "id": "c0113",
+    "translation": "Hassiktir.",
+    "expected_values": [
+      "hassiktir",
+      "vay amına koyayım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "4da508b5d08b5a84": {
+    "id": "c0115",
+    "translation": "Aynen öyle.",
+    "expected_values": [
+      "aynen oyle",
+      "dogru"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "b6dc933311bc2357": {
+    "id": "c0118",
+    "translation": "Vay.",
+    "expected_values": [
+      "vay",
+      "vay be"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "d31fd97991504b3b": {
+    "id": "c0122",
+    "translation": "Aman Tanrım.",
+    "expected_values": [
+      "allah ım ya",
+      "aman tanrım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "99efb547b64b7f82": {
+    "id": "c0123",
+    "translation": "Aman Tanrım.",
+    "expected_values": [
+      "allah ım ya",
+      "aman tanrım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c0cafcf0e2d6a236": {
+    "id": "c0124",
+    "translation": "Tabii.",
+    "expected_values": [
+      "olur",
+      "tabii"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "67783aa3feb156fc": {
+    "id": "c0125",
+    "translation": "Güzel.",
+    "expected_values": [
+      "guzel",
+      "guzelmis"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "bb36f57782ca24e8": {
+    "id": "c0126",
+    "translation": "Güzel.",
+    "expected_values": [
+      "guzel",
+      "guzelmis",
+      "iyi olur",
+      "kulaga guzel geliyor",
+      "olur",
+      "tamamdır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "844347e54f00c4b9": {
+    "id": "c0131",
+    "translation": "Teşekkürler.",
+    "expected_values": [
+      "sag ol",
+      "tesekkur ederim",
+      "tesekkurler"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "cf2bda689c7f8bdf": {
+    "id": "c0137",
+    "translation": "Sürtük.",
+    "expected_values": [
+      "kaltak",
+      "orospu",
+      "surtuk"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "94c3dda1dd405c90": {
+    "id": "c0140",
+    "translation": "Ee...",
+    "expected_values": [
+      "ee",
+      "yani"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "ea8ab4c349e56255": {
+    "id": "c0152",
+    "translation": "Evet, aynen öyle.",
+    "expected_values": [
+      "evet aynen",
+      "evet aynen oyle"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "531937e1cab64885": {
+    "id": "c0153",
+    "translation": "Nasıl geçti?",
+    "expected_values": [
+      "nasıl gecti",
+      "nasıl gitti"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "85738f8f9a7f1b04": {
+    "id": "c0156",
+    "translation": "Neyse.",
+    "expected_values": [
+      "neyse",
+      "neyse ne"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "652ec8953c6921e7": {
+    "id": "c0158",
+    "translation": "Hay aksi.",
+    "expected_values": [
+      "eyvah",
+      "hay aksi"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "ff9116500d978013": {
+    "id": "c0159",
+    "translation": "Bu ne lan?",
+    "expected_values": [
+      "bu ne lan",
+      "bu ne lan boyle"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "1d9354e8d527c869": {
+    "id": "c0160",
+    "translation": "Marifetini görelim bakalım.",
+    "expected_values": [
+      "goster bakalım marifetini",
+      "marifetini gorelim bakalım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "09f698a4f70b6cbd": {
+    "id": "c0163",
+    "translation": "Pardon.",
+    "expected_values": [
+      "kusura bakma",
+      "pardon"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "935ff00a84a417e0": {
+    "id": "c0165",
+    "translation": "Önden buyur.",
+    "expected_values": [
+      "once sen",
+      "onden buyur"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "2e0f7a5667526b2a": {
+    "id": "c0166",
+    "translation": "Önden buyur.",
+    "expected_values": [
+      "once sen",
+      "onden buyur"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a3b726d8254185e5": {
+    "id": "c0168",
+    "translation": "Hassiktir!",
+    "expected_values": [
+      "ah siktir",
+      "hassiktir",
+      "siktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "930ac42d574bc395": {
+    "id": "c0169",
+    "translation": "Dur!",
+    "expected_values": [
+      "dur",
+      "yapma"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "912f80a1cf3ecc0a": {
+    "id": "c0170",
+    "translation": "Görüşürüz.",
+    "expected_values": [
+      "gorusuruz",
+      "hosca kal"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "b49f425a7e1f9cff": {
+    "id": "c0171",
+    "translation": "Görüşürüz.",
+    "expected_values": [
+      "gorusuruz",
+      "hosca kal"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "ce3ff82af244cb70": {
+    "id": "c0172",
+    "translation": "Şimdi ne var?",
+    "expected_values": [
+      "ne oldu simdi",
+      "simdi ne var"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a49637ff1f4b7bf4": {
+    "id": "c0174",
+    "translation": "Tamam, teşekkürler.",
+    "expected_values": [
+      "tamam sag ol",
+      "tamam tesekkurler"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "41cf60e6ddff84a8": {
+    "id": "c0175",
+    "translation": "Tamam, teşekkürler.",
+    "expected_values": [
+      "tamam sag ol",
+      "tamam tesekkurler"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "9b6f20be4c6f2271": {
+    "id": "c0181",
+    "translation": "Hımm.",
+    "expected_values": [
+      "hım",
+      "hımm"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "2734c97ebc0b8e03": {
+    "id": "c0183",
+    "translation": "Almayayım.",
+    "expected_values": [
+      "almayayım",
+      "yok ac degilim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "6d2a08deb303e9c3": {
+    "id": "c0184",
+    "translation": "Evet, tamam.",
+    "expected_values": [
+      "evet olur",
+      "evet tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "8e984883348f7567": {
+    "id": "c0186",
+    "translation": "Bu iş hoşuma gitmiyor.",
+    "expected_values": [
+      "bu is hosuma gitmedi",
+      "bu is hosuma gitmiyor"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "3fa38c17506dfd06": {
+    "id": "c0187",
+    "translation": "Bu iş hoşuma gitmiyor.",
+    "expected_values": [
+      "bu is hosuma gitmedi",
+      "bu is hosuma gitmiyor"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "799af34d48dadf36": {
+    "id": "c0188",
+    "translation": "Evet, tamam.",
+    "expected_values": [
+      "evet tamam",
+      "he tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "16fb2e254ff8fdae": {
+    "id": "c0189",
+    "translation": "Peki ne yapıyoruz?",
+    "expected_values": [
+      "ee ne yapacagız",
+      "peki ne yapıyoruz"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "dbf7d09563c3331b": {
+    "id": "c0190",
+    "translation": "Peki ne yapıyoruz?",
+    "expected_values": [
+      "ee ne yapacagız",
+      "peki ne yapıyoruz"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "970a525863d2cbb6": {
+    "id": "c0191",
+    "translation": "Bin.",
+    "expected_values": [
+      "atla",
+      "bin"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "898a8c802384e3ad": {
+    "id": "c0192",
+    "translation": "Bayılıyorum buna.",
+    "expected_values": [
+      "bayıldım",
+      "bayılıyorum buna"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "ce0fb93b54f5faaf": {
+    "id": "c0193",
+    "translation": "Evet, işte.",
+    "expected_values": [
+      "evet iste",
+      "evet sey",
+      "evet yani"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "6581760b4f4b5e82": {
+    "id": "c0196",
+    "translation": "Siktir.",
+    "expected_values": [
+      "sikeyim",
+      "siktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c876b022a6b4c726": {
+    "id": "c0197",
+    "translation": "Kahretsin!",
+    "expected_values": [
+      "hay amına koyayım",
+      "kahretsin"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "3df21b746c1847ae": {
+    "id": "c0199",
+    "translation": "Hassiktir.",
+    "expected_values": [
+      "ah siktir",
+      "hassiktir",
+      "hay sikeyim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "03a72698a3d348f6": {
+    "id": "c0200",
+    "translation": "Buyurun.",
+    "expected_values": [
+      "alın bakalım",
+      "buyurun"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "9b2281a878e271a2": {
+    "id": "c0203",
+    "translation": "Bir dakika.",
+    "expected_values": [
+      "bir dakika",
+      "bir saniye"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "95203fd1a321bda3": {
+    "id": "c0207",
+    "translation": "Anlıyor musun?",
+    "expected_values": [
+      "anladın mı",
+      "anlıyor musun"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "95af486411abd7ae": {
+    "id": "c0216",
+    "translation": "Rica ederim.",
+    "expected_values": [
+      "bir sey degil",
+      "rica ederim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "03c9f7337e4c254e": {
+    "id": "c0218",
+    "translation": "Hiçbir şey!",
+    "expected_values": [
+      "hic",
+      "hicbir sey"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "000764dbf0b466c2": {
+    "id": "c0220",
+    "translation": "O ne?",
+    "expected_values": [
+      "ne o",
+      "o ne"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "d14a58bae804a2b8": {
+    "id": "c0222",
+    "translation": "Peki.",
+    "expected_values": [
+      "peki",
+      "tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "6ee171a9374e2845": {
+    "id": "c0223",
+    "translation": "Ha, tamam.",
+    "expected_values": [
+      "ha peki",
+      "ha tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a24572d9f477ead5": {
+    "id": "c0224",
+    "translation": "Kim o?",
+    "expected_values": [
+      "kim geliyor",
+      "kim o"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "22dabca48aad838a": {
+    "id": "c0225",
+    "translation": "Kim o?",
+    "expected_values": [
+      "kim geliyor",
+      "kim o"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "2f9d47d19f6b487b": {
+    "id": "c0229",
+    "translation": "Bilmiyorum.",
+    "expected_values": [
+      "bilemedim",
+      "bilmiyorum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "14ea78b47d204394": {
+    "id": "c0230",
+    "translation": "Hadi!",
+    "expected_values": [
+      "hadi",
+      "hadi gidelim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "8a798890fe938171": {
+    "id": "c0231",
+    "translation": "Evet!",
+    "expected_values": [
+      "evet",
+      "iste bu"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "3832a0deff5a578c": {
+    "id": "c0232",
+    "translation": "Vay.",
+    "expected_values": [
+      "vay",
+      "vay be"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "7d318ec1eae0d191": {
+    "id": "c0236",
+    "translation": "Sorun yok.",
+    "expected_values": [
+      "sorun degil",
+      "sorun yok"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "570bbec9e4b6bfc5": {
+    "id": "c0237",
+    "translation": "Sorun yok.",
+    "expected_values": [
+      "sorun degil",
+      "sorun yok"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "0f794833f00327ad": {
+    "id": "c0239",
+    "translation": "Teşekkürler.",
+    "expected_values": [
+      "tesekkur ederim",
+      "tesekkurler"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "15e78c2dcbbe82ff": {
+    "id": "c0241",
+    "translation": "Vuhu!",
+    "expected_values": [
+      "vuhu",
+      "vuhuu",
+      "vuu"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "e83494bd9f066653": {
+    "id": "c0243",
+    "translation": "Neredeydin?",
+    "expected_values": [
+      "neredeydin",
+      "nerelerdeydin"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "4d78256221868eb3": {
+    "id": "c0246",
+    "translation": "Ben başımın çaresine bakarım,",
+    "expected_values": [
+      "ben basımın caresine bakarım",
+      "ben kendime bakabilirim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "2ea2021be0859652": {
+    "id": "c0248",
+    "translation": "Bırak!",
+    "expected_values": [
+      "bırak",
+      "in ustumden"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "d72f3ce34249e69f": {
+    "id": "c0249",
+    "translation": "Gir içeri.",
+    "expected_values": [
+      "gir iceri",
+      "gir suraya"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "029fde1861a982bd": {
+    "id": "c0252",
+    "translation": "Yavaşla.",
+    "expected_values": [
+      "yavas ol",
+      "yavasla"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "e4120a6471a6d365": {
+    "id": "c0253",
+    "translation": "Yavaşla.",
+    "expected_values": [
+      "yavas ol",
+      "yavasla"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "f5afad5d447d3a18": {
+    "id": "c0255",
+    "translation": "Hey.\nAa, hey.",
+    "expected_values": [
+      "hey aa hey",
+      "hey aa selam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "408f31d86c6bf4a8": {
+    "id": "c0257",
+    "translation": "kardeşim...",
+    "expected_values": [
+      "kardesim",
+      "ya oglum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "f4e39226b47ed53b": {
+    "id": "c0258",
+    "translation": "Hallediyorum.",
+    "expected_values": [
+      "hallediyorum",
+      "tamamdır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c13ba5bd3aed190c": {
+    "id": "c0259",
+    "translation": "Hallediyorum.",
+    "expected_values": [
+      "hallediyorum",
+      "tamamdır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "63af46e0656dc09a": {
+    "id": "c0261",
+    "translation": "Burada.",
+    "expected_values": [
+      "burada",
+      "buradayız"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "f79c6cb1fb5181d2": {
+    "id": "c0265",
+    "translation": "Evet. Bilmiyorum.",
+    "expected_values": [
+      "evet bilmiyorum",
+      "valla bilmiyorum",
+      "ya bilmiyorum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "7b7ffc3e6be0d006": {
+    "id": "c0266",
+    "translation": "Evet. Bilmiyorum.",
+    "expected_values": [
+      "evet bilmiyorum",
+      "valla bilmiyorum",
+      "ya bilmiyorum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "218b40f83b7f8cec": {
+    "id": "c0267",
+    "translation": "Anladım.",
+    "expected_values": [
+      "anladım",
+      "anladım seni"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "64410594d70e5b06": {
+    "id": "c0269",
+    "translation": "Bol şans.",
+    "expected_values": [
+      "bol sans",
+      "iyi sanslar"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "27b154d9682a5bd7": {
+    "id": "c0270",
+    "translation": "Tamam, hadi gidelim.",
+    "expected_values": [
+      "tamam gidelim",
+      "tamam hadi gidelim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "6206bbb231e02945": {
+    "id": "c0271",
+    "translation": "Başka bir şey?",
+    "expected_values": [
+      "baska",
+      "baska bir sey",
+      "baska bir sey var mı"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "262addf009d08065": {
+    "id": "c0278",
+    "translation": "Tamam, tamam. Hallediyorum.",
+    "expected_values": [
+      "evet evet hallediyorum",
+      "tamam tamam hallediyorum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "efbaaca22148c747": {
+    "id": "c0279",
+    "translation": "Tamam, tamam. Hallediyorum.",
+    "expected_values": [
+      "evet evet hallediyorum",
+      "tamam tamam hallediyorum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "3f3e9cf7cbd8cf60": {
+    "id": "c0280",
+    "translation": "Sen halledersin.",
+    "expected_values": [
+      "sen halledersin",
+      "yapabilirsin",
+      "yaparsın sen"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "f35bde2724b6a810": {
+    "id": "c0281",
+    "translation": "Sen halledersin.",
+    "expected_values": [
+      "sen halledersin",
+      "yapabilirsin",
+      "yaparsın sen"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "f32b971350aaaa04": {
+    "id": "c0282",
+    "translation": "İlerliyoruz!",
+    "expected_values": [
+      "gidiyoruz",
+      "ilerliyoruz"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "12f5215491d0c4cd": {
+    "id": "c0283",
+    "translation": "İlerliyoruz!",
+    "expected_values": [
+      "gidiyoruz",
+      "ilerliyoruz"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "97714279da6eabaf": {
+    "id": "c0285",
+    "translation": "Ah, siktir.",
+    "expected_values": [
+      "ah siktir",
+      "siktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "92c5eab3bcda9a78": {
+    "id": "c0286",
+    "translation": "Hadi gidelim!",
+    "expected_values": [
+      "gidelim",
+      "hadi",
+      "hadi gidelim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "d199f3a54ac4d810": {
+    "id": "c0288",
+    "translation": "Az kaldı.",
+    "expected_values": [
+      "az kaldı",
+      "geldim sayılır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "92084418ea1f2c3b": {
+    "id": "c0289",
+    "translation": "İyi misin?",
+    "expected_values": [
+      "iyi misin",
+      "sen iyi misin"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "28ea2be3225c779f": {
+    "id": "c0290",
+    "translation": "Hayır, hayır, hayır, hayır, hayır.",
+    "expected_values": [
+      "hayır ha hayır hayır hayır",
+      "hayır hayır hayır hayır hayır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "b3eb65d0c48af8e8": {
+    "id": "c0292",
+    "translation": "Seni ararım.",
+    "expected_values": [
+      "ben seni ararım",
+      "seni ararım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c6a5ac84ec58ff79": {
+    "id": "c0293",
+    "translation": "Bırak beni!",
+    "expected_values": [
+      "bırak beni",
+      "cekil ustumden"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "d075b90aa7c16985": {
+    "id": "c0295",
+    "translation": "Hassiktir.",
+    "expected_values": [
+      "ah siktir",
+      "hassiktir"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "d873bfe9e0dc1d5e": {
+    "id": "c0301",
+    "translation": "Evet.",
+    "expected_values": [
+      "aynen",
+      "evet",
+      "tamam",
+      "tamamdır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "aaaf5f96dd0d75fd": {
+    "id": "c0302",
+    "translation": "Jay, sıkı tutun!",
+    "expected_values": [
+      "jay sıkı tutun",
+      "jay tutun"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "1b17fecdc4f5be73": {
+    "id": "c0303",
+    "translation": "Jay, sıkı tutun!",
+    "expected_values": [
+      "jay sıkı tutun",
+      "jay tutun"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "0ea399d719c61b40": {
+    "id": "c0304",
+    "translation": "Evet.",
+    "expected_values": [
+      "aynen",
+      "evet"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "3bae0c5ef7980c13": {
+    "id": "c0305",
+    "translation": "Başka bir şey?",
+    "expected_values": [
+      "baska bir sey",
+      "baska bir sey var mı"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "42804887c4ebb769": {
+    "id": "c0306",
+    "translation": "Oh, güzel.",
+    "expected_values": [
+      "ah ne guzel",
+      "ha harika",
+      "oh guzel"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "e938307dd05e8899": {
+    "id": "c0307",
+    "translation": "Lanet kaltak...",
+    "expected_values": [
+      "lanet kaltak",
+      "lanet orospu",
+      "sikik orospu"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "8f434346648f6b96": {
+    "id": "c0310",
+    "translation": "Merhaba.",
+    "expected_values": [
+      "merhaba",
+      "selam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "7b6c427a88540cbb": {
+    "id": "c0311",
+    "translation": "Şey, ee...",
+    "expected_values": [
+      "ee sey",
+      "sey ee"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "8b958a4b1fd1bc19": {
+    "id": "c0313",
+    "translation": "Hadi yapalım.",
+    "expected_values": [
+      "hadi bakalım",
+      "hadi yapalım",
+      "yapalım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "b9a6a082fbe0b38a": {
+    "id": "c0314",
+    "translation": "Kim o?",
+    "expected_values": [
+      "kim o",
+      "o kim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "fd67ecbee2cbf41b": {
+    "id": "c0315",
+    "translation": "İyi olur.",
+    "expected_values": [
+      "iyi olur",
+      "kulaga guzel geliyor",
+      "olur",
+      "tamamdır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c53af19324880dcc": {
+    "id": "c0316",
+    "translation": "İşte böyle.",
+    "expected_values": [
+      "hah soyle",
+      "iste boyle"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "da55f2a1e89ea540": {
+    "id": "c0318",
+    "translation": "Neden bahsediyorsun?",
+    "expected_values": [
+      "ne diyorsun sen",
+      "neden bahsediyorsun"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "54d52ade185ea32a": {
+    "id": "c0320",
+    "translation": "Tabii.",
+    "expected_values": [
+      "olur",
+      "tabii"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "ed8df5f75b6dca19": {
+    "id": "c0321",
+    "translation": "Tahmin ederim.",
+    "expected_values": [
+      "eminim oyledir",
+      "tahmin ederim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "69e51cb5659beb9b": {
+    "id": "c0322",
+    "translation": "Hey, iyi misin?",
+    "expected_values": [
+      "hey iyi misin",
+      "selam iyi misin"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "06c3c9101409bfd0": {
+    "id": "c0324",
+    "translation": "Vay, tamam.",
+    "expected_values": [
+      "vay peki",
+      "vay tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "8161e8856a12a041": {
+    "id": "c0325",
+    "translation": "Vay, tamam.",
+    "expected_values": [
+      "vay peki",
+      "vay tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "44f294abfa810af9": {
+    "id": "c0326",
+    "translation": "İn şu siktiğimin arabasından!",
+    "expected_values": [
+      "cık su siktigimin arabasından",
+      "in su siktigimin arabasından"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "607064cfb90b9cfe": {
+    "id": "c0327",
+    "translation": "İn şu siktiğimin arabasından!",
+    "expected_values": [
+      "cık su siktigimin arabasından",
+      "in su siktigimin arabasından"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "47e3e8dc95f751ce": {
+    "id": "c0328",
+    "translation": "Git!",
+    "expected_values": [
+      "git",
+      "yuru"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "2b1a701aa301c42b": {
+    "id": "c0331",
+    "translation": "Neyin var lan senin?",
+    "expected_values": [
+      "neyin var lan senin",
+      "neyin var senin amına koyayım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "08315985053830fc": {
+    "id": "c0335",
+    "translation": "İyi adammış.",
+    "expected_values": [
+      "iyi adammıs",
+      "tatlı adammıs"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "e54b3465fd4c0808": {
+    "id": "c0336",
+    "translation": "İyi adammış.",
+    "expected_values": [
+      "iyi adammıs",
+      "tatlı adammıs"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "b70bf83f0ec97113": {
+    "id": "c0338",
+    "translation": "Şey, alo?",
+    "expected_values": [
+      "ee alo",
+      "sey alo"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "2049bc28844a423b": {
+    "id": "c0341",
+    "translation": "Yoldayız.",
+    "expected_values": [
+      "geliyoruz",
+      "yola cıktık",
+      "yoldayız"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "ca2541b5c205c7a0": {
+    "id": "c0342",
+    "translation": "Evet, tabii.",
+    "expected_values": [
+      "evet tabii",
+      "tabii ne demek"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "bc5a80ec436c2755": {
+    "id": "c0343",
+    "translation": "Nedenmiş?",
+    "expected_values": [
+      "nedenmis",
+      "nedenmis o"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "039eda3e0e215fee": {
+    "id": "c0344",
+    "translation": "Nedenmiş?",
+    "expected_values": [
+      "nedenmis",
+      "nedenmis o"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "d8b8c1fea965302e": {
+    "id": "c0346",
+    "translation": "Kesinlikle.",
+    "expected_values": [
+      "kesinlikle",
+      "tabii",
+      "tabii ki"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "3b82aae1ed24f607": {
+    "id": "c0347",
+    "translation": "Henüz değil.",
+    "expected_values": [
+      "daha degil",
+      "henuz degil"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "1e87ce2681ec9b5e": {
+    "id": "c0355",
+    "translation": "Tabii.",
+    "expected_values": [
+      "tabii",
+      "tabii ki"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "98d7c6beac904481": {
+    "id": "c0356",
+    "translation": "Tamam.",
+    "expected_values": [
+      "tamam",
+      "tamamdır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a9cdfe718517ba08": {
+    "id": "c0357",
+    "translation": "Tamam.",
+    "expected_values": [
+      "tamam",
+      "tamamdır"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a13298020fbed082": {
+    "id": "c0360",
+    "translation": "Hey, bak.",
+    "expected_values": [
+      "bak simdi",
+      "hey bak"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "d67e97cc1a0d66ad": {
+    "id": "c0361",
+    "translation": "Evet, belki.",
+    "expected_values": [
+      "evet belki",
+      "evet belki de"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "697b0864301347e4": {
+    "id": "c0362",
+    "translation": "Evet, belki.",
+    "expected_values": [
+      "evet belki",
+      "evet belki de"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "3085f58b96a00aea": {
+    "id": "c0364",
+    "translation": "Anlıyor musun?",
+    "expected_values": [
+      "anladın mı",
+      "anlıyor musun"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a65232dacd06ee1b": {
+    "id": "c0365",
+    "translation": "Anlıyor musun?",
+    "expected_values": [
+      "anladın mı",
+      "anlıyor musun"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "7d3a72b8f1e9e38a": {
+    "id": "c0366",
+    "translation": "Ne haber Jay?",
+    "expected_values": [
+      "naber jay",
+      "ne haber jay"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "0485624e6dbf0901": {
+    "id": "c0367",
+    "translation": "Teşekkürler!",
+    "expected_values": [
+      "sag ol",
+      "tesekkurler"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "f2cccc5a37858299": {
+    "id": "c0368",
+    "translation": "Hey, ne haber?",
+    "expected_values": [
+      "hey ne haber",
+      "n aber"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "1c88600b6865ad95": {
+    "id": "c0370",
+    "translation": "Dinle,",
+    "expected_values": [
+      "bak",
+      "dinle"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "6f8860eb5103a16b": {
+    "id": "c0371",
+    "translation": "Dinle,",
+    "expected_values": [
+      "bak",
+      "dinle"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "259a8ae16a8a936d": {
+    "id": "c0375",
+    "translation": "Yok.",
+    "expected_values": [
+      "i ıh",
+      "yok"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "dfbbfbd76b2bbb7d": {
+    "id": "c0376",
+    "translation": "Aa. Gerçekten mi?",
+    "expected_values": [
+      "aa gercekten mi",
+      "ha oyle mi"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "d1e05f50b137b569": {
+    "id": "c0377",
+    "translation": "Ben seni takip ediyorum.",
+    "expected_values": [
+      "ben seni takip ediyorum",
+      "ben senin pesindeyim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "de5b2dc5c1178a52": {
+    "id": "c0378",
+    "translation": "Ben seni takip ediyorum.",
+    "expected_values": [
+      "ben seni takip ediyorum",
+      "ben senin pesindeyim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "48ac366802f4ffec": {
+    "id": "c0379",
+    "translation": "Lafı mı olur.",
+    "expected_values": [
+      "lafı bile olmaz",
+      "lafı mı olur"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "361ea489e848ad01": {
+    "id": "c0380",
+    "translation": "Sen kullan.",
+    "expected_values": [
+      "sen kullan",
+      "sen sur"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "e8452d389cff5aae": {
+    "id": "c0383",
+    "translation": "Evet, evet.",
+    "expected_values": [
+      "evet evet",
+      "tamam tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "20935c64714642ee": {
+    "id": "c0386",
+    "translation": "Hey, hey!",
+    "expected_values": [
+      "hey baksana",
+      "hey hey"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "814b40f449455b50": {
+    "id": "c0387",
+    "translation": "Bir şey yok.",
+    "expected_values": [
+      "bir sey yok",
+      "hic"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "1785cfc3bc6ac773": {
+    "id": "c0388",
+    "translation": "Bir şey yok.",
+    "expected_values": [
+      "bir sey yok",
+      "hic"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "d9e9a70dd48b84a9": {
+    "id": "c0389",
+    "translation": "Ben Jason.",
+    "expected_values": [
+      "ben jason",
+      "jason"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "46deb9debb9bb085": {
+    "id": "c0390",
+    "translation": "Ben Jason.",
+    "expected_values": [
+      "ben jason",
+      "jason"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "b87df4642068b773": {
+    "id": "c0392",
+    "translation": "Yok be!",
+    "expected_values": [
+      "yok artık",
+      "yok be"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "80bc248c5704629e": {
+    "id": "c0393",
+    "translation": "Hım.",
+    "expected_values": [
+      "hı",
+      "hım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "5b0a9f637dfad0d7": {
+    "id": "c0394",
+    "translation": "Cidden mi Lu?",
+    "expected_values": [
+      "cidden mi lu",
+      "ciddi misin lu"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "2260b74b7b1f856b": {
+    "id": "c0395",
+    "translation": "Cidden mi Lu?",
+    "expected_values": [
+      "cidden mi lu",
+      "ciddi misin lu"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "8ba602ef1d27b81d": {
+    "id": "c0398",
+    "translation": "Bas gaza!",
+    "expected_values": [
+      "bas gaza",
+      "gazla"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "9dcf03d7d79fdf1e": {
+    "id": "c0403",
+    "translation": "Evet.",
+    "expected_values": [
+      "aynen",
+      "evet"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "29435af4eb99f2af": {
+    "id": "c0407",
+    "translation": "Ne oluyor dostum?",
+    "expected_values": [
+      "ne oluyor abi",
+      "ne oluyor dostum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "8580074bf2211a34": {
+    "id": "c0408",
+    "translation": "İspanyolca: Hadi!",
+    "expected_values": [
+      "ispanyolca hadi",
+      "ispanyolca hadi gidelim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a6c83020f9662570": {
+    "id": "c0411",
+    "translation": "Hımm.",
+    "expected_values": [
+      "hım",
+      "hımm"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "f8917d6f7b791679": {
+    "id": "c0412",
+    "translation": "Evet, ne demek istediğini anlıyorum.",
+    "expected_values": [
+      "evet ne demek istedigini anlıyorum",
+      "evet seni anlıyorum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "b6d8caad78094886": {
+    "id": "c0413",
+    "translation": "Evet, ne demek istediğini anlıyorum.",
+    "expected_values": [
+      "evet ne demek istedigini anlıyorum",
+      "evet seni anlıyorum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "514cb13f603464f9": {
+    "id": "c0414",
+    "translation": "Nokta.",
+    "expected_values": [
+      "iste bu kadar",
+      "nokta"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "014dadfe260fd1a1": {
+    "id": "c0415",
+    "translation": "Şşş!",
+    "expected_values": [
+      "sss",
+      "ssst"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "121b69a8d20269cf": {
+    "id": "c0416",
+    "translation": "Şşş!",
+    "expected_values": [
+      "sss",
+      "ssst",
+      "sst"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c491e188447ac71a": {
+    "id": "c0418",
+    "translation": "Emin misin?",
+    "expected_values": [
+      "emin misin",
+      "emin misin bundan"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "7b36e28f6ca5a48b": {
+    "id": "c0421",
+    "translation": "Tamam, anlaşıldı.",
+    "expected_values": [
+      "anlasıldı",
+      "tamam anlasıldı"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "62ad5e51e3db1e21": {
+    "id": "c0422",
+    "translation": "Tamam, anlaşıldı.",
+    "expected_values": [
+      "anlasıldı",
+      "tamam anlasıldı"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "bd6a1bb99268f681": {
+    "id": "c0424",
+    "translation": "Ne oluyor?",
+    "expected_values": [
+      "ne oluyor",
+      "neler oluyor"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "6e83811abf96e47c": {
+    "id": "c0429",
+    "translation": "Dostum.",
+    "expected_values": [
+      "dostum",
+      "kardesim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "ff3727276784ada3": {
+    "id": "c0430",
+    "translation": "Dostum.",
+    "expected_values": [
+      "dostum",
+      "kardesim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "72de4eb0702fb5ff": {
+    "id": "c0433",
+    "translation": "Ne oluyor lan?",
+    "expected_values": [
+      "ne oluyor amına koyayım",
+      "ne oluyor lan"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "cae3a96f32cd72f8": {
+    "id": "c0434",
+    "translation": "Sorun yok.",
+    "expected_values": [
+      "biz iyiyiz",
+      "sorun yok"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "957e1e774e53c7e8": {
+    "id": "c0438",
+    "translation": "Ee, ne diyordum?",
+    "expected_values": [
+      "ee ne diyordum",
+      "ee ne diyordum ben",
+      "sey ne diyordum ben"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "ad4e9558d88ff7d3": {
+    "id": "c0439",
+    "translation": "Ee, ne diyordum?",
+    "expected_values": [
+      "ee ne diyordum",
+      "ee ne diyordum ben",
+      "sey ne diyordum ben"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "6c268381a2e55f25": {
+    "id": "c0440",
+    "translation": "Bilmem ki.",
+    "expected_values": [
+      "bilmem ki",
+      "eh bilmem"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a3742dfe7cefbe51": {
+    "id": "c0441",
+    "translation": "Ah, siktir.",
+    "expected_values": [
+      "ah siktir",
+      "hay sıcayım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "87a27940ba243e66": {
+    "id": "c0443",
+    "translation": "Pislik!",
+    "expected_values": [
+      "pislik",
+      "serefsiz"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "61e70722e93faf85": {
+    "id": "c0444",
+    "translation": "Pardon!",
+    "expected_values": [
+      "musaade",
+      "pardon"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a22ab2aae54a65aa": {
+    "id": "c0445",
+    "translation": "Pardon!",
+    "expected_values": [
+      "musaade",
+      "pardon"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "40c7b962db9200e2": {
+    "id": "c0446",
+    "translation": "İyi misin?",
+    "expected_values": [
+      "iyi misin",
+      "sen iyi misin"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "46748bc275d1c640": {
+    "id": "c0448",
+    "translation": "Tamam, güzel.",
+    "expected_values": [
+      "tamam guzel",
+      "tamam super"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "756f7be9d2010625": {
+    "id": "c0450",
+    "translation": "Şimdi ne yapıyoruz?",
+    "expected_values": [
+      "ee simdi ne yapıyoruz",
+      "simdi ne yapıyoruz"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "9745e70f1f587652": {
+    "id": "c0452",
+    "translation": "Tamam, beni takip et.",
+    "expected_values": [
+      "tamam beni takip et",
+      "tamam pesimden gel"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "f57ca1c85990389a": {
+    "id": "c0453",
+    "translation": "Tamam, beni takip et.",
+    "expected_values": [
+      "tamam beni takip et",
+      "tamam pesimden gel"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "9cbedd8230a0c9e9": {
+    "id": "c0456",
+    "translation": "Hassiktir!",
+    "expected_values": [
+      "hassiktir",
+      "hay sikeyim",
+      "sikeyim boyle isi"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "e487f5cf17fe7b03": {
+    "id": "c0457",
+    "translation": "Hadi gidelim.",
+    "expected_values": [
+      "hadi gidelim",
+      "hadi yuru"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "f361e382ea9c2404": {
+    "id": "c0458",
+    "translation": "O ne?",
+    "expected_values": [
+      "o da ne",
+      "o ne"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "174905180ad46f46": {
+    "id": "c0459",
+    "translation": "Selam, benim.",
+    "expected_values": [
+      "hey benim",
+      "selam benim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "cbd40774f9dc1610": {
+    "id": "c0460",
+    "translation": "Selam, benim.",
+    "expected_values": [
+      "hey benim",
+      "selam benim"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a99be0203f56ec4a": {
+    "id": "c0462",
+    "translation": "Üstünde çalışıyorum.",
+    "expected_values": [
+      "cozmeye calısıyorum",
+      "ustunde calısıyorum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "a0828543319325d3": {
+    "id": "c0463",
+    "translation": "Selam, naber?",
+    "expected_values": [
+      "selam n aber",
+      "selam naber"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "bde53a7f357ab58c": {
+    "id": "c0466",
+    "translation": "Tamam. Güzel.",
+    "expected_values": [
+      "tamam guzel",
+      "tamam super"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "08373bf7ee2ff3a7": {
+    "id": "c0467",
+    "translation": "Tamam. Güzel.",
+    "expected_values": [
+      "tamam guzel",
+      "tamam super"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "8c67c4d0765eb4d4": {
+    "id": "c0471",
+    "translation": "Hadi gidelim buradan.",
+    "expected_values": [
+      "cıkalım buradan",
+      "hadi gidelim buradan"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "897bf37980d8251f": {
+    "id": "c0472",
+    "translation": "Bir telefon etmem lazım.",
+    "expected_values": [
+      "bir telefon etmem lazım",
+      "birini aramam lazım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "5285a45fee998aba": {
+    "id": "c0474",
+    "translation": "Tamam.",
+    "expected_values": [
+      "pekala",
+      "tamam"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "71b5868580397867": {
+    "id": "c0478",
+    "translation": "Hayır, hayır, hayır, hayır, hayır, hayır.",
+    "expected_values": [
+      "hayır hayır hayır hayır hayır hayır",
+      "yok yok yok yok yok yok"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "fb3bb8501d8745dd": {
+    "id": "c0480",
+    "translation": "İspanyolca: Tanrım.",
+    "expected_values": [
+      "ispanyolca allah ım ya",
+      "ispanyolca tanrım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "1e4d45d49454159f": {
+    "id": "c0484",
+    "translation": "Sen deli misin?",
+    "expected_values": [
+      "delirdin mi",
+      "delirdin mi sen",
+      "sen deli misin"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "99720dd69fd30326": {
+    "id": "c0487",
+    "translation": "Vuhuu!",
+    "expected_values": [
+      "vuhuu",
+      "wepa"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "91a448289fb85e62": {
+    "id": "c0488",
+    "translation": "Vuhuu!",
+    "expected_values": [
+      "vuhuu",
+      "wepa"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "241b5356ddb28897": {
+    "id": "c0489",
+    "translation": "Aferin!",
+    "expected_values": [
+      "aferin",
+      "iyi is cıkardınız"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "3bc7612b39f25b0d": {
+    "id": "c0490",
+    "translation": "Aferin!",
+    "expected_values": [
+      "aferin",
+      "iyi is cıkardınız"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "bde76eef486a730f": {
+    "id": "c0495",
+    "translation": "Tamam, tabii.",
+    "expected_values": [
+      "tamam olur",
+      "tamam tabii"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "ddc21025c8613574": {
+    "id": "c0496",
+    "translation": "Tamam, tabii.",
+    "expected_values": [
+      "tamam olur",
+      "tamam tabii"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "74b3cdd61ffc2f67": {
+    "id": "c0497",
+    "translation": "Ben de öyle düşündüm.",
+    "expected_values": [
+      "ben de oyle dusundum",
+      "ben de oyle dusunmustum"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "f747a5ca772148b1": {
+    "id": "c0498",
+    "translation": "Ah!",
+    "expected_values": [
+      "aah",
+      "ah",
+      "ahh"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "db725b1204266146": {
+    "id": "c0499",
+    "translation": "Evet.",
+    "expected_values": [
+      "evet",
+      "iste bu"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "64682325bcbefb7c": {
+    "id": "c0500",
+    "translation": "Ah!",
+    "expected_values": [
+      "ah",
+      "ahh"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "195273f512ea6b51": {
+    "id": "c0501",
+    "translation": "Sen kimsin lan?",
+    "expected_values": [
+      "sen de kimsin lan",
+      "sen kimsin lan"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c56cc57c0d4d2337": {
+    "id": "c0502",
+    "translation": "Tamam, bakalım ne varmış burada.",
+    "expected_values": [
+      "tamam bakalım ne varmıs burada",
+      "tamam bakalım ne varmıs elimizde"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c12dd71540846686": {
+    "id": "c0505",
+    "translation": "Of be.",
+    "expected_values": [
+      "ah be dostum",
+      "of be"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "77c015702f81b9d4": {
+    "id": "c0506",
+    "translation": "Anladın mı ne dediğimi?",
+    "expected_values": [
+      "anladın mı",
+      "anladın mı ne dedigimi"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "1a7e57b80a4b6993": {
+    "id": "c0507",
+    "translation": "Git.",
+    "expected_values": [
+      "git",
+      "yuru"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "4581e668ab769ade": {
+    "id": "c0508",
+    "translation": "Sanırım.",
+    "expected_values": [
+      "herhalde",
+      "sanırım"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "26592d9e5b0134f9": {
+    "id": "c0509",
+    "translation": "Bunun için sağ ol.",
+    "expected_values": [
+      "bunun icin sag ol",
+      "sag ol"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "92a0b6b6217df622": {
+    "id": "c0510",
+    "translation": "Bunun için sağ ol.",
+    "expected_values": [
+      "bunun icin sag ol",
+      "sag ol"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "8236b1047b23d242": {
+    "id": "c0513",
+    "translation": "Açın.",
+    "expected_values": [
+      "acın",
+      "acın kapıyı"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "7e2fef4965835135": {
+    "id": "c0514",
+    "translation": "Temiz.",
+    "expected_values": [
+      "ortalık temiz",
+      "temiz"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "3772e7bf591f456f": {
+    "id": "c0515",
+    "translation": "Ne oluyor?",
+    "expected_values": [
+      "ne oluyor",
+      "neler oluyor"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "e63396225f08eceb": {
+    "id": "c0522",
+    "translation": "Kes sesini lan!",
+    "expected_values": [
+      "kes sesini amına koyayım",
+      "kes sesini lan"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "cfc75cae1a7710ad": {
+    "id": "c0523",
+    "translation": "Yok artık lan...",
+    "expected_values": [
+      "yok artık amına koyayım",
+      "yok artık lan"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  },
+  "c11a2099f19fa38d": {
+    "id": "c0528",
+    "translation": "Orospu çocuğu!",
+    "expected_values": [
+      "orospu cocugu",
+      "seni orospu cocugu"
+    ],
+    "reviewers": [
+      "review_one",
+      "review_two"
+    ],
+    "note": "İki bağımsız inceleme bütün varyantları aynı anlamda uyumlu buldu; mevcut bir karşılık seçildi."
+  }
+}

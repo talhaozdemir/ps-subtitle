@@ -1,0 +1,263 @@
+TAP version 13
+# Subtest: the independent reference really is the untouched pre-dedup code and dictionary
+ok 1 - the independent reference really is the untouched pre-dedup code and dictionary
+  ---
+  duration_ms: 56.9314
+  ...
+# Subtest: only redundant values disappear; every historical lookup key still returns the exact same translation
+ok 2 - only redundant values disappear; every historical lookup key still returns the exact same translation
+  ---
+  duration_ms: 544.8059
+  ...
+# Subtest: speaker names, colours, source records, ambiguity rules and all fuzzy bytes stay unchanged
+ok 3 - speaker names, colours, source records, ambiguity rules and all fuzzy bytes stay unchanged
+  ---
+  duration_ms: 353.607
+  ...
+# Subtest: all 25,637 original captions keep their complete match including speaker colours, also without colons or line breaks
+ok 4 - all 25,637 original captions keep their complete match including speaker colours, also without colons or line breaks
+  ---
+  duration_ms: 6557.1864
+  ...
+# dedup_caption_probes=81330
+# Subtest: OCR mistakes and fuzzy scores agree with the frozen original engine at multiple thresholds
+ok 5 - OCR mistakes and fuzzy scores agree with the frozen original engine at multiple thresholds
+  ---
+  duration_ms: 2704.0103
+  ...
+# dedup_noisy_probes=720
+# Subtest: an older cache cannot hide the current compacted bundled pack
+ok 6 - an older cache cannot hide the current compacted bundled pack
+  ---
+  duration_ms: 2840.5714
+  ...
+# Subtest: older applications safely retain their bundled dictionary instead of misreading the new layout
+ok 7 - older applications safely retain their bundled dictionary instead of misreading the new layout
+  ---
+  duration_ms: 1331.0251
+  ...
+# Subtest: malformed compaction metadata fails closed and a broken cache falls back safely
+ok 8 - malformed compaction metadata fails closed and a broken cache falls back safely
+  ---
+  duration_ms: 1442.2607
+  ...
+# Subtest: source sequencing covers every reviewed record without changing dictionary, names, colours or fuzzy bytes
+ok 9 - source sequencing covers every reviewed record without changing dictionary, names, colours or fuzzy bytes
+  ---
+  duration_ms: 5323.7363
+  ...
+# Subtest: disabled and freshly reset sessions preserve all original caption matches including their names and colours
+ok 10 - disabled and freshly reset sessions preserve all original caption matches including their names and colours
+  ---
+  duration_ms: 2292.0812
+  ...
+# Subtest: the real address conversation resolves Go as Söyle with Lucia and her source colour
+ok 11 - the real address conversation resolves Go as Söyle with Lucia and her source colour
+  ---
+  duration_ms: 2.2122
+  ...
+# Subtest: two distinct reliable anchors are required; repeated OCR and one anchor do not manufacture context
+ok 12 - two distinct reliable anchors are required; repeated OCR and one anchor do not manufacture context
+  ---
+  duration_ms: 7.3458
+  ...
+# Subtest: the same actor and phrase can resolve to a different meaning and colour in another scene
+ok 13 - the same actor and phrase can resolve to a different meaning and colour in another scene
+  ---
+  duration_ms: 5.1592
+  ...
+# Subtest: a missing name can be restored while a safe existing translation and explicit name win unchanged
+ok 14 - a missing name can be restored while a safe existing translation and explicit name win unchanged
+  ---
+  duration_ms: 5.4473
+  ...
+# Subtest: the same phrase returning after a blank gap cannot reuse a previous turn’s speaker
+ok 15 - the same phrase returning after a blank gap cannot reuse a previous turn’s speaker
+  ---
+  duration_ms: 5.3664
+  ...
+# Subtest: a shorter OCR fragment of the just-read caption is not treated as a fresh contextual reply
+ok 16 - a shorter OCR fragment of the just-read caption is not treated as a fresh contextual reply
+  ---
+  duration_ms: 5.9931
+  ...
+# Subtest: equally supported source scenes remain unresolved
+ok 17 - equally supported source scenes remain unresolved
+  ---
+  duration_ms: 4.6786
+  ...
+# Subtest: expiry, explicit reset, a scene change and contradictory reads discard old context
+ok 18 - expiry, explicit reset, a scene change and contradictory reads discard old context
+  ---
+  duration_ms: 4.5982
+  ...
+# Subtest: sessions are isolated and weak readings cannot seed anchors
+ok 19 - sessions are isolated and weak readings cannot seed anchors
+  ---
+  duration_ms: 4.2554
+  ...
+# Subtest: context rescues a close OCR read only inside the confirmed source window and respects exact-only mode
+ok 20 - context rescues a close OCR read only inside the confirmed source window and respects exact-only mode
+  ---
+  duration_ms: 6.0781
+  ...
+# Subtest: close competing OCR candidates retain the score margin even below the acceptance threshold
+ok 21 - close competing OCR candidates retain the score margin even below the acceptance threshold
+  ---
+  duration_ms: 6.5349
+  ...
+# Subtest: context-rescued long lines cannot become new positive anchors
+ok 22 - context-rescued long lines cannot become new positive anchors
+  ---
+  duration_ms: 8.8044
+  ...
+# Subtest: missing or malformed optional sequencing leaves the original dictionary usable
+ok 23 - missing or malformed optional sequencing leaves the original dictionary usable
+  ---
+  duration_ms: 4.7962
+  ...
+# Subtest: a cached pre-context dictionary cannot hide the bundled sequencing data
+ok 24 - a cached pre-context dictionary cannot hide the bundled sequencing data
+  ---
+  duration_ms: 3821.2598
+  ...
+# Subtest: real source replay preserves safe matches and validates rescued translations/names with and without OCR names
+ok 25 - real source replay preserves safe matches and validates rescued translations/names with and without OCR names
+  ---
+  duration_ms: 2991.9867
+  ...
+# context_source_replays=[{"named":true,"added":189,"namedOnly":0,"safe":25325},{"named":false,"added":2390,"namedOnly":742,"safe":22295}]
+# Subtest: the short-reply rewind case never attaches Lucia to Jason’s second identical answer
+ok 26 - the short-reply rewind case never attaches Lucia to Jason’s second identical answer
+  ---
+  duration_ms: 1.024
+  ...
+# Subtest: API fallback cache/pending jobs are scoped to context and lifecycle reset without changing API input
+ok 27 - API fallback cache/pending jobs are scoped to context and lifecycle reset without changing API input
+  ---
+  duration_ms: 6.6226
+  ...
+# Subtest: every different common pair has one explicit reviewed decision
+ok 28 - every different common pair has one explicit reviewed decision
+  ---
+  duration_ms: 254.7016
+  ...
+# Subtest: repeated scenes and global synonym resolutions have complete independent audits
+ok 29 - repeated scenes and global synonym resolutions have complete independent audits
+  ---
+  duration_ms: 21.8057
+  ...
+# Subtest: all 25,637 source records and every colour occurrence survive verbatim
+ok 30 - all 25,637 source records and every colour occurrence survive verbatim
+  ---
+  duration_ms: 530.504
+  ...
+# Subtest: every emitted source key matches its selected translation in the real matcher
+ok 31 - every emitted source key matches its selected translation in the real matcher
+  ---
+  duration_ms: 1180.5622
+  ...
+# Subtest: legacy-only entries and segments retain their translation and fuzzy signature
+ok 32 - legacy-only entries and segments retain their translation and fuzzy signature
+  ---
+  duration_ms: 1337.383
+  ...
+# Subtest: the rebuilt fuzzy index searches new source text with the existing similarity engine
+ok 33 - the rebuilt fuzzy index searches new source text with the existing similarity engine
+  ---
+  duration_ms: 116.7395
+  ...
+# Subtest: ambiguous known keys cannot be revived through the legacy table or OCR repair
+ok 34 - ambiguous known keys cannot be revived through the legacy table or OCR repair
+  ---
+  duration_ms: 2473.2116
+  ...
+# Subtest: a cached pre-merge pack cannot shadow the new bundled dictionary
+ok 35 - a cached pre-merge pack cannot shadow the new bundled dictionary
+  ---
+  duration_ms: 2484.6786
+  ...
+# Subtest: legacy packs still load and a broken cache falls back to the bundled merged pack
+ok 36 - legacy packs still load and a broken cache falls back to the bundled merged pack
+  ---
+  duration_ms: 2619.4987
+  ...
+# Subtest: pack-first feed displays local text without issuing an API request
+ok 37 - pack-first feed displays local text without issuing an API request
+  ---
+  duration_ms: 1.2593
+  ...
+# Subtest: old settings default to 3; only the ten integer levels are accepted
+ok 38 - old settings default to 3; only the ten integer levels are accepted
+  ---
+  duration_ms: 2.2296
+  ...
+# Subtest: saving every level preserves other settings and survives service restart
+ok 39 - saving every level preserves other settings and survives service restart
+  ---
+  duration_ms: 15.949
+  ...
+# Subtest: a live stream receives the new rate and invalid requests leave it unchanged
+ok 40 - a live stream receives the new rate and invalid requests leave it unchanged
+  ---
+  duration_ms: 2.058
+  ...
+# Subtest: a failed save does not change the running or stored rate
+ok 41 - a failed save does not change the running or stored rate
+  ---
+  duration_ms: 2.9446
+  ...
+# Subtest: old appearance settings default off and the new preference validates without changing other fields
+ok 42 - old appearance settings default off and the new preference validates without changing other fields
+  ---
+  duration_ms: 2.4638
+  ...
+# Subtest: the real service persists the preference across restarts and rejects invalid saves
+ok 43 - the real service persists the preference across restarts and rejects invalid saves
+  ---
+  duration_ms: 7.2756
+  ...
+# Subtest: real merged keys carry their own speaker and two Cop colours remain separate
+ok 44 - real merged keys carry their own speaker and two Cop colours remain separate
+  ---
+  duration_ms: 2283.3408
+  ...
+# Subtest: equal translations do not transfer names, and colours belong to each occurrence
+ok 45 - equal translations do not transfer names, and colours belong to each occurrence
+  ---
+  duration_ms: 0.7671
+  ...
+# Subtest: unmeasured colour families work and unresolved colours stay neutral
+ok 46 - unmeasured colour families work and unresolved colours stay neutral
+  ---
+  duration_ms: 0.5411
+  ...
+# Subtest: OCR repair and fuzzy matches retain source identity without reverse-matching Turkish
+ok 47 - OCR repair and fuzzy matches retain source identity without reverse-matching Turkish
+  ---
+  duration_ms: 18.3616
+  ...
+# Subtest: pack feed forwards names separately; unverified labels are removed without removing dialogue colons
+ok 48 - pack feed forwards names separately; unverified labels are removed without removing dialogue colons
+  ---
+  duration_ms: 0.8395
+  ...
+# Subtest: renderer toggles names while keeping body white and treating HTML/CSS as untrusted data
+ok 49 - renderer toggles names while keeping body white and treating HTML/CSS as untrusted data
+  ---
+  duration_ms: 0.9312
+  ...
+# Subtest: the actual settings screen previews, saves, cancels and restores the preference
+ok 50 - the actual settings screen previews, saves, cancels and restores the preference
+  ---
+  duration_ms: 7.9957
+  ...
+1..50
+# tests 50
+# suites 0
+# pass 50
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 18376.7139

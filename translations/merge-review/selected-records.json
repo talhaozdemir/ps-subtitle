@@ -1,0 +1,3089 @@
+[
+  {
+    "ref": "1:p01-00010",
+    "choice": "old",
+    "english": "Stranger: Oh, really? How so?",
+    "previous": "Yabancı: Öyle mi? Neymiş o?",
+    "translation": "Yabancı: Öyle mi? Nasıl yani?",
+    "reviews": [
+      "r00011"
+    ]
+  },
+  {
+    "ref": "1:p01-00029",
+    "choice": "old",
+    "english": "Stranger: Why? Crazy?\nI said that's enough.",
+    "previous": "Yabancı: Niye? Deli?\nYeter dedim.",
+    "translation": "Yabancı: Niye? Deli mi? Yeter dedim.",
+    "reviews": [
+      "r00031",
+      "r00032"
+    ]
+  },
+  {
+    "ref": "1:p01-00044",
+    "choice": "old",
+    "english": "Stranger: She's tryin' to become a real estate broker.",
+    "previous": "Yabancı: Emlakçılığa girmeye çalışıyor.",
+    "translation": "Yabancı: Emlakçı olmaya çalışıyor.",
+    "reviews": [
+      "r00044"
+    ]
+  },
+  {
+    "ref": "1:p01-00061",
+    "choice": "old",
+    "english": "Lucia: You come back all keyed up, with a roll of bills.",
+    "previous": "Lucia: Dönünce yerinde duramıyorsun, elinde de tomarla para.",
+    "translation": "Lucia: Bir tomar parayla, iyice gaza gelmiş hâlde dönüyorsun.",
+    "reviews": [
+      "r00060"
+    ]
+  },
+  {
+    "ref": "1:p01-00090",
+    "choice": "old",
+    "english": "Yolanda: Lu, you staring at that window again?",
+    "previous": "Yolanda: Lu, yine o pencereye mi bakıyorsun?",
+    "translation": "Yolanda: Lu, yine o pencereye mi dalıp gittin?",
+    "reviews": [
+      "r00084"
+    ]
+  },
+  {
+    "ref": "1:p01-00141",
+    "choice": "old",
+    "english": "Shayna: You gotta drive careful out there, bro.",
+    "previous": "Shayna: Dışarıda araba kullanırken dikkat edeceksin, dostum.",
+    "translation": "Shayna: Dışarıda dikkatli araba sürmen lazım, kardeş.",
+    "reviews": [
+      "r00125",
+      "r00126"
+    ]
+  },
+  {
+    "ref": "1:p01-00159",
+    "choice": "old",
+    "english": "CO Wilson: and you ain't the only one asking.",
+    "previous": "Gardiyan Wilson: merak eden bir tek sen değilsin.",
+    "translation": "Gardiyan Wilson: onu soran bir tek sen değilsin.",
+    "reviews": [
+      "r00153",
+      "r00154"
+    ]
+  },
+  {
+    "ref": "1:p01-00169",
+    "choice": "old",
+    "english": "CO Wilson: Just tell her what she needs to know,",
+    "previous": "Gardiyan Wilson: Sadece bilmesi gerekenleri söyle,",
+    "translation": "Gardiyan Wilson: Bilmesi gerekenleri anlat yeter,",
+    "reviews": [
+      "r00165",
+      "r00166"
+    ]
+  },
+  {
+    "ref": "1:p01-00192",
+    "choice": "old",
+    "english": "Stefanie: You just need to help me understand you, okay?",
+    "previous": "Stefanie: Tek yapman gereken, seni anlamama yardım etmek. Tamam mı?",
+    "translation": "Stefanie: Seni anlamama yardım etmen yeter, tamam mı?",
+    "reviews": [
+      "r00201"
+    ]
+  },
+  {
+    "ref": "1:p01-00201",
+    "choice": "old",
+    "english": "Lucia: I got a sign.",
+    "previous": "Lucia: Bir işaret geldi.",
+    "translation": "Lucia: Bir işaret aldım.",
+    "reviews": [
+      "r00208"
+    ]
+  },
+  {
+    "ref": "1:s01-00671000",
+    "choice": "old",
+    "english": "Lucia: Hey, I just realized, that I left my money in my car.",
+    "previous": "Lucia: Selam, paramı arabada unuttuğumu yeni fark ettim.",
+    "translation": "Lucia: Hey, şimdi fark ettim, paramı arabamda bırakmışım.",
+    "reviews": [
+      "r00209",
+      "r00210"
+    ]
+  },
+  {
+    "ref": "1:s01-00723500",
+    "choice": "old",
+    "english": "Lucia: This better be all of it.",
+    "previous": "Lucia: Umarım hepsi budur.",
+    "translation": "Lucia: Hepsi bu olsa iyi olur.",
+    "reviews": [
+      "r00230"
+    ]
+  },
+  {
+    "ref": "1:s01-00824000",
+    "choice": "old",
+    "english": "Manager: I got frijoles burning back there.",
+    "previous": "Müdür: Arkada fasulye yanıyor benim.",
+    "translation": "Müdür: Arkada ocakta fasulyem yanıyor.",
+    "reviews": [
+      "r00261"
+    ]
+  },
+  {
+    "ref": "1:s01-00844000",
+    "choice": "old",
+    "english": "Stefanie: Honey. you don't know how many beds we need to free\nup.",
+    "previous": "Stefanie: Canım, kaç yatak boşaltmamız gerektiğini bilmiyorsun sen.",
+    "translation": "Stefanie: Tatlım, kaç yatağı boşaltmamız gerektiğini bir bilsen.",
+    "reviews": [
+      "r00270"
+    ]
+  },
+  {
+    "ref": "1:s01-00875500",
+    "choice": "old",
+    "english": "Stefanie: you've put the father's address as your intended\nresidence:",
+    "previous": "Stefanie: kalacağın adres olarak babasının adresini yazmışsın.",
+    "translation": "Stefanie: kalmayı düşündüğün yer olarak çocuğun babasının adresini yazmışsın:",
+    "reviews": [
+      "r00279"
+    ]
+  },
+  {
+    "ref": "1:p01-00267",
+    "choice": "old",
+    "english": "Cal: That is what I'm telling you, man.",
+    "previous": "Cal: Ben de sana bunu diyorum, dostum.",
+    "translation": "Cal: Sana onu diyorum işte, dostum.",
+    "reviews": [
+      "r00288"
+    ]
+  },
+  {
+    "ref": "1:s01-00997000",
+    "choice": "old",
+    "english": "Cal: A couple of key bumps on a night out.\nHand jobs from fat chicks.",
+    "previous": "Cal: Gece çıkınca iki fırt çekmek.\nŞişman kızlara otuzbir çektirmek.",
+    "translation": "Cal: Gece dışarı çıkınca anahtar ucundan bir iki doz. Şişman hatunlara otuz bir çektirmek.",
+    "reviews": [
+      "r00324",
+      "r00325"
+    ]
+  },
+  {
+    "ref": "1:s01-01014500",
+    "choice": "old",
+    "english": "Cal: Hey, do you know what road signs are all about?",
+    "previous": "Cal: Yol tabelalarının asıl amacını biliyor musun?",
+    "translation": "Cal: Hey, trafik tabelalarının ne işe yaradığını biliyor musun?",
+    "reviews": [
+      "r00332",
+      "r00333"
+    ]
+  },
+  {
+    "ref": "1:s01-01020000",
+    "choice": "old",
+    "english": "Cal: Dude, I been running stop signs my whole life and look at me.",
+    "previous": "Cal: Abi, ömrüm boyunca dur tabelalarında durmadım. Bak bana.",
+    "translation": "Cal: Dostum, hayatım boyunca dur tabelalarını takmadım, bak bana.",
+    "reviews": [
+      "r00336",
+      "r00337"
+    ]
+  },
+  {
+    "ref": "1:s01-01021500",
+    "choice": "old",
+    "english": "Cal: Dude, I been running stop signs my whole life and look at me.",
+    "previous": "Cal: Abi, ömrüm boyunca dur tabelalarında durmadım. Bak bana.",
+    "translation": "Cal: Dostum, hayatım boyunca dur tabelalarını takmadım, bak bana.",
+    "reviews": [
+      "r00336",
+      "r00337"
+    ]
+  },
+  {
+    "ref": "1:p01-00299",
+    "choice": "old",
+    "english": "Donnie: Uh... A-okay! We are just, uh.. moments away, gentlemen.",
+    "previous": "Donnie: Şey... Sapasağlamım! Az kaldı beyler, geliyoruz.",
+    "translation": "Donnie: Iı... gayet iyiyim! İşte, ıı... varmamıza saniyeler kaldı, beyler.",
+    "reviews": [
+      "r00351",
+      "r00352"
+    ]
+  },
+  {
+    "ref": "1:s01-01103500",
+    "choice": "old",
+    "english": "Donnie: I'm 'bout to make the drop.",
+    "previous": "Donnie: Paketi bırakıyorum.",
+    "translation": "Donnie: Teslimatı yapmak üzereyim.",
+    "reviews": [
+      "r00363"
+    ]
+  },
+  {
+    "ref": "1:s01-01178000",
+    "choice": "old",
+    "english": "Cal: You better call her and book in a conjugal 'cause",
+    "previous": "Cal: Kızı ara da bir özel görüş ayarla, çünkü...",
+    "translation": "Cal: Sen iyisi mi onu ara da bir pembe oda görüşmesi ayarla, çünkü",
+    "reviews": [
+      "r00385",
+      "r00386"
+    ]
+  },
+  {
+    "ref": "1:p01-00338",
+    "choice": "old",
+    "english": "Cal: I'm getting some pent up vibes over here.",
+    "previous": "Cal: Üstünde bir birikmişlik seziyorum.",
+    "translation": "Cal: burada birikmiş bir cinsel gerginlik hissediyorum.",
+    "reviews": [
+      "r00387",
+      "r00388"
+    ]
+  },
+  {
+    "ref": "1:s01-01180500",
+    "choice": "old",
+    "english": "Cal: I'm getting some pent up vibes over here.",
+    "previous": "Cal: Üstünde bir birikmişlik seziyorum.",
+    "translation": "Cal: burada birikmiş bir cinsel gerginlik hissediyorum.",
+    "reviews": [
+      "r00387",
+      "r00388"
+    ]
+  },
+  {
+    "ref": "1:p01-00353",
+    "choice": "old",
+    "english": "Jason: Alright, come take the wheel.",
+    "previous": "Jason: Tamam, gel de dümeni al.",
+    "translation": "Jason: Tamam, gel dümene geç.",
+    "reviews": [
+      "r00410"
+    ]
+  },
+  {
+    "ref": "1:s01-01277500",
+    "choice": "old",
+    "english": "Donnie: You got the... moolah?",
+    "previous": "Donnie: Şey... Paracıklar geldi mi?",
+    "translation": "Donnie: Mangırlar... sende mi?",
+    "reviews": [
+      "r00419"
+    ]
+  },
+  {
+    "ref": "1:s01-01292000",
+    "choice": "old",
+    "english": "Kingfishers: Double check.",
+    "previous": "Kingfishers: Bir daha kontrol edelim.",
+    "translation": "Kingfishers: Bir daha kontrol et.",
+    "reviews": [
+      "r00429"
+    ]
+  },
+  {
+    "ref": "1:p01-00384",
+    "choice": "old",
+    "english": "Cal: They, like, piss blood, and torture baby animals.",
+    "previous": "Cal: Bunlar kan işeyip hayvan yavrularına işkence yapıyor.",
+    "translation": "Cal: Adamlar kan işiyor, yavru hayvanlara işkence ediyor falan.",
+    "reviews": [
+      "r00462"
+    ]
+  },
+  {
+    "ref": "1:p01-00390",
+    "choice": "old",
+    "english": "Jason: I'll go get Donnie. Don't get out of the boat.",
+    "previous": "Jason: Ben Donnie’yi alacağım. Tekneden çıkma.",
+    "translation": "Jason: Gidip Donnie'yi alacağım. Tekneden çıkma.",
+    "reviews": [
+      "r00475"
+    ]
+  },
+  {
+    "ref": "1:p01-00415",
+    "choice": "old",
+    "english": "Kingfishers: What's doin'?",
+    "previous": "Kingfishers: Neler oluyor?",
+    "translation": "Kingfishers: Naber?",
+    "reviews": [
+      "r00491"
+    ]
+  },
+  {
+    "ref": "1:p01-00419",
+    "choice": "old",
+    "english": "Donnie: Hey, that radio tower still giving you problems?",
+    "previous": "Donnie: Hey, o telsiz kulesi hâlâ sorun çıkarıyor mu?",
+    "translation": "Donnie: Hey, o radyo kulesi hâlâ sorun mu çıkarıyor?",
+    "reviews": [
+      "r00498",
+      "r00499"
+    ]
+  },
+  {
+    "ref": "1:p01-00424",
+    "choice": "old",
+    "english": "Donnie: Hey, you still got those tigers?",
+    "previous": "Donnie: Hey, o kaplanlar hâlâ duruyor mu?",
+    "translation": "Donnie: Hey, o kaplanlar hâlâ sende mi?",
+    "reviews": [
+      "r00504"
+    ]
+  },
+  {
+    "ref": "1:p01-00442",
+    "choice": "old",
+    "english": "Kingfishers: They got Donnie in the shack.",
+    "previous": "Kingfishers: Donnie’yi kulübeye almışlar.",
+    "translation": "Kingfishers: Donnie'yi kulübede tutuyorlar.",
+    "reviews": [
+      "r00522",
+      "r00523"
+    ]
+  },
+  {
+    "ref": "1:s01-01669000",
+    "choice": "old",
+    "english": "Donnie: I'm following your orders.",
+    "previous": "Donnie: Senin emrindeyim.",
+    "translation": "Donnie: Emirlerini yerine getiriyorum.",
+    "reviews": [
+      "r00577"
+    ]
+  },
+  {
+    "ref": "1:p01-00543",
+    "choice": "old",
+    "english": "Jason: Yeah, I- I don't know the details,",
+    "previous": "Jason: Evet, ayrıntıları zaten bilmiyorum,",
+    "translation": "Jason: Evet, de- detayları bilmiyorum,",
+    "reviews": [
+      "r00628"
+    ]
+  },
+  {
+    "ref": "1:p01-00551",
+    "choice": "old",
+    "english": "Donnie: Just head back to Brian's, she'll get us there.",
+    "previous": "Donnie: Sen Brian’a doğru git, bizi oraya götürür.",
+    "translation": "Donnie: Brian'ın oraya dön yeter, bizi oraya götürür.",
+    "reviews": [
+      "r00632"
+    ]
+  },
+  {
+    "ref": "1:p01-00559",
+    "choice": "old",
+    "english": "Donnie: Alright, here we go,\njust cruise on over and pull up next to the dock.",
+    "previous": "Donnie: Tamam, işte geldik.\nYavaşça git, iskelenin yanına yanaş.",
+    "translation": "Donnie: Tamam, hadi bakalım, sakince ilerle ve rıhtımın yanına yanaş.",
+    "reviews": [
+      "r00645",
+      "r00646"
+    ]
+  },
+  {
+    "ref": "1:p01-00567",
+    "choice": "old",
+    "english": "Jason: Yeah, don't worry. You look great.",
+    "previous": "Jason: Boş ver. Gayet iyi görünüyorsun.",
+    "translation": "Jason: Yok, merak etme. Harika görünüyorsun.",
+    "reviews": [
+      "r00652"
+    ]
+  },
+  {
+    "ref": "1:p01-00581",
+    "choice": "old",
+    "english": "Donnie: It's just cosmetic. Yeah!\nCosmetic. Yeah?",
+    "previous": "Donnie: Sadece dışı çizilmiş. Evet!\nDışı, öyle mi?",
+    "translation": "Donnie: Sadece dışı hasarlı. Evet! Dışı. Öyle mi?",
+    "reviews": [
+      "r00665"
+    ]
+  },
+  {
+    "ref": "1:p01-00589",
+    "choice": "old",
+    "english": "Donnie: Y-yeah, I-I radioed soon as shit went sour. Right?",
+    "previous": "Donnie: E-evet, işler sarpa sarınca hemen telsizden seslendim. Değil mi?",
+    "translation": "Donnie: E-evet, i-işler sarpa sarar sarmaz telsizden haber verdim. Değil mi?",
+    "reviews": [
+      "r00674"
+    ]
+  },
+  {
+    "ref": "1:s01-02114000",
+    "choice": "old",
+    "english": "Donnie: Y-yeah, I-I radioed soon as shit went sour. Right?",
+    "previous": "Donnie: E-evet, işler sarpa sarınca hemen telsizden seslendim. Değil mi?",
+    "translation": "Donnie: E-evet, i-işler sarpa sarar sarmaz telsizden haber verdim. Değil mi?",
+    "reviews": [
+      "r00674"
+    ]
+  },
+  {
+    "ref": "1:p01-00600",
+    "choice": "old",
+    "english": "Donnie: I didn't fuck up happy hour, the Kingfishers did.\nMm-hmm.",
+    "previous": "Donnie: Keyif saatini ben bok etmedim, Kingfishers etti.\nHı hı.",
+    "translation": "Donnie: İndirimli içki saatini ben bok etmedim, Kingfishers etti. Hı hı.",
+    "reviews": [
+      "r00686",
+      "r00687"
+    ]
+  },
+  {
+    "ref": "1:p01-00604",
+    "choice": "old",
+    "english": "Brian: Ain't fucking chill, Jason.",
+    "previous": "Brian: Hiç hoş değil, Jason.",
+    "translation": "Brian: Hiç hoş değil amına koyayım, Jason.",
+    "reviews": [
+      "r00691"
+    ]
+  },
+  {
+    "ref": "1:p01-00613",
+    "choice": "old",
+    "english": "Brian: Lori wants you to come by for Sangria.",
+    "previous": "Brian: Lori, Sangria içmeye uğramanı istiyor.",
+    "translation": "Brian: Lori seni Sangria içmeye bekliyor.",
+    "reviews": [
+      "r00700"
+    ]
+  },
+  {
+    "ref": "1:p01-00631",
+    "choice": "old",
+    "english": "Cal: as soon as I heard gunshots I had to bail.",
+    "previous": "Cal: silah sesini duyunca hemen sıvışmam gerekti.",
+    "translation": "Cal: silah seslerini duyar duymaz tüymem gerekti.",
+    "reviews": [
+      "r00718"
+    ]
+  },
+  {
+    "ref": "1:s01-02238500",
+    "choice": "old",
+    "english": "Cal: as soon as I heard gunshots I had to bail.",
+    "previous": "Cal: silah sesini duyunca hemen sıvışmam gerekti.",
+    "translation": "Cal: silah seslerini duyar duymaz tüymem gerekti.",
+    "reviews": [
+      "r00718"
+    ]
+  },
+  {
+    "ref": "1:p01-00633",
+    "choice": "old",
+    "english": "Cal: This is not the job I signed up for. Not even close.",
+    "previous": "Cal: Ben bu işe girmemiştim. Alakası bile yok.",
+    "translation": "Cal: Ben bu işe girerken böyle bir şeye razı olmadım. Alakası bile yok.",
+    "reviews": [
+      "r00719",
+      "r00720"
+    ]
+  },
+  {
+    "ref": "1:p01-00663",
+    "choice": "corrected",
+    "english": "Jason: You still living with your sister and her husband?",
+    "previous": "Jason: Hâlâ kız kardeşinle kocasında mı kalıyorsun?",
+    "translation": "Jason: Hâlâ kız kardeşinle kocasının yanında mı kalıyorsun?",
+    "reviews": [
+      "r00747"
+    ]
+  },
+  {
+    "ref": "1:s01-02497000",
+    "choice": "old",
+    "english": "Lucia: Hey, you there?",
+    "previous": "Lucia: Hey, orada mısın?",
+    "translation": "Lucia: Alo, orada mısın?",
+    "reviews": [
+      "r00764"
+    ]
+  },
+  {
+    "ref": "1:p01-00728",
+    "choice": "old",
+    "english": "Lucia: That's a whole, different thing. I- I,\nI'll tell you when I see you.",
+    "previous": "Lucia: O bambaşka bir şey. Ben...\nGörüşünce anlatırım.",
+    "translation": "Lucia: O apayrı bir konu. B-ben, görüşünce anlatırım.",
+    "reviews": [
+      "r00794",
+      "r00795"
+    ]
+  },
+  {
+    "ref": "1:s01-02657500",
+    "choice": "old",
+    "english": "Jason: Hey, I'm just lookin' after the place, man.",
+    "previous": "Jason: Hey, eve bakıyorum sadece abi.",
+    "translation": "Jason: Ben sadece eve göz kulak oluyorum, dostum.",
+    "reviews": [
+      "r00802"
+    ]
+  },
+  {
+    "ref": "1:s01-02667000",
+    "choice": "old",
+    "english": "Brian: I got some properties with paying tenants...",
+    "previous": "Brian: Bir de kira ödeyen kiracıların oturduğu yerlerim var...",
+    "translation": "Brian: Kira ödeyen kiracıları olan birkaç mülküm var...",
+    "reviews": [
+      "r00804",
+      "r00805"
+    ]
+  },
+  {
+    "ref": "1:s01-03308500",
+    "choice": "old",
+    "english": "Andrew: The Hawk & Little there, the Mediator, hell of a carbine.",
+    "previous": "Andrew: Şu Hawk & Little, Mediator modeli.\nMüthiş bir kısa namlulu tüfek.",
+    "translation": "Andrew: Şuradaki Hawk & Little, Mediator, taş gibi bir karabina.",
+    "reviews": [
+      "r00848",
+      "r00849"
+    ]
+  },
+  {
+    "ref": "1:s01-03372500",
+    "choice": "old",
+    "english": "Andrew: Mag, white light, muzzle brake, sight.",
+    "previous": "Andrew: Şarjör, fener, namlu freni, nişangâh.",
+    "translation": "Andrew: Şarjör, beyaz ışıklı fener, namlu freni, nişangâh.",
+    "reviews": [
+      "r00862",
+      "r00863"
+    ]
+  },
+  {
+    "ref": "1:p01-00810",
+    "choice": "old",
+    "english": "Donnie: Sounds like you got a little sloppy there, hoss.\nKeep your head on the swivel, 'kay? Stay in the game.",
+    "previous": "Donnie: Biraz dikkatsiz davranmışsın sanki, koçum.\nGözün dört açsın, tamam mı? Oyundan kopma.",
+    "translation": "Donnie: Görünüşe göre biraz dalgınlık etmişsin, evlat. Çevrene dikkat et, tamam mı? Oyunda kal.",
+    "reviews": [
+      "r00873"
+    ]
+  },
+  {
+    "ref": "1:s01-03788500",
+    "choice": "old",
+    "english": "Joey: Rod bearings, brother.\nI could hear 'em from down the street.",
+    "previous": "Joey: Kol yatakları abi.\nSokağın başından duydum.",
+    "translation": "Joey: Biyel yatakları, kardeşim. Sokağın öbür ucundan duyabiliyordum.",
+    "reviews": [
+      "r00882",
+      "r00883"
+    ]
+  },
+  {
+    "ref": "1:p01-00862",
+    "choice": "old",
+    "english": "Jason: Man, dead to rights.",
+    "previous": "Jason: Tam isabet, dostum.",
+    "translation": "Jason: Tam üstüne bastın, dostum.",
+    "reviews": [
+      "r00886"
+    ]
+  },
+  {
+    "ref": "1:s01-03811000",
+    "choice": "old",
+    "english": "Joey: How's that sound to you?",
+    "previous": "Joey: Nasıl, anlaştık mı?",
+    "translation": "Joey: Ne dersin?",
+    "reviews": [
+      "r00890",
+      "r00891"
+    ]
+  },
+  {
+    "ref": "1:s01-03821500",
+    "choice": "old",
+    "english": "Joey: Go ahead, pull up in the shop.",
+    "previous": "Joey: Hadi, arabayı dükkâna çek.",
+    "translation": "Joey: Hadi, arabayı atölyeye çek.",
+    "reviews": [
+      "r00896"
+    ]
+  },
+  {
+    "ref": "1:p01-00872",
+    "choice": "old",
+    "english": "Joey: Alright, alright, let's fix her up.",
+    "previous": "Joey: Tamam, tamam. Hadi toparlayalım şunu.",
+    "translation": "Joey: Tamam, tamam, şunu adam edelim.",
+    "reviews": [
+      "r00897"
+    ]
+  },
+  {
+    "ref": "1:s01-03849500",
+    "choice": "old",
+    "english": "Joey: Like I said, I'll throw in a respray too.",
+    "previous": "Joey: Dediğim gibi, bir de bedavaya boya atarım.",
+    "translation": "Joey: Dediğim gibi, bir de boya benden.",
+    "reviews": [
+      "r00902",
+      "r00903"
+    ]
+  },
+  {
+    "ref": "1:s01-04000000",
+    "choice": "old",
+    "english": "Jason: Hey, so I'm at that boutique.",
+    "previous": "Jason: Selam, butiğe geldim.",
+    "translation": "Jason: Hey, ben şu butikteyim.",
+    "reviews": [
+      "r00913"
+    ]
+  },
+  {
+    "ref": "1:s01-04003000",
+    "choice": "old",
+    "english": "Brian: ask those dorks how many windchimes they sold since they\nmoved in there.",
+    "previous": "Brian: Şu ineklere bir sor,\noraya taşındıklarından beri kaç rüzgâr çanı satmışlar.",
+    "translation": "Brian: Sor şu eziklere, oraya taşındıklarından beri kaç rüzgâr çanı satmışlar.",
+    "reviews": [
+      "r00914",
+      "r00915"
+    ]
+  },
+  {
+    "ref": "1:s01-04080000",
+    "choice": "old",
+    "english": "Clerk: Whoa, hey, hey... Chill, my guy!",
+    "previous": "Tezgâhtar: Hop, hey... Sakin ol dostum!",
+    "translation": "Tezgâhtar: Hop, hey, hey... Sakin ol, dostum!",
+    "reviews": [
+      "r00933"
+    ]
+  },
+  {
+    "ref": "1:s01-04089500",
+    "choice": "old",
+    "english": "Clerk: I don't have the rent. Just- just take the acid.",
+    "previous": "Tezgâhtar: Kira parası yok. Asidi al işte!",
+    "translation": "Tezgâhtar: Kira param yok. Sadece- sadece asidi al.",
+    "reviews": [
+      "r00936"
+    ]
+  },
+  {
+    "ref": "1:p01-00988",
+    "choice": "old",
+    "english": "Jason: Brian said something about picking up a payment?",
+    "previous": "Jason: Brian bir ödeme almamız gerektiğini söyledi?",
+    "translation": "Jason: Brian bir ödeme almayla ilgili bir şey mi dedi?",
+    "reviews": [
+      "r00968"
+    ]
+  },
+  {
+    "ref": "1:s01-04553000",
+    "choice": "old",
+    "english": "Cal: This guy runs a grow house and pays Brian in weed.",
+    "previous": "Cal: Adam ot yetiştiriyor, Brian'a da ödemeyi otla yapıyor.",
+    "translation": "Cal: Adam evde ot yetiştiriyor, Brian'a da ödemeyi otla yapıyor.",
+    "reviews": [
+      "r00980",
+      "r00981"
+    ]
+  },
+  {
+    "ref": "1:s01-04610000",
+    "choice": "old",
+    "english": "Cal: Be honest, you were contracting for Merryweather and the\nIAA.",
+    "previous": "Cal: Dürüst ol, Merryweather'la IAA için çalışıyordun.",
+    "translation": "Cal: Dürüst ol, Merryweather ve IAA için sözleşmeli çalışıyordun.",
+    "reviews": [
+      "r01008",
+      "r01009"
+    ]
+  },
+  {
+    "ref": "1:s01-04617000",
+    "choice": "old",
+    "english": "Jason: There was a group for everyone comin' out the army that\ndidn't get into Merryweather,",
+    "previous": "Jason: Ordudan ayrılıp Merryweather'a giremeyenlerin\ngittiği bir grup vardı.",
+    "translation": "Jason: Ordudan ayrılıp Merryweather'a giremeyenler için bir grup vardı.",
+    "reviews": [
+      "r01012",
+      "r01013"
+    ]
+  },
+  {
+    "ref": "1:s01-04975500",
+    "choice": "old",
+    "english": "Brian: in just about every facility in Mariana County.",
+    "previous": "Brian: Mariana County'deki neredeyse her depoda bulunur.",
+    "translation": "Brian: Mariana County'deki hemen her tesiste.",
+    "reviews": [
+      "r01056"
+    ]
+  },
+  {
+    "ref": "1:s01-05611000",
+    "choice": "old",
+    "english": "Shirley: Sorry about that, hon.\nHer anxiety is just through the roof these days",
+    "previous": "Shirley: Kusura bakma canım.\nBu aralar acayip huzursuz.",
+    "translation": "Shirley: Kusura bakma tatlım. Bu aralar kaygısı tavan yapmış durumda.",
+    "reviews": [
+      "r01085"
+    ]
+  },
+  {
+    "ref": "1:s01-05946500",
+    "choice": "old",
+    "english": "Mandy: Not my fault he gets the worst appliances ever.",
+    "previous": "Mandy: Gidip en berbat aletleri alması benim suçum değil.",
+    "translation": "Mandy: En berbat ev aletlerini alması benim suçum değil.",
+    "reviews": [
+      "r01121",
+      "r01122"
+    ]
+  },
+  {
+    "ref": "1:s01-06003500",
+    "choice": "old",
+    "english": "Mandy: So, how've you been? Haven't seen you in here, in like,\na hundred years.",
+    "previous": "Mandy: Ee, nasılsın? Seni burada görmeyeli\nsanki yüz yıl oldu.",
+    "translation": "Mandy: Nasılsın bu arada? Seni burada görmeyeli yüzyıl olmuş resmen.",
+    "reviews": [
+      "r01144",
+      "r01145"
+    ]
+  },
+  {
+    "ref": "1:s01-06006000",
+    "choice": "old",
+    "english": "Mandy: So, how've you been? Haven't seen you in here, in like,\na hundred years.",
+    "previous": "Mandy: Ee, nasılsın? Seni burada görmeyeli\nsanki yüz yıl oldu.",
+    "translation": "Mandy: Nasılsın bu arada? Seni burada görmeyeli yüzyıl olmuş resmen.",
+    "reviews": [
+      "r01144",
+      "r01145"
+    ]
+  },
+  {
+    "ref": "1:p01-01039",
+    "choice": "old",
+    "english": "Mandy: Ugh, I know, I've been so busy, too. So much... fun stuff.",
+    "previous": "Mandy: Of, biliyorum, ben de çok yoğundum. Bir sürü... eğlenceli iş.",
+    "translation": "Mandy: Öf, biliyorum, ben de çok yoğundum. Bir sürü... eğlenceli şey.",
+    "reviews": [
+      "r01148",
+      "r01149"
+    ]
+  },
+  {
+    "ref": "1:s01-06018500",
+    "choice": "old",
+    "english": "Mandy: I'm Chief Director of Product now.",
+    "previous": "Mandy: Artık ürün direktörüyüm.",
+    "translation": "Mandy: Artık Ürün Baş Direktörüyüm.",
+    "reviews": [
+      "r01152",
+      "r01153"
+    ]
+  },
+  {
+    "ref": "1:s01-06078000",
+    "choice": "old",
+    "english": "Mandy: Umm... no? Like what?",
+    "previous": "Mandy: Şey... Yok? Ne olabilir ki?",
+    "translation": "Mandy: Iıı... yok? Ne gibi?",
+    "reviews": [
+      "r01174",
+      "r01175"
+    ]
+  },
+  {
+    "ref": "1:s01-06211500",
+    "choice": "old",
+    "english": "Jason: You're taking this to another level, Mandy.",
+    "previous": "Jason: İşi iyice abartıyorsun Mandy.",
+    "translation": "Jason: İşin dozunu iyice kaçırıyorsun Mandy.",
+    "reviews": [
+      "r01197",
+      "r01198"
+    ]
+  },
+  {
+    "ref": "1:p01-01078",
+    "choice": "old",
+    "english": "Bert: Inconsiderate fucking commie fucktards, that's who.",
+    "previous": "Bert: Düşüncesiz komünist gerizekâlılar, işte onlar.",
+    "translation": "Bert: Başkalarını siklemeyen, sikik komünist gerizekâlılar, kim olacak.",
+    "reviews": [
+      "r01207",
+      "r01208"
+    ]
+  },
+  {
+    "ref": "1:p01-01081",
+    "choice": "old",
+    "english": "Bert: It's about to get real creative out here, folks!\nReal right turn Clyde.",
+    "previous": "Bert: Burada yaratıcılık patlayacak millet!\nSağa dön, Clyde!",
+    "translation": "Bert: Millet, burada birazdan yaratıcılığın dibine vurulacak! Bildiğin 'Sağa dön, Clyde'.",
+    "reviews": [
+      "r01211",
+      "r01212"
+    ]
+  },
+  {
+    "ref": "1:p01-01169",
+    "choice": "old",
+    "english": "Brian: So I'm calling him, you know. No response, that's fine.",
+    "previous": "Brian: Arıyorum, anlıyor musun? Cevap yok, tamam.",
+    "translation": "Brian: İşte, arıyorum onu. Cevap yok, neyse.",
+    "reviews": [
+      "r01254",
+      "r01255"
+    ]
+  },
+  {
+    "ref": "1:p01-01175",
+    "choice": "old",
+    "english": "Brian: Cal's on it. I need you to drive so I can pick him up.",
+    "previous": "Brian: Cal uğraşıyor. Onu almamız için arabayı senin sürmen lazım.",
+    "translation": "Brian: Cal bakıyor o işe. Onu alabilmem için arabayı sen kullan.",
+    "reviews": [
+      "r01263"
+    ]
+  },
+  {
+    "ref": "1:s01-06774500",
+    "choice": "corrected",
+    "english": "Brian: Do what now?",
+    "previous": "Brian: Ne yapmıyor?",
+    "translation": "Brian: Ne dedin sen?",
+    "reviews": [
+      "r01298",
+      "r01299"
+    ]
+  },
+  {
+    "ref": "1:s01-06775000",
+    "choice": "corrected",
+    "english": "Brian: Do what now?\nCal: Oh, man, c'mon, you know.\nWhen you're hooking up with a chick, or...",
+    "previous": "Brian: Ne yapmıyor?\nCal: Abi, hadi, biliyorsun işte.\nBir kızla takılırken ya da...",
+    "translation": "Brian: Ne dedin sen?\nCal: Abi, hadi, biliyorsun işte.\nBir kızla takılırken ya da...",
+    "reviews": []
+  },
+  {
+    "ref": "1:p01-01224",
+    "choice": "old",
+    "english": "Cal: No, yeah, that's a good point..\ndidn't- didn't think of that part.",
+    "previous": "Cal: Evet, doğru diyorsun...\nO kısmını düşünmemiştim.",
+    "translation": "Cal: Yok, evet, haklısın... O- o kısmını düşünmemiştim.",
+    "reviews": [
+      "r01307",
+      "r01308"
+    ]
+  },
+  {
+    "ref": "1:s01-06854500",
+    "choice": "old",
+    "english": "Arnold: I bring you in, and then what? You start a turf war?",
+    "previous": "Arnold: Seni işe alıyorum, sonra ne oluyor? Bölge savaşı çıkarıyorsun.",
+    "translation": "Arnold: Seni işe alıyorum, sonra ne oluyor? Bölge savaşı mı başlatıyorsun?",
+    "reviews": [
+      "r01340",
+      "r01341"
+    ]
+  },
+  {
+    "ref": "1:s01-06913500",
+    "choice": "old",
+    "english": "Arnold: I'm gonna put word out about you, Bri.",
+    "previous": "Arnold: Haberini herkese salacağım Bri.",
+    "translation": "Arnold: Senin hakkında herkese haber salacağım, Bri.",
+    "reviews": [
+      "r01366"
+    ]
+  },
+  {
+    "ref": "1:s01-06921000",
+    "choice": "old",
+    "english": "Brian: Alright, I've had enough of this asshole. Let's do it your way.",
+    "previous": "Brian: Tamam, bu götü yeterince çektim. Senin yöntemini deneyelim.",
+    "translation": "Brian: Tamam, bu göt heriften bıktım. Senin bildiğin gibi yapalım.",
+    "reviews": [
+      "r01368",
+      "r01369"
+    ]
+  },
+  {
+    "ref": "1:p01-01275",
+    "choice": "old",
+    "english": "Jason: Yeah, Arnold's gonna keep his mouth shut.",
+    "previous": "Jason: Evet, Arnold çenesini kapalı tutacak.",
+    "translation": "Jason: Evet, Arnold ağzını sıkı tutacak.",
+    "reviews": [
+      "r01437"
+    ]
+  },
+  {
+    "ref": "1:p01-01297",
+    "choice": "old",
+    "english": "Kenton: It would be, if I could still do it.",
+    "previous": "Kenton: Hâlâ yapabilseydim öyle olurdu.",
+    "translation": "Kenton: Olurdu da, hâlâ yapabilseydim.",
+    "reviews": [
+      "r01460"
+    ]
+  },
+  {
+    "ref": "1:p01-01301",
+    "choice": "old",
+    "english": "Kenton: It's too late for me to do that, Cal.",
+    "previous": "Kenton: Benim için artık çok geç, Cal.",
+    "translation": "Kenton: Bunu yapmak için artık çok geç, Cal.",
+    "reviews": [
+      "r01468",
+      "r01469"
+    ]
+  },
+  {
+    "ref": "1:p01-01582",
+    "choice": "old",
+    "english": "Joey: Mm-hm, just gimme a minute. Be right with ya.",
+    "previous": "Joey: Hı hı, bir dakika ver bana. Hemen hallediyorum.",
+    "translation": "Joey: Hı-hı, sadece bir dakika ver. Hemen geliyorum.",
+    "reviews": [
+      "r01524"
+    ]
+  },
+  {
+    "ref": "1:s01-08651500",
+    "choice": "old",
+    "english": "Kenton: I mean, you could know the shipwrecks like the back of\nyour hand,",
+    "previous": "Kenton: Yani, batıkları avucunun içi gibi bilirsin,",
+    "translation": "Kenton: Yani, batıkları avucunun içi gibi biliyor olabilirsin,",
+    "reviews": [
+      "r01534"
+    ]
+  },
+  {
+    "ref": "1:s01-08686000",
+    "choice": "old",
+    "english": "Kenton: Now, I can only go out with a cover.",
+    "previous": "Kenton: Artık ancak bir bahaneyle açılabiliyorum.",
+    "translation": "Kenton: Artık ancak bir paravanla denize açılabiliyorum.",
+    "reviews": [
+      "r01549",
+      "r01550"
+    ]
+  },
+  {
+    "ref": "1:s01-08758500",
+    "choice": "old",
+    "english": "Kenton: That's why you sign the waiver, eh?",
+    "previous": "Kenton: Sorumluluk belgesini bu yüzden imzalıyorsunuz ya, ha?",
+    "translation": "Kenton: Feragatnameyi bunun için imzalıyorsunuz, ha?",
+    "reviews": [
+      "r01599"
+    ]
+  },
+  {
+    "ref": "1:s01-08765000",
+    "choice": "old",
+    "english": "Jeremy: Can we just go quadding, or something?",
+    "previous": "Jeremy: ATV'ye falan binsek olmaz mı?",
+    "translation": "Jeremy: ATV sürmeye falan gitsek olmaz mı?",
+    "reviews": [
+      "r01602",
+      "r01603"
+    ]
+  },
+  {
+    "ref": "1:p01-01648",
+    "choice": "old",
+    "english": "Jason: Great. I think I got it under control.",
+    "previous": "Jason: Güzel. Sanırım işi çözdüm.",
+    "translation": "Jason: Harika. Sanırım kontrol bende.",
+    "reviews": [
+      "r01614"
+    ]
+  },
+  {
+    "ref": "1:s01-08793000",
+    "choice": "old",
+    "english": "Kenton: I don't give a shit what they do,",
+    "previous": "Kenton: Onların ne yaptığı umurumda değil,",
+    "translation": "Kenton: Ne yaptıkları sikimde değil,",
+    "reviews": [
+      "r01618",
+      "r01619"
+    ]
+  },
+  {
+    "ref": "1:p01-01652",
+    "choice": "old",
+    "english": "Jeremy: Wait, they're in this part of the water too?",
+    "previous": "Jeremy: Dur, onlar suyun bu tarafında da mı var?",
+    "translation": "Jeremy: Dur, bu sularda da mı varlar?",
+    "reviews": [
+      "r01623"
+    ]
+  },
+  {
+    "ref": "1:s01-08816000",
+    "choice": "old",
+    "english": "Dobbs: Yeah, like- like a stripper whale.",
+    "previous": "Dobbs: Evet, bir de striptizci balinalar falan.",
+    "translation": "Dobbs: Evet, mesela striptizci bir balina gibi.",
+    "reviews": [
+      "r01630",
+      "r01631"
+    ]
+  },
+  {
+    "ref": "1:p01-01656",
+    "choice": "old",
+    "english": "Kyle: A bitchy whale... named Beth!",
+    "previous": "Kyle: Beth adında... dırdırcı bir balina!",
+    "translation": "Kyle: Beth adında çirkef bir balina.",
+    "reviews": [
+      "r01632",
+      "r01633"
+    ]
+  },
+  {
+    "ref": "1:s01-08888000",
+    "choice": "old",
+    "english": "Dobbs: Because you're a lame, bro.",
+    "previous": "Dobbs: Sen sünepe olduğun için abi.",
+    "translation": "Dobbs: Çünkü eziksin, kardeşim.",
+    "reviews": [
+      "r01654"
+    ]
+  },
+  {
+    "ref": "1:s01-08890500",
+    "choice": "old",
+    "english": "Kenton: Everybody got a buddy?",
+    "previous": "Kenton: Herkes eşini buldu mu?",
+    "translation": "Kenton: Herkesin dalış arkadaşı var mı?",
+    "reviews": [
+      "r01655",
+      "r01656"
+    ]
+  },
+  {
+    "ref": "1:s01-08898500",
+    "choice": "old",
+    "english": "Kenton: Everybody stay with your buddy and listen to Jason.",
+    "previous": "Kenton: Herkes eşinden ayrılmasın ve Jason'ı dinlesin.",
+    "translation": "Kenton: Herkes dalış arkadaşının yanında kalsın ve Jason'ı dinlesin.",
+    "reviews": [
+      "r01661",
+      "r01662"
+    ]
+  },
+  {
+    "ref": "1:p01-01666",
+    "choice": "old",
+    "english": "Kenton: You do all that,\nand you'll come back with some epic memories.",
+    "previous": "Kenton: Bunların hepsini yaparsanız\nunutamayacağınız anılarla dönersiniz.",
+    "translation": "Kenton: Bunları yaparsanız efsane anılarla dönersiniz.",
+    "reviews": [
+      "r01663",
+      "r01664"
+    ]
+  },
+  {
+    "ref": "1:s01-08983000",
+    "choice": "old",
+    "english": "Jeremy: So we can tell 'em to fuck off.",
+    "previous": "Jeremy: Siktir olup gitmelerini söyleriz.",
+    "translation": "Jeremy: Siktir olup gitmelerini söyleyebilelim diye.",
+    "reviews": [
+      "r01693"
+    ]
+  },
+  {
+    "ref": "1:s01-08996500",
+    "choice": "old",
+    "english": "Jeremy: Oh. I kinda feel like I'm in that- that movie...",
+    "previous": "Jeremy: Aa, kendimi biraz şu... şu filmde gibi hissediyorum...",
+    "translation": "Jeremy: Sanki şu... şu filmdeymişim gibi...",
+    "reviews": [
+      "r01697"
+    ]
+  },
+  {
+    "ref": "1:s01-09016500",
+    "choice": "old",
+    "english": "Dobbs: I'm gonna hold it gently, dumbass!",
+    "previous": "Dobbs: Yavaşça tutacağım, gerizekâlı!",
+    "translation": "Dobbs: Nazikçe tutacağım, geri zekalı!",
+    "reviews": [
+      "r01707"
+    ]
+  },
+  {
+    "ref": "1:s01-09167000",
+    "choice": "old",
+    "english": "Jeremy: Hey, we're supposed to stay with our buddies!",
+    "previous": "Jeremy: Hey, eşlerimizden ayrılmamamız gerekiyor!",
+    "translation": "Jeremy: Hey, dalış arkadaşlarımızdan ayrılmamamız gerekiyor!",
+    "reviews": [
+      "r01752",
+      "r01753"
+    ]
+  },
+  {
+    "ref": "1:s01-09169000",
+    "choice": "old",
+    "english": "Dobbs: My buddies can eat a dick. Jason said so.",
+    "previous": "Dobbs: Eşim sikimi yesin. Jason öyle dedi.",
+    "translation": "Dobbs: Arkadaşlarım sik yesin. Jason öyle dedi.",
+    "reviews": [
+      "r01754",
+      "r01755"
+    ]
+  },
+  {
+    "ref": "1:p01-01742",
+    "choice": "old",
+    "english": "Jeremy: Shit, man, shit! Is he gonna be okay?",
+    "previous": "Jeremy: Kahretsin abi, kahretsin! İyi olacak mı?",
+    "translation": "Jeremy: Siktir, dostum, siktir! İyi olacak mı?",
+    "reviews": [
+      "r01770"
+    ]
+  },
+  {
+    "ref": "1:p01-01743",
+    "choice": "old",
+    "english": "Jason: He's gonna be fine.\nWe just have to get him back to Kenton.",
+    "previous": "Jason: İyi olacak. Onu Kenton'a geri götürmemiz lazım.",
+    "translation": "Jason: İyi olacak. Onu Kenton'a geri götürmemiz yeter.",
+    "reviews": [
+      "r01771"
+    ]
+  },
+  {
+    "ref": "1:s01-09338000",
+    "choice": "old",
+    "english": "Kenton: Just a little Scuba tour, Todd!",
+    "previous": "Kenton: Küçük bir dalış turu işte Todd!",
+    "translation": "Kenton: Sadece ufak bir tüplü dalış turu, Todd!",
+    "reviews": [
+      "r01802"
+    ]
+  },
+  {
+    "ref": "1:s01-09351500",
+    "choice": "old",
+    "english": "Todd: Well, it's not my fault you weren't properly appraising\nartifacts!",
+    "previous": "Todd: Eserlerin değerini doğru düzgün belirlememen\nbenim suçum değil!",
+    "translation": "Todd: Şey, eserlere doğru dürüst değer biçmemen benim suçum değil!",
+    "reviews": [
+      "r01807",
+      "r01808"
+    ]
+  },
+  {
+    "ref": "1:s01-09369000",
+    "choice": "old",
+    "english": "Cameron: thanks to his tireless efforts to keep the ocean safe...",
+    "previous": "Cameron: okyanusu korumak için yılmadan gösterdiği çabalar sayesinde...",
+    "translation": "Cameron: okyanusu güvenli tutma konusundaki yorulmak bilmeyen çabaları sayesinde.",
+    "reviews": [
+      "r01815",
+      "r01816"
+    ]
+  },
+  {
+    "ref": "1:s01-09384000",
+    "choice": "old",
+    "english": "Todd: are following all the maritime rules and regulations, huh?",
+    "previous": "Todd: bütün denizcilik kurallarına ve düzenlemelerine uyuyorsunuzdur, ha?",
+    "translation": "Todd: bütün denizcilik kurallarına ve yönetmeliklerine uyuyorsunuzdur, ha?",
+    "reviews": [
+      "r01822",
+      "r01823"
+    ]
+  },
+  {
+    "ref": "1:s01-09399000",
+    "choice": "old",
+    "english": "Kenton: Bancroft, that square little cyat.",
+    "previous": "Kenton: Bancroft, o sıkıcı küçük şerefsiz.",
+    "translation": "Kenton: Bancroft, o küçük kuralcı amcık.",
+    "reviews": [
+      "r01832",
+      "r01833"
+    ]
+  },
+  {
+    "ref": "1:s01-09437500",
+    "choice": "old",
+    "english": "Dobbs: How scary was that?\nReally fucking scary.",
+    "previous": "Dobbs: Ne kadar korkunçtu ama?\nÇok fena korkunçtu.",
+    "translation": "Dobbs: Ne kadar korkunçtu? Harbiden korkunçtu amına koyayım.",
+    "reviews": [
+      "r01848"
+    ]
+  },
+  {
+    "ref": "1:s01-09475500",
+    "choice": "old",
+    "english": "Kenton: You made it through half a scuba tour.",
+    "previous": "Kenton: Yarım bir dalış turunu bitirdiniz.",
+    "translation": "Kenton: Bir tüplü dalış turunun yarısını tamamladınız.",
+    "reviews": [
+      "r01858"
+    ]
+  },
+  {
+    "ref": "1:s01-09644000",
+    "choice": "old",
+    "english": "Jason: I was fixing the roof, hanging some drywall.",
+    "previous": "Jason: Çatıyı tamir ettim, biraz alçıpan döşedim.",
+    "translation": "Jason: Çatıyı tamir ediyordum, alçıpan asıyordum.",
+    "reviews": [
+      "r01901"
+    ]
+  },
+  {
+    "ref": "1:s01-09653000",
+    "choice": "old",
+    "english": "Cal: Okay... okay. You know what we gotta do? I got you.",
+    "previous": "Cal: Tamam... Tamam. Ne yapmamız lazım, biliyor musun? Bende.",
+    "translation": "Cal: Tamam... tamam. Ne yapmamız lazım, biliyor musun? Ben hallederim.",
+    "reviews": [
+      "r01908",
+      "r01909"
+    ]
+  },
+  {
+    "ref": "1:s01-09657000",
+    "choice": "old",
+    "english": "Cal: I got you. Here, help me with this.",
+    "previous": "Cal: Bende o iş. Gel, şuna yardım et.",
+    "translation": "Cal: Ben hallederim. Gel, şunda bana yardım et.",
+    "reviews": [
+      "r01910",
+      "r01911"
+    ]
+  },
+  {
+    "ref": "1:s01-09810500",
+    "choice": "old",
+    "english": "Cal: She like it?",
+    "previous": "Cal: Sevdi mi?",
+    "translation": "Cal: Beğendi mi?",
+    "reviews": [
+      "r01983"
+    ]
+  },
+  {
+    "ref": "1:s01-09811500",
+    "choice": "old",
+    "english": "Jason: I dunno. When I went out of town,\nshe peaced out and ghosted me,",
+    "previous": "Jason: Bilmiyorum. Ben şehir dışına çıkınca\nçekip gitti, bana dönmedi de.",
+    "translation": "Jason: Bilmem. Ben şehir dışına gidince o da çekip gitti, iletişimi kesti,",
+    "reviews": [
+      "r01984",
+      "r01985"
+    ]
+  },
+  {
+    "ref": "1:p01-01778",
+    "choice": "old",
+    "english": "Cal: You know, with Lucia and ghosting, it's..",
+    "previous": "Cal: Hani Lucia var ya, bir de ortadan kaybolma meselesi...",
+    "translation": "Cal: Biliyorsun, Lucia'nın iletişimi kesip kaybolması meselesi...",
+    "reviews": [
+      "r02000",
+      "r02001"
+    ]
+  },
+  {
+    "ref": "1:s01-09903000",
+    "choice": "old",
+    "english": "Cal: he could just make shit quicker.",
+    "previous": "Cal: kendisi daha çabuk yapar zaten.",
+    "translation": "Cal: işleri daha hızlı halledebilirdi.",
+    "reviews": [
+      "r02033",
+      "r02034"
+    ]
+  },
+  {
+    "ref": "1:s01-09905000",
+    "choice": "old",
+    "english": "Cal: You know, you can see it on the screen, man,\nit's so fuckin' raw.",
+    "previous": "Cal: Ekranda da görüyorsun abi,\nacayip katıksız bir şey.",
+    "translation": "Cal: Ekranda görüyorsun, dostum, çok sahici amına koyayım.",
+    "reviews": [
+      "r02035",
+      "r02036"
+    ]
+  },
+  {
+    "ref": "1:s01-10637500",
+    "choice": "old",
+    "english": "Cal: So why did she ghost you, bro?",
+    "previous": "Cal: Ee, sana niye dönmedi abi?",
+    "translation": "Cal: Peki, neden seninle iletişimini kesti, kanka?",
+    "reviews": [
+      "r02124",
+      "r02125"
+    ]
+  },
+  {
+    "ref": "1:p01-01867",
+    "choice": "old",
+    "english": "Jason: So I went on a job and when I came back, she was gone.",
+    "previous": "Jason: Ben de bir işe gittim. Döndüğümde gitmişti.",
+    "translation": "Jason: Bir işe çıktım, döndüğümde o gitmişti.",
+    "reviews": [
+      "r02139",
+      "r02140"
+    ]
+  },
+  {
+    "ref": "1:p01-01868",
+    "choice": "old",
+    "english": "Cal: Yeah. With your bun in her oven, dude!",
+    "previous": "Cal: Evet. Karnında da senin çocuğun vardı abi!",
+    "translation": "Cal: Evet. Hem de senin çocuğuna hamileyken, dostum!",
+    "reviews": [
+      "r02141",
+      "r02142"
+    ]
+  },
+  {
+    "ref": "1:p01-01879",
+    "choice": "old",
+    "english": "Cal: You're lucky you got me.",
+    "previous": "Cal: Ben varım diye şanslısın.",
+    "translation": "Cal: Şanslısın ki ben varım.",
+    "reviews": [
+      "r02158",
+      "r02159"
+    ]
+  },
+  {
+    "ref": "1:s01-10798500",
+    "choice": "old",
+    "english": "Jason: Anything.",
+    "previous": "Jason: Herhangi bir şey.",
+    "translation": "Jason: Her şey olur.",
+    "reviews": [
+      "r02182",
+      "r02183"
+    ]
+  },
+  {
+    "ref": "1:p01-01907",
+    "choice": "old",
+    "english": "Lucia: She's my size and she said she could lend me some\nclothes.",
+    "previous": "Lucia: Bedenlerimiz aynı,\nbana birkaç kıyafet verebileceğini söyledi.",
+    "translation": "Lucia: Onunla aynı bedendeyiz, bana birkaç kıyafet ödünç verebileceğini söyledi.",
+    "reviews": [
+      "r02188",
+      "r02189"
+    ]
+  },
+  {
+    "ref": "1:p01-01942",
+    "choice": "old",
+    "english": "Cal: No, I'm king.",
+    "previous": "Cal: Hayır, benim kral.",
+    "translation": "Cal: Hayır, ben kralım.",
+    "reviews": [
+      "r02199"
+    ]
+  },
+  {
+    "ref": "1:p01-02030",
+    "choice": "old",
+    "english": "Jason: I've got my own boat, but no gear.",
+    "previous": "Jason: Teknem var ama ekipmanım yok.",
+    "translation": "Jason: Kendi teknem var ama ekipmanım yok.",
+    "reviews": [
+      "r02206"
+    ]
+  },
+  {
+    "ref": "1:p01-02031",
+    "choice": "old",
+    "english": "Kenton: No problem. I'll get you set up. In the meantime,\njust come back and use my stuff, alright?",
+    "previous": "Kenton: Sorun değil. Sana ayarlarım. O zamana kadar\ngel benimkileri kullan, tamam mı?",
+    "translation": "Kenton: Sorun değil. Sana ekipman ayarlarım. Şimdilik yine gelip benimkileri kullan, tamam mı?",
+    "reviews": [
+      "r02207"
+    ]
+  },
+  {
+    "ref": "1:p01-02034",
+    "choice": "old",
+    "english": "Jason: Will do. Thanks, Kenton.",
+    "previous": "Jason: Olur. Sağ ol Kenton.",
+    "translation": "Jason: Öyle yaparım. Sağ ol, Kenton.",
+    "reviews": [
+      "r02208",
+      "r02209"
+    ]
+  },
+  {
+    "ref": "1:p01-02035",
+    "choice": "old",
+    "english": "Kenton: We gettin' to the riches, Jay.",
+    "previous": "Kenton: Zengin oluyoruz Jay.",
+    "translation": "Kenton: Köşeyi dönüyoruz, Jay.",
+    "reviews": [
+      "r02210",
+      "r02211"
+    ]
+  },
+  {
+    "ref": "1:p01-02071",
+    "choice": "old",
+    "english": "Stranger: Wait, w-wait, hold on! I'm goin' there now, I just got lost!",
+    "previous": "Yabancı: Dur, bir dakika! Şimdi oraya gidiyorum, yolu kaybettim!",
+    "translation": "Yabancı: Bekle, b-bekle, dur! Şimdi oraya gidiyorum, sadece kayboldum!",
+    "reviews": [
+      "r02221",
+      "r02222"
+    ]
+  },
+  {
+    "ref": "1:p01-02073",
+    "choice": "old",
+    "english": "Stranger: Okay, I'll be there, I'll be there, I swear.\nY-you can count on me.",
+    "previous": "Yabancı: Tamam, geleceğim, yemin ederim geleceğim.\nBana güvenebilirsiniz.",
+    "translation": "Yabancı: Tamam, orada olacağım, olacağım, yemin ederim. B-bana güvenebilirsin.",
+    "reviews": [
+      "r02223"
+    ]
+  },
+  {
+    "ref": "1:p01-02191",
+    "choice": "old",
+    "english": "Jason: I'm in the green stilt house,\nby the water off Peach Palm Drive.",
+    "previous": "Jason: Peach Palm Drive'ın orada, su kenarındaki\nayaklar üstüne kurulmuş yeşil evdeyim.",
+    "translation": "Jason: Peach Palm Drive'daki su kenarındaki yeşil kazıklı evdeyim.",
+    "reviews": [
+      "r02242"
+    ]
+  },
+  {
+    "ref": "1:p01-02230",
+    "choice": "old",
+    "english": "Jason: Great, thanks for taking the trouble.",
+    "previous": "Jason: Harika, zahmet verdim, sağ ol.",
+    "translation": "Jason: Harika, zahmet ettiğin için sağ ol.",
+    "reviews": [
+      "r02261"
+    ]
+  },
+  {
+    "ref": "1:s01-12650000",
+    "choice": "old",
+    "english": "Lucia: Look, it was good catching up.",
+    "previous": "Lucia: Neyse, konuşmak güzeldi.",
+    "translation": "Lucia: Bak, hasret gidermek güzeldi.",
+    "reviews": [
+      "r02320"
+    ]
+  },
+  {
+    "ref": "1:s01-13188000",
+    "choice": "old",
+    "english": "Lucia: Bitch.",
+    "previous": "Lucia: Pislik.",
+    "translation": "Lucia: Orospu.",
+    "reviews": [
+      "r02456",
+      "r02457"
+    ]
+  },
+  {
+    "ref": "1:s01-13213000",
+    "choice": "old",
+    "english": "Jason: Oh, the guy who's connected to some connected people?",
+    "previous": "Jason: Ha, şu sağlam bağlantıları olan insanlarla tanışan adam mı?",
+    "translation": "Jason: Ha, tanıdıkların tanıdıkları olan adam mı?",
+    "reviews": [
+      "r02463"
+    ]
+  },
+  {
+    "ref": "1:s01-13260000",
+    "choice": "corrected",
+    "english": "Lucia: Now it's my turn to get us some drinks.",
+    "previous": "Lucia: Şimdi de ben bize bir şeyler içmeye alayım.",
+    "translation": "Lucia: Şimdi de içkileri ben alayım.",
+    "reviews": [
+      "r02480"
+    ]
+  },
+  {
+    "ref": "1:s01-13549500",
+    "choice": "old",
+    "english": "Mattia: I hated to think of her alone there.",
+    "previous": "Mattia: Onu orada yalnız düşünmek beni mahvediyordu.",
+    "translation": "Mattia: Orada yalnız kalmasını düşünmeye dayanamıyordum.",
+    "reviews": [
+      "r02540"
+    ]
+  },
+  {
+    "ref": "1:s01-13794000",
+    "choice": "old",
+    "english": "Jason: Oh, just like that?",
+    "previous": "Jason: Aa, öyle mi?",
+    "translation": "Jason: Öyle hemen mi?",
+    "reviews": [
+      "r02627"
+    ]
+  },
+  {
+    "ref": "1:s01-13833000",
+    "choice": "old",
+    "english": "Lucia: Girl taught me how to shoplift.",
+    "previous": "Lucia: Bana dükkânlardan mal aşırmayı öğreten kız.",
+    "translation": "Lucia: Kız bana mağazadan bir şeyler yürütmeyi öğretti.",
+    "reviews": [
+      "r02633",
+      "r02634"
+    ]
+  },
+  {
+    "ref": "1:p01-02661",
+    "choice": "old",
+    "english": "Cal: I'm fine with ladies...I'm kidding.",
+    "previous": "Cal: Benim kadınlarla bir sorunum yok... Şaka yapıyorum.",
+    "translation": "Cal: Kadınlarla aram iyidir... Şaka yapıyorum.",
+    "reviews": [
+      "r02660"
+    ]
+  },
+  {
+    "ref": "1:s01-13948500",
+    "choice": "old",
+    "english": "Donnie: What say we adjourn to the mens room for a little\nbooger sugar, huh?",
+    "previous": "Donnie: Erkekler tuvaletine geçip biraz burun şekeri çekmeye\nne dersin, ha?",
+    "translation": "Donnie: Erkekler tuvaletine gidip biraz toz çekmeye ne dersin, ha?",
+    "reviews": [
+      "r02677"
+    ]
+  },
+  {
+    "ref": "1:s01-14086500",
+    "choice": "old",
+    "english": "Mattia: And that's me on the decks.",
+    "previous": "Mattia: Kabinin başındaki de benim.",
+    "translation": "Mattia: DJ kabininin başında da ben varım.",
+    "reviews": [
+      "r02718",
+      "r02719"
+    ]
+  },
+  {
+    "ref": "1:s01-14087500",
+    "choice": "old",
+    "english": "Jason: Oh. So, you're like a- like a DJ, or something?",
+    "previous": "Jason: Aa. Yani sen DJ falan mısın?",
+    "translation": "Jason: Ah. Yani sen bir... DJ falan mısın?",
+    "reviews": [
+      "r02720",
+      "r02721"
+    ]
+  },
+  {
+    "ref": "1:s01-14104500",
+    "choice": "old",
+    "english": "Mattia: What are you talking about, bro?",
+    "previous": "Mattia: Sen neden bahsediyorsun kardeşim?",
+    "translation": "Mattia: Ne diyorsun, kanka?",
+    "reviews": [
+      "r02733",
+      "r02734"
+    ]
+  },
+  {
+    "ref": "1:s01-14446500",
+    "choice": "old",
+    "english": "Aviator: Bust his ass, D-man!\nMake this pussy your prom date, baby! Fuck him up!",
+    "previous": "Havacı: Dağıt şunu D-man!\nBu tırsağı baloda dansa kaldırır gibi yakala bebeğim! Ağzına sıç!",
+    "translation": "Havacı: Patakla şunu, D-man! Bu amcığı balo partnerin yap, bebeğim! Dağıt onu amına koyayım!",
+    "reviews": [
+      "r02840"
+    ]
+  },
+  {
+    "ref": "1:s01-14497000",
+    "choice": "old",
+    "english": "Jason: You feel that?",
+    "previous": "Jason: Hissettin mi bunu?",
+    "translation": "Jason: Hissediyor musun?",
+    "reviews": [
+      "r02849"
+    ]
+  },
+  {
+    "ref": "1:s01-14550000",
+    "choice": "old",
+    "english": "Lucia: Nice night for a run!",
+    "previous": "Lucia: Koşmak için güzel gece!",
+    "translation": "Lucia: Koşu için güzel bir gece!",
+    "reviews": [
+      "r02865"
+    ]
+  },
+  {
+    "ref": "1:s01-14685500",
+    "choice": "old",
+    "english": "Jason: Through there.",
+    "previous": "Jason: Şu tarafta.",
+    "translation": "Jason: Şuradan.",
+    "reviews": [
+      "r02900"
+    ]
+  },
+  {
+    "ref": "1:p01-02838",
+    "choice": "old",
+    "english": "Jason: Donnie, I recovered that drop for you...",
+    "previous": "Jason: Donnie, attığın paketi geri aldım...",
+    "translation": "Jason: Donnie, senin için o paketi geri aldım...",
+    "reviews": [
+      "r02973"
+    ]
+  },
+  {
+    "ref": "1:s01-15384000",
+    "choice": "old",
+    "english": "Donnie: smashed outta my fuckin' mind from one of your jailbird's\nlittle parties,",
+    "previous": "Donnie: senin o hapis kuşunun ufak partilerinden birinde\nkafamı taş gibi yapmışken,",
+    "translation": "Donnie: senin mapus kuşunun küçük partilerinden birinde kafayı fena bulmuşken amına koyayım,",
+    "reviews": [
+      "r02975"
+    ]
+  },
+  {
+    "ref": "2:s02-00029000",
+    "choice": "old",
+    "english": "Jason: Hey, Joey, you got someone that could bring the car\nover?",
+    "previous": "Jason: Hey Joey, arabayı getirebilecek birini bulabilir misin?",
+    "translation": "Jason: Hey Joey, arabayı buraya getirebilecek birin var mı?",
+    "reviews": [
+      "r02989"
+    ]
+  },
+  {
+    "ref": "2:s02-00080000",
+    "choice": "old",
+    "english": "Manager: Mind if I drive?",
+    "previous": "Müdür: Ben geçebilir miyim?",
+    "translation": "Müdür: Ben devralsam olur mu?",
+    "reviews": [
+      "r02992"
+    ]
+  },
+  {
+    "ref": "2:s02-00147000",
+    "choice": "old",
+    "english": "Jason: Yeah, my girl needs one, too. She just got out of prison.",
+    "previous": "Jason: Evet, kız arkadaşımın da ihtiyacı var. Hapisten yeni çıktı.",
+    "translation": "Jason: Evet, sevgilimin de bir hesaba ihtiyacı var. Hapisten yeni çıktı.",
+    "reviews": [
+      "r03012"
+    ]
+  },
+  {
+    "ref": "2:s02-00160000",
+    "choice": "old",
+    "english": "Jason: What do we need a loan for?",
+    "previous": "Jason: Kredi bize ne için lazım?",
+    "translation": "Jason: Krediye ne ihtiyacımız var?",
+    "reviews": [
+      "r03018"
+    ]
+  },
+  {
+    "ref": "2:s02-00187500",
+    "choice": "old",
+    "english": "Jason: Didn't leave on the best of terms.",
+    "previous": "Jason: Pek iyi şartlarda ayrılmadım.",
+    "translation": "Jason: Pek iyi ayrılmadık.",
+    "reviews": [
+      "r03028"
+    ]
+  },
+  {
+    "ref": "2:s02-00212500",
+    "choice": "old",
+    "english": "Lucia: Are you bullshittin' me? We need an account.",
+    "previous": "Lucia: Benimle dalga mı geçiyorsun? Hesap açmamız gerekiyor.",
+    "translation": "Lucia: Benimle taşak mı geçiyorsun? Bir hesaba ihtiyacımız var.",
+    "reviews": [
+      "r03035"
+    ]
+  },
+  {
+    "ref": "2:s02-00245000",
+    "choice": "old",
+    "english": "Jason: Send me a link to the app.",
+    "previous": "Jason: Uygulamanın bağlantısını bana gönder.",
+    "translation": "Jason: Uygulamanın linkini bana gönder.",
+    "reviews": [
+      "r03042"
+    ]
+  },
+  {
+    "ref": "2:s02-00601000",
+    "choice": "old",
+    "english": "Cal: Well, I think I earned myself a beer!",
+    "previous": "Cal: Bence bir birayı hak ettim!",
+    "translation": "Cal: Bence bir bira hak ettim!",
+    "reviews": [
+      "r03096"
+    ]
+  },
+  {
+    "ref": "2:s02-00634500",
+    "choice": "old",
+    "english": "Brian: Alright, we have a window-",
+    "previous": "Brian: Tamam, uygun bir aralığımız var-",
+    "translation": "Brian: Tamam, bir fırsatımız var-",
+    "reviews": [
+      "r03109"
+    ]
+  },
+  {
+    "ref": "2:s02-00666000",
+    "choice": "old",
+    "english": "Jason: You're not going anywhere with that homing beacon\nstrapped to your ankle.",
+    "previous": "Jason: Bileğine bağlı o yer bildiriciyle\nhiçbir yere gitmiyorsun.",
+    "translation": "Jason: Ayak bileğine bağlı o takip cihazıyla hiçbir yere gidemezsin.",
+    "reviews": [
+      "r03117"
+    ]
+  },
+  {
+    "ref": "2:s02-00721000",
+    "choice": "old",
+    "english": "Jason: He's just telling me to stay sharp,",
+    "previous": "Jason: Sadece dikkatli olmamı söylüyor,",
+    "translation": "Jason: Sadece tetikte olmamı söylüyor,",
+    "reviews": [
+      "r03132"
+    ]
+  },
+  {
+    "ref": "2:s02-00757000",
+    "choice": "old",
+    "english": "Jason: Accelerator. Keep your hands off it.",
+    "previous": "Jason: Gaz. Ellerini ondan uzak tut.",
+    "translation": "Jason: Gaz. Elini sürme.",
+    "reviews": [
+      "r03138"
+    ]
+  },
+  {
+    "ref": "2:s02-00955000",
+    "choice": "old",
+    "english": "Jason: Now inch us forward...",
+    "previous": "Jason: Şimdi yavaşça ileri götür...",
+    "translation": "Jason: Şimdi bizi santim santim ilerlet...",
+    "reviews": [
+      "r03186"
+    ]
+  },
+  {
+    "ref": "2:s02-00959000",
+    "choice": "old",
+    "english": "Jason: That's backwards, Lu.",
+    "previous": "Jason: O geri Lu.",
+    "translation": "Jason: Ters oldu bu, Lu.",
+    "reviews": [
+      "r03187"
+    ]
+  },
+  {
+    "ref": "2:s02-01047500",
+    "choice": "old",
+    "english": "Lucia: We still doing the drop?",
+    "previous": "Lucia: Hâlâ teslimatı mı yapacağız?",
+    "translation": "Lucia: Hâlâ teslimatı yapacak mıyız?",
+    "reviews": [
+      "r03208"
+    ]
+  },
+  {
+    "ref": "2:s02-01211000",
+    "choice": "old",
+    "english": "Jason: Yeah, shit. We're drawing too much attention landing like\nthis.",
+    "previous": "Jason: Evet, siktir. Böyle inip kalkarak fazla dikkat\nçekiyoruz.",
+    "translation": "Jason: Evet, siktir. Böyle iniş yaparak çok fazla dikkat çekiyoruz.",
+    "reviews": [
+      "r03226"
+    ]
+  },
+  {
+    "ref": "2:s02-01391000",
+    "choice": "old",
+    "english": "Parole Officer: It plays up in the weather, you know?",
+    "previous": "Denetim memuru: Havaya göre azıyor, bilirsin.",
+    "translation": "Denetim memuru: Hava değişince azıyor, bilirsin.",
+    "reviews": [
+      "r03257"
+    ]
+  },
+  {
+    "ref": "2:s02-01394000",
+    "choice": "old",
+    "english": "Parole Officer: How 'bout, you come down and,\nwe'll have a little chat.",
+    "previous": "Denetim memuru: Sen aşağı insen de,\nbiraz konuşsak nasıl olur?",
+    "translation": "Denetim memuru: Şöyle bir aşağı gelsen de, biraz laflasak nasıl olur?",
+    "reviews": [
+      "r03258"
+    ]
+  },
+  {
+    "ref": "2:s02-01564000",
+    "choice": "old",
+    "english": "Jason: So, you want me to kill him?",
+    "previous": "Jason: Ee, öldürmemi ister misin?",
+    "translation": "Jason: Yani, onu öldürmemi mi istiyorsun?",
+    "reviews": [
+      "r03296"
+    ]
+  },
+  {
+    "ref": "2:s02-02201500",
+    "choice": "old",
+    "english": "Patron: One bogan to another.",
+    "previous": "Müşteri: Bir hödükten diğerine söylüyorum.",
+    "translation": "Müşteri: Bir kırodan diğerine.",
+    "reviews": [
+      "r03343"
+    ]
+  },
+  {
+    "ref": "2:s02-02228000",
+    "choice": "old",
+    "english": "Patron: I get it. \"Eye contact\"",
+    "previous": "Müşteri: Anladım. \"Göz göze gelmek\".",
+    "translation": "Müşteri: Anladım. \"Göz teması\".",
+    "reviews": [
+      "r03348"
+    ]
+  },
+  {
+    "ref": "2:s02-02238500",
+    "choice": "old",
+    "english": "Brian: Yeah. I got enough fun on my hands.",
+    "previous": "Brian: Evet. Benim elimde yeterince eğlence var zaten.",
+    "translation": "Brian: Evet. Yeterince eğlencem var zaten.",
+    "reviews": [
+      "r03350"
+    ]
+  },
+  {
+    "ref": "2:s02-02266500",
+    "choice": "old",
+    "english": "Donnie: Bri! Well, where the hell you been?",
+    "previous": "Donnie: Bri! Neredesin lan sen?",
+    "translation": "Donnie: Bri! Eee, nerelerdeydin lan sen?",
+    "reviews": [
+      "r03358"
+    ]
+  },
+  {
+    "ref": "2:s02-02500000",
+    "choice": "old",
+    "english": "Donnie: Yeah, but it don't taste the same now, does it?",
+    "previous": "Donnie: Evet ama tadı aynı değildir şimdi, değil mi?",
+    "translation": "Donnie: Evet ama tadı artık aynı değil, öyle değil mi?",
+    "reviews": [
+      "r03403"
+    ]
+  },
+  {
+    "ref": "2:s02-02673500",
+    "choice": "old",
+    "english": "Devil's Dozen Contact: Listen,\nyou gotta understand the kinda people you're dealing with.",
+    "previous": "Devil's Dozen bağlantısı: Dinle,\nkiminle iş yaptığınızı anlamanız lazım.",
+    "translation": "Devil's Dozen bağlantısı: Bak, nasıl tiplerle uğraştığını anlaman lazım.",
+    "reviews": [
+      "r03447"
+    ]
+  },
+  {
+    "ref": "2:s02-02686500",
+    "choice": "old",
+    "english": "Devil's Dozen Contact: I owe 'em a favour here. That's the buy-in.",
+    "previous": "Devil's Dozen bağlantısı: Onlara bir iyilik borcum var. Bu işin giriş bedeli bu.",
+    "translation": "Devil's Dozen bağlantısı: Onlara bir iyilik borçluyum. İşe girmenin bedeli bu.",
+    "reviews": [
+      "r03451"
+    ]
+  },
+  {
+    "ref": "2:s02-02698500",
+    "choice": "old",
+    "english": "Devil's Dozen Contact: Everything we agreed.",
+    "previous": "Devil's Dozen bağlantısı: Her şey anlaştığımız gibi.",
+    "translation": "Devil's Dozen bağlantısı: Anlaştığımız her şey.",
+    "reviews": [
+      "r03453"
+    ]
+  },
+  {
+    "ref": "2:s02-02839000",
+    "choice": "old",
+    "english": "Final Chapter: Oh, this guy's so fucked.",
+    "previous": "Final Chapter: Bu herifi fena sikeceğiz.",
+    "translation": "Final Chapter: Of, bu adam fena yarrağı yedi.",
+    "reviews": [
+      "r03470"
+    ]
+  },
+  {
+    "ref": "2:s02-02870000",
+    "choice": "old",
+    "english": "Donnie: You wanna clue me in, maybe fuckin' help me out here?",
+    "previous": "Donnie: Bir ipucu versen, biraz yardım etsen diyorum lan?",
+    "translation": "Donnie: Bana neler olduğunu anlatıp bir yardım etsene amına koyayım?",
+    "reviews": [
+      "r03476"
+    ]
+  },
+  {
+    "ref": "2:s02-03060500",
+    "choice": "old",
+    "english": "Donnie: Okay, soldier boy!",
+    "previous": "Donnie: Tamam komando!",
+    "translation": "Donnie: Tamam, asker efendi!",
+    "reviews": [
+      "r03494"
+    ]
+  },
+  {
+    "ref": "2:s02-03318000",
+    "choice": "old",
+    "english": "Donnie: Oh fuck, man. What's with all the fucking questions, man?",
+    "previous": "Donnie: Siktir ya abi. Ne bu kadar soru soruyorsun lan?",
+    "translation": "Donnie: Hay siktir, dostum. Niye bu kadar soru soruyorsun amına koyayım, dostum?",
+    "reviews": [
+      "r03519"
+    ]
+  },
+  {
+    "ref": "2:s02-03327500",
+    "choice": "old",
+    "english": "Donnie: Okay, I just- I just gotta think.",
+    "previous": "Donnie: Tamam, sadece- biraz düşünmem lazım.",
+    "translation": "Donnie: Tamam. Sadece- Sadece düşünmem lazım.",
+    "reviews": [
+      "r03521"
+    ]
+  },
+  {
+    "ref": "2:s02-03395000",
+    "choice": "old",
+    "english": "Lucia: You mind?",
+    "previous": "Lucia: Senin için sorun olur mu?",
+    "translation": "Lucia: Sakıncası var mı?",
+    "reviews": [
+      "r03536"
+    ]
+  },
+  {
+    "ref": "2:s02-03402000",
+    "choice": "old",
+    "english": "Lucia: Here, help me screw in the other two legs.",
+    "previous": "Lucia: Al, diğer iki ayağı vidalamama yardım et.",
+    "translation": "Lucia: Gel de şu diğer iki bacağı vidalamama yardım et.",
+    "reviews": [
+      "r03539"
+    ]
+  },
+  {
+    "ref": "2:s02-03430500",
+    "choice": "old",
+    "english": "Jason: Now, we just... rotate these fuckers, and reattach.",
+    "previous": "Jason: Şimdi şu meretleri... çevirip tekrar takacağız.",
+    "translation": "Jason: Şimdi, sadece... şu siktiğimin parçalarını döndüreceğiz ve tekrar takacağız.",
+    "reviews": [
+      "r03550"
+    ]
+  },
+  {
+    "ref": "2:s02-03992500",
+    "choice": "old",
+    "english": "Lucia: 'Cause some of us have to work.",
+    "previous": "Lucia: Çünkü bazılarımızın çalışması gerekiyor.",
+    "translation": "Lucia: Çünkü bazılarımız çalışmak zorunda.",
+    "reviews": [
+      "r03604"
+    ]
+  },
+  {
+    "ref": "2:s02-03996500",
+    "choice": "old",
+    "english": "Lucia: Another shift on the side of the highway,\ngetting soda cups thrown at my head.",
+    "previous": "Lucia: Yine yol kenarında bir vardiya,\nkafama içecek bardakları fırlatıldı.",
+    "translation": "Lucia: Otoyol kenarında bir vardiya daha. Kafama kola bardakları fırlatılıyor.",
+    "reviews": [
+      "r03605"
+    ]
+  },
+  {
+    "ref": "2:s02-04020500",
+    "choice": "old",
+    "english": "Lucia: Convicts Weekly?",
+    "previous": "Lucia: Haftalık Mahkûm'a mı?",
+    "translation": "Lucia: Convicts Weekly mi?",
+    "reviews": [
+      "r03610"
+    ]
+  },
+  {
+    "ref": "2:s02-04235000",
+    "choice": "old",
+    "english": "Mattia: Ah, all work is bullshit, bro, but when I first came here,\nI had no money, no nothing.",
+    "previous": "Mattia: Çalışmak boş iş abi ama buraya ilk geldiğimde\nne param vardı ne bir şeyim.",
+    "translation": "Mattia: Ah, bütün işler boktan kardeşim, ama buraya ilk geldiğimde hiç param yoktu. Hiçbir şeyim yoktu.",
+    "reviews": [
+      "r03653"
+    ]
+  },
+  {
+    "ref": "2:s02-04254500",
+    "choice": "old",
+    "english": "Jason: Must be some guy.",
+    "previous": "Jason: Sağlam bir adam olmalı.",
+    "translation": "Jason: Belli ki önemli biri.",
+    "reviews": [
+      "r03661"
+    ]
+  },
+  {
+    "ref": "2:s02-04457500",
+    "choice": "old",
+    "english": "Lucia: Watch your back, bro!",
+    "previous": "Lucia: Arkana dikkat et kardeşim!",
+    "translation": "Lucia: Arkanı kolla, kardeşim!",
+    "reviews": [
+      "r03709"
+    ]
+  },
+  {
+    "ref": "2:s02-04862500",
+    "choice": "old",
+    "english": "Mattia: That's what I'm talking about. Ciao, baby, until next time,\neh?",
+    "previous": "Mattia: İşte bundan bahsediyorum. Ciao bebeğim, bir dahaki sefere görüşürüz, ha?",
+    "translation": "Mattia: İşte budur. Ciao bebeğim, bir dahaki sefere görüşürüz, ha?",
+    "reviews": [
+      "r03773"
+    ]
+  },
+  {
+    "ref": "2:s02-04880500",
+    "choice": "old",
+    "english": "Mattia: Just dropped you a pin.\nLast one to the club pays the drinks, motherfucker.",
+    "previous": "Mattia: Sana konum attım.\nKulübe son gelen içkileri öder, orospu çocuğu.",
+    "translation": "Mattia: Sana konum attım. Kulübe en son gelen içkileri ısmarlar, orospu çocuğu.",
+    "reviews": [
+      "r03776"
+    ]
+  },
+  {
+    "ref": "2:s02-04898500",
+    "choice": "old",
+    "english": "Jason: Punch it, babe, all the way.",
+    "previous": "Jason: Bas bebeğim, sonuna kadar.",
+    "translation": "Jason: Bas gaza bebeğim, sonuna kadar.",
+    "reviews": [
+      "r03779"
+    ]
+  },
+  {
+    "ref": "2:s02-04907000",
+    "choice": "old",
+    "english": "Jason: Think it's a left up here.",
+    "previous": "Jason: Galiba az ileriden sola.",
+    "translation": "Jason: İleriden sola döneceğiz galiba.",
+    "reviews": [
+      "r03781"
+    ]
+  },
+  {
+    "ref": "2:s02-04949000",
+    "choice": "old",
+    "english": "Mattia: Always, my brother.",
+    "previous": "Mattia: Her zamanki gibi kardeşim.",
+    "translation": "Mattia: Her zaman, kardeşim.",
+    "reviews": [
+      "r03786"
+    ]
+  },
+  {
+    "ref": "2:s02-05221500",
+    "choice": "old",
+    "english": "Brian: Get over here now.\nWe got to deal with this shit once and for all,",
+    "previous": "Brian: Hemen buraya gel.\nBu boka artık kökten bir çözüm bulmalıyız,",
+    "translation": "Brian: Hemen buraya gel. Bu boktan meseleyi kökten halletmemiz lazım.",
+    "reviews": [
+      "r03843"
+    ]
+  },
+  {
+    "ref": "2:s02-05354000",
+    "choice": "old",
+    "english": "Brian: So what you got for me, babe?",
+    "previous": "Brian: Peki, benim için neyin var, bebeğim?",
+    "translation": "Brian: Eee, bana ne getirdin bebeğim?",
+    "reviews": [
+      "r03881"
+    ]
+  },
+  {
+    "ref": "2:s02-05420500",
+    "choice": "old",
+    "english": "Brian: effin' hubristic all of a sudden?",
+    "previous": "Brian: bu kadar lanet olası kendini beğenmiş birine dönüştü?",
+    "translation": "Brian: birdenbire bu kadar kibirlendi, lan?",
+    "reviews": [
+      "r03894"
+    ]
+  },
+  {
+    "ref": "2:s02-05480000",
+    "choice": "old",
+    "english": "Brian: He was supposed to be salvaging a wreck for me out by\nthe stilthouses,",
+    "previous": "Brian: Benim için kazık üstündeki evlerin orada\nbir batığı çıkarması gerekiyordu,",
+    "translation": "Brian: Kazık evlerin orada benim için bir batıktan mal çıkarması gerekiyordu,",
+    "reviews": [
+      "r03913"
+    ]
+  },
+  {
+    "ref": "2:s02-05634500",
+    "choice": "old",
+    "english": "Brian: You sure this is the right road?",
+    "previous": "Brian: Doğru yol bu, emin misin?",
+    "translation": "Brian: Doğru yolda olduğumuzdan emin misin?",
+    "reviews": [
+      "r03944"
+    ]
+  },
+  {
+    "ref": "2:s02-05658000",
+    "choice": "old",
+    "english": "Lori: You two... be careful, yourselves.",
+    "previous": "Lori: Siz ikiniz... siz kendinize dikkat edin.",
+    "translation": "Lori: Siz ikiniz kendinize dikkat edin.",
+    "reviews": [
+      "r03948"
+    ]
+  },
+  {
+    "ref": "2:s02-06112000",
+    "choice": "old",
+    "english": "Lori: My husband's comin' to get y'all!",
+    "previous": "Lori: Kocam geliyor, göreceksiniz gününüzü!",
+    "translation": "Lori: Kocam sizi halletmeye geliyor!",
+    "reviews": [
+      "r04026"
+    ]
+  },
+  {
+    "ref": "2:s02-06127000",
+    "choice": "old",
+    "english": "Doug: I want 'em gone. She's with me in the truck.",
+    "previous": "Doug: Şunları halledin. Kadın benimle kamyonete gelecek.",
+    "translation": "Doug: Onlardan kurtulmak istiyorum. Kamyonette benimle.",
+    "reviews": [
+      "r04033"
+    ]
+  },
+  {
+    "ref": "2:s02-06258000",
+    "choice": "old",
+    "english": "Lori: Kick his ass, Jason!",
+    "previous": "Lori: Dağıt şunu, Jason!",
+    "translation": "Lori: Ağzını burnunu dağıt, Jason!",
+    "reviews": [
+      "r04048"
+    ]
+  },
+  {
+    "ref": "2:s02-06399500",
+    "choice": "old",
+    "english": "Lucia: Hey, so, uh, Andy was tellin' me about this civil rights lawyer.",
+    "previous": "Lucia: Hey, şey, Andy bana insan haklarıyla ilgilenen bir avukattan bahsetti.",
+    "translation": "Lucia: Hey, şey, ee, Andy bana şu sivil haklar avukatından bahsediyordu.",
+    "reviews": [
+      "r04080"
+    ]
+  },
+  {
+    "ref": "2:s02-06404000",
+    "choice": "old",
+    "english": "Lucia: Can help move things along with Tommy, without the PO.",
+    "previous": "Lucia: Denetim memuruna gerek kalmadan Tommy'nin işini hızlandırabilirmiş.",
+    "translation": "Lucia: Denetim memurunu karıştırmadan Tommy'yle ilgili işleri hızlandırabilir.",
+    "reviews": [
+      "r04081"
+    ]
+  },
+  {
+    "ref": "2:s02-06486500",
+    "choice": "old",
+    "english": "Lucia: There's gonna be other work, right?",
+    "previous": "Lucia: Başka işler olacak, değil mi?",
+    "translation": "Lucia: Başka işler de çıkacaktır, değil mi?",
+    "reviews": [
+      "r04099"
+    ]
+  },
+  {
+    "ref": "2:s02-06642500",
+    "choice": "old",
+    "english": "Brian: I don't care how, just be discreet and far away as possible.",
+    "previous": "Brian: Nasıl yaptığın umurumda değil, göze batma ve mümkün olduğunca uzağa git.",
+    "translation": "Brian: Nasıl olduğu umurumda değil, yeter ki göze batmadan, olabildiğince uzakta yap.",
+    "reviews": [
+      "r04126"
+    ]
+  },
+  {
+    "ref": "2:s02-06693000",
+    "choice": "old",
+    "english": "Aviator: You're not gonna sucker punch me again!",
+    "previous": "Havacı: Yine beni gafil avlayamayacaksın!",
+    "translation": "Havacı: Bana yine öyle sinsice yumruk atmayacaksın!",
+    "reviews": [
+      "r04135"
+    ]
+  },
+  {
+    "ref": "2:s02-07005000",
+    "choice": "old",
+    "english": "Lucia: She said Cal's acting wild, was asking about Donnie.",
+    "previous": "Lucia: Cal'in delirdiğini söyledi, Donnie'yi soruyordu.",
+    "translation": "Lucia: Cal'ın kontrolden çıktığını, Donnie'yi sorduğunu söyledi.",
+    "reviews": [
+      "r04147"
+    ]
+  },
+  {
+    "ref": "2:s02-07025000",
+    "choice": "old",
+    "english": "Jason: The whole Donnie thing got Cal in kind of a tailspin,\nhe'll be fine.",
+    "previous": "Jason: Donnie meselesi Cal'i biraz sarstı,\niyi olacak.",
+    "translation": "Jason: Şu Donnie meselesi Cal'ı biraz sarstı, düzelir.",
+    "reviews": [
+      "r04152"
+    ]
+  },
+  {
+    "ref": "2:s02-07068000",
+    "choice": "old",
+    "english": "Lucia: God, thought you were Cal's sister again.",
+    "previous": "Lucia: Tanrım, yine Cal'in kardeşi sandım.",
+    "translation": "Lucia: Tanrım, yine Cal'ın kız kardeşi sandım.",
+    "reviews": [
+      "r04155"
+    ]
+  },
+  {
+    "ref": "2:s02-07191000",
+    "choice": "old",
+    "english": "Jason: I always liked fishing.",
+    "previous": "Jason: Ben balık tutmayı hep severdim.",
+    "translation": "Jason: Balık tutmayı her zaman sevmişimdir.",
+    "reviews": [
+      "r04175"
+    ]
+  },
+  {
+    "ref": "2:s02-07432000",
+    "choice": "old",
+    "english": "Cal: Aw, look at you guys... I love you guys.",
+    "previous": "Cal: Ah, size bakın... Sizi seviyorum ben.",
+    "translation": "Cal: Ah, şunlara bak... Sizi seviyorum.",
+    "reviews": [
+      "r04207"
+    ]
+  },
+  {
+    "ref": "2:s02-07466500",
+    "choice": "old",
+    "english": "Cal: There hasn't even been a funeral, it's weird.",
+    "previous": "Cal: Cenazesi bile olmadı, tuhaf.",
+    "translation": "Cal: Daha cenaze bile yapılmadı, çok tuhaf.",
+    "reviews": [
+      "r04213"
+    ]
+  },
+  {
+    "ref": "2:s02-07561500",
+    "choice": "old",
+    "english": "Cal: this whole fucking thing could be a plot.",
+    "previous": "Cal: bütün bu siktiğimin olayı bir komplo olabilir.",
+    "translation": "Cal: tüm bu lanet olası mevzu bir kurgu olabilir.",
+    "reviews": [
+      "r04237"
+    ]
+  },
+  {
+    "ref": "2:s02-07565500",
+    "choice": "old",
+    "english": "Cal: who's faked his own death to take over the Caribbean drug\ntrade, and then like",
+    "previous": "Cal: Karayipler'deki uyuşturucu ticaretini ele geçirmek için\nölümünü tezgâhladı. Sonra da",
+    "translation": "Cal: Karayip uyuşturucu ticaretini ele geçirmek için kendi ölümünü sahnelemiş. Sonra da, şey",
+    "reviews": [
+      "r04239"
+    ]
+  },
+  {
+    "ref": "2:s02-07579000",
+    "choice": "old",
+    "english": "Cal: Dude, I'm probably marked for death.",
+    "previous": "Cal: Dostum, muhtemelen ölüm listesine girdim.",
+    "translation": "Cal: Dostum, muhtemelen ölüm fermanım yazıldı.",
+    "reviews": [
+      "r04244"
+    ]
+  },
+  {
+    "ref": "2:s02-07647500",
+    "choice": "old",
+    "english": "Jason: It's fucked up, I know. That's why I didn't wanna say.",
+    "previous": "Jason: Korkunç, biliyorum. O yüzden söylemek istemedim.",
+    "translation": "Jason: Boktan bir şey. Biliyorum. O yüzden söylemek istemedim.",
+    "reviews": [
+      "r04263"
+    ]
+  },
+  {
+    "ref": "2:s02-07799500",
+    "choice": "old",
+    "english": "Lucia: Anyway, not totally free yet.\nStill got this fucking ankle bracelet on.",
+    "previous": "Lucia: Hem daha tamamen özgür değilim.\nŞu siktiğimin kelepçesi hâlâ ayağımda.",
+    "translation": "Lucia: Her neyse, henüz tam özgür değilim. Hâlâ şu siktiğimin elektronik kelepçesi ayağımda.",
+    "reviews": [
+      "r04289"
+    ]
+  },
+  {
+    "ref": "2:s02-07925500",
+    "choice": "old",
+    "english": "Cal: We're just chillin', what?",
+    "previous": "Cal: Takılıyoruz işte, ne?",
+    "translation": "Cal: Takılıyoruz işte, ne var ki?",
+    "reviews": [
+      "r04322"
+    ]
+  },
+  {
+    "ref": "2:s02-08094000",
+    "choice": "old",
+    "english": "Cal: My bad, bro. I seriously fucked up there, didn't I?",
+    "previous": "Cal: Kusura bakma kardeşim. Fena bok yedim, değil mi?",
+    "translation": "Cal: Kusura bakma kardeşim. Orada fena çuvalladım, değil mi?",
+    "reviews": [
+      "r04357"
+    ]
+  },
+  {
+    "ref": "2:s02-08155500",
+    "choice": "old",
+    "english": "Lucia: I need you to listen to me.",
+    "previous": "Lucia: Beni dinlemeni istiyorum.",
+    "translation": "Lucia: Beni dinlemen lazım.",
+    "reviews": [
+      "r04362"
+    ]
+  },
+  {
+    "ref": "2:s02-08179500",
+    "choice": "old",
+    "english": "Lucia: Hm. I don't know what's going on with you that you can't\nsee that.",
+    "previous": "Lucia: Hım. Derdin ne bilmiyorum ki bunu göremiyorsun.",
+    "translation": "Lucia: Hm. Neyin var da bunu göremiyorsun, bilmiyorum.",
+    "reviews": [
+      "r04369"
+    ]
+  },
+  {
+    "ref": "2:s02-08239000",
+    "choice": "old",
+    "english": "Lucia: C'mon, let's go to bed.",
+    "previous": "Lucia: Hadi, yatağa gidelim.",
+    "translation": "Lucia: Hadi, yatalım artık.",
+    "reviews": [
+      "r04380"
+    ]
+  },
+  {
+    "ref": "2:s02-08296500",
+    "choice": "old",
+    "english": "Lucia: They're ready when we are.",
+    "previous": "Lucia: Biz ne zaman istersek hazırlar.",
+    "translation": "Lucia: Biz hazır olduğumuzda onlar da hazır.",
+    "reviews": [
+      "r04385"
+    ]
+  },
+  {
+    "ref": "2:s02-08298000",
+    "choice": "old",
+    "english": "Lucia: Come pick me up at work, or meet me at home later?",
+    "previous": "Lucia: Beni işten alırsın ya da sonra evde buluşuruz?",
+    "translation": "Lucia: Beni işten almaya gelir misin, yoksa sonra evde mi buluşalım?",
+    "reviews": [
+      "r04386"
+    ]
+  },
+  {
+    "ref": "3:s03-00014500",
+    "choice": "old",
+    "english": "Jason: Let's go. If Kat says they're ready, let's do it.",
+    "previous": "Jason: Hadi yapalım. Kat hazırlar diyorsa girişelim şu işe.",
+    "translation": "Jason: Hadi gidelim. Kat hazır olduklarını söylüyorsa, yapalım şu işi.",
+    "reviews": [
+      "r04390"
+    ]
+  },
+  {
+    "ref": "3:s03-00187500",
+    "choice": "old",
+    "english": "Mattia: Nothing is wrong. You'll be fine, and, uh, we'll be here.",
+    "previous": "Mattia: Hiçbir şey ters gitmiyor. Sorun çıkmaz, biz de burada olacağız.",
+    "translation": "Mattia: Bir sorun yok. İyi olacaksın ve, şey, burada olacağız.",
+    "reviews": [
+      "r04425"
+    ]
+  },
+  {
+    "ref": "3:s03-00336000",
+    "choice": "old",
+    "english": "Lucia: Watch your fuckin' hands!",
+    "previous": "Lucia: Eline sahip ol lan!",
+    "translation": "Lucia: Elini kolunu akıllı tut amına koyayım!",
+    "reviews": [
+      "r04456"
+    ]
+  },
+  {
+    "ref": "3:s03-00409000",
+    "choice": "old",
+    "english": "Galecki: Bullshit. Don't play stupid with me.",
+    "previous": "Galecki: Yalan. Bana salağa yatma.",
+    "translation": "Galecki: Sallama. Bana aptal ayağı yapma.",
+    "reviews": [
+      "r04471"
+    ]
+  },
+  {
+    "ref": "3:s03-00564500",
+    "choice": "old",
+    "english": "Cop: You fucking-\nShut up!",
+    "previous": "Polis: Seni lanet-\nKes sesini!",
+    "translation": "Polis: Seni siktiğimin- Kapa çeneni!",
+    "reviews": [
+      "r04513"
+    ]
+  },
+  {
+    "ref": "3:s03-00688000",
+    "choice": "old",
+    "english": "Jason: Shit, straight ahead!",
+    "previous": "Jason: Siktir, dümdüz git!",
+    "translation": "Jason: Siktir, tam karşıda!",
+    "reviews": [
+      "r04534"
+    ]
+  },
+  {
+    "ref": "3:s03-00995500",
+    "choice": "old",
+    "english": "Jason: and get out. They're gonna come looking.",
+    "previous": "Jason: ve kaç. Aramaya gelecekler.",
+    "translation": "Jason: ve çık git. Peşimize düşecekler.",
+    "reviews": [
+      "r04574"
+    ]
+  },
+  {
+    "ref": "3:s03-01089500",
+    "choice": "old",
+    "english": "Lucia: Take this. Make sure it stays close to him.\nWhat, why? Why?",
+    "previous": "Lucia: Bunu al. Yanından ayrılmadığından emin ol.\nNe, neden? Neden?",
+    "translation": "Lucia: Al bunu. Hep onun yanında olsun. Ne, neden? Neden?",
+    "reviews": [
+      "r04596"
+    ]
+  },
+  {
+    "ref": "3:s03-01155000",
+    "choice": "old",
+    "english": "Gang Member: Mattia ask you to take for him, you take, yes?",
+    "previous": "Çete üyesi: Mattia onun için almanı istedi, aldın, evet?",
+    "translation": "Çete üyesi: Mattia onun için almanı istedi, aldın, değil mi?",
+    "reviews": [
+      "r04616"
+    ]
+  },
+  {
+    "ref": "3:s03-01260500",
+    "choice": "old",
+    "english": "Police: Neighbors said guy who lived here was pretty much a\nloner.",
+    "previous": "Polis: Komşular burada yaşayan adamın bayağı içine kapanık\nolduğunu söyledi.",
+    "translation": "Polis: Komşular, burada yaşayan adamın yalnız takılan biri olduğunu söyledi.",
+    "reviews": [
+      "r04629"
+    ]
+  },
+  {
+    "ref": "3:s03-02082000",
+    "choice": "old",
+    "english": "Jason: My heart might explode.",
+    "previous": "Jason: Kalbim patlayacak gibi.",
+    "translation": "Jason: Kalbim yerinden çıkacak gibi.",
+    "reviews": [
+      "r04746"
+    ]
+  },
+  {
+    "ref": "3:s03-02150000",
+    "choice": "old",
+    "english": "Jason: Lu, no flashing lights. Just blacked out SUVs.",
+    "previous": "Jason: Lu, çakarları yok. Sadece camları kapkara SUV'ler.",
+    "translation": "Jason: Lu, çakar yanmıyor. Sadece karartılmış SUV'lar.",
+    "reviews": [
+      "r04756"
+    ]
+  },
+  {
+    "ref": "3:s03-02344000",
+    "choice": "old",
+    "english": "Jason: What's he saying? That's the guy he had killed.\nA proud and",
+    "previous": "Jason: Ne diyor bu? O adamı öldürten kendisiydi.\nGururlu ve",
+    "translation": "Jason: Ne diyor bu? Öldürttüğü adam bu. Gururlu ve",
+    "reviews": [
+      "r04785"
+    ]
+  },
+  {
+    "ref": "3:s03-02564000",
+    "choice": "old",
+    "english": "Linda: And I'll write you up for vandalizing the property. Again.",
+    "previous": "Linda: Ben de mala zarar vermekten seni şikâyet ederim. Yine.",
+    "translation": "Linda: Ve mülke zarar verdiğin için hakkında tutanak tutacağım. Yine.",
+    "reviews": [
+      "r04814"
+    ]
+  },
+  {
+    "ref": "3:s03-02583000",
+    "choice": "old",
+    "english": "Linda: I want rent, plus ten percent for the trouble. Like,\nright now.",
+    "previous": "Linda: Kirayı istiyorum, çıkardığınız sıkıntı için de yüzde on fazlasını.\nHem de hemen.",
+    "translation": "Linda: Kira istiyorum, bir de zahmet payı olarak yüzde on. Hemen şimdi.",
+    "reviews": [
+      "r04819"
+    ]
+  },
+  {
+    "ref": "3:s03-02639500",
+    "choice": "old",
+    "english": "Linda: The crap I have to put up with...",
+    "previous": "Linda: Uğraştığım saçmalıklara bak...",
+    "translation": "Linda: Katlanmak zorunda kaldığım şu pisliğe bak...",
+    "reviews": [
+      "r04823"
+    ]
+  },
+  {
+    "ref": "3:s03-03022500",
+    "choice": "old",
+    "english": "Lucia: I got them from Vicki, the girl from a few doors down.",
+    "previous": "Lucia: Birkaç oda ilerideki Vicki'den aldım.",
+    "translation": "Lucia: Onları birkaç kapı ötedeki Vicki'den aldım.",
+    "reviews": [
+      "r04862"
+    ]
+  },
+  {
+    "ref": "3:s03-03090500",
+    "choice": "old",
+    "english": "Vicki: As a former \"fuckin' junkie,\" I don't keep that shit in my\nplace anymore, okay?",
+    "previous": "Vicki: Eski bir \"keş\" olarak, artık evde o boku tutmuyorum,\ntamam mı?",
+    "translation": "Vicki: Eski bir \"sikik keş\" olarak, o boku artık evimde tutmuyorum, tamam mı?",
+    "reviews": [
+      "r04875"
+    ]
+  },
+  {
+    "ref": "3:s03-03169000",
+    "choice": "old",
+    "english": "Vicki: Oh, cool. Makes sense. No follow up questions here.",
+    "previous": "Vicki: Ha, güzel. Anladım. Başka soru sormuyorum.",
+    "translation": "Vicki: Oh, ha süper. Mantıklı. Başka soru sormaya gerek yok.",
+    "reviews": [
+      "r04885"
+    ]
+  },
+  {
+    "ref": "3:s03-03218000",
+    "choice": "old",
+    "english": "Vicki: There she is, the ol' breadwinner.",
+    "previous": "Vicki: İşte orada, bizim ekmek kapısı.",
+    "translation": "Vicki: İşte orada, bizim emektar ekmek teknemiz.",
+    "reviews": [
+      "r04896"
+    ]
+  },
+  {
+    "ref": "3:s03-03280000",
+    "choice": "old",
+    "english": "Vicki: I'm gonna tip out the DJ, tip out the doorman.",
+    "previous": "Vicki: DJ'e vereceğim, kapıcıya vereceğim.",
+    "translation": "Vicki: DJ'e de bahşiş vereceğim, kapıdaki adama da.",
+    "reviews": [
+      "r04908"
+    ]
+  },
+  {
+    "ref": "3:s03-03333500",
+    "choice": "old",
+    "english": "Vicki: Yeah, that's the least you could do for a vet like me.",
+    "previous": "Vicki: Evet, benim gibi kıdemli biri için en azından bunu yapabilirsin.",
+    "translation": "Vicki: Evet, benim gibi bir emektar için yapabileceğin en az şey bu.",
+    "reviews": [
+      "r04921"
+    ]
+  },
+  {
+    "ref": "3:s03-03398000",
+    "choice": "old",
+    "english": "Lucia: Hey... you know where I can get some new clothes?",
+    "previous": "Lucia: Hey... Yeni giysi nereden bulabilirim, biliyor musun?",
+    "translation": "Lucia: Hey... yeni kıyafet bulabileceğim bir yer biliyor musun?",
+    "reviews": [
+      "r04926"
+    ]
+  },
+  {
+    "ref": "3:s03-03404500",
+    "choice": "old",
+    "english": "Vicki: Woof. Been there, sister.",
+    "previous": "Vicki: Of. Bilirim o hâli bacım.",
+    "translation": "Vicki: Off. O yollardan ben de geçtim, bacım.",
+    "reviews": [
+      "r04928"
+    ]
+  },
+  {
+    "ref": "3:s03-03411000",
+    "choice": "old",
+    "english": "Vicki: The gems only find you if you're willing to dig for 'em.",
+    "previous": "Vicki: Eşelemeye razı olursan güzel parçalar da seni bulur.",
+    "translation": "Vicki: Güzel parçalar, ancak didik didik aramaya razıysan karşına çıkar.",
+    "reviews": [
+      "r04931"
+    ]
+  },
+  {
+    "ref": "3:s03-03424500",
+    "choice": "old",
+    "english": "Vicki: Kolt & Associates. They're a big pill gang around here.",
+    "previous": "Vicki: Kolt ve Ortakları. Buralarda büyük bir hap çetesi.",
+    "translation": "Vicki: Kolt & Associates. Buralarda büyük bir hap çetesi.",
+    "reviews": [
+      "r04934"
+    ]
+  },
+  {
+    "ref": "3:s03-03451000",
+    "choice": "old",
+    "english": "Vicki: They have a bunch of stash houses around here.",
+    "previous": "Vicki: Buralarda mal sakladıkları bir sürü ev var.",
+    "translation": "Vicki: Buralarda bir sürü zula evi var.",
+    "reviews": [
+      "r04942"
+    ]
+  },
+  {
+    "ref": "3:s03-03457000",
+    "choice": "old",
+    "english": "Vicki: Unless, of course, you want to get shot in the face.",
+    "previous": "Vicki: Tabii suratına kurşun yemek istemiyorsan.",
+    "translation": "Vicki: Tabii yüzüne kurşun yemek istiyorsan, o başka.",
+    "reviews": [
+      "r04944"
+    ]
+  },
+  {
+    "ref": "3:s03-03501500",
+    "choice": "old",
+    "english": "Vicki: Sounds wholesome. Thanks.",
+    "previous": "Vicki: Ne güzel, ne masum. Sağ olun.",
+    "translation": "Vicki: Ne kadar da masum. Sağ ol.",
+    "reviews": [
+      "r04957"
+    ]
+  },
+  {
+    "ref": "3:s03-03593000",
+    "choice": "old",
+    "english": "Vicki: Oh I know you do, Spartan. Can't wait to hear all about it.",
+    "previous": "Vicki: Halledeceğini biliyorum Spartalı. Neler olduğunu anlatmanı sabırsızlıkla bekliyorum.",
+    "translation": "Vicki: Ah, halledeceğini biliyorum, Spartan. Anlatacaklarını duymak için sabırsızlanıyorum.",
+    "reviews": [
+      "r04979"
+    ]
+  },
+  {
+    "ref": "3:s03-03680000",
+    "choice": "old",
+    "english": "Vicki: So stupid it hurts.",
+    "previous": "Vicki: Bu kadar aptallık can yakıyor.",
+    "translation": "Vicki: Acı verecek kadar aptalca.",
+    "reviews": [
+      "r04997"
+    ]
+  },
+  {
+    "ref": "3:s03-03710500",
+    "choice": "old",
+    "english": "Vicki: As you can see, he's got some PTSD from the war.",
+    "previous": "Vicki: Gördüğünüz gibi savaştan kalma biraz travması var.",
+    "translation": "Vicki: Gördüğünüz gibi, savaş yüzünden travma sonrası stres bozukluğu var.",
+    "reviews": [
+      "r05001"
+    ]
+  },
+  {
+    "ref": "3:s03-03756000",
+    "choice": "old",
+    "english": "Vicki: C'mon honey, earn that scampi. Push.",
+    "previous": "Vicki: Hadi tatlım, karidesi hak et. İt.",
+    "translation": "Vicki: Hadi tatlım, şu karidesin hakkını ver. İt.",
+    "reviews": [
+      "r05012"
+    ]
+  },
+  {
+    "ref": "3:s03-03817000",
+    "choice": "old",
+    "english": "Dunk: They mix 'em with all sorts of sketchy shit,",
+    "previous": "Dunk: İçlerine her türlü şüpheli boku karıştırıyorlar,",
+    "translation": "Dunk: İçlerine ne idüğü belirsiz her türlü boku katıyorlar,",
+    "reviews": [
+      "r05023"
+    ]
+  },
+  {
+    "ref": "3:s03-03846500",
+    "choice": "old",
+    "english": "Dunk: Thank you for getting me outta there!",
+    "previous": "Dunk: Beni oradan kurtardığın için asıl ben sağ ol diyeyim!",
+    "translation": "Dunk: Beni oradan çıkardığın için sağ ol!",
+    "reviews": [
+      "r05031"
+    ]
+  },
+  {
+    "ref": "3:s03-03931000",
+    "choice": "old",
+    "english": "Vicki: Urgh, so sorry about that.",
+    "previous": "Vicki: Of, bunun için çok üzgünüm.",
+    "translation": "Vicki: Ah, kusura bakma.",
+    "reviews": [
+      "r05045"
+    ]
+  },
+  {
+    "ref": "3:s03-04796000",
+    "choice": "old",
+    "english": "Moses: I don't know nothing about you 'cept you got a name,\nand a ride that ain't yours.",
+    "previous": "Moses: Senin hakkında bir adın olduğunu,\nbir de sana ait olmayan bir araban olduğunu biliyorum sadece.",
+    "translation": "Moses: Senin hakkında bir ismin ve sana ait olmayan bir araban dışında hiçbir şey bilmiyorum.",
+    "reviews": [
+      "r05087"
+    ]
+  },
+  {
+    "ref": "3:s03-04880000",
+    "choice": "old",
+    "english": "Moses: One thing I don't do is trackers.",
+    "previous": "Moses: Takip cihazı olanlarla uğraşmam.",
+    "translation": "Moses: Ben takip cihazlı araçlarla uğraşmam.",
+    "reviews": [
+      "r05101"
+    ]
+  },
+  {
+    "ref": "3:s03-04934500",
+    "choice": "old",
+    "english": "Moses: Yup, that's mine...",
+    "previous": "Moses: Evet, o benim...",
+    "translation": "Moses: Evet, o benimki...",
+    "reviews": [
+      "r05116"
+    ]
+  },
+  {
+    "ref": "3:s03-05026500",
+    "choice": "old",
+    "english": "Lucia: Yeah. Pretty much.",
+    "previous": "Lucia: Evet. Gayet iyi.",
+    "translation": "Lucia: Evet, hemen hemen.",
+    "reviews": [
+      "r05132"
+    ]
+  },
+  {
+    "ref": "3:s03-05052500",
+    "choice": "old",
+    "english": "Moses: Just this once, I'll get your ride registered for you on the\nhouse.",
+    "previous": "Moses: Sadece bu seferlik, arabanın ruhsatını bedavaya\nçıkaracağım.",
+    "translation": "Moses: Sadece bu seferlik, aracının kaydını ben halledeceğim, benden olsun.",
+    "reviews": [
+      "r05136"
+    ]
+  },
+  {
+    "ref": "3:s03-05180000",
+    "choice": "old",
+    "english": "Lucia: He got us a new ride and should have some other work,\ntoo.",
+    "previous": "Lucia: Bize yeni bir araba ayarladı, başka işler de\nayarlayabilir.",
+    "translation": "Lucia: Bize yeni bir araç buldu, başka işleri de olmalı.",
+    "reviews": [
+      "r05153"
+    ]
+  },
+  {
+    "ref": "3:s03-05635000",
+    "choice": "old",
+    "english": "Lucia: Just give him a kiss from me.",
+    "previous": "Lucia: Benim için bir öpücük ver ona.",
+    "translation": "Lucia: Benden ona bir öpücük kondur.",
+    "reviews": [
+      "r05181"
+    ]
+  },
+  {
+    "ref": "3:s03-05696000",
+    "choice": "old",
+    "english": "Dunk: My people are talking to his people kinda thing.",
+    "previous": "Dunk: Benim adamlar onun adamlarla konuşuyor falan işte.",
+    "translation": "Dunk: Benimkiler onun adamlarıyla falan konuşuyor tarzı bir şey.",
+    "reviews": [
+      "r05191"
+    ]
+  },
+  {
+    "ref": "3:s03-05872500",
+    "choice": "old",
+    "english": "Guard: Forever on what? What you waitin' on?",
+    "previous": "Koruma: Neyi halledemedi? Ne bekliyorsun ki?",
+    "translation": "Koruma: Bu kadar süren ne? Neyi bekliyorsun?",
+    "reviews": [
+      "r05202"
+    ]
+  },
+  {
+    "ref": "3:s03-06282000",
+    "choice": "old",
+    "english": "Lucia: How soon?",
+    "previous": "Lucia: Ne kadar birazdan?",
+    "translation": "Lucia: Ne kadar sürede?",
+    "reviews": [
+      "r05250"
+    ]
+  },
+  {
+    "ref": "3:s03-06573500",
+    "choice": "old",
+    "english": "Kolt & Associates: Don't know... driver's pretty hot, though.",
+    "previous": "Kolt ve Ortakları: Bilmem... Ama şoför epey taşmış.",
+    "translation": "Kolt ve Ortakları: Bilmiyorum. Ama sürücü bayağı ateşli.",
+    "reviews": [
+      "r05317"
+    ]
+  },
+  {
+    "ref": "3:s03-06612500",
+    "choice": "old",
+    "english": "Dr. Bill: Barbara Kolt sends me a Christmas card, for Pete's sake.",
+    "previous": "Dr. Bill: Barbara Kolt bana Noel kartı gönderiyor, aşk olsun.",
+    "translation": "Dr. Bill: Barbara Kolt bana Noel kartı gönderiyor, Allah aşkına.",
+    "reviews": [
+      "r05324"
+    ]
+  },
+  {
+    "ref": "3:s03-06618500",
+    "choice": "old",
+    "english": "Lucia: A lot of fucking guys here, Bill.",
+    "previous": "Lucia: Çok fazla adam var burada, Bill.",
+    "translation": "Lucia: Burada çok adam var amına koyayım, Bill.",
+    "reviews": [
+      "r05325"
+    ]
+  },
+  {
+    "ref": "4:s04-03639000",
+    "choice": "old",
+    "english": "Lucia: Sorry.",
+    "previous": "Lucia: Üzgünüm.",
+    "translation": "Lucia: Kusura bakma.",
+    "reviews": [
+      "r05454"
+    ]
+  },
+  {
+    "ref": "4:s04-05250000",
+    "choice": "old",
+    "english": "Lucia: Why you out so late? Come to bed.",
+    "previous": "Lucia: Niye bu kadar geç kaldın? Gel yatağa.",
+    "translation": "Lucia: Bu geç saatte dışarıda ne arıyorsun? Yatağa gel.",
+    "reviews": [
+      "r05469"
+    ]
+  },
+  {
+    "ref": "4:s04-09265000",
+    "choice": "old",
+    "english": "Raul: Hey, you there?",
+    "previous": "Raul: Hey, orada mısın?",
+    "translation": "Raul: Alo, orada mısın?",
+    "reviews": [
+      "r00764"
+    ]
+  },
+  {
+    "ref": "4:s04-09876500",
+    "choice": "old",
+    "english": "Bae-Luxe: Who?",
+    "previous": "Bae-Luxe: Kimin?",
+    "translation": "Bae-Luxe: Kim...",
+    "reviews": [
+      "r05507"
+    ]
+  },
+  {
+    "ref": "5:s05-02435000",
+    "choice": "old",
+    "english": "Thief: Oh, shit!",
+    "previous": "Hırsız: Hay sıçayım!",
+    "translation": "Hırsız: Hassiktir!",
+    "reviews": [
+      "r05551"
+    ]
+  },
+  {
+    "ref": "5:s05-03346000",
+    "choice": "old",
+    "english": "Security Guard: Stop running!",
+    "previous": "Güvenlik görevlisi: Koşma!",
+    "translation": "Güvenlik görevlisi: Kaçmayı bırak!",
+    "reviews": [
+      "r05561"
+    ]
+  },
+  {
+    "ref": "7:s07-07482000",
+    "choice": "corrected",
+    "english": "Lucia: Go...",
+    "previous": "Lucia: Cehennemin...",
+    "translation": "Lucia: Git...",
+    "reviews": [
+      "r05799"
+    ]
+  },
+  {
+    "ref": "7:s07-07596500",
+    "choice": "old",
+    "english": "Andrea: We're good!",
+    "previous": "Andrea: Tamamız!",
+    "translation": "Andrea: Sorun yok.",
+    "reviews": [
+      "r05802"
+    ]
+  },
+  {
+    "ref": "8:s08-01432500",
+    "choice": "corrected",
+    "english": "Kordell: How's that?",
+    "previous": "Kordell: Nasıl böyle?",
+    "translation": "Kordell: Böyle nasıl?",
+    "reviews": [
+      "r05820"
+    ]
+  },
+  {
+    "ref": "8:s08-04125500",
+    "choice": "old",
+    "english": "Lucia: Get the fuck off me!",
+    "previous": "Lucia: Siktir git üstümden!",
+    "translation": "Lucia: Çekil üstümden amına koyayım!",
+    "reviews": [
+      "r05842",
+      "r05843"
+    ]
+  },
+  {
+    "ref": "8:s08-07176500",
+    "choice": "old",
+    "english": "Jason: Yo.",
+    "previous": "Jason: Efendim.",
+    "translation": "Jason: Selam.",
+    "reviews": [
+      "r05864"
+    ]
+  },
+  {
+    "ref": "9:s09-00847000",
+    "choice": "old",
+    "english": "Lucia: Fuck it. Okay.",
+    "previous": "Lucia: Sikmişim. Tamam.",
+    "translation": "Lucia: Siktir et, tamam!",
+    "reviews": [
+      "r05966"
+    ]
+  },
+  {
+    "ref": "9:s09-05737000",
+    "choice": "old",
+    "english": "Liz: Oh, shit.",
+    "previous": "Liz: Oha.",
+    "translation": "Liz: Hassiktir!",
+    "reviews": [
+      "r06010"
+    ]
+  }
+]

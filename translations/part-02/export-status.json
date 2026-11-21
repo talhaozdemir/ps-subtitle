@@ -1,0 +1,536 @@
+{
+  "reviewed_cues": 2054,
+  "ocr_windows_available": 6988,
+  "not_exported_navigation_windows": 4934,
+  "empty_midpoint_windows": 1750,
+  "earlier_frame_windows_checked": 0,
+  "earlier_frame_windows_with_text": 0,
+  "pack_entries": 3983,
+  "reviewed_earlier_frames": 0,
+  "latest_reviewed_timestamp": 8304.5,
+  "navigation_scan_complete": null,
+  "continuous_scan_candidates": 6988,
+  "continuous_scan_complete": true,
+  "candidate_review_complete": true,
+  "unresolved_source_issues": [
+    "s02-00205000",
+    "s02-00224000",
+    "s02-00230500",
+    "s02-00233000",
+    "s02-00520500",
+    "s02-01509000",
+    "s02-01838500",
+    "s02-02210000",
+    "s02-02419500",
+    "s02-05755500",
+    "s02-06186000"
+  ],
+  "coverage_verified": false,
+  "timing_verified": false,
+  "ambiguous_primary_records": [],
+  "directly_ambiguous_primary_records": [],
+  "blocked_fallback_primary_records": [],
+  "omitted_ambiguous_keys": [
+    {
+      "english_key": "hmm",
+      "alternatives": [
+        [
+          "s02-00107000",
+          "Müdür: Hım."
+        ],
+        [
+          "s02-00529000",
+          "Jason: Hım."
+        ],
+        [
+          "s02-01473000",
+          "Denetim memuru: Hım."
+        ],
+        [
+          "s02-02178500",
+          "Brian: Hı?"
+        ],
+        [
+          "s02-03378000",
+          "Lucia: Hım..."
+        ]
+      ]
+    },
+    {
+      "english_key": "thanks",
+      "alternatives": [
+        [
+          "s02-00119000",
+          "Çalışan: Sağ olun..."
+        ],
+        [
+          "s02-05188000",
+          "Jason: Sağ ol."
+        ],
+        [
+          "s02-07782000",
+          "Cal: Sağ ol."
+        ]
+      ]
+    },
+    {
+      "english_key": "okay",
+      "alternatives": [
+        [
+          "s02-00196000",
+          "Müdür: Peki."
+        ],
+        [
+          "s02-00377500",
+          "Lucia: Tamam..."
+        ],
+        [
+          "s02-00486500",
+          "Jason: Tamam."
+        ],
+        [
+          "s02-01457000",
+          "Denetim memuru: Peki..."
+        ],
+        [
+          "s02-05357500",
+          "Lori: Tamam."
+        ],
+        [
+          "s02-05705500",
+          "Kingfishers: Peki..."
+        ],
+        [
+          "s02-07452000",
+          "Cal: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah",
+      "alternatives": [
+        [
+          "s02-00316500",
+          "Lucia: Evet."
+        ],
+        [
+          "s02-00842000",
+          "Jason: Evet."
+        ],
+        [
+          "s02-07917500",
+          "Cal: Evet?"
+        ]
+      ]
+    },
+    {
+      "english_key": "hey",
+      "alternatives": [
+        [
+          "s02-00386500",
+          "Lucia: Hey!"
+        ],
+        [
+          "s02-00474000",
+          "Jason: Selam."
+        ],
+        [
+          "s02-05875500",
+          "Doug: Hey..."
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah okay",
+      "alternatives": [
+        [
+          "s02-00621500",
+          "Lucia: Evet, olur."
+        ],
+        [
+          "s02-00704000",
+          "Jason: Evet, tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "hop in",
+      "alternatives": [
+        [
+          "s02-00743500",
+          "Jason: Atla."
+        ],
+        [
+          "s02-01460000",
+          "Denetim memuru: Bin."
+        ]
+      ]
+    },
+    {
+      "english_key": "shit",
+      "alternatives": [
+        [
+          "s02-00776000",
+          "Lucia: Siktir."
+        ],
+        [
+          "s02-00834500",
+          "Jason: Siktir."
+        ],
+        [
+          "s02-05779000",
+          "Doug: Hassiktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "donnie",
+      "alternatives": [
+        [
+          "s02-00803500",
+          "Lucia: Donnie mi?"
+        ],
+        [
+          "s02-02132000",
+          "Jason: Donnie."
+        ],
+        [
+          "s02-06674500",
+          "Havacı: Donnie!"
+        ],
+        [
+          "s02-07660000",
+          "Cal: Donnie..."
+        ]
+      ]
+    },
+    {
+      "english_key": "got it",
+      "alternatives": [
+        [
+          "s02-00953000",
+          "Lucia: Anladım."
+        ],
+        [
+          "s02-00973000",
+          "Jason: Aldım!"
+        ]
+      ]
+    },
+    {
+      "english_key": "well",
+      "alternatives": [
+        [
+          "s02-00982500",
+          "Jason: Ee..."
+        ],
+        [
+          "s02-01522000",
+          "Denetim memuru: Pekâlâ..."
+        ]
+      ]
+    },
+    {
+      "english_key": "you okay",
+      "alternatives": [
+        [
+          "s02-01040500",
+          "Jason: İyi misin?"
+        ],
+        [
+          "s02-06192000",
+          "Brian: İyi misin?"
+        ]
+      ]
+    },
+    {
+      "english_key": "uh huh",
+      "alternatives": [
+        [
+          "s02-01101500",
+          "Lucia: Hı hı."
+        ],
+        [
+          "s02-02575000",
+          "Jason: Hı hı."
+        ]
+      ]
+    },
+    {
+      "english_key": "you got it",
+      "alternatives": [
+        [
+          "s02-01238000",
+          "Jason: Aynen öyle."
+        ],
+        [
+          "s02-07893500",
+          "Cal: Tamamdır."
+        ]
+      ]
+    },
+    {
+      "english_key": "huh",
+      "alternatives": [
+        [
+          "s02-01433500",
+          "Lucia: Ha?"
+        ],
+        [
+          "s02-04097000",
+          "Mattia: Ha?"
+        ]
+      ]
+    },
+    {
+      "english_key": "what",
+      "alternatives": [
+        [
+          "s02-01691000",
+          "Jason: Ne?"
+        ],
+        [
+          "s02-02133000",
+          "Donnie: Ne?"
+        ],
+        [
+          "s02-03583500",
+          "Lucia: Ne?"
+        ],
+        [
+          "s02-05586000",
+          "Lori: Ne?"
+        ],
+        [
+          "s02-07444000",
+          "Cal: Ne?"
+        ]
+      ]
+    },
+    {
+      "english_key": "meditate",
+      "alternatives": [
+        [
+          "s02-01692000",
+          "Lucia: Meditasyon."
+        ],
+        [
+          "s02-01693500",
+          "Jason: Meditasyon mu?"
+        ]
+      ]
+    },
+    {
+      "english_key": "brian",
+      "alternatives": [
+        [
+          "s02-02177500",
+          "Jason: Brian..."
+        ],
+        [
+          "s02-06147500",
+          "Lori: Brian!"
+        ]
+      ]
+    },
+    {
+      "english_key": "ho",
+      "alternatives": [
+        [
+          "s02-02304500",
+          "Brian: Hop!"
+        ],
+        [
+          "s02-04868500",
+          "Mattia: Hop!"
+        ]
+      ]
+    },
+    {
+      "english_key": "come here",
+      "alternatives": [
+        [
+          "s02-02307500",
+          "Brian: Gel buraya."
+        ],
+        [
+          "s02-05013000",
+          "Jason: Gel buraya."
+        ]
+      ]
+    },
+    {
+      "english_key": "alright",
+      "alternatives": [
+        [
+          "s02-02647000",
+          "Donnie: Tamam."
+        ],
+        [
+          "s02-02836000",
+          "Final Chapter: Tamam..."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh",
+      "alternatives": [
+        [
+          "s02-02887500",
+          "Donnie: Ah..."
+        ],
+        [
+          "s02-05148500",
+          "Mattia: Oh!"
+        ],
+        [
+          "s02-07737000",
+          "Lucia: Oh."
+        ]
+      ]
+    },
+    {
+      "english_key": "jason",
+      "alternatives": [
+        [
+          "s02-02919000",
+          "Donnie: Jason..."
+        ],
+        [
+          "s02-06953000",
+          "Brian: Jason."
+        ]
+      ]
+    },
+    {
+      "english_key": "fine",
+      "alternatives": [
+        [
+          "s02-03423500",
+          "Lucia: Peki."
+        ],
+        [
+          "s02-07937000",
+          "Cal: Tamam!"
+        ]
+      ]
+    },
+    {
+      "english_key": "oh yeah",
+      "alternatives": [
+        [
+          "s02-03462000",
+          "Jason: Oh, evet."
+        ],
+        [
+          "s02-03755000",
+          "Lucia: Öyle mi?"
+        ]
+      ]
+    },
+    {
+      "english_key": "hello",
+      "alternatives": [
+        [
+          "s02-03610500",
+          "Lucia: Alo?"
+        ],
+        [
+          "s02-07915500",
+          "Cal: Alo?"
+        ]
+      ]
+    },
+    {
+      "english_key": "mm hmm",
+      "alternatives": [
+        [
+          "s02-03624000",
+          "Lucia: Hı hı."
+        ],
+        [
+          "s02-05704000",
+          "Kingfishers: Hı hı."
+        ],
+        [
+          "s02-06436500",
+          "Jason: Hı hı."
+        ]
+      ]
+    },
+    {
+      "english_key": "right",
+      "alternatives": [
+        [
+          "s02-03758000",
+          "Lucia: Doğru."
+        ],
+        [
+          "s02-07734500",
+          "Cal: Değil mi?"
+        ]
+      ]
+    },
+    {
+      "english_key": "whoa",
+      "alternatives": [
+        [
+          "s02-04368500",
+          "Lucia: Vay!"
+        ],
+        [
+          "s02-04490000",
+          "Jason: Vay!"
+        ]
+      ]
+    },
+    {
+      "english_key": "here we go",
+      "alternatives": [
+        [
+          "s02-04503000",
+          "Jason: İşte gidiyoruz!"
+        ],
+        [
+          "s02-04593500",
+          "Mattia: İşte başlıyoruz!"
+        ],
+        [
+          "s02-07966000",
+          "Cal: İşte böyle."
+        ]
+      ]
+    },
+    {
+      "english_key": "have fun",
+      "alternatives": [
+        [
+          "s02-04705500",
+          "Kat: İyi eğlenceler."
+        ],
+        [
+          "s02-08273500",
+          "Jason: İyi eğlenceler."
+        ]
+      ]
+    },
+    {
+      "english_key": "nice",
+      "alternatives": [
+        [
+          "s02-07974000",
+          "Cal: Güzel."
+        ],
+        [
+          "s02-07988500",
+          "Lucia: Güzel."
+        ]
+      ]
+    }
+  ],
+  "complete": true,
+  "speaker_color_label_occurrences": 2114,
+  "speaker_color_measured_occurrences": 2108,
+  "speaker_color_visually_identified_occurrences": 6,
+  "speaker_color_unresolved_occurrences": 0
+}

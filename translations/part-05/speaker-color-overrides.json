@@ -1,0 +1,74 @@
+{
+  "s05-00290500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Mor / lila",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s05-00528000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s05-02874000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s05-03021500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s05-03044500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s05-03432000": {
+    "2": {
+      "status": "unresolved",
+      "name_tr": null,
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked, including an enlarged name region. Label is faded with mixed white, green and pink fringes; a reliable colour family cannot be selected. Exact hex not inferred."
+    }
+  },
+  "s05-03440500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s05-03717500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  }
+}

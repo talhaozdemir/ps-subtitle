@@ -1,0 +1,194 @@
+{
+  "reference_file": "translations/merge-review/legacy-subtitle.json.gz",
+  "new_parts": "translations/part-01 through part-08",
+  "old_full_caption_keys": 86973,
+  "old_segment_keys": 28469,
+  "old_total_unique_keys": 115442,
+  "new_records": 22547,
+  "new_unique_normalized_captions": 21736,
+  "new_total_unique_keys": 42358,
+  "shared_keys": 7153,
+  "old_keys_absent_from_new": 108289,
+  "new_keys_absent_from_old": 35205,
+  "shared_percent_of_old_keys": 6.2,
+  "absent_percent_of_old_keys": 93.8,
+  "per_part": [
+    {
+      "part": 1,
+      "records": 2943,
+      "unique_caption_count": 2829,
+      "new_pack_keys": 5518,
+      "shared_with_old_keys": 4034,
+      "keys_absent_from_old": 1484
+    },
+    {
+      "part": 2,
+      "records": 2054,
+      "unique_caption_count": 2034,
+      "new_pack_keys": 3983,
+      "shared_with_old_keys": 1650,
+      "keys_absent_from_old": 2333
+    },
+    {
+      "part": 3,
+      "records": 2853,
+      "unique_caption_count": 2853,
+      "new_pack_keys": 5571,
+      "shared_with_old_keys": 1206,
+      "keys_absent_from_old": 4365
+    },
+    {
+      "part": 4,
+      "records": 2504,
+      "unique_caption_count": 2458,
+      "new_pack_keys": 4803,
+      "shared_with_old_keys": 174,
+      "keys_absent_from_old": 4629
+    },
+    {
+      "part": 5,
+      "records": 2072,
+      "unique_caption_count": 2058,
+      "new_pack_keys": 4008,
+      "shared_with_old_keys": 166,
+      "keys_absent_from_old": 3842
+    },
+    {
+      "part": 6,
+      "records": 2603,
+      "unique_caption_count": 2571,
+      "new_pack_keys": 5013,
+      "shared_with_old_keys": 168,
+      "keys_absent_from_old": 4845
+    },
+    {
+      "part": 7,
+      "records": 2273,
+      "unique_caption_count": 2261,
+      "new_pack_keys": 4444,
+      "shared_with_old_keys": 130,
+      "keys_absent_from_old": 4314
+    },
+    {
+      "part": 8,
+      "records": 5245,
+      "unique_caption_count": 5211,
+      "new_pack_keys": 10154,
+      "shared_with_old_keys": 216,
+      "keys_absent_from_old": 9938
+    }
+  ],
+  "caveat": "Hash-key overlap is not dialogue coverage: old data includes segments and OCR variants, new keys include speaker-labelled and speakerless variants; different wording and cue splits do not share hashes.",
+  "actual_matcher_comparison": {
+    "unique_captions": 21736,
+    "recognized_by_old_pack": 6463,
+    "not_recognized_by_old_pack": 15273,
+    "per_part": [
+      {
+        "part": 1,
+        "records": 2943,
+        "exactly_recognized_by_old_pack": 2773,
+        "not_exactly_recognized_by_old_pack": 170
+      },
+      {
+        "part": 2,
+        "records": 2054,
+        "exactly_recognized_by_old_pack": 1708,
+        "not_exactly_recognized_by_old_pack": 346
+      },
+      {
+        "part": 3,
+        "records": 2853,
+        "exactly_recognized_by_old_pack": 1289,
+        "not_exactly_recognized_by_old_pack": 1564
+      },
+      {
+        "part": 4,
+        "records": 2504,
+        "exactly_recognized_by_old_pack": 253,
+        "not_exactly_recognized_by_old_pack": 2251
+      },
+      {
+        "part": 5,
+        "records": 2072,
+        "exactly_recognized_by_old_pack": 231,
+        "not_exactly_recognized_by_old_pack": 1841
+      },
+      {
+        "part": 6,
+        "records": 2603,
+        "exactly_recognized_by_old_pack": 265,
+        "not_exactly_recognized_by_old_pack": 2338
+      },
+      {
+        "part": 7,
+        "records": 2273,
+        "exactly_recognized_by_old_pack": 187,
+        "not_exactly_recognized_by_old_pack": 2086
+      },
+      {
+        "part": 8,
+        "records": 5245,
+        "exactly_recognized_by_old_pack": 399,
+        "not_exactly_recognized_by_old_pack": 4846
+      }
+    ],
+    "method": "App exact matcher, including first speaker removal and supported contraction/expansion; approximate search disabled. This measures old pack recognition of new captions, not new coverage of the old archive."
+  },
+  "speaker_label_analysis": {
+    "unique_captions": 21736,
+    "baseline_app_exact": 6463,
+    "with_all_line_speaker_labels_removed": 6648,
+    "additional_matches_from_speaker_removal": 185,
+    "still_unmatched_after_speaker_removal": 15088,
+    "with_language_labels_also_removed": 6648,
+    "additional_matches_from_language_label_removal": 0,
+    "still_unmatched_after_all_labels_removed": 15088,
+    "captions_with_multiple_speaker_headers": 919,
+    "note": "Counts retain the original unique-caption denominator and include existing matches. Exact matching only; no fuzzy matching. Removing labels tests hash compatibility, not semantic equivalence or missing dialogue coverage.",
+    "examples_of_additional_speaker_matches": [
+      {
+        "id": "p01-00150",
+        "english": "Isabelle: Ay! Yo, is we playin'?\nShayna: Yeah, yeah. But keep your pants on, bitch.",
+        "without_speakers": "Ay! Yo, is we playin'?\nYeah, yeah. But keep your pants on, bitch."
+      },
+      {
+        "id": "s01-00794000",
+        "english": "Cop: Come on.\nLucia: Okay, okay.",
+        "without_speakers": "Come on.\nOkay, okay."
+      },
+      {
+        "id": "p01-00368",
+        "english": "Cal: So, what's the play? What's going on?\nDonnie: Oh. Nothin'.",
+        "without_speakers": "So, what's the play? What's going on?\nOh. Nothin'."
+      },
+      {
+        "id": "s01-01306000",
+        "english": "Donnie: I just... I, you know...\nJason: Yeah, I don't see the money. Hold tight.",
+        "without_speakers": "I just... I, you know...\nYeah, I don't see the money. Hold tight."
+      },
+      {
+        "id": "s01-01307500",
+        "english": "Jason: Yeah, I don't see the money. Hold tight.\nKingfishers: It's just one foot in front of the other. Come on.",
+        "without_speakers": "Yeah, I don't see the money. Hold tight.\nIt's just one foot in front of the other. Come on."
+      },
+      {
+        "id": "s01-01470000",
+        "english": "Kingfishers: He can cry, he can beg, plead, piss himself.\nJason: Cal, I got Donnie.",
+        "without_speakers": "He can cry, he can beg, plead, piss himself.\nCal, I got Donnie."
+      },
+      {
+        "id": "p01-00445",
+        "english": "Kingfishers: He can cry, he can beg, plead, piss himself.\nJason: Get out of here, meet us at Brian's.",
+        "without_speakers": "He can cry, he can beg, plead, piss himself.\nGet out of here, meet us at Brian's."
+      },
+      {
+        "id": "s01-01561000",
+        "english": "Donnie: Gotta go! We gotta get the fuck outta here, man!\nVámonos!\nKingfishers: Donnie, you fuckin' motherfucker.",
+        "without_speakers": "Gotta go! We gotta get the fuck outta here, man!\nVámonos!\nDonnie, you fuckin' motherfucker."
+      }
+    ]
+  },
+  "original_reference_file": "dist/subtitle.json.gz",
+  "historical_comparison": true
+}

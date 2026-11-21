@@ -1,0 +1,16 @@
+{
+  "video": "1.mp4",
+  "width": 1280,
+  "height": 720,
+  "duration_seconds": 15664.33,
+  "navigation_windows": 2904,
+  "navigation_guide_only": true,
+  "transcript_source": "Full-video 2 fps RapidOCR scan plus navigation-frame recovery; exported English manually checked against source crops.",
+  "translation_source": "Newly authored natural spoken Turkish from reviewed English; screen speaker labels preserved.",
+  "complete": true,
+  "continuous_scan_complete": true,
+  "continuous_scan_fps": 2,
+  "continuous_scan_candidates": 4666,
+  "candidate_review_complete": true,
+  "timing_verified": false
+}

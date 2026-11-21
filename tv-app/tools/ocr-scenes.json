@@ -1,0 +1,13 @@
+{
+  "description": "Same eight subtitle frames from the user's Part 2 1080p recording; development sample, not an independent accuracy estimate.",
+  "scenes": [
+    {"id": "staff", "seconds": 79, "reference": "Staff Member: See? It-it doesn't add up."},
+    {"id": "manager-look", "seconds": 83.3069, "reference": "Manager: Let me take a look for ya..."},
+    {"id": "manager-software", "seconds": 87, "reference": "Manager: The software can be kinda tricky if you don't know what you're doing."},
+    {"id": "manager-even", "seconds": 93, "reference": "Manager: Even me."},
+    {"id": "trafficker", "seconds": 999.6828, "reference": "Trafficker: In Spanish: \"No money!\" What you mean \"no money,\" asshole? Oh, shit, Jay!"},
+    {"id": "lucia", "seconds": 4418, "reference": "Lucia: Oh, no, no, no, I'm good. What?"},
+    {"id": "mattia-italian", "seconds": 4423, "reference": "Mattia: In Italian: Yo! Hey, hey! Alex! Come here, come here! Well..."},
+    {"id": "mattia-go", "seconds": 4433, "reference": "Mattia: Come on. Let's go, let's go!"}
+  ]
+}

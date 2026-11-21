@@ -2,10 +2,11 @@
 
 const net = require('net');
 const defaultRegion = { x: 6, y: 77, width: 88, height: 23 };
-const defaultAppearance = { position: 'bottom', offset: 5, background: true, opacity: 90, fontSize: 38 };
+const defaultAppearance = { position: 'bottom', offset: 5, background: true, opacity: 90, fontSize: 38, paddingX: 14, paddingY: 7, showSpeakerNames: false };
 const supportedQualities = [360, 540, 720, 1080];
+const defaultOcrRate = 3;
 const translationProviderNames = { gemini: 'Gemini', openai: 'OpenAI' };
-const defaultTranslation = { mode: 'pack', provider: 'gemini', keys: { gemini: '', openai: '' } };
+const defaultTranslation = { mode: 'pack', provider: 'gemini', similarity: 95, keys: { gemini: '', openai: '' } };
 
 function subtitleRegion(value) {
   if (!value || !['x', 'y', 'width', 'height'].every(function (key) { return Number.isInteger(value[key]); }) ||
@@ -44,10 +45,23 @@ function captureQuality(value) {
   return supportedQualities.indexOf(value) !== -1 ? value : 540;
 }
 
+function subtitleOcrRate(value) {
+  if (!Number.isInteger(value) || value < 1 || value > 10) {
+    throw Error('Okuma sıklığı saniyede 1 ile 10 arasında olmalı.');
+  }
+  return value;
+}
+
+function savedOcrRate(saved) {
+  try { return subtitleOcrRate(saved.ocrRate); }
+  catch (error) { return defaultOcrRate; }
+}
+
 function settings(payload) {
   if (!net.isIPv4(payload.address)) throw Error('Geçerli bir PS5 IPv4 adresi gir.');
   if ([1, 2, 3, 4].indexOf(payload.port) === -1) throw Error('PS5’in HDMI girişini seç.');
-  return { address: payload.address, port: payload.port, quality: captureQuality(payload.quality) };
+  return { address: payload.address, port: payload.port, quality: captureQuality(payload.quality),
+    ocrRate: payload.ocrRate === undefined ? defaultOcrRate : subtitleOcrRate(payload.ocrRate) };
 }
 
 function consoleId(value) {
@@ -56,20 +70,24 @@ function consoleId(value) {
 }
 
 function subtitleAppearance(value) {
+  const { paddingX = defaultAppearance.paddingX, paddingY = defaultAppearance.paddingY,
+    showSpeakerNames = defaultAppearance.showSpeakerNames } = value || {};
   if (!value || (value.position !== 'bottom' && value.position !== 'top') ||
       !Number.isInteger(value.offset) || value.offset < 0 || value.offset > 30 ||
       typeof value.background !== 'boolean' ||
       !Number.isInteger(value.opacity) || value.opacity < 0 || value.opacity > 100 ||
-      !Number.isInteger(value.fontSize) || value.fontSize < 24 || value.fontSize > 64) {
+      !Number.isInteger(value.fontSize) || value.fontSize < 24 || value.fontSize > 64 ||
+      !Number.isInteger(paddingX) || paddingX < 0 || paddingX > 100 ||
+      !Number.isInteger(paddingY) || paddingY < 0 || paddingY > 60 || typeof showSpeakerNames !== 'boolean') {
     throw Error('Altyazı görünümü ayarları geçersiz.');
   }
   return { position: value.position, offset: value.offset, background: value.background,
-    opacity: value.opacity, fontSize: value.fontSize };
+    opacity: value.opacity, fontSize: value.fontSize, paddingX: paddingX, paddingY: paddingY, showSpeakerNames: showSpeakerNames };
 }
 
 function translationSettings(value, previous = defaultTranslation) {
   if (value && value.provider === undefined && (value.apiKey === null || typeof value.apiKey === 'string')) {
-    value = { mode: value.mode, provider: 'gemini', keys: { gemini: value.apiKey } };
+    value = { mode: value.mode, provider: 'gemini', similarity: value.similarity, keys: { gemini: value.apiKey } };
   }
   const providers = Object.keys(translationProviderNames);
   if (!value || ['pack', 'api'].indexOf(value.mode) === -1 || providers.indexOf(value.provider) === -1 ||
@@ -89,7 +107,11 @@ function translationSettings(value, previous = defaultTranslation) {
   if (value.mode === 'api' && !keys[value.provider]) {
     throw Error('Önce ' + translationProviderNames[value.provider] + ' API anahtarını gir.');
   }
-  return { mode: value.mode, provider: value.provider, keys: keys };
+  const similarity = value.similarity === undefined ? previous.similarity : value.similarity;
+  if (!Number.isInteger(similarity) || similarity < 80 || similarity > 100) {
+    throw Error('Benzerlik eşiği %80 ile %100 arasında olmalı.');
+  }
+  return { mode: value.mode, provider: value.provider, similarity: similarity, keys: keys };
 }
 
 function savedTranslation(saved) {
@@ -100,7 +122,7 @@ function savedTranslation(saved) {
 }
 
 function publicTranslation(config) {
-  return { mode: config.mode, provider: config.provider,
+  return { mode: config.mode, provider: config.provider, similarity: config.similarity,
     hasKeys: { gemini: Boolean(config.keys.gemini), openai: Boolean(config.keys.openai) } };
 }
 
@@ -111,10 +133,11 @@ function publicSettings(saved) {
     try { appearance = subtitleAppearance(saved.appearance); }
     catch (error) { /* Use the defaults when stored values are invalid. */ }
   }
-  return { address: saved.address || '', port: saved.port || 1, quality: captureQuality(saved.quality),
+  return { address: saved.address || '', port: saved.port || 1, quality: captureQuality(saved.quality), ocrRate: savedOcrRate(saved),
     paired: paired, setupComplete: paired && saved.setupComplete !== false, consoleId: consoleId(saved.consoleId),
     region: saved.region || defaultRegion, appearance: appearance, translation: publicTranslation(savedTranslation(saved)) };
 }
 
 module.exports = { accountBytes, settings, publicSettings, subtitleRegion, subtitleAppearance, consoleId,
-  translationSettings, savedTranslation, publicTranslation, translationProviderNames, supportedQualities };
+  translationSettings, savedTranslation, publicTranslation, translationProviderNames, supportedQualities,
+  subtitleOcrRate, savedOcrRate };

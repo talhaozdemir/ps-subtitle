@@ -1,0 +1,25 @@
+﻿9. BÖLÜM — İNGİLİZCE / TÜRKÇE ÇEVİRİ
+
+Kaynak: Downloads klasöründeki GTA-6-ENDING-SnapYT.App.mp4 (1920 × 1080, 03:40:14.383).
+
+part-09.en-tr.txt: Görünen konuşmacı etiketleriyle İngilizce/Türkçe metin.
+dialogues.json: Düzenlenebilir çift dilli kayıtlar, yaklaşık zamanlar ve kaynak görüntü yolları.
+reviewed.json: Esas düzenleme dosyası; build_translation.py ile çıktılar yeniden oluşturulabilir.
+subtitle.json.gz: Projedeki örneğe uygun format-2 çeviri sözlüğü, 5943 eşleştirme girdisi.
+part-09.en.srt / part-09.tr.srt: Yaklaşık zamanlı başvuru çıktılarıdır; son senkron altyazı değildir.
+
+3090 kayıt kaynak görüntüden kontrol edilerek sıfırdan Türkçe konuşma dilinde çevrildi. Aynı anda görünen konuşmalar ve tekrarlar nedeniyle bu sayı benzersiz cümle sayısı değildir. Normal ve soluk altyazı profilleriyle video baştan sona saniyede 2 kareyle tarandı. Etiketsiz ve boş OCR adayları da görüntüden denetlendi. İlk taramada kaçan soluk replikler ek geçişten alındı. Önceki Türkçe paket çeviri kaynağı olarak kullanılmadı.
+
+Ardışık ekranlara bölünen cümleler devamlarıyla birlikte okundu; Türkçe söz dizimi ve yüklemler bu akışa göre kuruldu. Ekrandaki adlar ve aksanlar korundu. Stranger = Yabancı, Cop/Police = Polis. Etiketsiz cevaplara tahmini kişi adı eklenmedi. Guard karşılığı sahneye göre Güvenlik görevlisi veya Koruma; hastanedeki Clerk karşılığı Danışma görevlisi olarak satır bazında belgelendi. Argo ve küfürler bağlama göre aktarıldı.
+
+Paket eşleştiricisi noktalama işaretlerini kaldırır. Örneğin Got it. / Got it? aynı anahtara dönüşebilir. Bu yüzden bağlama göre farklı çeviri gerektiren 15 kayıt çift dilli TXT/JSON/SRT içinde doğru çevirileriyle korunur; bunların belirsiz hash anahtarları ve konuşmacısız yedekleri pakete alınmaz. 3075 belirsiz olmayan kayıt gerçek uygulama okuyucusunda doğru Türkçeye eşleşti; 15 belirsiz kaydın yanlış bir Türkçeye dönmediği ayrıca doğrulandı. Ayrıntılar export-status.json ve validation.json içindedir.
+
+Kaynak videoda siyah bantların gizlediği kelimeler tahmin edilmedi. 9 kaynak sorunu source-issues.json içinde belgeli; gizlenen metinler uydurulmadı. Bağımsız ve tam okunabilen replik parçaları korundu.
+
+Videonun sonlarında oyun jeneriği görüntüden doğrulandı; jenerik sonrasında görünen konuşmalar da incelendi. Son kanal kapanış kartı konuşma olarak eklenmedi.
+
+Çok kısa veya okunamayan altyazılar taramada kaçabilir. Menü, tabela ve telefon bildirimlerinin tamamı kapsamda değildir. complete=true bulunan adayların ele alındığını gösterir; her konuşmanın eksiksiz yakalandığı veya SRT zamanlarının son senkron kontrolünden geçtiği anlamına gelmez.
+
+
+KONUŞMACI İSİM RENKLERİ
+İngilizce/Türkçe TXT ve dialogues.json içindeki speaker_labels alanına, ekranda görünen isim/rol etiketlerinin renk bilgisi eklendi. speaker-colors.json dosyası her adın her satırdaki görünümünü ayrı tutar; line_index sıfırdan başlar, TXT satır numarası birden başlar. Aynı kişi veya aynı rol farklı sahnelerde, hatta aynı karede başka renkte olabilir. 3174 etiket görünümü: 3171 piksel ölçümü, 3 görsel renk ailesi kontrolü, 0 belirsiz. HEX değerleri sıkıştırılmış video görüntüsünden yaklaşık örneklerdir, oyunun kesin renk paleti değildir. Yalnız gözle rengi seçilen örneklerde HEX uydurulmadı. Rengi seçilmeyen/ismi görünmeyen yerler belirsiz bırakıldı.

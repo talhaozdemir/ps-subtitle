@@ -58,6 +58,10 @@
           <option value="720">720p</option>
           <option value="1080">1080p</option>
         </select>
+        <label class="appearanceLabel" for="ocrRate"><span>Okuma sıklığı</span><span id="ocrRateValue">3 kez/sn · 333 ms</span></label>
+        <input id="ocrRate" type="range" min="1" max="10" step="1" value="3" aria-describedby="ocrRateHelp">
+        <p id="ocrRateHelp">Yüksek değer altyazıyı daha sık kontrol eder ve TV’nin yükünü artırabilir.</p>
+        <button id="saveOcrRate" type="button" disabled>Sıklığı kaydet</button>
         <div class="actions">
           <button id="start" class="primary" type="submit">Altyazıyı dene</button>
           <button id="editTranslation" type="button" disabled>Çeviri</button>
@@ -104,6 +108,9 @@
       Yazı boyutu <span id="appearanceSizeValue">38 px</span>
     </label>
     <input id="appearanceSize" type="range" min="24" max="64" value="38">
+    <button id="appearanceNames" class="appearanceChoice" type="button" aria-pressed="false">
+      Konuşmacı isimleri <span id="appearanceNamesValue" aria-hidden="true">Kapalı</span>
+    </button>
     <button id="appearanceBackground" class="appearanceChoice" type="button" aria-pressed="true">
       Siyah arka plan <span id="appearanceBackgroundValue" aria-hidden="true">Açık</span>
     </button>
@@ -111,6 +118,14 @@
       Arka plan opaklığı <span id="appearanceOpacityValue">%90</span>
     </label>
     <input id="appearanceOpacity" type="range" min="0" max="100" value="90">
+    <label for="appearancePaddingX" class="appearanceLabel">
+      Arka plan yatay boşluk <span id="appearancePaddingXValue">14 px</span>
+    </label>
+    <input id="appearancePaddingX" type="range" min="0" max="100" value="14">
+    <label for="appearancePaddingY" class="appearanceLabel">
+      Arka plan dikey boşluk <span id="appearancePaddingYValue">7 px</span>
+    </label>
+    <input id="appearancePaddingY" type="range" min="0" max="60" value="7">
     <p id="appearanceError" role="alert" hidden></p>
     <div class="actions">
       <button id="saveAppearance" type="button">Kaydet</button>
@@ -122,6 +137,12 @@
     <button id="translationMode" class="appearanceChoice" type="button">
       Çeviri kaynağı <span id="translationModeValue">Paket öncelikli</span>
     </button>
+    <div id="translationSimilaritySection">
+      <label for="translationSimilarity" class="appearanceLabel">
+        En düşük benzerlik <span id="translationSimilarityValue" aria-hidden="true">%95</span>
+      </label>
+      <input id="translationSimilarity" type="range" min="80" max="100" step="1" value="95">
+    </div>
     <button id="translationProvider" class="appearanceChoice" type="button">
       API sağlayıcısı <span id="translationProviderValue">Gemini</span>
     </button>
@@ -151,6 +172,7 @@
     </div>
   </section>
   <script src="vendor/qrcode.js"></script>
+  <script src="subtitle-renderer.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+{
+  "reviewed_pairs": 6064,
+  "decisions": {
+    "new": 5769,
+    "old": 295
+  },
+  "common_caption_records": 7428,
+  "common_pack_keys": 7208,
+  "identical_occurrences": 1895,
+  "reviewed_source_records": 25637,
+  "old_or_corrected_records": 301,
+  "selected_record_choices": {
+    "old": 295,
+    "corrected": 6
+  },
+  "original_keys": 115442,
+  "final_keys": 132496,
+  "effective_keys": 156118,
+  "deduplicated_keys": 23622,
+  "ambiguous_keys_omitted": 239,
+  "blocked_primary_keys": 131,
+  "equivalent_keys_resolved": 290,
+  "speaker_occurrences": 26624,
+  "json_bytes": 28461872,
+  "gzip_bytes": 7948237,
+  "sha256": "59297a7664e7ea34849bf55939fa559ac5e7c0b643d9673cb74c6c81a4a1d7ce",
+  "output": "dist\\merged\\subtitle.json.gz"
+}

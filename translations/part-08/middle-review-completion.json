@@ -1,0 +1,21 @@
+{
+  "start": 7200,
+  "end": 12000,
+  "original_scan_complete": true,
+  "dim_scan_complete": true,
+  "headed_pending": 0,
+  "unheaded_pending_including_repeats": 0,
+  "empty_pending": 0,
+  "main_reviewed_cues": 3330,
+  "main_active_source_issues": 27,
+  "same_english_translation_conflicts": [],
+  "new_dim_cue_ids": [
+    "s08-07975500",
+    "s08-08263000",
+    "s08-11609500",
+    "s08-11624500"
+  ],
+  "source_issue_resolved": "s08-10115500: Lucia label proved by later native source s08-10116000",
+  "prehead_audit": "All central text before first speaker checked: registration/UI, documented own-body OCR ordering and censored repeats. Independent readable unheaded replies retained without inferred speaker.",
+  "ownership": "Main reviewed/source-audit/source-issues locked and handed to root for final early/tail merge."
+}

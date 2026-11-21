@@ -1,0 +1,53 @@
+{
+  "issues": [
+    {
+      "id": "s04-01314000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s04-01314000.jpg",
+      "visible_fragment": "Jason: We could get into golf and, y'know, [black bar] / real rich people shit.",
+      "note": "Source video contains solid black censor bar over words. Obscured English not inferred; caption omitted from approved translation."
+    },
+    {
+      "id": "s04-01318500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s04-01318500.jpg",
+      "visible_fragment": "Lucia: Why is it always [black bar] with these people?",
+      "note": "Source video contains solid black censor bar over words. Obscured English not inferred; caption omitted from approved translation."
+    },
+    {
+      "id": "s04-02479000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s04-02479000.jpg",
+      "visible_fragment": "Lucia: Why you ride a bike like that, you want to [black bar]",
+      "note": "Source video contains solid black censor bar over ending. Obscured English not inferred; caption omitted from approved translation."
+    },
+    {
+      "id": "s04-04539000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s04-04539000.jpg",
+      "visible_fragment": "Boobie: 'Ey, you gotta know how to talk to the [black bar], dog... / Yeah!",
+      "note": "Source black censor bar hides a word; whole caption omitted from approved translation, obscured text not inferred."
+    },
+    {
+      "id": "s04-06516500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s04-06516500.jpg",
+      "visible_fragment": "Lucia: [black bar] I think? It's creepy.",
+      "note": "Source black censor bar hides initial words; whole caption omitted from approved translation, obscured text not inferred."
+    },
+    {
+      "id": "s04-09019500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s04-09019500.jpg",
+      "visible_fragment": "[black bar] Watch it, watch it, watch it!",
+      "note": "Black source bar obscures caption prefix. Cannot determine speaker label versus extra words; not inferred. Full censored cue omitted. Lucia reaction separately approved from uncensored s04-09022000."
+    },
+    {
+      "id": "s04-10414500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s04-10414500.jpg",
+      "visible_fragment": "Lucia: [black bar] Tongue in, tongue out... ♪",
+      "note": "Black source bar hides initial lyric fragment. Independently checked 10414.5–10416.5 at 2 fps: no uncensored frame. Hidden text not inferred; whole caption omitted."
+    }
+  ]
+}

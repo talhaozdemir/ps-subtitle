@@ -1,0 +1,70 @@
+{
+  "issues": [
+    {
+      "id": "s02-00205000",
+      "source_frame": "continuous/frames/s02-00205000.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Solid black source censor bar obscures speaker label and words before visible ending \"total ass.\". Do not infer hidden English."
+    },
+    {
+      "id": "s02-00224000",
+      "source_frame": "continuous/frames/s02-00224000.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Source video has a solid black censor bar obscuring words. Visible fragments retained only in OCR evidence; hidden text not inferred."
+    },
+    {
+      "id": "s02-00230500",
+      "source_frame": "continuous/frames/s02-00230500.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Source video has a solid black censor bar obscuring words. Visible fragments retained only in OCR evidence; hidden text not inferred."
+    },
+    {
+      "id": "s02-00233000",
+      "source_frame": "continuous/frames/s02-00233000.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Source video has a solid black censor bar obscuring words. Visible fragments retained only in OCR evidence; hidden text not inferred."
+    },
+    {
+      "id": "s02-00520500",
+      "source_frame": "continuous/frames/s02-00520500.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Source black censor bar obscures words before fest Donnie put this business in; do not infer hidden words."
+    },
+    {
+      "id": "s02-01509000",
+      "source_frame": "continuous/frames/s02-01509000.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Source black bar obscures word(s) after Lucia: We were. Do not infer hidden English."
+    },
+    {
+      "id": "s02-01838500",
+      "source_frame": "continuous/frames/s02-01838500.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Source black censor bar obscures words after Donnie: Wipe your and before boy. Do not infer hidden English."
+    },
+    {
+      "id": "s02-02210000",
+      "source_frame": "continuous/frames/s02-02210000.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Source black bar obscures word(s) after Patron: bottom of America's. Do not infer hidden English."
+    },
+    {
+      "id": "s02-02419500",
+      "source_frame": "continuous/frames/s02-02419500.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Source black bar obscures verb between Donnie: They'll be back to and their pigs in no time. Do not infer hidden English."
+    },
+    {
+      "id": "s02-05755500",
+      "source_frame": "continuous/frames/s02-05755500.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Source black censor bar obscures words after Kingfishers: Smells like. Do not infer hidden English."
+    },
+    {
+      "id": "s02-06186000",
+      "source_frame": "continuous/frames/s02-06186000.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Source black censor bar obscures entire body after Kingfisher label. Do not infer hidden English."
+    }
+  ]
+}

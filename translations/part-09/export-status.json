@@ -1,0 +1,1123 @@
+{
+  "reviewed_cues": 3090,
+  "ocr_windows_available": 6841,
+  "not_exported_navigation_windows": 3751,
+  "empty_midpoint_windows": 1495,
+  "earlier_frame_windows_checked": 0,
+  "earlier_frame_windows_with_text": 0,
+  "pack_entries": 5943,
+  "reviewed_earlier_frames": 0,
+  "latest_reviewed_timestamp": 13189.0,
+  "navigation_scan_complete": null,
+  "continuous_scan_candidates": 6841,
+  "continuous_scan_complete": true,
+  "candidate_review_complete": true,
+  "unresolved_source_issues": [
+    "s09-02886000",
+    "s09-03204500",
+    "s09-03483500",
+    "s09-07398500",
+    "s09-08955000",
+    "s09-09786000",
+    "s09-09919500",
+    "s09-10259500",
+    "s09-11407000"
+  ],
+  "coverage_verified": false,
+  "timing_verified": false,
+  "ambiguous_primary_records": [
+    "s09-00398500",
+    "s09-02723500",
+    "s09-03239500",
+    "s09-03277000",
+    "s09-04632000",
+    "s09-04848000",
+    "s09-04917000",
+    "s09-05710000",
+    "s09-06893000",
+    "s09-07365500",
+    "s09-08626000",
+    "s09-09180500",
+    "s09-09915500",
+    "s09-11350500",
+    "s09-11697500"
+  ],
+  "directly_ambiguous_primary_records": [
+    "s09-00398500",
+    "s09-02723500",
+    "s09-03239500",
+    "s09-03277000",
+    "s09-04632000",
+    "s09-04848000",
+    "s09-04917000",
+    "s09-05710000",
+    "s09-06893000",
+    "s09-07365500",
+    "s09-08626000",
+    "s09-09180500",
+    "s09-09915500",
+    "s09-11350500",
+    "s09-11697500"
+  ],
+  "blocked_fallback_primary_records": [],
+  "omitted_ambiguous_keys": [
+    {
+      "english_key": "hey",
+      "alternatives": [
+        [
+          "s09-00029500",
+          "Lucia: Selam."
+        ],
+        [
+          "s09-00904000",
+          "Jason: Hey."
+        ],
+        [
+          "s09-01877500",
+          "Jason: Hey?"
+        ],
+        [
+          "s09-04531000",
+          "Lucia: Selam."
+        ],
+        [
+          "s09-04550500",
+          "Dardan: Hey!"
+        ],
+        [
+          "s09-11214000",
+          "Fitzroy: Hey!"
+        ]
+      ]
+    },
+    {
+      "english_key": "raul",
+      "alternatives": [
+        [
+          "s09-00079000",
+          "Abe: Raul mu?"
+        ],
+        [
+          "s09-00332000",
+          "Lucia: Raul?"
+        ]
+      ]
+    },
+    {
+      "english_key": "huh",
+      "alternatives": [
+        [
+          "s09-00089500",
+          "Jason: Hı..."
+        ],
+        [
+          "s09-10102500",
+          "Polis: Ha?"
+        ],
+        [
+          "s09-11794500",
+          "Jason: Hı."
+        ],
+        [
+          "s09-13164000",
+          "Cal: Ha?"
+        ]
+      ]
+    },
+    {
+      "english_key": "let s go",
+      "alternatives": [
+        [
+          "s09-00393500",
+          "Jason: Hadi."
+        ],
+        [
+          "s09-07989500",
+          "Lucia: Hadi gidelim."
+        ],
+        [
+          "s09-10037500",
+          "Fitzroy: Yürü."
+        ],
+        [
+          "s09-11217000",
+          "Jason: Hadi."
+        ],
+        [
+          "s09-11460000",
+          "Lucia: Hadi gidelim."
+        ],
+        [
+          "s09-12673000",
+          "Dedektif: Hadi gidelim."
+        ]
+      ]
+    },
+    {
+      "english_key": "shit",
+      "alternatives": [
+        [
+          "s09-00395500",
+          "Jason: Siktir."
+        ],
+        [
+          "s09-01934000",
+          "Mattia: Siktir..."
+        ],
+        [
+          "s09-12122000",
+          "Jason: Siktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "lucia yeah",
+      "alternatives": [
+        [
+          "s09-00398500",
+          "Lucia: Evet..."
+        ],
+        [
+          "s09-04917000",
+          "Lucia: Öyle mi?"
+        ],
+        [
+          "s09-06893000",
+          "Lucia: Evet."
+        ],
+        [
+          "s09-11350500",
+          "Lucia: Evet."
+        ]
+      ],
+      "reason": "Ambiguous primary caption or its speakerless fallback"
+    },
+    {
+      "english_key": "yeah",
+      "alternatives": [
+        [
+          "s09-00398500",
+          "Lucia: Evet..."
+        ],
+        [
+          "s09-04848000",
+          "Jason: Evet."
+        ],
+        [
+          "s09-04917000",
+          "Lucia: Öyle mi?"
+        ],
+        [
+          "s09-04997000",
+          "Vinny: Evet."
+        ],
+        [
+          "s09-06893000",
+          "Lucia: Evet."
+        ],
+        [
+          "s09-09180500",
+          "Jason: Öyle mi?"
+        ],
+        [
+          "s09-09915500",
+          "Jason: Evet."
+        ],
+        [
+          "s09-10624000",
+          "Fitzroy: Evet."
+        ],
+        [
+          "s09-11350500",
+          "Lucia: Evet."
+        ],
+        [
+          "s09-13063000",
+          "Abe: Ne?"
+        ]
+      ],
+      "reason": "Ambiguous primary caption or its speakerless fallback"
+    },
+    {
+      "english_key": "go",
+      "alternatives": [
+        [
+          "s09-00536500",
+          "Jason: Git!"
+        ],
+        [
+          "s09-10045000",
+          "Fitzroy: Yürü."
+        ],
+        [
+          "s09-11871500",
+          "Giorgio: Hadi!"
+        ]
+      ]
+    },
+    {
+      "english_key": "okay",
+      "alternatives": [
+        [
+          "s09-01011000",
+          "Lucia: Tamam."
+        ],
+        [
+          "s09-01550000",
+          "Jason: Tamam."
+        ],
+        [
+          "s09-04713500",
+          "Mattia: Tamam..."
+        ],
+        [
+          "s09-06467500",
+          "Jason: Tamam..."
+        ],
+        [
+          "s09-06526000",
+          "Lucia: Tamam."
+        ],
+        [
+          "s09-09809000",
+          "Eyalet savcısı: Tamam."
+        ],
+        [
+          "s09-10142000",
+          "Lucia: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "no fuckin way",
+      "alternatives": [
+        [
+          "s09-01036000",
+          "Lucia: Yok artık amına koyayım."
+        ],
+        [
+          "s09-11043500",
+          "Méndez: Yok artık lan..."
+        ]
+      ]
+    },
+    {
+      "english_key": "mattia again",
+      "alternatives": [
+        [
+          "s09-01087000",
+          "Lucia: Yine Mattia."
+        ],
+        [
+          "s09-01504500",
+          "Jason: Yine Mattia mı?"
+        ]
+      ]
+    },
+    {
+      "english_key": "what do you want",
+      "alternatives": [
+        [
+          "s09-01151000",
+          "Abe: Ne istiyorsunuz?"
+        ],
+        [
+          "s09-04532000",
+          "Dardan: Ne istiyorsun?"
+        ]
+      ]
+    },
+    {
+      "english_key": "hello",
+      "alternatives": [
+        [
+          "s09-01254000",
+          "Jason: Alo?"
+        ],
+        [
+          "s09-04694500",
+          "Jason: Alo?"
+        ],
+        [
+          "s09-05506500",
+          "Lucia: Alo?"
+        ]
+      ]
+    },
+    {
+      "english_key": "what",
+      "alternatives": [
+        [
+          "s09-01260500",
+          "Jason: Ne?"
+        ],
+        [
+          "s09-01699000",
+          "Giorgio: Ne?"
+        ],
+        [
+          "s09-04310000",
+          "Lucia: Ne?"
+        ],
+        [
+          "s09-08346500",
+          "Lucia: Ne?"
+        ]
+      ]
+    },
+    {
+      "english_key": "what s going on",
+      "alternatives": [
+        [
+          "s09-01261500",
+          "Jason: Neler oluyor?"
+        ],
+        [
+          "s09-09621000",
+          "Lucia: Ne oluyor?"
+        ]
+      ]
+    },
+    {
+      "english_key": "i know",
+      "alternatives": [
+        [
+          "s09-01610500",
+          "Lucia: Biliyorum."
+        ],
+        [
+          "s09-04849500",
+          "Jason: Biliyorum."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh",
+      "alternatives": [
+        [
+          "s09-01639000",
+          "Karşılama görevlisi: Ha."
+        ],
+        [
+          "s09-04924000",
+          "Lucia: Ha..."
+        ],
+        [
+          "s09-11336000",
+          "Jason: Ha."
+        ]
+      ]
+    },
+    {
+      "english_key": "in italian if it s not in the sea it s just a piece of junk",
+      "alternatives": [
+        [
+          "s09-01677500",
+          "Yabancı: (İtalyanca) Denizde değilse bir hurda yığınından ibarettir."
+        ],
+        [
+          "s09-01698500",
+          "Giorgio: (İtalyanca) Denizde değilse bir hurda yığınından ibarettir."
+        ]
+      ]
+    },
+    {
+      "english_key": "fuck",
+      "alternatives": [
+        [
+          "s09-01806500",
+          "Jason: Siktir."
+        ],
+        [
+          "s09-04387500",
+          "Kat: Siktir!"
+        ],
+        [
+          "s09-06312000",
+          "Jason: Siktir."
+        ],
+        [
+          "s09-07273500",
+          "Bledar: Siktir!"
+        ],
+        [
+          "s09-09662000",
+          "Lucia: Siktir!"
+        ],
+        [
+          "s09-10869000",
+          "Fitzroy: Siktir!"
+        ],
+        [
+          "s09-11747500",
+          "Bledar: Siktir!"
+        ],
+        [
+          "s09-12126500",
+          "Jason: Siktir!"
+        ],
+        [
+          "s09-12688500",
+          "Lucia: Siktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah i m okay",
+      "alternatives": [
+        [
+          "s09-01881500",
+          "Lucia: Evet, iyiyim."
+        ],
+        [
+          "s09-01885500",
+          "Jason: Evet, iyiyim."
+        ]
+      ]
+    },
+    {
+      "english_key": "fuck you",
+      "alternatives": [
+        [
+          "s09-01991000",
+          "Jason: Siktir git."
+        ],
+        [
+          "s09-07389500",
+          "Vinny: Siktir git!"
+        ],
+        [
+          "s09-10889500",
+          "Fitzroy: Siktir git!"
+        ]
+      ]
+    },
+    {
+      "english_key": "oh shit",
+      "alternatives": [
+        [
+          "s09-02257500",
+          "Lucia: Siktir."
+        ],
+        [
+          "s09-05737000",
+          "Liz: Oha."
+        ],
+        [
+          "s09-06028000",
+          "Kevin: Hay sıçayım!"
+        ],
+        [
+          "s09-07127500",
+          "Bledar: Hassiktir."
+        ],
+        [
+          "s09-10106500",
+          "Polis: Hassiktir!"
+        ],
+        [
+          "s09-12019000",
+          "Jason: Hassiktir!"
+        ],
+        [
+          "s09-12295500",
+          "Lucia: Siktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "jason you got it",
+      "alternatives": [
+        [
+          "s09-02723500",
+          "Jason: Tamamdır."
+        ],
+        [
+          "s09-08626000",
+          "Jason: Anladın mı?"
+        ]
+      ],
+      "reason": "Ambiguous primary caption or its speakerless fallback"
+    },
+    {
+      "english_key": "you got it",
+      "alternatives": [
+        [
+          "s09-02723500",
+          "Jason: Tamamdır."
+        ],
+        [
+          "s09-08626000",
+          "Jason: Anladın mı?"
+        ]
+      ],
+      "reason": "Ambiguous primary caption or its speakerless fallback"
+    },
+    {
+      "english_key": "good luck",
+      "alternatives": [
+        [
+          "s09-03021500",
+          "Giorgio: Bol şans!"
+        ],
+        [
+          "s09-05057000",
+          "Vinny: Bol şans."
+        ],
+        [
+          "s09-11702000",
+          "Lucia: İyi şanslar!"
+        ]
+      ]
+    },
+    {
+      "english_key": "nice",
+      "alternatives": [
+        [
+          "s09-03068500",
+          "Kevin: Güzel."
+        ],
+        [
+          "s09-10098000",
+          "Polis: Güzel."
+        ]
+      ]
+    },
+    {
+      "english_key": "lucia i got it",
+      "alternatives": [
+        [
+          "s09-03239500",
+          "Lucia: Ben hallederim."
+        ],
+        [
+          "s09-07365500",
+          "Lucia: Hallettim!"
+        ]
+      ],
+      "reason": "Ambiguous primary caption or its speakerless fallback"
+    },
+    {
+      "english_key": "i got it",
+      "alternatives": [
+        [
+          "s09-03239500",
+          "Lucia: Ben hallederim."
+        ],
+        [
+          "s09-07365500",
+          "Lucia: Hallettim!"
+        ]
+      ],
+      "reason": "Ambiguous primary caption or its speakerless fallback"
+    },
+    {
+      "english_key": "copy",
+      "alternatives": [
+        [
+          "s09-03273500",
+          "Kevin: Anlaşıldı."
+        ],
+        [
+          "s09-06175000",
+          "Kevin: Anlaşıldı."
+        ],
+        [
+          "s09-06532000",
+          "Lucia: Anlaşıldı."
+        ],
+        [
+          "s09-06583000",
+          "Liz: Anlaşıldı."
+        ],
+        [
+          "s09-07115000",
+          "Jason: Anlaşıldı."
+        ]
+      ]
+    },
+    {
+      "english_key": "copy that",
+      "alternatives": [
+        [
+          "s09-03276000",
+          "Lucia: Anlaşıldı."
+        ],
+        [
+          "s09-06928000",
+          "Liz: Anlaşıldı."
+        ]
+      ]
+    },
+    {
+      "english_key": "vinny this is us",
+      "alternatives": [
+        [
+          "s09-03277000",
+          "Vinny: Biz buradan."
+        ],
+        [
+          "s09-05710000",
+          "Vinny: Bizimki bu."
+        ]
+      ],
+      "reason": "Ambiguous primary caption or its speakerless fallback"
+    },
+    {
+      "english_key": "this is us",
+      "alternatives": [
+        [
+          "s09-03277000",
+          "Vinny: Biz buradan."
+        ],
+        [
+          "s09-05710000",
+          "Vinny: Bizimki bu."
+        ]
+      ],
+      "reason": "Ambiguous primary caption or its speakerless fallback"
+    },
+    {
+      "english_key": "move",
+      "alternatives": [
+        [
+          "s09-03313000",
+          "Vinny: Yürü."
+        ],
+        [
+          "s09-10555000",
+          "Polis: Çekil!"
+        ]
+      ]
+    },
+    {
+      "english_key": "down",
+      "alternatives": [
+        [
+          "s09-03329000",
+          "Vinny: İndi."
+        ],
+        [
+          "s09-05937000",
+          "Kevin: Düştü."
+        ],
+        [
+          "s09-06842500",
+          "Vinny: İndi."
+        ]
+      ]
+    },
+    {
+      "english_key": "we re clear",
+      "alternatives": [
+        [
+          "s09-03531500",
+          "Vinny: Yolumuz açık."
+        ],
+        [
+          "s09-08384500",
+          "Lucia: Kurtulduk."
+        ]
+      ]
+    },
+    {
+      "english_key": "come on",
+      "alternatives": [
+        [
+          "s09-03565000",
+          "Vinny: Hadi."
+        ],
+        [
+          "s09-03688000",
+          "Lucia: Hadi!"
+        ],
+        [
+          "s09-09332500",
+          "Bledar: Gelin."
+        ],
+        [
+          "s09-11778500",
+          "Jason: Hadi."
+        ]
+      ]
+    },
+    {
+      "english_key": "one two three",
+      "alternatives": [
+        [
+          "s09-03570500",
+          "Vinny: Bir, iki, üç."
+        ],
+        [
+          "s09-09426500",
+          "Giorgio: bir, iki, üç..."
+        ]
+      ]
+    },
+    {
+      "english_key": "good",
+      "alternatives": [
+        [
+          "s09-03574000",
+          "Vinny: Güzel."
+        ],
+        [
+          "s09-08630500",
+          "Jason: Güzel."
+        ]
+      ]
+    },
+    {
+      "english_key": "alright",
+      "alternatives": [
+        [
+          "s09-03597500",
+          "Vinny: Tamam."
+        ],
+        [
+          "s09-07016500",
+          "Jason: Tamam."
+        ],
+        [
+          "s09-10710500",
+          "Jason: Tamam."
+        ],
+        [
+          "s09-12491500",
+          "Lucia: Tamam."
+        ],
+        [
+          "s09-13168500",
+          "Cal: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "whoa shit",
+      "alternatives": [
+        [
+          "s09-03819000",
+          "Jason: Oha, siktir!"
+        ],
+        [
+          "s09-07679500",
+          "Lucia: Oha, siktir-"
+        ]
+      ]
+    },
+    {
+      "english_key": "yup",
+      "alternatives": [
+        [
+          "s09-03881000",
+          "Kevin: Aynen."
+        ],
+        [
+          "s09-05530000",
+          "Jason: Aynen."
+        ],
+        [
+          "s09-06582500",
+          "Lucia: Evet."
+        ]
+      ]
+    },
+    {
+      "english_key": "fuck it",
+      "alternatives": [
+        [
+          "s09-04460500",
+          "Jason: Siktir et."
+        ],
+        [
+          "s09-10679000",
+          "Fitzroy: Siktir et."
+        ]
+      ]
+    },
+    {
+      "english_key": "ah fuck",
+      "alternatives": [
+        [
+          "s09-04555500",
+          "Lucia: Ah siktir!"
+        ],
+        [
+          "s09-12124500",
+          "Jason: Ah, siktir..."
+        ]
+      ]
+    },
+    {
+      "english_key": "jason got it",
+      "alternatives": [
+        [
+          "s09-04632000",
+          "Jason: Anladım."
+        ],
+        [
+          "s09-11697500",
+          "Jason: Aldın mı?"
+        ]
+      ],
+      "reason": "Ambiguous primary caption or its speakerless fallback"
+    },
+    {
+      "english_key": "got it",
+      "alternatives": [
+        [
+          "s09-04632000",
+          "Jason: Anladım."
+        ],
+        [
+          "s09-11697500",
+          "Jason: Aldın mı?"
+        ]
+      ],
+      "reason": "Ambiguous primary caption or its speakerless fallback"
+    },
+    {
+      "english_key": "you motherfucker",
+      "alternatives": [
+        [
+          "s09-04703500",
+          "Dardan: Orospu çocuğu!"
+        ],
+        [
+          "s09-11971500",
+          "Jasir: Seni orospu çocuğu..."
+        ]
+      ]
+    },
+    {
+      "english_key": "jason yeah",
+      "alternatives": [
+        [
+          "s09-04848000",
+          "Jason: Evet."
+        ],
+        [
+          "s09-09180500",
+          "Jason: Öyle mi?"
+        ],
+        [
+          "s09-09915500",
+          "Jason: Evet."
+        ]
+      ],
+      "reason": "Ambiguous primary caption or its speakerless fallback"
+    },
+    {
+      "english_key": "get in",
+      "alternatives": [
+        [
+          "s09-04889500",
+          "Dardan: Bin!"
+        ],
+        [
+          "s09-09733000",
+          "Yabancı: Gir içeri."
+        ]
+      ]
+    },
+    {
+      "english_key": "c mon",
+      "alternatives": [
+        [
+          "s09-05325500",
+          "Memur: Hadi."
+        ],
+        [
+          "s09-07400500",
+          "Vinny: Hadi!"
+        ],
+        [
+          "s09-12262000",
+          "Lucia: Hadi!"
+        ],
+        [
+          "s09-12425500",
+          "Jason: Hadi."
+        ]
+      ]
+    },
+    {
+      "english_key": "let s do it",
+      "alternatives": [
+        [
+          "s09-05572500",
+          "Lucia: Hadi yapalım."
+        ],
+        [
+          "s09-06591000",
+          "Vinny: Hadi yapalım şu işi!"
+        ],
+        [
+          "s09-07131000",
+          "Vinny: Hadi yapalım şu işi!"
+        ]
+      ]
+    },
+    {
+      "english_key": "what the fuck",
+      "alternatives": [
+        [
+          "s09-05645500",
+          "Giorgio: Ne oluyor lan?"
+        ],
+        [
+          "s09-07375000",
+          "Lucia: Ne oluyor lan?"
+        ]
+      ]
+    },
+    {
+      "english_key": "almost there",
+      "alternatives": [
+        [
+          "s09-07165000",
+          "Kevin: Az kaldı."
+        ],
+        [
+          "s09-12113500",
+          "Jason: Az kaldı."
+        ]
+      ]
+    },
+    {
+      "english_key": "no",
+      "alternatives": [
+        [
+          "s09-07423500",
+          "Liz: Hayır!"
+        ],
+        [
+          "s09-12646500",
+          "Jason: Hayır..."
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah no shit",
+      "alternatives": [
+        [
+          "s09-08865500",
+          "Lucia: Evet, orası kesin."
+        ],
+        [
+          "s09-09929500",
+          "Şerif yardımcısı: Yok ya, sahi mi?"
+        ]
+      ]
+    },
+    {
+      "english_key": "come on come on",
+      "alternatives": [
+        [
+          "s09-09261500",
+          "Giorgio: Hadi, hadi."
+        ],
+        [
+          "s09-11777000",
+          "Jason: Hadi, hadi."
+        ]
+      ]
+    },
+    {
+      "english_key": "get out",
+      "alternatives": [
+        [
+          "s09-09498500",
+          "Dardan: İn."
+        ],
+        [
+          "s09-12395500",
+          "Jason: Çık!"
+        ]
+      ]
+    },
+    {
+      "english_key": "wait",
+      "alternatives": [
+        [
+          "s09-09564500",
+          "Dardan: Bekle."
+        ],
+        [
+          "s09-10857000",
+          "Jason: Dur!"
+        ]
+      ]
+    },
+    {
+      "english_key": "of course",
+      "alternatives": [
+        [
+          "s09-09647000",
+          "Jason: Tabii ya."
+        ],
+        [
+          "s09-12827000",
+          "Lucia: Tabii ki."
+        ]
+      ]
+    },
+    {
+      "english_key": "whoa",
+      "alternatives": [
+        [
+          "s09-10512000",
+          "Polis: Oha..."
+        ],
+        [
+          "s09-10592000",
+          "Fitzroy: Oha."
+        ]
+      ]
+    },
+    {
+      "english_key": "holy shit",
+      "alternatives": [
+        [
+          "s09-10530500",
+          "Fitzroy: Hassiktir."
+        ],
+        [
+          "s09-12410000",
+          "Lucia: Hassiktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "right",
+      "alternatives": [
+        [
+          "s09-10673500",
+          "Fitzroy: Değil mi?"
+        ],
+        [
+          "s09-11464500",
+          "Cal: Değil mi?"
+        ]
+      ]
+    },
+    {
+      "english_key": "jump",
+      "alternatives": [
+        [
+          "s09-12761500",
+          "Lucia: Atlayacak mıyız?"
+        ],
+        [
+          "s09-12834500",
+          "Jason: Atla."
+        ]
+      ]
+    }
+  ],
+  "complete": true,
+  "speaker_color_label_occurrences": 3174,
+  "speaker_color_measured_occurrences": 3171,
+  "speaker_color_visually_identified_occurrences": 3,
+  "speaker_color_unresolved_occurrences": 0
+}

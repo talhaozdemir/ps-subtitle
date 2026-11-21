@@ -10,12 +10,14 @@
         { "name": "discover" },
         { "name": "pair" },
         { "name": "setRegion" },
+        { "name": "setOcrRate" },
         { "name": "setAppearance" },
         { "name": "setTranslation" },
         { "name": "testTranslation" },
         { "name": "startRemoteSetup" },
         { "name": "applyRemoteSetup" },
         { "name": "updatePack" },
+        { "name": "videoDiagnostics" },
         { "name": "start" }
       ]
     }

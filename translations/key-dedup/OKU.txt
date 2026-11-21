@@ -1,0 +1,30 @@
+İSİMLİ / İSİMSİZ ÇEVİRİ ANAHTARLARI — TEKİLLEŞTİRME
+
+Önce: 156118 fiziksel çeviri girdisi.
+Sonra: 132496 fiziksel çeviri girdisi.
+Tek ortak kayda indirilen tekrar: 23622.
+Paket boyutu: 8224734 → 7809252 bayt.
+
+Yalnız aynı Türkçe karşılığı veren, kaynağı doğrulanmış isimli/isimsiz çiftler birleştirildi. Farklı anlamlar ve farklı karşılıklar korundu. İngilizce kaynak metinler, çeviri seçimleri, isimler ve her görünümün renkleri değiştirilmedi.
+
+İsimli OCR biçimleri mevcut kaynak/konuşmacı bilgilerinden ortak girdiye yönlendirilir; çeviri metni ikinci kez saklanmaz. Eski okuma biçimlerinin ve fuzzy imzalarının korunması, tekilleştirmeye rağmen eşleştirme sonucunun aynı kalmasını sağlar. Çalışan uygulamaya ek alias sözlüğü verilmez.
+
+DOĞRULAMA
+31 test geçti.
+156118 eski anahtarın tamamı aynı Türkçe değere ulaşıyor.
+81330 gerçek kaynak okuma biçiminde; Türkçe, skor, yaklaşık eşleşme durumu, isim ve renkler önceki uygulama koduyla aynı.
+720 yapay OCR hatası, farklı benzerlik eşiklerinde önceki uygulamayla aynı.
+Bütün fuzzy imzaları ve bütün speaker_metadata kayıtları değişmeden korundu.
+Eksik/uyuşmayan tekilleştirme bilgisi reddediliyor; eski veya bozuk önbellekte doğru sözlüğe dönüş test edildi.
+
+KULLANIM
+Güncel dosya: dist/subtitle.json.gz
+Paket biçimi 3; güncellenmiş uygulama koduyla birlikte kullanılmalıdır. Yeni okuyucu eski biçim-2 sözlükleri de açar. Eski okuyucu biçim 3 dosyasını eksik okuyup yanlış sonuç göstermek yerine reddeder ve çalışan eski sözlüğünü korur.
+TV'ye kurulum veya donanım testi yapılmadı; yeni IPK üretilmedi.
+
+Denetim çiftleri: translations/key-dedup/compacted-keys.json
+Bağımsız önceki kod ve sözlük: translations/key-dedup/baseline
+Yeniden üretim: python tv-app/tools/build_merged_translation.py
+Doğrulama ve dağıtım kopyasını güncelleme: python tv-app/tools/finish_merged_translation.py
+
+GÜNCELLEME: Yerel bağlam sırası eklendikten sonraki güncel paket ve tüm testler translations/merged/validation.json ve translations/local-context/OKU.txt içinde. Yukarıdaki boyut/test sayısı ilk tekilleştirme aşamasının ölçümüdür.

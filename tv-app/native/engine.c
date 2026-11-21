@@ -15,6 +15,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/stat.h>
 #include <time.h>
 #include <unistd.h>
 
@@ -22,10 +23,15 @@
 #include <chiaki/regist.h>
 #include <chiaki/session.h>
 #include <json-c/json.h>
-#include <tesseract/capi.h>
 #include <wels/codec_api.h>
 
+#include "ocr_image.h"
+#include "ocr_pending.h"
+#include "paddle_ocr.h"
+
 enum { QUEUE_SIZE = 12, MAX_WIDTH = 1920, MAX_HEIGHT = 1080 };
+enum { DEFAULT_OCR_RATE = 3, BACKGROUND_PROBE_MS = 1000 };
+enum { CAPTURE_MAX_FRAMES = 12, CAPTURE_INTERVAL_MS = 450 };
 
 struct region {
     int x;
@@ -47,14 +53,22 @@ struct crop {
     size_t capacity;
     int width;
     int height;
+    int frame_height;
     int revision;
+    bool candidate;
+};
+
+struct sample_capture {
+    char directory[48];
+    unsigned int requested, saved;
+    uint64_t next_sample;
 };
 
 struct engine {
     ChiakiSession session;
     ChiakiLog log;
     ISVCDecoder *decoder;
-    TessBaseAPI *ocr;
+    struct paddle_ocr *ocr;
     pthread_mutex_t mutex;
     pthread_cond_t packet_ready;
     pthread_cond_t crop_ready;
@@ -62,10 +76,22 @@ struct engine {
     size_t head;
     size_t count;
     struct region region;
-    struct crop crop;
-    bool has_crop;
+    struct crop crops[OCR_PENDING_SLOTS];
+    struct ocr_pending pending;
     atomic_bool done;
     atomic_bool registered;
+    atomic_bool video_connected;
+    atomic_uint last_crop_ms;
+    atomic_uint video_samples;
+    atomic_uint dropped_samples;
+    atomic_uint decoded_frames;
+    atomic_uint sampled_crops;
+    atomic_uint replaced_crops;
+    atomic_uint ocr_runs;
+    atomic_uint skipped_crops;
+    atomic_uint capture_requested;
+    atomic_uint crop_interval_ms;
+    atomic_uint frame_size;
 };
 
 static uint64_t milliseconds(void) {
@@ -110,6 +136,11 @@ static int nonnegative_int(struct json_object *input, const char *name) {
     return number >= 0 && number <= INT_MAX ? (int)number : -1;
 }
 
+static unsigned int ocr_interval(int rate) {
+    if (rate < 1 || rate > 10) rate = DEFAULT_OCR_RATE;
+    return (unsigned int)((1000 + rate / 2) / rate);
+}
+
 static bool parse_region(struct json_object *input, struct region *region) {
     struct json_object *rectangle;
     if (!json_object_object_get_ex(input, "region", &rectangle) ||
@@ -129,7 +160,7 @@ static bool parse_region(struct json_object *input, struct region *region) {
     return true;
 }
 
-static bool receive_region_update(struct engine *engine) {
+static bool receive_stream_control(struct engine *engine) {
     struct pollfd input = { .fd = STDIN_FILENO, .events = POLLIN };
     int result = poll(&input, 1, 100);
     if (result <= 0) return result == 0 || errno == EINTR;
@@ -143,11 +174,17 @@ static bool receive_region_update(struct engine *engine) {
         pthread_mutex_lock(&engine->mutex);
         if (next.revision > engine->region.revision) {
             engine->region = next;
-            engine->has_crop = false;
+            engine->pending = (struct ocr_pending){0};
         }
         pthread_mutex_unlock(&engine->mutex);
     }
-    if (command) json_object_put(command);
+    if (command) {
+        int rate = nonnegative_int(command, "ocrRate");
+        if (rate >= 1 && rate <= 10) atomic_store(&engine->crop_interval_ms, ocr_interval(rate));
+        int frames = nonnegative_int(command, "captureFrames");
+        if (frames > 0 && frames <= CAPTURE_MAX_FRAMES) atomic_store(&engine->capture_requested, (unsigned int)frames);
+        json_object_put(command);
+    }
     return true;
 }
 
@@ -289,14 +326,21 @@ static bool video_packet(uint8_t *data, size_t size, int32_t lost, bool recovere
     (void)lost;
     (void)recovered;
     struct engine *engine = context;
-    if (!size || size > 1024 * 1024 || atomic_load(&engine->done)) return false;
+    if (!size || atomic_load(&engine->done)) return false;
+    atomic_fetch_add(&engine->video_samples, 1);
+    if (size > 1024 * 1024) {
+        atomic_fetch_add(&engine->dropped_samples, 1);
+        return false;
+    }
     pthread_mutex_lock(&engine->mutex);
     if (engine->count == QUEUE_SIZE) {
+        atomic_fetch_add(&engine->dropped_samples, 1);
         pthread_mutex_unlock(&engine->mutex);
         return false;
     }
     uint8_t *bytes = malloc(size);
     if (!bytes) {
+        atomic_fetch_add(&engine->dropped_samples, 1);
         pthread_mutex_unlock(&engine->mutex);
         return false;
     }
@@ -308,45 +352,78 @@ static bool video_packet(uint8_t *data, size_t size, int32_t lost, bool recovere
     return true;
 }
 
-static void publish_crop(struct engine *engine, const uint8_t *luma, const SBufferInfo *picture) {
+static bool publish_crop(struct engine *engine, uint8_t *const planes[3], const SBufferInfo *picture,
+        uint64_t now, bool replace_pending, struct crop *sample, struct subtitle_search *search) {
+    const uint8_t *luma = planes[0];
     int frame_width = picture->UsrData.sSystemBuffer.iWidth;
     int frame_height = picture->UsrData.sSystemBuffer.iHeight;
     int stride = picture->UsrData.sSystemBuffer.iStride[0];
     if (!luma || frame_width < 120 || frame_height < 80 || frame_width > MAX_WIDTH ||
-        frame_height > MAX_HEIGHT || stride < frame_width) return;
+        frame_height > MAX_HEIGHT || stride < frame_width) return false;
     pthread_mutex_lock(&engine->mutex);
+    if (!replace_pending && ocr_pending_waiting(&engine->pending, now)) {
+        pthread_mutex_unlock(&engine->mutex);
+        return false;
+    }
     const struct region region = engine->region;
+    pthread_mutex_unlock(&engine->mutex);
+
     int left = frame_width * region.x / 100;
     int top = frame_height * region.y / 100;
     int right = frame_width - frame_width * (100 - region.x - region.width) / 100;
     int bottom = frame_height - frame_height * (100 - region.y - region.height) / 100;
     int width = right - left;
     int height = bottom - top;
-    size_t size = (size_t)width * (size_t)height;
-    if (size > engine->crop.capacity) {
-        uint8_t *pixels = realloc(engine->crop.pixels, size);
+    size_t size = (size_t)width * height;
+    if (size > sample->capacity) {
+        uint8_t *pixels = realloc(sample->pixels, size * 2);
         if (!pixels) {
             atomic_store(&engine->done, true);
-            pthread_mutex_unlock(&engine->mutex);
             message("error", "TV altyazı alanı için yeterli bellek ayıramadı.");
-            return;
+            return false;
         }
-        engine->crop.pixels = pixels;
-        engine->crop.capacity = size;
+        sample->pixels = pixels;
+        sample->capacity = size;
     }
     for (int row = 0; row < height; row++)
-        memcpy(engine->crop.pixels + row * width, luma + (size_t)(top + row) * stride + left, (size_t)width);
-    engine->crop.width = width;
-    engine->crop.height = height;
-    engine->crop.revision = region.revision;
-    engine->has_crop = true;
-    pthread_cond_signal(&engine->crop_ready);
+        memcpy(sample->pixels + (size_t)row * width, luma + (size_t)(top + row) * stride + left, (size_t)width);
+
+    int band_top, band_bottom;
+    subtitle_band(height, frame_height, &band_top, &band_bottom);
+    struct subtitle_mark mark;
+    sample->candidate = subtitle_candidate_mark(search, sample->pixels + (size_t)band_top * width,
+        width, band_bottom - band_top, frame_height, sample->pixels + sample->capacity, &mark);
+    sample->width = width;
+    sample->height = height;
+    sample->frame_height = frame_height;
+    sample->revision = region.revision;
+
+    pthread_mutex_lock(&engine->mutex);
+    if (engine->region.revision != region.revision || atomic_load(&engine->done)) {
+        pthread_mutex_unlock(&engine->mutex);
+        return false;
+    }
+    atomic_store(&engine->last_crop_ms, (unsigned int)now);
+    atomic_store(&engine->frame_size, ((unsigned int)frame_width << 16) | (unsigned int)frame_height);
+    bool replaced;
+    int index = ocr_pending_offer(&engine->pending, sample->candidate ? &mark : NULL, now, &replaced);
+    if (index >= 0) {
+        struct crop spare = engine->crops[index];
+        engine->crops[index] = *sample;
+        *sample = spare;
+        atomic_fetch_add(&engine->sampled_crops, 1);
+        if (replaced) atomic_fetch_add(&engine->replaced_crops, 1);
+        pthread_cond_signal(&engine->crop_ready);
+    }
     pthread_mutex_unlock(&engine->mutex);
+    return true;
 }
 
 static void *decode_packets(void *context) {
     struct engine *engine = context;
-    uint64_t next_crop = 0;
+    uint64_t last_sample = 0;
+    struct crop sample = {0};
+    struct subtitle_search search = {0};
     for (;;) {
         pthread_mutex_lock(&engine->mutex);
         while (!engine->count && !atomic_load(&engine->done))
@@ -364,41 +441,96 @@ static void *decode_packets(void *context) {
         SBufferInfo picture = { 0 };
         (*engine->decoder)->DecodeFrameNoDelay(engine->decoder, packet.bytes, (int)packet.size, planes, &picture);
         free(packet.bytes);
-        if (picture.iBufferStatus == 1 && milliseconds() >= next_crop) {
-            publish_crop(engine, planes[0], &picture);
-            next_crop = milliseconds() + 210;
-        }
+        if (picture.iBufferStatus != 1 || !planes[0]) continue;
+        atomic_fetch_add(&engine->decoded_frames, 1);
+        uint64_t now = milliseconds();
+        uint64_t elapsed = now - last_sample;
+        // Preserve the sampling intervals. Novel captions take priority over repeating or empty images.
+        unsigned int interval = atomic_load(&engine->crop_interval_ms);
+        if (elapsed >= interval &&
+                publish_crop(engine, planes, &picture, now, true,
+                    &sample, &search)) last_sample = now;
     }
+    free(search.queue);
+    free(search.seen);
+    free(sample.pixels);
     return NULL;
 }
 
-static bool same_text_mask(const uint8_t *mask, const uint8_t *previous, size_t size) {
-    size_t changed = 0;
-    for (size_t index = 0; index < size; index++) changed += mask[index] != previous[index];
-    return changed <= size / 2500;
-}
-
-static void build_mask(const struct crop *crop, uint8_t *mask) {
-    memset(mask, 255, (size_t)crop->width * (size_t)crop->height);
-    for (int y = 2; y < crop->height - 2; y++) {
-        for (int x = 2; x < crop->width - 2; x++) {
-            int index = y * crop->width + x;
-            const uint8_t *p = crop->pixels + index;
-            if (*p < 172) continue;
-            int shade = *p - 55;
-            int step = crop->width * 2;
-            if (p[-2] < shade || p[2] < shade || p[-step] < shade || p[step] < shade)
-                mask[index] = 0;
-        }
-    }
-}
-
-static void report_ocr(const char *text, int confidence, int revision) {
+static void report_ocr(const struct paddle_result *result, int revision, bool skipped) {
     struct json_object *value = event("ocr");
-    json_object_object_add(value, "text", json_object_new_string(text ? text : ""));
-    json_object_object_add(value, "confidence", json_object_new_int(confidence));
+    json_object_object_add(value, "text", json_object_new_string(result->text));
+    json_object_object_add(value, "confidence", json_object_new_int(result->confidence));
     json_object_object_add(value, "revision", json_object_new_int(revision));
+    if (skipped) json_object_object_add(value, "skipped", json_object_new_boolean(true));
     emit(value);
+}
+
+static void report_video_stats(const struct engine *engine) {
+    struct json_object *value = event("videoStats");
+    unsigned int frame_size = atomic_load(&engine->frame_size);
+    json_object_object_add(value, "videoSamples", json_object_new_int64(atomic_load(&engine->video_samples)));
+    json_object_object_add(value, "droppedSamples", json_object_new_int64(atomic_load(&engine->dropped_samples)));
+    json_object_object_add(value, "decodedFrames", json_object_new_int64(atomic_load(&engine->decoded_frames)));
+    json_object_object_add(value, "sampledCrops", json_object_new_int64(atomic_load(&engine->sampled_crops)));
+    json_object_object_add(value, "replacedCrops", json_object_new_int64(atomic_load(&engine->replaced_crops)));
+    json_object_object_add(value, "ocrRuns", json_object_new_int64(atomic_load(&engine->ocr_runs)));
+    json_object_object_add(value, "skippedCrops", json_object_new_int64(atomic_load(&engine->skipped_crops)));
+    json_object_object_add(value, "ocrIntervalMs", json_object_new_int(atomic_load(&engine->crop_interval_ms)));
+    json_object_object_add(value, "width", json_object_new_int(frame_size >> 16));
+    json_object_object_add(value, "height", json_object_new_int(frame_size & 0xffff));
+    emit(value);
+}
+
+static void report_capture(const struct sample_capture *capture, bool complete) {
+    struct json_object *value = event("sampleCapture");
+    json_object_object_add(value, "directory", json_object_new_string(capture->directory));
+    json_object_object_add(value, "frames", json_object_new_int((int)capture->saved));
+    json_object_object_add(value, "complete", json_object_new_boolean(complete));
+    emit(value);
+}
+
+static bool save_crop_sample(const struct sample_capture *capture, const struct crop *crop) {
+    char filename[80];
+    snprintf(filename, sizeof(filename), "%s/frame-%02u.bin", capture->directory, capture->saved + 1);
+    FILE *file = fopen(filename, "wb");
+    if (!file) return false;
+    size_t pixels = (size_t)crop->width * crop->height;
+    bool saved = fprintf(file, "GTAVI-CROP 1\n%d %d %d 0 0 0 0\n", crop->width,
+        crop->height, crop->frame_height) > 0 && fwrite(crop->pixels, 1, pixels, file) == pixels;
+    if (fclose(file) != 0) saved = false;
+    if (saved && chmod(filename, 0644) == 0) return true;
+    unlink(filename);
+    return false;
+}
+
+static void capture_crop(struct engine *engine, struct sample_capture *capture, const struct crop *crop) {
+    unsigned int requested = atomic_exchange(&engine->capture_requested, 0);
+    if (requested && !capture->requested) {
+        *capture = (struct sample_capture){.directory = "/tmp/gtavi-ocr-XXXXXX", .requested = requested};
+        if (!mkdtemp(capture->directory)) {
+            capture->directory[0] = '\0';
+            capture->requested = 0;
+            report_capture(capture, true);
+            return;
+        }
+        if (chmod(capture->directory, 0755) != 0) {
+            rmdir(capture->directory);
+            capture->directory[0] = '\0';
+            capture->requested = 0;
+            report_capture(capture, true);
+            return;
+        }
+        report_capture(capture, false);
+    }
+    if (!capture->requested || milliseconds() < capture->next_sample) return;
+    if (save_crop_sample(capture, crop)) capture->saved++;
+    else capture->requested = capture->saved;
+    capture->next_sample = milliseconds() + CAPTURE_INTERVAL_MS;
+    if (capture->saved >= capture->requested) {
+        capture->requested = 0;
+        report_capture(capture, true);
+    }
 }
 
 static void *read_subtitles(void *context) {
@@ -407,22 +539,30 @@ static void *read_subtitles(void *context) {
     size_t previous_size = 0;
     int previous_width = 0;
     int previous_revision = -1;
-    char *text = NULL;
-    int confidence = 0;
+    int previous_frame_height = 0;
+    uint64_t next_probe = 0;
+    struct sample_capture capture = {0};
+    struct paddle_result result = {0};
     while (!atomic_load(&engine->done)) {
         pthread_mutex_lock(&engine->mutex);
-        while (!engine->has_crop && !atomic_load(&engine->done))
+        int index = ocr_pending_take(&engine->pending, milliseconds());
+        while (index < 0 && !atomic_load(&engine->done)) {
             pthread_cond_wait(&engine->crop_ready, &engine->mutex);
+            index = ocr_pending_take(&engine->pending, milliseconds());
+        }
         if (atomic_load(&engine->done)) {
             pthread_mutex_unlock(&engine->mutex);
             break;
         }
-        crop.width = engine->crop.width;
-        crop.height = engine->crop.height;
-        crop.revision = engine->crop.revision;
+        const struct crop *pending = &engine->crops[index];
+        crop.width = pending->width;
+        crop.height = pending->height;
+        crop.frame_height = pending->frame_height;
+        crop.revision = pending->revision;
+        crop.candidate = pending->candidate;
         size_t size = (size_t)crop.width * (size_t)crop.height;
         if (size > crop.capacity) {
-            uint8_t *buffers = realloc(crop.pixels, size * 3);
+            uint8_t *buffers = realloc(crop.pixels, size * 2);
             if (!buffers) {
                 atomic_store(&engine->done, true);
                 pthread_mutex_unlock(&engine->mutex);
@@ -433,29 +573,56 @@ static void *read_subtitles(void *context) {
             crop.capacity = size;
             previous_size = 0;
         }
-        memcpy(crop.pixels, engine->crop.pixels, size);
-        engine->has_crop = false;
+        memcpy(crop.pixels, pending->pixels, size);
         pthread_mutex_unlock(&engine->mutex);
 
-        // Keep the cropped image and both masks in one allocation sized to the largest crop received.
-        uint8_t *mask = crop.pixels + crop.capacity;
-        uint8_t *previous = mask + crop.capacity;
-        build_mask(&crop, mask);
-        if (previous_revision != crop.revision || previous_size != size || previous_width != crop.width ||
-            !same_text_mask(mask, previous, size)) {
-            memcpy(previous, mask, size);
-            previous_size = size;
-            previous_width = crop.width;
-            previous_revision = crop.revision;
-            if (text) TessDeleteText(text);
-            TessBaseAPISetImage(engine->ocr, mask, crop.width, crop.height, 1, crop.width);
-            TessBaseAPISetSourceResolution(engine->ocr, 150);
-            text = TessBaseAPIGetUTF8Text(engine->ocr);
-            confidence = text ? TessBaseAPIMeanTextConf(engine->ocr) : 0;
+        capture_crop(engine, &capture, &crop);
+        // Keep the current crop and the last model input together.
+        uint8_t *previous = crop.pixels + crop.capacity;
+        bool unchanged = previous_size == size && previous_width == crop.width &&
+            previous_revision == crop.revision && previous_frame_height == crop.frame_height &&
+            memcmp(previous, crop.pixels, size) == 0;
+        if (unchanged) {
+            atomic_fetch_add(&engine->skipped_crops, 1);
+            report_ocr(&result, crop.revision, false);
+            continue;
         }
-        report_ocr(text, confidence, crop.revision);
+
+        int top, bottom;
+        subtitle_band(crop.height, crop.frame_height, &top, &bottom);
+        bool candidate = crop.candidate;
+        uint64_t now = milliseconds();
+        if (!candidate && now < next_probe && previous_revision == crop.revision) {
+            atomic_fetch_add(&engine->skipped_crops, 1);
+            report_ocr(&(struct paddle_result){0}, crop.revision, true);
+            continue;
+        }
+
+        // Periodically examine the whole selection to catch less typical captions.
+        if (!candidate) {
+            top = 0;
+            bottom = crop.height;
+        }
+        bool had_text = result.confidence > 0;
+        atomic_fetch_add(&engine->ocr_runs, 1);
+        if (!paddle_read(engine->ocr, crop.pixels + (size_t)top * crop.width, crop.width,
+                bottom - top, crop.frame_height, &result)) {
+            message("error", "PaddleOCR altyazı karesini işleyemedi.");
+            atomic_store(&engine->done, true);
+            break;
+        }
+        // Start the quiet interval after inference and prioritize another read
+        // if a probe found actual text.
+        next_probe = milliseconds() + (!candidate && !had_text && result.confidence ?
+            atomic_load(&engine->crop_interval_ms) : BACKGROUND_PROBE_MS);
+        memcpy(previous, crop.pixels, size);
+        previous_size = size;
+        previous_width = crop.width;
+        previous_revision = crop.revision;
+        previous_frame_height = crop.frame_height;
+        report_ocr(&result, crop.revision, false);
     }
-    if (text) TessDeleteText(text);
+    if (capture.requested) report_capture(&capture, true);
     free(crop.pixels);
     return NULL;
 }
@@ -463,6 +630,8 @@ static void *read_subtitles(void *context) {
 static void stream_event(ChiakiEvent *status, void *context) {
     struct engine *engine = context;
     if (status->type == CHIAKI_EVENT_CONNECTED) {
+        atomic_store(&engine->last_crop_ms, (unsigned int)milliseconds());
+        atomic_store(&engine->video_connected, true);
         emit(event("ready"));
     } else if (status->type == CHIAKI_EVENT_QUIT || status->type == CHIAKI_EVENT_LOGIN_PIN_REQUEST) {
         if (!atomic_load(&engine->done)) {
@@ -476,6 +645,7 @@ static void stream_event(ChiakiEvent *status, void *context) {
 }
 
 static int stream_console(struct engine *engine, struct json_object *input, const char *address, const char *runtime) {
+    atomic_store(&engine->crop_interval_ms, ocr_interval(nonnegative_int(input, "ocrRate")));
     engine->region = default_region;
     parse_region(input, &engine->region);
     ChiakiConnectInfo info = { .ps5 = true, .host = address, .enable_idr_on_fec_failure = true };
@@ -506,20 +676,17 @@ static int stream_console(struct engine *engine, struct json_object *input, cons
     pthread_t decoder_thread;
     pthread_t ocr_thread;
     SDecodingParam decoder_options = { 0 };
-    char tessdata[PATH_MAX];
-    snprintf(tessdata, sizeof(tessdata), "%s/tessdata", runtime);
     if (WelsCreateDecoder(&engine->decoder) != 0 || !engine->decoder ||
         (*engine->decoder)->Initialize(engine->decoder, &decoder_options) != 0) {
         message("error", "H.264 video çözücü başlatılamadı.");
         goto cleanup;
     }
     decoder_initialized = true;
-    engine->ocr = TessBaseAPICreate();
-    if (!engine->ocr || TessBaseAPIInit2(engine->ocr, tessdata, "eng", OEM_LSTM_ONLY) != 0) {
-        message("error", "İngilizce altyazı tanıma verisi açılamadı.");
+    engine->ocr = paddle_open(runtime);
+    if (!engine->ocr) {
+        message("error", "PaddleOCR altyazı modeli açılamadı.");
         goto cleanup;
     }
-    TessBaseAPISetPageSegMode(engine->ocr, PSM_SINGLE_BLOCK);
 
     if (chiaki_session_init(&engine->session, &info, &engine->log) != CHIAKI_ERR_SUCCESS) {
         message("error", "PS5 Uzaktan Oynatma oturumu hazırlanamadı.");
@@ -535,7 +702,20 @@ static int stream_console(struct engine *engine, struct json_object *input, cons
         goto cleanup;
     }
     session_started = true;
-    while (!atomic_load(&engine->done) && receive_region_update(engine)) {}
+    uint64_t next_idr = 0;
+    uint64_t next_stats = milliseconds() + 2000;
+    while (!atomic_load(&engine->done) && receive_stream_control(engine)) {
+        if (atomic_load(&engine->done)) break;
+        uint64_t now = milliseconds();
+        if (now >= next_stats) {
+            report_video_stats(engine);
+            next_stats = now + 2000;
+        }
+        if (!atomic_load(&engine->video_connected) || now < next_idr ||
+                (unsigned int)now - atomic_load(&engine->last_crop_ms) < 1800) continue;
+        next_idr = now + 2500;
+        chiaki_session_request_idr(&engine->session);
+    }
     result = 0;
 
 cleanup:
@@ -550,11 +730,11 @@ cleanup:
     }
     if (decoding) pthread_join(decoder_thread, NULL);
     if (recognizing) pthread_join(ocr_thread, NULL);
-    free(engine->crop.pixels);
+    for (int index = 0; index < OCR_PENDING_SLOTS; index++) free(engine->crops[index].pixels);
     for (size_t index = 0; index < engine->count; index++)
         free(engine->packets[(engine->head + index) % QUEUE_SIZE].bytes);
     if (session_initialized) chiaki_session_fini(&engine->session);
-    if (engine->ocr) TessBaseAPIDelete(engine->ocr);
+    paddle_close(engine->ocr);
     if (decoder_initialized) (*engine->decoder)->Uninitialize(engine->decoder);
     if (engine->decoder) WelsDestroyDecoder(engine->decoder);
     return result;
@@ -592,6 +772,17 @@ int main(int argc, char **argv) {
     chiaki_log_init(&engine->log, 0, NULL, NULL);
     atomic_init(&engine->done, false);
     atomic_init(&engine->registered, false);
+    atomic_init(&engine->video_connected, false);
+    atomic_init(&engine->last_crop_ms, 0);
+    atomic_init(&engine->video_samples, 0);
+    atomic_init(&engine->dropped_samples, 0);
+    atomic_init(&engine->decoded_frames, 0);
+    atomic_init(&engine->sampled_crops, 0);
+    atomic_init(&engine->replaced_crops, 0);
+    atomic_init(&engine->ocr_runs, 0);
+    atomic_init(&engine->skipped_crops, 0);
+    atomic_init(&engine->capture_requested, 0);
+    atomic_init(&engine->frame_size, 0);
     pthread_mutex_init(&engine->mutex, NULL);
     pthread_cond_init(&engine->packet_ready, NULL);
     pthread_cond_init(&engine->crop_ready, NULL);

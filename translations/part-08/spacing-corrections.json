@@ -1,0 +1,540 @@
+{
+  "note": "Only missing spaces around existing punctuation were normalized; canonical caption words are unchanged.",
+  "corrections": [
+    {
+      "id": "s08-00177000",
+      "before": "Receptionist: Oh. Then go ahead and check in with his assistant,\nSandy.I'll buzz you in.",
+      "after": "Receptionist: Oh. Then go ahead and check in with his assistant,\nSandy. I'll buzz you in."
+    },
+    {
+      "id": "s08-03390500",
+      "before": "Andrés: Just look out for a giant fucking Megamundo sign on the\ntop,you know?",
+      "after": "Andrés: Just look out for a giant fucking Megamundo sign on the\ntop, you know?"
+    },
+    {
+      "id": "s08-03503500",
+      "before": "Andrés:Somemuchneededrefreshments",
+      "after": "Andrés: Somemuchneededrefreshments"
+    },
+    {
+      "id": "s08-03568000",
+      "before": "Andrés:You wantsome more?There'salittlebitlefthere.\nFuck,no.",
+      "after": "Andrés: You wantsome more? There'salittlebitlefthere.\nFuck, no."
+    },
+    {
+      "id": "s08-03587500",
+      "before": "Andrés: Ah, c'mon, man! We're gonna be there in, like.\ntwoseconds,bro",
+      "after": "Andrés: Ah, c'mon, man! We're gonna be there in, like.\ntwoseconds, bro"
+    },
+    {
+      "id": "s08-03595000",
+      "before": "Andrés:Yeah,bro,yourboys are hooked up!",
+      "after": "Andrés: Yeah, bro, yourboys are hooked up!"
+    },
+    {
+      "id": "s08-03617000",
+      "before": "Andrés:Woo!Oh,uh-oh.Eh..\nWhat?What's up?",
+      "after": "Andrés: Woo! Oh, uh-oh. Eh..\nWhat? What's up?"
+    },
+    {
+      "id": "s08-03632000",
+      "before": "Elonzo:That's a rookie move,bro.",
+      "after": "Elonzo: That's a rookie move, bro."
+    },
+    {
+      "id": "s08-03646500",
+      "before": "Andrés: Hello, baby.I missed you.",
+      "after": "Andrés: Hello, baby. I missed you."
+    },
+    {
+      "id": "s08-03756000",
+      "before": "Gustavo:Buenas noches,senoras.",
+      "after": "Gustavo: Buenas noches, senoras."
+    },
+    {
+      "id": "s08-03778000",
+      "before": "Lucia:Some security guy just took my guns.",
+      "after": "Lucia: Some security guy just took my guns."
+    },
+    {
+      "id": "s08-03785500",
+      "before": "Andrés: Do it, bro.Do it, do it, do it!",
+      "after": "Andrés: Do it, bro. Do it, do it, do it!"
+    },
+    {
+      "id": "s08-03797000",
+      "before": "Jason:Hey,Andrés.",
+      "after": "Jason: Hey, Andrés."
+    },
+    {
+      "id": "s08-03798000",
+      "before": "Andrés: Whoa, whoa, hey, hey,it's okay, it's okay.",
+      "after": "Andrés: Whoa, whoa, hey, hey, it's okay, it's okay."
+    },
+    {
+      "id": "s08-03812500",
+      "before": "Andrés: you know, just a selection of shit to drink, yeah? Thanks,\nbuddy,yeah.",
+      "after": "Andrés: you know, just a selection of shit to drink, yeah? Thanks,\nbuddy, yeah."
+    },
+    {
+      "id": "s08-03819000",
+      "before": "Jason: Petra wants you.There's some big speech happening",
+      "after": "Jason: Petra wants you. There's some big speech happening"
+    },
+    {
+      "id": "s08-03821500",
+      "before": "Elonzo:No!No,f-fuckthatshit.Fuckthat.",
+      "after": "Elonzo: No! No, f-fuckthatshit. Fuckthat."
+    },
+    {
+      "id": "s08-03828000",
+      "before": "Andrés: Frontal cortex is in overdrive,I mean,",
+      "after": "Andrés: Frontal cortex is in overdrive, I mean,"
+    },
+    {
+      "id": "s08-03846500",
+      "before": "Andrés:Uh,uh,hecanbeourfifthBeatle",
+      "after": "Andrés: Uh, uh, hecanbeourfifthBeatle"
+    },
+    {
+      "id": "s08-03868500",
+      "before": "Andrés:Yeah!Yeah!Yeah!Yeah!",
+      "after": "Andrés: Yeah! Yeah! Yeah! Yeah!"
+    },
+    {
+      "id": "s08-03932000",
+      "before": "Enemy Leader: Move, move, move, move, move, move,move!",
+      "after": "Enemy Leader: Move, move, move, move, move, move, move!"
+    },
+    {
+      "id": "s08-03974500",
+      "before": "Elonzo:InSpanish:Youdealwithhim.",
+      "after": "Elonzo: InSpanish: Youdealwithhim."
+    },
+    {
+      "id": "s08-03980500",
+      "before": "Elonzo:That's not my name!Fucking move.",
+      "after": "Elonzo: That's not my name! Fucking move."
+    },
+    {
+      "id": "s08-03991000",
+      "before": "Elonzo:Idon'twannalistentoanotherdumbwordcomeoutta\nyour fuckin'mouth.",
+      "after": "Elonzo: Idon'twannalistentoanotherdumbwordcomeoutta\nyour fuckin'mouth."
+    },
+    {
+      "id": "s08-03996000",
+      "before": "Gunman:Down on your knees.",
+      "after": "Gunman: Down on your knees."
+    },
+    {
+      "id": "s08-04062000",
+      "before": "Elonzo:You better have.",
+      "after": "Elonzo: You better have."
+    },
+    {
+      "id": "s08-04087500",
+      "before": "Jason:We'll talk more later,okay?",
+      "after": "Jason: We'll talk more later, okay?"
+    },
+    {
+      "id": "s08-04103500",
+      "before": "Lucia: Nice distraction, Jay.A bit dramatic.",
+      "after": "Lucia: Nice distraction, Jay. A bit dramatic."
+    },
+    {
+      "id": "s08-04188500",
+      "before": "Andrés:Nottheface,man!Nottheface!",
+      "after": "Andrés: Nottheface, man! Nottheface!"
+    },
+    {
+      "id": "s08-04189500",
+      "before": "Elonzo: Where's the money?Where's the fuckin'money?\nI don't know!",
+      "after": "Elonzo: Where's the money? Where's the fuckin'money?\nI don't know!"
+    },
+    {
+      "id": "s08-04210500",
+      "before": "Andrés:Justwait,man,please!Wait!",
+      "after": "Andrés: Justwait, man, please! Wait!"
+    },
+    {
+      "id": "s08-04265500",
+      "before": "Elonzo: I'm heading up.This floor's a bust",
+      "after": "Elonzo: I'm heading up. This floor's a bust"
+    },
+    {
+      "id": "s08-04351500",
+      "before": "Jason:Hacked into some corporate accounts,\nbutthere'snothin'in'em.",
+      "after": "Jason: Hacked into some corporate accounts,\nbutthere'snothin'in'em."
+    },
+    {
+      "id": "s08-04354000",
+      "before": "Jason:Thedudeispissed\nI gotta find him before he does somethin'.",
+      "after": "Jason: Thedudeispissed\nI gotta find him before he does somethin'."
+    },
+    {
+      "id": "s08-04401500",
+      "before": "Construction Worker:You really fucking pushed us!",
+      "after": "Construction Worker: You really fucking pushed us!"
+    },
+    {
+      "id": "s08-04415000",
+      "before": "Jason:NosignofAndrés,he'ssomewhereabove me.",
+      "after": "Jason: NosignofAndrés, he'ssomewhereabove me."
+    },
+    {
+      "id": "s08-04439000",
+      "before": "Gunman: In Spanish:I don't know.It wasn't the plan",
+      "after": "Gunman: In Spanish: I don't know. It wasn't the plan"
+    },
+    {
+      "id": "s08-04454500",
+      "before": "Construction Worker:Nobathroombreaks!\nNo fucking bathroombreaks!",
+      "after": "Construction Worker: Nobathroombreaks!\nNo fucking bathroombreaks!"
+    },
+    {
+      "id": "s08-04467500",
+      "before": "Construction Worker:I don't care if you're Donatello Lambrini.",
+      "after": "Construction Worker: I don't care if you're Donatello Lambrini."
+    },
+    {
+      "id": "s08-04562500",
+      "before": "Valentina: We should go check on them,first.",
+      "after": "Valentina: We should go check on them, first."
+    },
+    {
+      "id": "s08-04613500",
+      "before": "Gustavo: This is no bluff.He will do it!",
+      "after": "Gustavo: This is no bluff. He will do it!"
+    },
+    {
+      "id": "s08-04655000",
+      "before": "Andrés:Okay,okay!",
+      "after": "Andrés: Okay, okay!"
+    },
+    {
+      "id": "s08-04673000",
+      "before": "Jason:Andrés,back!",
+      "after": "Jason: Andrés, back!"
+    },
+    {
+      "id": "s08-04717500",
+      "before": "Andrés:Jason!Jason!",
+      "after": "Andrés: Jason! Jason!"
+    },
+    {
+      "id": "s08-04743500",
+      "before": "Jason:Bro,you alright?Lemme get you back to Megamundo",
+      "after": "Jason: Bro, you alright? Lemme get you back to Megamundo"
+    },
+    {
+      "id": "s08-04752000",
+      "before": "Andrés: Oh,shit, m- shit man, I'm gonna throw up.",
+      "after": "Andrés: Oh, shit, m- shit man, I'm gonna throw up."
+    },
+    {
+      "id": "s08-04765000",
+      "before": "Andrés:Y'know,like,I'm gonnatgo on a juice cleanse.",
+      "after": "Andrés: Y'know, like, I'm gonnatgo on a juice cleanse."
+    },
+    {
+      "id": "s08-04810500",
+      "before": "Gustavo:Limitourmovements,forthenextfewweeks!",
+      "after": "Gustavo: Limitourmovements, forthenextfewweeks!"
+    },
+    {
+      "id": "s08-04891000",
+      "before": "Bartender: That's Vice City,man.",
+      "after": "Bartender: That's Vice City, man."
+    },
+    {
+      "id": "s08-05108000",
+      "before": "Roxy: Ooh, let's just take the case,fuck the record deal.",
+      "after": "Roxy: Ooh, let's just take the case, fuck the record deal."
+    },
+    {
+      "id": "s08-05306500",
+      "before": "Dre'Quan:I ran into the lobby,see,",
+      "after": "Dre'Quan: I ran into the lobby, see,"
+    },
+    {
+      "id": "s08-05607500",
+      "before": "Bae-Luxe:Ididn't knowit was real!",
+      "after": "Bae-Luxe: Ididn't knowit was real!"
+    },
+    {
+      "id": "s08-05727500",
+      "before": "Cash City Gang:Yo,back the fuck up!",
+      "after": "Cash City Gang: Yo, back the fuck up!"
+    },
+    {
+      "id": "s08-05796500",
+      "before": "Dre'Quan:Inthefrontseat!",
+      "after": "Dre'Quan: Inthefrontseat!"
+    },
+    {
+      "id": "s08-05841500",
+      "before": "Lucia:Yeah...nah.",
+      "after": "Lucia: Yeah...nah."
+    },
+    {
+      "id": "s08-05890000",
+      "before": "Jason:It might be our own plane how about that?",
+      "after": "Jason: It might be our own plane how about that?"
+    },
+    {
+      "id": "s08-05990500",
+      "before": "Raul:They were out there twenty minutes fucking blowing shit\nup",
+      "after": "Raul: They were out there twenty minutes fucking blowing shit\nup"
+    },
+    {
+      "id": "s08-06027000",
+      "before": "Raul:You work him however you can.",
+      "after": "Raul: You work him however you can."
+    },
+    {
+      "id": "s08-06046000",
+      "before": "Andrea: Amateur fighter.Convicted felon.",
+      "after": "Andrea: Amateur fighter. Convicted felon."
+    },
+    {
+      "id": "s08-09992000",
+      "before": "Francisco:I don't need no help beating no asses.\nYou gotta help me find 'em is all.",
+      "after": "Francisco: I don't need no help beating no asses.\nYou gotta help me find 'em is all."
+    },
+    {
+      "id": "s08-10104000",
+      "before": "Francisco:In Spanish: Son of a bitch.That's close,mami",
+      "after": "Francisco: In Spanish: Son of a bitch. That's close, mami"
+    },
+    {
+      "id": "s08-10120000",
+      "before": "Francisco: Fucking headshots,acting coaches, classes.",
+      "after": "Francisco: Fucking headshots, acting coaches, classes."
+    },
+    {
+      "id": "s08-10127500",
+      "before": "Lucia: You went to clown school?\nFrancisco: It's not funny,man.",
+      "after": "Lucia: You went to clown school?\nFrancisco: It's not funny, man."
+    },
+    {
+      "id": "s08-10164500",
+      "before": "Francisco: You can do better than him, trust me,mami.",
+      "after": "Francisco: You can do better than him, trust me, mami."
+    },
+    {
+      "id": "s08-10252000",
+      "before": "Judd:handing a pole?\nFrancisco: Yo. You got my money. motherfucker?",
+      "after": "Judd: handing a pole?\nFrancisco: Yo. You got my money. motherfucker?"
+    },
+    {
+      "id": "s08-10254500",
+      "before": "Judd: Oh,shit! It's Cisco!",
+      "after": "Judd: Oh, shit! It's Cisco!"
+    },
+    {
+      "id": "s08-10255000",
+      "before": "Judd:Oh,shit!It's Cisco!\nFrancisco: Huh?",
+      "after": "Judd: Oh, shit! It's Cisco!\nFrancisco: Huh?"
+    },
+    {
+      "id": "s08-10369000",
+      "before": "Francisco: Pay the lady,too.Expenses.",
+      "after": "Francisco: Pay the lady, too. Expenses."
+    },
+    {
+      "id": "s08-10370500",
+      "before": "Francisco: Pay the lady,too. Expenses.\nJudd: Just don't hurt me. I'm an artist. I went to film school!",
+      "after": "Francisco: Pay the lady, too. Expenses.\nJudd: Just don't hurt me. I'm an artist. I went to film school!"
+    },
+    {
+      "id": "s08-10377500",
+      "before": "Francisco: Tell everyone I fuck good, okay?\nJudd:Okay,okay.",
+      "after": "Francisco: Tell everyone I fuck good, okay?\nJudd: Okay, okay."
+    },
+    {
+      "id": "s08-10378000",
+      "before": "Judd:Okay.okay.\nFrancisco:I don't want no more rumors out there.",
+      "after": "Judd: Okay.okay.\nFrancisco: I don't want no more rumors out there."
+    },
+    {
+      "id": "s08-10378500",
+      "before": "Francisco:I don't want no more rumors out there.",
+      "after": "Francisco: I don't want no more rumors out there."
+    },
+    {
+      "id": "s08-10380000",
+      "before": "Judd: Yeah.Whatever you say",
+      "after": "Judd: Yeah. Whatever you say"
+    },
+    {
+      "id": "s08-10636000",
+      "before": "Nate: Woah, hold on, shit, speak of devil!\nI got KG on the other line.Let's talk later!",
+      "after": "Nate: Woah, hold on, shit, speak of devil!\nI got KG on the other line. Let's talk later!"
+    },
+    {
+      "id": "s08-10661000",
+      "before": "Andrea: You,on you on your own?",
+      "after": "Andrea: You, on you on your own?"
+    },
+    {
+      "id": "s08-10677500",
+      "before": "Andrea:Whatever,fuckoff.",
+      "after": "Andrea: Whatever, fuckoff."
+    },
+    {
+      "id": "s08-10680500",
+      "before": "Jason: I thought we were thieves.\nOh,we are.",
+      "after": "Jason: I thought we were thieves.\nOh, we are."
+    },
+    {
+      "id": "s08-10695500",
+      "before": "Andrea:Distrust.",
+      "after": "Andrea: Distrust."
+    },
+    {
+      "id": "s08-10751000",
+      "before": "Lucia: Velvet Palm Motel, Tequesta.On Southwest 4th-Avenue.",
+      "after": "Lucia: Velvet Palm Motel, Tequesta. On Southwest 4th-Avenue."
+    },
+    {
+      "id": "s08-10758500",
+      "before": "Lucia:is playing these different characters",
+      "after": "Lucia: is playing these different characters"
+    },
+    {
+      "id": "s08-10762000",
+      "before": "Lucia: It's a camera.How hard can it be?",
+      "after": "Lucia: It's a camera. How hard can it be?"
+    },
+    {
+      "id": "s08-10771500",
+      "before": "Lucia:Friendly? Pfft, no chance.",
+      "after": "Lucia: Friendly? Pfft, no chance."
+    },
+    {
+      "id": "s08-10881500",
+      "before": "Jason: See that's where you're wrong.I don't get molded.\nI do the molding.",
+      "after": "Jason: See that's where you're wrong. I don't get molded.\nI do the molding."
+    },
+    {
+      "id": "s08-10965000",
+      "before": "Lucia: Okay,I'vefound somewhere.",
+      "after": "Lucia: Okay, I'vefound somewhere."
+    },
+    {
+      "id": "s08-11046500",
+      "before": "Lucia: Oh. Wow... this actually might be better.\nJason:You...were...recommended",
+      "after": "Lucia: Oh. Wow... this actually might be better.\nJason: You...were...recommended"
+    },
+    {
+      "id": "s08-11048000",
+      "before": "Jason:You...were...recommended",
+      "after": "Jason: You...were...recommended"
+    },
+    {
+      "id": "s08-11391500",
+      "before": "Andrés: Yes,I need security,and well dressed security",
+      "after": "Andrés: Yes, I need security, and well dressed security"
+    },
+    {
+      "id": "s08-11394500",
+      "before": "Andrés:Put on some nice clothes and come meet me",
+      "after": "Andrés: Put on some nice clothes and come meet me"
+    },
+    {
+      "id": "s08-11493500",
+      "before": "Andrés: It's gonna be off the hook. Just tell everyone I'll be there.\nCool,later.",
+      "after": "Andrés: It's gonna be off the hook. Just tell everyone I'll be there.\nCool, later."
+    },
+    {
+      "id": "s08-11505500",
+      "before": "Andrés:I'm on fire,bro.\nThat video of me hanging from the helicopter,",
+      "after": "Andrés: I'm on fire, bro.\nThat video of me hanging from the helicopter,"
+    },
+    {
+      "id": "s08-11510500",
+      "before": "Andrés:What!What!What!\nWow.",
+      "after": "Andrés: What! What! What!\nWow."
+    },
+    {
+      "id": "s08-11573500",
+      "before": "Andrés: And, you know, I really think the world is giving me a sign\nhere,man.",
+      "after": "Andrés: And, you know, I really think the world is giving me a sign\nhere, man."
+    },
+    {
+      "id": "s08-11595000",
+      "before": "Andrés:I know TV,because I am TV.Right?Iam TV!\nAm I right or am I right?",
+      "after": "Andrés: I know TV, because I am TV.Right? Iam TV!\nAm I right or am I right?"
+    },
+    {
+      "id": "s08-11627000",
+      "before": "Andrés: Yeah, right, look! I was there.I was one hand! It's so cool",
+      "after": "Andrés: Yeah, right, look! I was there. I was one hand! It's so cool"
+    },
+    {
+      "id": "s08-11645000",
+      "before": "Andrés: Keep the,you know, ship sailing through the storm,\nyou know.",
+      "after": "Andrés: Keep the, you know, ship sailing through the storm,\nyou know."
+    },
+    {
+      "id": "s08-11652000",
+      "before": "Andrés:No, that's unnecessary.I got my own team.",
+      "after": "Andrés: No, that's unnecessary. I got my own team."
+    },
+    {
+      "id": "s08-11701000",
+      "before": "Andrés: You're thinking it's early,no one's gonna be there,",
+      "after": "Andrés: You're thinking it's early, no one's gonna be there,"
+    },
+    {
+      "id": "s08-11716500",
+      "before": "Andrés: You know,feel the anticipation.",
+      "after": "Andrés: You know, feel the anticipation."
+    },
+    {
+      "id": "s08-11843500",
+      "before": "Jason:Yeah,sure.",
+      "after": "Jason: Yeah, sure."
+    },
+    {
+      "id": "s08-11887500",
+      "before": "Andrés: Valet,that's for you.Look after it",
+      "after": "Andrés: Valet, that's for you. Look after it"
+    },
+    {
+      "id": "s08-11903500",
+      "before": "Andrés: Hey,beautiful.",
+      "after": "Andrés: Hey, beautiful."
+    },
+    {
+      "id": "s08-11913500",
+      "before": "Andrés:Thanks,beautiful.",
+      "after": "Andrés: Thanks, beautiful."
+    },
+    {
+      "id": "s08-11936000",
+      "before": "Andrés: Yeah okay,buddy",
+      "after": "Andrés: Yeah okay, buddy"
+    },
+    {
+      "id": "s08-11965000",
+      "before": "Stranger:Come find me later,okay?",
+      "after": "Stranger: Come find me later, okay?"
+    },
+    {
+      "id": "s08-11969500",
+      "before": "Andrés:No idea whosheis.",
+      "after": "Andrés: No idea whosheis."
+    },
+    {
+      "id": "s08-11982500",
+      "before": "Jason: I'm security,I should stay with you.",
+      "after": "Jason: I'm security, I should stay with you."
+    },
+    {
+      "id": "s08-11988000",
+      "before": "Andrés: Protect me from that bar line and get us some\nCazafortunas,soda sin lima.Por favor,bro.Yeah?",
+      "after": "Andrés: Protect me from that bar line and get us some\nCazafortunas, soda sin lima. Por favor, bro. Yeah?"
+    }
+  ]
+}

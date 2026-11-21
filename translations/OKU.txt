@@ -1,0 +1,45 @@
+﻿GTA VI — İNGİLİZCE / TÜRKÇE ÇEVİRİ DOSYALARI
+
+GÜNCEL BİRLEŞİK SÖZLÜK
+Uygulamanın kullanacağı tek dosya: ../dist/subtitle.json.gz
+Eski geniş sözlük ve 1–9. bölüm karşılaştırılarak birleştirildi. İnceleme ve test raporu: merged/OKU.txt; seçilen farklı karşılıklar: merged/SECILEN-CEVIRILER.txt. İsim ve renk kanıtları birleşik paketin speaker_metadata alanında korundu. Bölüm klasörleri kaynak/düzenleme kayıtlarıdır; uygulamaya ikinci sözlük olarak yüklenmez.
+
+1–9. bölüm dosyaları hazır. 9. bölüm videosunda oyun jeneriğine ulaşıldığı kaynak görüntüden doğrulandı.
+
+Bölüm | Görüntüden kontrol edilmiş kayıt | Paket anahtarı | Çift dilli metin
+01 | 2943 | 5518 | part-01/part-01.en-tr.txt
+02 | 2054 | 3983 | part-02/part-02.en-tr.txt
+03 | 2853 | 5571 | part-03/part-03.en-tr.txt
+04 | 2504 | 4803 | part-04/part-04.en-tr.txt
+05 | 2072 | 4008 | part-05/part-05.en-tr.txt
+06 | 2603 | 5013 | part-06/part-06.en-tr.txt
+07 | 2273 | 4444 | part-07/part-07.en-tr.txt
+08 | 5245 | 10150 | part-08/part-08.en-tr.txt
+09 | 3090 | 5943 | part-09/part-09.en-tr.txt
+
+1–9. bölümlerde toplam 25637 kayıt. Tekrarlar ve aynı anda görünen konuşmalar nedeniyle bu sayı benzersiz cümle sayısı değildir.
+
+Her bölüm klasöründe:
+part-XX.en-tr.txt — Görünen konuşmacı etiketleriyle İngilizce/Türkçe metin.
+dialogues.json — Çift dilli kayıtlar, yaklaşık zaman ve kaynak kare yolları.
+reviewed.json — Esas düzenleme dosyası.
+subtitle.json.gz — Projedeki örneğe uygun format-2 çeviri paketi.
+BILGI.txt / validation.json — Kapsam, kaynak sorunları ve doğrulama sonuçları.
+part-XX.en.srt / part-XX.tr.srt — Yaklaşık gezinme zamanları; son senkron altyazı değildir.
+
+Kişi adları ve aksanları korundu. Stranger = Yabancı, Cop/Police = Polis; etiketsiz yanıtlara tahminen konuşmacı eklenmedi. İngilizce OCR kaynak görüntüyle düzeltilerek Türkçe konuşma dilinde sıfırdan çevrildi.
+
+1–8. bölümlerdeki 22547 mevcut EN/TR kayıt ayrıca zaman sırasıyla okunarak ekranlara bölünen cümleler bağlamlarıyla denetlendi; 154 kayıt düzeltildi. Sonuçlar CUMLE-DEVAMI-KONTROLU.txt ve bölüm klasörlerindeki continuation-review.json dosyalarında. 9. bölümde de ardışık ekranlar birlikte okunarak çeviri yapıldı.
+
+8 ve 9. bölümlerde noktalama kaldırılınca farklı anlamlara dönüşen bazı kısa replikler çift dilli dosyalarda ayrı tutulur; yanlış Türkçe göstermemesi için belirsiz anahtarlar ve yedekleri hash paketinden çıkarılır. Ayrıntılar ilgili BILGI.txt ve validation.json dosyalarında.
+
+Kaynak videolarda siyah bantla gizlenen kelimeler tahmin edilmedi; ilgili yerler source-issues.json içinde belgeli. Çok kısa veya okunamayan yazılar kaçabilir. Menü, tabela ve telefon mesajlarının tamamı kapsamda değildir. complete=true, bulunan adayların incelendiğini gösterir; tam kapsama veya son zaman senkronu garantisi değildir.
+
+Bir bölümü düzenledikten sonra proje kökünden:
+  python tv-app/tools/build_translation.py translations/part-XX
+
+Ortak kişi/rol etiketleri ve üslup notları terminology.json içindedir.
+
+
+NPC İSİM RENKLERİ
+1–9. bölümlerin çift dilli TXT ve dialogues.json dosyalarına isim rengi eklendi. Toplu liste: NPC-ISIM-RENKLERI.txt; ayrıntılı kaynaklı renk kataloğu: speaker-color-catalog.json. Renkler kişi başına sabit varsayılmaz; her etiket/satır görünümü ayrı tutulur. HEX değerleri yaklaşık video örnekleridir.

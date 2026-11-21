@@ -1,0 +1,9562 @@
+﻿1
+00:00:23,500 --> 00:00:24,000
+Andrea: Hello, can I help you?
+
+2
+00:00:25,000 --> 00:00:25,500
+Jason: It's me, you gonna let me up?
+
+3
+00:00:27,000 --> 00:00:27,500
+Andrea: Door's open, come in.
+
+4
+00:00:32,000 --> 00:00:32,500
+Andrea: You know who's running this thing...
+
+5
+00:00:34,500 --> 00:00:35,000
+Andrea: We gotta get comfortable with a certain level of sloppy.
+
+6
+00:00:37,500 --> 00:00:38,000
+Raul: There is sloppy, and there is sloppy.
+It's not a problem.
+
+7
+00:00:41,000 --> 00:00:41,500
+Raul: Okay, there's no problem. Do your thing.
+
+8
+00:00:43,000 --> 00:00:43,500
+Jason: What you workin' on?
+This dumb plan to get them into the vault.
+
+9
+00:00:46,500 --> 00:00:47,000
+Andrea: Lucia doesn't look anything like the wine expert.
+
+10
+00:00:49,000 --> 00:00:49,500
+Jason: Is that serious?
+
+11
+00:00:50,000 --> 00:00:50,500
+Andrea: It's not the way I would do it, but...
+
+12
+00:00:52,500 --> 00:00:53,000
+Andrea: Lucia can handle herself.
+
+13
+00:00:54,500 --> 00:00:55,000
+Jason: Yeah... that doesn't sound good.
+
+14
+00:00:56,500 --> 00:00:57,000
+Andrea: If you're really fuckin' worried about it,
+
+15
+00:00:59,000 --> 00:00:59,500
+Andrea: we could rewrite the files. But...
+
+16
+00:01:02,500 --> 00:01:03,000
+Andrea: you'd have to break into the TSS.
+
+17
+00:01:06,500 --> 00:01:07,000
+Jason: If that's what I gotta do, let's do it.
+
+18
+00:01:08,500 --> 00:01:09,000
+Andrea: Alright.
+
+19
+00:01:10,500 --> 00:01:11,000
+Andrea: Where did I leave... oh, here it is.
+
+20
+00:01:15,000 --> 00:01:15,500
+Andrea: Alright, take this,
+
+21
+00:01:17,000 --> 00:01:17,500
+Andrea: I'll reroute any food deliveries they got comin' to you.
+
+22
+00:01:20,000 --> 00:01:20,500
+Jason: Food?
+
+23
+00:01:21,000 --> 00:01:21,500
+Andrea: Yeah, easiest way in.
+
+24
+00:01:23,000 --> 00:01:23,500
+Andrea: There's a cute little rubber Johnnie thing in there,
+
+25
+00:01:25,000 --> 00:01:25,500
+Andrea: just plug it into one of their computers.
+
+26
+00:01:27,000 --> 00:01:27,500
+Andrea: Karim says once you get access,
+
+27
+00:01:28,000 --> 00:01:28,500
+Andrea: that'll swap out the fingerprints for Lucia's.
+Oh.
+
+28
+00:01:31,000 --> 00:01:31,500
+Andrea: This way, she clears through airport security
+
+29
+00:01:32,500 --> 00:01:33,000
+Andrea: without any trouble.
+
+30
+00:01:33,500 --> 00:01:34,000
+Jason: Great, I can do that.
+
+31
+00:01:35,000 --> 00:01:35,500
+Andrea: You're cute.
+
+32
+00:01:37,000 --> 00:01:37,500
+Andrea: You really care about her.
+
+33
+00:01:38,500 --> 00:01:39,000
+Jason: Yeah... thanks.
+
+34
+00:01:42,000 --> 00:01:42,500
+Andrea: There's a bike somewhere downstairs...
+
+35
+00:02:01,500 --> 00:02:02,000
+Andrea: Look, just between us...
+
+36
+00:02:04,000 --> 00:02:04,500
+Andrea: You wanna know why the big guy wants to take this crew
+down so bad?
+
+37
+00:02:07,500 --> 00:02:08,000
+Andrea: I don't know all the details,
+
+38
+00:02:09,000 --> 00:02:09,500
+Andrea: but story goes,
+KG did the dirty on Raul while they were on a job
+
+39
+00:02:13,500 --> 00:02:14,000
+Andrea: and ended up ripping him off afterwards.
+
+40
+00:02:15,500 --> 00:02:16,000
+Andrea: Fucked with his money, got him put on a watchlist.
+
+41
+00:02:19,000 --> 00:02:19,500
+Jason: No shit. Listen, I'm almost at the place.
+
+42
+00:02:22,500 --> 00:02:23,000
+Andrea: Okay. Security shouldn't give you any trouble.
+
+43
+00:02:25,000 --> 00:02:25,500
+Andrea: You got an order, you need the code.
+
+44
+00:02:27,000 --> 00:02:27,500
+Andrea: Find a computer and slot the rubber johnny in.
+It'll do all the work.
+
+45
+00:02:30,500 --> 00:02:31,000
+Jason: Staying on the line?
+
+46
+00:02:31,500 --> 00:02:32,000
+Andrea: Sure, I got some time.
+
+47
+00:02:52,500 --> 00:02:53,000
+Jason: Hey. I got a delivery.
+
+48
+00:02:57,500 --> 00:02:58,000
+Security Guard: Yeah, go on through.
+
+49
+00:03:15,500 --> 00:03:16,000
+Jason: Passed the gate. About to enter the building.
+
+50
+00:03:21,500 --> 00:03:22,000
+Receptionist: Hi there.
+
+51
+00:03:29,000 --> 00:03:29,500
+Jason: Hey.
+
+52
+00:03:29,500 --> 00:03:30,000
+Receptionist: Hello.
+
+53
+00:03:30,500 --> 00:03:31,000
+Jason: I got an order for airport data security?
+
+54
+00:03:34,000 --> 00:03:34,500
+Receptionist: Oh. Um. What's the name?
+
+55
+00:03:36,500 --> 00:03:37,000
+Jason: There's no name...
+
+56
+00:03:38,000 --> 00:03:38,500
+Jason: And, um... I need the code?
+
+57
+00:03:41,500 --> 00:03:42,000
+Receptionist: Gosh. No one's picking up.
+
+58
+00:03:44,500 --> 00:03:45,000
+Receptionist: Sure, I won't be long.
+
+59
+00:03:52,000 --> 00:03:52,500
+Receptionist: Ah, forgot this thing's out of order.
+
+60
+00:03:58,500 --> 00:03:59,000
+Jason: Lady behind the reception's gone.
+
+61
+00:04:00,000 --> 00:04:00,500
+Jason: You said I just gotta plug this thing in?
+
+62
+00:04:02,000 --> 00:04:02,500
+Andrea: As simple as that.
+
+63
+00:04:12,500 --> 00:04:13,000
+Receptionist: Did somebody order some lunch and forget to tell
+me?
+
+64
+00:04:17,000 --> 00:04:17,500
+Jason: Andrea, I don't think it worked. What do you want me do?
+
+65
+00:04:20,500 --> 00:04:21,000
+Andrea: Yeah, okay, uh... it might just be an access thing.
+
+66
+00:04:24,000 --> 00:04:24,500
+Andrea: Try a computer in the main office, second floor.
+
+67
+00:04:27,000 --> 00:04:27,500
+Andrea: You need time, so get everyone out of the building.
+
+68
+00:04:30,000 --> 00:04:30,500
+Receptionist: It better not be you.
+
+69
+00:04:34,500 --> 00:04:35,000
+Receptionist: You order some lunch over and forget to tell me?
+
+70
+00:04:36,500 --> 00:04:37,000
+Staff Member: Oh...
+
+71
+00:04:40,500 --> 00:04:41,000
+Staff Member: Everybody step away from your computers!
+
+72
+00:04:43,000 --> 00:04:43,500
+Manager: What's going on?
+
+73
+00:04:43,500 --> 00:04:44,000
+Staff Member: It's probably nothing. I wouldn't worry.
+
+74
+00:04:46,500 --> 00:04:47,000
+Staff Member: I need everybody to step away from the
+computers.
+
+75
+00:04:50,000 --> 00:04:50,500
+Staff Member: Leave your desks, leave your belongings.
+
+76
+00:04:53,000 --> 00:04:53,500
+Staff Member: Let's head directly to the meeting point.
+
+77
+00:04:56,000 --> 00:04:56,500
+Jason: Set off a fire alarm, got 'em all outside.
+
+78
+00:04:58,500 --> 00:04:59,000
+Andrea: I'd recommend going up to the main office and using a
+computer there.
+
+79
+00:05:02,000 --> 00:05:02,500
+Andrea: You don't have a lot of time before fire and rescue
+shows up.
+
+80
+00:05:05,000 --> 00:05:05,500
+Staff Member: Heaven, that's where. And you know what?
+
+81
+00:05:07,000 --> 00:05:07,500
+Staff Member: Heaven, that's where. And you know what?
+Andrea: Ninety seconds.
+
+82
+00:05:07,500 --> 00:05:08,000
+Andrea: Ninety seconds.
+
+83
+00:05:08,000 --> 00:05:08,500
+Staff Member: I'll be looking down on all of you typing your
+emails,
+
+84
+00:05:10,500 --> 00:05:11,000
+Staff Member: while I put my feet up.
+
+85
+00:05:12,000 --> 00:05:12,500
+Staff Member: Amen...
+
+86
+00:05:14,500 --> 00:05:15,000
+Jason: Andrea, I'm in their main office.
+
+87
+00:05:16,500 --> 00:05:17,000
+Andrea: Okay. Hopefully one of their computers gives you access.
+
+88
+00:05:34,500 --> 00:05:35,000
+Jason: Same-shit.
+
+89
+00:05:49,500 --> 00:05:50,000
+Jason: Hey. I'm not having any luck and I'm still here.
+
+90
+00:05:53,500 --> 00:05:54,000
+Andrea: Okay, let's not panic.
+Try the IT admin or manager's computer.
+
+91
+00:05:58,500 --> 00:05:59,000
+Andrea: They gotta be set up for it.
+Karim rarely gets this stuff wrong.
+
+92
+00:06:06,000 --> 00:06:06,500
+Jason: I stuck it in. Rubber johnny's working.
+
+93
+00:06:08,500 --> 00:06:09,000
+Andrea: Then we swapped out those IDs!
+Your girl's gonna be grateful.
+
+94
+00:06:17,000 --> 00:06:17,500
+Jason: Alright, it's done.
+
+95
+00:06:18,500 --> 00:06:19,000
+Andrea: Get out of there.
+
+96
+00:06:38,500 --> 00:06:39,000
+Receptionist: Okay, I see... Gregg, Anna...
+
+97
+00:06:41,500 --> 00:06:42,000
+Receptionist: Okay, I see... Gregg, Anna...
+Andrea: You out of the building yet?
+
+98
+00:06:42,000 --> 00:06:42,500
+Andrea: You out of the building yet?
+
+99
+00:06:42,500 --> 00:06:43,000
+Jason: Yeah, just got out.
+
+100
+00:07:48,000 --> 00:07:48,500
+Karim: Hey.
+
+101
+00:07:48,500 --> 00:07:49,000
+Karim: Hey.
+Jason: Hey.
+
+102
+00:07:49,000 --> 00:07:49,500
+Karim: Just in time.
+
+103
+00:07:51,500 --> 00:07:52,000
+Karim: Francisco's on the move.
+
+104
+00:07:53,500 --> 00:07:54,000
+Karim: He and your girlfriend's buddy, Nate...
+
+105
+00:07:56,000 --> 00:07:56,500
+Karim: They're gonna see some guy.
+
+106
+00:07:57,500 --> 00:07:58,000
+Karim: This might be what we're looking for.
+
+107
+00:07:59,500 --> 00:08:00,000
+Jason: They're not buddies. She's workin' him.
+
+108
+00:08:02,500 --> 00:08:03,000
+Karim: Yeah, okay.
+
+109
+00:08:04,500 --> 00:08:05,000
+Karim: It's all completely professional.
+
+110
+00:08:06,500 --> 00:08:07,000
+Karim: Used a game controller before?
+You kidding me?
+
+111
+00:08:09,500 --> 00:08:10,000
+Karim: So you know what do.
+
+112
+00:08:11,000 --> 00:08:11,500
+Karim: I gotta work the mic. Some, um,
+
+113
+00:08:13,500 --> 00:08:14,000
+Karim: some background systems,
+
+114
+00:08:15,500 --> 00:08:16,000
+Karim: so I need you on the stick.
+
+115
+00:08:17,500 --> 00:08:18,000
+Karim: Here, put these on.
+
+116
+00:08:19,500 --> 00:08:20,000
+Karim: I'm gonna be here, just in case of any surprises.
+
+117
+00:08:22,500 --> 00:08:23,000
+Jason: So, what are we doin'?
+
+118
+00:08:24,000 --> 00:08:24,500
+Karim: You're gonna follow him.
+
+119
+00:08:26,000 --> 00:08:26,500
+Jason: You, um, make any progress with the hard drive?
+Yeah, I did.
+
+120
+00:08:30,000 --> 00:08:30,500
+Karim: You're here to take care of this first.
+
+121
+00:08:32,500 --> 00:08:33,000
+Karim: Put those on.
+
+122
+00:08:35,000 --> 00:08:35,500
+Karim: Yeah, so, they're all over at Calique.
+
+123
+00:08:37,000 --> 00:08:37,500
+Karim: It's a rooftop bar just behind us.
+
+124
+00:08:39,000 --> 00:08:39,500
+Karim: We should be able to spot 'em easy enough.
+
+125
+00:08:41,500 --> 00:08:42,000
+Jason: Uh-huh.
+
+126
+00:08:42,500 --> 00:08:43,000
+Karim: I'll mark areas to check out as you go.
+
+127
+00:08:43,000 --> 00:08:43,500
+Karim: I'll mark areas to check out as you go.
+
+128
+00:08:45,000 --> 00:08:45,500
+Karim: They're like, twice the size of everyone else here.
+
+129
+00:08:48,000 --> 00:08:48,500
+Karim: Should spot 'em quick enough.
+
+130
+00:08:57,500 --> 00:08:58,000
+Jason: All right there. Got 'em.
+Karim: Steady, you're getting too close, man.
+
+131
+00:08:58,500 --> 00:08:59,000
+Karim: Steady, you're getting too close, man.
+
+132
+00:09:00,000 --> 00:09:00,500
+Karim: Stay just close enough so we can hear 'em.
+
+133
+00:09:03,000 --> 00:09:03,500
+Francisco: We gotta go.
+
+134
+00:09:05,500 --> 00:09:06,000
+Francisco: You pay? I'm done.
+
+135
+00:09:07,000 --> 00:09:07,500
+Nate: Yeah, I might wanna stop somewhere first.
+Where'd you park?
+
+136
+00:09:10,000 --> 00:09:10,500
+Francisco: Around back.
+
+137
+00:09:19,000 --> 00:09:19,500
+Jason: They're taking the elevator.
+
+138
+00:09:20,500 --> 00:09:21,000
+Karim: Okay, they're moving. Look out for Cisco's car.
+
+139
+00:09:43,500 --> 00:09:44,000
+Jason: Got it. Red convertible right here.
+
+140
+00:09:47,500 --> 00:09:48,000
+Karim: And, there they come.
+
+141
+00:09:49,500 --> 00:09:50,000
+Jason: They're getting in the car. What's the range like on this?
+
+142
+00:09:52,500 --> 00:09:53,000
+Karim: Well, we're about to find out, huh? Fly it close,
+we'll still hear 'em.
+
+143
+00:09:56,500 --> 00:09:57,000
+Nate: Drop me off at Fairbanks first.
+
+144
+00:09:58,500 --> 00:09:59,000
+Francisco: Fuck you, man. I do what I want.
+
+145
+00:10:00,500 --> 00:10:01,000
+Francisco: Why I gotta stop at Fairbanks?
+
+146
+00:10:02,500 --> 00:10:03,000
+Francisco: I look like some fuckin' taxi driver or somethin', man?
+
+147
+00:10:04,500 --> 00:10:05,000
+Francisco: I look like some fuckin' taxi driver or somethin', man?
+
+148
+00:10:05,000 --> 00:10:05,500
+Francisco: Let me tell you somethin'.
+
+149
+00:10:05,500 --> 00:10:06,000
+Francisco: Let me tell you somethin'.
+Nate: Why is it every time that we have a drink,
+
+150
+00:10:06,000 --> 00:10:06,500
+Nate: Why is it every time that we have a drink,
+
+151
+00:10:08,500 --> 00:10:09,000
+Nate: you think that I'm saying something mildly racist?
+
+152
+00:10:11,000 --> 00:10:11,500
+Francisco: You no sitting in a taxi, man!
+
+153
+00:10:12,500 --> 00:10:13,000
+Nate: We're in the neighborhood. I just wanna pick up some gear!
+
+154
+00:10:15,000 --> 00:10:15,500
+Francisco: And I no come with my last twenty peso,
+to this country,
+
+155
+00:10:18,000 --> 00:10:18,500
+Francisco: to be no fucking taxi driver.
+
+156
+00:10:19,500 --> 00:10:20,000
+Nate: Oh- yeah, twenty?
+
+157
+00:10:21,000 --> 00:10:21,500
+Nate: Last time it was a hundred!
+
+158
+00:10:22,000 --> 00:10:22,500
+Nate: Last time it was a hundred!
+Francisco: Fuck you, man.
+
+159
+00:10:22,500 --> 00:10:23,000
+Francisco: Fuck you, man.
+
+160
+00:10:37,000 --> 00:10:37,500
+Francisco: Diablo, mami!
+
+161
+00:10:39,500 --> 00:10:40,000
+Francisco: In Spanish: Hey! Come here!
+
+162
+00:10:43,500 --> 00:10:44,000
+Nate: Uh... are you sure that's not a dude, bro?
+
+163
+00:10:46,000 --> 00:10:46,500
+Nate: Uh... are you sure that's not a dude, bro?
+Francisco: Hey, quiet, man. Relax.
+
+164
+00:10:46,500 --> 00:10:47,000
+Francisco: Hey, quiet, man. Relax.
+
+165
+00:10:49,000 --> 00:10:49,500
+Francisco: Mami!
+
+166
+00:10:49,500 --> 00:10:50,000
+Francisco: Mami!
+
+167
+00:10:50,000 --> 00:10:50,500
+Nate: Dude.
+
+168
+00:10:50,500 --> 00:10:51,000
+Francisco: In Spanish: If you cook how you walk,
+save me the concon!
+
+169
+00:10:51,000 --> 00:10:51,500
+Francisco: In Spanish: If you cook how you walk,
+save me the concon!
+
+170
+00:10:56,500 --> 00:10:57,000
+Francisco: In Spanish: Shit, mami! Let's talk!
+
+171
+00:11:02,000 --> 00:11:02,500
+Francisco: Diablo...
+
+172
+00:11:03,000 --> 00:11:03,500
+Local: You're too loud, you know that?
+
+173
+00:11:05,000 --> 00:11:05,500
+Francisco: Yeah? You're too sexy you know that? So,
+what we gonna do?
+
+174
+00:11:10,000 --> 00:11:10,500
+Local: It's rude to talk to ladies that way. Mm-hmm?
+
+175
+00:11:12,000 --> 00:11:12,500
+Local: It's rude to talk to ladies that way. Mm-hmm?
+Francisco: No, mami, I'm not rude. I'm passionate.
+
+176
+00:11:12,500 --> 00:11:13,000
+Francisco: No, mami, I'm not rude. I'm passionate.
+
+177
+00:11:14,500 --> 00:11:15,000
+Francisco: Yo vivo at full speed, that's it.
+
+178
+00:11:17,000 --> 00:11:17,500
+Nate: What am I supposed to do with this?
+
+179
+00:11:17,500 --> 00:11:18,000
+Nate: What am I supposed to do with this?
+
+180
+00:11:18,500 --> 00:11:19,000
+Local: I-I imagine the men in your, uh, field would want to, uh...
+
+181
+00:11:19,500 --> 00:11:20,000
+Local: I-I imagine the men in your, uh, field would want to, uh...
+
+182
+00:11:21,500 --> 00:11:22,000
+Local: I-I imagine the men in your, uh, field would want to, uh...
+Nate: Uh, uh, f-field? My field? I told you.
+
+183
+00:11:22,000 --> 00:11:22,500
+Nate: Uh, uh, f-field? My field? I told you.
+
+184
+00:11:24,000 --> 00:11:24,500
+Nate: They wanna get buff, not run a fuckin' marathon.
+
+185
+00:11:26,000 --> 00:11:26,500
+Nate: They wanna get buff, not run a fuckin' marathon.
+Local: Yes and I-I can assure you it'll get them... buff.
+
+186
+00:11:26,500 --> 00:11:27,000
+Local: Yes and I-I can assure you it'll get them... buff.
+
+187
+00:11:27,000 --> 00:11:27,500
+Local: Yes and I-I can assure you it'll get them... buff.
+
+188
+00:11:29,000 --> 00:11:29,500
+Local: Now... I seriously gotta go.
+
+189
+00:11:31,500 --> 00:11:32,000
+Nate: Fuck...
+
+190
+00:11:33,500 --> 00:11:34,000
+Jason: Guy by the door, that's who we're looking for, right?
+
+191
+00:11:36,500 --> 00:11:37,000
+Karim: Nah, I don't think so.
+
+192
+00:11:38,000 --> 00:11:38,500
+Karim: The guy we want is Francisco's contact, the rat.
+
+193
+00:11:41,500 --> 00:11:42,000
+Karim: And that guy couldn't care less right now.
+
+194
+00:11:56,000 --> 00:11:56,500
+Jason: Come on, motherfuckers. Where's your guy?
+
+195
+00:11:56,500 --> 00:11:57,000
+Jason: Come on, motherfuckers. Where's your guy?
+
+196
+00:11:59,500 --> 00:12:00,000
+Francisco: We not stopping by anywhere else, okay?
+
+197
+00:12:01,500 --> 00:12:02,000
+Francisco: He's gonna be heading to work. We gotta be quick.
+
+198
+00:12:03,000 --> 00:12:03,500
+Francisco: He's gonna be heading to work. We gotta be quick.
+
+199
+00:12:04,000 --> 00:12:04,500
+Nate: No sweat, player. I already got what I need.
+
+200
+00:12:05,500 --> 00:12:06,000
+Nate: No sweat, player. I already got what I need.
+
+201
+00:12:09,000 --> 00:12:09,500
+Jason: So, we're looking for a rat?
+
+202
+00:12:11,500 --> 00:12:12,000
+Karim: A rat, mole, mole-rat, whatever, man,
+he's their guy on the inside.
+
+203
+00:12:16,500 --> 00:12:17,000
+Karim: We need to know who he is,
+and how he fits into this stupid plan.
+
+204
+00:12:20,000 --> 00:12:20,500
+Karim: Can't have any surprises on the day...
+
+205
+00:12:23,000 --> 00:12:23,500
+Karim: Not with boss lady going undercover.
+
+206
+00:12:25,000 --> 00:12:25,500
+Jason: Yeah, no surprises... I mean, Lu can handle herself.
+
+207
+00:12:28,000 --> 00:12:28,500
+Jason: you're gonna get your neck snapped, bro.
+
+208
+00:12:32,500 --> 00:12:33,000
+Nate: Alright. Now back to our regularly scheduled program.
+
+209
+00:12:36,500 --> 00:12:37,000
+Francisco: Why the fuck d'you talk like that, man?
+
+210
+00:12:39,000 --> 00:12:39,500
+Nate: Like what?
+
+211
+00:12:39,500 --> 00:12:40,000
+Francisco: Talkin' like a geek or somethin', man.
+
+212
+00:12:42,000 --> 00:12:42,500
+Francisco: Like some weirdo or somethin'.
+
+213
+00:12:43,500 --> 00:12:44,000
+Nate: Look, I'm just a product of my environment.
+And this is America, bro.
+
+214
+00:12:48,000 --> 00:12:48,500
+Nate: Where we kinda stopped banging on metal at bitches, like,
+
+215
+00:12:50,500 --> 00:12:51,000
+Nate: a few years ago.
+
+216
+00:12:52,500 --> 00:12:53,000
+Francisco: So?
+
+217
+00:12:57,500 --> 00:12:58,000
+Nate: What's going on with that Italian chick?
+
+218
+00:12:59,500 --> 00:13:00,000
+Nate: I thought you were all wifed-up at dinner the other night.
+
+219
+00:13:08,000 --> 00:13:08,500
+Nate: If you're looking for chicks, I got a number,
+whatever you want.
+
+220
+00:13:09,500 --> 00:13:10,000
+Nate: Black, White, Asian, Latina, European. Fuckin'... Martian, bro.
+
+221
+00:13:31,500 --> 00:13:32,000
+Jason: They pulled up.
+
+222
+00:13:32,500 --> 00:13:33,000
+Karim: Alright, they're on foot. Wherever they go, can't be too far.
+
+223
+00:13:36,500 --> 00:13:37,000
+Karim: Alright, let's see where this goes.
+
+224
+00:13:39,000 --> 00:13:39,500
+Nate: Look, at the end of the day, no matter what,
+
+225
+00:13:41,000 --> 00:13:41,500
+Nate: it's all in the approach, bro. Trust me.
+
+226
+00:13:43,500 --> 00:13:44,000
+Francisco: Hey, when did I ask for some fucking advice?
+
+227
+00:13:46,500 --> 00:13:47,000
+Nate: I'm just saying.
+
+228
+00:13:47,500 --> 00:13:48,000
+Francisco: Listen, when we get to my guy,
+
+229
+00:13:50,000 --> 00:13:50,500
+Francisco: I don't want you talking, yapping,
+just like you doing now.
+
+230
+00:13:51,000 --> 00:13:51,500
+Francisco: I don't want you talking, yapping,
+just like you doing now.
+Karim: Alright, they're coming up to that apartment building,
+
+231
+00:13:53,000 --> 00:13:53,500
+Francisco: I don't want you talking, yapping,
+just like you doing now.
+
+232
+00:13:53,500 --> 00:13:54,000
+Karim: hopefully this is it.
+
+233
+00:13:54,500 --> 00:13:55,000
+Francisco: You gonna create a lot of confusion, man.
+
+234
+00:13:56,500 --> 00:13:57,000
+Francisco: He just gotta be intimidated, that's it.
+
+235
+00:13:58,500 --> 00:13:59,000
+Francisco: That's why I got you with me.
+
+236
+00:14:00,000 --> 00:14:00,500
+Nate: What's his apartment number?
+
+237
+00:14:01,500 --> 00:14:02,000
+Francisco: 405.
+
+238
+00:14:03,500 --> 00:14:04,000
+Francisco: Hey! What's your problem, man?
+Nate: Ah, ow! What?
+
+239
+00:14:05,000 --> 00:14:05,500
+Nate: Ah, ow! What?
+Karim: 405, 405. Looks like the third balcony up, right window.
+
+240
+00:14:05,500 --> 00:14:06,000
+Karim: 405, 405. Looks like the third balcony up, right window.
+
+241
+00:14:11,000 --> 00:14:11,500
+Francisco: Sure, sure! "Oh, wow, Cisco, you here?"
+
+242
+00:14:13,500 --> 00:14:14,000
+Francisco: "I expecting you in my home. Sure, sure, come, come."
+
+243
+00:14:20,000 --> 00:14:20,500
+Jason: Is that fuckin' Omar? Well, we know him.
+
+244
+00:14:23,000 --> 00:14:23,500
+Karim: Alright, well, we're gonna need to plant some bugs ASAP.
+
+245
+00:14:28,000 --> 00:14:28,500
+Karim: That should be good.
+
+246
+00:14:40,500 --> 00:14:41,000
+Omar: Woo! Dangerous!
+
+247
+00:14:44,000 --> 00:14:44,500
+Omar: Watch out, baby! I am dangerous.
+
+248
+00:14:51,500 --> 00:14:52,000
+Karim: Alright, he's out of the kitchen.
+
+249
+00:14:55,000 --> 00:14:55,500
+Karim: Just by the bookcase.
+
+250
+00:15:01,000 --> 00:15:01,500
+Karim: Done.
+
+251
+00:15:08,000 --> 00:15:08,500
+Karim: Yup, that's it.
+
+252
+00:15:13,000 --> 00:15:13,500
+Karim: Whoa, bro.
+
+253
+00:15:20,000 --> 00:15:20,500
+Karim: Alright. With these bugs in place,
+
+254
+00:15:22,000 --> 00:15:22,500
+Karim: we'll know exactly what they're up to.
+
+255
+00:15:24,500 --> 00:15:25,000
+Karim: Last piece of the puzzle.
+
+256
+00:15:26,500 --> 00:15:27,000
+Jason: What a fuckin' piece.
+
+257
+00:15:28,000 --> 00:15:28,500
+Karim: Fuck, he's all over the place. Just stay hidden.
+
+258
+00:15:38,500 --> 00:15:39,000
+Karim: Try to get past him now.
+
+259
+00:15:42,500 --> 00:15:43,000
+Karim: Dude, it's too early to leave. Go back.
+
+260
+00:15:48,500 --> 00:15:49,000
+Karim: No. Too slow, hide.
+
+261
+00:15:50,500 --> 00:15:51,000
+Karim: Alright. Keep hidden and let him leave.
+
+262
+00:16:03,000 --> 00:16:03,500
+Karim: Hey, plant one somewhere in the bedroom.
+
+263
+00:16:11,500 --> 00:16:12,000
+Karim: C'mon, don't wait. Pick a spot, drop the bug.
+
+264
+00:16:19,000 --> 00:16:19,500
+Karim: Yeah, that'll do.
+
+265
+00:16:21,000 --> 00:16:21,500
+Karim: Whoa! Shit, hide the drone. They're at the door.
+
+266
+00:16:28,500 --> 00:16:29,000
+Karim: Get on cams. Just watch for a minute.
+
+267
+00:16:30,500 --> 00:16:31,000
+Karim: See what's going on here.
+
+268
+00:16:40,000 --> 00:16:40,500
+Omar: Cisco?
+
+269
+00:16:41,000 --> 00:16:41,500
+Francisco: We're doing it!
+
+270
+00:16:42,000 --> 00:16:42,500
+Omar: What? Doing what?
+
+271
+00:16:43,500 --> 00:16:44,000
+Francisco: Don't waste my fucking time explaining to you!
+
+272
+00:16:45,500 --> 00:16:46,000
+Omar: What is this? We're friends, bro.
+
+273
+00:16:48,000 --> 00:16:48,500
+Omar: Oh, shit. It's the steroids! You're losing it!
+
+274
+00:16:52,000 --> 00:16:52,500
+Nate: Get-
+
+275
+00:16:53,000 --> 00:16:53,500
+Omar: Oh! Shit!
+
+276
+00:16:53,500 --> 00:16:54,000
+Nate: Get over here! Where do you think you're going?
+
+277
+00:16:54,500 --> 00:16:55,000
+Nate: Get over here! Where do you think you're going?
+Francisco: Hold him!
+
+278
+00:16:55,500 --> 00:16:56,000
+Nate: Come here! Come here!
+
+279
+00:16:57,000 --> 00:16:57,500
+Francisco: Step on him!
+
+280
+00:16:57,500 --> 00:16:58,000
+Omar: Argh!
+
+281
+00:16:58,500 --> 00:16:59,000
+Francisco: Hard!
+
+282
+00:17:00,000 --> 00:17:00,500
+Nate: Yeah.
+
+283
+00:17:00,500 --> 00:17:01,000
+Omar: Agh!
+
+284
+00:17:03,000 --> 00:17:03,500
+Francisco: Listen! Listen!
+
+285
+00:17:05,500 --> 00:17:06,000
+Francisco: You gonna get us the money from that fucking
+airport, you understand?
+
+286
+00:17:08,500 --> 00:17:09,000
+Francisco: You done enough talking. You work for us now.
+
+287
+00:17:13,000 --> 00:17:13,500
+Francisco: Let him up.
+
+288
+00:17:14,000 --> 00:17:14,500
+Nate: Get up, motherfucker.
+
+289
+00:17:15,000 --> 00:17:15,500
+Omar: Okay! Okay!
+
+290
+00:17:21,000 --> 00:17:21,500
+Nate: Get- No! No you don't.
+
+291
+00:17:24,000 --> 00:17:24,500
+Francisco: Big man, huh? Big job.
+
+292
+00:17:31,500 --> 00:17:32,000
+Francisco: You say you see a lot a money, right?
+
+293
+00:17:33,500 --> 00:17:34,000
+Francisco: Going in and out, right?
+
+294
+00:17:35,500 --> 00:17:36,000
+Francisco: You gonna find out next how much money coming to
+the vault. Okay?
+
+295
+00:17:40,000 --> 00:17:40,500
+Francisco: After we get our money,
+you gonna put it on our fucking plane.
+
+296
+00:17:43,000 --> 00:17:43,500
+Francisco: Okay, man?
+
+297
+00:17:44,000 --> 00:17:44,500
+Omar: Wait, what? Me? Why me?
+
+298
+00:17:46,000 --> 00:17:46,500
+Nate: Why you?'Cause you're the baggage boss!
+
+299
+00:17:48,500 --> 00:17:49,000
+Nate: You're gonna do your fucking job, man, understand?
+
+300
+00:17:50,000 --> 00:17:50,500
+Nate: You're gonna do your fucking job, man, understand?
+Omar: Okay, I get it! You- you need me!
+
+301
+00:17:50,500 --> 00:17:51,000
+Omar: Okay, I get it! You- you need me!
+
+302
+00:17:53,500 --> 00:17:54,000
+Omar: That's all you had to say, brother!
+
+303
+00:17:57,500 --> 00:17:58,000
+Omar: I mean, this is fucking huge.
+
+304
+00:18:01,500 --> 00:18:02,000
+Omar: Fuck, who else but me, right?
+
+305
+00:18:04,500 --> 00:18:05,000
+Omar: Alright. I'll be your man, on the inside.
+
+306
+00:18:07,500 --> 00:18:08,000
+Nate: And don't even think about fuckin' us over,
+
+307
+00:18:09,500 --> 00:18:10,000
+Nate: 'cause if you do, guess what?
+
+308
+00:18:11,500 --> 00:18:12,000
+Nate: I'll be the man in your inside!
+
+309
+00:18:13,000 --> 00:18:13,500
+Nate: Habibi!
+
+310
+00:18:14,500 --> 00:18:15,000
+Omar: No, bro, listen, Cisco, you can trust me, man. Trust me.
+
+311
+00:18:20,500 --> 00:18:21,000
+Jason: Look at 'em. They got no fuckin' idea.
+
+312
+00:18:23,000 --> 00:18:23,500
+Karim: What else do you expect from a couple of gearheads? Ah,
+shit!
+
+313
+00:18:27,000 --> 00:18:27,500
+Karim: Switch away from the cams, get out of there!
+
+314
+00:18:28,500 --> 00:18:29,000
+Nate: Hey, why the fuck is a drone in here?
+
+315
+00:18:30,000 --> 00:18:30,500
+Francisco: It's a toy?
+
+316
+00:19:34,500 --> 00:19:35,000
+Jason: 'Kay. We're good.
+
+317
+00:19:36,500 --> 00:19:37,000
+Karim: Change of plans. We're not headed back.
+
+318
+00:19:51,000 --> 00:19:51,500
+Jason: What're you doing here?
+Raul told me to be here.
+
+319
+00:19:58,000 --> 00:19:58,500
+Raul: How'd it go?
+
+320
+00:19:59,000 --> 00:19:59,500
+Karim: Close, but we did it.
+
+321
+00:20:01,000 --> 00:20:01,500
+Karim: Bugs are all-set up.
+
+322
+00:20:02,500 --> 00:20:03,000
+Karim: Shouldn't be any issues.
+
+323
+00:20:03,500 --> 00:20:04,000
+Raul: Good job!
+
+324
+00:20:05,500 --> 00:20:06,000
+Karim: You guys wanna see what's on this hard drive, right?
+
+325
+00:20:09,000 --> 00:20:09,500
+Raul: Wow!
+
+326
+00:20:15,500 --> 00:20:16,000
+Camila: You are everything.
+
+327
+00:20:19,000 --> 00:20:19,500
+Raul: Can you believe it?
+Uh oh, party foul!
+
+328
+00:20:22,500 --> 00:20:23,000
+Stranger: Now, Senator,
+you know you're not supposed to start without big daddy.
+
+329
+00:20:28,500 --> 00:20:29,000
+Camila: In Spanish: Uy, daddy.
+
+330
+00:20:33,000 --> 00:20:33,500
+Lucia: That's it?
+
+331
+00:20:34,500 --> 00:20:35,000
+Raul: Y'know who that is?
+
+332
+00:20:35,500 --> 00:20:36,000
+Jason: That's, uh...
+
+333
+00:20:36,500 --> 00:20:37,000
+Raul: Camila Fuentes.
+Camila Fuentes.
+
+334
+00:20:38,500 --> 00:20:39,000
+Raul: Don't you vote? She's your senator.
+
+335
+00:20:40,500 --> 00:20:41,000
+Lucia: How long till we get the rest?
+
+336
+00:20:41,500 --> 00:20:42,000
+Raul: Not long.
+I mean, it could be years.
+
+337
+00:20:42,500 --> 00:20:43,000
+Raul: No, no, no, no, no. Not long.
+
+338
+00:20:44,500 --> 00:20:45,000
+Raul: C'mon, Karim.
+
+339
+00:20:46,000 --> 00:20:46,500
+Raul: C'mon, baby, do your job.
+
+340
+00:20:48,500 --> 00:20:49,000
+Raul: Look, the take away here is
+
+341
+00:20:50,500 --> 00:20:51,000
+Raul: that you got your hands on some hot property.
+
+342
+00:20:53,500 --> 00:20:54,000
+Raul: We got two interested parties,
+
+343
+00:20:55,000 --> 00:20:55,500
+Raul: who are very, very rich.
+
+344
+00:20:56,500 --> 00:20:57,000
+Raul: We might not need to find out what's inside that file
+
+345
+00:20:58,500 --> 00:20:59,000
+Raul: to auction it off to the highest bidder.
+
+346
+00:21:01,000 --> 00:21:01,500
+Lucia: What do we do now?
+
+347
+00:21:02,500 --> 00:21:03,000
+Raul: If we do this, we do it right.
+
+348
+00:21:04,000 --> 00:21:04,500
+Raul: I'll talk to Valentina and your lawyer, Abe.
+
+349
+00:21:07,000 --> 00:21:07,500
+Raul: These are some powerful people.
+
+350
+00:21:08,500 --> 00:21:09,000
+Raul: We gotta stay anonymous and protect ourselves.
+
+351
+00:21:11,000 --> 00:21:11,500
+Jason: Whatever you can do for us will help.
+
+352
+00:21:13,000 --> 00:21:13,500
+Jason: Ready to go?
+Yeah.
+
+353
+00:21:14,500 --> 00:21:15,000
+Raul: Keep working the meatheads.
+
+354
+00:21:16,500 --> 00:21:17,000
+Raul: We'll be in touch.
+
+355
+00:21:29,500 --> 00:21:30,000
+Jason: Heading back to the gym?
+
+356
+00:21:31,000 --> 00:21:31,500
+Lucia: How'd you guess?
+
+357
+00:21:32,000 --> 00:21:32,500
+Jason: Oh cool.
+
+358
+00:21:32,500 --> 00:21:33,000
+Jason: Oh, cool.
+
+359
+00:21:33,000 --> 00:21:33,500
+Jason: You know, I'll drop you off round the corner by the Fleeca.
+
+360
+00:21:35,000 --> 00:21:35,500
+Lucia: Aww, okay.
+
+361
+00:21:42,500 --> 00:21:43,000
+Lucia: So... Camila fuckin' Fuentes.
+
+362
+00:21:46,000 --> 00:21:46,500
+Jason: Yeah, I know.
+
+363
+00:21:47,500 --> 00:21:48,000
+Jason: I thought when you first said it,
+
+364
+00:21:49,000 --> 00:21:49,500
+Jason: you meant the singer, not the politician.
+
+365
+00:21:50,500 --> 00:21:51,000
+Jason: you meant the singer, not the politician.
+Lucia: Dude, they're the same person.
+
+366
+00:21:51,000 --> 00:21:51,500
+Lucia: Dude, they're the same person.
+
+367
+00:21:52,500 --> 00:21:53,000
+Jason: Oh shit. You know, I think I knew that.
+
+368
+00:21:55,500 --> 00:21:56,000
+Lucia: Yeah.
+
+369
+00:21:57,500 --> 00:21:58,000
+Lucia: Wonder what that bitch did that she needs to cover up so
+bad?
+
+370
+00:22:00,500 --> 00:22:01,000
+Jason: I don't know.
+
+371
+00:22:01,500 --> 00:22:02,000
+Jason: Feel like these guys can get away with anything nowadays
+
+372
+00:22:04,000 --> 00:22:04,500
+Jason: and no one gives a shit.
+
+373
+00:22:05,000 --> 00:22:05,500
+Jason: and no one gives a shit.
+Lucia: Yeah... I mean, it's gotta be bad.
+
+374
+00:22:05,500 --> 00:22:06,000
+Lucia: Yeah... I mean, it's gotta be bad.
+
+375
+00:22:08,000 --> 00:22:08,500
+Lucia: Like drowning puppies, bad.
+
+376
+00:22:10,500 --> 00:22:11,000
+Lucia: 'Cause everybody already knows that she's a ho.
+
+377
+00:22:13,000 --> 00:22:13,500
+Lucia: Aww, that's our Fleeca.
+
+378
+00:22:15,500 --> 00:22:16,000
+Jason: There's one of 'em.
+
+379
+00:22:17,000 --> 00:22:17,500
+Lucia: Okay, so.
+
+380
+00:22:19,500 --> 00:22:20,000
+Jason: Really? She seems pretty classy to me.
+
+381
+00:22:22,000 --> 00:22:22,500
+Lucia: Right.
+
+382
+00:22:23,500 --> 00:22:24,000
+Lucia: And she's always talking about bringing in NOOSE on the
+news.
+
+383
+00:22:27,500 --> 00:22:28,000
+Lucia: She must have Méndez working for her,
+and all those fucking cops.
+
+384
+00:22:31,500 --> 00:22:32,000
+Jason: We sure do pick 'em.
+
+385
+00:22:32,500 --> 00:22:33,000
+Lucia: Hey, but like Raul says...
+
+386
+00:22:35,000 --> 00:22:35,500
+Lucia: if we can play both sides against each other,
+
+387
+00:22:37,500 --> 00:22:38,000
+Lucia: drive up the price...
+
+388
+00:22:38,500 --> 00:22:39,000
+Jason: We could be talking about that yacht you've always
+wanted.
+
+389
+00:22:41,000 --> 00:22:41,500
+Lucia: Hmm, could be.
+
+390
+00:22:45,500 --> 00:22:46,000
+Lucia: 'Kay, thanks.
+
+391
+00:22:47,500 --> 00:22:48,000
+Lucia: Uh, you should probably wait a minute before pulling outta
+here.
+
+392
+00:22:50,500 --> 00:22:51,000
+Jason: Yes, ma'am.
+
+393
+00:23:26,000 --> 00:23:26,500
+Nate: Okay. One more, baby.
+
+394
+00:23:28,000 --> 00:23:28,500
+Nate: One more set. Come on, come on.
+
+395
+00:23:47,500 --> 00:23:48,000
+Lucia: Hey.
+
+396
+00:23:49,000 --> 00:23:49,500
+Lucia: I might just get a pump in real quick.
+
+397
+00:23:51,500 --> 00:23:52,000
+Kordell: You're outta time. We gotta go.
+
+398
+00:23:56,000 --> 00:23:56,500
+Kordell: You gonna be with us, Payday,
+you need to get to know who we know.
+
+399
+00:24:00,500 --> 00:24:01,000
+Lucia: That's fine, but to be honest I'm not much of a social
+butterfly, you know?
+
+400
+00:24:05,500 --> 00:24:06,000
+Kordell: Hmm, funny how you thought I was asking.
+
+401
+00:24:09,500 --> 00:24:10,000
+Kordell: Get behind the wheel.
+
+402
+00:24:10,500 --> 00:24:11,000
+Kordell: There's a warehouse on Northwest 8th Avenue.
+Over by Fleeca Field.
+
+403
+00:24:20,500 --> 00:24:21,000
+Kordell: So, who you know in this city?
+
+404
+00:24:22,000 --> 00:24:22,500
+Lucia: In what sense?
+
+405
+00:24:23,500 --> 00:24:24,000
+Kordell: Pimps, hustlers, carjackers, gangbangers, convicts, cops.
+
+406
+00:24:27,500 --> 00:24:28,000
+Kordell: Name, like, I dunno... ten.
+
+407
+00:24:30,000 --> 00:24:30,500
+Lucia: I don't know ten.
+
+408
+00:24:32,000 --> 00:24:32,500
+Kordell: So name all you do know.
+
+409
+00:24:34,500 --> 00:24:35,000
+Lucia: You want me to name every single crook I know in this
+city?
+
+410
+00:24:37,000 --> 00:24:37,500
+Kordell: 'Ey, man, stop tryin' to be cute.
+I'm asking you a simple question.
+
+411
+00:24:41,000 --> 00:24:41,500
+Kordell: You keep on tryin' to be cute,
+
+412
+00:24:42,000 --> 00:24:42,500
+Kordell: you make me think you got somethin' to hide.
+
+413
+00:24:44,000 --> 00:24:44,500
+Kordell: You got somethin' to hide?
+
+414
+00:24:45,000 --> 00:24:45,500
+Lucia: Nah, I don't.
+
+415
+00:24:46,500 --> 00:24:47,000
+Kordell: Can you name ten of these motherfuckers that you know
+
+416
+00:24:49,500 --> 00:24:50,000
+Kordell: personally in this city, yes, or no?
+
+417
+00:24:53,000 --> 00:24:53,500
+Lucia: No. I don't know anybody. I told you.
+
+418
+00:24:55,500 --> 00:24:56,000
+Lucia: Except for you guys who I met through Nate, did I not?
+
+419
+00:24:59,500 --> 00:25:00,000
+Kordell: No man is an island, Payday. What does that make you?
+
+420
+00:25:05,000 --> 00:25:05,500
+Lucia: I don't know, call it whatever you want.
+
+421
+00:25:07,500 --> 00:25:08,000
+Kordell: Alright, alright, so let me put you on game.
+
+422
+00:25:13,000 --> 00:25:13,500
+Kordell: See, it pays to know people.
+
+423
+00:25:15,500 --> 00:25:16,000
+Kordell: And there's a lot of money in the VC airport vault.
+
+424
+00:25:19,000 --> 00:25:19,500
+Kordell: Once we get it on the plane, and once we land,
+
+425
+00:25:22,000 --> 00:25:22,500
+Kordell: it's gonna take a lot of hands to move all that money.
+
+426
+00:25:25,000 --> 00:25:25,500
+Kordell: Now we already established you don't know a single
+motherfucker that can help with that.
+
+427
+00:25:29,500 --> 00:25:30,000
+Kordell: I do.
+
+428
+00:25:31,000 --> 00:25:31,500
+Lucia: Well, I appreciate you for introducing me
+
+429
+00:25:33,000 --> 00:25:33,500
+Lucia: to whoever's gonna be handling my money.
+
+430
+00:25:36,000 --> 00:25:36,500
+Kordell: Arlo. But he ain't coming on the job.
+He'll find the ones that will.
+
+431
+00:25:41,500 --> 00:25:42,000
+Kordell: Arlo the total opposite of you.
+
+432
+00:25:43,500 --> 00:25:44,000
+Kordell: He ain't the type to hide in his cell all day when doing a
+bid.
+
+433
+00:25:47,000 --> 00:25:47,500
+Kordell: Met him behind the wall.
+
+434
+00:25:49,000 --> 00:25:49,500
+Lucia: I ever told you I was hiding? I just like to keep to myself.
+
+435
+00:25:52,000 --> 00:25:52,500
+Lucia: That's two different things.
+
+436
+00:25:54,000 --> 00:25:54,500
+Lucia: Look, don't even try me with that bullshit, that's not funny.
+
+437
+00:25:57,500 --> 00:25:58,000
+Kordell: Remember, dude's name is Arlo.
+
+438
+00:26:00,500 --> 00:26:01,000
+Kordell: Let him know what I want. He'll set it up.
+
+439
+00:26:03,500 --> 00:26:04,000
+Lucia: You sure? I mean, he knows you.
+
+440
+00:26:07,000 --> 00:26:07,500
+Kordell: Ain't a single motherfucker over there that's not gonna
+know me.
+
+441
+00:26:10,000 --> 00:26:10,500
+Kordell: Fuck them niggas.
+
+442
+00:26:11,500 --> 00:26:12,000
+Kordell: Ain't got no time for no meet-and-greet.
+
+443
+00:26:14,500 --> 00:26:15,000
+Kordell: Shit pisses me off... I'm known. You're not. Go to it.
+
+444
+00:26:20,000 --> 00:26:20,500
+Lucia: Alright. Got it.
+
+445
+00:26:29,000 --> 00:26:29,500
+Lucia: Hey, you seen Arlo around?
+
+446
+00:26:31,000 --> 00:26:31,500
+Local: Arlo? Yeah, he's in the cage.
+
+447
+00:26:33,500 --> 00:26:34,000
+Lucia: Got it.
+
+448
+00:26:48,500 --> 00:26:49,000
+Local: 'Ey, you might wanna come back later.
+Everybody over there fucking arguing.
+
+449
+00:26:53,000 --> 00:26:53,500
+Lucia: You know the guy who runs this?
+
+450
+00:26:54,500 --> 00:26:55,000
+Local: Yeah, Arlo, he's inside. He's around somewhere.
+
+451
+00:27:06,000 --> 00:27:06,500
+Stranger: Now look, if I was to knock yo' ass out,
+I'm gonna be wrong, right?
+
+452
+00:27:08,000 --> 00:27:08,500
+Stranger: Now look, if I was to knock yo' ass out,
+I'm gonna be wrong, right?
+Arlo: My ass?
+
+453
+00:27:09,500 --> 00:27:10,000
+Stranger: I'm wrong, right?
+Arlo: Hey, hey! Back the fuck up, okay?
+
+454
+00:27:10,500 --> 00:27:11,000
+Arlo: Hey, hey! Back the fuck up, okay?
+
+455
+00:27:12,000 --> 00:27:12,500
+Lucia: Arlo!
+
+456
+00:27:12,500 --> 00:27:13,000
+Arlo: The fuck?
+
+457
+00:27:13,500 --> 00:27:14,000
+Stranger: How much longer am I supposed to wait, man?
+
+458
+00:27:15,000 --> 00:27:15,500
+Stranger: How much longer am I supposed to wait, man?
+Arlo: Calm the fuck down!
+Lucia: Excuse me...
+
+459
+00:27:15,500 --> 00:27:16,000
+Arlo: Calm the fuck down!
+Lucia: Excuse me...
+Stranger: I'll settle for next of kin if I got to!
+
+460
+00:27:16,000 --> 00:27:16,500
+Arlo: Calm the fuck down!
+Stranger: I'll settle for next of kin if I got to!
+
+461
+00:27:16,500 --> 00:27:17,000
+Stranger: I'll settle for next of kin if I got to!
+
+462
+00:27:18,000 --> 00:27:18,500
+Arlo: Who the fuck are you?
+
+463
+00:27:19,000 --> 00:27:19,500
+Lucia: I got a message from Kordell.
+
+464
+00:27:20,500 --> 00:27:21,000
+Arlo: Bitch, what message? Who the fuck are you?
+
+465
+00:27:23,500 --> 00:27:24,000
+Stranger: Move out of my way!
+
+466
+00:27:25,500 --> 00:27:26,000
+Arlo: Whoa!
+
+467
+00:27:27,000 --> 00:27:27,500
+Lucia: Any of you motherfuckers touch me again,
+
+468
+00:27:29,500 --> 00:27:30,000
+Lucia: see what the fuck happens!
+
+469
+00:27:33,500 --> 00:27:34,000
+Arlo: This is what y'all want? Alright! She's next.
+
+470
+00:27:36,500 --> 00:27:37,000
+Arlo: Let's get ready to bring the pain.
+
+471
+00:27:39,000 --> 00:27:39,500
+Stranger: What?
+
+472
+00:27:40,500 --> 00:27:41,000
+Stranger: You don't think I won't fuck you up? Come on!
+
+473
+00:27:45,000 --> 00:27:45,500
+Stranger: 'Ey, yo, Arlo, you fucking this bitch?
+
+474
+00:27:46,500 --> 00:27:47,000
+Stranger: 'Ey, yo, Arlo, you fucking this bitch?
+Arlo: Man, I don't even know her. She just walked in.
+
+475
+00:27:47,500 --> 00:27:48,000
+Arlo: Man, I don't even know her. She just walked in.
+
+476
+00:27:48,500 --> 00:27:49,000
+Arlo: Man, I don't even know her. She just walked in.
+Lucia: Alright, then. Come on, fuck me up.
+
+477
+00:27:49,000 --> 00:27:49,500
+Lucia: Alright, then. Come on, fuck me up.
+
+478
+00:27:51,000 --> 00:27:51,500
+Arlo: Chill, I know what I'm doing.
+
+479
+00:27:53,000 --> 00:27:53,500
+Arlo: She's in! She's a stepping stone.
+
+480
+00:27:54,500 --> 00:27:55,000
+Lucia: 'Ey! Fuck me up like you said!
+
+481
+00:27:57,000 --> 00:27:57,500
+Arlo: One and done. Winner moves up. Just calm your ass down.
+
+482
+00:27:57,500 --> 00:27:58,000
+Arlo: One and done. Winner moves up. Just calm your ass down.
+Lucia: You done?
+
+483
+00:27:58,500 --> 00:27:59,000
+Arlo: One and done. Winner moves up. Just calm your ass down.
+Arlo: Fuck you!
+
+484
+00:27:59,500 --> 00:28:00,000
+Stranger: Some old bullshit, man! 'Ey, I better have next!
+
+485
+00:28:04,000 --> 00:28:04,500
+Arlo: No problem, big dog. No problem...
+
+486
+00:28:07,500 --> 00:28:08,000
+Arlo: Shit, you better know where you at.
+
+487
+00:28:08,500 --> 00:28:09,000
+Arlo: Shit, you better know where you at.
+Stranger: Fuck, man.
+
+488
+00:28:09,000 --> 00:28:09,500
+Stranger: Fuck, man.
+
+489
+00:28:11,000 --> 00:28:11,500
+Stranger: Fuck you.
+
+490
+00:28:12,000 --> 00:28:12,500
+Arlo: Man, fuck you.
+
+491
+00:28:13,000 --> 00:28:13,500
+Stranger: See about that.
+
+492
+00:28:14,000 --> 00:28:14,500
+Arlo: See about what? Fuck you and your momma.
+
+493
+00:28:17,500 --> 00:28:18,000
+Arlo: Thirsty, sweetheart? There's no breaks here, okay?
+
+494
+00:28:20,000 --> 00:28:20,500
+Arlo: Hey, Dice, you're up!
+
+495
+00:28:22,000 --> 00:28:22,500
+Lucia: Kordell, he's just here looking for a-
+
+496
+00:28:23,000 --> 00:28:23,500
+Lucia: Kordell, he's just here looking for a-
+Arlo: Let's go, fight time!
+
+497
+00:28:23,500 --> 00:28:24,000
+Lucia: Kordell, he's just here looking for a-
+Arlo: Let's go, fight time!
+Dice: 'Ey, 'ey, 'ey, it's cool, it's a warm up. Just a warm up.
+
+498
+00:28:24,000 --> 00:28:24,500
+Arlo: Let's go, fight time!
+Dice: 'Ey, 'ey, 'ey, it's cool, it's a warm up. Just a warm up.
+
+499
+00:28:24,500 --> 00:28:25,000
+Dice: 'Ey, 'ey, 'ey, it's cool, it's a warm up. Just a warm up.
+
+500
+00:28:27,500 --> 00:28:28,000
+Arlo: It's time to get busy!
+
+501
+00:28:28,500 --> 00:28:29,000
+Dice: Oh, so you think you pressure now, huh?
+
+502
+00:28:32,000 --> 00:28:32,500
+Lucia: Fuck around and find out.
+
+503
+00:28:33,500 --> 00:28:34,000
+Arlo: Step up! Step up!
+
+504
+00:28:42,000 --> 00:28:42,500
+Lucia: Ah, you was all hyped, what's going on?
+
+505
+00:28:47,000 --> 00:28:47,500
+Lucia: Back the fuck down!
+
+506
+00:28:55,500 --> 00:28:56,000
+Arlo: One of y'all gonna get up outta here, off yo' back!
+
+507
+00:28:58,500 --> 00:28:59,000
+Arlo: That's how we always been doin' it.
+I don't play about my brand.
+
+508
+00:29:05,000 --> 00:29:05,500
+Lucia: You warmed up?
+
+509
+00:29:19,500 --> 00:29:20,000
+Lucia: Arlo, I'm out, okay. I've had enough!
+
+510
+00:29:25,000 --> 00:29:25,500
+Arlo: Let me go talk to her.
+
+511
+00:29:27,000 --> 00:29:27,500
+Arlo: The fuck? Who's grabbing me? Hold up. Hold up.
+
+512
+00:29:29,500 --> 00:29:30,000
+Arlo: The fuck? Who's grabbing me? Hold up. Hold up.
+Stranger: I'm motherfucking on!
+
+513
+00:29:30,000 --> 00:29:30,500
+Stranger: I'm motherfucking on!
+
+514
+00:29:30,500 --> 00:29:31,000
+Arlo: Yo, relax!
+
+515
+00:29:31,500 --> 00:29:32,000
+Stranger: I said I'm motherfucking on.
+
+516
+00:29:33,000 --> 00:29:33,500
+Arlo: What the fuck?
+
+517
+00:29:35,000 --> 00:29:35,500
+Arlo: 'Ey, man, you outta control right now,
+
+518
+00:29:37,000 --> 00:29:37,500
+Arlo: you ain't hear what the fuck she just said?
+
+519
+00:29:44,000 --> 00:29:44,500
+Kordell: I know this nigga who been ducking me ain't talking!
+
+520
+00:29:46,500 --> 00:29:47,000
+Stranger: Look at this big ugly-ass dude right here. What's up?
+
+521
+00:29:51,000 --> 00:29:51,500
+Stranger: Ugh!
+
+522
+00:29:53,500 --> 00:29:54,000
+Lucia: I could have took him.
+
+523
+00:29:56,500 --> 00:29:57,000
+Kordell: Motherfucker...
+
+524
+00:29:57,000 --> 00:29:57,500
+Arlo: Nah, baby, that ain't it!
+
+525
+00:29:58,000 --> 00:29:58,500
+Kordell: What'd I say the next time I saw you, bitch? Huh?
+
+526
+00:30:03,000 --> 00:30:03,500
+Kordell: What'd I say? Huh?
+
+527
+00:30:05,500 --> 00:30:06,000
+Kordell: What did I say, motherfucker?
+
+528
+00:30:09,500 --> 00:30:10,000
+Kordell: Time's ticking. You ready?
+
+529
+00:30:11,000 --> 00:30:11,500
+Lucia: Ready.
+
+530
+00:30:11,500 --> 00:30:12,000
+Lucia: Ready.
+Kordell: Arlo!
+
+531
+00:30:12,500 --> 00:30:13,000
+Arlo: Yo!
+
+532
+00:30:13,000 --> 00:30:13,500
+Kordell: Let's get out of here.
+
+533
+00:30:13,500 --> 00:30:14,000
+Arlo: Ready to go.
+
+534
+00:30:16,500 --> 00:30:17,000
+Kordell: I need a crew. You hear what the fuck I'm sayin'?
+
+535
+00:30:19,000 --> 00:30:19,500
+Arlo: A crew? Sure, I got you.
+
+536
+00:30:21,500 --> 00:30:22,000
+Kordell: You get 'em together, I'll give you the call.
+
+537
+00:30:24,000 --> 00:30:24,500
+Kordell: They gotta be ready to move.
+And they all need passports.
+
+538
+00:30:27,500 --> 00:30:28,000
+Kordell: Here. Take this.
+
+539
+00:30:29,500 --> 00:30:30,000
+Arlo: A'ight, let's see what we got here.
+
+540
+00:30:31,500 --> 00:30:32,000
+Arlo: Whoa. What's this?
+
+541
+00:30:33,500 --> 00:30:34,000
+Kordell: A guarantee you don't fuck this up.
+
+542
+00:30:35,500 --> 00:30:36,000
+Arlo: Hey, man, you know I got you. I'll be in touch.
+
+543
+00:30:39,000 --> 00:30:39,500
+Arlo: Meanwhile, I got ass to go kick.
+
+544
+00:30:41,000 --> 00:30:41,500
+Kordell: A'ight. You heard me.
+
+545
+00:30:43,000 --> 00:30:43,500
+Arlo: Heard!
+
+546
+00:30:45,000 --> 00:30:45,500
+Kordell: Riverbank on Northbrook Drive, it's in Little Cuba.
+Take us there.
+
+547
+00:30:53,000 --> 00:30:53,500
+Lucia: We're not done cracking heads for the day?
+
+548
+00:30:55,000 --> 00:30:55,500
+Kordell: We done when I say we done.
+
+549
+00:30:57,500 --> 00:30:58,000
+Lucia: Okay...
+
+550
+00:30:58,500 --> 00:30:59,000
+Kordell: So, what you just learn?
+
+551
+00:31:01,000 --> 00:31:01,500
+Lucia: Um... yeah... it pays to know people.
+
+552
+00:31:04,500 --> 00:31:05,000
+Kordell: It pays to know people, that's right.
+
+553
+00:31:07,500 --> 00:31:08,000
+Kordell: Never know when or how a motherfucker's gonna be of
+use.
+
+554
+00:31:10,500 --> 00:31:11,000
+Kordell: Least of all in our line of work.
+
+555
+00:31:12,500 --> 00:31:13,000
+Lucia: Yeah, thanks for having my back in there.
+
+556
+00:31:15,500 --> 00:31:16,000
+Lucia: So, who am I meeting at the Riverbank?
+
+557
+00:31:17,500 --> 00:31:18,000
+Kordell: Nobody you know, as we already established.
+
+558
+00:31:22,000 --> 00:31:22,500
+Kordell: This boy livin' in a bubble, going 'bout his life.
+
+559
+00:31:25,000 --> 00:31:25,500
+Kordell: But we about to pop that shit.
+Watch his ass fall down to earth.
+
+560
+00:31:31,500 --> 00:31:32,000
+Kordell: Think I'm gonna walk into a job like the one we got
+planned,
+
+561
+00:31:33,500 --> 00:31:34,000
+Kordell: and not take care of shit? No way.
+
+562
+00:31:36,500 --> 00:31:37,000
+Kordell: I ain't leaving nothin' to chance. Nothin' and nobody.
+
+563
+00:31:41,500 --> 00:31:42,000
+Kordell: Just wait till you see the look on this fool's face...
+
+564
+00:31:54,000 --> 00:31:54,500
+Kordell: Pescado Picante's got parking. It's just up here.
+
+565
+00:32:01,500 --> 00:32:02,000
+Kordell: So, yeah...
+
+566
+00:32:03,000 --> 00:32:03,500
+Kordell: I'mma show you how to make an entrance.
+
+567
+00:32:05,000 --> 00:32:05,500
+Kordell: Leave the car here and let's go.
+
+568
+00:32:11,500 --> 00:32:12,000
+Lucia: Hey, whatever we gotta do here, we do together.
+No more favors.
+
+569
+00:32:16,500 --> 00:32:17,000
+Kordell: All you got to do is watch, listen,
+
+570
+00:32:19,000 --> 00:32:19,500
+Kordell: figure it out, and keep that shit to yourself.
+
+571
+00:32:21,500 --> 00:32:22,000
+Kordell: Game is to be sold, not told.
+
+572
+00:32:24,500 --> 00:32:25,000
+Lucia: Just when I thought you were starting to open up, KG.
+
+573
+00:32:27,500 --> 00:32:28,000
+Kordell: I ain't the type.
+My boy on the other hand ain't built like me.
+
+574
+00:32:33,000 --> 00:32:33,500
+Kordell: Maybe you'll have more luck with him.
+
+575
+00:32:35,500 --> 00:32:36,000
+Lucia: Don't you think we got enough people in this thing
+already?
+
+576
+00:32:38,500 --> 00:32:39,000
+Lucia: I mean, if this keeps going, I'd like to get my cut up front,
+like the last guy.
+
+577
+00:32:43,000 --> 00:32:43,500
+Lucia: Isn't that usually the way things go, half upfront,
+half on completion?
+
+578
+00:32:50,500 --> 00:32:51,000
+Staff Member: do you have a reservation?
+
+579
+00:32:52,500 --> 00:32:53,000
+Kordell: Don't need one.
+
+580
+00:32:57,000 --> 00:32:57,500
+Kordell: I look like a "usually" type of nigga to you?
+
+581
+00:33:04,500 --> 00:33:05,000
+Kordell: Wanna know what a "usually" type of nigga look like?
+There he go.
+
+582
+00:33:08,500 --> 00:33:09,000
+Kordell: Sitting where he usually be.
+
+583
+00:33:14,500 --> 00:33:15,000
+Kordell: Raul!
+
+584
+00:33:18,500 --> 00:33:19,000
+Kordell: What's good, m'boy?
+
+585
+00:33:22,000 --> 00:33:22,500
+Raul: Shit.
+
+586
+00:33:25,500 --> 00:33:26,000
+Kordell: That's it? That's all you got?
+
+587
+00:33:27,000 --> 00:33:27,500
+Kordell: Come on, now...
+
+588
+00:33:29,000 --> 00:33:29,500
+Raul: I thought you'd be in hiding.
+
+589
+00:33:31,000 --> 00:33:31,500
+Kordell: Who the fuck I need to be hiding from?
+
+590
+00:33:33,500 --> 00:33:34,000
+Kordell: I'm up.
+
+591
+00:33:35,000 --> 00:33:35,500
+Kordell: I'm always up.
+
+592
+00:33:37,500 --> 00:33:38,000
+Kordell: Let me get you a drink.
+
+593
+00:33:38,500 --> 00:33:39,000
+Raul: Next time.
+
+594
+00:33:40,000 --> 00:33:40,500
+Raul: I was just leaving.
+
+595
+00:33:41,500 --> 00:33:42,000
+Kordell: Ain't gonna be a next time.
+
+596
+00:33:44,500 --> 00:33:45,000
+Kordell: See, me and my partner,
+
+597
+00:33:46,000 --> 00:33:46,500
+Kordell: we're here to take care of something.
+
+598
+00:33:48,000 --> 00:33:48,500
+Kordell: Like you don't already know
+
+599
+00:33:55,000 --> 00:33:55,500
+Raul: Whatever your business is
+
+600
+00:33:57,000 --> 00:33:57,500
+Raul: is your business, KG.
+
+601
+00:33:59,500 --> 00:34:00,000
+Kordell: See, that's what I thought
+
+602
+00:34:01,500 --> 00:34:02,000
+Kordell: Then, one day, some skinny white boy comes walking in,
+
+603
+00:34:05,500 --> 00:34:06,000
+Kordell: and I'm thinking...
+
+604
+00:34:08,000 --> 00:34:08,500
+Kordell: he got to be a cop.
+
+605
+00:34:10,000 --> 00:34:10,500
+Kordell: Then I remember...
+
+606
+00:34:12,000 --> 00:34:12,500
+Kordell: you like skinny white boys, don't you?
+
+607
+00:34:15,000 --> 00:34:15,500
+Raul: And you?
+
+608
+00:34:16,500 --> 00:34:17,000
+Raul: Big Dominican meatheads who can't tail for shit.
+
+609
+00:34:22,000 --> 00:34:22,500
+Raul: Still paranoid, huh?
+
+610
+00:34:23,000 --> 00:34:23,500
+Kordell: Oh, me, paranoid?
+
+611
+00:34:25,500 --> 00:34:26,000
+Kordell: See, that's yo' problem.
+
+612
+00:34:28,000 --> 00:34:28,500
+Kordell: You be thinking you got everything all figured out,
+
+613
+00:34:30,500 --> 00:34:31,000
+Kordell: but I know you didn't plan on seeing me.
+
+614
+00:34:33,500 --> 00:34:34,000
+Kordell: And I promise you...
+
+615
+00:34:35,500 --> 00:34:36,000
+Kordell: you ain't gonna see what's coming next.
+
+616
+00:34:39,500 --> 00:34:40,000
+Raul: With you?
+
+617
+00:34:41,500 --> 00:34:42,000
+Raul: Wouldn't be the first time.
+
+618
+00:34:44,000 --> 00:34:44,500
+Kordell: Man, you still can't give it up, can you?
+
+619
+00:34:47,000 --> 00:34:47,500
+Kordell: I didn't snake you on that job,
+
+620
+00:34:49,500 --> 00:34:50,000
+Kordell: you just got sloppy.
+
+621
+00:34:51,500 --> 00:34:52,000
+Kordell: You wanna cry about somethin'?
+
+622
+00:34:53,500 --> 00:34:54,000
+Kordell: Cry about that.
+
+623
+00:34:54,500 --> 00:34:55,000
+Raul: Maybe you're right.
+
+624
+00:34:57,500 --> 00:34:58,000
+Raul: Life is full of surprises, my friend.
+
+625
+00:35:00,500 --> 00:35:01,000
+Raul: We ought to be wise to remember that.
+Hey!
+
+626
+00:35:04,000 --> 00:35:04,500
+Kordell: You just remember, this my city now, m'boy.
+
+627
+00:35:08,000 --> 00:35:08,500
+Kordell: I see you, ya dead.
+
+628
+00:35:22,500 --> 00:35:23,000
+Kordell: You know what I just realized?
+
+629
+00:35:25,000 --> 00:35:25,500
+Kordell: That whole time you was just standing there?
+
+630
+00:35:28,000 --> 00:35:28,500
+Kordell: He didn't say a word to you.
+
+631
+00:35:30,500 --> 00:35:31,000
+Kordell: No "hello". Nothin'.
+
+632
+00:35:33,500 --> 00:35:34,000
+Kordell: Just walked off.
+
+633
+00:35:41,000 --> 00:35:41,500
+Kordell: That's how much I'm in that motherfucker's head.
+
+634
+00:35:45,000 --> 00:35:45,500
+Kordell: We did good today.
+
+635
+00:35:51,000 --> 00:35:51,500
+Lucia: Just hit me up.
+
+636
+00:36:04,500 --> 00:36:05,000
+Jason: Hey, hey.
+
+637
+00:36:05,500 --> 00:36:06,000
+Lucia: Yo. My heart is going crazy.
+I was just with KG and we pulled up on Raul
+
+638
+00:36:10,500 --> 00:36:11,000
+Jason: Really? Shit. You okay?
+
+639
+00:36:12,500 --> 00:36:13,000
+Lucia: Yeah, I'm fine. But for a second there, when I first saw him
+I thought that was it.
+
+640
+00:36:17,500 --> 00:36:18,000
+Jason: Be careful. If you feel like anything is about to go down,
+you run, okay? The guy's dangerous.
+
+641
+00:36:23,000 --> 00:36:23,500
+Lucia: Which guy? Raul's really pushing it this time
+
+642
+00:36:26,500 --> 00:36:27,000
+Lucia: He said he knew Cisco was following him, but I don't know.
+It was like he was teasing KG, provoking him.
+
+643
+00:36:33,500 --> 00:36:34,000
+Jason: Let's just... try and be a long way away if this thing blows
+up, yeah.
+
+644
+00:36:37,500 --> 00:36:38,000
+Lucia: Yeah... we can try. I'll see you back at the hotel.
+
+645
+00:36:41,500 --> 00:36:42,000
+Jason: Yep, see ya.
+
+646
+00:36:55,500 --> 00:36:56,000
+Raul: That dumb mamagüevo thought he had me.
+You see that fool?
+
+647
+00:36:59,500 --> 00:37:00,000
+Raul: We're gonna get his ass real good...
+
+648
+00:37:02,000 --> 00:37:02,500
+Lucia: You know, you could've given me some warning.
+
+649
+00:37:04,500 --> 00:37:05,000
+Lucia: Be nice to know that they were on you.
+
+650
+00:37:06,500 --> 00:37:07,000
+Raul: In Spanish: Look, girl...
+
+651
+00:37:08,000 --> 00:37:08,500
+Raul: If there's something you need to know, you'll know it.
+
+652
+00:37:11,000 --> 00:37:11,500
+Raul: I got it all under control.
+
+653
+00:37:13,000 --> 00:37:13,500
+Lucia: Uh, wait, wait, wait. My life is on the line
+
+654
+00:37:14,500 --> 00:37:15,000
+Lucia: every time I step out with that fuckin' psycho,
+
+655
+00:37:17,000 --> 00:37:17,500
+Lucia: so no more of this need-to-know bullshit, okay?
+
+656
+00:37:19,500 --> 00:37:20,000
+Raul: In Spanish: Okay, okay. Easy.
+
+657
+00:37:22,000 --> 00:37:22,500
+Lucia: And I'm not doing this shit for no fifteen percent this time.
+
+658
+00:37:25,500 --> 00:37:26,000
+Lucia: We need a bigger slice of the score.
+
+659
+00:37:27,000 --> 00:37:27,500
+Raul: In Spanish: Oh boy.
+
+660
+00:37:30,000 --> 00:37:30,500
+Raul: Yes, ma'am.
+
+661
+00:37:31,500 --> 00:37:32,000
+Raul: I'm guessing you wanna know how much we stand to make
+out of this job?
+
+662
+00:37:35,000 --> 00:37:35,500
+Lucia: Sure.
+
+663
+00:37:36,000 --> 00:37:36,500
+Raul: Okay, now that we know they're going for the currency
+shipment,
+
+664
+00:37:39,500 --> 00:37:40,000
+Raul: it's likely to be around ten million
+
+665
+00:37:42,500 --> 00:37:43,000
+Raul: Karim and Andrea get ten percent each,
+
+666
+00:37:45,000 --> 00:37:45,500
+Raul: I'll do the same for you and Jason.
+
+667
+00:37:46,500 --> 00:37:47,000
+Lucia: Twenty percent between us? Nah, no way. We need more.
+
+668
+00:37:51,000 --> 00:37:51,500
+Raul: Okay. Twenty-five.
+
+669
+00:37:53,000 --> 00:37:53,500
+Lucia: Thirty.
+
+670
+00:37:55,000 --> 00:37:55,500
+Raul: Wow... okay. Thirty percent. You know what?
+
+671
+00:37:58,000 --> 00:37:58,500
+Raul: For what you're doing, that's only fair.
+
+672
+00:38:00,000 --> 00:38:00,500
+Lucia: Yeah, it is fair.
+
+673
+00:38:02,000 --> 00:38:02,500
+Raul: As usual, you'll get ten percent of that on completion.
+
+674
+00:38:05,000 --> 00:38:05,500
+Raul: Rest will come through when Valentina got it all nice and
+clean for us.
+
+675
+00:38:09,000 --> 00:38:09,500
+Lucia: And when does our cut from Sinfrontera come through?
+
+676
+00:38:12,000 --> 00:38:12,500
+Raul: Not for a while. You got to be patient, mamita.
+
+677
+00:38:16,000 --> 00:38:16,500
+Raul: Relax. It was nice talking to you.
+
+678
+00:38:18,500 --> 00:38:19,000
+Lucia: Okay, bye
+
+679
+00:41:43,000 --> 00:41:43,500
+Lucia: What you two doing here?
+
+680
+00:41:44,000 --> 00:41:44,500
+Jason: Goin' to the shop.
+
+681
+00:41:45,500 --> 00:41:46,000
+Jason: Gotta get this guy a new engine, plates, the works.
+
+682
+00:41:48,000 --> 00:41:48,500
+Karim: Raul wants this puppy bulletproof
+
+683
+00:41:50,000 --> 00:41:50,500
+Lucia: Okay. Have fun.
+
+684
+00:41:51,500 --> 00:41:52,000
+Karim: Oh, Jason?
+
+685
+00:41:53,500 --> 00:41:54,000
+Karim: Raul wants you back at base.
+
+686
+00:41:55,500 --> 00:41:56,000
+Jason: On it.
+
+687
+00:41:56,500 --> 00:41:57,000
+Jason: Let's go.
+Uh...
+
+688
+00:41:58,000 --> 00:41:58,500
+Lucia: I gotta get back to the gym.
+
+689
+00:42:00,500 --> 00:42:01,000
+Lucia: Hey, can you drop me nearby?
+
+690
+00:42:02,000 --> 00:42:02,500
+Karim: Yeah, hop in.
+
+691
+00:42:09,500 --> 00:42:10,000
+Andrea: Hey, I gotta..
+Yeah, yeah, go. I'll finish this off.
+
+692
+00:42:13,000 --> 00:42:13,500
+Raul: These are too light
+
+693
+00:42:14,500 --> 00:42:15,000
+Andrea: Yeah? That's why you got the filler.
+
+694
+00:42:18,500 --> 00:42:19,000
+Andrea: You know...
+
+695
+00:42:24,000 --> 00:42:24,500
+Andrea: Bulk out the bags.
+
+696
+00:42:25,500 --> 00:42:26,000
+Raul: In Spanish: Shit...
+Mm-hmm.
+
+697
+00:42:29,500 --> 00:42:30,000
+Jason: Hey, Karim said you wanted me?
+
+698
+00:42:31,500 --> 00:42:32,000
+Raul: Yeah, Valentina dropped that off
+
+699
+00:42:35,000 --> 00:42:35,500
+Andrea: Hey.
+Hey.
+
+700
+00:42:43,000 --> 00:42:43,500
+Jason: Holy shit
+
+701
+00:43:01,500 --> 00:43:02,000
+Jason: Abe came through
+
+702
+00:43:03,500 --> 00:43:04,000
+Raul: Good news?
+
+703
+00:43:05,500 --> 00:43:06,000
+Jason: Yeah, yeah
+
+704
+00:43:07,500 --> 00:43:08,000
+Jason: It's our passports. New identities
+
+705
+00:43:11,000 --> 00:43:11,500
+Jason: Man...
+
+706
+00:43:13,500 --> 00:43:14,000
+Jason: Thanks for this
+
+707
+00:43:15,500 --> 00:43:16,000
+Jason: Lu's gonna lose her shit.
+
+708
+00:43:17,000 --> 00:43:17,500
+Raul: In Spanish: He's cute.
+
+709
+00:43:20,500 --> 00:43:21,000
+Raul: He's gonna break some hearts.
+
+710
+00:43:24,000 --> 00:43:24,500
+Raul: I can see it.
+
+711
+00:43:26,500 --> 00:43:27,000
+Raul: You got lucky...
+
+712
+00:43:28,500 --> 00:43:29,000
+Raul: he looks like his mom.
+Yeah, yeah.
+
+713
+00:43:31,000 --> 00:43:31,500
+Raul: Me, I didn't get so lucky.
+
+714
+00:43:33,500 --> 00:43:34,000
+Jason: This your boy?
+
+715
+00:43:37,500 --> 00:43:38,000
+Raul: High school graduation.
+
+716
+00:43:40,000 --> 00:43:40,500
+Raul: He's going into urban planning
+
+717
+00:43:42,000 --> 00:43:42,500
+Raul: Got his degree.
+Smart.
+
+718
+00:43:48,500 --> 00:43:49,000
+Raul: C'mon.
+
+719
+00:43:50,500 --> 00:43:51,000
+Raul: Cash in duffels
+
+720
+00:44:08,000 --> 00:44:08,500
+Jason: What's this fake money for again?
+
+721
+00:44:09,500 --> 00:44:10,000
+Raul: Come on, bro. Pay attention. We fill up these bags,
+
+722
+00:44:13,500 --> 00:44:14,000
+Raul: the same bags you saw down at the water treatment plant
+
+723
+00:44:16,500 --> 00:44:17,000
+Raul: bring 'em into the airport in the catering truck,
+
+724
+00:44:19,000 --> 00:44:19,500
+Raul: then we swap 'em out with the bags full of real money.
+
+725
+00:44:22,500 --> 00:44:23,000
+Raul: These idiots, man!
+These idiots either get grabbed on the runway,
+
+726
+00:44:26,500 --> 00:44:27,000
+Raul: or if a miracle happens they open this shit up in Colombia
+
+727
+00:44:29,000 --> 00:44:29,500
+Raul: and realize what happened to them.
+
+728
+00:44:31,000 --> 00:44:31,500
+Raul: When KG opens this shit up and clocks what we put in
+there,
+
+729
+00:44:35,000 --> 00:44:35,500
+Raul: he gonna know we got his ass,
+and there's nothing he could do about it.
+
+730
+00:44:39,000 --> 00:44:39,500
+Raul: Outplayed.
+
+731
+00:44:40,000 --> 00:44:40,500
+Jason: Sounds like you thought of everything.
+
+732
+00:44:42,000 --> 00:44:42,500
+Raul: Can't think of everything, man... but you can get real close.
+
+733
+00:44:45,500 --> 00:44:46,000
+Jason: Sure.
+
+734
+00:44:47,500 --> 00:44:48,000
+Jason: So, your son...
+
+735
+00:44:51,000 --> 00:44:51,500
+Jason: Looks like a good kid
+
+736
+00:44:51,500 --> 00:44:52,000
+Jason: Looks like a good kid.
+Raul: Mm-hmm.
+
+737
+00:44:52,000 --> 00:44:52,500
+Raul: Mm-hmm.
+
+738
+00:44:53,000 --> 00:44:53,500
+Raul: Boy's got his whole heart set on making the world a better
+place...
+
+739
+00:44:56,500 --> 00:44:57,000
+Raul: straight as an arrow.
+
+740
+00:44:58,500 --> 00:44:59,000
+Jason: Apple fell pretty far from the tree, huh?
+
+741
+00:45:00,500 --> 00:45:01,000
+Raul: Oh yeah.
+
+742
+00:45:03,000 --> 00:45:03,500
+Jason: So what's the secret? what you do to get a kid like that?
+
+743
+00:45:07,000 --> 00:45:07,500
+Raul: Do? I didn't do anything. His mamma raised him.
+
+744
+00:45:12,000 --> 00:45:12,500
+Raul: If you're like me...
+
+745
+00:45:14,500 --> 00:45:15,000
+Raul: and you love something sweet?
+You stay the hell away from it.
+
+746
+00:45:18,500 --> 00:45:19,000
+Jason: Yeah... maybe.
+
+747
+00:45:22,500 --> 00:45:23,000
+Raul: I hung around a bit when he was younger,
+
+748
+00:45:24,500 --> 00:45:25,000
+Raul: but kids, man... they... they watch you.
+
+749
+00:45:29,500 --> 00:45:30,000
+Raul: They're like little sponges, they... they absorb everything
+
+750
+00:45:33,500 --> 00:45:34,000
+Jason: Yeah...
+
+751
+00:45:35,500 --> 00:45:36,000
+Raul: Nine years old...
+
+752
+00:45:37,500 --> 00:45:38,000
+Raul: The kid steals a bike...
+
+753
+00:45:39,500 --> 00:45:40,000
+Raul: The cops bring him home...
+
+754
+00:45:42,000 --> 00:45:42,500
+Raul: I was about to sit him down, talk to him about life.
+
+755
+00:45:46,500 --> 00:45:47,000
+Raul: You know, how not to get caught.
+
+756
+00:45:48,500 --> 00:45:49,000
+Jason: Mmm.
+
+757
+00:45:49,500 --> 00:45:50,000
+Raul: Same talk my dad gave me. But then I thought... nah.
+
+758
+00:45:55,000 --> 00:45:55,500
+Raul: I'll just stay out of the picture.
+Best thing to ever happen to him.
+
+759
+00:46:00,500 --> 00:46:01,000
+Jason: Huh.
+
+760
+00:46:01,000 --> 00:46:01,500
+Raul: But you, you're all about minivans and poopie diapers, right?
+You into that?
+
+761
+00:46:07,500 --> 00:46:08,000
+Jason: Yeah, if that's what it takes.
+
+762
+00:46:09,500 --> 00:46:10,000
+Raul: Good man.
+
+763
+00:46:11,500 --> 00:46:12,000
+Raul: Me? Didn't matter how much I wanted it, man
+
+764
+00:46:14,000 --> 00:46:14,500
+Raul: There was something inside of me.
+
+765
+00:46:16,000 --> 00:46:16,500
+Raul: Some people ain't built for it.
+
+766
+00:46:18,000 --> 00:46:18,500
+Raul: I'm sure it'll be better for you. C'mon.
+
+767
+00:46:20,000 --> 00:46:20,500
+Raul: I got this bottle of Diablo Mezcal, we can celebrate.
+
+768
+00:46:28,000 --> 00:46:28,500
+Raul: But kids, man.
+
+769
+00:46:29,500 --> 00:46:30,000
+Raul: They watch you.
+
+770
+00:46:31,000 --> 00:46:31,500
+Raul: They absorb everything
+
+771
+00:46:33,500 --> 00:46:34,000
+Raul: You stay the hell away from it.
+
+772
+00:46:38,000 --> 00:46:38,500
+Raul: I'm sure it'll be better for you.
+
+773
+00:46:53,500 --> 00:46:54,000
+Lucia: Jay?
+
+774
+00:46:55,500 --> 00:46:56,000
+Lucia: Is this what I think it is?
+
+775
+00:46:59,500 --> 00:47:00,000
+Lucia: Oh my goodness, look at Tommy's photo!
+
+776
+00:47:03,500 --> 00:47:04,000
+Lucia: He's so cute. Jay!
+
+777
+00:47:26,000 --> 00:47:26,500
+Lucia: Mm-hmm.
+
+778
+00:47:28,000 --> 00:47:28,500
+Jason: What?
+
+779
+00:47:30,000 --> 00:47:30,500
+Lucia: C'mon, Jay. That's an excuse not to step up.
+
+780
+00:47:34,000 --> 00:47:34,500
+Lucia: When you have a kid you show up, regardless.
+
+781
+00:47:38,000 --> 00:47:38,500
+Jason: He said it.
+
+782
+00:47:39,000 --> 00:47:39,500
+Lucia: And when did he bring this up?
+When he gave you the passports?
+
+783
+00:47:43,500 --> 00:47:44,000
+Lucia: Figures.
+
+784
+00:47:45,500 --> 00:47:46,000
+Lucia: Look, he just doesn't want to lose the two people doing all
+the work for him.
+
+785
+00:47:49,000 --> 00:47:49,500
+Lucia: He's manipulative, Jay.
+
+786
+00:47:51,500 --> 00:47:52,000
+Lucia: Probably doesn't even have a kid
+
+787
+00:47:53,500 --> 00:47:54,000
+Jason: Yeah. Yeah, maybe.
+
+788
+00:48:00,000 --> 00:48:00,500
+Lucia: I know so.
+
+789
+00:48:02,000 --> 00:48:02,500
+Lucia: I'm gonna make coffee.
+
+790
+00:48:07,500 --> 00:48:08,000
+Jason: Ugh.
+
+791
+00:48:11,000 --> 00:48:11,500
+Jason: Fuck...
+
+792
+00:48:19,000 --> 00:48:19,500
+Lucia: Did I tell you I ran into Cisco the other day
+outside the gym?
+
+793
+00:48:23,000 --> 00:48:23,500
+Jason: You did? Where?
+
+794
+00:48:24,500 --> 00:48:25,000
+Lucia: Stockyard.
+
+795
+00:48:26,000 --> 00:48:26,500
+Lucia: I popped into the bar next to Raul's for a drink before I was
+gonna meet him.
+
+796
+00:48:29,500 --> 00:48:30,000
+Lucia: And Cisco was there.
+
+797
+00:48:31,500 --> 00:48:32,000
+Jason: Shit.
+
+798
+00:48:32,500 --> 00:48:33,000
+Lucia: Yeah. I don't think he was following me, but
+
+799
+00:48:35,500 --> 00:48:36,000
+Lucia: he looked surprised, was with his girl, or a girl, I don't know.
+
+800
+00:48:47,500 --> 00:48:48,000
+Dre'Quan: Yo, Jay! They done opened back up the Doigt d'Or,
+we on!
+
+801
+00:48:51,500 --> 00:48:52,000
+Jason: Say that again?
+
+802
+00:48:52,500 --> 00:48:53,000
+Dre'Quan: I'm sayin'I need both of y'all with me! Ya feel me?
+We finna work with Royce, VYB reopening, fuck with me!
+
+803
+00:48:57,500 --> 00:48:58,000
+Jason: Yeah. I got you. I got you. Let's work, bro
+
+804
+00:49:01,000 --> 00:49:01,500
+Dre'Quan: Yessir! Listen, I'mma drop you the location.
+Then we gonna link up and we finna get busy, a'ight?
+
+805
+00:49:06,000 --> 00:49:06,500
+Jason: We're waiting on it.
+
+806
+00:49:09,500 --> 00:49:10,000
+Lucia: I am so fucking tired. They don't know what a rest day is.
+
+807
+00:49:36,500 --> 00:49:37,000
+Dre'Quan: Nah, nah, nah, nah, nah, look, it ain't even like that.
+
+808
+00:49:40,000 --> 00:49:40,500
+Dre'Quan: You got someone else, you bump 'em. You feel me?
+
+809
+00:49:42,000 --> 00:49:42,500
+Dre'Quan: We're the only ones you gonna wanna be talking to
+tomorrow anyway, man.
+
+810
+00:49:45,000 --> 00:49:45,500
+Dre'Quan: Shit, who you even got?
+
+811
+00:49:48,000 --> 00:49:48,500
+Dre'Quan: Oh, hell nah. You fucking with me?
+
+812
+00:49:51,500 --> 00:49:52,000
+Dre'Quan: Yeah, I heard of him.
+
+813
+00:49:53,000 --> 00:49:53,500
+Dre'Quan: I mean, he's alright, I guess.
+
+814
+00:49:55,500 --> 00:49:56,000
+Dre'Quan: A'ight, I got to go. Look, speak tomorrow.
+
+815
+00:49:59,500 --> 00:50:00,000
+Dre'Quan: Look, now I know you thinking
+
+816
+00:50:00,500 --> 00:50:01,000
+Dre'Quan: Every time we outside, we get into something,
+but I promise, not tonight.
+
+817
+00:50:05,000 --> 00:50:05,500
+Jason: So what's going on? You working for Royce or something?
+
+818
+00:50:08,000 --> 00:50:08,500
+Dre'Quan: We like... co-hosting the event.
+
+819
+00:50:10,500 --> 00:50:11,000
+Dre'Quan: This what I was saying. The Doigt d'Or, baby.
+
+820
+00:50:14,000 --> 00:50:14,500
+Dre'Quan: Shit, you know how many celebrities, VIPs,
+
+821
+00:50:17,000 --> 00:50:17,500
+Dre'Quan: superstars gonna be walking through these halls?
+
+822
+00:50:19,500 --> 00:50:20,000
+Dre'Quan: Been a lot of wild weekends behind them walls...
+
+823
+00:50:21,500 --> 00:50:22,000
+Jason: Alright. Just make sure you don't get the raw end of the
+deal.
+
+824
+00:50:24,500 --> 00:50:25,000
+Dre'Quan: Nah, nah, nah... Royce, he's not about that. He got me.
+
+825
+00:50:27,500 --> 00:50:28,000
+Dre'Quan: The same way I got you. Wherever this thing gon' go,
+you comin'with me.
+
+826
+00:50:31,000 --> 00:50:31,500
+Dre'Quan: 'Ey. Watch my laptop. Appreciate ya.
+
+827
+00:50:33,500 --> 00:50:34,000
+Dre'Quan: And remember his face! He gon' be in and out all night.
+
+828
+00:50:38,000 --> 00:50:38,500
+Dre'Quan: 'Ey, dog. So here,
+
+829
+00:50:39,000 --> 00:50:39,500
+Dre'Quan: you're like the Director of Operations at Only Raw
+Events.
+
+830
+00:50:42,000 --> 00:50:42,500
+Dre'Quan: Wait till you see all this.
+
+831
+00:50:52,500 --> 00:50:53,000
+Dre'Quan: There it is. Look up, look around.
+
+832
+00:50:55,500 --> 00:50:56,000
+Dre'Quan: Imagine the columns turning, lights flashing...
+
+833
+00:50:58,500 --> 00:50:59,000
+Dre'Quan: confetti cannons,
+the Dimez blasting out through these speakers, boy.
+
+834
+00:51:02,500 --> 00:51:03,000
+Jason: You got a lot of room to fill.
+
+835
+00:51:04,000 --> 00:51:04,500
+Dre'Quan: And we gon' have this shit packed out.
+
+836
+00:51:07,500 --> 00:51:08,000
+Dre'Quan: This the top grossing club on the planet,
+let alone Vice City.
+
+837
+00:51:10,500 --> 00:51:11,000
+Dre'Quan: A few tables make as much as the Jack of Hearts in
+one night.
+
+838
+00:51:13,500 --> 00:51:14,000
+Dre'Quan: We just gotta cater to the right people, that's all.
+
+839
+00:51:20,000 --> 00:51:20,500
+Dre'Quan: Yo, you check the ice?
+
+840
+00:51:21,000 --> 00:51:21,500
+Bartender: The ice? It's ice.
+
+841
+00:51:23,000 --> 00:51:23,500
+Dre'Quan: Eh, check the ice, man.
+I don't want no one getting no dirty cubes, not tonight.
+
+842
+00:51:27,500 --> 00:51:28,000
+Dre'Quan: Reason night life dying 'cause most clubs don't give a
+fuck about customer service.
+
+843
+00:51:32,000 --> 00:51:32,500
+Dre'Quan: Look down here,
+
+844
+00:51:32,500 --> 00:51:33,000
+Dre'Quan: you can see the stage from the other way
+
+845
+00:51:34,000 --> 00:51:34,500
+Dre'Quan: DJ is below us right here.
+
+846
+00:51:41,000 --> 00:51:41,500
+Dre'Quan: 'Ey, you done the soundcheck?
+
+847
+00:51:42,500 --> 00:51:43,000
+Staff Member: I'm not the technician.
+
+848
+00:51:44,000 --> 00:51:44,500
+Dre'Quan: Right, well, remind whoever to remind me.
+
+849
+00:51:50,000 --> 00:51:50,500
+Dre'Quan: Royce might walk in with a couple guests,
+but he gonna stay out the way for the night.
+
+850
+00:51:58,000 --> 00:51:58,500
+Royce: Dre! You feeling good, brother?
+
+851
+00:52:00,000 --> 00:52:00,500
+Dre'Quan: Man, I'm ready to make that money.
+
+852
+00:52:01,500 --> 00:52:02,000
+Royce: Gotta make the money before you get the money.
+
+853
+00:52:03,500 --> 00:52:04,000
+Dre'Quan: You not wrong.
+
+854
+00:52:04,000 --> 00:52:04,500
+Dre'Quan: You not wrong.
+Royce: You running the show tonight.
+You know how it's supposed to go down.
+
+855
+00:52:04,500 --> 00:52:05,000
+Royce: You running the show tonight.
+You know how it's supposed to go down.
+
+856
+00:52:08,000 --> 00:52:08,500
+Dre'Quan: Oh yeah, if I get rich, you get rich.
+
+857
+00:52:10,000 --> 00:52:10,500
+Royce: Right.
+
+858
+00:52:26,500 --> 00:52:27,000
+Dre'Quan: There's a room up here we can hang out in
+
+859
+00:52:32,500 --> 00:52:33,000
+Dre'Quan: Loony! What you think?
+
+860
+00:52:34,000 --> 00:52:34,500
+Lucia: Uh, it's kinda small, ain't it?
+
+861
+00:52:36,500 --> 00:52:37,000
+Dre'Quan: Oh, this just the beginning...
+
+862
+00:52:39,000 --> 00:52:39,500
+Lucia: No, Dre, I'm sayin', I got lost just tryin' to find y'all
+
+863
+00:52:43,000 --> 00:52:43,500
+Dre'Quan: Imagine what it's like when it's full
+
+864
+00:52:44,500 --> 00:52:45,000
+Dre'Quan: We gonna pack this bitch out.
+
+865
+00:52:46,500 --> 00:52:47,000
+Dre'Quan: It's goin' off!
+
+866
+00:52:48,500 --> 00:52:49,000
+Lucia: So, D, you gonna tell us what you want us to do first?
+
+867
+00:52:51,500 --> 00:52:52,000
+Jason: Yeah, man, you already got someone cleaning the floors,
+someone checking the ice.
+
+868
+00:52:55,500 --> 00:52:56,000
+Lucia: He's just mad it's not a stripclub.
+
+869
+00:52:57,000 --> 00:52:57,500
+Jason: A little. Yeah, maybe.
+
+870
+00:52:58,500 --> 00:52:59,000
+Dre'Quan: Bruh, look, don't forget, it's party, a'ight?
+We gotta set the right tone. Can't be no regular night.
+
+871
+00:53:04,000 --> 00:53:04,500
+Dre'Quan: You look after the Dimez, for sure,
+
+872
+00:53:05,500 --> 00:53:06,000
+Dre'Quan: but we also gotta take care of the money.
+
+873
+00:53:08,000 --> 00:53:08,500
+Dre'Quan: I just need you with me,
+
+874
+00:53:10,000 --> 00:53:10,500
+Dre'Quan: you're family
+
+875
+00:53:11,000 --> 00:53:11,500
+Dre'Quan: From now until sunrise, we doing it.
+
+876
+00:53:14,000 --> 00:53:14,500
+Jason: I dunno, we gonna be able to handle all this?
+
+877
+00:53:16,000 --> 00:53:16,500
+Jason: It's a lot of ground to cover.
+
+878
+00:53:18,000 --> 00:53:18,500
+Dre'Quan: I'm on my feet from eight in the morning till two AM
+bro. That's how shit gets done.
+
+879
+00:53:22,000 --> 00:53:22,500
+Dre'Quan: And we only just gettin' started.
+
+880
+00:53:23,500 --> 00:53:24,000
+Dre'Quan: I swear, I got a ten-year plan startin' tonight.
+
+881
+00:53:27,000 --> 00:53:27,500
+Dre'Quan: Come on.
+
+882
+00:53:28,000 --> 00:53:28,500
+Lucia: Jay, you coming along?
+
+883
+00:53:32,500 --> 00:53:33,000
+Dre'Quan: Still will with me, Jay? Don't get throwed off just yet.
+
+884
+00:53:35,500 --> 00:53:36,000
+Dre'Quan: I know this shit finna pop off tonight, at same time,
+we can't that shit for granted.
+
+885
+00:54:25,500 --> 00:54:26,000
+Dre'Quan: Ay, y'all don't fuck around playin' that gangster shit
+tonight!
+
+886
+00:54:28,000 --> 00:54:28,500
+Dre'Quan: Give the people what they came for - ass and titty,
+a'ight?
+What the hell, Dre?
+
+887
+00:54:31,000 --> 00:54:31,500
+Bae-Luxe: You here already? What time is it?
+What time we supposed to go on? It's early.
+
+888
+00:54:35,000 --> 00:54:35,500
+Dre'Quan: 'Ey, ladies, look, we got you.
+
+889
+00:54:37,500 --> 00:54:38,000
+Dre'Quan: Now, look, they gonna be mobbin' with us,
+
+890
+00:54:39,000 --> 00:54:39,500
+Dre'Quan: and y'all want this bitch to look like a movie, right?
+
+891
+00:54:41,000 --> 00:54:41,500
+Roxy: Yeah.
+Of course we do.
+
+892
+00:54:42,000 --> 00:54:42,500
+Dre'Quan: Aight then, well we with the gang
+
+893
+00:54:44,000 --> 00:54:44,500
+Dre'Quan: Oh, hold up, hold up. A'ight, look
+
+894
+00:54:45,500 --> 00:54:46,000
+Dre'Quan: they want y'all to do a sound check, c'mon.
+Thank ya!
+
+895
+00:54:48,500 --> 00:54:49,000
+Dre'Quan: C'mon!
+This nigga so fuckin' ghetto.
+
+896
+00:54:51,500 --> 00:54:52,000
+Dre'Quan: Yeah, and you love it.
+
+897
+00:54:53,000 --> 00:54:53,500
+Dre'Quan: Hey, Loony. DJ askin' for help setting up,
+I told him about you.
+
+898
+00:54:56,500 --> 00:54:57,000
+Lucia: Alright. Girls, wait up!
+
+899
+00:54:58,000 --> 00:54:58,500
+Dre'Quan: Me and Royce gonna split fifty percent of whatever we
+make.
+
+900
+00:55:01,500 --> 00:55:02,000
+Dre'Quan: I'll give you fifty percent of mine
+
+901
+00:55:03,500 --> 00:55:04,000
+Jason: Fifty percent.
+
+902
+00:55:06,000 --> 00:55:06,500
+Roxy: Hey.
+What's up?
+
+903
+00:55:07,500 --> 00:55:08,000
+DJ: Hey! So I'm thinking I'm supposed to be holding shit down
+until Stevie shows up.
+
+904
+00:55:11,000 --> 00:55:11,500
+DJ: I get here, I'm like, fuck, ain't no prep, no nothin'.
+
+905
+00:55:14,500 --> 00:55:15,000
+Lucia: What you need me to do?
+Oh, that's all set up.
+
+906
+00:55:16,500 --> 00:55:17,000
+DJ: Uh, you could switch up the center pyramid
+
+907
+00:55:19,500 --> 00:55:20,000
+DJ: the columns, lights, just-just fuck around with it.
+
+908
+00:55:22,500 --> 00:55:23,000
+DJ: I'mma even let y'all pick whatever color scheme y'all want.
+
+909
+00:55:25,500 --> 00:55:26,000
+Roxy: We finna be up here?
+Uh, yeah! Just don't get up here and bust yo' ass, Rox.
+
+910
+00:55:31,000 --> 00:55:31,500
+DJ: Go ahead, hit the button.
+
+911
+00:55:33,000 --> 00:55:33,500
+Roxy: Ooh, bitch is back!
+
+912
+00:55:35,500 --> 00:55:36,000
+Bae-Luxe: Yeah, I know they not ready for this shit.
+
+913
+00:55:37,000 --> 00:55:37,500
+Roxy: We not even gonna do too much talkin'
+We just gonna shut shit down, period.
+
+914
+00:55:42,000 --> 00:55:42,500
+DJ: Y'all talk into the mics for me?
+
+915
+00:55:44,000 --> 00:55:44,500
+Roxy: Um...
+
+916
+00:55:45,500 --> 00:55:46,000
+Roxy: Thick... like oatmeal.
+
+917
+00:55:47,500 --> 00:55:48,000
+Roxy: Thick... like oatmeal.
+Bae-Luxe: Ooh, I know you want this oatmeal!
+
+918
+00:55:48,500 --> 00:55:49,000
+Bae-Luxe: Ooh, I know you want this oatmeal!
+
+919
+00:55:50,000 --> 00:55:50,500
+Bae-Luxe: Ooh, I know you want this oatmeal!
+Roxy: Creamy, like oatmeal.
+
+920
+00:55:50,500 --> 00:55:51,000
+Roxy: Creamy, like oatmeal.
+
+921
+00:55:52,500 --> 00:55:53,000
+Roxy: Creamy, like oatmeal.
+Bae-Luxe: Ooh! Come get this oatmeal.
+
+922
+00:55:53,000 --> 00:55:53,500
+Bae-Luxe: Ooh! Come get this oatmeal.
+
+923
+00:55:55,000 --> 00:55:55,500
+DJ: Little more, a little more!
+
+924
+00:55:57,000 --> 00:55:57,500
+Roxy: Eat it up!
+
+925
+00:55:58,000 --> 00:55:58,500
+Roxy: Eat it up!
+Bae-Luxe: Lick it up!
+
+926
+00:55:58,500 --> 00:55:59,000
+Bae-Luxe: Lick it up!
+
+927
+00:55:59,000 --> 00:55:59,500
+Bae-Luxe: Lick it up!
+Roxy: Swallow it!
+
+928
+00:55:59,500 --> 00:56:00,000
+Roxy: Swallow it!
+
+929
+00:56:00,500 --> 00:56:01,000
+Bae-Luxe: Ooh, okay, okay, okay!
+
+930
+00:56:01,000 --> 00:56:01,500
+Bae-Luxe: Ooh, okay, okay, okay!
+Roxy: Okay.
+
+931
+00:56:01,500 --> 00:56:02,000
+Bae-Luxe: Ooh, okay, okay, okay!
+Roxy: Okay.
+DJ: A'ight, a'ight! That's enough, save the rest.
+
+932
+00:56:02,000 --> 00:56:02,500
+Bae-Luxe: Ooh, okay, okay, okay!
+DJ: A'ight, a'ight! That's enough, save the rest.
+
+933
+00:56:04,000 --> 00:56:04,500
+DJ: A'ight, a'ight! That's enough, save the rest.
+
+934
+00:56:04,500 --> 00:56:05,000
+DJ: And play around with the smoke, pyrotechnics, all that. Lasers,
+all that shit, too!
+
+935
+00:56:20,500 --> 00:56:21,000
+Roxy: Oh my God! Lulu done killed the DJ!
+
+936
+00:56:23,000 --> 00:56:23,500
+DJ: I'm playin'. I'm playin'.
+
+937
+00:56:27,000 --> 00:56:27,500
+Roxy: Yeah, we laughing now. You know that gas be toxic for real.
+
+938
+00:56:29,000 --> 00:56:29,500
+Roxy: Yeah, we laughing now. You know that gas be toxic for real
+Bae-Luxe: No, for real
+
+939
+00:56:29,500 --> 00:56:30,000
+Bae-Luxe: No, for real.
+
+940
+00:56:33,000 --> 00:56:33,500
+Bae-Luxe: Now that's what the fuck I'm talking about.
+
+941
+00:56:35,000 --> 00:56:35,500
+Bae-Luxe: Make a bitch sweat
+
+942
+00:56:39,500 --> 00:56:40,000
+Lucia: Damn, I'm still not over how big this place-is.
+
+943
+00:56:42,000 --> 00:56:42,500
+Lucia: Alright, cool. Everything checks out.
+
+944
+00:56:44,500 --> 00:56:45,000
+DJ: A'ight, ladies, appreciate y'all. Just know...
+whatever can go wrong tonight, for sure will.
+
+945
+00:57:17,500 --> 00:57:18,000
+Dre'Quan: A'ight, Jason, come meet me up front
+
+946
+00:57:19,000 --> 00:57:19,500
+Dre'Quan: Loony, go meet Stevie in the back, he'll be here shortly.
+a'ight?
+
+947
+00:57:26,000 --> 00:57:26,500
+Dre'Quan: A'ight, there's Royce. Right over there.
+Yo!
+
+948
+00:57:28,500 --> 00:57:29,000
+Maleek: Goddamn!
+My man right here. What's up, baby?
+
+949
+00:57:31,500 --> 00:57:32,000
+Maleek: I know what I'm finna get into!
+
+950
+00:57:33,500 --> 00:57:34,000
+Royce: These all your people?
+
+951
+00:57:34,500 --> 00:57:35,000
+Maleek: Yeah, these my folks, we good?
+
+952
+00:57:36,500 --> 00:57:37,000
+Royce: Come with me, I got you set up.
+
+953
+00:57:38,500 --> 00:57:39,000
+Royce: Yo, Dre'Quan!
+S'up, Royce?
+
+954
+00:57:40,000 --> 00:57:40,500
+Royce: You gonna be on the door for while?
+
+955
+00:57:41,500 --> 00:57:42,000
+Dre'Quan: I got you, fo' sho'.
+Cool.
+
+956
+00:57:43,000 --> 00:57:43,500
+Maleek: Shit, man, I'm ready!
+
+957
+00:57:44,500 --> 00:57:45,000
+Security: Everybody need to calm the fuck down,
+
+958
+00:57:46,500 --> 00:57:47,000
+Security: or nobody going nowhere!
+Okay.
+
+959
+00:57:48,000 --> 00:57:48,500
+Dre'Quan: You see all these people right here?
+
+960
+00:57:50,000 --> 00:57:50,500
+Dre'Quan: They all gonna want a section, trust me.
+
+961
+00:57:52,500 --> 00:57:53,000
+Dre'Quan: Problem is...
+
+962
+00:57:54,000 --> 00:57:54,500
+Dre'Quan: they can't all get one.
+
+963
+00:57:55,000 --> 00:57:55,500
+Dre'Quan: Now, look, I can't be seen showin'
+
+964
+00:57:57,000 --> 00:57:57,500
+Dre'Quan: any type of favoritism to anybody.
+
+965
+00:57:59,000 --> 00:57:59,500
+Dre'Quan: people be weird and shit get crazy. So...
+
+966
+00:58:02,500 --> 00:58:03,000
+Dre'Quan: you can handle this?
+
+967
+00:58:03,500 --> 00:58:04,000
+Jason: Well, who do we want in?
+
+968
+00:58:04,500 --> 00:58:05,000
+Dre'Quan: Big motherfuckin' spenders and big names, right?
+
+969
+00:58:07,000 --> 00:58:07,500
+Dre'Quan: We want the money, but don't forget about the party,
+neither.
+
+970
+00:58:10,000 --> 00:58:10,500
+Dre'Quan: We need good people up in here,
+and people to post on they socials too
+
+971
+00:58:14,000 --> 00:58:14,500
+Dre'Quan: 'Ey! This my boy, Jay.
+
+972
+00:58:16,000 --> 00:58:16,500
+Dre'Quan: He gonna take care of y'all, don't y'all worry.
+
+973
+00:58:17,500 --> 00:58:18,000
+Dre'Quan: Everythin' gonna be smooth.
+
+974
+00:58:19,000 --> 00:58:19,500
+Dre'Quan: 'Ey, look, you got this.
+
+975
+00:58:21,500 --> 00:58:22,000
+Briana: I'll fill you in on who's who.
+
+976
+00:58:25,000 --> 00:58:25,500
+Briana: You got your lineup, just point out whoever you want in.
+
+977
+00:58:29,500 --> 00:58:30,000
+Briana: Guys like him come in loud poppin' hella bottles.
+
+978
+00:58:32,500 --> 00:58:33,000
+Briana: Problem is they act like they own the place.
+
+979
+00:58:34,500 --> 00:58:35,000
+Briana: Dunno if you want to see that shit.
+
+980
+00:58:37,000 --> 00:58:37,500
+Briana: That's Don sitting in the corner.
+
+981
+00:58:38,500 --> 00:58:39,000
+Briana: He'll expect everything on the house.
+
+982
+00:58:40,000 --> 00:58:40,500
+Briana: You just can't beat that kind of star power.
+
+983
+00:58:43,000 --> 00:58:43,500
+Jimmy: Briana! Jimmy, Jimmy De Santa!
+
+984
+00:58:48,500 --> 00:58:49,000
+Jimmy: What up, fool?
+
+985
+00:58:49,500 --> 00:58:50,000
+Jimmy: What up, fool?
+Briana: Ugh. Blocked that annoying crypto guy nepo baby on
+Snapmatic. But he's still here.
+
+986
+00:58:53,000 --> 00:58:53,500
+Briana: Ugh. Blocked that annoying crypto guy nepo baby on
+Snapmatic. But he's still here.
+
+987
+00:58:56,500 --> 00:58:57,000
+Briana: He'll drop a decent amount of cash at the bar
+but at the expense of making us look like we give a fuck.
+
+988
+00:59:01,000 --> 00:59:01,500
+Briana: Not a good look.
+
+989
+00:59:04,500 --> 00:59:05,000
+Jason: You good, man? You're coming in a little hot.
+
+990
+00:59:07,000 --> 00:59:07,500
+Jimmy: I'm just suffering from success, bro. I mean...
+you know about that.
+
+991
+00:59:20,000 --> 00:59:20,500
+Jimmy: Briana! What's with this guy? Briana!
+
+992
+00:59:33,500 --> 00:59:34,000
+Briana: Guys in matching hoodies are staying in the hotel.
+
+993
+00:59:36,000 --> 00:59:36,500
+Briana: It's a company card... they wanna get in,
+we're gonna max it out.
+
+994
+00:59:41,500 --> 00:59:42,000
+Briana: I need an update once you've confirmed,
+so I can get the tables ready.
+Jason: So, where you guys from?
+
+995
+00:59:42,500 --> 00:59:43,000
+Briana: I need an update once you've confirmed,
+so I can get the tables ready.
+VIP: England! But we're based actually based all over.
+You ever heard of Righteous Slaughter?
+
+996
+00:59:45,000 --> 00:59:45,500
+VIP: England! But we're based actually based all over.
+You ever heard of Righteous Slaughter?
+
+997
+00:59:49,000 --> 00:59:49,500
+Jason: Misfire Games? You do number Seven?
+
+998
+00:59:52,000 --> 00:59:52,500
+Game Developer: Oh, three, five, seven... all the odd ones, bro.
+But don't tell anyone we're here, yeah?
+
+999
+01:00:00,500 --> 01:00:01,000
+Jason: Alright made a call. Let's get 'em inside.
+
+1000
+01:00:03,500 --> 01:00:04,000
+Jason: You, you, you.
+
+1001
+01:00:05,500 --> 01:00:06,000
+Jimmy: Alright! Yes, come on! Told you!
+Yeah boy!
+
+1002
+01:00:13,500 --> 01:00:14,000
+Jason: You okay, Lu?
+Yeah, I'm with D, we're just waiting on-
+
+1003
+01:00:16,000 --> 01:00:16,500
+Stevie J: 'Ey yo, the show's in the building, it's showtime.
+
+1004
+01:00:18,500 --> 01:00:19,000
+Dre'Quan: My nigga... Stevie J!
+Ahh, what up gang? You know the vibes.
+
+1005
+01:00:22,500 --> 01:00:23,000
+Dre'Quan: Shit, it's on now. 'Ey look, this my homegirl Loony.
+
+1006
+01:00:26,000 --> 01:00:26,500
+Lucia: Hey, what's good?
+Loony? Hm, a'ight.
+
+1007
+01:00:28,500 --> 01:00:29,000
+Stevie J: Y'all ready to rock out? Easy money. Let's get it.
+
+1008
+01:00:32,000 --> 01:00:32,500
+Dre'Quan: 'Ey, look, I told Jay to handle table reservations.
+
+1009
+01:00:35,000 --> 01:00:35,500
+Dre'Quan: You gonna see bunch of people out there.
+
+1010
+01:00:37,000 --> 01:00:37,500
+Dre'Quan: We shouldn't have no problems but do me a favor,
+
+1011
+01:00:39,500 --> 01:00:40,000
+Dre'Quan: keep an eye on 'em, alright?
+
+1012
+01:00:40,500 --> 01:00:41,000
+Lucia: A'ight. Do what you gotta do.
+
+1013
+01:00:41,500 --> 01:00:42,000
+Dre'Quan: Yuh.
+We got you.
+
+1014
+01:01:20,000 --> 01:01:20,500
+Stevie J: You know we in Vice City, right?
+
+1015
+01:01:23,500 --> 01:01:24,000
+Stevie J: If you from outta town, hands up, hands up,
+
+1016
+01:01:25,000 --> 01:01:25,500
+Stevie J: hands up, hands up! Yeah!
+
+1017
+01:01:35,000 --> 01:01:35,500
+Dre'Quan: Loony, you see Maleek at his section?
+Make sure he good.
+
+1018
+01:01:39,500 --> 01:01:40,000
+Maleek: 'Ey? 'Ey, baby!
+
+1019
+01:01:42,000 --> 01:01:42,500
+Maleek: Nobody can't even see us over here.
+
+1020
+01:01:44,500 --> 01:01:45,000
+Maleek: Ah, man.
+
+1021
+01:01:53,000 --> 01:01:53,500
+Lucia: You need something?
+
+1022
+01:01:54,000 --> 01:01:54,500
+Maleek: Yeah! Stevie know me, man.
+
+1023
+01:01:56,500 --> 01:01:57,000
+Maleek: I just want him to know we over here,
+you know what I'm saying?
+
+1024
+01:02:00,500 --> 01:02:01,000
+Maleek: We ready to fire it up! Let him know we here!
+
+1025
+01:02:04,500 --> 01:02:05,000
+Lucia: I hear you.
+
+1026
+01:02:06,000 --> 01:02:06,500
+Lucia: Guys, you see Maleek Rivers over here?
+
+1027
+01:02:10,000 --> 01:02:10,500
+Maleek: See, I told y'all. I really got it like that!
+
+1028
+01:02:24,000 --> 01:02:24,500
+Lucia: D, don't worry about Maleek, okay? We're good.
+
+1029
+01:02:26,500 --> 01:02:27,000
+Dre'Quan: You check on the other VIPs? They taking up space,
+too.
+
+1030
+01:02:29,500 --> 01:02:30,000
+Dre'Quan: We don't wanna sleep on nobody out there.
+
+1031
+01:02:32,000 --> 01:02:32,500
+Jimmy: Can a co-founder get some service, please?
+
+1032
+01:02:35,500 --> 01:02:36,000
+Jimmy: Can a co-founder get some service, please?
+Dre'Quan: 'Ey Jason, come meet me over by the entrance.
+
+1033
+01:02:36,000 --> 01:02:36,500
+Dre'Quan: 'Ey Jason, come meet me over by the entrance.
+
+1034
+01:02:37,500 --> 01:02:38,000
+Dre'Quan: My guest about to pull up.
+
+1035
+01:02:39,000 --> 01:02:39,500
+Dre'Quan: I don't want Royce's people walking 'em in.
+
+1036
+01:02:40,500 --> 01:02:41,000
+Jason: Let me know when they're here.
+
+1037
+01:02:58,500 --> 01:02:59,000
+Jimmy: Hey, I-I-I'm Jimmy De Santa, ni-nice to meet you.
+
+1038
+01:03:02,500 --> 01:03:03,000
+Jimmy: Uh... can you do me a favor, and, and,
+
+1039
+01:03:05,000 --> 01:03:05,500
+Jimmy: you see- you see that assortment of baddies up there?
+
+1040
+01:03:08,000 --> 01:03:08,500
+Jimmy: I'm gonna need you to bring them over here,
+
+1041
+01:03:10,500 --> 01:03:11,000
+Jimmy: uh, for reasons I can't really get into right now.
+
+1042
+01:03:14,000 --> 01:03:14,500
+Jimmy: Can you do that for me?
+
+1043
+01:03:17,000 --> 01:03:17,500
+Lucia: Look, all I can do is ask.
+
+1044
+01:03:19,000 --> 01:03:19,500
+Jimmy: Just tell 'em to Poozle me!
+
+1045
+01:03:21,000 --> 01:03:21,500
+Dre'Quan: Yo, Jay, c'mon out front. They just got here. We on.
+
+1046
+01:03:43,000 --> 01:03:43,500
+Lucia: Hey, ladies...
+
+1047
+01:03:46,000 --> 01:03:46,500
+Lucia: There's a gentleman that has a section on the dance floor,
+
+1048
+01:03:48,500 --> 01:03:49,000
+Lucia: and he's wondering if you'd like to join him
+
+1049
+01:03:50,500 --> 01:03:51,000
+Local: All of us?
+
+1050
+01:03:51,000 --> 01:03:51,500
+Baddie: What does he do?
+
+1051
+01:03:52,000 --> 01:03:52,500
+Local: Has he got a boat?
+
+1052
+01:03:56,500 --> 01:03:57,000
+Lucia: All very valid questions.
+
+1053
+01:03:59,000 --> 01:03:59,500
+Lucia: Does Jimmy De Santa mean anything?
+
+1054
+01:04:01,500 --> 01:04:02,000
+Local: Oh my God, the crypto guy?
+
+1055
+01:04:03,000 --> 01:04:03,500
+Baddie: Is that really Jimmy De Santa?
+
+1056
+01:04:04,500 --> 01:04:05,000
+Local: Isn't he supposed to be in jail?
+
+1057
+01:04:06,000 --> 01:04:06,500
+Local: Well, he's out now!
+
+1058
+01:04:09,000 --> 01:04:09,500
+Lucia: Wow...
+
+1059
+01:04:10,000 --> 01:04:10,500
+Lucia: Hey, Jay, are you with Dre's guest?
+
+1060
+01:04:14,500 --> 01:04:15,000
+Local: Yo, boss! Boss.
+
+1061
+01:04:16,500 --> 01:04:17,000
+Local: I've got people waiting for me that's already inside!
+
+1062
+01:04:19,000 --> 01:04:19,500
+Jason: What're you talking about?
+
+1063
+01:04:20,000 --> 01:04:20,500
+Local: I'm saying your security won't let me pass,
+
+1064
+01:04:22,000 --> 01:04:22,500
+Local: but I've already been inside, it's-it's ridiculous.
+
+1065
+01:04:26,000 --> 01:04:26,500
+Local: Y'all got me looking crazy right now, boss.
+
+1066
+01:04:32,000 --> 01:04:32,500
+Jason: Tell 'em, Jason said it's cool.
+
+1067
+01:04:33,500 --> 01:04:34,000
+Local: Thanks. Who's Jason?
+
+1068
+01:04:35,500 --> 01:04:36,000
+Jason: Just go tell them!
+
+1069
+01:04:36,500 --> 01:04:37,000
+Local: 'Ey, boss. I ain't no broke-boy!
+
+1070
+01:04:39,000 --> 01:04:39,500
+Local: I'mma buy a round for your whole table 'cause I got it like
+that!
+
+1071
+01:04:51,500 --> 01:04:52,000
+Dre'Quan: Jay, I'm outside, you comin'?
+
+1072
+01:04:56,000 --> 01:04:56,500
+Jason: D, what d'you need me doing?
+
+1073
+01:04:57,000 --> 01:04:57,500
+Dre'Quan: Ay, soon as they hop out
+
+1074
+01:04:58,500 --> 01:04:59,000
+Dre'Quan: we gonna take 'em to their section overlooking the
+floor.
+
+1075
+01:05:01,000 --> 01:05:01,500
+Dre'Quan: Gotta give 'em an entrance.
+
+1076
+01:05:03,000 --> 01:05:03,500
+Jason: Who is it?
+
+1077
+01:05:04,000 --> 01:05:04,500
+Dre'Quan: I had to call Red.
+
+1078
+01:05:06,000 --> 01:05:06,500
+Dre'Quan: Sure enough, she showed up!
+
+1079
+01:05:13,500 --> 01:05:14,000
+VIP: Oh shit, where's my phone?
+
+1080
+01:05:15,000 --> 01:05:15,500
+VIP: You had it in the car.
+
+1081
+01:05:16,500 --> 01:05:17,000
+VIP: You had it in the car.
+Security Guard: I got you... let me look up in here.
+
+1082
+01:05:21,000 --> 01:05:21,500
+Dre'Quan: Yo! Nobody wanna come get this door?
+
+1083
+01:05:30,000 --> 01:05:30,500
+Sexyy Red: Damn, finally!
+My motherfuckin' hair was finna sweat off. What's up, Dre?
+
+1084
+01:05:34,000 --> 01:05:34,500
+Dre'Quan: Big Sexyy! What's up with it?
+
+1085
+01:05:35,500 --> 01:05:36,000
+Sexyy Red: Shit, I'm with my people, we tryin' to party.
+what's going on?
+
+1086
+01:05:38,500 --> 01:05:39,000
+Dre'Quan: I don't know, they over there bullshitting.
+
+1087
+01:05:40,500 --> 01:05:41,000
+VIP: Bitch, I lost my phone!
+
+1088
+01:05:42,000 --> 01:05:42,500
+Sexyy Red: Uh, I told you keep your phone in your bra.
+
+1089
+01:05:47,000 --> 01:05:47,500
+Dre'Quan: Alright, come through, come on.
+
+1090
+01:05:49,000 --> 01:05:49,500
+Sexyy Red: We in this bitch!
+
+1091
+01:05:52,000 --> 01:05:52,500
+Sexyy Red: Hell yeah, we outside tonight!
+I'm ready to pop my shit.
+
+1092
+01:05:55,000 --> 01:05:55,500
+Sexyy Red: Bring out all the hoochie daddies
+
+1093
+01:05:56,500 --> 01:05:57,000
+Sexyy Red: all niggas ready to get ratchet, you feel me?
+
+1094
+01:05:58,500 --> 01:05:59,000
+Sexyy Red: We got our own section right?
+
+1095
+01:06:00,000 --> 01:06:00,500
+Dre'Quan: 'Ey, all set up. My partner, he got you.
+He gonna show you.
+
+1096
+01:06:03,500 --> 01:06:04,000
+Dre'Quan: You know the club been closed for a minute
+
+1097
+01:06:05,000 --> 01:06:05,500
+Dre'Quan: so they want me to bring the VYB back to what it was.
+
+1098
+01:06:07,500 --> 01:06:08,000
+Dre'Quan: Bring the vibe back to VYB, you feel me?
+
+1099
+01:06:10,000 --> 01:06:10,500
+Sexyy Red: Nigga, I'm finna show out tonight, you know that
+right?
+
+1100
+01:06:12,500 --> 01:06:13,000
+Dre'Quan: 'Ey, that's exactly what I need!
+
+1101
+01:06:14,500 --> 01:06:15,000
+Sexyy Red: A'ight, you gonna see, it's gonna be fun!
+I'm excited fory'all too.
+
+1102
+01:06:17,500 --> 01:06:18,000
+Sexyy Red: You gonna turn 'em up for me real quick,
+fuck them hoes.
+
+1103
+01:06:20,500 --> 01:06:21,000
+Dre'Quan: Look, put that on everything
+
+1104
+01:06:22,000 --> 01:06:22,500
+Sexyy Red: Aight, I'm for real though we finna make them hoes
+mad,
+
+1105
+01:06:24,500 --> 01:06:25,000
+Sexyy Red: 'cause y'all be playing with people too much,
+
+1106
+01:06:26,000 --> 01:06:26,500
+Sexyy Red: you know that fame shit be turning people crazy.
+
+1107
+01:06:28,500 --> 01:06:29,000
+Sexyy Red: I see how that fame be whooping they ass, like a drug,
+they be addicted to that shit.
+
+1108
+01:06:32,000 --> 01:06:32,500
+Sexyy Red: Lowkey motherfuckers don't wanna see your dreams
+come true,
+
+1109
+01:06:34,000 --> 01:06:34,500
+Sexyy Red: you know what I'm sayin'?
+
+1110
+01:06:34,500 --> 01:06:35,000
+Dre'Quan: Look, the right people that pay attention
+
+1111
+01:06:36,000 --> 01:06:36,500
+Dre'Quan: that's all the fuck that matters, right?
+
+1112
+01:06:38,000 --> 01:06:38,500
+Dre'Quan: That's why you here.
+
+1113
+01:06:39,000 --> 01:06:39,500
+Sexyy Red: Right, I'm just a real-ass bitch.
+The fuck I look like being a hater?
+
+1114
+01:06:42,500 --> 01:06:43,000
+Dre'Quan: And I get you saying all that drama just come with the
+territory.
+
+1115
+01:06:45,000 --> 01:06:45,500
+Dre'Quan: but guess what? The dream came true,
+and it came true quick.
+
+1116
+01:06:48,500 --> 01:06:49,000
+Sexyy Red: Dang, where you goin'?
+
+1117
+01:06:50,000 --> 01:06:50,500
+Dre'Quan: My partner, he got you.
+I'm finna make this call real quick.
+
+1118
+01:06:54,000 --> 01:06:54,500
+Sexyy Red: A'ight, we following you, Mr. Man.
+
+1119
+01:06:56,500 --> 01:06:57,000
+Jason: Call me Jason.
+
+1120
+01:06:58,000 --> 01:06:58,500
+Sexyy Red: A'ight, Jason. Lead the way, where we goin'?
+
+1121
+01:07:01,000 --> 01:07:01,500
+Jason: It's the perfect spot, nobody's gonna bother you here.
+
+1122
+01:07:07,000 --> 01:07:07,500
+Jason: Dre said he wants 'em over here.
+
+1123
+01:07:26,500 --> 01:07:27,000
+Sexyy Red: Hold on. We ain't got no bottles or nothin'
+no Cazafortunas, nothing?
+
+1124
+01:07:30,000 --> 01:07:30,500
+Jason: Let me go check with the bar.
+
+1125
+01:07:31,000 --> 01:07:31,500
+Sexyy Red: Okay.
+
+1126
+01:08:10,500 --> 01:08:11,000
+Jason: Hey, they want Red's drinks sent over, right now
+
+1127
+01:08:13,500 --> 01:08:14,000
+Bartender: Sure, we'll get on it.
+
+1128
+01:08:16,500 --> 01:08:17,000
+Jason: D, they're bringing 'em over now.
+
+1129
+01:08:18,000 --> 01:08:18,500
+Dre'Quan: Appreciate you, bro. 'Ey, tell Red they coming.
+
+1130
+01:08:21,000 --> 01:08:21,500
+Dre'Quan: Just somethin'a little extra, know what I'm sayin'?
+That's howwe do it.
+
+1131
+01:08:41,000 --> 01:08:41,500
+Jason: Sexyy, you got bottles on the way.
+
+1132
+01:08:43,500 --> 01:08:44,000
+Sexyy Red: Hold on, why Dre put us all the way over here?
+We wanna go down there.
+
+1133
+01:08:48,000 --> 01:08:48,500
+Jason: Sure, you can. Let me see what I can do.
+
+1134
+01:08:49,500 --> 01:08:50,000
+Sexyy Red: Aight.
+
+1135
+01:08:53,000 --> 01:08:53,500
+Jason: Yo, D, Red's not too happy with her spot
+
+1136
+01:08:56,000 --> 01:08:56,500
+Dre'Quan: A'ight, this we what do.
+
+1137
+01:08:57,500 --> 01:08:58,000
+Dre'Quan: Kick one the VIPs out they booth and move in Sexyy.
+
+1138
+01:09:00,500 --> 01:09:01,000
+Dre'Quan: Anyone but Maleek.
+
+1139
+01:09:02,000 --> 01:09:02,500
+Dre'Quan: Sell it as an upgrade.
+
+1140
+01:09:08,500 --> 01:09:09,000
+Dre'Quan: Loony, it's a little dry in the green room.
+Think they can get a couple bottles too?
+
+1141
+01:09:12,500 --> 01:09:13,000
+Lucia: I'll take care of it.
+
+1142
+01:09:13,500 --> 01:09:14,000
+Donatello's Assistant: Hey, how'd you manage this gig?
+They don't ask for references?
+
+1143
+01:09:17,500 --> 01:09:18,000
+Jason: I'm gonna need this section back.
+
+1144
+01:09:20,000 --> 01:09:20,500
+Donatello's Assistant: Are you kiddin' me? You're kicking us out?
+
+1145
+01:09:25,000 --> 01:09:25,500
+Jason: Hey, got you an upgrade. Just means leaving the table.
+
+1146
+01:09:27,500 --> 01:09:28,000
+Donatello: An upgrade, okay.
+
+1147
+01:09:29,000 --> 01:09:29,500
+Donatello: I get out a lot, you know,
+I know these tricks all too well.
+
+1148
+01:09:31,500 --> 01:09:32,000
+Donatello: The upgrade? Usually a fuckin' downgrade.
+
+1149
+01:09:33,500 --> 01:09:34,000
+Jason: Nah. It's way better. You have my word.
+
+1150
+01:09:38,000 --> 01:09:38,500
+Donatello: Oh, so then I guess I'll just have to take your word.
+Everybody hear that?
+
+1151
+01:09:42,500 --> 01:09:43,000
+Jason: Lu, I'm heading to the greenroom.
+
+1152
+01:09:44,500 --> 01:09:45,000
+Lucia: Already there.
+
+1153
+01:09:49,000 --> 01:09:49,500
+Lucia: Who's thirsty?
+
+1154
+01:09:50,000 --> 01:09:50,500
+Roxy: Ooh, bring that ass over here, girl!
+
+1155
+01:09:52,500 --> 01:09:53,000
+DJ: It's showtime!
+
+1156
+01:09:54,000 --> 01:09:54,500
+Bae-Luxe: 'Ey!
+
+1157
+01:09:54,500 --> 01:09:55,000
+Bae-Luxe: 'Ey!
+Roxy: 'Ey!
+
+1158
+01:09:56,000 --> 01:09:56,500
+Bae-Luxe: 'Ey!
+DJ: It's Dimez, tonight, fuck what ya heard, you feel me?
+
+1159
+01:09:58,500 --> 01:09:59,000
+DJ: Y'all ready to rock out?
+
+1160
+01:09:59,500 --> 01:10:00,000
+DJ: You know you gotta shut it down.
+
+1161
+01:10:01,000 --> 01:10:01,500
+DJ: It's on now, baby. Easy money, let's get it!
+
+1162
+01:10:03,500 --> 01:10:04,000
+Dre'Quan: Yo, I'mma grab Royce real quick.
+
+1163
+01:10:05,500 --> 01:10:06,000
+Dre'Quan: This y'all moment! 'Ey, Loony, appreciate you.
+
+1164
+01:10:08,500 --> 01:10:09,000
+Lucia: Don't mention it.
+
+1165
+01:10:09,500 --> 01:10:10,000
+Dre'Quan: 'Ey, look, make sure you find a good spot out there!
+
+1166
+01:10:11,500 --> 01:10:12,000
+Dre'Quan: You don't wanna miss it!
+
+1167
+01:10:15,500 --> 01:10:16,000
+Jason: Lu, you coming with me?
+
+1168
+01:10:17,000 --> 01:10:17,500
+Jason: Just know. We're round if you need us.
+
+1169
+01:10:19,000 --> 01:10:19,500
+Bae-Luxe: Don't worry!
+
+1170
+01:10:20,000 --> 01:10:20,500
+Roxy: We got this.
+
+1171
+01:10:23,500 --> 01:10:24,000
+Lucia: So, am I gonna lose you to the record industry, Jay?
+You're kinda good at this.
+
+1172
+01:10:28,000 --> 01:10:28,500
+Jason: Yeah I thought maybe, but this is D's thing...
+
+1173
+01:10:30,500 --> 01:10:31,000
+Jason: I've been helping but... after tonight, he'll be on his way.
+
+1174
+01:10:33,500 --> 01:10:34,000
+Lucia: Aw. It's so cute seeing you two together.
+
+1175
+01:10:36,000 --> 01:10:36,500
+Jason: Not exactly what we're going for.
+
+1176
+01:10:38,000 --> 01:10:38,500
+Jason: I just can't with all the artists and the labels and all the
+rest of it. It's too much drama.
+
+1177
+01:10:42,500 --> 01:10:43,000
+Lucia: But you love drama.
+
+1178
+01:10:45,000 --> 01:10:45,500
+Jason: Only since I met you.
+
+1179
+01:10:52,000 --> 01:10:52,500
+Jason: There's a spot on the upper floor for us.
+
+1180
+01:10:54,000 --> 01:10:54,500
+Lucia: Alright! I'm ready
+
+1181
+01:10:59,000 --> 01:10:59,500
+Jason: Here's good. Great view.
+
+1182
+01:11:01,000 --> 01:11:01,500
+Lucia: You talked to D about us yet? Y'know,
+with all we got going on.
+
+1183
+01:11:04,500 --> 01:11:05,000
+Jason: I know. Not yet. Figured we'd wait until after.
+Let's just enjoy the night.
+
+1184
+01:11:10,000 --> 01:11:10,500
+Lucia: I mean, the place is packed.
+
+1185
+01:11:12,000 --> 01:11:12,500
+Jason: Yeah, and you got these fools rushing to get on the floor.
+
+1186
+01:11:16,000 --> 01:11:16,500
+Cash City: Man, you already know, nigga.
+
+1187
+01:11:17,000 --> 01:11:17,500
+Cash City: Cash City in this bitch.
+Yo, get the fuck out the way.
+
+1188
+01:11:19,000 --> 01:11:19,500
+Cash City: Man, shut the fuck up before I fuck you up!
+Move! Move, bitch! Move!
+
+1189
+01:11:21,500 --> 01:11:22,000
+Cash City: Fuck wrong wit' it? Fuck wrong wit' it?
+Say somethin'.
+
+1190
+01:11:25,000 --> 01:11:25,500
+Cash City: Jump this shit.
+
+1191
+01:11:26,500 --> 01:11:27,000
+Stevie J: 'Ey. yo, what the fuck goin' on, man?
+
+1192
+01:11:29,000 --> 01:11:29,500
+LaVaughn: Yo, gimme that
+
+1193
+01:11:30,500 --> 01:11:31,000
+LaVaughn: It's Cash City, bitch.
+
+1194
+01:11:32,000 --> 01:11:32,500
+Stevie J: 'Ey, yo, what's happenin', man?
+
+1195
+01:11:33,500 --> 01:11:34,000
+DWNPLY: Yeah, you already know what time it is, bitch!
+
+1196
+01:11:35,500 --> 01:11:36,000
+DWNPLY: It's ya boy DWNPLY in this motherfucker.
+Who's DWNPLY?
+
+1197
+01:11:38,500 --> 01:11:39,000
+DWNPLY: Oh, y'all don't fuck wit' me?
+
+1198
+01:11:40,500 --> 01:11:41,000
+DWNPLY: Y'all don't got love for DWNPLY?
+Shit's ass, yo.
+
+1199
+01:11:43,000 --> 01:11:43,500
+DWNPLY: Hey man, run that shit.
+
+1200
+01:11:46,500 --> 01:11:47,000
+Crowd member: You're the greatest, DWNPLY!Yeah!
+
+1201
+01:11:53,000 --> 01:11:53,500
+Roxy: Who the fuck is that?
+You know this nigga?
+
+1202
+01:11:54,500 --> 01:11:55,000
+Roxy: Bitch, fuck you!
+Come out here, see if we don't fuck you up!
+
+1203
+01:11:59,000 --> 01:11:59,500
+Lucia: Did you know about this, Jay?
+
+1204
+01:12:01,000 --> 01:12:01,500
+Jason: Dre, this part of the plan?
+
+1205
+01:12:07,000 --> 01:12:07,500
+Jason: Fuck. Dre's by himself.
+Go!
+
+1206
+01:12:12,000 --> 01:12:12,500
+Maleek: 'Ey! Anybody wanna come near me?
+
+1207
+01:12:14,500 --> 01:12:15,000
+Maleek: You know how I get down!
+
+1208
+01:12:24,000 --> 01:12:24,500
+Local: Ohh, get away! Woah, fuck off!
+
+1209
+01:12:24,500 --> 01:12:25,000
+Local: Ohh, get away! Woah, fuck off!
+Lucia: Nice... fuckin'.. try.
+
+1210
+01:12:27,500 --> 01:12:28,000
+Guard: Nuh-uh, don't do that. Don't do that!
+
+1211
+01:12:28,000 --> 01:12:28,500
+Guard: Nuh-uh, don't do that. Don't do that!
+DWNPLY: Yeah, what's good, boy? I'll beat your ass.
+Whatyouwant?
+
+1212
+01:12:30,000 --> 01:12:30,500
+Guard: Nuh-uh, don't do that. Don't do that!
+DWNPLY: You want Muay Thai? You want some-
+
+1213
+01:12:31,000 --> 01:12:31,500
+DWNPLY: Wah, ah, ah! What you want?
+
+1214
+01:12:35,000 --> 01:12:35,500
+DWNPLY: That's what I thought!
+
+1215
+01:12:35,500 --> 01:12:36,000
+Guard: Oh, shit! Motherfucker!
+DWNPLY: This bitch got a bat. Oh shit, move!
+
+1216
+01:12:37,000 --> 01:12:37,500
+Guard: Oh, shit! Motherfucker!
+
+1217
+01:12:37,500 --> 01:12:38,000
+Guard: Oh, shit! Motherfucker!
+DWNPLY: I don't hit women. Ah! Excuse me!
+
+1218
+01:12:38,000 --> 01:12:38,500
+DWNPLY: I don't hit women. Ah! Excuse me!
+
+1219
+01:12:40,000 --> 01:12:40,500
+Cash City Gang: It's up, bitch!
+
+1220
+01:12:41,000 --> 01:12:41,500
+Lucia: I'm waiting!
+
+1221
+01:12:44,500 --> 01:12:45,000
+Pooch: Ay, why this bitch look familiar?
+
+1222
+01:12:57,500 --> 01:12:58,000
+Lucia: Hey, DWNPLY took off somewhere, where are you?
+
+1223
+01:13:00,500 --> 01:13:01,000
+Jason: Can you handle that? I'm almost at ViP.
+
+1224
+01:13:03,500 --> 01:13:04,000
+Crowd member: Crazy!
+What the fuck?
+
+1225
+01:13:07,500 --> 01:13:08,000
+Crowd member: They've even got a gun!
+
+1226
+01:13:09,000 --> 01:13:09,500
+Bush: You thought you gonna make moves in this city?
+
+1227
+01:13:11,000 --> 01:13:11,500
+Bush: You ain't shit, motherfucker!
+
+1228
+01:13:14,000 --> 01:13:14,500
+Bush: Pussy-ass nigga!
+
+1229
+01:13:16,500 --> 01:13:17,000
+Bush: Oh, you serious, huh?
+
+1230
+01:13:19,000 --> 01:13:19,500
+Bush: I'mma tear that ass up.
+
+1231
+01:13:22,500 --> 01:13:23,000
+Bush: Whats up? That don't mean nothin'!
+
+1232
+01:13:27,500 --> 01:13:28,000
+Jason: Big guy like you, you a little slow.
+
+1233
+01:13:33,000 --> 01:13:33,500
+Jason: C'mon, what you got?
+
+1234
+01:13:34,500 --> 01:13:35,000
+Bush: Yeah, lift ya head up! Stick ya chest out!
+
+1235
+01:14:02,500 --> 01:14:03,000
+Jason: Ugh... fuck...
+
+1236
+01:14:18,000 --> 01:14:18,500
+Bush: What? That don't mean shit!
+
+1237
+01:14:27,500 --> 01:14:28,000
+Jason: Ohh... fuck.
+Bush: Get this shit out my way.
+
+1238
+01:14:29,000 --> 01:14:29,500
+Jason: Ohh... fuck.
+
+1239
+01:14:30,000 --> 01:14:30,500
+Bush: C'mere!
+
+1240
+01:14:39,500 --> 01:14:40,000
+Bush: Motherfucker-
+
+1241
+01:14:42,500 --> 01:14:43,000
+Bush: Get... get your ass off me!
+
+1242
+01:14:45,500 --> 01:14:46,000
+Bush: Get off me!
+
+1243
+01:14:49,500 --> 01:14:50,000
+Dre'Quan: Jay, leave him alone, it ain't worth it, bruh!
+
+1244
+01:14:54,500 --> 01:14:55,000
+Dre'Quan: Yo, chill, it's enough! It's enough.
+
+1245
+01:14:57,000 --> 01:14:57,500
+Dre'Quan: You got it.
+
+1246
+01:15:00,500 --> 01:15:01,000
+Dre'Quan: I better get to the Dimez.
+
+1247
+01:15:02,500 --> 01:15:03,000
+Jason: No, wait. Lu, where you at?
+
+1248
+01:15:08,000 --> 01:15:08,500
+Lucia: Yo, turn that shit off.
+
+1249
+01:15:09,500 --> 01:15:10,000
+Lucia: Where're the girls?
+
+1250
+01:15:10,500 --> 01:15:11,000
+Bae-Luxe: Open the fuckin' door!
+Open this door, bitch!
+
+1251
+01:15:12,000 --> 01:15:12,500
+Bae-Luxe: Did you know this nigga?
+Hello?
+
+1252
+01:15:14,000 --> 01:15:14,500
+Lucia: Anybody hurt?
+
+1253
+01:15:15,000 --> 01:15:15,500
+Roxy: Oh my God, I'm about to kill somebody!
+
+1254
+01:15:17,500 --> 01:15:18,000
+Sexyy Red: What the hell y'all doin' here?
+
+1255
+01:15:19,500 --> 01:15:20,000
+Sexyy Red: Shit crackin' outside,
+DWNPLY out there straight trippin'!
+
+1256
+01:15:22,500 --> 01:15:23,000
+Bae-Luxe: Sexyy! Uh..
+
+1257
+01:15:24,000 --> 01:15:24,500
+DWNPLY: Man, I heard all y'all hoes was lookin' for a nigga,
+what's good?
+
+1258
+01:15:30,500 --> 01:15:31,000
+Roxy: And them dusty-ass niggas on your payroll ain't finna be
+here.
+
+1259
+01:15:34,500 --> 01:15:35,000
+Sexyy Red: Bitch-ass nigga, is you high or somethin'?
+
+1260
+01:15:36,000 --> 01:15:36,500
+DWNPLY: Oh, what you finna do?
+
+1261
+01:15:37,000 --> 01:15:37,500
+DWNPLY: What's you box-body ass finna do?
+
+1262
+01:15:39,500 --> 01:15:40,000
+DWNPLY: Hey, Sexyy!
+
+1263
+01:15:41,000 --> 01:15:41,500
+DWNPLY: Damn, girl. 'Ey, man, where my hug at?
+
+1264
+01:15:43,500 --> 01:15:44,000
+Sexyy Red: Uh-nuh, boy, find you a bitch to play with.
+You know I don't even play like that.
+
+1265
+01:15:46,500 --> 01:15:47,000
+DWNPLY: Man, y'all turned the whole world against a nigga, bro!
+
+1266
+01:15:48,500 --> 01:15:49,000
+Bae-Luxe: Man, you a lame all by yourself!
+
+1267
+01:15:51,000 --> 01:15:51,500
+Bae-Luxe: Been a lame! Fuck is you bringin' a gun in the club for.
+
+1268
+01:15:54,000 --> 01:15:54,500
+DWNPLY: Obviously that's a dumbass question!
+
+1269
+01:15:55,500 --> 01:15:56,000
+DWNPLY: You know why,'cause I'm a super- stuperst- superstar!
+
+1270
+01:15:58,500 --> 01:15:59,000
+Bae-Luxe: Super-stupid!
+
+1271
+01:16:00,000 --> 01:16:00,500
+DWNPLY: Bitch, I-
+
+1272
+01:16:01,500 --> 01:16:02,000
+DWNPLY: I'll make you a nine-toe ho, bitch. Back the fuck up.
+
+1273
+01:16:04,000 --> 01:16:04,500
+Bae-Luxe: Man, you pussy and we made you, nigga!
+
+1274
+01:16:06,500 --> 01:16:07,000
+DWNPLY: And, Sexyy? You need to tell them niggas we go
+together!
+
+1275
+01:16:09,500 --> 01:16:10,000
+Sexyy Red: Boy, stop talkin' to me. I'm not finna play with you,
+right now.
+
+1276
+01:16:12,500 --> 01:16:13,000
+DWNPLY: Alright, everybody in the fuckin' corner!
+
+1277
+01:16:14,500 --> 01:16:15,000
+DWNPLY: Everybody get in the fuckin' corner!
+This nigga trippin'.
+
+1278
+01:16:17,000 --> 01:16:17,500
+DWNPLY: I'm sick of this shit!
+
+1279
+01:16:18,000 --> 01:16:18,500
+DWNPLY: You knock-knee'd bitch!
+
+1280
+01:16:19,500 --> 01:16:20,000
+DWNPLY: And you? Sexyy?
+
+1281
+01:16:21,500 --> 01:16:22,000
+DWNPLY: Fuck you!
+
+1282
+01:16:22,500 --> 01:16:23,000
+DWNPLY: I'm sick of all this shit! I'm sick of it!
+
+1283
+01:16:24,500 --> 01:16:25,000
+DWNPLY: I'm fuckin' sick of- oh!
+
+1284
+01:16:27,500 --> 01:16:28,000
+Bae-Luxe: Bitch, is you stupid?
+
+1285
+01:16:29,000 --> 01:16:29,500
+Bae-Luxe: What the fuck is wrong with you?
+
+1286
+01:16:30,500 --> 01:16:31,000
+Bae-Luxe: You need to leave!
+
+1287
+01:16:32,000 --> 01:16:32,500
+Roxy: Gilbert, you a fuckin' dump-ass!
+
+1288
+01:16:33,500 --> 01:16:34,000
+Roxy: That's why you need to stay the fuck from 'round us!
+
+1289
+01:16:35,500 --> 01:16:36,000
+Sexyy Red: This nigga straight trippin'!
+
+1290
+01:16:37,000 --> 01:16:37,500
+DWNPLY: Wha... wha..
+
+1291
+01:16:41,500 --> 01:16:42,000
+Lucia: Shut your bitch ass up!
+
+1292
+01:16:43,500 --> 01:16:44,000
+Roxy: Damn!
+
+1293
+01:16:46,000 --> 01:16:46,500
+Sexyy Red: Anyway... can we get some bottles or somethin' in
+here?
+
+1294
+01:16:48,500 --> 01:16:49,000
+Sexyy Red: Like, where is the weed at?
+
+1295
+01:16:59,500 --> 01:17:00,000
+Jason: You good?
+
+1296
+01:17:00,000 --> 01:17:00,500
+Lucia: Oh, I'm good.
+
+1297
+01:17:01,500 --> 01:17:02,000
+Roxy: I swear to God, I'm tired of these fuck-ass niggas tryin' us!
+
+1298
+01:17:05,000 --> 01:17:05,500
+Bae-Luxe: Urgh. It's fuck they momma, fuck they daddies,
+they brothers,
+
+1299
+01:17:08,000 --> 01:17:08,500
+Bae-Luxe: they aunties, they uncles, they sisters, they grandkids,
+
+1300
+01:17:10,500 --> 01:17:11,000
+Bae-Luxe: they great grandkids, I don't give a fuck!
+
+1301
+01:17:12,000 --> 01:17:12,500
+Bae-Luxe: We gonna bomb on they ass! Point blank.
+
+1302
+01:17:14,500 --> 01:17:15,000
+Dre'Quan: Yo! Yo, we got the most popping shit in the city right
+now,
+
+1303
+01:17:17,000 --> 01:17:17,500
+Dre'Quan: the fuck y'all waiting on?
+
+1304
+01:17:19,000 --> 01:17:19,500
+Dre'Quan: I know y'all ain't about to just sit there
+
+1305
+01:17:20,500 --> 01:17:21,000
+Dre'Quan: and let this motherfuckin' crowd out here,
+be all lax and shit!
+
+1306
+01:17:23,000 --> 01:17:23,500
+Dre'Quan: Turn 'em the fuck up.
+
+1307
+01:17:24,000 --> 01:17:24,500
+Dre'Quan: Do what y'all motherfuckin' came here to do!
+You feel me?
+
+1308
+01:17:26,000 --> 01:17:26,500
+Bae-Luxe: Okay.
+Let's go.
+
+1309
+01:17:27,000 --> 01:17:27,500
+Dre'Quan: A'ight
+
+1310
+01:17:36,500 --> 01:17:37,000
+Lucia: Get 'em, girls!
+
+1311
+01:17:54,000 --> 01:17:54,500
+Lucia: Woo!
+
+1312
+01:18:01,500 --> 01:18:02,000
+Dre'Quan: Rox! Luxe! Ay, I stand corrected! Y'all got it. Yeah,
+y'all got it!
+
+1313
+01:18:07,500 --> 01:18:08,000
+Bae-Luxe: Shout-out to our day ones, never our fake ones.
+
+1314
+01:18:10,500 --> 01:18:11,000
+Roxy: Make some noise for Stevie J in this ho!
+
+1315
+01:18:17,000 --> 01:18:17,500
+Bae-Luxe: Vice City!
+VYB!
+
+1316
+01:18:19,000 --> 01:18:19,500
+Roxy: Turn the fuck up!
+Fuck up!
+
+1317
+01:18:26,500 --> 01:18:27,000
+Stevie J: If you from outta town,
+make some motherfuckin' noise right now.
+
+1318
+01:18:29,500 --> 01:18:30,000
+Stevie J: If you on vacation, make some noise.
+
+1319
+01:18:31,500 --> 01:18:32,000
+Dre'Quan: Watch! Stevie gonna have this place jumpin'!
+If it's your birthday, make some motherfucking noise!
+
+1320
+01:18:34,500 --> 01:18:35,000
+Dre'Quan: 'Ey, there's still people on the outside tryin' to get in!
+
+1321
+01:18:37,500 --> 01:18:38,000
+Dre'Quan: I need to head up to VIP and check on Royce.
+
+1322
+01:18:40,500 --> 01:18:41,000
+Dre'Quan: No pressure, you guys stay and enjoy,
+or I'll see y'all in a few.
+
+1323
+01:18:47,500 --> 01:18:48,000
+Jason: We'll find you.
+A'ight, bet.
+
+1324
+01:19:00,500 --> 01:19:01,000
+Lucia: We can stick around if you want. I'm not in any rush.
+
+1325
+01:19:09,500 --> 01:19:10,000
+Jason: What're you thinking?
+
+1326
+01:19:10,500 --> 01:19:11,000
+Lucia: D really pulled it off.
+
+1327
+01:19:14,000 --> 01:19:14,500
+Jason: Feels good to be out with you.
+
+1328
+01:19:15,500 --> 01:19:16,000
+Lucia: Yeah, you too. Makes a nice change from the three
+hundred pound dudes I normally hang with.
+
+1329
+01:19:21,500 --> 01:19:22,000
+Jason: We got to do this more when this is all over.
+
+1330
+01:19:24,500 --> 01:19:25,000
+Lucia: We can do this whenever we want to.
+
+1331
+01:19:28,500 --> 01:19:29,000
+Jason: Do you want a drink?
+
+1332
+01:19:29,500 --> 01:19:30,000
+Lucia: No, I just need you to dance with me.
+
+1333
+01:20:02,500 --> 01:20:03,000
+Lucia: We should go find where' D's at.
+
+1334
+01:20:07,000 --> 01:20:07,500
+Lucia: Yo, Stevie!
+
+1335
+01:20:11,000 --> 01:20:11,500
+Lucia: Ugh, shit.
+
+1336
+01:20:12,500 --> 01:20:13,000
+Jason: What's the matter?
+
+1337
+01:20:13,000 --> 01:20:13,500
+Lucia: I still gotta get to the gym after all this.
+
+1338
+01:20:15,000 --> 01:20:15,500
+Jason: You got to, or you want to?
+
+1339
+01:20:17,000 --> 01:20:17,500
+Lucia: Don't start, okay?
+
+1340
+01:20:47,000 --> 01:20:47,500
+Royce: Far as I'm concerned,
+you the baddest motherfucker on the planet right now...
+
+1341
+01:20:51,000 --> 01:20:51,500
+Royce: I need you on my team, dog...
+
+1342
+01:20:53,000 --> 01:20:53,500
+Royce: Hear what I'm saying.
+
+1343
+01:20:54,500 --> 01:20:55,000
+Royce: What's a YN to an OG?
+
+1344
+01:20:56,000 --> 01:20:56,500
+Royce: Now, I've seen how you move,
+the circle you built around you.
+
+1345
+01:20:59,000 --> 01:20:59,500
+Royce: Niggas got a lot of reasons not to fuck with you.
+Yeah.
+
+1346
+01:21:01,500 --> 01:21:02,000
+Royce: But all that don't mean shit
+if all you got to do is depend on is yourself.
+
+1347
+01:21:05,000 --> 01:21:05,500
+Royce: People think all I do is put on parties.
+
+1348
+01:21:07,000 --> 01:21:07,500
+Royce: Nigga, I'm a kingmaker.
+
+1349
+01:21:09,000 --> 01:21:09,500
+Royce: The power behind the throne.
+
+1350
+01:21:11,000 --> 01:21:11,500
+Royce: So, my question to you is, what do you want?
+
+1351
+01:21:14,000 --> 01:21:14,500
+Dre'Quan: You know what?
+
+1352
+01:21:15,500 --> 01:21:16,000
+Dre'Quan: I'll consider it, man. Yo, I appreciate you.
+
+1353
+01:21:18,000 --> 01:21:18,500
+Dre'Quan: Let me talk to my people first.
+
+1354
+01:21:20,000 --> 01:21:20,500
+Royce: Yeah, a'ight.
+Yeah.
+
+1355
+01:21:22,500 --> 01:21:23,000
+Royce: A'ight. My man.
+
+1356
+01:21:25,000 --> 01:21:25,500
+Dre'Quan: 'Ey, we gonna chill in the greenroom.
+
+1357
+01:21:39,000 --> 01:21:39,500
+Jason: Hey, Dre...
+
+1358
+01:21:40,500 --> 01:21:41,000
+Jason: What's goin' on with you and Bae?
+
+1359
+01:21:42,000 --> 01:21:42,500
+Dre'Quan: Bruh, I- I dont know,
+you see how she be talkin' to me though, right?
+
+1360
+01:21:46,000 --> 01:21:46,500
+Dre'Quan: I mean, look, I got all the love in the world for Bae
+
+1361
+01:21:49,000 --> 01:21:49,500
+Dre'Quan: But, like, she my artist.
+
+1362
+01:21:50,500 --> 01:21:51,000
+Dre'Quan: How's it gon' look?
+
+1363
+01:21:52,000 --> 01:21:52,500
+Lucia: Dre, where the hell are we going?
+We right here! What you mean?
+
+1364
+01:21:56,000 --> 01:21:56,500
+Dre'Quan: Look at this!
+
+1365
+01:22:00,000 --> 01:22:00,500
+Jason: Damn.
+
+1366
+01:22:02,500 --> 01:22:03,000
+Lucia: This is perfect.
+
+1367
+01:22:05,500 --> 01:22:06,000
+Jason: Dre...
+
+1368
+01:22:07,000 --> 01:22:07,500
+Jason: Last night was fuckin'-
+
+1369
+01:22:08,500 --> 01:22:09,000
+Jason: I'm proud of you, man.
+
+1370
+01:22:11,000 --> 01:22:11,500
+Jason: But, you know, we got a lot of shit goin' on, so..
+
+1371
+01:22:14,500 --> 01:22:15,000
+Jason: We can't be around as much.
+
+1372
+01:22:17,000 --> 01:22:17,500
+Dre'Quan: Are you serious?
+
+1373
+01:22:18,000 --> 01:22:18,500
+Dre'Quan: Just before we blow up for real?
+
+1374
+01:22:21,500 --> 01:22:22,000
+Dre'Quan: Wow, dang!
+
+1375
+01:22:23,500 --> 01:22:24,000
+Dre'Quan: I guess y'all really is on the come-up, huh?
+
+1376
+01:22:25,500 --> 01:22:26,000
+Lucia: Mm-hmm.
+Yeah, yeah, I guess.
+
+1377
+01:22:26,500 --> 01:22:27,000
+Dre'Quan: Look, if you need anywhere to put all that money y'all
+been makin',
+
+1378
+01:22:31,000 --> 01:22:31,500
+Dre'Quan: I've been thinkin' about taking a little investment?
+Oh.
+
+1379
+01:22:34,000 --> 01:22:34,500
+Lucia: Investment? After all we've done,
+
+1380
+01:22:37,500 --> 01:22:38,000
+Lucia: we gotta own, like,
+twenty percent of your business by now.
+
+1381
+01:22:40,000 --> 01:22:40,500
+Jason: I thought it was fifty? We got fifty of last night, right?
+
+1382
+01:22:42,000 --> 01:22:42,500
+Dre'Quan: Hey, fifty percent of fifty. Net, not gross, ya hear?
+Alright,
+
+1383
+01:22:44,500 --> 01:22:45,000
+Jason: alright, well I wanna see the receipts, then.
+
+1384
+01:22:48,500 --> 01:22:49,000
+Dre'Quan: Man, I'mma miss you guys.
+
+1385
+01:22:51,000 --> 01:22:51,500
+Jason: We're not dyin'.
+Yeah, we'll be around!
+
+1386
+01:22:53,500 --> 01:22:54,000
+Dre'Quan: You better be.
+
+1387
+01:22:55,000 --> 01:22:55,500
+Dre'Quan: I wanna meet my lil' nephew, too.
+
+1388
+01:22:58,000 --> 01:22:58,500
+Jason: Absolutely.
+
+1389
+01:23:06,000 --> 01:23:06,500
+Lucia: Oh, shit. Shit!
+What's goin' on? You okay?
+
+1390
+01:23:08,500 --> 01:23:09,000
+Lucia: Phone's been going off. Slept through it.
+
+1391
+01:23:11,500 --> 01:23:12,000
+Jason: It's probably just Nate. You can let him sweat a little.
+
+1392
+01:23:14,000 --> 01:23:14,500
+Lucia: Nah, I don't wanna do anything suspicious.
+
+1393
+01:23:16,000 --> 01:23:16,500
+Lucia: Not when we're so close.
+
+1394
+01:23:28,000 --> 01:23:28,500
+Lucia: Nate?
+
+1395
+01:23:28,500 --> 01:23:29,000
+Nate: Damn, Juice. Where've you been? Your phone's been dead.
+
+1396
+01:23:31,500 --> 01:23:32,000
+Lucia: Uh, you know, just...
+
+1397
+01:23:33,500 --> 01:23:34,000
+Nate: You missed our last workout before the job!
+
+1398
+01:23:35,500 --> 01:23:36,000
+Nate: I wanted to get one last pump in with my girl.
+
+1399
+01:23:38,500 --> 01:23:39,000
+Lucia: We can get our pump on after.
+
+1400
+01:23:40,000 --> 01:23:40,500
+Nate: Nah, Juice. You don't understand, like...
+
+1401
+01:23:43,000 --> 01:23:43,500
+Nate: Soon as we're done, I am gone. Las Venturas.
+Never coming back.
+
+1402
+01:23:49,000 --> 01:23:49,500
+Nate: It's just gonna be me in a nice, little mid-century bungalow
+
+1403
+01:23:51,500 --> 01:23:52,000
+Nate: with a pool fulla Costa Rican twinks.
+
+1404
+01:23:54,000 --> 01:23:54,500
+Nate: And only top grade tina and good times from here on out.
+
+1405
+01:23:58,000 --> 01:23:58,500
+Lucia: Okay! You're livin' the dream, bro.
+
+1406
+01:24:00,500 --> 01:24:01,000
+Nate: Yeah, so... you know, it's on, okay?
+
+1407
+01:24:04,000 --> 01:24:04,500
+Nate: Kordell just gave us the go ahead.
+
+1408
+01:24:05,500 --> 01:24:06,000
+Nate: So we just gotta meet up at the spot when he calls.
+
+1409
+01:24:08,000 --> 01:24:08,500
+Nate: And yo, shit, I got a present for you.
+
+1410
+01:24:10,500 --> 01:24:11,000
+Lucia: Aww, that's sweet. You didn't have to.
+
+1411
+01:24:13,500 --> 01:24:14,000
+Nate: Ahh, I know, I know, but, you know...
+
+1412
+01:24:16,500 --> 01:24:17,000
+Nate: Even after we get all this money,
+
+1413
+01:24:18,000 --> 01:24:18,500
+Nate: I want you to know we're swolemates forever, bro!
+
+1414
+01:24:21,500 --> 01:24:22,000
+Nate: See you there.
+
+1415
+01:24:25,000 --> 01:24:25,500
+Lucia: That was him. We are go on the airport. Gonna call Raul.
+
+1416
+01:24:29,000 --> 01:24:29,500
+Jason: Cool.
+
+1417
+01:24:34,000 --> 01:24:34,500
+Raul: Mamita. What you got for me?
+
+1418
+01:24:36,000 --> 01:24:36,500
+Lucia: Nate called, Kordell wants to move on this thing.
+
+1419
+01:24:39,000 --> 01:24:39,500
+Raul: Okay. Come down to my spot, we line it all up.
+
+1420
+01:24:42,000 --> 01:24:42,500
+Lucia: Sounds good.
+
+1421
+01:24:43,500 --> 01:24:44,000
+Raul: Tell Jason to come down too,
+but you should probably use separate cars.
+
+1422
+01:24:48,000 --> 01:24:48,500
+Raul: Don't wanna fuck this up when we're this close.
+
+1423
+01:24:50,500 --> 01:24:51,000
+Lucia: You don't need to tell me to be careful, man. Later.
+
+1424
+01:24:56,000 --> 01:24:56,500
+Lucia: Raul wants us all down at his place.
+Says we should go separately.
+
+1425
+01:25:00,000 --> 01:25:00,500
+Jason: Got it.
+
+1426
+01:25:11,500 --> 01:25:12,000
+Lucia: Hey, I'm here. Open up.
+
+1427
+01:25:22,000 --> 01:25:22,500
+Raul: We have everything ready?
+
+1428
+01:25:23,500 --> 01:25:24,000
+Lucia: As ready as they can be.
+
+1429
+01:25:25,500 --> 01:25:26,000
+Lucia: Just waiting on them to give the green light.
+
+1430
+01:25:27,500 --> 01:25:28,000
+Raul: Well, you better get back out there, boss.
+
+1431
+01:25:30,500 --> 01:25:31,000
+Raul: And here,
+
+1432
+01:25:32,000 --> 01:25:32,500
+Raul: here's an earpiece.
+
+1433
+01:25:33,500 --> 01:25:34,000
+Raul: It's low-profile, they'll never spot it.
+
+1434
+01:25:38,500 --> 01:25:39,000
+Raul: Do your thing.
+
+1435
+01:25:51,000 --> 01:25:51,500
+Jason: Lu just texted.
+
+1436
+01:25:51,500 --> 01:25:52,000
+Jason: They're on the move.
+
+1437
+01:25:53,000 --> 01:25:53,500
+Raul: Okay...
+
+1438
+01:25:55,000 --> 01:25:55,500
+Raul: For your ears.
+
+1439
+01:25:57,500 --> 01:25:58,000
+Raul: Communication is the key.
+
+1440
+01:25:59,500 --> 01:26:00,000
+Raul: Let's go!
+
+1441
+01:26:01,000 --> 01:26:01,500
+Karim: I'm jumping in with you guys!
+
+1442
+01:26:01,500 --> 01:26:02,000
+Raul: No, you're not.
+No, you're not.
+
+1443
+01:26:03,000 --> 01:26:03,500
+Raul: Get to the airport. Check in.
+
+1444
+01:26:04,500 --> 01:26:05,000
+Raul: Access their network.
+
+1445
+01:26:05,500 --> 01:26:06,000
+Raul: You're our eyes in the skies.
+
+1446
+01:26:07,000 --> 01:26:07,500
+Raul: And KG's.
+
+1447
+01:26:09,000 --> 01:26:09,500
+Raul: Any mistakes they make, sweep it up.
+
+1448
+01:26:11,500 --> 01:26:12,000
+Raul: We don't want any surprises.
+
+1449
+01:26:13,000 --> 01:26:13,500
+Karim: Got you!
+
+1450
+01:26:20,000 --> 01:26:20,500
+Nate: Alright, we ready to fuck or what?
+
+1451
+01:26:23,000 --> 01:26:23,500
+Raina: Sure. Spread your legs and let's go.
+
+1452
+01:26:26,000 --> 01:26:26,500
+Nate: Yo, Raina? What the fuck?
+
+1453
+01:26:28,000 --> 01:26:28,500
+Nate: You knew what I was tryin' to say,
+
+1454
+01:26:29,000 --> 01:26:29,500
+Nate: but that's what I'm talking about!
+Hey, hey, hey, everyone in!
+
+1455
+01:26:32,000 --> 01:26:32,500
+Kordell: I got your tickets here for Cartagena.
+
+1456
+01:26:33,500 --> 01:26:34,000
+Nate: The jewel of the Caribbean, baby.
+
+1457
+01:26:35,500 --> 01:26:36,000
+Kordell: If you don't pussy out, or get ahead of yourselves,
+
+1458
+01:26:38,000 --> 01:26:38,500
+Kordell: when the sun comes up tomorrow?
+
+1459
+01:26:40,000 --> 01:26:40,500
+Kordell: I'm gonna be sittin' on the beach,
+
+1460
+01:26:42,000 --> 01:26:42,500
+Kordell: gettin' with my little Colombian broad.
+
+1461
+01:26:44,000 --> 01:26:44,500
+Kordell: And you're gonna be right there with me.
+
+1462
+01:26:47,500 --> 01:26:48,000
+Kordell: Now, everything's got to go like I planned.
+
+1463
+01:26:50,500 --> 01:26:51,000
+Kordell: We head to the first security checkpoint
+
+1464
+01:26:52,500 --> 01:26:53,000
+Kordell: and wait for Lucia and Nate's mark.
+
+1465
+01:26:55,500 --> 01:26:56,000
+Kordell: Once the guards are put away,
+
+1466
+01:26:57,000 --> 01:26:57,500
+Kordell: we get in,
+
+1467
+01:26:58,500 --> 01:26:59,000
+Kordell: get the cash,
+
+1468
+01:26:59,500 --> 01:27:00,000
+Kordell: and get the bags into the baggage system,
+ready for the flight.
+
+1469
+01:27:02,500 --> 01:27:03,000
+Kordell: Raina and I will switch into civilian clothes,
+
+1470
+01:27:05,500 --> 01:27:06,000
+Kordell: and merge in with the suckers to board the flight.
+
+1471
+01:27:08,000 --> 01:27:08,500
+Kordell: Lucia and Nate will leave with Cisco in the truck.
+That's right!
+
+1472
+01:27:11,000 --> 01:27:11,500
+Kordell: You're on the next flight.
+
+1473
+01:27:13,000 --> 01:27:13,500
+Kordell: And by the time that anybody finds the bodies,
+
+1474
+01:27:15,500 --> 01:27:16,000
+Kordell: or the money missing?
+
+1475
+01:27:17,000 --> 01:27:17,500
+Kordell: We'll already be in the air.
+
+1476
+01:27:18,500 --> 01:27:19,000
+Kordell: Comprende?
+Comprende!
+
+1477
+01:27:20,000 --> 01:27:20,500
+Kordell: Alright, let's roll.
+
+1478
+01:27:22,500 --> 01:27:23,000
+Nate: Hey, no. You're good.
+
+1479
+01:27:25,000 --> 01:27:25,500
+Lucia: Hey, uh, you let her back in, is that a good idea?
+
+1480
+01:27:27,500 --> 01:27:28,000
+Kordell: Why? You got a problem with that?
+
+1481
+01:27:30,000 --> 01:27:30,500
+Nate: Let's go, Juice!
+
+1482
+01:27:31,500 --> 01:27:32,000
+Lucia: Nah.
+
+1483
+01:27:32,500 --> 01:27:33,000
+Nate: Yeah, we're good.
+
+1484
+01:27:40,000 --> 01:27:40,500
+Security Guard: If you're wearing a bulletproof vest, take it off.
+
+1485
+01:27:43,000 --> 01:27:43,500
+Security: Holster, off.
+
+1486
+01:27:44,000 --> 01:27:44,500
+Security: Everything out of your pockets,
+
+1487
+01:27:46,000 --> 01:27:46,500
+Security: into the bins.
+
+1488
+01:27:47,000 --> 01:27:47,500
+Security: Nothing should be in there.
+
+1489
+01:27:49,000 --> 01:27:49,500
+Security: Double check for knives.
+
+1490
+01:27:50,000 --> 01:27:50,500
+Security: Ammunition into the bins, as well as laptops.
+
+1491
+01:27:54,500 --> 01:27:55,000
+Nate: Okay. Dump the bags, and look professional, okay?
+
+1492
+01:27:57,500 --> 01:27:58,000
+Nate: And... keep an eye out for us.
+Mm.
+
+1493
+01:27:59,500 --> 01:28:00,000
+Nate: Alright, thanks.
+
+1494
+01:28:06,000 --> 01:28:06,500
+Nate: Looking good.
+
+1495
+01:28:07,500 --> 01:28:08,000
+Lucia: Thanks.
+
+1496
+01:28:08,000 --> 01:28:08,500
+Nate: What about me? Fresh, right?
+Sure.
+
+1497
+01:28:10,000 --> 01:28:10,500
+Nate: Wait, oh, I got something. Come here, come here,
+come here.
+
+1498
+01:28:16,000 --> 01:28:16,500
+Lucia: Eww, what the fuck?
+
+1499
+01:28:17,500 --> 01:28:18,000
+Nate: It's just a little nightcap for our sommelier friend.
+
+1500
+01:28:20,000 --> 01:28:20,500
+Lucia: Urgh.
+
+1501
+01:28:21,000 --> 01:28:21,500
+Nate: It was only in the cheeks.
+
+1502
+01:28:23,000 --> 01:28:23,500
+Lucia: That's gross!
+
+1503
+01:28:24,500 --> 01:28:25,000
+Nate: Whatever, come on.
+
+1504
+01:28:32,000 --> 01:28:32,500
+Nate: Look... I get it. It's shitty that Raina's back and, yeah.
+
+1505
+01:28:36,000 --> 01:28:36,500
+Nate: maybe KG should've said something, but he didn't.
+
+1506
+01:28:39,000 --> 01:28:39,500
+Nate: So all I can say is I'm sorry, and you gotta get over it.
+
+1507
+01:28:42,500 --> 01:28:43,000
+Lucia: I need you focused, Nate.
+
+1508
+01:28:45,000 --> 01:28:45,500
+Nate: Oh, I'm focused. I'm like a fuckin' laser.
+
+1509
+01:28:48,500 --> 01:28:49,000
+Nate: So, you thought about how you're gonna take her out?
+
+1510
+01:28:51,000 --> 01:28:51,500
+Lucia: I'm gonna need somewhere quiet...
+
+1511
+01:28:54,000 --> 01:28:54,500
+Nate: C'mon, get your head in the game, Lucia. The toilets?
+
+1512
+01:28:57,500 --> 01:28:58,000
+Lucia: Sure, alright. Whatever.
+
+1513
+01:28:59,500 --> 01:29:00,000
+Nate: Alrighty, well how are you gonna get her in there?
+
+1514
+01:29:01,500 --> 01:29:02,000
+Lucia: I dunno.
+
+1515
+01:29:03,000 --> 01:29:03,500
+Lucia: Hoping she'll have the sudden urge to go after meeting
+you.
+
+1516
+01:29:10,500 --> 01:29:11,000
+Nate: You know, in the uniform and everything...
+
+1517
+01:29:13,000 --> 01:29:13,500
+Lucia: Yeah. Hold on, I'm thinking.
+
+1518
+01:29:16,000 --> 01:29:16,500
+Nate: Anyway, I'm gonna grab a coffee, you want anything?
+
+1519
+01:29:19,500 --> 01:29:20,000
+Raul: This guy looks like he wants to start some shit.
+
+1520
+01:29:22,000 --> 01:29:22,500
+Andrea: Then let's not give him a reason.
+
+1521
+01:29:28,000 --> 01:29:28,500
+Security Guard: Hey. Can I get your IDs?
+
+1522
+01:29:30,000 --> 01:29:30,500
+Andrea: Yeah, right here.
+
+1523
+01:29:32,500 --> 01:29:33,000
+Andrea: Here you go.
+
+1524
+01:29:37,000 --> 01:29:37,500
+Raul: C'mon, man. What the fuck?
+
+1525
+01:29:40,500 --> 01:29:41,000
+Raul: C'mon, man. What the fuck?
+Andrea: Just let him do his job.
+
+1526
+01:29:41,000 --> 01:29:41,500
+Andrea: Just let him do his job.
+
+1527
+01:29:48,000 --> 01:29:48,500
+Raul: What the- look, look, look, what the?
+
+1528
+01:29:51,500 --> 01:29:52,000
+Raul: This guy fucking serious or what? What's he doing, man?
+
+1529
+01:29:56,000 --> 01:29:56,500
+Raul: That's how they check ID here?
+
+1530
+01:29:57,500 --> 01:29:58,000
+Andrea: Shh, stop.
+
+1531
+01:30:01,000 --> 01:30:01,500
+Security Guard: Alright. You guys are good to go.
+
+1532
+01:30:03,500 --> 01:30:04,000
+Andrea: Great, thanks!
+
+1533
+01:30:06,000 --> 01:30:06,500
+Raul: They should fire that fucking guy, man. Fucking joke.
+
+1534
+01:30:10,000 --> 01:30:10,500
+Raul: Security's very lax over here.
+
+1535
+01:30:12,500 --> 01:30:13,000
+Andrea: If it's feeling that way, just means we've done our job.
+
+1536
+01:30:16,500 --> 01:30:17,000
+Andrea: Getting in was never going to be the issue.
+It's getting out.
+
+1537
+01:30:19,500 --> 01:30:20,000
+Jason: Yeah, they got those snipers on the roof.
+
+1538
+01:30:21,500 --> 01:30:22,000
+Andrea: Plus an emergency response time of like, nothing,
+if shit kicks off.
+
+1539
+01:30:25,000 --> 01:30:25,500
+Andrea: Plus an emergency response time of like, nothing,
+if shit kicks off.
+Raul: Yeah, no. Fuck that. Shit's not kicking off.
+
+1540
+01:30:25,500 --> 01:30:26,000
+Raul: Yeah, no. Fuck that. Shit's not kicking off.
+
+1541
+01:30:28,500 --> 01:30:29,000
+Raul: We gotta make sure this thing goes smooth as possible for
+these dumbfucks.
+
+1542
+01:30:32,500 --> 01:30:33,000
+Raul: I gotta know where everyone's at, at all times.
+
+1543
+01:30:36,000 --> 01:30:36,500
+Raul: KG and the others, too.
+
+1544
+01:30:37,500 --> 01:30:38,000
+Raul: We're in this together, yeah? We make it happen.
+
+1545
+01:30:40,000 --> 01:30:40,500
+Andrea: Karim, you there?
+
+1546
+01:30:42,000 --> 01:30:42,500
+Karim: I'm right here. Ready to save your asses one more time if it
+comes to it.
+
+1547
+01:30:46,500 --> 01:30:47,000
+Raul: Okay. Only thing we still got to do is the camera system.
+
+1548
+01:30:50,500 --> 01:30:51,000
+Raul: If we're not in there deleting shit when Lucia walks in that
+vault,
+
+1549
+01:30:53,500 --> 01:30:54,000
+Raul: there's going to be high-def pictures of her
+
+1550
+01:30:55,500 --> 01:30:56,000
+Raul: all over your news apps tomorrow morning.
+
+1551
+01:30:58,000 --> 01:30:58,500
+Jason: These guys didn't think of that?
+
+1552
+01:30:59,500 --> 01:31:00,000
+Raul: KG might've thought of it, just might not care.
+
+1553
+01:31:03,000 --> 01:31:03,500
+Raul: Who knows know what they planning to do to her when this
+job's done.
+
+1554
+01:31:06,000 --> 01:31:06,500
+Raul: Luckily we don't gotta find out.
+
+1555
+01:31:08,500 --> 01:31:09,000
+Karim: Ohh...
+
+1556
+01:31:10,500 --> 01:31:11,000
+Karim: Okay, Jason, you're heading up to the control tower, right?
+
+1557
+01:31:14,500 --> 01:31:15,000
+Karim: We need hardwired access to the network terminal, like...
+uh, now.
+
+1558
+01:31:19,000 --> 01:31:19,500
+Jason: I got you. I'm gonna head on over soon as I switch
+uniforms.
+
+1559
+01:31:22,500 --> 01:31:23,000
+Jason: I'll let you know when I'm up on the roof.
+
+1560
+01:31:24,500 --> 01:31:25,000
+Raul: Okay, showtime. Andrea, grab a van and move these bags.
+
+1561
+01:31:29,500 --> 01:31:30,000
+Raul: Jason, find your way to the roof.
+Karim's gonna be in your ear,
+
+1562
+01:31:32,500 --> 01:31:33,000
+Raul: telling you where to go.
+
+1563
+01:31:33,500 --> 01:31:34,000
+Raul: I got to get this wine expert her wine.
+
+1564
+01:31:36,000 --> 01:31:36,500
+Jason: Got you.
+
+1565
+01:31:39,500 --> 01:31:40,000
+Nate: That's her, coming through arrivals.
+
+1566
+01:31:41,500 --> 01:31:42,000
+Nate: The woman in the beige.
+
+1567
+01:31:44,000 --> 01:31:44,500
+Nate: Gate E4. That's Janice.
+
+1568
+01:31:47,000 --> 01:31:47,500
+Nate: Yeah, hi. Uh, give me a very large latte,
+
+1569
+01:31:48,500 --> 01:31:49,000
+Nate: Yeah, hi. Uh, give me a very large latte,
+Lucia: Hey, there... Janice?
+
+1570
+01:31:51,000 --> 01:31:51,500
+Lucia: Great. I'm here to escort you with my colleague who is...
+Nate: like the biggest you've got, with extra cream, and extra,
+extra sugar.
+
+1571
+01:31:54,500 --> 01:31:55,000
+Nate: like the biggest you've got, with extra cream, and extra,
+extra sugar.
+
+1572
+01:31:55,000 --> 01:31:55,500
+Lucia: on his way.
+Nate: Like, extra sugar, yeah, thank you. Silent type, huh?
+
+1573
+01:31:56,000 --> 01:31:56,500
+Nate: Like, extra sugar, yeah, thank you. Silent type, huh?
+
+1574
+01:31:56,500 --> 01:31:57,000
+Nate: Like, extra sugar, yeah, thank you. Silent type, huh?
+Janice: But... there's a transit through to Francis International that
+I cannot miss.
+
+1575
+01:31:58,500 --> 01:31:59,000
+Janice: But... there's a transit through to Francis International that
+I cannot miss.
+
+1576
+01:31:59,500 --> 01:32:00,000
+Janice: But... there's a transit through to Francis International that
+I cannot miss.
+Nate: Alright, whatever. Alright, gotta go.
+
+1577
+01:32:02,000 --> 01:32:02,500
+Nate: Hey there! Sorry! Sorry, I was just grabbing a coffee,
+you know, a little
+
+1578
+01:32:06,000 --> 01:32:06,500
+Nate: pick-me-up. Shall we proceed?
+
+1579
+01:32:08,500 --> 01:32:09,000
+Janice: Quick as you can, please.
+
+1580
+01:32:13,000 --> 01:32:13,500
+Nate: My name's Patrick, by the way.
+
+1581
+01:32:15,500 --> 01:32:16,000
+Nate: Can I just say, I think you have the best job in the world.
+
+1582
+01:32:19,000 --> 01:32:19,500
+Janice: Uh, well, yes.
+
+1583
+01:32:21,000 --> 01:32:21,500
+Nate: No, s-seriously. You get to travel, I love traveling,
+
+1584
+01:32:24,500 --> 01:32:25,000
+Nate: and- and meeting all kinds of interesting people,
+and the wine.
+
+1585
+01:32:28,500 --> 01:32:29,000
+Janice: There are good jobs and bad jobs.
+
+1586
+01:32:31,000 --> 01:32:31,500
+Janice: I mean, I don't know how anyone would choose
+
+1587
+01:32:33,000 --> 01:32:33,500
+Janice: to come to an airport every day, but...
+
+1588
+01:32:35,500 --> 01:32:36,000
+Nate: Janice. What would you say is the purest expression of
+Syrah?
+
+1589
+01:32:41,500 --> 01:32:42,000
+Nate: It's just, you know...
+me and my friends were having this argument about it.
+
+1590
+01:32:45,500 --> 01:32:46,000
+Janice: Oh. You mean outside of the Côte-Rôtie?
+
+1591
+01:32:50,000 --> 01:32:50,500
+Nate: Of course.
+
+1592
+01:32:51,500 --> 01:32:52,000
+Janice: Now that is a good question. How long do we have?
+
+1593
+01:32:55,000 --> 01:32:55,500
+Nate: I thought you were in a hurry.
+
+1594
+01:33:00,000 --> 01:33:00,500
+Nate: Now, let me ask you this,
+have you ever had the pleasure of dri-
+
+1595
+01:33:02,500 --> 01:33:03,000
+Janice: Oh!
+Nate: Oh, my God!
+
+1596
+01:33:04,000 --> 01:33:04,500
+Nate: Oh, I am so sorry! I-
+
+1597
+01:33:04,500 --> 01:33:05,000
+Nate: Oh, I am so sorry! I-
+Janice: Fuck!
+
+1598
+01:33:05,500 --> 01:33:06,000
+Nate: Oh, I am so sorry! I-
+Janice: Oh, my God!
+
+1599
+01:33:06,000 --> 01:33:06,500
+Janice: Oh, my God!
+
+1600
+01:33:07,000 --> 01:33:07,500
+Janice: Oh, my God!
+Nate: Oh, my God. Look, there's a bathroom right over there.
+
+1601
+01:33:07,500 --> 01:33:08,000
+Nate: Oh, my God. Look, there's a bathroom right over there.
+Janice: You idiot!
+
+1602
+01:33:09,500 --> 01:33:10,000
+Nate: Go clean yourself up.
+
+1603
+01:33:10,000 --> 01:33:10,500
+Nate: Go clean yourself up.
+Janice: Oh! Fuck this!
+
+1604
+01:33:10,500 --> 01:33:11,000
+Janice: Oh! Fuck this!
+
+1605
+01:33:11,000 --> 01:33:11,500
+Janice: Oh! Fuck this!
+Nate: Again, I am so sorry for this.
+
+1606
+01:33:12,500 --> 01:33:13,000
+Nate: Again, I am so sorry for this.
+
+1607
+01:33:13,000 --> 01:33:13,500
+Nate: Again, I am so sorry for this.
+Janice: J-
+
+1608
+01:33:13,500 --> 01:33:14,000
+Janice: I must, I guess.
+
+1609
+01:33:15,500 --> 01:33:16,000
+Janice: Oh, fucking hell.
+Nate: I'm so sorry. My sincerest apologies.
+
+1610
+01:33:17,500 --> 01:33:18,000
+Nate: I'm so sorry. My sincerest apologies.
+
+1611
+01:33:18,500 --> 01:33:19,000
+Janice: Jesus.
+Nate: Just go clean yourself up, I'll be right here, I got all day.
+
+1612
+01:33:19,500 --> 01:33:20,000
+Nate: Just go clean yourself up, I'll be right here, I got all day.
+
+1613
+01:33:27,000 --> 01:33:27,500
+Janice: Bloody idiots. I can't miss that fucking connection.
+
+1614
+01:33:44,500 --> 01:33:45,000
+Lucia: Hey, you hearing me? Women's bathroom.
+
+1615
+01:33:47,500 --> 01:33:48,000
+Lucia: I'm gonna hide the authenticator here.
+
+1616
+01:33:49,000 --> 01:33:49,500
+Karim: Alright, got it. I'll keep watch.
+
+1617
+01:33:51,500 --> 01:33:52,000
+Karim: Raul's gonna give you a tracker.
+
+1618
+01:33:53,000 --> 01:33:53,500
+Karim: Slip it into one of the bags with the currency
+
+1619
+01:33:55,500 --> 01:33:56,000
+Karim: so we can follow its movements.
+
+1620
+01:33:58,500 --> 01:33:59,000
+Nate: Okay, here we go. Come on, Juice. Let's get it.
+
+1621
+01:34:09,500 --> 01:34:10,000
+Lucia: Hey, sorry, I was a bit delayed.
+
+1622
+01:34:11,500 --> 01:34:12,000
+Lucia: Janice, I'm here for the authentication...
+
+1623
+01:34:13,500 --> 01:34:14,000
+Vault Manager: Janice, yes, of course,
+
+1624
+01:34:14,500 --> 01:34:15,000
+Vault Manager: I'm the manager here so I'll be escorting you
+through.
+
+1625
+01:34:17,000 --> 01:34:17,500
+Vault Manager: Actually, you're right on time.
+Got your crates coming in now.
+
+1626
+01:34:20,500 --> 01:34:21,000
+Nate: Nice. I like that!
+
+1627
+01:34:25,500 --> 01:34:26,000
+Vault Manager: Here we are.
+
+1628
+01:34:28,500 --> 01:34:29,000
+Raul: Eh, someone firma for this?
+
+1629
+01:34:30,500 --> 01:34:31,000
+Lucia: Mind if we see inside first?
+
+1630
+01:34:32,500 --> 01:34:33,000
+Lucia: Just want to make sure they're ours.
+
+1631
+01:34:34,500 --> 01:34:35,000
+Raul: No problem, señorita.
+
+1632
+01:34:38,000 --> 01:34:38,500
+Lucia: So, you got the thing?
+
+1633
+01:34:41,000 --> 01:34:41,500
+Raul: Ask for the form.
+
+1634
+01:34:44,500 --> 01:34:45,000
+Nate: Oh, uh, Janice, we don't really open this stuff here,
+
+1635
+01:34:47,000 --> 01:34:47,500
+Nate: 'cause it's not a temperature-controlled environment.
+
+1636
+01:34:49,500 --> 01:34:50,000
+Nate: Know what I'm sayin'?
+Right.
+
+1637
+01:34:50,500 --> 01:34:51,000
+Lucia: Uh, you got a form I have to sign? Or something?
+
+1638
+01:34:54,500 --> 01:34:55,000
+Raul: Oh yeah, h-h-hold on, I- I'm gonna...
+
+1639
+01:34:57,000 --> 01:34:57,500
+Raul: get it for you.
+Alright, go ahead.
+
+1640
+01:35:03,000 --> 01:35:03,500
+Raul: It's under here. J-Just sign here.
+
+1641
+01:35:06,000 --> 01:35:06,500
+Nate: 'Kay, come on, let's go.
+
+1642
+01:35:08,500 --> 01:35:09,000
+Nate: Easy, bro.
+Muchas gracias. Bueno.
+
+1643
+01:35:11,500 --> 01:35:12,000
+Vault Manager: Alright. So we're good?
+
+1644
+01:35:13,000 --> 01:35:13,500
+Lucia: Mm-hmm. Lead the way.
+Alright.
+
+1645
+01:35:16,000 --> 01:35:16,500
+Nate: I got it, allow me.
+
+1646
+01:35:26,000 --> 01:35:26,500
+Vault Manager: It's just up this way.
+
+1647
+01:35:31,500 --> 01:35:32,000
+Karim: Okay, heads up guys,
+
+1648
+01:35:33,000 --> 01:35:33,500
+Karim: I got visual on Kordell,
+Cisco and Raina near Lucia's location.
+
+1649
+01:35:38,500 --> 01:35:39,000
+Vault Manager: It is a bit of a walk, unfortunately.
+
+1650
+01:35:43,500 --> 01:35:44,000
+Francisco: What's going on, man?
+
+1651
+01:35:44,500 --> 01:35:45,000
+Security Guard: Dude, relax.
+
+1652
+01:35:46,000 --> 01:35:46,500
+Francisco: No, let me tell you something, okay?
+
+1653
+01:35:47,000 --> 01:35:47,500
+Francisco: My manager says I collect, I collecting.
+
+1654
+01:35:49,500 --> 01:35:50,000
+Security Guard: What do you want me to tell you?
+Vault Manager: Excuse whatever's happening around here.
+
+1655
+01:35:50,000 --> 01:35:50,500
+Vault Manager: Excuse whatever's happening around here.
+
+1656
+01:35:52,500 --> 01:35:53,000
+Vault Manager: I am not getting involved.
+
+1657
+01:35:54,500 --> 01:35:55,000
+Security Guard: I'm doing it! You're not listening,
+
+1658
+01:35:56,500 --> 01:35:57,000
+Security Guard: so why don't you go back and tell your people...
+
+1659
+01:35:58,500 --> 01:35:59,000
+Francisco: My people?
+
+1660
+01:36:00,500 --> 01:36:01,000
+Francisco: My people?
+Security Guard: T-that is not what I meant...
+
+1661
+01:36:01,000 --> 01:36:01,500
+Security Guard: T-that is not what I meant...
+
+1662
+01:36:03,500 --> 01:36:04,000
+Francisco: You talk about record,
+you know what happens when I don't collect?
+
+1663
+01:36:08,500 --> 01:36:09,000
+Vault Manager: You know, I'd love to know,
+
+1664
+01:36:09,500 --> 01:36:10,000
+Vault Manager: what does it mean when they say a wine is "hot?"
+
+1665
+01:36:11,500 --> 01:36:12,000
+Vault Manager: What's that about?
+
+1666
+01:36:17,000 --> 01:36:17,500
+Lucia: Uh... it's an old term. Nobody says that anymore.
+
+1667
+01:36:20,500 --> 01:36:21,000
+Vault Manager: Really? I just heard it the other day.
+
+1668
+01:36:23,500 --> 01:36:24,000
+Lucia: Oh, uh... you did?
+
+1669
+01:36:25,000 --> 01:36:25,500
+Nate: It means unbalanced. You know, too much alcohol.
+
+1670
+01:36:27,500 --> 01:36:28,000
+Nate: The grapes are overripe, producing more sugar,
+which becomes higher in alcohol.
+
+1671
+01:36:32,500 --> 01:36:33,000
+Nate: Thus, heavy in the mouth. And thus, "hot".
+
+1672
+01:36:35,500 --> 01:36:36,000
+Vault Manager: Huh...
+
+1673
+01:36:37,000 --> 01:36:37,500
+Lucia: Right, exactly.
+
+1674
+01:36:49,000 --> 01:36:49,500
+Jason: I'm on the rooftop, headed for the control tower.
+
+1675
+01:36:52,500 --> 01:36:53,000
+Karim: Alright, Jason.
+
+1676
+01:36:54,000 --> 01:36:54,500
+Karim: Once you access the terminal,
+
+1677
+01:36:55,500 --> 01:36:56,000
+Karim: I'll be able to grab footage of these guys clearing the
+vault.
+
+1678
+01:36:59,000 --> 01:36:59,500
+Karim: After that, it won't take me too long to erase Lucia's
+footprint.
+
+1679
+01:37:02,500 --> 01:37:03,000
+Karim: You gotta get this done quick.
+
+1680
+01:37:04,000 --> 01:37:04,500
+Karim: I need to start editing the feed before Lucia hits that
+vault.
+
+1681
+01:37:08,000 --> 01:37:08,500
+Karim: Jason, remember,
+you've got NOOSE snipers up on that roof.
+
+1682
+01:37:12,000 --> 01:37:12,500
+Karim: Put down anyone that gets in your way.
+
+1683
+01:37:14,500 --> 01:37:15,000
+Karim: They will shut down the whole airport if someone reports
+you.
+
+1684
+01:38:18,500 --> 01:38:19,000
+Karim: So, I got everyone's attention, hmm?
+
+1685
+01:38:21,500 --> 01:38:22,000
+Karim: So, yeah, KG's at the upper security checkpoint right now.
+
+1686
+01:38:25,500 --> 01:38:26,000
+Karim: Nate and Lucia are being escorted down to the vault.
+
+1687
+01:38:30,000 --> 01:38:30,500
+Karim: Nate and Lucia are being escorted down to the vault.
+Karim: Keep going along the rooftops and don't get seen.
+
+1688
+01:38:30,500 --> 01:38:31,000
+Karim: Keep going along the rooftops and don't get seen.
+
+1689
+01:38:33,500 --> 01:38:34,000
+Karim: Access to the network terminal is at the base of the
+control tower.
+
+1690
+01:38:37,000 --> 01:38:37,500
+Karim: Open up the locker and plug yourself in.
+
+1691
+01:39:24,500 --> 01:39:25,000
+Jason: Okay. What do we got here?
+
+1692
+01:39:26,500 --> 01:39:27,000
+Karim: Okay, look, this is pretty straightforward.
+
+1693
+01:39:28,500 --> 01:39:29,000
+Karim: You're looking for the blue cable, not the thick one,
+the thin one.
+
+1694
+01:39:32,500 --> 01:39:33,000
+Karim: Do not touch the thick one.
+
+1695
+01:39:43,500 --> 01:39:44,000
+Vault Manager: Uh, your access isn't permitted beyond this point.
+
+1696
+01:39:45,500 --> 01:39:46,000
+Vault Manager: So, you'll need to wait here for the time being.
+
+1697
+01:39:48,000 --> 01:39:48,500
+Nate: You got it, bro, I'll just be here chillin'.
+
+1698
+01:39:54,500 --> 01:39:55,000
+Nate: Hey, shout if you need anything.
+
+1699
+01:39:56,500 --> 01:39:57,000
+Vault Manager: Yeah, sure, will do.
+
+1700
+01:40:01,000 --> 01:40:01,500
+Vault Manager: The vault is just beyond the gate ahead.
+
+1701
+01:40:02,500 --> 01:40:03,000
+Lucia: All these doors and gates.
+Feels like I'm being escorted through a prison.
+
+1702
+01:40:07,000 --> 01:40:07,500
+Vault Manager: Yeah, it does feel kinda claustrophobic,
+doesn't it?
+
+1703
+01:40:09,500 --> 01:40:10,000
+Vault Manager: No one's gonna lock us in, don't worry.
+
+1704
+01:40:12,000 --> 01:40:12,500
+Vault Manager: Think- think of it like a maximum security wine
+cellar.
+
+1705
+01:40:15,000 --> 01:40:15,500
+Vault Manager: Although,
+wine's not the only thing we store down here.
+
+1706
+01:40:17,000 --> 01:40:17,500
+Vault Manager: Not by a long shot.
+
+1707
+01:40:22,000 --> 01:40:22,500
+Vault Manager: Now, give me one second.
+
+1708
+01:40:26,000 --> 01:40:26,500
+Vault Manager: Just give a little tap here.
+
+1709
+01:40:37,000 --> 01:40:37,500
+Vault Manager: It's okay, Carl, it's only me.
+
+1710
+01:41:09,500 --> 01:41:10,000
+Vault Manager: Voila! Here we are.
+
+1711
+01:41:11,500 --> 01:41:12,000
+Vault Manager: If you don't mind entering,
+we can get started with your inspection.
+
+1712
+01:41:20,000 --> 01:41:20,500
+Karim: And... she's in, guys. Lucia made it to the vault.
+
+1713
+01:41:23,500 --> 01:41:24,000
+Karim: They're gonna move any minute.
+
+1714
+01:41:25,000 --> 01:41:25,500
+Vault Manager: but feel free to have a closer inspection.
+
+1715
+01:41:27,000 --> 01:41:27,500
+Vault Manager: Wanna guarantee you're happy before we secure
+everything for you.
+
+1716
+01:41:38,500 --> 01:41:39,000
+Lucia: Y'know, thank you so much for your help with all this.
+
+1717
+01:41:42,000 --> 01:41:42,500
+Lucia: Alright, let's see here. Ah.
+
+1718
+01:41:44,500 --> 01:41:45,000
+Lucia: I love this vintage.
+
+1719
+01:41:46,500 --> 01:41:47,000
+Lucia: Might be my favorite.
+
+1720
+01:41:49,500 --> 01:41:50,000
+Lucia: Fill level is perfect.
+
+1721
+01:41:51,000 --> 01:41:51,500
+Lucia: Label's in... nice shape also...
+
+1722
+01:41:54,000 --> 01:41:54,500
+Kordell: Hold on my signal.
+
+1723
+01:41:58,000 --> 01:41:58,500
+Lucia: You know, I really love what they've done with the shiny bit
+up top...
+
+1724
+01:42:02,000 --> 01:42:02,500
+Vault Manager: Oh, you mean the tag?
+
+1725
+01:42:03,500 --> 01:42:04,000
+Lucia: Mm-hmm, that is what that is.
+
+1726
+01:42:06,500 --> 01:42:07,000
+Lucia: Looks very well made.
+
+1727
+01:42:08,000 --> 01:42:08,500
+Vault Manager: Will you need online access to verify the pattern?
+
+1728
+01:42:11,000 --> 01:42:11,500
+Lucia: Oh no, no, no... no. No. I have it all in my head.
+I've memorized it.
+
+1729
+01:42:14,500 --> 01:42:15,000
+Lucia: I memorize them all.
+
+1730
+01:42:16,500 --> 01:42:17,000
+Nate: Juice, showtime! Drop that motherfucker when I say.
+
+1731
+01:42:20,500 --> 01:42:21,000
+Vault Manager: Dig in, go ahead.
+
+1732
+01:42:23,500 --> 01:42:24,000
+Lucia: And these dots! These dots right here, these are...
+definitely...
+
+1733
+01:42:26,500 --> 01:42:27,000
+Lucia: the right dots.
+
+1734
+01:42:28,000 --> 01:42:28,500
+Kordell: Take him out.
+
+1735
+01:42:32,000 --> 01:42:32,500
+Nate: Aw, I wish I saw that motherfucker's face.
+
+1736
+01:42:34,000 --> 01:42:34,500
+Nate: Put his ass in the cage and just forget about him.
+
+1737
+01:42:38,500 --> 01:42:39,000
+Lucia: We're on, he's out!
+
+1738
+01:42:40,500 --> 01:42:41,000
+Nate: Juice, we need those gates open ASAP. They're here.
+
+1739
+01:42:52,000 --> 01:42:52,500
+Nate: Get out of there. Come here! Get the fuck out here!
+
+1740
+01:42:55,000 --> 01:42:55,500
+Nate: Get on your fucking knees, now! Bitch!
+
+1741
+01:42:58,500 --> 01:42:59,000
+Nate: 'Ey, if you wanna play hero? Spoiler, you will die!
+
+1742
+01:43:02,000 --> 01:43:02,500
+Vault Manager: Hey, hey!
+
+1743
+01:43:02,500 --> 01:43:03,000
+Vault Manager: Hey, hey!
+Nate: What's going on? Come on, get this gate open!
+
+1744
+01:43:03,500 --> 01:43:04,000
+Nate: What's going on? Come on, get this gate open!
+
+1745
+01:43:14,000 --> 01:43:14,500
+Let's go, move! Move!
+Nate: Come here, you fuck! Get over there.
+
+1746
+01:43:17,000 --> 01:43:17,500
+Kordell: Go.
+
+1747
+01:43:19,500 --> 01:43:20,000
+Kordell: Watch 'em. They act out, shoot their ass.
+
+1748
+01:43:23,500 --> 01:43:24,000
+Lucia: All of you, get moving.
+
+1749
+01:43:25,500 --> 01:43:26,000
+Raul: What are you seeing, Karim?
+
+1750
+01:43:27,000 --> 01:43:27,500
+Raul: They got to the money yet?
+
+1751
+01:43:28,000 --> 01:43:28,500
+Karim: We got some movement.
+
+1752
+01:43:30,000 --> 01:43:30,500
+Karim: Hold on.
+
+1753
+01:43:33,000 --> 01:43:33,500
+Karim: Let me pull up another angle.
+
+1754
+01:43:36,500 --> 01:43:37,000
+Karim: Okay, all present and accounted for.
+
+1755
+01:43:39,500 --> 01:43:40,000
+Karim: Ah, shit. Lu, watch your back with these guys.
+
+1756
+01:43:44,000 --> 01:43:44,500
+Security Guard: Miss...
+
+1757
+01:43:45,500 --> 01:43:46,000
+Security Guard: Miss, you don't have to do-
+
+1758
+01:43:47,500 --> 01:43:48,000
+Security Guard: Miss, you don't have to do-
+Lucia: Just shut up and stay still.
+Unless you want them to make you.
+
+1759
+01:43:48,000 --> 01:43:48,500
+Lucia: Just shut up and stay still.
+Unless you want them to make you.
+
+1760
+01:43:55,000 --> 01:43:55,500
+Kordell: Bags, now! Come on.
+
+1761
+01:43:57,000 --> 01:43:57,500
+Karim: You gotta give it to 'em. This shit fucking worked.
+
+1762
+01:44:04,000 --> 01:44:04,500
+Nate: Man, I fucking love this part. Bam!
+
+1763
+01:44:06,500 --> 01:44:07,000
+Nate: Man, I fucking love this part. Bam!
+Francisco: 'Ey, you celebrate too early, man,
+it's gonna be bad luck.
+
+1764
+01:44:07,000 --> 01:44:07,500
+Francisco: 'Ey, you celebrate too early, man,
+it's gonna be bad luck.
+
+1765
+01:44:10,500 --> 01:44:11,000
+Raina: He can never hold his excitement. Don't fall asleep, Nate.
+
+1766
+01:44:14,500 --> 01:44:15,000
+Kordell: Yo, hustle! Get the fuck out of here. Let's go.
+
+1767
+01:44:18,500 --> 01:44:19,000
+Kordell: Move your fat ass! Come on!
+
+1768
+01:44:24,500 --> 01:44:25,000
+Kordell: Where Lucia at? Tell her to keep up.
+
+1769
+01:44:27,000 --> 01:44:27,500
+Raina: Keep up!
+
+1770
+01:44:28,000 --> 01:44:28,500
+Nate: She's all good. She's right behind me.
+
+1771
+01:44:29,500 --> 01:44:30,000
+Kordell: She quiet back there. You sure about that?
+
+1772
+01:44:32,000 --> 01:44:32,500
+Nate: What are you worrying about? Trust me, she's good.
+
+1773
+01:44:35,000 --> 01:44:35,500
+Kordell: Watch how you talk to me. I put this shit together!
+
+1774
+01:44:37,500 --> 01:44:38,000
+Nate: You're not the only one with plans, bro.
+
+1775
+01:44:39,000 --> 01:44:39,500
+Kordell: The fuck you just said?
+
+1776
+01:44:40,000 --> 01:44:40,500
+Nate: Nothing! Nothing!
+
+1777
+01:44:41,000 --> 01:44:41,500
+Kordell: Say that shit again!
+
+1778
+01:44:42,500 --> 01:44:43,000
+Francisco: Aw, c'mon, man. We rich as fuck now. Let's go.
+
+1779
+01:45:06,000 --> 01:45:06,500
+Francisco: Omar.
+
+1780
+01:45:07,000 --> 01:45:07,500
+Francisco: The baggage is on the way.
+
+1781
+01:45:08,500 --> 01:45:09,000
+Francisco: You there?
+I'm waiting right here, man.
+
+1782
+01:45:10,000 --> 01:45:10,500
+Omar: I'm takin' care of it, don't worry.
+
+1783
+01:45:12,000 --> 01:45:12,500
+Omar: They're getting on the right flight out of there, alright?
+
+1784
+01:45:15,500 --> 01:45:16,000
+Francisco: In Spanish: Good job.
+
+1785
+01:45:17,000 --> 01:45:17,500
+Francisco: He's got it.
+
+1786
+01:45:18,500 --> 01:45:19,000
+Kordell: Let's go.
+
+1787
+01:45:25,000 --> 01:45:25,500
+Raul: Money bags coming through. Let's get rid of these workers.
+
+1788
+01:45:28,000 --> 01:45:28,500
+Andrea: Got it.
+
+1789
+01:45:29,500 --> 01:45:30,000
+Andrea: You two, you're off here! Go to the unloading bay.
+
+1790
+01:45:33,500 --> 01:45:34,000
+Andrea: I need you two to cover.
+
+1791
+01:45:35,000 --> 01:45:35,500
+Jason: You got it.
+Raul: Yes, ma'am, you got it!
+
+1792
+01:45:35,500 --> 01:45:36,000
+Raul: Yes, ma'am, you got it!
+
+1793
+01:45:40,500 --> 01:45:41,000
+Raul: You had an issue with security?
+
+1794
+01:45:42,000 --> 01:45:42,500
+Jason: I took care of it. Let's keep going.
+
+1795
+01:45:44,000 --> 01:45:44,500
+Raul: You sure?
+
+1796
+01:45:44,500 --> 01:45:45,000
+Jason: I said I took care of it.
+
+1797
+01:45:46,000 --> 01:45:46,500
+Raul: In Spanish: This guy... Okay.
+
+1798
+01:45:51,000 --> 01:45:51,500
+Raul: Omar, he's gotta go. Handle it.
+
+1799
+01:45:57,000 --> 01:45:57,500
+Omar: Cisco, look, the bags aren't through yet, man.
+
+1800
+01:46:02,500 --> 01:46:03,000
+Raul: Grab his body. Use the baggage container. Hide him inside.
+
+1801
+01:46:08,000 --> 01:46:08,500
+Raul: It's over there, other side.
+
+1802
+01:46:10,000 --> 01:46:10,500
+Raul: Put him in and close it up.
+
+1803
+01:46:12,500 --> 01:46:13,000
+Raul: Deal with him.
+
+1804
+01:46:13,500 --> 01:46:14,000
+Raul: I don't want that piggie squealing.
+
+1805
+01:46:16,000 --> 01:46:16,500
+Karim: Okay, I see the tracker.
+Bags should be with you any second.
+
+1806
+01:46:21,000 --> 01:46:21,500
+Andrea: Testing vocals.
+Testing vocals.
+
+1807
+01:46:23,500 --> 01:46:24,000
+Andrea: Nah, I need to fix that.
+
+1808
+01:46:25,500 --> 01:46:26,000
+Andrea: Testing, testing. How's my voice, pitch?
+
+1809
+01:46:28,500 --> 01:46:29,000
+Omar: Testing, testing. How's my voice, pitch?
+
+1810
+01:46:31,500 --> 01:46:32,000
+Raul: Let me try that.
+Yeah.
+
+1811
+01:46:33,000 --> 01:46:33,500
+Raul: Oye, oye!
+
+1812
+01:46:34,500 --> 01:46:35,000
+Omar: Oye, oye!
+I like that.
+
+1813
+01:46:36,500 --> 01:46:37,000
+Andrea: Bags. Now use it.
+
+1814
+01:46:37,500 --> 01:46:38,000
+Raul: Cisco, I see the bags, they're coming through.
+
+1815
+01:46:40,000 --> 01:46:40,500
+Omar: Cisco, I see the bags, they're coming through.
+Good.
+
+1816
+01:46:44,000 --> 01:46:44,500
+Francisco: Copy that, Omar.
+
+1817
+01:46:47,500 --> 01:46:48,000
+Raul: We're holding this now. C'mon.
+
+1818
+01:46:50,500 --> 01:46:51,000
+Andrea: Here we go.
+
+1819
+01:46:52,000 --> 01:46:52,500
+Raul: Nice! Keep it coming!
+
+1820
+01:46:53,500 --> 01:46:54,000
+Andrea: These are coming in quick.
+
+1821
+01:46:55,500 --> 01:46:56,000
+Raul: These meatheads really thought they were gonna get away
+with it.
+
+1822
+01:47:01,000 --> 01:47:01,500
+Jason: Here.
+Nice and easy.
+
+1823
+01:47:09,000 --> 01:47:09,500
+Raul: No mis-steps, no problems.
+
+1824
+01:47:11,000 --> 01:47:11,500
+Raul: We keep this up, we'll be outta here in no time.
+
+1825
+01:47:17,500 --> 01:47:18,000
+Kordell: Hey, man. Call your fucking guy, Omar.
+
+1826
+01:47:21,000 --> 01:47:21,500
+Francisco: Hey, Omar?
+
+1827
+01:47:22,500 --> 01:47:23,000
+Francisco: Omar, do you hear me?
+Where he at?
+
+1828
+01:47:24,500 --> 01:47:25,000
+Omar: Everything's secured and ready.
+
+1829
+01:47:26,000 --> 01:47:26,500
+Omar: Waiting on you, so we can leave.
+That's what I like to hear.
+
+1830
+01:47:29,000 --> 01:47:29,500
+Kordell: Stop the van.
+
+1831
+01:47:30,500 --> 01:47:31,000
+Lucia: Jeez!
+
+1832
+01:47:33,000 --> 01:47:33,500
+Nate: C'mon, man!
+Fuck!
+
+1833
+01:47:39,500 --> 01:47:40,000
+Kordell: Alright, listen. Y'all go check the baggage area.
+
+1834
+01:47:42,000 --> 01:47:42,500
+Kordell: Find Omar. Make sure the bags are good, a'ight?
+Got it.
+
+1835
+01:47:44,500 --> 01:47:45,000
+Kordell: We don't know this motherfucker,
+and I ain't leaving nothin' to chance.
+
+1836
+01:47:48,000 --> 01:47:48,500
+Francisco: In Spanish: Yes, whatever you say.
+
+1837
+01:47:50,000 --> 01:47:50,500
+Kordell: Yo, we a'ight?
+
+1838
+01:47:51,500 --> 01:47:52,000
+Francisco: In Spanish: Yes, bro.
+
+1839
+01:47:52,500 --> 01:47:53,000
+Francisco: I got you, bro.
+
+1840
+01:47:54,000 --> 01:47:54,500
+Kordell: Alright.
+
+1841
+01:47:56,500 --> 01:47:57,000
+Karim: Yo, you finished?
+
+1842
+01:47:57,500 --> 01:47:58,000
+Karim: They're on their way to you.
+
+1843
+01:47:58,500 --> 01:47:59,000
+Karim: Think they're looking for Omar.
+
+1844
+01:48:00,000 --> 01:48:00,500
+Andrea: That's all of 'em.
+
+1845
+01:48:01,000 --> 01:48:01,500
+Jason: Need me to hang around?
+
+1846
+01:48:02,000 --> 01:48:02,500
+Raul: Get the cash out of here.
+
+1847
+01:48:03,500 --> 01:48:04,000
+Raul: In Spanish: I'll handle these gorillas.
+
+1848
+01:48:25,500 --> 01:48:26,000
+Francisco: In Spanish: Where the fuck is he?
+
+1849
+01:48:26,500 --> 01:48:27,000
+Nate: Uh, where the fuck is Omar?
+
+1850
+01:48:28,000 --> 01:48:28,500
+Francisco: Hey, hey! Where's Omar?
+
+1851
+01:48:30,500 --> 01:48:31,000
+Raul: In Spanish: What?
+Omar!
+
+1852
+01:48:32,000 --> 01:48:32,500
+Francisco: Omar!
+Omar!
+
+1853
+01:48:33,500 --> 01:48:34,000
+Raul: O-Omar? Sorry, sorry.
+
+1854
+01:48:36,500 --> 01:48:37,000
+Raul: In Spanish: My English isn't very good. How can I help you?
+
+1855
+01:48:38,000 --> 01:48:38,500
+Francisco: In Spanish: Omar! Your boss, man.
+
+1856
+01:48:40,000 --> 01:48:40,500
+Raul: He said to take the- the bags to the plane,
+then he just disappear.
+
+1857
+01:48:43,500 --> 01:48:44,000
+Francisco: You and this guy in the front.
+Ah, sí.
+
+1858
+01:48:45,500 --> 01:48:46,000
+Francisco: Nate, you go in the back with the bags
+Copy that.
+
+1859
+01:48:48,000 --> 01:48:48,500
+Francisco: I'll find this fucking Omar.
+
+1860
+01:48:55,500 --> 01:48:56,000
+Karim: Okay, they're loading this plane on the tarmac
+
+1861
+01:48:58,500 --> 01:48:59,000
+Karim: Looks like LineAir didn't pay the terminal parking fee..
+
+1862
+01:49:02,500 --> 01:49:03,000
+Karim: Raina, KG,and all that muscle
+
+1863
+01:49:05,000 --> 01:49:05,500
+Karim: have to go to the gate and get on the shuttle
+
+1864
+01:49:07,500 --> 01:49:08,000
+Karim: Should give you time to load up
+
+1865
+01:49:08,500 --> 01:49:09,000
+Karim: and get out before they arrive to board.
+
+1866
+01:49:10,500 --> 01:49:11,000
+Raul: In Spanish: You good? What's going on?
+
+1867
+01:49:12,500 --> 01:49:13,000
+Lucia: Yeah, I'm good.
+
+1868
+01:49:15,000 --> 01:49:15,500
+Raul: Listen, I need to know, okay? whatever it is.
+
+1869
+01:49:18,500 --> 01:49:19,000
+Nate: Hey yo, Juice! s that guy talking shit about me?
+
+1870
+01:49:21,000 --> 01:49:21,500
+Nate: He better shut his fucking mouth before I come over there!
+
+1871
+01:49:23,500 --> 01:49:24,000
+Lucia: KG just got a little jumpy on the way here, that's all.
+
+1872
+01:49:27,000 --> 01:49:27,500
+Lucia: That's why we came back to check on the bags.
+
+1873
+01:49:29,000 --> 01:49:29,500
+Lucia: That's why Cisco's got me and Nate watching you while he
+goeslooking for Omar.
+
+1874
+01:49:33,500 --> 01:49:34,000
+Lucia: He finds Omar, we're fucked
+
+1875
+01:49:37,500 --> 01:49:38,000
+Raul: Don't worry. Nobody's gonna find him.
+
+1876
+01:49:41,000 --> 01:49:41,500
+Raul: Right now the only concern is getting these guys on that
+flight with the bags.
+
+1877
+01:49:45,500 --> 01:49:46,000
+Raul: Right now the only concern is getting these guys on that
+flight with the bags.
+Nate: Hey. you better not be disrespecting me, yo!
+
+1878
+01:49:46,000 --> 01:49:46,500
+Nate: Hey. you better not be disrespecting me, yo!
+
+1879
+01:49:48,000 --> 01:49:48,500
+Nate: Because it sounds like you're disrespecting me.
+
+1880
+01:49:50,500 --> 01:49:51,000
+Nate: You think because I'm white I can't fight?
+
+1881
+01:49:53,000 --> 01:49:53,500
+Raul: In Spanish: Shit, this guy's such a fucking idiot.
+I'm sick of him.
+
+1882
+01:49:56,500 --> 01:49:57,000
+Raul: Start loading the bags soon as we get to the plane.
+
+1883
+01:49:59,000 --> 01:49:59,500
+Raul: Don't give 'em any time for any last-minute checks.
+
+1884
+01:50:02,500 --> 01:50:03,000
+Nate: Hey man, "LineAir." It's right there.
+
+1885
+01:50:04,500 --> 01:50:05,000
+Nate: You make sure we get to that plane
+
+1886
+01:50:06,000 --> 01:50:06,500
+Lucia: Then I gotta figure out how to slip these guys
+
+1887
+01:50:10,000 --> 01:50:10,500
+Raul: Okay, boss! We're here.
+
+1888
+01:50:14,000 --> 01:50:14,500
+Nate: Alright, let's get these bags moving, let's go!
+
+1889
+01:50:19,500 --> 01:50:20,000
+Nate: What's taking so long, man? Chop, chop, motherfucker!
+
+1890
+01:50:22,000 --> 01:50:22,500
+Raul: I'm going, I'm going, man.
+
+1891
+01:50:23,500 --> 01:50:24,000
+Nate: Yo, Cisco, what's up?
+
+1892
+01:50:25,000 --> 01:50:25,500
+Francisco: Yo, listen, I no find Omar, okay? So check the bags.
+
+1893
+01:50:28,500 --> 01:50:29,000
+Nate: Are you serious, dude?
+
+1894
+01:50:30,000 --> 01:50:30,500
+Francisco: I said check the fucking bags, man!
+
+1895
+01:50:31,500 --> 01:50:32,000
+Nate: Alright, alright!
+
+1896
+01:50:33,000 --> 01:50:33,500
+Nate: I gotta check the bags, bro.
+
+1897
+01:50:34,500 --> 01:50:35,000
+Nate: I gotta check the bags, bro.
+Raul: No, no, no time, señor, no time!
+
+1898
+01:50:35,000 --> 01:50:35,500
+Raul: No, no, no time, señor, no time!
+
+1899
+01:50:36,500 --> 01:50:37,000
+Nate: Fuck you, dude.
+
+1900
+01:50:37,000 --> 01:50:37,500
+Nate: Fuck you, dude.
+Raul: No time.
+
+1901
+01:50:37,500 --> 01:50:38,000
+Raul: No time.
+
+1902
+01:50:38,000 --> 01:50:38,500
+Nate: Dude, dude, what the fuck?
+
+1903
+01:50:40,500 --> 01:50:41,000
+Nate: Juice, are you seeing this?
+Am I nuts or is this guy fucking weird?
+
+1904
+01:50:43,500 --> 01:50:44,000
+Nate: Juice, are you seeing this?
+Am I nuts or is this guy fucking weird?
+Lucia: Bro, he's cool, Nate. Let's just get this shit on the plane,
+
+1905
+01:50:44,000 --> 01:50:44,500
+Lucia: Bro, he's cool, Nate. Let's just get this shit on the plane,
+
+1906
+01:50:47,000 --> 01:50:47,500
+Lucia: meet the guys in Colombia and get this done with. C'mon.
+
+1907
+01:50:50,000 --> 01:50:50,500
+Nate: Cartagena's pretty nice.
+
+1908
+01:50:51,500 --> 01:50:52,000
+Lucia: Jewel of the Caribbean.
+
+1909
+01:50:53,000 --> 01:50:53,500
+Nate: Yeah... alright, hold on, bro,
+I'm checking these fucking bags. Back up.
+
+1910
+01:50:57,500 --> 01:50:58,000
+Raul: Hey, 'ey, 'ey, 'ey, 'ey-
+
+1911
+01:50:58,500 --> 01:50:59,000
+Nate: Put the bag down and back the fuck up.
+
+1912
+01:51:01,500 --> 01:51:02,000
+Raul: In Spanish: No! It's my job, man. What are you doing?
+
+1913
+01:51:02,000 --> 01:51:02,500
+Lucia: Nate! Nate!
+
+1914
+01:51:03,000 --> 01:51:03,500
+Lucia: Nate! Nate!
+Nate: Nah. No way. This guy's shifty as fuck, no.
+
+1915
+01:51:03,500 --> 01:51:04,000
+Nate: Nah. No way. This guy's shifty as fuck, no.
+
+1916
+01:51:05,500 --> 01:51:06,000
+Raul: What's your problem, man?
+
+1917
+01:51:07,000 --> 01:51:07,500
+Nate: Well? Well?
+Yo.
+
+1918
+01:51:08,000 --> 01:51:08,500
+Kordell: What the fuck is the hold up?
+
+1919
+01:51:09,500 --> 01:51:10,000
+Nate: This guy, man. Omar didn't show up,
+
+1920
+01:51:12,000 --> 01:51:12,500
+Nate: and I don't know who the fuck this is!
+
+1921
+01:51:16,000 --> 01:51:16,500
+Kordell: You?
+
+1922
+01:51:17,000 --> 01:51:17,500
+Raul: You're too late.
+What?
+
+1923
+01:51:18,500 --> 01:51:19,000
+Kordell: Hold him.
+
+1924
+01:51:20,500 --> 01:51:21,000
+Nate: Come here, motherfucker. Yeah.
+
+1925
+01:51:23,000 --> 01:51:23,500
+Nate: Fuck you, man.
+
+1926
+01:51:24,500 --> 01:51:25,000
+Kordell: What's your game, man?
+
+1927
+01:51:28,000 --> 01:51:28,500
+Nate: Yeah. Fuck you, motherfucker.
+
+1928
+01:51:32,000 --> 01:51:32,500
+Kordell: Don't take your eyes off that bitch.
+What?
+
+1929
+01:51:33,500 --> 01:51:34,000
+Kordell: It's her.
+No.
+
+1930
+01:51:35,000 --> 01:51:35,500
+Nate: No way, man! C'mon, Juicy, tell him. You-you're not-
+
+1931
+01:51:37,500 --> 01:51:38,000
+Lucia: This is the second time I seen this guy, I swear.
+Yeah!
+
+1932
+01:51:40,500 --> 01:51:41,000
+Kordell: It's her.
+Whoa!
+
+1933
+01:51:41,500 --> 01:51:42,000
+Nate: Whoa, man, no, c'mon. She's one of us!
+
+1934
+01:51:44,500 --> 01:51:45,000
+Kordell: Don't move, bitch. Nate,
+
+1935
+01:51:46,500 --> 01:51:47,000
+Kordell: check the bag.
+Oh, shit. Okay.
+
+1936
+01:51:51,000 --> 01:51:51,500
+Nate: Oh, God, shit. Fuck!
+
+1937
+01:51:53,500 --> 01:51:54,000
+Nate: Oh, shit. Shit.
+Nate, tell me the money's there.
+
+1938
+01:51:56,500 --> 01:51:57,000
+Nate: No money, bro.
+
+1939
+01:51:59,500 --> 01:52:00,000
+Nate: Juicy...
+
+1940
+01:52:01,500 --> 01:52:02,000
+Nate: No...
+
+1941
+01:52:02,500 --> 01:52:03,000
+Staff member: Excuse me, sir?
+
+1942
+01:52:04,000 --> 01:52:04,500
+Staff member: This area's restricted.
+
+1943
+01:52:06,000 --> 01:52:06,500
+Staff member: Sir, what is the prob-
+
+1944
+01:52:08,000 --> 01:52:08,500
+Kordell: Bitch!
+No!
+
+1945
+01:52:16,500 --> 01:52:17,000
+Kordell: Stupid motherfucker.
+
+1946
+01:52:23,000 --> 01:52:23,500
+Ground Crew: Shit, shit!
+Move, move, move!
+
+1947
+01:52:26,500 --> 01:52:27,000
+Kordell: We gettin' on that fuckin' plane,
+
+1948
+01:52:28,500 --> 01:52:29,000
+Kordell: and you tellin' me where the fuck you got my money!
+Yeah.
+
+1949
+01:52:32,000 --> 01:52:32,500
+Kordell: I'll find you, bitch!
+
+1950
+01:52:33,500 --> 01:52:34,000
+Kordell: Go! Go! Get 'em on.
+
+1951
+01:52:35,000 --> 01:52:35,500
+Kordell: Get everybody on that fuckin' plane!
+
+1952
+01:52:37,000 --> 01:52:37,500
+Nate: It wasn't you, Juicy, was it?
+
+1953
+01:52:40,500 --> 01:52:41,000
+Nate: He's crazy, right?
+
+1954
+01:52:42,000 --> 01:52:42,500
+Nate: He's fucking crazy?
+
+1955
+01:52:44,000 --> 01:52:44,500
+Nate: Oh, fuck.
+
+1956
+01:52:45,500 --> 01:52:46,000
+Nate: Oh, it's so cold here.
+
+1957
+01:52:48,500 --> 01:52:49,000
+Nate: Good thing we're going to...
+
+1958
+01:52:50,000 --> 01:52:50,500
+Nate: Cartagena.
+
+1959
+01:52:52,500 --> 01:52:53,000
+Nate: Oh, fuck.
+Yeah.
+
+1960
+01:52:55,000 --> 01:52:55,500
+Lucia: It's gonna be beautiful, man.
+
+1961
+01:52:58,500 --> 01:52:59,000
+Lucia: Hang in there, Bozo.
+
+1962
+01:53:01,000 --> 01:53:01,500
+Lucia: Hang in-
+
+1963
+01:53:06,500 --> 01:53:07,000
+Lucia: Shit.
+
+1964
+01:53:18,000 --> 01:53:18,500
+Karim: Fuck!
+What are you doing here?
+
+1965
+01:53:20,500 --> 01:53:21,000
+Karim: C'mon, where's there's trouble, I run at it.
+
+1966
+01:53:23,500 --> 01:53:24,000
+Karim: Kordell's got Raul, I think they're hijacking the fuckin' plane.
+
+1967
+01:53:26,500 --> 01:53:27,000
+Karim: Cops are everywhere.
+
+1968
+01:53:28,000 --> 01:53:28,500
+Karim: Lucia's trying to do something, but-
+Oh, fuck.
+
+1969
+01:53:31,000 --> 01:53:31,500
+Andrea: Yo, what're you doing?
+
+1970
+01:53:32,500 --> 01:53:33,000
+Jason: I'm going after 'em.
+
+1971
+01:53:34,000 --> 01:53:34,500
+Jason: Load the money with Karim, get it outta here.
+
+1972
+01:53:37,000 --> 01:53:37,500
+Andrea: That's not your job, stick to the plan.
+
+1973
+01:53:39,500 --> 01:53:40,000
+Jason: The plan's fucked. Get the money outta here.
+Shit!
+
+1974
+01:53:52,500 --> 01:53:53,000
+Cop: Gun! We got a gun!
+Drop the fucking weapon!
+
+1975
+01:53:54,000 --> 01:53:54,500
+Jason: Oh, shit.
+
+1976
+01:54:08,500 --> 01:54:09,000
+Jason: Lucia, come in. You there?
+
+1977
+01:54:10,000 --> 01:54:10,500
+Lucia: Jason, yeah, I'm here. It's all gone to shit.
+
+1978
+01:54:13,000 --> 01:54:13,500
+Jason: Okay, hold tight. I'm coming to you.
+
+1979
+01:55:00,500 --> 01:55:01,000
+Lucia: More cops jut showed up I don't think I can't hold 'em off
+here!
+
+1980
+01:55:35,000 --> 01:55:35,500
+Lucia: I hear gunfire. Is that you?
+
+1981
+01:55:52,500 --> 01:55:53,000
+Jason: Almost with you, Lu. Hold on.
+
+1982
+01:55:59,500 --> 01:56:00,000
+SWAT: We got a hijacking, people!
+
+1983
+01:56:02,000 --> 01:56:02,500
+Jason: Lu! What happened?
+
+1984
+01:56:03,000 --> 01:56:03,500
+Lucia: KG's got Raul!
+
+1985
+01:56:04,500 --> 01:56:05,000
+Lucia: He took him on the plane!
+
+1986
+01:56:06,000 --> 01:56:06,500
+Lucia: He's got a bunch of meathead goons on board, too.
+
+1987
+01:56:09,000 --> 01:56:09,500
+Local: Hey, I need to be on that plane!
+
+1988
+01:56:10,500 --> 01:56:11,000
+Jason: Don't worry about Raul. We'll get him.
+
+1989
+01:56:18,000 --> 01:56:18,500
+SWAT: Suspects are on the plane.
+
+1990
+01:56:20,000 --> 01:56:20,500
+SWAT: Repeat, they have hijacked the plane!
+
+1991
+01:56:26,000 --> 01:56:26,500
+Lucia: He knows we swapped the cash.
+
+1992
+01:56:27,500 --> 01:56:28,000
+Lucia: He knows the money's not on board.
+Just think what he'll do next!
+
+1993
+01:56:31,000 --> 01:56:31,500
+Lucia: Jay, we can't leave Raul on that plane!
+
+1994
+01:56:33,500 --> 01:56:34,000
+Lucia: We can't just let them go!
+
+1995
+01:56:35,500 --> 01:56:36,000
+Andrea: Jason! Where the fuck are you?
+
+1996
+01:56:39,500 --> 01:56:40,000
+Jason: I'm with Lu. What's going on?
+
+1997
+01:56:41,000 --> 01:56:41,500
+Andrea: They got the fucking truck.
+
+1998
+01:56:42,500 --> 01:56:43,000
+Andrea: The money's gone!
+
+1999
+01:56:44,000 --> 01:56:44,500
+Jason: What are you talking about? Who?
+
+2000
+01:56:45,500 --> 01:56:46,000
+Andrea: Cisco!
+
+2001
+01:56:47,000 --> 01:56:47,500
+Andrea: I guess he found Omar.
+
+2002
+01:56:48,500 --> 01:56:49,000
+Andrea: They came and jumped us.
+
+2003
+01:56:50,000 --> 01:56:50,500
+Andrea: They got Karim, too.
+
+2004
+01:56:52,500 --> 01:56:53,000
+Francisco: Where you going, huh?
+
+2005
+01:56:56,000 --> 01:56:56,500
+Francisco: I'm gonna kill you, man!
+
+2006
+01:56:57,500 --> 01:56:58,000
+Karim: Oh, please don't do that.
+
+2007
+01:57:01,000 --> 01:57:01,500
+Lucia: Andrea, hold tight.
+
+2008
+01:57:02,500 --> 01:57:03,000
+Lucia: I'm gettin' on that plane.
+
+2009
+01:57:04,000 --> 01:57:04,500
+Jason: The truck. Let's go.
+Over there. Keep them in sight!
+
+2010
+01:57:14,000 --> 01:57:14,500
+Lucia: Okay, just get me on the plane then you go after that
+truck!
+
+2011
+01:57:17,500 --> 01:57:18,000
+Lucia: What's my best shot?
+
+2012
+01:57:19,000 --> 01:57:19,500
+Jason: See that gap under the landing gear?
+
+2013
+01:57:26,500 --> 01:57:27,000
+Lucia: Steady...
+
+2014
+01:57:29,500 --> 01:57:30,000
+Lucia: Right here, keep it steady!
+
+2015
+01:57:34,000 --> 01:57:34,500
+Jason: That's it. Go get 'em, Lu.
+
+2016
+01:57:46,000 --> 01:57:46,500
+Andrea: Jason, you see the truck yet?
+
+2017
+01:57:47,500 --> 01:57:48,000
+Jason: I'm right behind 'em! Just follow me.
+
+2018
+01:57:53,500 --> 01:57:54,000
+Dispatch: All units responding to aircraft hijacking at Vice City
+Airport.
+
+2019
+01:57:57,000 --> 01:57:57,500
+Dispatch: Please be advised, armed suspects on board.
+
+2020
+01:57:59,500 --> 01:58:00,000
+Dispatch: Requesting backup from all nearby units.
+
+2021
+01:58:43,000 --> 01:58:43,500
+Jason: Lu, you there?
+
+2022
+01:58:44,000 --> 01:58:44,500
+Lucia: I'm still... Look... a... way...
+
+2023
+01:58:47,000 --> 01:58:47,500
+Jason: Lu? I can't hear you!
+
+2024
+01:58:49,500 --> 01:58:50,000
+Lucia: Found a... to... inside...
+
+2025
+01:58:51,000 --> 01:58:51,500
+Jason: Lu? Lu?
+
+2026
+01:58:54,000 --> 01:58:54,500
+Jason: Andrea, you getting anything from her?
+
+2027
+01:58:55,500 --> 01:58:56,000
+Andrea: Negative.
+
+2028
+01:59:07,500 --> 01:59:08,000
+Raina: You.
+
+2029
+01:59:09,000 --> 01:59:09,500
+Lucia: Fuck.
+
+2030
+01:59:13,000 --> 01:59:13,500
+Raina: Jump!
+
+2031
+01:59:14,000 --> 01:59:14,500
+Raina: Maybe you'll survive?
+
+2032
+01:59:16,500 --> 01:59:17,000
+Lucia: The money's not even on board, bitch!
+
+2033
+01:59:19,500 --> 01:59:20,000
+Lucia: You jump!
+
+2034
+01:59:24,000 --> 01:59:24,500
+Lucia: Bring it, bitch!
+
+2035
+01:59:26,500 --> 01:59:27,000
+Raina: You're too small for me!
+
+2036
+01:59:28,500 --> 01:59:29,000
+Lucia: Yeah, you're definitely a bigger bitch than I am!
+
+2037
+01:59:31,500 --> 01:59:32,000
+Raina: I hate your fucking guts, Lucia!
+
+2038
+01:59:34,000 --> 01:59:34,500
+Lucia: Bitch! You can't beat me!
+
+2039
+01:59:55,500 --> 01:59:56,000
+Raina: You'll die here!
+
+2040
+02:00:17,000 --> 02:00:17,500
+Raina: In Russian: You're powerless! Let go.
+
+2041
+02:00:21,000 --> 02:00:21,500
+Lucia: Bitch...
+
+2042
+02:00:21,500 --> 02:00:22,000
+Lucia: Bitch...
+Raina: No!
+
+2043
+02:00:22,000 --> 02:00:22,500
+Raina: No!
+
+2044
+02:00:23,000 --> 02:00:23,500
+Raina: No!
+Lucia: You jump!
+
+2045
+02:00:48,500 --> 02:00:49,000
+Jason: Oh, fuck! Karim!
+
+2046
+02:00:50,000 --> 02:00:50,500
+Karim: Ahh! Help-
+
+2047
+02:00:50,500 --> 02:00:51,000
+Francisco: Maricon!
+
+2048
+02:00:56,500 --> 02:00:57,000
+Jason: Fuck! Ah, shit, Andrea!
+
+2049
+02:00:59,500 --> 02:01:00,000
+Andrea: What? What is it?
+
+2050
+02:01:00,500 --> 02:01:01,000
+Jason: Karim! He's- he's gone. Fuck...
+
+2051
+02:01:04,500 --> 02:01:05,000
+Andrea: Ah shit, Karim...
+
+2052
+02:01:07,000 --> 02:01:07,500
+Jason: Alright, I'm comin'... I'm coming, motherfucker.
+
+2053
+02:01:11,500 --> 02:01:12,000
+Jason: That's how you wanna do this?
+
+2054
+02:01:17,000 --> 02:01:17,500
+Francisco: Hey, what's your fucking problem?
+
+2055
+02:01:22,500 --> 02:01:23,000
+Francisco: Hey, hey! Listen to me! It's over, man! It's done!
+
+2056
+02:01:29,500 --> 02:01:30,000
+Francisco: It's my money, motherfucker!
+
+2057
+02:01:40,000 --> 02:01:40,500
+Francisco: Better you turn around while you can!
+
+2058
+02:01:42,500 --> 02:01:43,000
+Francisco: You're next, man! You come for me, I kill you all!
+
+2059
+02:01:49,000 --> 02:01:49,500
+Francisco: Are you listening to me, motherfucker?
+
+2060
+02:01:56,500 --> 02:01:57,000
+Jason: Yeah, you fucked up.
+
+2061
+02:02:15,000 --> 02:02:15,500
+Francisco: ¡Mamaguevo!
+
+2062
+02:02:16,500 --> 02:02:17,000
+Francisco: You and me, man.
+
+2063
+02:02:18,000 --> 02:02:18,500
+Francisco: Let's do this.
+
+2064
+02:02:20,500 --> 02:02:21,000
+Francisco: You? What the fuck, man? Now I'm gonna break you.
+
+2065
+02:02:29,000 --> 02:02:29,500
+Jason: All that for nothing?
+
+2066
+02:02:30,000 --> 02:02:30,500
+Omar: Just let me go, man.
+
+2067
+02:02:31,500 --> 02:02:32,000
+Omar: I don't wanna be here no more.
+
+2068
+02:02:52,000 --> 02:02:52,500
+Andrea: You done here?
+
+2069
+02:02:53,500 --> 02:02:54,000
+Andrea: You done here?
+Jason: Yeah, it's over.
+
+2070
+02:02:54,000 --> 02:02:54,500
+Jason: Yeah, it's over.
+
+2071
+02:02:55,000 --> 02:02:55,500
+Andrea: Load the bags. Can't waste any more time.
+
+2072
+02:03:07,000 --> 02:03:07,500
+Guard: Who are all these people, man? What are we doing?
+
+2073
+02:03:10,000 --> 02:03:10,500
+Guard: Fuck are you talking about?
+
+2074
+02:03:11,500 --> 02:03:12,000
+Guard: They're passengers, and you're the flight attendant.
+
+2075
+02:03:19,000 --> 02:03:19,500
+Local: Oh jeez! Oh no! No!
+
+2076
+02:03:19,500 --> 02:03:20,000
+Local: Oh jeez! Oh no! No!
+Local: No, no.
+
+2077
+02:03:21,500 --> 02:03:22,000
+Lucia: Don't look at me.
+
+2078
+02:03:23,500 --> 02:03:24,000
+Guard: You fuck with me, you find out!
+
+2079
+02:03:28,500 --> 02:03:29,000
+Lucia: Head down.
+
+2080
+02:03:32,000 --> 02:03:32,500
+Guard: Stupid ass fuck!
+
+2081
+02:03:56,500 --> 02:03:57,000
+Lucia: Raul... Raul!
+
+2082
+02:03:59,000 --> 02:03:59,500
+Kordell: Gimme that shit!
+
+2083
+02:04:01,000 --> 02:04:01,500
+Kordell: Get over here!
+
+2084
+02:04:02,500 --> 02:04:03,000
+Kordell: Stay down, bitch!
+
+2085
+02:04:04,500 --> 02:04:05,000
+Kordell: How much, huh? How much is he paying you to fuck me?
+
+2086
+02:04:09,000 --> 02:04:09,500
+Kordell: Worth getting' yo' wig split?
+
+2087
+02:04:10,500 --> 02:04:11,000
+Raul: Hey, KG, you motherfucker!
+
+2088
+02:04:12,000 --> 02:04:12,500
+Raul: Hey, KG, you motherfucker!
+Local: Get yo' ass, nigga! Not on my plane!
+
+2089
+02:04:12,500 --> 02:04:13,000
+Local: Get yo' ass, nigga! Not on my plane!
+
+2090
+02:04:16,500 --> 02:04:17,000
+Kordell: Bitch!
+
+2091
+02:04:19,500 --> 02:04:20,000
+Kordell: C'mon, harder!
+
+2092
+02:04:23,500 --> 02:04:24,000
+Kordell: When you gonna learn, Raul? It's me, motherfucker...
+
+2093
+02:04:26,000 --> 02:04:26,500
+Kordell: I'm the king of this shit!
+
+2094
+02:04:34,500 --> 02:04:35,000
+Kordell: My face is gonna be the last thing you see before you
+die.
+
+2095
+02:04:42,000 --> 02:04:42,500
+Lucia: Go...
+
+2096
+02:04:42,500 --> 02:04:43,000
+Kordell: Ah, argh! Ah!
+
+2097
+02:04:43,000 --> 02:04:43,500
+Kordell: Ah, argh! Ah!
+Lucia: to...
+
+2098
+02:04:44,500 --> 02:04:45,000
+Lucia: Hell!
+
+2099
+02:05:05,500 --> 02:05:06,000
+Lucia: Raul? Hey, Raul?
+
+2100
+02:05:13,000 --> 02:05:13,500
+Lucia: C'mon. Get up.
+
+2101
+02:05:15,000 --> 02:05:15,500
+Raul: Looks like we got no pilot.
+
+2102
+02:05:16,500 --> 02:05:17,000
+Lucia: I know.
+
+2103
+02:05:18,000 --> 02:05:18,500
+Lucia: Hurry.
+
+2104
+02:05:18,500 --> 02:05:19,000
+Raul: What happened to KG?
+
+2105
+02:05:20,000 --> 02:05:20,500
+Lucia: Had to cancel his flight last minute.
+
+2106
+02:05:22,500 --> 02:05:23,000
+Raul: You fly?
+
+2107
+02:05:23,500 --> 02:05:24,000
+Lucia: Learned on a date, once.
+
+2108
+02:05:25,000 --> 02:05:25,500
+Lucia: I'm not too bad at it!
+
+2109
+02:05:30,000 --> 02:05:30,500
+Jason: You get the bags, I'll get the cops.
+
+2110
+02:05:34,500 --> 02:05:35,000
+SWAT: Drop it, motherfucker!
+
+2111
+02:05:53,000 --> 02:05:53,500
+Andrea: You watching my back or what?
+
+2112
+02:06:36,500 --> 02:06:37,000
+Andrea: We're good!
+
+2113
+02:06:41,000 --> 02:06:41,500
+Andrea: Let's go!
+
+2114
+02:06:44,500 --> 02:06:45,000
+Andrea: That's all the bags, let's go!
+
+2115
+02:07:00,500 --> 02:07:01,000
+Lucia: Holy shit!
+
+2116
+02:07:03,500 --> 02:07:04,000
+Raul: You got this! You got this!
+
+2117
+02:07:05,500 --> 02:07:06,000
+Raul: Th-the building! The fucking building!
+
+2118
+02:07:08,000 --> 02:07:08,500
+Lucia: Yeah, yeah, yeah! I got it, I got it!
+
+2119
+02:07:11,500 --> 02:07:12,000
+Lucia: Yeah, yeah, yeah! I got it, I got it!
+Raul: Pull it up! Pull it up!
+
+2120
+02:07:13,000 --> 02:07:13,500
+Raul: Pull it up! Pull it up!
+
+2121
+02:07:16,500 --> 02:07:17,000
+Lucia: Alright! I'm going for the water!
+
+2122
+02:07:19,000 --> 02:07:19,500
+Lucia: Hold onto something!
+
+2123
+02:07:20,000 --> 02:07:20,500
+Lucia: Hold onto something!
+Raul: I'm holding, I'm holding!
+
+2124
+02:07:20,500 --> 02:07:21,000
+Raul: I'm holding, I'm holding!
+
+2125
+02:07:24,500 --> 02:07:25,000
+Lucia: Alright, here we go!
+
+2126
+02:07:39,500 --> 02:07:40,000
+Lucia: Holy shit... fuck. You good?
+
+2127
+02:07:44,000 --> 02:07:44,500
+Lucia: Holy shit... fuck. You good?
+Raul: Must have been some date...
+
+2128
+02:07:45,500 --> 02:07:46,000
+Raul: Must have been some date...
+
+2129
+02:07:52,500 --> 02:07:53,000
+Raul: Alright, let's go.
+
+2130
+02:07:58,500 --> 02:07:59,000
+Rescuer: C'mon, man.
+
+2131
+02:08:02,500 --> 02:08:03,000
+Rescuer: That's it, yup.
+
+2132
+02:08:07,500 --> 02:08:08,000
+Rescuer: C'mon, you got it, you got it.
+
+2133
+02:08:09,000 --> 02:08:09,500
+Rescuer: Okay, yeah, c'mon.
+
+2134
+02:08:14,500 --> 02:08:15,000
+Raul: Oof, man, I'm glad you guys were out there for us.
+
+2135
+02:08:17,500 --> 02:08:18,000
+Raul: Thank you, thank you, again.
+
+2136
+02:08:20,500 --> 02:08:21,000
+Raul: I got you.
+Thank you.
+
+2137
+02:08:23,000 --> 02:08:23,500
+Raul: Ah, shit.
+
+2138
+02:08:24,500 --> 02:08:25,000
+Raul: It's not good news about Karim.
+
+2139
+02:08:26,500 --> 02:08:27,000
+Raul: Jason dropped off the cash,
+says he's gonna meet you at the hotel.
+
+2140
+02:08:29,500 --> 02:08:30,000
+Raul: In Spanish: Let's go.
+
+2141
+02:08:32,500 --> 02:08:33,000
+Raul: Hey, you, uh, you did good. I owe you.
+
+2142
+02:08:35,500 --> 02:08:36,000
+Lucia: Wasn't gonna let you catch that plane by yourself, shit.
+
+2143
+02:08:38,500 --> 02:08:39,000
+Raul: Gracias.
+
+2144
+02:08:40,000 --> 02:08:40,500
+Raul: Look, next step, we sell the hard drive.
+
+2145
+02:08:43,000 --> 02:08:43,500
+Raul: Just gotta get some ducks in a row,
+
+2146
+02:08:45,000 --> 02:08:45,500
+Raul: then we find out which party wants to pay us
+
+2147
+02:08:46,500 --> 02:08:47,000
+Raul: the most. My money is on Camila.
+
+2148
+02:08:49,500 --> 02:08:50,000
+Lucia: And we can still do this right?
+
+2149
+02:08:52,000 --> 02:08:52,500
+Lucia: Even with Karim...
+Hey.
+
+2150
+02:08:53,500 --> 02:08:54,000
+Raul: Karim.
+
+2151
+02:08:55,000 --> 02:08:55,500
+Raul: In Spanish: May he rest in peace.
+
+2152
+02:08:57,000 --> 02:08:57,500
+Raul: Took care of us already.
+
+2153
+02:08:58,500 --> 02:08:59,000
+Raul: We know who's in play.
+
+2154
+02:08:59,500 --> 02:09:00,000
+Raul: Vale and Abe are gonna handle the auction,
+
+2155
+02:09:01,500 --> 02:09:02,000
+Raul: keep things confidential.
+
+2156
+02:09:03,500 --> 02:09:04,000
+Raul: Get us a deal.
+
+2157
+02:09:04,500 --> 02:09:05,000
+Raul: Then it's up to us to bring it over the line.
+
+2158
+02:09:07,000 --> 02:09:07,500
+Raul: We're cool?
+
+2159
+02:09:10,500 --> 02:09:11,000
+Raul: Cool?
+Yeah, it's cool.
+
+2160
+02:09:13,000 --> 02:09:13,500
+Raul: Hmm.
+
+2161
+02:09:14,000 --> 02:09:14,500
+Raul: In Spanish: Look, look, look, look, look.
+
+2162
+02:09:17,000 --> 02:09:17,500
+Raul: We got this.
+
+2163
+02:09:19,000 --> 02:09:19,500
+Raul: Everything you've been through is gonna be worth it in the
+end.
+
+2164
+02:09:22,000 --> 02:09:22,500
+Raul: In Spanish: Understand me?
+
+2165
+02:09:23,500 --> 02:09:24,000
+Raul: I just gotta do a few things, need a couple of weeks, then...
+
+2166
+02:09:27,500 --> 02:09:28,000
+Raul: Then I'll be in touch.
+
+2167
+02:09:29,500 --> 02:09:30,000
+Lucia: What do we do 'til then?
+
+2168
+02:09:32,000 --> 02:09:32,500
+Raul: If I got to tell you how to kill time in Vice City
+
+2169
+02:09:34,500 --> 02:09:35,000
+Raul: with money in your pocket, muchacha,
+
+2170
+02:09:37,500 --> 02:09:38,000
+Raul: there is literally something wrong with you.
+
+2171
+02:09:40,500 --> 02:09:41,000
+Lucia: You got a ride?
+
+2172
+02:09:41,500 --> 02:09:42,000
+Raul: Ay, ay, ay, ay, ay.
+
+2173
+02:09:43,000 --> 02:09:43,500
+Raul: This is my town!
+
+2174
+02:09:49,500 --> 02:09:50,000
+Bartender: Two coconuts, daybed six.
+
+2175
+02:09:52,500 --> 02:09:53,000
+Waitress: Can you chase Darwin on that, uh,
+magnum of gros poulet
+
+2176
+02:09:55,000 --> 02:09:55,500
+Waitress: for the douchebags at cabana nine?
+I got you.
+
+2177
+02:09:58,500 --> 02:09:59,000
+Man: Yo, I'm filming, bro! Hey, hey, hey.
+
+2178
+02:10:01,000 --> 02:10:01,500
+Man: Do a bomb, bro. Do a bomb.
+Nah, check this out. Front flip!
+
+2179
+02:10:03,000 --> 02:10:03,500
+Man: Oh, shit! I'm puttin' it in the group, bro!
+
+2180
+02:10:05,500 --> 02:10:06,000
+Girl: Okay, delete that, I look blind.
+What? You look cute!
+
+2181
+02:10:09,000 --> 02:10:09,500
+Girl: I look like I need a guide dog, delete.
+
+2182
+02:10:12,500 --> 02:10:13,000
+Waitress: Hey!
+
+2183
+02:10:14,500 --> 02:10:15,000
+Waitress: Your coconuts.
+
+2184
+02:10:18,000 --> 02:10:18,500
+Waitress: Have a nice day.
+Thank you.
+
+2185
+02:10:22,000 --> 02:10:22,500
+Lucia: I wanna get fancy burgers.
+
+2186
+02:10:25,500 --> 02:10:26,000
+Jason: I was thinking shrimp rolls.
+
+2187
+02:10:27,500 --> 02:10:28,000
+Lucia: We had shrimp rolls yesterday.
+
+2188
+02:10:29,000 --> 02:10:29,500
+Jason: Well, we gotta tell Raul we're running out of menu options.
+
+2189
+02:10:33,500 --> 02:10:34,000
+Lucia: If he hasn't run off to a private island somewhere.
+
+2190
+02:10:37,500 --> 02:10:38,000
+Jason: He'll be back.
+
+2191
+02:10:39,500 --> 02:10:40,000
+Jason: I'm gonna go see if there are any specials, or something.
+Okay.
+
+2192
+02:10:42,000 --> 02:10:42,500
+Man: Yeah, need to be a regular check, at the start of the month.
+
+2193
+02:10:46,500 --> 02:10:47,000
+Man: Theatre major.
+
+2194
+02:10:48,000 --> 02:10:48,500
+Man: She's a great dancer.
+
+2195
+02:10:50,500 --> 02:10:51,000
+Man: No, you can't write that down.
+
+2196
+02:10:51,500 --> 02:10:52,000
+Lucia: Yo! Cover your fries, bro.
+Fuck off.
+
+2197
+02:10:55,000 --> 02:10:55,500
+Man: No, not you.
+
+2198
+02:10:56,000 --> 02:10:56,500
+Man: How much can I give this chick, legally,
+
+2199
+02:10:58,000 --> 02:10:58,500
+Man: without having to declare it for tax?
+
+2200
+02:11:00,500 --> 02:11:01,000
+Man: Uh-huh.
+
+2201
+02:11:01,500 --> 02:11:02,000
+Man: No, that's not gonna happen.
+
+2202
+02:11:05,500 --> 02:11:06,000
+Lucia: Anything new?
+
+2203
+02:11:07,000 --> 02:11:07,500
+Jason: Not since yesterday.
+
+2204
+02:11:08,500 --> 02:11:09,000
+Jason: I'm not even that hungry, anyway.
+
+2205
+02:11:12,000 --> 02:11:12,500
+Lucia: Yeah, I'm so ready to get this done.
+
+2206
+02:11:15,500 --> 02:11:16,000
+Jason: Yeah, I know what you mean.
+
+2207
+02:11:17,000 --> 02:11:17,500
+Jason: What did the last text from him say?
+
+2208
+02:11:19,500 --> 02:11:20,000
+Lucia: He said he was in the Bahamas and reception was spotty.
+
+2209
+02:11:22,500 --> 02:11:23,000
+Lucia: He'll come back and be in touch when the deal is on.
+
+2210
+02:11:24,500 --> 02:11:25,000
+Jason: Right, so the deal's not on yet, is it? Abe woulda told us.
+
+2211
+02:11:28,000 --> 02:11:28,500
+Lucia: I guess.
+
+2212
+02:11:29,000 --> 02:11:29,500
+Jason: We got nothing to worry about.
+Raul paid us our ten percent for the airport.
+
+2213
+02:11:33,500 --> 02:11:34,000
+Jason: Rest of the bank job money should be coming through,
+and then everything else soon after.
+
+2214
+02:11:37,500 --> 02:11:38,000
+Jason: Hey, and look, we already got our passports.
+
+2215
+02:11:40,000 --> 02:11:40,500
+Jason: We can just go if we need to. Grab Tommy and run.
+
+2216
+02:11:43,000 --> 02:11:43,500
+Lucia: And leave all that cash on the table? I don't think so.
+
+2217
+02:11:46,500 --> 02:11:47,000
+Jason: Yeah, so we wait.
+
+2218
+02:11:48,000 --> 02:11:48,500
+Lucia: We got a whole lot of eggs in one basket though,
+don't we?
+
+2219
+02:11:52,000 --> 02:11:52,500
+Jason: Let's fill up another basket then, you know?
+
+2220
+02:11:54,500 --> 02:11:55,000
+Jason: Diversify. Make ourselves some insurance money.
+
+2221
+02:11:57,500 --> 02:11:58,000
+Jason: Yasmani said he had some new leads.
+
+2222
+02:11:59,500 --> 02:12:00,000
+Jason: Otherwise, we gotta try and relax. Enjoy this.
+
+2223
+02:12:04,500 --> 02:12:05,000
+Lucia: Mmm.
+
+2224
+02:12:13,500 --> 02:12:14,000
+Jason: We wanna kill some time,
+Yasmani's got a lead on that bank vault.
+
+2225
+02:12:17,000 --> 02:12:17,500
+Jason: Might be worth checking out.
+
+2226
+02:12:46,500 --> 02:12:47,000
+Lucia: I guess I should probably go see Andy.
+She messaged like forever ago.
+
+2227
+02:12:50,500 --> 02:12:51,000
+Jason: I'm sure she'd appreciate it.
+
+2228
+02:13:33,000 --> 02:13:33,500
+Staff Member: Mr. Ye? Please wake up.
+
+2229
+02:13:35,000 --> 02:13:35,500
+Abe: Hey, hey. I got to give it to you, you guys surprised me.
+
+2230
+02:13:38,500 --> 02:13:39,000
+Abe: Here I was thinking you were a couple of junkie idiots
+
+2231
+02:13:40,500 --> 02:13:41,000
+Abe: who'd never amount to nothing.
+
+2232
+02:13:41,500 --> 02:13:42,000
+Abe: When in reality, you are a couple of junkie idiots
+
+2233
+02:13:44,000 --> 02:13:44,500
+Abe: sitting on the mother of all paydays.
+
+2234
+02:13:46,500 --> 02:13:47,000
+Abe: Bravo, it's a pleasure to know you.
+
+2235
+02:13:49,500 --> 02:13:50,000
+Lucia: Yeah, thanks. Is someone gonna actually pay us for the
+drive?
+
+2236
+02:13:53,500 --> 02:13:54,000
+Abe: Oh yeah. I'd get us paid twice if it was up to me,
+
+2237
+02:13:55,500 --> 02:13:56,000
+Abe: but Valentina's keepin' it on the straight and narrow.
+
+2238
+02:13:58,000 --> 02:13:58,500
+Abe: She's the face of this operation and, unlike me,
+she's actually got some morals.
+
+2239
+02:14:03,000 --> 02:14:03,500
+Abe: Now, we got two interested parties,
+extremely interested parties,
+
+2240
+02:14:06,500 --> 02:14:07,000
+Abe: and we'll choose our preferred bidder shortly.
+Well done you.
+
+2241
+02:14:09,000 --> 02:14:09,500
+Jason: Alright, man. Keep us posted.
+
+2242
+02:14:10,500 --> 02:14:11,000
+Abe: Will do. Bye now.
+
+2243
+02:14:17,000 --> 02:14:17,500
+Jason: Okay, that's something at least. They're working on it.
+
+2244
+02:14:20,000 --> 02:14:20,500
+Lucia: Yeah, they better be.
+
+2245
+02:14:22,500 --> 02:14:23,000
+Jason: Two interested parties sounds good.
+
+2246
+02:14:24,500 --> 02:14:25,000
+Lucia: Yeah, I can't even think about this until we hear something
+real.
+
+2247
+02:14:28,000 --> 02:14:28,500
+Jason: Should be soon...
+
+2248
+02:14:39,500 --> 02:14:40,000
+Jason: Oh hey, Valentina.
+
+2249
+02:14:40,500 --> 02:14:41,000
+Valentina: Hey... can't believe you held out on me.
+
+2250
+02:14:44,000 --> 02:14:44,500
+Valentina: You've been sitting on this hard drive the whole time
+and you didn't even think to mention it? Jason.
+
+2251
+02:14:50,000 --> 02:14:50,500
+Jason: Yeah, well, it's kinda sensitive information.
+Had to play our cards close to the chest.
+
+2252
+02:14:56,000 --> 02:14:56,500
+Valentina: Mm-hmm. Luckily,
+I know all about it now and I'm doing everything I can to help you.
+Don't worry, you're in good hands.
+
+2253
+02:15:04,000 --> 02:15:04,500
+Jason: Got any information there? Raul's not really contactable.
+We'd like to do this quick.
+
+2254
+02:15:10,000 --> 02:15:10,500
+Valentina: These are powerful people, Jason. Camila Fuentes?
+Giorgio Gallo?
+
+2255
+02:15:15,000 --> 02:15:15,500
+Valentina: Not the kind of individuals who respond well to being
+pushed, so,
+
+2256
+02:15:19,500 --> 02:15:20,000
+Valentina: I would not advise trying that.
+
+2257
+02:15:21,500 --> 02:15:22,000
+Jason: In my experience,
+you don't know how someone responds to being pushed until you
+push 'em.
+
+2258
+02:15:25,500 --> 02:15:26,000
+Valentina: Okay, you've heard my advice.
+I want to get you a good deal, not a quick deal, but,
+
+2259
+02:15:31,000 --> 02:15:31,500
+Valentina: if you really want to expedite things,
+think about it and call me back. I will see what I can do.
+
+2260
+02:15:36,000 --> 02:15:36,500
+Jason: Okay. Thanks.
+
+2261
+02:15:37,500 --> 02:15:38,000
+Valentina: Bye.
+
+2262
+02:16:36,500 --> 02:16:37,000
+Valentina: Jason.
+
+2263
+02:16:37,500 --> 02:16:38,000
+Jason: Hey, Valentina. We want to try and move this deal along.
+
+2264
+02:16:41,000 --> 02:16:41,500
+Jason: Can you put some pressure on the buyers?
+
+2265
+02:16:43,000 --> 02:16:43,500
+Valentina: You really want to do this? Okay, I'll see what I can do.
+
+2266
+02:16:47,000 --> 02:16:47,500
+Jason: Thanks.
+
+2267
+02:16:59,000 --> 02:16:59,500
+Jason: Uh, hello?
+
+2268
+02:17:00,000 --> 02:17:00,500
+Santino: Hey, it's Santino from guest services.
+
+2269
+02:17:02,500 --> 02:17:03,000
+Jason: Yeah, what's up, man?
+
+2270
+02:17:03,500 --> 02:17:04,000
+Santino: There's a note at the front desk for you.
+
+2271
+02:17:06,000 --> 02:17:06,500
+Santino: Apparently something you've been waiting for?
+
+2272
+02:17:08,000 --> 02:17:08,500
+Santino: They said it's important.
+
+2273
+02:17:09,500 --> 02:17:10,000
+Jason: Okay, we'll come pick it up. Thanks.

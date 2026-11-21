@@ -1,0 +1,914 @@
+{
+  "part": 1,
+  "complete": true,
+  "reviewed_records": 2943,
+  "read_ranges": [
+    [
+      0,
+      2943
+    ]
+  ],
+  "method": "Every existing English/Turkish record read in chronological order; repeated identical adjacent records compared together. Changed and uncertain continuation chains checked in native source crops. No full video rescan.",
+  "changed_record_count": 29,
+  "turkish_changes": 29,
+  "english_changes": 0,
+  "checked_changed_chains": 17,
+  "checked_chains": [
+    [
+      "p01-00169",
+      "p01-00170"
+    ],
+    [
+      "p01-00507",
+      "p01-00508"
+    ],
+    [
+      "p01-01763",
+      "s01-09724500",
+      "p01-01764",
+      "s01-09730500"
+    ],
+    [
+      "p01-01872",
+      "s01-10676500",
+      "p01-01873"
+    ],
+    [
+      "p01-01899",
+      "s01-10763500"
+    ],
+    [
+      "p01-02839",
+      "s01-15384000",
+      "p01-02841"
+    ],
+    [
+      "s01-00980500",
+      "p01-00285",
+      "p01-00287"
+    ],
+    [
+      "s01-02664500",
+      "s01-02667000",
+      "s01-02670000"
+    ],
+    [
+      "s01-05977000",
+      "s01-05980000"
+    ],
+    [
+      "s01-05986500",
+      "s01-05989000",
+      "s01-05991000"
+    ],
+    [
+      "s01-07339500",
+      "p01-01314",
+      "p01-01316",
+      "p01-01317",
+      "p01-01318"
+    ],
+    [
+      "s01-09309000",
+      "s01-09310000",
+      "s01-09310500",
+      "s01-09312000"
+    ],
+    [
+      "s01-09367000",
+      "s01-09369000",
+      "s01-09371500"
+    ],
+    [
+      "s01-09428000",
+      "s01-09431500"
+    ],
+    [
+      "s01-10632500",
+      "p01-01854"
+    ],
+    [
+      "s01-12819000",
+      "s01-12823000",
+      "s01-12827500",
+      "s01-12832000"
+    ],
+    [
+      "s01-14626500",
+      "s01-14628000",
+      "s01-14631500",
+      "s01-14633500"
+    ]
+  ],
+  "changes": [
+    {
+      "id": "p01-00170",
+      "english": "CO Wilson: keep it straight, don't fuck around.",
+      "before": "Gardiyan Wilson: doğru dur, saçma sapan işlere bulaşma.",
+      "after": "Gardiyan Wilson: Lafı dolandırma, dalga geçme.",
+      "reason": "Önceki ekrandaki görüşmede ne söylemesi gerektiği öğüdünün devamı; keep it straight duruşu değil anlatımı niteliyor.",
+      "related_ids": [
+        "p01-00169",
+        "p01-00170"
+      ],
+      "evidence": [
+        {
+          "id": "p01-00169",
+          "source_frame": "frames/p01-00169.jpg"
+        },
+        {
+          "id": "p01-00170",
+          "source_frame": "recovery/frames/p01-00170.jpg"
+        }
+      ]
+    },
+    {
+      "id": "p01-00285",
+      "english": "Cal: is harvesting shit at his waste treatment plant to steal my\nDNA?",
+      "before": "Cal: DNA’mı çalmak için arıtma tesisinde bok topluyor, öyle mi?",
+      "after": "Cal: DNA'mı çalmak için arıtma tesisinde bok topladığını mı düşünüyorum?",
+      "reason": "Önceki ekrandaki Andrew Node'un tamlayanını ve do I actually think sorusunu sonraki ekrandaki yükleme bağlar.",
+      "related_ids": [
+        "s01-00980500",
+        "p01-00285",
+        "p01-00287"
+      ],
+      "evidence": [
+        {
+          "id": "s01-00980500",
+          "source_frame": "continuous/frames/s01-00980500.jpg"
+        },
+        {
+          "id": "p01-00285",
+          "source_frame": "frames/p01-00285.jpg"
+        },
+        {
+          "id": "p01-00287",
+          "source_frame": "frames/p01-00287.jpg"
+        }
+      ]
+    },
+    {
+      "id": "p01-00507",
+      "english": "Kingfishers: I know I'll blow your brains out all over this water,",
+      "before": "Kingfishers: Bildiğim şu ki beynini bu sulara saçarım,",
+      "after": "Kingfishers: Beynini bu sulara saçarım bak,",
+      "reason": "Sonraki ekrandaki örtük koşula bağlanan tehdit; doğal Türkçe yüklem.",
+      "related_ids": [
+        "p01-00507",
+        "p01-00508"
+      ],
+      "evidence": [
+        {
+          "id": "p01-00507",
+          "source_frame": "frames/p01-00507.jpg"
+        },
+        {
+          "id": "p01-00508",
+          "source_frame": "recovery/frames/p01-00508.jpg"
+        }
+      ]
+    },
+    {
+      "id": "p01-00508",
+      "english": "Kingfishers: you keep runnin' your mouth!",
+      "before": "Kingfishers: sen çeneni kapatmıyorsun!",
+      "after": "Kingfishers: böyle çeneni kapatmazsan!",
+      "reason": "Önceki tehdidin koşulu; bağımsız sen çeneni kapatmıyorsun cümlesi değildir.",
+      "related_ids": [
+        "p01-00507",
+        "p01-00508"
+      ],
+      "evidence": [
+        {
+          "id": "p01-00507",
+          "source_frame": "frames/p01-00507.jpg"
+        },
+        {
+          "id": "p01-00508",
+          "source_frame": "recovery/frames/p01-00508.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-02667000",
+      "english": "Brian: I got some properties with paying tenants...",
+      "before": "Brian: bir de kira ödeyen kiracılarım var...",
+      "after": "Brian: Bir de kira ödeyen kiracıların oturduğu yerlerim var...",
+      "reason": "Sonraki attention ilgi cümlesindeki özne ve yer göndermesini korur.",
+      "related_ids": [
+        "s01-02664500",
+        "s01-02667000",
+        "s01-02670000"
+      ],
+      "evidence": [
+        {
+          "id": "s01-02664500",
+          "source_frame": "continuous/frames/s01-02664500.jpg"
+        },
+        {
+          "id": "s01-02667000",
+          "source_frame": "continuous/frames/s01-02667000.jpg"
+        },
+        {
+          "id": "s01-02670000",
+          "source_frame": "continuous/frames/s01-02670000.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-02670000",
+      "english": "Brian: that could use your, uh, \"attention\".",
+      "before": "Brian: biraz “ilgilenmen” iyi olabilir.",
+      "after": "Brian: biraz da oralarla “ilgilenmen” iyi olur.",
+      "reason": "Önceki ekrandaki properties nesnesi Türkçede belirsiz bırakılmıyor.",
+      "related_ids": [
+        "s01-02664500",
+        "s01-02667000",
+        "s01-02670000"
+      ],
+      "evidence": [
+        {
+          "id": "s01-02664500",
+          "source_frame": "continuous/frames/s01-02664500.jpg"
+        },
+        {
+          "id": "s01-02667000",
+          "source_frame": "continuous/frames/s01-02667000.jpg"
+        },
+        {
+          "id": "s01-02670000",
+          "source_frame": "continuous/frames/s01-02670000.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-05980000",
+      "english": "Mandy: Unless... you want me to?",
+      "before": "Mandy: Tabii... sen istemezsen?",
+      "after": "Mandy: Tabii... sen istersen o başka.",
+      "reason": "Önceki üstüne atlamayacağım sözünün unless istisnası; mevcut olumsuzluk anlamı tersine çeviriyordu.",
+      "related_ids": [
+        "s01-05977000",
+        "s01-05980000"
+      ],
+      "evidence": [
+        {
+          "id": "s01-05977000",
+          "source_frame": "continuous/frames/s01-05977000.jpg"
+        },
+        {
+          "id": "s01-05980000",
+          "source_frame": "continuous/frames/s01-05980000.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-05989000",
+      "english": "Mandy: Nonetheless on a sketchy little website",
+      "before": "Mandy: Üstelik dandik bir internet sitesinden,",
+      "after": "Mandy: Üstelik öyle dandik bir internet sitesinden ki,",
+      "reason": "Sonraki benzetmeyi bağlayan öyle...ki yapısı.",
+      "related_ids": [
+        "s01-05986500",
+        "s01-05989000",
+        "s01-05991000"
+      ],
+      "evidence": [
+        {
+          "id": "s01-05986500",
+          "source_frame": "continuous/frames/s01-05986500.jpg"
+        },
+        {
+          "id": "s01-05989000",
+          "source_frame": "continuous/frames/s01-05989000.jpg"
+        },
+        {
+          "id": "s01-05991000",
+          "source_frame": "continuous/frames/s01-05991000.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-07339500",
+      "english": "Kenton: When you find something",
+      "before": "Kenton: Bir şey bulunca",
+      "after": "Kenton: Bir şey buluyorsun...",
+      "reason": "Beş ekranlık bulma-tutma-fark etme anlatımını doğal şimdiki zaman akışına bağlar.",
+      "related_ids": [
+        "s01-07339500",
+        "p01-01314",
+        "p01-01316",
+        "p01-01317",
+        "p01-01318"
+      ],
+      "evidence": [
+        {
+          "id": "s01-07339500",
+          "source_frame": "continuous/frames/s01-07339500.jpg"
+        },
+        {
+          "id": "p01-01314",
+          "source_frame": "frames/p01-01314.jpg"
+        },
+        {
+          "id": "p01-01316",
+          "source_frame": "frames/p01-01316.jpg"
+        },
+        {
+          "id": "p01-01317",
+          "source_frame": "recovery/frames/p01-01317.jpg"
+        },
+        {
+          "id": "p01-01318",
+          "source_frame": "frames/p01-01318.jpg"
+        }
+      ]
+    },
+    {
+      "id": "p01-01314",
+      "english": "Kenton: that's hundreds of years old,\nway out in the middle of the ocean,",
+      "before": "Kenton: okyanusun ta ortasında,\nyüzlerce yıllık bir şeyi...",
+      "after": "Kenton: okyanusun ta ortasında,\nyüzlerce yıllık bir şey...",
+      "reason": "Önceki bir şey öznesini açıklayan ek bilgi; yanlış kalan belirtme hâli kaldırıldı.",
+      "related_ids": [
+        "s01-07339500",
+        "p01-01314",
+        "p01-01316",
+        "p01-01317",
+        "p01-01318"
+      ],
+      "evidence": [
+        {
+          "id": "s01-07339500",
+          "source_frame": "continuous/frames/s01-07339500.jpg"
+        },
+        {
+          "id": "p01-01314",
+          "source_frame": "frames/p01-01314.jpg"
+        },
+        {
+          "id": "p01-01316",
+          "source_frame": "frames/p01-01316.jpg"
+        },
+        {
+          "id": "p01-01317",
+          "source_frame": "recovery/frames/p01-01317.jpg"
+        },
+        {
+          "id": "p01-01318",
+          "source_frame": "frames/p01-01318.jpg"
+        }
+      ]
+    },
+    {
+      "id": "p01-01316",
+      "english": "Kenton: and you're holding it in your hands,",
+      "before": "Kenton: ellerinde tutuyorsun,",
+      "after": "Kenton: Onu ellerinde tutarken",
+      "reason": "Sonraki birden fark ediyorsun yükleminin zaman yan cümlesi.",
+      "related_ids": [
+        "s01-07339500",
+        "p01-01314",
+        "p01-01316",
+        "p01-01317",
+        "p01-01318"
+      ],
+      "evidence": [
+        {
+          "id": "s01-07339500",
+          "source_frame": "continuous/frames/s01-07339500.jpg"
+        },
+        {
+          "id": "p01-01314",
+          "source_frame": "frames/p01-01314.jpg"
+        },
+        {
+          "id": "p01-01316",
+          "source_frame": "frames/p01-01316.jpg"
+        },
+        {
+          "id": "p01-01317",
+          "source_frame": "recovery/frames/p01-01317.jpg"
+        },
+        {
+          "id": "p01-01318",
+          "source_frame": "frames/p01-01318.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-09309000",
+      "english": "Kenton: What happened?\nI swam through",
+      "before": "Kenton: Ne oldu?\nYüzerek girdim,",
+      "after": "Kenton: Ne oldu?\nBatığın içine yüzdüm,",
+      "reason": "Etiketsiz cevabın sonraki ekranındaki wreck nesnesiyle birlikte kuruldu; konuşmacı uydurulmadı.",
+      "related_ids": [
+        "s01-09309000",
+        "s01-09310000",
+        "s01-09310500",
+        "s01-09312000"
+      ],
+      "evidence": [
+        {
+          "id": "s01-09309000",
+          "source_frame": "continuous/frames/s01-09309000.jpg"
+        },
+        {
+          "id": "s01-09310000",
+          "source_frame": "continuous/frames/s01-09310000.jpg"
+        },
+        {
+          "id": "s01-09310500",
+          "source_frame": "continuous/frames/s01-09310500.jpg"
+        },
+        {
+          "id": "s01-09312000",
+          "source_frame": "continuous/frames/s01-09312000.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-09310000",
+      "english": "Kenton: What happened?\nI swam through",
+      "before": "Kenton: Ne oldu?\nYüzerek girdim,",
+      "after": "Kenton: Ne oldu?\nBatığın içine yüzdüm,",
+      "reason": "Aynı ekranın tekrarında aynı devam çevirisi.",
+      "related_ids": [
+        "s01-09309000",
+        "s01-09310000",
+        "s01-09310500",
+        "s01-09312000"
+      ],
+      "evidence": [
+        {
+          "id": "s01-09309000",
+          "source_frame": "continuous/frames/s01-09309000.jpg"
+        },
+        {
+          "id": "s01-09310000",
+          "source_frame": "continuous/frames/s01-09310000.jpg"
+        },
+        {
+          "id": "s01-09310500",
+          "source_frame": "continuous/frames/s01-09310500.jpg"
+        },
+        {
+          "id": "s01-09312000",
+          "source_frame": "continuous/frames/s01-09312000.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-09310500",
+      "english": "Kenton: Didn't I tell you stay with your buddy?\nthe wreck, I got stuck.",
+      "before": "Kenton: Eşinden ayrılma demedim mi sana?\nbatığa, sıkıştım.",
+      "after": "Kenton: Eşinden ayrılma demedim mi sana?\nSıkışıp kaldım.",
+      "reason": "Etiketsiz cevabın batığa sıkışma biçimindeki yanlış bölünmesi düzeltildi; iki satır beraber çevrildi.",
+      "related_ids": [
+        "s01-09309000",
+        "s01-09310000",
+        "s01-09310500",
+        "s01-09312000"
+      ],
+      "evidence": [
+        {
+          "id": "s01-09309000",
+          "source_frame": "continuous/frames/s01-09309000.jpg"
+        },
+        {
+          "id": "s01-09310000",
+          "source_frame": "continuous/frames/s01-09310000.jpg"
+        },
+        {
+          "id": "s01-09310500",
+          "source_frame": "continuous/frames/s01-09310500.jpg"
+        },
+        {
+          "id": "s01-09312000",
+          "source_frame": "continuous/frames/s01-09312000.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-09312000",
+      "english": "Kenton: Didn't I tell you stay with your buddy?\nthe wreck, I got stuck.",
+      "before": "Kenton: Eşinden ayrılma demedim mi sana?\nbatığa, sıkıştım.",
+      "after": "Kenton: Eşinden ayrılma demedim mi sana?\nSıkışıp kaldım.",
+      "reason": "Aynı ekranın tekrarında aynı devam çevirisi.",
+      "related_ids": [
+        "s01-09309000",
+        "s01-09310000",
+        "s01-09310500",
+        "s01-09312000"
+      ],
+      "evidence": [
+        {
+          "id": "s01-09309000",
+          "source_frame": "continuous/frames/s01-09309000.jpg"
+        },
+        {
+          "id": "s01-09310000",
+          "source_frame": "continuous/frames/s01-09310000.jpg"
+        },
+        {
+          "id": "s01-09310500",
+          "source_frame": "continuous/frames/s01-09310500.jpg"
+        },
+        {
+          "id": "s01-09312000",
+          "source_frame": "continuous/frames/s01-09312000.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-09371500",
+      "english": "Cameron: from pillagers like you!",
+      "before": "Cameron: senin gibi yağmacılardan korumak için!",
+      "after": "Cameron: senin gibi yağmacılardan!",
+      "reason": "Önceki okyanusu korumak için ifadesini tekrar edip cümleyi yeniden başlatmayan vurgu devamı.",
+      "related_ids": [
+        "s01-09367000",
+        "s01-09369000",
+        "s01-09371500"
+      ],
+      "evidence": [
+        {
+          "id": "s01-09367000",
+          "source_frame": "continuous/frames/s01-09367000.jpg"
+        },
+        {
+          "id": "s01-09369000",
+          "source_frame": "continuous/frames/s01-09369000.jpg"
+        },
+        {
+          "id": "s01-09371500",
+          "source_frame": "continuous/frames/s01-09371500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-09428000",
+      "english": "Kenton: If you can search them without Sir Shithead ratting you\nout,",
+      "before": "Kenton: Sör Bok Kafa'ya ihbar edilmeden\naramayı becerirsen,",
+      "after": "Kenton: Sör Bok Kafa seni ihbar etmeden\nbatıkları aramayı becerirsen,",
+      "reason": "Sonraki satış vaadinin koşulu; Sir ihbar eden kişidir, ihbar edilen makam değildir.",
+      "related_ids": [
+        "s01-09428000",
+        "s01-09431500"
+      ],
+      "evidence": [
+        {
+          "id": "s01-09428000",
+          "source_frame": "continuous/frames/s01-09428000.jpg"
+        },
+        {
+          "id": "s01-09431500",
+          "source_frame": "continuous/frames/s01-09431500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-09724500",
+      "english": "Cal: serve them a delightful beverage,",
+      "before": "Cal: onlara nefis bir içki ikram ediyorum,",
+      "after": "Cal: ona nefis bir içki ikram ediyorum,",
+      "reason": "Önceki ekrandaki tekil kadın ve onu zamiriyle uyum.",
+      "related_ids": [
+        "p01-01763",
+        "s01-09724500",
+        "p01-01764",
+        "s01-09730500"
+      ],
+      "evidence": [
+        {
+          "id": "p01-01763",
+          "source_frame": "frames/p01-01763.jpg"
+        },
+        {
+          "id": "s01-09724500",
+          "source_frame": "continuous/frames/s01-09724500.jpg"
+        },
+        {
+          "id": "p01-01764",
+          "source_frame": "frames/p01-01764.jpg"
+        },
+        {
+          "id": "s01-09730500",
+          "source_frame": "continuous/frames/s01-09730500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "p01-01764",
+      "english": "Cal: and the flow of the room already has them in their mind\nmoving to-",
+      "before": "Cal: odanın düzeni de ona daha baştan\niçinden kalkıp şuraya geçmeyi...",
+      "after": "Cal: odanın düzeni de onu daha kafasında\noraya geçmeye yönlendiriyor...",
+      "reason": "Önceki tekil kadın nesnesi ve sonraki Jason kesmesiyle birlikte doğal Türkçe; kaynakta kesilen hedef uydurulmadı.",
+      "related_ids": [
+        "p01-01763",
+        "s01-09724500",
+        "p01-01764",
+        "s01-09730500"
+      ],
+      "evidence": [
+        {
+          "id": "p01-01763",
+          "source_frame": "frames/p01-01763.jpg"
+        },
+        {
+          "id": "s01-09724500",
+          "source_frame": "continuous/frames/s01-09724500.jpg"
+        },
+        {
+          "id": "p01-01764",
+          "source_frame": "frames/p01-01764.jpg"
+        },
+        {
+          "id": "s01-09730500",
+          "source_frame": "continuous/frames/s01-09730500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-09730500",
+      "english": "Cal: and the flow of the room already has them in their mind\nmoving to-\nJason: Okay, okay, I got it.",
+      "before": "Cal: odanın akışı da kafalarında onları çoktan\nşeye yönlendiriyor...\nJason: Tamam tamam, anladım.",
+      "after": "Cal: odanın düzeni de onu daha kafasında\noraya geçmeye yönlendiriyor...\nJason: Tamam tamam, anladım.",
+      "reason": "Araya giren Jason satırı korunarak aynı kesilen cümle düzeltildi.",
+      "related_ids": [
+        "p01-01763",
+        "s01-09724500",
+        "p01-01764",
+        "s01-09730500"
+      ],
+      "evidence": [
+        {
+          "id": "p01-01763",
+          "source_frame": "frames/p01-01763.jpg"
+        },
+        {
+          "id": "s01-09724500",
+          "source_frame": "continuous/frames/s01-09724500.jpg"
+        },
+        {
+          "id": "p01-01764",
+          "source_frame": "frames/p01-01764.jpg"
+        },
+        {
+          "id": "s01-09730500",
+          "source_frame": "continuous/frames/s01-09730500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-10632500",
+      "english": "Cal: Or if we play too much, is she gonna get pissed off",
+      "before": "Cal: Yoksa çok oynarsak kızar mı?",
+      "after": "Cal: Yoksa biz çok oynayınca kızıp",
+      "reason": "Sonraki walk out sorusuna bağlanan kızıp zarf-fiili; ayrı soru/koşul değildi.",
+      "related_ids": [
+        "s01-10632500",
+        "p01-01854"
+      ],
+      "evidence": [
+        {
+          "id": "s01-10632500",
+          "source_frame": "continuous/frames/s01-10632500.jpg"
+        },
+        {
+          "id": "p01-01854",
+          "source_frame": "frames/p01-01854.jpg"
+        }
+      ]
+    },
+    {
+      "id": "p01-01854",
+      "english": "Cal: and walk out on you again?",
+      "before": "Cal: ve seni yine bırakıp giderse?",
+      "after": "Cal: seni yine bırakıp gider mi?",
+      "reason": "Önceki ekrandaki ortak soru yüklemi tamamlandı; giderse biçiminde asılı koşul kaldırıldı.",
+      "related_ids": [
+        "s01-10632500",
+        "p01-01854"
+      ],
+      "evidence": [
+        {
+          "id": "s01-10632500",
+          "source_frame": "continuous/frames/s01-10632500.jpg"
+        },
+        {
+          "id": "p01-01854",
+          "source_frame": "frames/p01-01854.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-10676500",
+      "english": "Cal: Want what?",
+      "before": "Cal: Ne istiyorsun?",
+      "after": "Cal: Neyi istemiyordun?",
+      "reason": "Önceki istemediğimi ve sonraki bir aileyi cevabına bağlı eksiltili soru; olumlu şimdiki zaman anlamı yanlıştı.",
+      "related_ids": [
+        "p01-01872",
+        "s01-10676500",
+        "p01-01873"
+      ],
+      "evidence": [
+        {
+          "id": "p01-01872",
+          "source_frame": "frames/p01-01872.jpg"
+        },
+        {
+          "id": "s01-10676500",
+          "source_frame": "continuous/frames/s01-10676500.jpg"
+        },
+        {
+          "id": "p01-01873",
+          "source_frame": "frames/p01-01873.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-10763500",
+      "english": "Cal: No, come on, just let me go to bed.\nJust get on the-",
+      "before": "Cal: Yok, hadi ama, bırak da yatayım.\nŞuna binsene...",
+      "after": "Cal: Yok, hadi ama, bırak da yatayım.\nGeç şu...",
+      "reason": "Önceki kanepeye geç çağrısının kesilen tekrarı; binmek anlamı kaldırıldı, etiketsiz cevap korundu.",
+      "related_ids": [
+        "p01-01899",
+        "s01-10763500"
+      ],
+      "evidence": [
+        {
+          "id": "p01-01899",
+          "source_frame": "frames/p01-01899.jpg"
+        },
+        {
+          "id": "s01-10763500",
+          "source_frame": "continuous/frames/s01-10763500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-12827500",
+      "english": "Jason: Unless... y'know, you wanna drive up to Liberty State,\ndrop in on little man?",
+      "before": "Jason: Tabii... Liberty State'e kadar gidip\nufaklığı görmek istemiyorsan?",
+      "after": "Jason: Tabii... Liberty State'e gidip\nufaklığı görmek istersen o başka.",
+      "reason": "İçki içme planına alternatif unless istisnası; görmek istemiyorsan biçimindeki ters anlam giderildi.",
+      "related_ids": [
+        "s01-12819000",
+        "s01-12823000",
+        "s01-12827500",
+        "s01-12832000"
+      ],
+      "evidence": [
+        {
+          "id": "s01-12819000",
+          "source_frame": "continuous/frames/s01-12819000.jpg"
+        },
+        {
+          "id": "s01-12823000",
+          "source_frame": "continuous/frames/s01-12823000.jpg"
+        },
+        {
+          "id": "s01-12827500",
+          "source_frame": "continuous/frames/s01-12827500.jpg"
+        },
+        {
+          "id": "s01-12832000",
+          "source_frame": "continuous/frames/s01-12832000.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-14626500",
+      "english": "Jason: I understand if you wanna...",
+      "before": "Jason: İstersen anlarım...",
+      "after": "Jason: Şey... arkadaşında kalmak istersen anlarım...",
+      "reason": "Sonraki ekranın stay with your friend nesnesi öne alınarak kalmanı/anlarım kopukluğu giderildi.",
+      "related_ids": [
+        "s01-14626500",
+        "s01-14628000",
+        "s01-14631500",
+        "s01-14633500"
+      ],
+      "evidence": [
+        {
+          "id": "s01-14626500",
+          "source_frame": "continuous/frames/s01-14626500.jpg"
+        },
+        {
+          "id": "s01-14628000",
+          "source_frame": "continuous/frames/s01-14628000.jpg"
+        },
+        {
+          "id": "s01-14631500",
+          "source_frame": "continuous/frames/s01-14631500.jpg"
+        },
+        {
+          "id": "s01-14633500",
+          "source_frame": "continuous/frames/s01-14633500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-14628000",
+      "english": "Jason: Stay with your friend 'til I get if fixed up for us, but",
+      "before": "Jason: Ben burayı bizim için toparlayana kadar arkadaşında kalmanı, ama",
+      "after": "Jason: ben burayı bizim için toparlayana kadar yani. Ama",
+      "reason": "Önceki ekrana taşınan arkadaşında kalma düşüncesinin zaman sınırı; cümle sonraki ama/if ile sürüyor.",
+      "related_ids": [
+        "s01-14626500",
+        "s01-14628000",
+        "s01-14631500",
+        "s01-14633500"
+      ],
+      "evidence": [
+        {
+          "id": "s01-14626500",
+          "source_frame": "continuous/frames/s01-14626500.jpg"
+        },
+        {
+          "id": "s01-14628000",
+          "source_frame": "continuous/frames/s01-14628000.jpg"
+        },
+        {
+          "id": "s01-14631500",
+          "source_frame": "continuous/frames/s01-14631500.jpg"
+        },
+        {
+          "id": "s01-14633500",
+          "source_frame": "continuous/frames/s01-14633500.jpg"
+        }
+      ]
+    },
+    {
+      "id": "p01-02839",
+      "english": "Donnie: Okay. Now, next time I get in a plane and try reading a\nmap,",
+      "before": "Donnie: Tamam. Bir daha uçağa binip harita okumaya kalkarsam,",
+      "after": "Donnie: Tamam. Bir daha uçağa binip harita okumaya kalktığımda,",
+      "reason": "Sonraki sarhoşluk yan cümlesi ve belki dur dersin yüklemiyle tek zaman yapısı.",
+      "related_ids": [
+        "p01-02839",
+        "s01-15384000",
+        "p01-02841"
+      ],
+      "evidence": [
+        {
+          "id": "p01-02839",
+          "source_frame": "frames/p01-02839.jpg"
+        },
+        {
+          "id": "s01-15384000",
+          "source_frame": "continuous/frames/s01-15384000.jpg"
+        },
+        {
+          "id": "p01-02841",
+          "source_frame": "frames/p01-02841.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s01-15384000",
+      "english": "Donnie: smashed outta my fuckin' mind from one of your jailbird's\nlittle parties,",
+      "before": "Donnie: senin o hapis kuşunun ufak partilerinden birinde\nkafayı taş gibi yapmıştım,",
+      "after": "Donnie: senin o hapis kuşunun ufak partilerinden birinde\nkafamı taş gibi yapmışken,",
+      "reason": "Bir önceki ekrandaki next time yan cümlesinin devamı; bağımsız geçmiş zaman yüklemi kaldırıldı.",
+      "related_ids": [
+        "p01-02839",
+        "s01-15384000",
+        "p01-02841"
+      ],
+      "evidence": [
+        {
+          "id": "p01-02839",
+          "source_frame": "frames/p01-02839.jpg"
+        },
+        {
+          "id": "s01-15384000",
+          "source_frame": "continuous/frames/s01-15384000.jpg"
+        },
+        {
+          "id": "p01-02841",
+          "source_frame": "frames/p01-02841.jpg"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "This audits existing extracted text; it cannot recover subtitles absent from extraction.",
+    "Source-video censorship is preserved and hidden words are not reconstructed.",
+    "Approximate navigation SRT timing is unchanged."
+  ],
+  "baseline_sha256": "7b08ad1507e6a6ef62f46341fb6448c6d6f26636df56aec5a4f6bafa9a6b9489",
+  "real_consumer_passed": true,
+  "uncertain_source_fragments": [
+    {
+      "id": "p01-01047",
+      "english": "Mandy: where they work out...",
+      "note": "Existing bilingual timeline has no preceding phrase for this isolated fragment; native stored crop confirms only these words. No guessed continuation was added."
+    }
+  ],
+  "preserved_existing_role_override_records": 48
+}

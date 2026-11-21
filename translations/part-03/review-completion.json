@@ -1,0 +1,13 @@
+{
+  "video_duration_seconds": 13263.96,
+  "original_scan_complete": true,
+  "dim_recovery_scan_complete": true,
+  "headed_pending": 0,
+  "unheaded_pending_including_repeats": 0,
+  "empty_pending": 0,
+  "reviewed_dialogues": 2853,
+  "unresolved_source_issues": 15,
+  "prehead_audit": "All full-video candidates with text before first speaker reviewed: UI signs/weapon labels, known same-caption OCR ordering, known censored overlap, and recovered s03-06929000. No remaining independent upper reply.",
+  "native_top_edge_audit": "Native source bands checked from y=0; ambiguous multiline upper edges verified with wider video crop.",
+  "timing_note": "2 fps extraction; SRT times are navigation approximations, not verified playback timings."
+}

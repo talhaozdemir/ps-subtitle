@@ -1,0 +1,50 @@
+﻿BİRLEŞİK GTA VI TÜRKÇE SÖZLÜK
+
+Kullanılacak tek paket: dist/subtitle.json.gz
+Biçim: 3 / gta-6
+SHA-256: 59297a7664e7ea34849bf55939fa559ac5e7c0b643d9673cb74c6c81a4a1d7ce
+
+ORTAK REPLİKLERİN İNCELEMESİ
+1–9. bölümde toplam 25637 kaynak kayıt.
+Eski sözlükle ortak 7428 kaynak kayıt ve 7208 paket anahtarı.
+Farklı EN/yeni/eski karşılıklarından 6064 benzersiz karşılaştırmanın tamamı üç ajan arasında bölünerek okundu; kararlar eksiksiz ve tekil doğrulandı.
+İlk karşılaştırma kararları: 295 eski, 5769 yeni.
+Normalize edilmiş Türkçesi aynı olan 1895 eşleştirmede yeni kaynak yazımı korundu. Bu grup ayrıca farklı çeviriymiş gibi sayılmadı.
+Aynı karşılık çiftinin birden fazla sahnede kullanıldığı 295 grup / 830 görünüm ayrıca bağlama göre okundu; gerekli görünüm bazlı istisnalar final-overrides.json içinde.
+Sözlük genelindeki 529 kısa/çakışan anahtar iki ajan tarafından bağımsız okundu. İkisi de güvenli bulmadıkça ortak karşılık seçilmedi.
+
+SONUÇ
+132496 fiziksel çeviri anahtarı. 23622 aynı karşılıklı isimli/isimsiz çiftte çeviri yalnız bir kez saklanır. İsimli okumalar mevcut kaynak/konuşmacı bilgilerinden ortak kayda yönlendirilir; yeni bir alias tablosu pakete eklenmez.
+Önceki 156118 okuma yolunun tamamı çalışır. Eski paketten 115308 okuma anahtarı korunuyor; 40810 yeni okuma anahtarı vardır. Bunlar benzersiz replik sayısı değildir.
+290 anahtarda farklı ama uyumlu Türkçe karşılıklar ortak gösterimde uzlaştırıldı.
+Anlamı/soru biçimi/bağlamı farklı olan 239 anahtar güvenli eşleştirmeden çıkarıldı. Bunların 134 adedi eski pakette de vardı. İlgili kaynak replikler ve isim/renk bilgileri silinmedi; speaker_metadata.records içinde duruyor. API anahtarı varsa mevcut çeviri sistemi bu eşleşmeyen replikler için devreye girebilir.
+
+İSİM VE RENKLER
+26624 isim/rol görünümünün bütün kaynak renk kayıtları, aynı karedeki iki farklı renkli Polis dahil, aynen korundu. Renkler kişi başına sabit varsayılmadı. Yalnız eski sözlükte olan anahtarlara isim veya renk uydurulmadı.
+Varsayılan gösterim isimsizdir. Altyazı görünümü → Konuşmacı isimleri ayarıyla açılır ve kaydedilir. Güvenle belirlenen isimler kaynak renkleriyle gösterilir; isim bilgisi bulunmayan veya konuşmacısı belirsiz kayıtlar isimsiz kalır. Renk ailesi biliniyorsa yaklaşık aile rengi, renk de belirsizse normal yazı rengi kullanılır. Aynı cümleyi söyleyen farklı kişilere Türkçe metinden isim aktarılmaz.
+
+YEREL BAĞLAM
+25637 kaynak kaydının bölüm/sıra bilgisi local_context alanındadır. Her oyun akışı son 10 farklı okumayı ayrı hafızada tutar. Belirsiz çeviri veya okunamayan isim için en az iki farklı, yüksek güvenli ve doğrudan eşleşmiş önceki replik aynı kaynak sırasını desteklemelidir. Bağlamdan çıkarılan sonuçlar yeni güçlü dayanak yapılmaz.
+Güvenilir mevcut isimli eşleşme ve mevcut yaklaşık eşleşme aynen korunur. Diğer belirsiz okumalar, yalnız yakın kaynak penceresinde ve açık aday farkıyla çözülür. Kısa ara replikler eski kayda geri dönmeyi engeller; iki eşit olasılıklı sahne, tekrar eden kısa cevap veya gerileyen OCR parçası zorla seçilmez. Eski bağlam durdurma/yeniden bağlantı/ayar değişiminde, uzun arada ve sıra uyuşmazlığında bırakılır. Önceki konuşmanın adı yeni konuşmaya taşınmaz.
+API isteklerinin metni/modeli değiştirilmedi. Yalnız önbellek ve bekleyen iş kimliği bağlama göre ayrılır; aynı kısa cümlenin başka sahnedeki API karşılığı otomatik tekrar kullanılmaz. Yerel bağlam kullanımı için API anahtarı gerekmez. Kaynak sıralaması olmayan eski kayıtlar mevcut eşleştirmeyle çalışmaya devam eder.
+
+OCR VE ÇEVİRİ DOĞRULAMASI
+50 test geçti. Testler isim aç/kapat ayarı, kalıcı kayıt, ekran önizlemesi/kaydetme/iptal, aynı replikte konuşmacı değişimi, güvenli renkli çizim, ortak anahtar kapsamı, bütün isim/renkler, seçilmiş çevirilerin gerçek eşleştiricide bulunması, eski anahtar/imza koruması, yeni fuzzy dizini, OCR karakter onarımı, belirsiz kayıtların yanlış geri gelmemesi, eski/bozuk TV önbelleğinden geçiş ve yerel çeviri akışını kapsar.
+Tekilleştirme öncesi bağımsız kod/sözlük referansıyla 81330 kaynak okuma biçimi ve 720 hatalı OCR denemesinde tam sonuç (Türkçe, skor, yaklaşık eşleşme durumu, isim ve renkler) aynı kaldı. Önceki 156118 anahtarın hepsi aynı çeviriye ulaşıyor; fuzzy imzalarının tamamı bayt düzeyinde korundu.
+Bağlam kapalı ve yeni sıfırlanmış oturumlarda 25637 kaynak kaydının sonucu önceki bağımsız uygulama koduyla aynı. Kaynak sırasıyla, isimli ve isimleri OCR'de okunmamış iki ayrı tekrar oynatmada bağlamın seçtiği çeviri/isimler kaynak kayıtlarla doğrulandı. Bu deneme kaynak videolara aittir; gerçek TV üzerindeki bütün oynanışların doğruluk ölçümü değildir.
+Native OCR motoru, kırpma, model, okuma sıklığı ve API istekleri değiştirilmedi. Çeviri değerleri yine metindir; aynı değerli isimli/isimsiz kayıtlar tek fiziksel girdiyi paylaşır. Eşleştirme davranışını korumak için benzerlik imzaları aynen tutulur.
+Tekilleştirilmiş paket biçim 3 kullanır ve güncellenmiş uygulamayla açılır. Güncel uygulama eski biçim-2 paketleri de okur. Eski uygulamalar yeni biçimi sessizce eksik okumak yerine reddedip çalışan eski sözlüklerini korur. Bu paketle birlikte güncel uygulama kodu paketlenmelidir.
+Doğrulama yerelde yapıldı; TV'ye kurulum veya gerçek TV üzerinde donanım testi yapılmadı. Yeni IPK üretilmedi.
+
+DÜZENLEME / KAYNAKLAR
+translations/merge-review/review-decisions-1.json, -2.json, -3.json: bütün farklı ortak karşılıkların kararları.
+translations/merge-review/final-overrides.json: nihai uzlaştırmalar ve bağlam düzeltmeleri.
+translations/merge-review/collision-resolutions.json: güvenle birleştirilen eşdeğer karşılıklar.
+translations/merge-review/merge-conflicts.json: güvenle tek karşılığa indirilemeyen anahtarlar.
+translations/merge-review/legacy-subtitle.json.gz: değiştirilmeyen eski kaynak sözlük.
+translations/merged/SECILEN-CEVIRILER.txt: yeni kaynak metne göre farklı seçilen karşılıklar.
+tv-app/tools/build_merged_translation.py: yeniden üretim aracı; incelenmiş kaynak değişirse eski kararı uygulamaz.
+translations/key-dedup/baseline: tekilleştirme öncesi bağımsız uygulama kodu ve sözlük referansı.
+translations/key-dedup/compacted-keys.json: tekilleştirilen kaynak/hedef çiftleri denetim kaydı; uygulamanın paketinde ayrı bir alias tablosu bulunmaz.
+
+Anahtar sayıları benzersiz konuşma veya oyun kapsama oranı değildir; aynı konuşmanın OCR biçimleri ve parçaları ayrı anahtarlar olabilir. Kaynak videolardaki mevcut sansür/eksik parça ve yaklaşık zaman sınırlamaları sürer. Bölüm kaynakları ve renk kanıt dosyaları değiştirilmedi.

@@ -1,0 +1,172 @@
+{
+  "issues": [
+    {
+      "id": "s08-07639500",
+      "source_frame": "continuous/frames/s08-07639500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Omar: If I can [obscured] I can sniff a turtle,",
+      "note": "Source-video black censor bar hides words in caption; full affected caption omitted without guessing."
+    },
+    {
+      "id": "s08-07974000",
+      "source_frame": "continuous/frames/s08-07974000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Omar: No [obscured] during work hours, huh?\nYeah.",
+      "note": "Black source-video censor bar hides noun/verb phrase; affected Omar caption omitted without guessing."
+    },
+    {
+      "id": "s08-09184500",
+      "source_frame": "continuous/frames/s08-09184500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Nate: No, no, no. Guys that go to Ajax are a bunch of impotent [obscured]",
+      "note": "Black source censor bar hides final word(s); full affected caption omitted without guessing."
+    },
+    {
+      "id": "s08-09032500",
+      "source_frame": "continuous/frames/s08-09032500.jpg",
+      "status": "unresolved_source_transition",
+      "visible_english": "Nate: One more plate. More volume, bro! / Francisco: [overlapping crossfade text] / Nate: That's right. You ain't shit if you quit.",
+      "note": "Source editing transition overlays two frames and a partly legible Francisco caption. Checked wider source at9031.75,9032.25,9033.25: Francisco not present in clean adjacent frames. Hidden/ambiguous words not guessed; independent Nate lines retained from9032 and9033."
+    },
+    {
+      "id": "s08-09927500",
+      "source_frame": "continuous/frames/s08-09927500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Francisco: I can hear your ass laughing. [obscured]",
+      "note": "Source-video black censor bar hides text; affected caption omitted without guessing."
+    },
+    {
+      "id": "s08-09935000",
+      "source_frame": "continuous/frames/s08-09935000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Raina: Next time, how 'bout to keep your [obscured]",
+      "note": "Source-video black censor bar hides text; affected caption omitted without guessing."
+    },
+    {
+      "id": "s08-09941000",
+      "source_frame": "continuous/frames/s08-09941000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Raina: What would have been nice for that girl is a [obscured]",
+      "note": "Source-video black censor bar hides text; affected caption omitted without guessing."
+    },
+    {
+      "id": "s08-10015500",
+      "source_frame": "continuous/frames/s08-10015500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Francisco: [obscured]",
+      "note": "Source-video black censor bar hides text; affected caption omitted without guessing."
+    },
+    {
+      "id": "s08-10113500",
+      "source_frame": "continuous/frames/s08-10113500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Francisco: [obscured] you know how expensive it is to be an actor?",
+      "note": "Source-video black censor bar hides text; affected caption omitted without guessing."
+    },
+    {
+      "id": "s08-10161000",
+      "source_frame": "continuous/frames/s08-10161000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Francisco: In Spanish: Oh my fucking God.\nThat fucking tiny-[obscured].",
+      "note": "Source-video black censor bar hides text; affected caption omitted without guessing."
+    },
+    {
+      "id": "s08-10115500",
+      "source_frame": "continuous/frames/s08-10115500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "[speaker obscured]: What? I thought actors make bank.",
+      "note": "Source censor bar hides only speaker label; fully readable body retained without guessed name."
+    },
+    {
+      "id": "s08-10210000",
+      "source_frame": "continuous/frames/s08-10210000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Francisco: Yo, it's them. The [obscured] Camper. Get ready.",
+      "note": "Black source-video bar hides caption words; affected caption omitted, no hidden words guessed."
+    },
+    {
+      "id": "s08-10290500",
+      "source_frame": "continuous/frames/s08-10290500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Judd: You're an actor! Be present! It's just you and your [obscured]",
+      "note": "Black source-video bar hides caption words; affected caption omitted, no hidden words guessed."
+    },
+    {
+      "id": "s08-10294000",
+      "source_frame": "continuous/frames/s08-10294000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Damien: I can't [obscured] in these conditions!",
+      "note": "Black source-video bar hides caption words; affected caption omitted, no hidden words guessed."
+    },
+    {
+      "id": "s08-10297500",
+      "source_frame": "continuous/frames/s08-10297500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Judd: You wanna get paid? Rub that [obscured]",
+      "note": "Black source-video bar hides caption words; affected caption omitted, no hidden words guessed."
+    },
+    {
+      "id": "s08-10331000",
+      "source_frame": "continuous/frames/s08-10331000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Damien: I'm not just some puppet, man. I'm a person with a [obscured]",
+      "note": "Black source-video bar hides caption words; affected caption omitted, no hidden words guessed."
+    },
+    {
+      "id": "s08-10365500",
+      "source_frame": "continuous/frames/s08-10365500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Judd: I got it. I got it, okay? I'll [obscured]",
+      "note": "Black source-video bar hides caption words; affected caption omitted, no hidden words guessed."
+    },
+    {
+      "id": "s08-10400000",
+      "source_frame": "continuous/frames/s08-10400000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Francisco: Yeah, yeah. And they won't have to worry about me [obscured] them, you know?",
+      "note": "Black source-video bar hides caption words; affected caption omitted, no hidden words guessed."
+    },
+    {
+      "id": "s08-10405500",
+      "source_frame": "continuous/frames/s08-10405500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Francisco: I mean, I'm going to [obscured], but it will be the good [obscured].",
+      "note": "Source-video black bar hides caption words; affected caption omitted without guessing."
+    },
+    {
+      "id": "s08-10457500",
+      "source_frame": "continuous/frames/s08-10457500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Francisco: What she said about my [obscured]. It's not cool, man.",
+      "note": "Source-video black bar hides caption words; affected caption omitted without guessing."
+    },
+    {
+      "id": "s08-10476000",
+      "source_frame": "continuous/frames/s08-10476000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Lucia: Uh, thanks. Easy to play a [obscured] guess?",
+      "note": "Source-video black bar hides caption word(s); affected caption omitted without guessing."
+    },
+    {
+      "id": "s08-10606500",
+      "source_frame": "continuous/frames/s08-10606500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Nate: And last time I saw Cisco,\nhe was waiting for sunrise at Vault.\n[obscured] with some chick in the men's bathroom.",
+      "note": "Black source-video bar hides caption words; affected caption omitted, no hidden words guessed."
+    },
+    {
+      "id": "s08-10612000",
+      "source_frame": "continuous/frames/s08-10612000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Nate: She was on his [obscured]. Pretty sure it was a chick.",
+      "note": "Black source-video bar hides caption words; affected caption omitted, no hidden words guessed."
+    },
+    {
+      "id": "s08-10618500",
+      "source_frame": "continuous/frames/s08-10618500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Nate: [obscured] Cisco? Trust me, you don't need an invite, trust me!",
+      "note": "Black source-video bar hides opening words; affected Nate caption omitted without guessing. Same speech overlaid at10617 includes independent already-approved Lucia question."
+    }
+  ]
+}

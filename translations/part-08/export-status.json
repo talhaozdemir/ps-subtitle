@@ -1,0 +1,1307 @@
+{
+  "reviewed_cues": 5245,
+  "ocr_windows_available": 12768,
+  "not_exported_navigation_windows": 7523,
+  "empty_midpoint_windows": 2413,
+  "earlier_frame_windows_checked": 0,
+  "earlier_frame_windows_with_text": 0,
+  "pack_entries": 10150,
+  "reviewed_earlier_frames": 0,
+  "latest_reviewed_timestamp": 18112.0,
+  "navigation_scan_complete": null,
+  "continuous_scan_candidates": 12768,
+  "continuous_scan_complete": true,
+  "candidate_review_complete": true,
+  "unresolved_source_issues": [
+    "s08-00329000",
+    "s08-02088000",
+    "s08-03845000",
+    "s08-03853500",
+    "s08-07639500",
+    "s08-07974000",
+    "s08-09032500",
+    "s08-09184500",
+    "s08-09927500",
+    "s08-09935000",
+    "s08-09941000",
+    "s08-10015500",
+    "s08-10113500",
+    "s08-10161000",
+    "s08-10210000",
+    "s08-10290500",
+    "s08-10294000",
+    "s08-10297500",
+    "s08-10331000",
+    "s08-10365500",
+    "s08-10400000",
+    "s08-10405500",
+    "s08-10457500",
+    "s08-10476000",
+    "s08-10606500",
+    "s08-10612000",
+    "s08-10618500",
+    "s08-14857500"
+  ],
+  "coverage_verified": false,
+  "timing_verified": false,
+  "ambiguous_primary_records": [
+    "s08-00627000",
+    "s08-07975500",
+    "s08-16800000"
+  ],
+  "directly_ambiguous_primary_records": [
+    "s08-00627000",
+    "s08-16800000"
+  ],
+  "blocked_fallback_primary_records": [
+    "s08-07975500"
+  ],
+  "omitted_ambiguous_keys": [
+    {
+      "english_key": "raul",
+      "alternatives": [
+        [
+          "s08-00125500",
+          "Jason: Raul."
+        ],
+        [
+          "s08-05896500",
+          "Lucia: Raul."
+        ]
+      ]
+    },
+    {
+      "english_key": "hey",
+      "alternatives": [
+        [
+          "s08-00128500",
+          "Raul: Selam!"
+        ],
+        [
+          "s08-01876500",
+          "Jason: Selam."
+        ],
+        [
+          "s08-02622000",
+          "Lucia: Selam."
+        ],
+        [
+          "s08-04867500",
+          "Rolo: Hey!"
+        ],
+        [
+          "s08-12703500",
+          "Mahalleli: Hey!"
+        ],
+        [
+          "s08-14775500",
+          "Jason: Selam."
+        ],
+        [
+          "s08-14854000",
+          "Lucia: Selam."
+        ],
+        [
+          "s08-15948000",
+          "Rafa: Hey!"
+        ],
+        [
+          "s08-16502500",
+          "Andrés: Hey!"
+        ]
+      ]
+    },
+    {
+      "english_key": "sounds good",
+      "alternatives": [
+        [
+          "s08-00143000",
+          "Lucia: Olur."
+        ],
+        [
+          "s08-07461500",
+          "Jason: Güzelmiş."
+        ]
+      ]
+    },
+    {
+      "english_key": "see you soon",
+      "alternatives": [
+        [
+          "s08-00144500",
+          "Raul: Yakında görüşürüz."
+        ],
+        [
+          "s08-10092000",
+          "Judd: Yakında görüşürüz."
+        ]
+      ]
+    },
+    {
+      "english_key": "thanks",
+      "alternatives": [
+        [
+          "s08-00181000",
+          "Jason: Sağ olun."
+        ],
+        [
+          "s08-02979500",
+          "Lucia: Teşekkürler."
+        ],
+        [
+          "s08-18066000",
+          "Lucia: Teşekkürler."
+        ]
+      ]
+    },
+    {
+      "english_key": "what",
+      "alternatives": [
+        [
+          "s08-00365500",
+          "Lucia: Ne?"
+        ],
+        [
+          "s08-01489500",
+          "Nate: Ne?"
+        ],
+        [
+          "s08-07622500",
+          "Omar: Ne?"
+        ],
+        [
+          "s08-09978500",
+          "Raina: Ne?"
+        ],
+        [
+          "s08-12462500",
+          "Jason: Ne?"
+        ],
+        [
+          "s08-12675000",
+          "Mahalleli: Ne?"
+        ],
+        [
+          "s08-13243500",
+          "Nayib: Ne?"
+        ],
+        [
+          "s08-15042500",
+          "Petra: Ne?"
+        ],
+        [
+          "s08-15128500",
+          "César: Ne?"
+        ],
+        [
+          "s08-15946500",
+          "Rafa: Ne?"
+        ],
+        [
+          "s08-16223500",
+          "Andrés: Ne?"
+        ]
+      ]
+    },
+    {
+      "english_key": "let s do it",
+      "alternatives": [
+        [
+          "s08-00470000",
+          "Lucia: Hadi yapalım."
+        ],
+        [
+          "s08-08982000",
+          "Nate: Hadi yapalım!"
+        ]
+      ]
+    },
+    {
+      "english_key": "what the fuck",
+      "alternatives": [
+        [
+          "s08-00497000",
+          "PTT gençleri: Ne oluyor lan?"
+        ],
+        [
+          "s08-01706000",
+          "Resepsiyon görevlisi: Ne oluyor lan?"
+        ],
+        [
+          "s08-03960500",
+          "Jason: Ne oluyor lan?"
+        ],
+        [
+          "s08-12825500",
+          "Mahalleli: Ne oluyor amına koyayım?"
+        ]
+      ]
+    },
+    {
+      "english_key": "lucia yeah",
+      "alternatives": [
+        [
+          "s08-00627000",
+          "Lucia: Evet."
+        ],
+        [
+          "s08-16800000",
+          "Lucia: Öyle mi?"
+        ]
+      ],
+      "reason": "Ambiguous primary caption or its speakerless fallback"
+    },
+    {
+      "english_key": "yeah",
+      "alternatives": [
+        [
+          "s08-00627000",
+          "Lucia: Evet."
+        ],
+        [
+          "s08-00791000",
+          "Jason: Evet."
+        ],
+        [
+          "s08-06750500",
+          "Nate: İşte bu!"
+        ],
+        [
+          "s08-07290000",
+          "Omar: Evet..."
+        ],
+        [
+          "s08-07975500",
+          "Evet."
+        ],
+        [
+          "s08-08634500",
+          "KD: Evet."
+        ],
+        [
+          "s08-11535500",
+          "Rafa: Hı."
+        ],
+        [
+          "s08-14211500",
+          "Jason: Evet."
+        ],
+        [
+          "s08-15226000",
+          "Andrés: Evet!"
+        ],
+        [
+          "s08-16800000",
+          "Lucia: Öyle mi?"
+        ],
+        [
+          "s08-17184000",
+          "Kordell: Evet."
+        ]
+      ],
+      "reason": "Ambiguous primary caption or its speakerless fallback"
+    },
+    {
+      "english_key": "okay",
+      "alternatives": [
+        [
+          "s08-00716500",
+          "Lucia: Tamam."
+        ],
+        [
+          "s08-07524000",
+          "Jason: Tamam."
+        ],
+        [
+          "s08-08946500",
+          "Raina: Tamam."
+        ],
+        [
+          "s08-09985500",
+          "Francisco: Tamam."
+        ],
+        [
+          "s08-13331500",
+          "Paulo: Tamam."
+        ],
+        [
+          "s08-15019000",
+          "César: Tamam."
+        ],
+        [
+          "s08-15151500",
+          "Andrés: Tamam."
+        ],
+        [
+          "s08-15658000",
+          "Jason: Tamam."
+        ],
+        [
+          "s08-16082500",
+          "Rafa: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "fuck",
+      "alternatives": [
+        [
+          "s08-00807000",
+          "Karim: Siktir."
+        ],
+        [
+          "s08-01735000",
+          "Nate: Siktir!"
+        ],
+        [
+          "s08-05742000",
+          "Dre'Quan: Siktir!"
+        ],
+        [
+          "s08-13584000",
+          "Andrés: Sikeyim!"
+        ],
+        [
+          "s08-17509000",
+          "Nate: Siktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "uh huh",
+      "alternatives": [
+        [
+          "s08-00825000",
+          "Raul: Hı hı..."
+        ],
+        [
+          "s08-15233000",
+          "Jason: Hı hı."
+        ],
+        [
+          "s08-16040500",
+          "Lucia: Hı hı."
+        ],
+        [
+          "s08-17203500",
+          "Francisco: Hı hı..."
+        ]
+      ]
+    },
+    {
+      "english_key": "c mon",
+      "alternatives": [
+        [
+          "s08-01115500",
+          "J-Wang: Hadi gel."
+        ],
+        [
+          "s08-15172000",
+          "Jason: Hadi."
+        ]
+      ]
+    },
+    {
+      "english_key": "shit",
+      "alternatives": [
+        [
+          "s08-01348000",
+          "Lucia: Siktir."
+        ],
+        [
+          "s08-13219500",
+          "Andrés: Sikeyim!"
+        ],
+        [
+          "s08-13293000",
+          "Jason: Sikeyim."
+        ],
+        [
+          "s08-13648500",
+          "Pilot: Sikeyim!"
+        ],
+        [
+          "s08-15056500",
+          "César: Siktir."
+        ],
+        [
+          "s08-15798000",
+          "Lucia: Siktir."
+        ],
+        [
+          "s08-16128000",
+          "Rafa: Siktir!"
+        ],
+        [
+          "s08-17487500",
+          "Nate: Siktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "cool",
+      "alternatives": [
+        [
+          "s08-01409000",
+          "Kordell: Güzel."
+        ],
+        [
+          "s08-03474500",
+          "Jason: Güzel."
+        ],
+        [
+          "s08-11258500",
+          "Lucia: Güzel."
+        ],
+        [
+          "s08-12011500",
+          "Barmen: Tamam."
+        ],
+        [
+          "s08-16449500",
+          "Rafa: Süper."
+        ]
+      ]
+    },
+    {
+      "english_key": "really",
+      "alternatives": [
+        [
+          "s08-01415000",
+          "Jason: Cidden mi?"
+        ],
+        [
+          "s08-10789500",
+          "Lucia: Ciddi misin?"
+        ]
+      ]
+    },
+    {
+      "english_key": "yep",
+      "alternatives": [
+        [
+          "s08-01427500",
+          "Kordell: Aynen."
+        ],
+        [
+          "s08-10220000",
+          "Lucia: Evet."
+        ],
+        [
+          "s08-15227500",
+          "Jason: Aynen."
+        ]
+      ]
+    },
+    {
+      "english_key": "got it",
+      "alternatives": [
+        [
+          "s08-01499000",
+          "Nate: Tamamdır."
+        ],
+        [
+          "s08-10213500",
+          "Lucia: Anladım."
+        ],
+        [
+          "s08-12074500",
+          "Jason: Çektim."
+        ],
+        [
+          "s08-16126500",
+          "Lucia: Anladım."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh yeah",
+      "alternatives": [
+        [
+          "s08-01547000",
+          "Resepsiyon görevlisi: Öyle mi?"
+        ],
+        [
+          "s08-03148500",
+          "Lucia: Tabii."
+        ],
+        [
+          "s08-05477500",
+          "Roxy: Ha, evet..."
+        ],
+        [
+          "s08-07446500",
+          "Omar: Hem de nasıl."
+        ],
+        [
+          "s08-08175000",
+          "Jason: Öyle mi?"
+        ]
+      ]
+    },
+    {
+      "english_key": "come on",
+      "alternatives": [
+        [
+          "s08-01638500",
+          "Nate: Hadi ama!"
+        ],
+        [
+          "s08-02019000",
+          "Kordell: Hadi."
+        ],
+        [
+          "s08-10711000",
+          "Andrea: Hadi ama!"
+        ]
+      ]
+    },
+    {
+      "english_key": "alright",
+      "alternatives": [
+        [
+          "s08-01727000",
+          "Resepsiyon görevlisi: Tamam."
+        ],
+        [
+          "s08-06071000",
+          "Raul: Tamam."
+        ],
+        [
+          "s08-07899500",
+          "Güvenlik görevlisi: Eyvallah."
+        ],
+        [
+          "s08-08054500",
+          "Jason: Tamam."
+        ],
+        [
+          "s08-15715500",
+          "Jason: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "thank you",
+      "alternatives": [
+        [
+          "s08-02013000",
+          "Mahalleli: Teşekkürler!"
+        ],
+        [
+          "s08-12026500",
+          "Jason: Sağ ol."
+        ],
+        [
+          "s08-16675500",
+          "Petra: Teşekkür ederim!"
+        ],
+        [
+          "s08-16876500",
+          "Misafir: Teşekkürler!"
+        ],
+        [
+          "s08-16917500",
+          "Lucia: Teşekkürler."
+        ]
+      ]
+    },
+    {
+      "english_key": "c mon c mon",
+      "alternatives": [
+        [
+          "s08-02064500",
+          "Jason: Hadi, hadi."
+        ],
+        [
+          "s08-16004500",
+          "Rafa: Hadi! Hadi!"
+        ]
+      ]
+    },
+    {
+      "english_key": "oh",
+      "alternatives": [
+        [
+          "s08-02107500",
+          "Lucia: Ha."
+        ],
+        [
+          "s08-16584500",
+          "Gustavo: Ah."
+        ]
+      ]
+    },
+    {
+      "english_key": "no",
+      "alternatives": [
+        [
+          "s08-02541000",
+          "Lucia: Hayır?"
+        ],
+        [
+          "s08-03938500",
+          "César: Hayır."
+        ],
+        [
+          "s08-07359000",
+          "Jason: Hayır."
+        ],
+        [
+          "s08-16226000",
+          "Jason: Hayır."
+        ]
+      ]
+    },
+    {
+      "english_key": "mm",
+      "alternatives": [
+        [
+          "s08-02696500",
+          "Lucia: Hım."
+        ],
+        [
+          "s08-05589500",
+          "Roxy: Hı."
+        ],
+        [
+          "s08-11227500",
+          "Kordell: Hımm."
+        ]
+      ]
+    },
+    {
+      "english_key": "this fuckin guy",
+      "alternatives": [
+        [
+          "s08-03416500",
+          "Elonzo: Şu herife bak, amına koyayım!"
+        ],
+        [
+          "s08-12889500",
+          "Andrés: Şu herife bak amına koyayım..."
+        ]
+      ]
+    },
+    {
+      "english_key": "jason",
+      "alternatives": [
+        [
+          "s08-03434000",
+          "Jason: Jason."
+        ],
+        [
+          "s08-03724000",
+          "Valentina: Jason?"
+        ],
+        [
+          "s08-04676500",
+          "Andrés: Jason!"
+        ]
+      ]
+    },
+    {
+      "english_key": "oh fuck",
+      "alternatives": [
+        [
+          "s08-03549500",
+          "Elonzo: Hassiktir."
+        ],
+        [
+          "s08-11024000",
+          "Lucia: Hassiktir."
+        ],
+        [
+          "s08-13088000",
+          "Jason: Hay sikeyim!"
+        ],
+        [
+          "s08-13673000",
+          "Andrés: Hay sikeyim."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh shit",
+      "alternatives": [
+        [
+          "s08-03573000",
+          "Elonzo: Hassiktir."
+        ],
+        [
+          "s08-03982500",
+          "Andrés: Hassiktir."
+        ],
+        [
+          "s08-04180000",
+          "Lucia: Hassiktir!"
+        ],
+        [
+          "s08-05606000",
+          "Bae-Luxe: Hassiktir!"
+        ],
+        [
+          "s08-13075000",
+          "Andrés: Hassiktir."
+        ],
+        [
+          "s08-16077000",
+          "Lucia: Hassiktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "this way sir",
+      "alternatives": [
+        [
+          "s08-03937000",
+          "Gustavo: Bu taraftan efendim!"
+        ],
+        [
+          "s08-13396000",
+          "Paulo: Bu taraftan, efendim!"
+        ]
+      ]
+    },
+    {
+      "english_key": "move",
+      "alternatives": [
+        [
+          "s08-04078500",
+          "Rehin alan kişi: Yürü!"
+        ],
+        [
+          "s08-13619500",
+          "Jason: Çekil."
+        ]
+      ]
+    },
+    {
+      "english_key": "andres",
+      "alternatives": [
+        [
+          "s08-04290000",
+          "Jason: Andrés?"
+        ],
+        [
+          "s08-12568000",
+          "Hector: Andrés."
+        ],
+        [
+          "s08-12822000",
+          "Jason: Andrés?"
+        ],
+        [
+          "s08-13232000",
+          "Nayib: Andrés!"
+        ]
+      ]
+    },
+    {
+      "english_key": "be careful",
+      "alternatives": [
+        [
+          "s08-04368500",
+          "Jason: Dikkatli ol."
+        ],
+        [
+          "s08-15365500",
+          "Lucia: Dikkatli ol."
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah okay",
+      "alternatives": [
+        [
+          "s08-04431500",
+          "Lucia: Evet, tamam."
+        ],
+        [
+          "s08-07724000",
+          "Jason: Evet, tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "lucia",
+      "alternatives": [
+        [
+          "s08-04551500",
+          "Valentina: Lucia?"
+        ],
+        [
+          "s08-10660000",
+          "Lucia: Lucia."
+        ],
+        [
+          "s08-16911500",
+          "Resepsiyon görevlisi: Lucia?"
+        ]
+      ]
+    },
+    {
+      "english_key": "okay okay",
+      "alternatives": [
+        [
+          "s08-04655000",
+          "Andrés: Tamam, tamam!"
+        ],
+        [
+          "s08-05227500",
+          "Roxy: Tamam, tamam..."
+        ]
+      ]
+    },
+    {
+      "english_key": "where you going",
+      "alternatives": [
+        [
+          "s08-04731000",
+          "Andrés: Nereye gidiyorsun?"
+        ],
+        [
+          "s08-16296000",
+          "Lucia: Nereye gidiyorsun?"
+        ]
+      ]
+    },
+    {
+      "english_key": "hello",
+      "alternatives": [
+        [
+          "s08-04915000",
+          "Jason: Alo?"
+        ],
+        [
+          "s08-10049000",
+          "Lucia: Alo?"
+        ],
+        [
+          "s08-15428500",
+          "FAP gerillası: Alo?"
+        ]
+      ]
+    },
+    {
+      "english_key": "right",
+      "alternatives": [
+        [
+          "s08-05079000",
+          "Jason: Anladım."
+        ],
+        [
+          "s08-10411000",
+          "Lucia: Tabii..."
+        ],
+        [
+          "s08-13908500",
+          "Jason: Anladım."
+        ]
+      ]
+    },
+    {
+      "english_key": "hey hey",
+      "alternatives": [
+        [
+          "s08-05127000",
+          "Bae-Luxe: Selam?\nSelam..."
+        ],
+        [
+          "s08-05961500",
+          "Lucia: Selam.\nSelam."
+        ]
+      ]
+    },
+    {
+      "english_key": "yo",
+      "alternatives": [
+        [
+          "s08-05297500",
+          "Dre'Quan: Hey."
+        ],
+        [
+          "s08-05604500",
+          "Bae-Luxe: Hey!"
+        ],
+        [
+          "s08-07176500",
+          "Jason: Efendim."
+        ],
+        [
+          "s08-07800500",
+          "Karim: Efendim."
+        ],
+        [
+          "s08-09440000",
+          "Nate: Selam."
+        ],
+        [
+          "s08-14286000",
+          "Dre'Quan: Hey."
+        ]
+      ]
+    },
+    {
+      "english_key": "you good",
+      "alternatives": [
+        [
+          "s08-05299500",
+          "Lucia: İyi misin?"
+        ],
+        [
+          "s08-15331000",
+          "Jason: İyi misin?"
+        ]
+      ]
+    },
+    {
+      "english_key": "we gotta move",
+      "alternatives": [
+        [
+          "s08-05608500",
+          "Lucia: Gitmemiz lazım!"
+        ],
+        [
+          "s08-17368000",
+          "Kordell: Gitmemiz lazım."
+        ]
+      ]
+    },
+    {
+      "english_key": "holy shit",
+      "alternatives": [
+        [
+          "s08-06716500",
+          "Nate: Vay amına koyayım!"
+        ],
+        [
+          "s08-12739000",
+          "Andrés: Hassiktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "i m in",
+      "alternatives": [
+        [
+          "s08-07028000",
+          "Lucia: İçeri girdim."
+        ],
+        [
+          "s08-13496000",
+          "Jason: Girdim."
+        ]
+      ]
+    },
+    {
+      "english_key": "you know that right",
+      "alternatives": [
+        [
+          "s08-07411500",
+          "Omar: Bunu biliyorsun, değil mi?"
+        ],
+        [
+          "s08-17905000",
+          "Kordell: Biliyorsunuz, değil mi?"
+        ]
+      ]
+    },
+    {
+      "english_key": "uh",
+      "alternatives": [
+        [
+          "s08-07520500",
+          "Jason: Şey..."
+        ],
+        [
+          "s08-14301500",
+          "Dre'Quan: Şey..."
+        ]
+      ]
+    },
+    {
+      "english_key": "go",
+      "alternatives": [
+        [
+          "s08-07572500",
+          "Omar: Bas."
+        ],
+        [
+          "s08-16846000",
+          "Lucia: Söyle."
+        ],
+        [
+          "s08-17377500",
+          "Kordell: Yürü!"
+        ]
+      ]
+    },
+    {
+      "english_key": "thanks man",
+      "alternatives": [
+        [
+          "s08-07897500",
+          "Jason: Sağ ol, dostum!"
+        ],
+        [
+          "s08-12587000",
+          "Andrés: Sağ ol, kardeşim."
+        ]
+      ]
+    },
+    {
+      "english_key": "hmm",
+      "alternatives": [
+        [
+          "s08-08762000",
+          "Royce: Hım."
+        ],
+        [
+          "s08-11032000",
+          "Raina: Hımm."
+        ]
+      ]
+    },
+    {
+      "english_key": "let s go",
+      "alternatives": [
+        [
+          "s08-08983000",
+          "Francisco: Hadi."
+        ],
+        [
+          "s08-09285500",
+          "Nate: Hadi gidelim."
+        ],
+        [
+          "s08-13396500",
+          "Jason: Hadi!"
+        ]
+      ]
+    },
+    {
+      "english_key": "argh",
+      "alternatives": [
+        [
+          "s08-09221000",
+          "Yabancı: Ahh..."
+        ],
+        [
+          "s08-17546500",
+          "Kordell: Ah!"
+        ]
+      ]
+    },
+    {
+      "english_key": "ah shit",
+      "alternatives": [
+        [
+          "s08-09818500",
+          "Lucia: Siktir."
+        ],
+        [
+          "s08-13671500",
+          "Andrés: Ah, sikeyim."
+        ],
+        [
+          "s08-15950000",
+          "Rafa: Ah, siktir..."
+        ],
+        [
+          "s08-16282500",
+          "Lucia: Siktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "uh yeah",
+      "alternatives": [
+        [
+          "s08-10009000",
+          "Lucia: Şey, evet."
+        ],
+        [
+          "s08-12018500",
+          "Jason: Şey, evet."
+        ]
+      ]
+    },
+    {
+      "english_key": "yes",
+      "alternatives": [
+        [
+          "s08-10273000",
+          "Judd: Evet!"
+        ],
+        [
+          "s08-13810500",
+          "César: Evet."
+        ],
+        [
+          "s08-14839000",
+          "Dre'Quan: İşte bu!"
+        ]
+      ]
+    },
+    {
+      "english_key": "mm hmm",
+      "alternatives": [
+        [
+          "s08-10528500",
+          "Francisco: Hı hı."
+        ],
+        [
+          "s08-16812000",
+          "Lucia: Hı hı."
+        ]
+      ]
+    },
+    {
+      "english_key": "i got it",
+      "alternatives": [
+        [
+          "s08-10934000",
+          "Jason: Tamam."
+        ],
+        [
+          "s08-13220500",
+          "Jason: Tamam."
+        ],
+        [
+          "s08-15374000",
+          "Andrés: Anladım."
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah yeah",
+      "alternatives": [
+        [
+          "s08-11517500",
+          "Jason: Evet, evet."
+        ],
+        [
+          "s08-12363000",
+          "Andrés: Evet... evet..."
+        ],
+        [
+          "s08-16155500",
+          "Rafa: Evet, evet."
+        ],
+        [
+          "s08-16700500",
+          "Jason: Evet, evet."
+        ]
+      ]
+    },
+    {
+      "english_key": "rafa",
+      "alternatives": [
+        [
+          "s08-11529500",
+          "Andrés: Rafa!"
+        ],
+        [
+          "s08-15937000",
+          "Lucia: Rafa!"
+        ],
+        [
+          "s08-16454000",
+          "Andrés: Rafa!"
+        ]
+      ]
+    },
+    {
+      "english_key": "i got you",
+      "alternatives": [
+        [
+          "s08-11967000",
+          "Andrés: Tamamdır."
+        ],
+        [
+          "s08-13257000",
+          "Jason: Tuttum seni."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh my god",
+      "alternatives": [
+        [
+          "s08-12307500",
+          "Parti konuğu: Aman Tanrım!"
+        ],
+        [
+          "s08-14819500",
+          "Dre'Quan: Aman Tanrım!"
+        ],
+        [
+          "s08-15108000",
+          "Andrés: Aman Tanrım."
+        ],
+        [
+          "s08-16446000",
+          "Rafa: Aman Tanrım."
+        ]
+      ]
+    },
+    {
+      "english_key": "donatello",
+      "alternatives": [
+        [
+          "s08-12318000",
+          "Gabby: Donatello!"
+        ],
+        [
+          "s08-12465000",
+          "Andrés: Donatello."
+        ]
+      ]
+    },
+    {
+      "english_key": "bye",
+      "alternatives": [
+        [
+          "s08-12699000",
+          "Mahalleli: Hoşça kal!"
+        ],
+        [
+          "s08-14876000",
+          "Lucia: Görüşürüz."
+        ]
+      ]
+    },
+    {
+      "english_key": "whoa",
+      "alternatives": [
+        [
+          "s08-13306500",
+          "Andrés: Vay!"
+        ],
+        [
+          "s08-16100500",
+          "Rafa: Vay!"
+        ]
+      ]
+    },
+    {
+      "english_key": "over here",
+      "alternatives": [
+        [
+          "s08-13481000",
+          "Paulo: Buraya!"
+        ],
+        [
+          "s08-16172000",
+          "Gustavo: Buraya!"
+        ]
+      ]
+    }
+  ],
+  "complete": true,
+  "speaker_color_label_occurrences": 5452,
+  "speaker_color_measured_occurrences": 5441,
+  "speaker_color_visually_identified_occurrences": 9,
+  "speaker_color_unresolved_occurrences": 2
+}

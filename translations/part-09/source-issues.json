@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "id": "s09-02886000",
+      "source_frame": "continuous/frames/s09-02886000.jpg",
+      "issue": "source_censorship",
+      "visible_english": "Vinny: to [black censorship bar] everybody in there twice.",
+      "note": "Native source visually checked. The predicate is hidden behind a black censorship bar. Not exported or reconstructed; preceding readable caption kept separately."
+    },
+    {
+      "id": "s09-03204500",
+      "source_frame": "continuous/frames/s09-03204500.jpg",
+      "issue": "source_censorship",
+      "visible_english": "Vinny: Bunch'a mall cops ducking the real shit and [black censorship bar] off all over the base.",
+      "note": "Native source visually checked. A black censorship bar conceals the second action. Whole caption excluded; hidden words not invented."
+    },
+    {
+      "id": "s09-03483500",
+      "source_frame": "continuous/frames/s09-03483500.jpg",
+      "issue": "source_censorship",
+      "visible_english": "Vinny: Few minutes out. [black censorship bar] still got their panties on.",
+      "note": "Native source visually checked. Black bar obscures subject/words of second sentence. Only the independent fully readable first sentence exported; concealed words not invented."
+    },
+    {
+      "id": "s09-07398500",
+      "source_frame": "continuous/frames/s09-07398500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Vinny: Alright, you [obscured]",
+      "note": "Native source checked at full resolution; solid black source-video censor block hides the remainder after you. Hidden word(s) not inferred; affected caption omitted."
+    },
+    {
+      "id": "s09-08955000",
+      "source_frame": "continuous/frames/s09-08955000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Abe: So unless you wanna [obscured] another senator,",
+      "note": "Full native source inspected. A solid black bar conceals the verb between wanna and another senator. No hidden wording inferred; entire affected caption omitted."
+    },
+    {
+      "id": "s09-09786000",
+      "source_frame": "continuous/frames/s09-09786000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Statewide Prosecutor: [obscured] with the cameras down...",
+      "note": "Full native source inspected. A solid black rectangle obscures words immediately after the speaker label before with the cameras down. Hidden words not guessed; affected caption omitted."
+    },
+    {
+      "id": "s09-09919500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s09-09919500.jpg",
+      "visible_fragment": "Deputy: You and your [black bar] bitch girlfriend.",
+      "note": "Black source bar hides one or more words in the middle of this Deputy caption. Hidden words not inferred; whole censored cue omitted."
+    },
+    {
+      "id": "s09-10259500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s09-10259500.jpg",
+      "visible_fragment": "Lucia: Oh, God. This bitch [black bar] motherfucker.",
+      "note": "Black source bar hides word(s) between bitch and motherfucker; hidden text not inferred, whole censored cue omitted."
+    },
+    {
+      "id": "s09-11407000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s09-11407000.jpg",
+      "visible_fragment": "Cal: Like better than a Camila Fuentes [black bar] or whatever the fuck this is?",
+      "note": "Full native source visually checked. Black censorship bar hides a word or phrase after Camila Fuentes; no reconstruction or invented translation. Entire incomplete utterance withheld."
+    }
+  ]
+}

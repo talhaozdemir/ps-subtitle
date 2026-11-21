@@ -4,10 +4,12 @@ set -euo pipefail
 root="$(cd "$(dirname "$0")" && pwd)"
 build="${1:?Pass a writable build directory}"
 output="${2:?Pass a runtime output directory}"
+ort="${3:?Pass the unpacked Debian armhf ONNX Runtime sysroot}"
 pinned=43728af2e639fecb8a7af1cd68c29820a40de973
 mkdir -p "$build" "$output"
 build="$(cd "$build" && pwd)"
 output="$(cd "$output" && pwd)"
+ort="$(cd "$ort" && pwd)"
 chiaki="$build/chiaki-ng"
 if [ ! -d "$chiaki/.git" ]; then
     git init "$chiaki"
@@ -22,12 +24,14 @@ git -C "$chiaki" submodule update --init --depth 1 third-party/curl third-party/
 export PKG_CONFIG_LIBDIR=/usr/lib/arm-linux-gnueabihf/pkgconfig:/usr/share/pkgconfig
 cmake -S "$root" -B "$build/build" -G Ninja \
     -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="$root/armhf.cmake" \
+    -DONNXRUNTIME_INCLUDE_DIR="$ort/usr/include/onnxruntime" \
     -DCHIAKI_SOURCE="$chiaki" -DPYTHON_EXECUTABLE=/usr/bin/python3 \
     -DOPENSSL_CRYPTO_LIBRARY=/usr/lib/arm-linux-gnueabihf/libcrypto.so \
     -DOPENSSL_SSL_LIBRARY=/usr/lib/arm-linux-gnueabihf/libssl.so \
     -DOPENSSL_INCLUDE_DIR=/usr/include
 cmake --build "$build/build" --target subtitle-engine --parallel 4
-python3 "$root/bundle.py" "$build/build/subtitle-engine" "$output"
+python3 "$root/bundle.py" "$build/build/subtitle-engine" "$output" "$ort"
+python3 "$root/paddle_models.py" "$build/paddle-models" "$output"
 cp "$chiaki/COPYING" "$output/licenses/chiaki-ng.txt"
 cp "$chiaki/third-party/curl/COPYING" "$output/licenses/curl.txt"
 cp "$chiaki/third-party/nanopb/LICENSE.txt" "$output/licenses/nanopb.txt"

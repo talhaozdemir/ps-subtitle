@@ -1,0 +1,10277 @@
+{
+  "format": 1,
+  "reviewer": "review_one",
+  "decisions": [
+    {
+      "id": "r00001",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00003",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00004",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00010",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00011",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "How so? için Nasıl yani? daha doğal ve tam."
+    },
+    {
+      "id": "r00012",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00019",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00022",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00029",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00035",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00038",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00039",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00042",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00044",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Real estate broker: Emlakçı olmaya çalışıyor daha doğrudan."
+    },
+    {
+      "id": "r00046",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00066",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00067",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00070",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00071",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00075",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00085",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00086",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00088",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00094",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00099",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00103",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00106",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00108",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00117",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r00122",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00127",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00128",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00134",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r00137",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00139",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00144",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00145",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00146",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00148",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00149",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00160",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00163",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00165",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00171",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00174",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00175",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00178",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00179",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00181",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00183",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00185",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00189",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00195",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00197",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00201",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Seni anlamama yardım etmen yeter daha akıcı."
+    },
+    {
+      "id": "r00205",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00208",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "İşaret aldım daha doğal."
+    },
+    {
+      "id": "r00212",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00218",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00219",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00223",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00227",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00230",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Better be tehdidi Hepsi bu olsa iyi olur ile korunuyor; yeni umut ifadesi zayıflatıyor."
+    },
+    {
+      "id": "r00232",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00237",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00240",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00245",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00254",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00258",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00261",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ocakta fasulyem yanıyor daha doğal."
+    },
+    {
+      "id": "r00264",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00265",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00270",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaç yatağı boşaltmamız gerektiğini bir bilsen daha akıcı."
+    },
+    {
+      "id": "r00272",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00275",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00278",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00283",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00284",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00290",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00292",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00294",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00299",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00300",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00302",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00305",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00308",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00310",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00312",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00313",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00318",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00320",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00321",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00324",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00325",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Key bumps için anahtar ucundan bir iki doz anlamı iki fırt ifadesinden daha belirgin."
+    },
+    {
+      "id": "r00326",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00328",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00333",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00334",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00335",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00336",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00338",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00342",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00343",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00345",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00346",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00348",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00350",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00353",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00355",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00361",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00364",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00365",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00366",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00370",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00371",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00375",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00383",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00384",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00386",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Conjugal için pembe oda görüşmesi anlamı daha açık."
+    },
+    {
+      "id": "r00387",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00388",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Cinsel gerginlik karşılığı yeni birikmişlik sözünden daha doğal ve açık."
+    },
+    {
+      "id": "r00389",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00390",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00392",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00398",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00401",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00404",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00405",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00409",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00412",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00416",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00419",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Mangırlar sende mi? sorusu possession anlamını koruyor."
+    },
+    {
+      "id": "r00420",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00428",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00431",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00433",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00435",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00443",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00445",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00452",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00453",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00454",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00455",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00456",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00458",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00459",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00466",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00472",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00475",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Gidip Donnieyi alacağım kaynak get/go anlamını tam veriyor."
+    },
+    {
+      "id": "r00479",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00480",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00482",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00483",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00486",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00488",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00489",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00491",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Whats doin selamlaşmasında Naber daha doğal."
+    },
+    {
+      "id": "r00492",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00493",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00495",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00501",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00504",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaplanlar hâlâ sende mi sahiplik anlamını açık koruyor."
+    },
+    {
+      "id": "r00508",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00510",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00511",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00516",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00519",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00520",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00521",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00525",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00528",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00529",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00531",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00532",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00534",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00535",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00536",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00537",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00540",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00542",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00543",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00545",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00547",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00548",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00550",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00553",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00559",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00562",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00565",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00567",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00569",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00570",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00571",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00576",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00577",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Emirlerini yerine getiriyorum kaynak eylemi daha tam veriyor."
+    },
+    {
+      "id": "r00580",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00581",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00582",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00587",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00589",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00590",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00594",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00595",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00600",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00601",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00612",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00614",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00616",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00619",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00621",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00625",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00628",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Detayları bilmiyorum kaynak kekelemeyi koruyor; yenide zaten eklenmiş."
+    },
+    {
+      "id": "r00632",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Brianın oraya dön yeter head back anlamını daha net koruyor."
+    },
+    {
+      "id": "r00637",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00639",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00640",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00641",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00644",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00645",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00649",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00659",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00660",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00661",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00664",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00671",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00673",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00678",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00679",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00682",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00688",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00690",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00691",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaynak küfrün tonu eski karşılıkta korunuyor."
+    },
+    {
+      "id": "r00692",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00701",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00703",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00704",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00708",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00713",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00718",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Silah seslerini duyar duymaz tüymem gerekti daha akıcı."
+    },
+    {
+      "id": "r00719",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00720",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "İşe girerken böyle bir şeye razı olmadım signed up for anlamını daha tam veriyor."
+    },
+    {
+      "id": "r00721",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00724",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00729",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00737",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00740",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00743",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00744",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00745",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00751",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00761",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00763",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00767",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00769",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00770",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00771",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00774",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00775",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00778",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00781",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00784",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00791",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00796",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00803",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00808",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00812",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00814",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00816",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00819",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00822",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00832",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00835",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00841",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00842",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00845",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00846",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00849",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Karabina carbine için doğru kısa terim ve taş gibi doğal."
+    },
+    {
+      "id": "r00850",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00853",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00856",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00858",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00865",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00873",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Yeni Gözün dört açsın dilbilgisi hatası içeriyor; eski çevrene dikkat et doğal."
+    },
+    {
+      "id": "r00875",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00876",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00877",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00878",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00881",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00883",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Biyel yatakları doğru teknik ad ve daha açıklayıcı."
+    },
+    {
+      "id": "r00884",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00887",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00888",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00891",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ne dersin daha doğrudan; yenide anlaşma varsayılmış."
+    },
+    {
+      "id": "r00893",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00897",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Şunu adam edelim araç onarımı için daha doğal."
+    },
+    {
+      "id": "r00899",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00900",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00906",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00908",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00909",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00912",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00918",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00919",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00921",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00922",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00925",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00941",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00947",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00948",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00949",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00951",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00955",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00956",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00957",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00958",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00963",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00965",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00970",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00971",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00973",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00975",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00986",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00987",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00990",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00996",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00997",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00998",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01001",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01006",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01009",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Sözleşmeli çalışıyordun contracting anlamını koruyor."
+    },
+    {
+      "id": "r01014",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01015",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01016",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01019",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01022",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01027",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01031",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01032",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01034",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01036",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01037",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01039",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01045",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01054",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01055",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01057",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01059",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01067",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01068",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01073",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01075",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01076",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01077",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01081",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01082",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01083",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01085",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Kaygısı tavan yapmış anxiety through the roof anlamını daha net taşıyor."
+    },
+    {
+      "id": "r01086",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01090",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01092",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01096",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01100",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01104",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01107",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01111",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01118",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01123",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01125",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01126",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01133",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01134",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01135",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01137",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01142",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01143",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01145",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01147",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01151",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01153",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Baş direktör Chief Director unvanını tam koruyor."
+    },
+    {
+      "id": "r01154",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01155",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01160",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01162",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01163",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01166",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01171",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01172",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01176",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01177",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01186",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01188",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01189",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01190",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01196",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01200",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01203",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01204",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01206",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01209",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01210",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01215",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01226",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01228",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01235",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01237",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01241",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01246",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01250",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01251",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01258",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01260",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01262",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01269",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01273",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01274",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01279",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01282",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01283",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01287",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01292",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01294",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01299",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Ghost terimini anlamayan soruya Ne yapmış? daha uygun; yeni Ne yapmıyor? olumsuzluğu kaynakta yok."
+    },
+    {
+      "id": "r01300",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01310",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01311",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01313",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01314",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01315",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01316",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01317",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01319",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01320",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01325",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01326",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01328",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01333",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01335",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01336",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01339",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01344",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01346",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01349",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01352",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01354",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01355",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01362",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01363",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01371",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01374",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01377",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01381",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01386",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01387",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01388",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01400",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01402",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01403",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01405",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01408",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01410",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01415",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01417",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01421",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01424",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01425",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01426",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01434",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01447",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01450",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01451",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01462",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01464",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01467",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01470",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01471",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01472",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01474",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01478",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01480",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01481",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01484",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01485",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01487",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01490",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01493",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01494",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01497",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01499",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01502",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01503",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01508",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01509",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01510",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01511",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01515",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01523",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01528",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01529",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01531",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01535",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01543",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01544",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01549",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01552",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01555",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01557",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01561",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01567",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01568",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01569",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01574",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01581",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01583",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01588",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01597",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01600",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01603",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "ATV sürmeye gitmek quadding etkinliğini daha açık anlatıyor."
+    },
+    {
+      "id": "r01605",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01606",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01607",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01610",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01611",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01612",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01614",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kontrol bende get it under control anlamını işi çözdümden daha doğrudan koruyor."
+    },
+    {
+      "id": "r01617",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01620",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01627",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01629",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01630",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bir striptizci balina gibi kaynak tekil benzetmeyi tam koruyor."
+    },
+    {
+      "id": "r01632",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01634",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01636",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01641",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01647",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01649",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01654",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Çünkü eziksin Türkçe konuşmada daha akıcı."
+    },
+    {
+      "id": "r01655",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01656",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Dalış arkadaşı buddy bağlamını eş sözcüğünden daha açık veriyor."
+    },
+    {
+      "id": "r01657",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01659",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01662",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Dalış arkadaşının yanında kalsın daha açık güvenlik yönergesi."
+    },
+    {
+      "id": "r01666",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01669",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01680",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01684",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01687",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01689",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01691",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01692",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01693",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Söyleyebilelim diye önceki cümlenin amaç bağını koruyor."
+    },
+    {
+      "id": "r01696",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01699",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01701",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01703",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01705",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01708",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01712",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01713",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01714",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01716",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01718",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01720",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01721",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01724",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01725",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01735",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01736",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01737",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01738",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01744",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01749",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01750",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01752",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01753",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Dalış arkadaşlarımızdan ayrılmamak bağlamı daha açık."
+    },
+    {
+      "id": "r01771",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Götürmemiz yeter kaynak just have to anlamını tam koruyor."
+    },
+    {
+      "id": "r01772",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01778",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01785",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01802",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Tüplü dalış scuba anlamını açık koruyor."
+    },
+    {
+      "id": "r01803",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01804",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01805",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01810",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01814",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01817",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01819",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01820",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01823",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Yönetmelikler regulations için bu resmî konuşmada daha yerinde."
+    },
+    {
+      "id": "r01824",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01828",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01835",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01837",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01843",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01844",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01849",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01857",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01858",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Turunun yarısını tamamladınız doğal ve daha kesin."
+    },
+    {
+      "id": "r01860",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01863",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01865",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01868",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01870",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01871",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01874",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01877",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01882",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01887",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01888",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01890",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01899",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01901",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Tamir ediyordum kaynak geçmişte sürmekte olan işi koruyor."
+    },
+    {
+      "id": "r01910",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01912",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01914",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01916",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01918",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01919",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01920",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01922",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01923",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01924",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01927",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01929",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01935",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01937",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01939",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01942",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01943",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01948",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01951",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01953",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01954",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01957",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01958",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01959",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01961",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01962",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01966",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01968",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01970",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01971",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01975",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01985",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "İletişimi kesti ghosted anlamını daha açık karşılıyor."
+    },
+    {
+      "id": "r01987",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01991",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01992",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01994",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01998",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02002",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02006",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02007",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02008",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02011",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02012",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02017",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02022",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02023",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02025",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02027",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02028",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02029",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02031",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02038",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02039",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02044",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02046",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02054",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02065",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02067",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02074",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02082",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02084",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02085",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02086",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02091",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02092",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02093",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02096",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02100",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02101",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02105",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02115",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02119",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02126",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02127",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02134",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02135",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02148",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02154",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02156",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02162",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02165",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02167",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02168",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02169",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02170",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02171",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02172",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02175",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02177",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02178",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02180",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02182",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Her şey olur kısa yanıtı Herhangi bir şeyden daha doğal."
+    },
+    {
+      "id": "r02186",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02189",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Ödünç verebileceğini lend anlamını koruyor; yeni yalnızca vermek diyor."
+    },
+    {
+      "id": "r02193",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02195",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02197",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02200",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02201",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02203",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02205",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02211",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Köşeyi dönüyoruz konuşma dilinde daha doğal deyim."
+    },
+    {
+      "id": "r02217",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02218",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02227",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02229",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02230",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02233",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02235",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02236",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02240",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02241",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02242",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kazıklı ev stilt house için daha kısa ve doğal karşılık."
+    },
+    {
+      "id": "r02246",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02248",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02249",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02251",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02255",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02256",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02257",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02258",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02260",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02262",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02263",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02264",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02266",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02268",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02269",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02274",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02275",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02279",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02280",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02283",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02286",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02288",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02292",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02297",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02300",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02301",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02302",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02303",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02305",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02311",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02313",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02317",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02318",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02319",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02322",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02327",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02331",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02332",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02335",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02338",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02339",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02340",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02347",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02350",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02357",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02360",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02363",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02366",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02368",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02369",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02370",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02371",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02372",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02373",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02377",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02382",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02384",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02385",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02386",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02388",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02389",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02394",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02396",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02397",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02398",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02401",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02402",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02405",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02406",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02412",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02417",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02420",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02422",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02424",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02435",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02436",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02437",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02441",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02445",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02448",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02450",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02452",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02453",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02454",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02457",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02459",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02466",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02469",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02475",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02476",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02481",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02483",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02486",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02490",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02491",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02497",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02498",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02499",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02504",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02505",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02506",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02513",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02517",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02518",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02521",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02523",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02524",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02527",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02529",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02530",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02537",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02538",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02540",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Yalnız kalmasını düşünmeye dayanamıyordum hated to think anlamını abartmadan doğal veriyor."
+    },
+    {
+      "id": "r02547",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02550",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02553",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02554",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02555",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02558",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02560",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02566",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02571",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02573",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02580",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02581",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02583",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02584",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02585",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02586",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02589",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02590",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02593",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02595",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02597",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02599",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02600",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02601",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02603",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02610",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02611",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02614",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02615",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02617",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02620",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02621",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02623",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02625",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02629",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02635",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02636",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02639",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02645",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02650",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02651",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02655",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02656",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02658",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02660",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kadınlarla aram iyidir fine with ladies anlamını daha doğru veriyor."
+    },
+    {
+      "id": "r02662",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02667",
+      "choice": "new",
+      "reason": "same_quality",
+      "note": "İki karşılık da for that one kişinin durumuna üzülme nüansını zayıf verebilir; sahne bağlamında yeniden değerlendirilebilir."
+    },
+    {
+      "id": "r02670",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02671",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02673",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02674",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02675",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02677",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Toz çekmek booger sugar için doğal Türkçe argo; burun şekeri yapay."
+    },
+    {
+      "id": "r02686",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02694",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02698",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02699",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02700",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02701",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02703",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02704",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02707",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02709",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02711",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02712",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02715",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02718",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02723",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02725",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02726",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02728",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02730",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02742",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02744",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02746",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02750",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02751",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02758",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02762",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02765",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02770",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02772",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02776",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02777",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02779",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02782",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02783",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02787",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02790",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02794",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02796",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02803",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02805",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02806",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02811",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02812",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02814",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02815",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02819",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02820",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02822",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02823",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02825",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02827",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02828",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02830",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02833",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02836",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02837",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02838",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02840",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Balo partnerin yap kaynak cinsel aşağılayıcı metaforu koruyor; yeni yakala diye ek eylem ve açıklama katıyor."
+    },
+    {
+      "id": "r02841",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02843",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02844",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02846",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02847",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02848",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02850",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02851",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02852",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02856",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02857",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02862",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02863",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02867",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02869",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02870",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02883",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02884",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02886",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02887",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02893",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02895",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02899",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02904",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02906",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02907",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02910",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02911",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02918",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02919",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02930",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02932",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02935",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02936",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02945",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02947",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02948",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02949",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02953",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02954",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02955",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02956",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02957",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02959",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02963",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02966",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02967",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02974",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02975",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kafayı fena bulmuşken Türkçede daha doğal."
+    },
+    {
+      "id": "r02977",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02980",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02981",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02985",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02990",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02994",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02995",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02996",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02998",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03001",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03002",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03003",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03011",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03017",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03020",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03022",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03026",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03030",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03034",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03036",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03037",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03042",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Linkini bana gönder konuşma dilinde daha doğal."
+    },
+    {
+      "id": "r03044",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03048",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03051",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03055",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03057",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03058",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03060",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03062",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03063",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03064",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03065",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03066",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03072",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03074",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03078",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03079",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03083",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03093",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03098",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03101",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03103",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03105",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03107",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03108",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03114",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03115",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03120",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03121",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03124",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03128",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03134",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03137",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03139",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03140",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03145",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03146",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03147",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03150",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03153",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03158",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03159",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03163",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03164",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03169",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03174",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03178",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03183",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03199",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03201",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03202",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03203",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03205",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03209",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03211",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03219",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03220",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03222",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03223",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03224",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03234",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03239",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03242",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03245",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03246",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03247",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03249",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03250",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03252",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03254",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03259",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03266",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03267",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03273",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03277",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03279",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03282",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03283",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03285",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03286",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03290",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03291",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03293",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03297",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03303",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03312",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03313",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03314",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03316",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03317",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03322",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03324",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03327",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03332",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03333",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03338",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03342",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03347",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03353",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03355",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03356",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03357",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03360",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03361",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03364",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03368",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03376",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03382",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03386",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03389",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03392",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03395",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03396",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03397",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03399",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03401",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03402",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03405",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03406",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03407",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03413",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03417",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03419",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03420",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03425",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03426",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03434",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03435",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03437",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03439",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03441",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03451",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "İyilik borçluyum ve işe girmenin bedeli ifadeleri daha akıcı."
+    },
+    {
+      "id": "r03455",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03458",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03460",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03466",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03467",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03470",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Fena yarrağı yedi kaynak bu adamın mahvolduğu anlamını koruyor; yeni biz yapacağız diye özne ekliyor."
+    },
+    {
+      "id": "r03471",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03473",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03475",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03476",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Neler olduğunu anlat clue me in anlamını ipucu vermekten daha doğru veriyor."
+    },
+    {
+      "id": "r03477",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03480",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03481",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03483",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03484",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03486",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03487",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03488",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03491",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03492",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03493",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03506",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03511",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03516",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03518",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03520",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03522",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03523",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03525",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03530",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03531",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03533",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03535",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03537",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03541",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03544",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03548",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03559",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03563",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03569",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03574",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03578",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03579",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03581",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03584",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03585",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03592",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03594",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03595",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03597",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03600",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03603",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03605",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Otoyol kenarında bir vardiya daha ve fırlatılıyor kaynak şikâyetin sürekliliğini daha iyi koruyor."
+    },
+    {
+      "id": "r03613",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03617",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03621",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03624",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03627",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03629",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03630",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03631",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03632",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03633",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03638",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03639",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03640",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03646",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03647",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03652",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03655",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03659",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03664",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03669",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03672",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03673",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03675",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03681",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03683",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03686",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03693",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03694",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03695",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03697",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03698",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03702",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03711",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03717",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03719",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03727",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03730",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03739",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03740",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03743",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03746",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03751",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03759",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03761",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03764",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03766",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03767",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03770",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03772",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03773",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "İşte budur deyimi thats what Im talking about için daha doğal."
+    },
+    {
+      "id": "r03777",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03778",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03780",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03783",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03784",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03785",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03789",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03790",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03792",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03796",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03797",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03800",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03802",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03814",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03815",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03820",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03821",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03826",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03829",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03831",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03833",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03843",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Meseleyi kökten halletmek deal with once and for all anlamını daha doğal veriyor."
+    },
+    {
+      "id": "r03844",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03849",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03850",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03853",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03856",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03857",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03861",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03864",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03869",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03873",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03875",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03882",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03889",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03892",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03893",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03903",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03905",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03909",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03911",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03913",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Batıktan mal çıkarmak salvage a wreck anlamını koruyor; yeni batığın tamamını kaldırma anlamına kayıyor."
+    },
+    {
+      "id": "r03915",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03916",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03920",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03926",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03928",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03930",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03935",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03936",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03938",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03939",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03941",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03946",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03948",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Siz ikiniz kendinize dikkat edin daha akıcı, gereksiz siz tekrarı yok."
+    },
+    {
+      "id": "r03951",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03953",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03957",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03963",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03964",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03968",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03970",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03972",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03975",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03976",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03977",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03978",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03982",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03983",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03987",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03988",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03992",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04002",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04006",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04014",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04015",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04018",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04021",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04024",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04025",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04027",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04030",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04032",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04034",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04041",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04043",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04046",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04050",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04056",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04062",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04072",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04074",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04075",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04078",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04083",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04084",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04085",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04086",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04087",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04090",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04092",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04093",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04101",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04102",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04104",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04109",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04112",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04114",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04123",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04127",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04128",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04131",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04132",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04141",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04142",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04144",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04148",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04154",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04156",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04158",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04162",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04163",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04168",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04173",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04175",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Balık tutmayı her zaman sevmişimdir zaman anlamını ve Türkçe akıcılığı daha iyi koruyor."
+    },
+    {
+      "id": "r04176",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04178",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04181",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04182",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04185",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04188",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04192",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04197",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04199",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04200",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04204",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04209",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04215",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04218",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04220",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04221",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04223",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04224",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04230",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04231",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04235",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04241",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04243",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04246",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04248",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04251",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04261",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04264",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04269",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04278",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04279",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04280",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04282",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04285",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04288",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04290",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04291",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04294",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04296",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04297",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04298",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04299",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04309",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04310",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04313",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04315",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04318",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04320",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04321",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04323",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04324",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04328",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04330",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04335",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04341",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04344",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04349",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04351",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04354",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04359",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04360",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04361",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04365",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04370",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04377",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04378",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04386",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "İki seçenekli soruyu Beni işten almaya gelir misin yoksa evde mi buluşalım doğal biçimde kuruyor."
+    },
+    {
+      "id": "r04388",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04400",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04404",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04405",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04406",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04408",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04413",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04417",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04418",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04419",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04425",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bir sorun yok daha doğal; eski iyi olacaksın anlamını da açık koruyor."
+    },
+    {
+      "id": "r04427",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04430",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04436",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04437",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04443",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04444",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04447",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04451",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04455",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04457",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04458",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04466",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04467",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04470",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04471",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Aptal ayağı yapma daha yerleşik Türkçe argo."
+    },
+    {
+      "id": "r04474",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04476",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04477",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04479",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04480",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04481",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04482",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04483",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04486",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04489",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04491",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04492",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04494",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04495",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04496",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04498",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04499",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04502",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04509",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04511",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04516",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04519",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04521",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04522",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04529",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04535",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04537",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04538",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04539",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04541",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04543",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04545",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04548",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04549",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04563",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04573",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04576",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04577",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04581",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04585",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04586",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04589",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04593",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04597",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04599",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04603",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04606",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04607",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04608",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04614",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04618",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04620",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04626",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04628",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04636",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04638",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04640",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04644",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04646",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04647",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04654",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04655",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04657",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04662",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04663",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04667",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04671",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04672",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04675",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04681",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04684",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04686",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04687",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04688",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04689",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04693",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04694",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04695",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04697",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04700",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04701",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04705",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04709",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04711",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04713",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04717",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04722",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04724",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04725",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04734",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04737",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04738",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04743",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04744",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04745",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04762",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04765",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04766",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04769",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04771",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04777",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04779",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04783",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04784",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04786",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04804",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04806",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04807",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04808",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04814",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Hakkında tutanak tutacağım write you up anlamını daha kesin veriyor."
+    },
+    {
+      "id": "r04815",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04820",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04824",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04827",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04828",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04829",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04830",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04833",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04834",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04838",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04840",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04841",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04843",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04848",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04849",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04852",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04855",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04856",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04857",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04862",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Birkaç kapı ötedeki kaynak doors down anlamını koruyor; yeni oda diyor."
+    },
+    {
+      "id": "r04863",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04864",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04867",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04868",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04869",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04871",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04873",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04874",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04877",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04878",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04880",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04881",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04889",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04891",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04893",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04897",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04898",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04899",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04900",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04903",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04904",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04906",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04909",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04913",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04915",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04917",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04919",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04920",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04923",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04925",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04931",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Didik didik aramak Türkçe kıyafet/parça arayışında eşelemeye razı olmaktan daha doğal."
+    },
+    {
+      "id": "r04937",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04940",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04947",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04950",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04951",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04953",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04956",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04960",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04962",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04963",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04966",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04968",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04970",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04974",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04976",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04977",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04978",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04985",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04988",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04989",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04991",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04992",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04996",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05000",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05003",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05004",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05009",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05010",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05011",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05018",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05026",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05028",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05029",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05031",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Beni oradan çıkardığın için sağ ol daha kısa ve doğal; yeni gereksiz asıl ben sağ ol diyeyim ekliyor."
+    },
+    {
+      "id": "r05036",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05040",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05042",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05044",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05048",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05056",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05060",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05064",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05067",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05069",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05071",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05072",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05075",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05078",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05082",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05087",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "İsmin ve sana ait olmayan araban dışında hiçbir şey bilmiyorum daha akıcı."
+    },
+    {
+      "id": "r05088",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05089",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05091",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05094",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05098",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05099",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05100",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05101",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Takip cihazlı araçlarla uğraşmam açık ve doğal."
+    },
+    {
+      "id": "r05103",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05105",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05110",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05111",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05117",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05118",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05122",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05124",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05130",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05132",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Hemen hemen pretty much ihtiyatını koruyor; yeni Gayet iyi anlamı güçlendiriyor."
+    },
+    {
+      "id": "r05135",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05139",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05140",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05142",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05144",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05147",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05149",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05151",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05153",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Başka işleri de olmalı kaynak should have some other work beklentisini daha doğrudan taşıyor."
+    },
+    {
+      "id": "r05160",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05162",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05169",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05172",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05175",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05178",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05190",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05196",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05199",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05202",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Bu kadar süren ne? Forever on what sorusunu daha tam veriyor."
+    },
+    {
+      "id": "r05203",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05204",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05207",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05210",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05212",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05213",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05216",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05217",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05218",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05219",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05222",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05226",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05228",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05231",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05235",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05240",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05241",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05244",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05245",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05248",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05252",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05253",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05254",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05255",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05256",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05257",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05265",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05266",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05268",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05270",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05278",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05279",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05281",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05282",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05283",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05286",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05290",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05295",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05296",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05298",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05299",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05302",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05303",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05304",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05307",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05309",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05310",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05311",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05312",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05313",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05316",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05319",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05320",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05324",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Allah aşkına for Petes sake için daha doğrudan yerleşik karşılık."
+    },
+    {
+      "id": "r05326",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05332",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05333",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05337",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05338",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05339",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05343",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05344",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05346",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05348",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05349",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05352",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05353",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05360",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05361",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05366",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05368",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05369",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05370",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05380",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05382",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05383",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05386",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05387",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05390",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05393",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05400",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05401",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05402",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05406",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05409",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05410",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05412",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05414",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05416",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05419",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05420",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05426",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05428",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05438",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05440",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05449",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05451",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05452",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05462",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05464",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05466",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05468",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05471",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05474",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05475",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05477",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05479",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05481",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05483",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05484",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05485",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05486",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05489",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05492",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05495",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05499",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05503",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05504",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05507",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Who kişi sorusu; Kim eski karşılığı Kimin iyelik sorusundan daha doğru."
+    },
+    {
+      "id": "r05510",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05511",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05512",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05514",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05516",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05519",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05527",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05529",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05535",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05538",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05544",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05545",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05547",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05551",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Hassiktir Türkçe ünlem olarak Hay sıçayımdan daha yerleşik."
+    },
+    {
+      "id": "r05552",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05555",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05561",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Kaçmayı bırak güvenlik görevlisinin kovalamadaki çağrısını daha doğru verir."
+    },
+    {
+      "id": "r05564",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05569",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05571",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05572",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05577",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05579",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05585",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05588",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05589",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05590",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05592",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05594",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05596",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05598",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05600",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05601",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05602",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05603",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05604",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05605",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05608",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05609",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05615",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05617",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05624",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05626",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05628",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05631",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05632",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05634",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05638",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05639",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05641",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05643",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05646",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05654",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05657",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05659",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05663",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05665",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05668",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05671",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05672",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05673",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05674",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05676",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05682",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05688",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05690",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05691",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05692",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05698",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05700",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05701",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05703",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05708",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05712",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05713",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05715",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05717",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05721",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05722",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05724",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05726",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05728",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05731",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05734",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05736",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05738",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05741",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05743",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05744",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05746",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05753",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05754",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05758",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05760",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05764",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05766",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05771",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05772",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05774",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05785",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05788",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05795",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05796",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05797",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05798",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05799",
+      "choice": "new",
+      "reason": "context",
+      "note": "Kaynak yalnız Go... diyor; yeni Cehennemin... bağlama göre olabilir ama söylenmemiş devamı ima ediyor. Eski Hadi! de son nefeste tehdit bağlamını kaçırıyor; kök ajan görsel/bağlamla kontrol edebilir."
+    },
+    {
+      "id": "r05802",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Sorun yok Türkçede Tamamız ifadesinden daha doğal."
+    },
+    {
+      "id": "r05803",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05810",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05812",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05827",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05829",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05834",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05835",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05839",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05845",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05851",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05852",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05854",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05855",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05860",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05862",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05864",
+      "choice": "old",
+      "reason": "tone",
+      "note": "Telefonda arkadaşla Yo selamlaşması için Selam daha uygun ton; Efendim daha resmî."
+    },
+    {
+      "id": "r05866",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05869",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05872",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05877",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05878",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05880",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05881",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05883",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05884",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05891",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05892",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05898",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05899",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05900",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05901",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05904",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05908",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05911",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05914",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05916",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05918",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05921",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05924",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05931",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05935",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05936",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05937",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05939",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05940",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05941",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05942",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05947",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05950",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05954",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05955",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05959",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05961",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05965",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05967",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05972",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05977",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05978",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05980",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05986",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05989",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05990",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05993",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05994",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05995",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05996",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05998",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06000",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06006",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06011",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06016",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06017",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06018",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06019",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06020",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06025",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06028",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06031",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06032",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06033",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06036",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06038",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06042",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06044",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06046",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06052",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06056",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06057",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06058",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06059",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06061",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06064",
+      "choice": "new",
+      "reason": "same_quality"
+    }
+  ],
+  "coverage": {
+    "expected": 2037,
+    "reviewed": 2037
+  }
+}

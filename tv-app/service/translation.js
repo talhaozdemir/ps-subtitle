@@ -2,6 +2,7 @@
 
 const https = require('https');
 const { translationProviderNames } = require('./settings');
+const { stripKnownHeaders } = require('./speaker-display');
 
 const agent = new https.Agent({ keepAlive: true, maxSockets: 2, maxFreeSockets: 1 });
 const testLine = 'We need to leave now.';
@@ -124,10 +125,10 @@ function requestTranslation(config, text) {
   return { result: completed, cancel: function () { if (request) request.destroy(Error(connectionError)); } };
 }
 
-function createSubtitleFeed(config, match, show, notify) {
+function createSubtitleFeed(config, match, show, notify, lifecycle) {
+  lifecycle = lifecycle || {};
   const cache = new Map();
   let pending;
-  let missed = 0;
   let retryAt = 0;
   let notified = false;
 
@@ -137,42 +138,43 @@ function createSubtitleFeed(config, match, show, notify) {
     pending = null;
   }
 
-  function showTranslation(text) {
-    missed = 0;
-    show(text);
+  function reset() {
+    cancel();
+    if (lifecycle.reset) lifecycle.reset();
   }
 
   function read(text, confidence) {
-    const local = config.mode === 'pack' && match(text, confidence);
+    const local = config.mode === 'pack' && match(text, confidence, config.similarity);
     if (local) {
       cancel();
-      showTranslation(local);
+      const translation = typeof local === 'string' ? local : local.translation;
+      show(stripKnownHeaders(translation, text), typeof local === 'object' ? local.speakers || [] : []);
       return;
     }
     const source = config.keys[config.provider] && confidence >= 72 && typeof text === 'string' && text.length <= 360 &&
       /[a-z]/i.test(text) ? text.trim().replace(/\s+/g, ' ') : '';
-    const cached = cache.get(source);
+    const cacheKey = source && lifecycle.cacheKey ? lifecycle.cacheKey(source) : source;
+    const cached = cache.get(cacheKey);
     if (cached) {
       cancel();
-      cache.delete(source);
-      cache.set(source, cached);
-      showTranslation(cached);
+      cache.delete(cacheKey);
+      cache.set(cacheKey, cached);
+      show(stripKnownHeaders(cached, text), []);
       return;
     }
-    if (missed < 2 && ++missed === 2) show('');
-    if (pending && pending.source === source) return;
+    if (pending && pending.cacheKey === cacheKey) return;
     cancel();
     if (!source || Date.now() < retryAt) return;
 
-    const job = { source: source, request: requestTranslation(config, source) };
+    const job = { source: source, cacheKey: cacheKey, request: requestTranslation(config, source) };
     pending = job;
     job.request.result.then(function (translation) {
       if (pending !== job) return;
       pending = null;
       notified = false;
       if (cache.size >= 1000) cache.delete(cache.keys().next().value);
-      cache.set(source, translation);
-      showTranslation(translation);
+      cache.set(cacheKey, translation);
+      show(stripKnownHeaders(translation, text), []);
     }, function (error) {
       if (pending !== job) return;
       pending = null;
@@ -180,11 +182,6 @@ function createSubtitleFeed(config, match, show, notify) {
       if (!notified) notify(error.message);
       notified = true;
     });
-  }
-
-  function reset() {
-    cancel();
-    missed = 0;
   }
 
   function update(next) {

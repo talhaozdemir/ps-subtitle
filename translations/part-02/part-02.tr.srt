@@ -1,0 +1,8502 @@
+﻿1
+00:00:27,500 --> 00:00:28,000
+Joey: Alo. Ben Joey.
+
+2
+00:00:29,000 --> 00:00:29,500
+Jason: Hey Joey, arabayı getirebilecek birini bulabilir misin?
+
+3
+00:00:31,500 --> 00:00:32,000
+Joey: Evet, tabii. Bir saniye bekle, hemen gelir.
+
+4
+00:01:17,000 --> 00:01:17,500
+Çalışan: Gördünüz mü? H-hesap tutmuyor.
+
+5
+00:01:20,000 --> 00:01:20,500
+Müdür: Ben geçebilir miyim?
+
+6
+00:01:22,000 --> 00:01:22,500
+Müdür: Dur, senin için bir bakayım...
+
+7
+00:01:25,500 --> 00:01:26,000
+Müdür: Ne yaptığını bilmiyorsan bu yazılım biraz uğraştırabilir.
+
+8
+00:01:28,500 --> 00:01:29,000
+Çalışan: B-ben ne yaptığımı biliyorum.
+
+9
+00:01:31,500 --> 00:01:32,000
+Müdür: Hepimiz öğrenmek zorundaydık.
+
+10
+00:01:32,500 --> 00:01:33,000
+Müdür: Ben bile.
+
+11
+00:01:35,000 --> 00:01:35,500
+Müdür: Şimdi bunu kopyalayıp şuraya koymam lazım...
+
+12
+00:01:37,000 --> 00:01:37,500
+Müdür: Şimdi bunu kopyalayıp şuraya koymam lazım...
+Veznedar: Yardımcı olabilir miyim?
+
+13
+00:01:37,500 --> 00:01:38,000
+Jason: Hesap açmama yardımcı olur musunuz?
+
+14
+00:01:40,000 --> 00:01:40,500
+Veznedar: Aa, evet. Şey, bunun için müdürle görüşmeniz gerekiyor.
+
+15
+00:01:42,500 --> 00:01:43,000
+Veznedar: Şurada, masanın yanında.
+
+16
+00:01:44,500 --> 00:01:45,000
+Jason: Tamam, teşekkürler.
+
+17
+00:01:45,500 --> 00:01:46,000
+Veznedar: Hı hı, tabii.
+
+18
+00:01:47,000 --> 00:01:47,500
+Müdür: Hım.
+
+19
+00:01:48,000 --> 00:01:48,500
+Jason: Merhaba, burada yeni hesap açmama yardımcı olacak biri var mı?
+
+20
+00:01:51,000 --> 00:01:51,500
+Müdür: Evet, tabii, buyurun bu tarafa. Sizi arkaya alayım.
+
+21
+00:01:54,500 --> 00:01:55,000
+Müdür: Sen devam et.
+Bir de o rakamları yeniden girmeyi dene.
+
+22
+00:01:59,000 --> 00:01:59,500
+Çalışan: Sağ olun...
+
+23
+00:02:04,500 --> 00:02:05,000
+Müdür: Hesabınızı Fleeca'ya mı taşımak istiyorsunuz?
+
+24
+00:02:07,000 --> 00:02:07,500
+Jason: Taşımak mı? Yok, yeni hesap açacağım. Şu an hesabım yok.
+
+25
+00:02:11,500 --> 00:02:12,000
+Müdür: Banka hesabınız yok mu?
+
+26
+00:02:13,500 --> 00:02:14,000
+Jason: Terhis olduğumda bana bir hesap açmaya çalıştılar,
+
+27
+00:02:15,500 --> 00:02:16,000
+Jason: ama ben açtırmadım, o yüzden...
+
+28
+00:02:17,500 --> 00:02:18,000
+Jason: İşte buradayım.
+
+29
+00:02:21,000 --> 00:02:21,500
+Jason: Kimliğim de burada.
+
+30
+00:02:25,500 --> 00:02:26,000
+Lucia: Jay!
+
+31
+00:02:27,000 --> 00:02:27,500
+Jason: Evet, kız arkadaşımın da ihtiyacı var. Hapisten yeni çıktı.
+
+32
+00:02:30,500 --> 00:02:31,000
+Jason: Tahliye programı kapsamında, belki duymuşsunuzdur.
+
+33
+00:02:33,000 --> 00:02:33,500
+Lucia: Söyledin mi?
+Neyi?
+
+34
+00:02:35,000 --> 00:02:35,500
+Lucia: Hesapların yanında bir de kredi çekebilir miyiz diye bakmak istiyoruz,
+
+35
+00:02:37,500 --> 00:02:38,000
+Lucia: kredi limiti gibi bir şey.
+
+36
+00:02:39,000 --> 00:02:39,500
+Lucia: Kimliğim gerekiyor mu?
+
+37
+00:02:40,000 --> 00:02:40,500
+Jason: Kredi bize ne için lazım?
+
+38
+00:02:41,000 --> 00:02:41,500
+Lucia: Ev için Jay.
+
+39
+00:02:42,500 --> 00:02:43,000
+Lucia: Brian iyi hoş da başına bir şey gelirse
+sıçtık biz.
+
+40
+00:02:45,500 --> 00:02:46,000
+Lucia: Sokakta kalırız.
+
+41
+00:02:47,000 --> 00:02:47,500
+Lucia: Belki evi bize satar?
+
+42
+00:02:48,500 --> 00:02:49,000
+Jason: Evet, yani, sorabilirim.
+
+43
+00:02:50,500 --> 00:02:51,000
+Lucia: Konut kredilerinize de bakabilir miyiz?
+
+44
+00:02:52,500 --> 00:02:53,000
+Müdür: Verebileceğiniz bir peşinat var mı?
+
+45
+00:02:58,000 --> 00:02:58,500
+Jason: Biraz nakit biriktirdim, getirip yatırabilirim.
+
+46
+00:03:01,000 --> 00:03:01,500
+Müdür: Askerlik yaptınız, değil mi?
+Eski askerlere verilen krediyi düşündünüz mü?
+
+47
+00:03:05,000 --> 00:03:05,500
+Jason: Evet, ordudayken başım biraz belaya girdi.
+
+48
+00:03:07,500 --> 00:03:08,000
+Jason: Pek iyi şartlarda ayrılmadım.
+
+49
+00:03:09,500 --> 00:03:10,000
+Jason: Benim gibilere kredi ya da,
+
+50
+00:03:11,500 --> 00:03:12,000
+Jason: başka bir şey vermiyorlar.
+
+51
+00:03:16,000 --> 00:03:16,500
+Müdür: Peki.
+
+52
+00:03:18,500 --> 00:03:19,000
+Müdür: Şey, bunu nasıl söylesem bilemiyorum.
+
+53
+00:03:21,500 --> 00:03:22,000
+Müdür: ama kredi notunuz
+
+54
+00:03:26,500 --> 00:03:27,000
+Müdür: Sistem size hesap açmama bile izin vermiyor,
+
+55
+00:03:28,000 --> 00:03:28,500
+Müdür: konut kredisini hiç söylemiyorum bile.
+
+56
+00:03:32,500 --> 00:03:33,000
+Lucia: Benimle dalga mı geçiyorsun? Hesap açmamız gerekiyor.
+
+57
+00:03:35,000 --> 00:03:35,500
+Müdür: Üzgünüm, bunu yapamam.
+
+58
+00:03:37,500 --> 00:03:38,000
+Lucia: Ama burası banka, işiniz bu değil mi?
+
+59
+00:03:40,500 --> 00:03:41,000
+Lucia: O zaman biraz siktiğimin bankacılığını yapın, ne bileyim?
+
+60
+00:03:43,000 --> 00:03:43,500
+Müdür: Kredi notunuz yüzünden.
+
+61
+00:03:47,500 --> 00:03:48,000
+Müdür: Telefonunuzdan kullanıyorsunuz.
+
+62
+00:03:48,500 --> 00:03:49,000
+Müdür: İşlem limitleri var ama-
+
+63
+00:03:55,000 --> 00:03:55,500
+Müdür: Kredi notunuzu yükseltin,
+o zaman size gerçek bir hesap açabilirim.
+
+64
+00:03:59,500 --> 00:04:00,000
+Müdür: O zamana kadar elim kolum bağlı.
+
+65
+00:04:01,500 --> 00:04:02,000
+Lucia: Evet, şunu geri ver bana, sağ ol.
+
+66
+00:04:05,000 --> 00:04:05,500
+Jason: Uygulamanın bağlantısını bana gönder.
+
+67
+00:04:07,000 --> 00:04:07,500
+Jason: Ama bu iş saçmalık kardeşim.
+
+68
+00:04:10,500 --> 00:04:11,000
+Müdür: Yine bekleriz.
+
+69
+00:04:14,000 --> 00:04:14,500
+Jason: Hey.
+Hey.
+
+70
+00:04:18,000 --> 00:04:18,500
+Jason: İyi misin?
+
+71
+00:04:19,500 --> 00:04:20,000
+Lucia: Yok, pek sayılmaz.
+
+72
+00:04:22,000 --> 00:04:22,500
+Jason: Pizza ister misin?
+
+73
+00:04:24,000 --> 00:04:24,500
+Lucia: Kim ödüyor?
+
+74
+00:04:25,500 --> 00:04:26,000
+Jason: Ben ısmarlarım.
+
+75
+00:04:29,500 --> 00:04:30,000
+Lucia: Tamam.
+
+76
+00:04:33,500 --> 00:04:34,000
+Lucia: Gördün mü? Aynı sen.
+Yok artık.
+
+77
+00:04:37,000 --> 00:04:37,500
+Jason: Evet, evet.
+
+78
+00:04:42,000 --> 00:04:42,500
+Jason: Tommy iyice büyüyor.
+
+79
+00:04:43,500 --> 00:04:44,000
+Lucia: Evet, artık bebek değil.
+
+80
+00:04:46,500 --> 00:04:47,000
+Lucia: Neredeyse kocaman çocuk oldu.
+
+81
+00:04:48,500 --> 00:04:49,000
+Lucia: Bütün bunları kaçırdığıma inanamıyorum.
+
+82
+00:04:51,000 --> 00:04:51,500
+Jason: Dokuz ay çabuk geçer.
+
+83
+00:04:52,500 --> 00:04:53,000
+Jason: Seyahat edebildiğimiz ilk fırsatta,
+
+84
+00:04:54,000 --> 00:04:54,500
+Jason: arabaya atlayıp Liberty State'e gideceğiz.
+
+85
+00:04:57,500 --> 00:04:58,000
+Jason: Teyzeni arayıp bir hâl hatır sorsana.
+
+86
+00:04:59,500 --> 00:05:00,000
+Lucia: Yok, çok geç oldu.
+
+87
+00:05:00,500 --> 00:05:01,000
+Jason: Ah, siktir. Evet.
+
+88
+00:05:03,000 --> 00:05:03,500
+Jason: Meğer o şeyde ortak bir birikim hesabı açabiliyormuşsun.
+
+89
+00:05:06,000 --> 00:05:06,500
+Jason: Tek sorun, parayı yatırınca
+bir daha dokunamıyorsun.
+
+90
+00:05:08,000 --> 00:05:08,500
+Jason: Belki bir başlangıç yaparız, ne dersin?
+
+91
+00:05:09,500 --> 00:05:10,000
+Jason: Ufaklık için kenara biraz para koyarız.
+
+92
+00:05:16,500 --> 00:05:17,000
+Lucia: Evet.
+
+93
+00:05:18,000 --> 00:05:18,500
+Lucia: Lorena teyzem iyi olduğunu söylüyor ama haklısın.
+
+94
+00:05:21,000 --> 00:05:21,500
+Lucia: Belli olmaz.
+
+95
+00:05:23,000 --> 00:05:23,500
+Jason: Belli olmaz.
+
+96
+00:05:24,000 --> 00:05:24,500
+Jason: Muhtemelen bir daha soyguna kalkışmanı istemiyordur.
+
+97
+00:05:27,000 --> 00:05:27,500
+Lucia: Ha. Çok komik.
+
+98
+00:05:36,000 --> 00:05:36,500
+Lucia: Bu da... bir başlangıç.
+
+99
+00:05:37,000 --> 00:05:37,500
+Lucia: Bu da... bir başlangıç.
+Jason: Evet, bir yerden başlamak lazım.
+
+100
+00:05:37,500 --> 00:05:38,000
+Jason: Evet, bir yerden başlamak lazım.
+
+101
+00:05:48,000 --> 00:05:48,500
+Lucia: Orada ne yapıyorsun?
+
+102
+00:06:14,000 --> 00:06:14,500
+Lucia: Tamam, o zaman.
+
+103
+00:06:16,500 --> 00:06:17,000
+Jason: Şey, bir şey yok.
+
+104
+00:06:17,500 --> 00:06:18,000
+Lucia: Tamam...
+
+105
+00:06:26,500 --> 00:06:27,000
+Lucia: Hey!
+
+106
+00:06:27,500 --> 00:06:28,000
+Lucia: Hey!
+Jason: Pardon, uyandırdım mı?
+
+107
+00:06:28,500 --> 00:06:29,000
+Jason: Pardon, uyandırdım mı?
+
+108
+00:07:00,000 --> 00:07:00,500
+Yoldayım
+Tamam, uğrarım
+
+109
+00:07:06,500 --> 00:07:07,000
+Shirley: Jason, benim. Bunu duyman lazım.
+
+110
+00:07:54,000 --> 00:07:54,500
+Jason: Selam.
+
+111
+00:07:55,000 --> 00:07:55,500
+Brian: Oo. Jason, iyi ki geldin.
+
+112
+00:07:56,500 --> 00:07:57,000
+Brian: Senden ufak bir teslimat yapmanı istiyorum.
+
+113
+00:07:59,000 --> 00:07:59,500
+Brian: Yeni bir aracı bulduk.
+
+114
+00:08:01,000 --> 00:08:01,500
+Jason: Oo, güzel.
+
+115
+00:08:01,500 --> 00:08:02,000
+Brian: Evet, bir de... bize bir iş buldu.
+
+116
+00:08:06,500 --> 00:08:07,000
+Jason: Tamam.
+
+117
+00:08:07,000 --> 00:08:07,500
+Brian: Güzel. Leonida Bay'den alınacak bir paket var,
+ödeme işi halledildi.
+
+118
+00:08:11,500 --> 00:08:12,000
+Brian: Tek yapacağın Dodo'yla uçup paketi almak,
+
+119
+00:08:14,000 --> 00:08:14,500
+Brian: bölmek ve havadan birkaç teslimat yapmak,
+
+120
+00:08:17,500 --> 00:08:18,000
+Brian: buraya, buraya, buraya ve... buraya. Var mısın?
+
+121
+00:08:22,500 --> 00:08:23,000
+Jason: Tabii, sorun yok. Donnie, şey...
+
+122
+00:08:25,000 --> 00:08:25,500
+Brian: Donnie'ye sormuyorum, sana soruyorum.
+
+123
+00:08:28,000 --> 00:08:28,500
+Jason: Tabii. Evet, sorun yok.
+
+124
+00:08:29,500 --> 00:08:30,000
+Brian: Güzel. Çünkü bunun sorunsuz gitmesi lazım. Tertemiz,
+basit bir teslimat. Saçmalık istemiyorum.
+
+125
+00:08:34,000 --> 00:08:34,500
+Jason: Bana uyar.
+
+126
+00:08:35,000 --> 00:08:35,500
+Brian: Güzel. Peşimden gel.
+
+127
+00:08:38,500 --> 00:08:39,000
+Brian: Şimdi, sana bu siktiğimin
+
+128
+00:08:44,000 --> 00:08:44,500
+Brian: Şimdi bir yanda Kingfishers, öbür yanda o, kafamı şişiriyorlar.
+
+129
+00:08:47,000 --> 00:08:47,500
+Brian: Kime inanacağını bilemiyorsun.
+
+130
+00:08:49,000 --> 00:08:49,500
+Jason: Hım.
+
+131
+00:08:49,500 --> 00:08:50,000
+Brian: Donnie'nin mesai dışında yaptığı teslimatlarla ilgili
+bir şey duydun mu?
+
+132
+00:08:54,000 --> 00:08:54,500
+Jason: Yok. Hiçbir şey.
+
+133
+00:08:55,500 --> 00:08:56,000
+Brian: Emin misin?
+
+134
+00:08:56,500 --> 00:08:57,000
+Jason: Kingfishers olayını biliyorsun,
+ben oraya vardığımda...
+
+135
+00:08:58,500 --> 00:08:59,000
+Brian: Evet, evet, evet. Söyledin bunu.
+
+136
+00:09:00,500 --> 00:09:01,000
+Brian: Tamam, işine bak.
+
+137
+00:09:06,500 --> 00:09:07,000
+Cal: Ha? Aa... evet.
+
+138
+00:09:13,000 --> 00:09:13,500
+Brian: Hadi, başla.
+
+139
+00:09:14,000 --> 00:09:14,500
+Cal: Ş- Evet.
+
+140
+00:09:17,000 --> 00:09:17,500
+Cal: Al hortumu dostum.
+Herkese yetecek kadar deniz boku var.
+
+141
+00:09:21,500 --> 00:09:22,000
+Cal: Şunu temizleyecek misin, yoksa diva modunda mısın?
+
+142
+00:09:24,000 --> 00:09:24,500
+Cal: Güzelce temizle şunu.
+
+143
+00:09:39,000 --> 00:09:39,500
+Cal: Yarısını bitirdik.
+
+144
+00:09:48,000 --> 00:09:48,500
+Cal: Az kaldı.
+
+145
+00:09:51,500 --> 00:09:52,000
+Cal: Yok artık.
+
+146
+00:10:01,000 --> 00:10:01,500
+Cal: Bence bir birayı hak ettim!
+
+147
+00:10:05,500 --> 00:10:06,000
+Cal: Sen de ister misin Jay?
+
+148
+00:10:06,500 --> 00:10:07,000
+Jason: Sağ ol, almayayım.
+
+149
+00:10:09,500 --> 00:10:10,000
+Cal: Hey Lucia!
+
+150
+00:10:10,500 --> 00:10:11,000
+Lucia: Hey Jay.
+
+151
+00:10:11,000 --> 00:10:11,500
+Jason: Ah, siktir, seni almaya mı gelecektim? Acıktın mı artık?
+
+152
+00:10:13,000 --> 00:10:13,500
+Lucia: Yok, aç değilim.
+
+153
+00:10:14,500 --> 00:10:15,000
+Lucia: Ee... Yaptığın iş bu mu?
+
+154
+00:10:17,500 --> 00:10:18,000
+Jason: Bugün yaptığım iş bu. Bu hayat hep şatafatlı değil Lu.
+
+155
+00:10:20,500 --> 00:10:21,000
+Cal: Biracık?
+
+156
+00:10:21,500 --> 00:10:22,000
+Lucia: Evet, olur.
+
+157
+00:10:23,500 --> 00:10:24,000
+Lucia: Bitirdiğinde üzerinde yansımamı görmek istiyorum.
+
+158
+00:10:25,500 --> 00:10:26,000
+Jason: Öyle mi? Yanına gelmemi mi istiyorsun?
+
+159
+00:10:28,500 --> 00:10:29,000
+Lucia: Gelsene.
+
+160
+00:10:34,500 --> 00:10:35,000
+Brian: Tamam, uygun bir aralığımız var-
+
+161
+00:10:39,000 --> 00:10:39,500
+Brian: Şey, Lu...
+-Cia.
+
+162
+00:10:42,000 --> 00:10:42,500
+Lucia: Selam.
+Selam.
+
+163
+00:10:43,500 --> 00:10:44,000
+Jason: Siktir Lu, bir süreliğine çıkmam lazım.
+
+164
+00:10:45,500 --> 00:10:46,000
+Brian: Hı hı, Jason benim için ufak bir iş yapacak,
+
+165
+00:10:47,500 --> 00:10:48,000
+Brian: ve evet, yatma vaktine kadar dönmüş olur.
+Aynen.
+
+166
+00:10:50,500 --> 00:10:51,000
+Brian: Tamam, uçak iskelenin ucunda. Hızlı ol,
+ay sonu geldi.
+
+167
+00:10:55,500 --> 00:10:56,000
+Brian: Sahil Güvenlik'in "kotasını" doldurması lazım.
+
+168
+00:10:59,500 --> 00:11:00,000
+Jason: O zaman ben gideyim artık.
+
+169
+00:11:01,500 --> 00:11:02,000
+Lucia: Nereye gidiyoruz?
+Olmaz.
+
+170
+00:11:03,000 --> 00:11:03,500
+Lucia: Ne? Burada güzel bir düzen kurduğunu söylemiştin!
+Bana göstermeyecek misin?
+
+171
+00:11:06,000 --> 00:11:06,500
+Jason: Bileğine bağlı o yer bildiriciyle
+hiçbir yere gitmiyorsun.
+
+172
+00:11:09,000 --> 00:11:09,500
+Cal: Donnie kendisininkiyle çıktı, hiç yakalanmadı.
+Gördün mü?
+
+173
+00:11:11,500 --> 00:11:12,000
+Jason: Sağ ol Cal.
+Rica ederim.
+
+174
+00:11:13,500 --> 00:11:14,000
+Jason: Bu başka.
+Neden?
+
+175
+00:11:15,000 --> 00:11:15,500
+Jason: Çünkü Donnie sikimde değil, tamam mı?
+Ne isterse yapabilir.
+
+176
+00:11:18,500 --> 00:11:19,000
+Lucia: Ha, Donnie istediğini yapabiliyor demek?
+Hay aksi.
+
+177
+00:11:20,500 --> 00:11:21,000
+Jason: Sen de ne bok istiyorsan yapabilirsin.
+Güzel.
+
+178
+00:11:22,500 --> 00:11:23,000
+Jason: Sen kendi... siktir.
+Hadi gidelim.
+
+179
+00:11:24,500 --> 00:11:25,000
+Cal: Hey, geçen sefer onu dışarı çıkarmak istemediğinde...
+
+180
+00:11:26,000 --> 00:11:26,500
+Cal: ...seni terk ettiğini söylememiş miydin?
+Evet.
+
+181
+00:11:31,000 --> 00:11:31,500
+Jason: Bu iş hoşuma gitmiyor.
+
+182
+00:11:32,000 --> 00:11:32,500
+Lucia: Hadi ama, bayılacaksın.
+
+183
+00:11:34,500 --> 00:11:35,000
+Jason: Bak, bunu yapacaksak ne dersem
+ne zaman dersem aynen yapacaksın.
+
+184
+00:11:40,000 --> 00:11:40,500
+Jason: Hiçbir şey yapma dersem de hiçbir şey yapmayacaksın.
+
+185
+00:11:42,000 --> 00:11:42,500
+Lucia: Harika. Hiçbir şey yapmamaya bayılırım.
+
+186
+00:11:44,000 --> 00:11:44,500
+Jason: Evet, tamam.
+
+187
+00:11:46,000 --> 00:11:46,500
+Lucia: Peki ne yapıyoruz?
+
+188
+00:11:49,000 --> 00:11:49,500
+Jason: Bir paket alıp bölüyoruz,
+sonra birkaç yere bırakıyoruz.
+
+189
+00:11:52,000 --> 00:11:52,500
+Jason: Bu kadar basit. Ödeme işi halledildi,
+yani bayağı kolay olmalı.
+
+190
+00:11:56,000 --> 00:11:56,500
+Lucia: Tamam, peki Brian'ın dediği şu "Sahil Güvenlik'in
+kota doldurması" olayı ne?
+
+191
+00:12:01,000 --> 00:12:01,500
+Jason: Sadece dikkatli olmamı söylüyor,
+
+192
+00:12:03,000 --> 00:12:03,500
+Jason: Donnie olmadan ilk tek başıma teslimatım.
+
+193
+00:12:04,500 --> 00:12:05,000
+Lucia: Oo, büyük gün demek?
+
+194
+00:12:23,500 --> 00:12:24,000
+Jason: Atla.
+
+195
+00:12:26,500 --> 00:12:27,000
+Lucia: Oo, şu göstergelere falan bak.
+
+196
+00:12:29,000 --> 00:12:29,500
+Jason: Sakın onlara dokunma.
+
+197
+00:12:33,000 --> 00:12:33,500
+Jason: Hey... O "itilen çubuk şeysi" gaz kolu, anladın mı?
+
+198
+00:12:37,000 --> 00:12:37,500
+Jason: Gaz. Ellerini ondan uzak tut.
+
+199
+00:12:39,000 --> 00:12:39,500
+Lucia: Ne? Merak da mı edemem?
+
+200
+00:12:41,000 --> 00:12:41,500
+Jason: Lu...
+
+201
+00:12:42,500 --> 00:12:43,000
+Lucia: Tamam, sadece izleyip öğreneceğim.
+
+202
+00:12:45,000 --> 00:12:45,500
+Jason: Öyle mi? Tamam.
+
+203
+00:12:46,000 --> 00:12:46,500
+Jason: Öyle mi? Tamam.
+Lucia: Evet.
+
+204
+00:12:56,000 --> 00:12:56,500
+Lucia: Siktir.
+
+205
+00:13:00,000 --> 00:13:00,500
+Lucia: Bayıldım.
+
+206
+00:13:05,500 --> 00:13:06,000
+Lucia: Vay be, şu manzaraya bak.
+
+207
+00:13:09,000 --> 00:13:09,500
+Jason: Evet, fena değil, değil mi?
+
+208
+00:13:12,000 --> 00:13:12,500
+Lucia: Peki beni daha önce niye hiç uçurmadın Pilot Bey?
+
+209
+00:13:17,500 --> 00:13:18,000
+Jason: Uçağım yoktu ki. Donnie öğretti, bir de...
+
+210
+00:13:21,000 --> 00:13:21,500
+Jason: teknik olarak hâlâ pilot lisansım yok, o yüzden...
+
+211
+00:13:23,500 --> 00:13:24,000
+Lucia: Donnie mi?
+
+212
+00:13:25,500 --> 00:13:26,000
+Lucia: Sormaz olaydım.
+
+213
+00:13:27,500 --> 00:13:28,000
+Jason: Evet, işte.
+
+214
+00:13:29,000 --> 00:13:29,500
+Jason: Elektronik kelepçe ne durumda?
+
+215
+00:13:31,000 --> 00:13:31,500
+Lucia: Ses yok. Telefonumu da arayıp duran yok.
+
+216
+00:13:33,500 --> 00:13:34,000
+Jason: Tamam, güzel. Gözün üstünde olsun.
+
+217
+00:13:37,000 --> 00:13:37,500
+Lucia: Peki paketi alacağımız adamlar kim?
+
+218
+00:13:40,000 --> 00:13:40,500
+Jason: Şey, Dominikliler... sanırım.
+
+219
+00:13:42,000 --> 00:13:42,500
+Lucia: Sanırım mı?
+
+220
+00:13:43,000 --> 00:13:43,500
+Jason: Şey, son zamanlarda işler biraz karışık.
+
+221
+00:13:45,500 --> 00:13:46,000
+Jason: Yeni bir aracımız var... Çünkü eski aracı... Neyse,
+karışık mesele.
+
+222
+00:13:50,000 --> 00:13:50,500
+Lucia: Yani Donnie'yle maldan aşırırken yakalandığınızdan beri mi?
+
+223
+00:13:54,500 --> 00:13:55,000
+Jason: Siktir.
+
+224
+00:13:55,500 --> 00:13:56,000
+Lucia: Evet, Cal anlattı.
+
+225
+00:13:57,000 --> 00:13:57,500
+Jason: Hay amına koyayım.
+
+226
+00:13:58,000 --> 00:13:58,500
+Lucia: Sorun yok. Yeni aracı, yeni başlangıç, değil mi?
+
+227
+00:14:02,000 --> 00:14:02,500
+Jason: Evet.
+
+228
+00:14:02,500 --> 00:14:03,000
+Lucia: Peki bu iş tam olarak nasıl yürüyor?
+
+229
+00:14:04,500 --> 00:14:05,000
+Lucia: Hani, fiyat, ödeme, komisyonlar, bir de bu aracı...
+
+230
+00:14:08,500 --> 00:14:09,000
+Lucia: o ne kadar kazanıyor?
+
+231
+00:14:10,000 --> 00:14:10,500
+Jason: Yavaş gel. Bunların hepsini Brian hallediyor.
+
+232
+00:14:12,500 --> 00:14:13,000
+Jason: Bizim işimiz sadece malı almak,
+
+233
+00:14:14,500 --> 00:14:15,000
+Jason: teslim etmek ve Sahil Güvenliğe karşı tetikte olmak.
+
+234
+00:14:17,000 --> 00:14:17,500
+Jason: Bildiğin silahlı kuryeyiz, anladın mı?
+
+235
+00:14:19,500 --> 00:14:20,000
+Lucia: Hı hı. Anladım.
+
+236
+00:14:27,500 --> 00:14:28,000
+Görevli: Anlaşıldı, evet, sizi E5 noktasında görüyoruz,
+biz B7 bölgesine, North Maroon Key'e geçiyoruz.
+
+237
+00:14:35,000 --> 00:14:35,500
+Jason: Onlar olmalı. İniyorum.
+
+238
+00:14:37,000 --> 00:14:37,500
+Lucia: Tamam. Bana diğer bütün teknelerle aynı görünüyor.
+
+239
+00:14:44,500 --> 00:14:45,000
+Lucia: Hey, yedek bir silahın var mı?
+
+240
+00:14:46,500 --> 00:14:47,000
+Jason: Hey, silah işi bende, tamam mı?
+
+241
+00:14:49,000 --> 00:14:49,500
+Lucia: Hım, tamam.
+
+242
+00:15:10,000 --> 00:15:10,500
+Jason: Şimdi, konuşmak gerekirse,
+
+243
+00:15:11,500 --> 00:15:12,000
+Jason: bırak ben konuşayım.
+Ben ne yapacağım?
+
+244
+00:15:13,500 --> 00:15:14,000
+Jason: Hiçbir şey. Ama hiçbir şey yapmamayı seviyorsun, değil mi?
+
+245
+00:15:16,500 --> 00:15:17,000
+Lucia: Hı hı.
+Güzel.
+
+246
+00:15:20,500 --> 00:15:21,000
+Lucia: Tekneye mi bineceğiz?
+
+247
+00:15:22,000 --> 00:15:22,500
+Jason: Yok, sen bekle.
+
+248
+00:15:27,500 --> 00:15:28,000
+Jason: Selam!
+
+249
+00:15:29,500 --> 00:15:30,000
+Kaçakçı: (İspanyolca) At şu boku.
+
+250
+00:15:32,500 --> 00:15:33,000
+Lucia: Ne cana yakın adamlar.
+
+251
+00:15:34,500 --> 00:15:35,000
+Jason: Evet, şunu halledip gidelim.
+
+252
+00:15:39,000 --> 00:15:39,500
+Jason: Şey...
+
+253
+00:15:40,500 --> 00:15:41,000
+Jason: Biraz uzakta kaldı.
+
+254
+00:15:41,500 --> 00:15:42,000
+Lucia: Dur, ben hallederim. Şey...
+
+255
+00:15:45,000 --> 00:15:45,500
+Lucia: İtilen çubuk şeysi, değil mi?
+
+256
+00:15:47,000 --> 00:15:47,500
+Jason: Yavaşça! Belki de ben yapsam iyi olur.
+
+257
+00:15:49,000 --> 00:15:49,500
+Lucia: Yok, yok, yok, hallediyorum.
+
+258
+00:15:51,000 --> 00:15:51,500
+Jason: Yön kontrolleri ayaklarının altında.
+
+259
+00:15:53,000 --> 00:15:53,500
+Lucia: Anladım.
+
+260
+00:15:55,000 --> 00:15:55,500
+Jason: Şimdi yavaşça ileri götür...
+
+261
+00:15:59,000 --> 00:15:59,500
+Jason: O geri Lu.
+
+262
+00:16:00,500 --> 00:16:01,000
+Lucia: Evet, bekle, şu alete alışmaya çalışıyorum.
+
+263
+00:16:13,000 --> 00:16:13,500
+Jason: Aldım!
+
+264
+00:16:13,500 --> 00:16:14,000
+Lucia: İşte bu be.
+
+265
+00:16:22,500 --> 00:16:23,000
+Jason: Ee...
+
+266
+00:16:26,000 --> 00:16:26,500
+Jason: Sağ olun!
+İspanyolca: Hey! Nereye gidiyorsun?
+
+267
+00:16:26,500 --> 00:16:27,000
+Jason: Sağ olun!
+İspanyolca: Hey! Nereye gidiyorsun?
+
+268
+00:16:27,000 --> 00:16:27,500
+Kaçakçı: İspanyolca: Para nerede dostum?
+İspanyolca: Durdurun onu!
+
+269
+00:16:28,000 --> 00:16:28,500
+Kaçakçı: İspanyolca: Para nerede dostum?
+İspanyolca: Durdurun onu!
+
+270
+00:16:29,000 --> 00:16:29,500
+Lucia: Ah, siktir. Gitmemiz lazım.
+Ne diyorlar?
+
+271
+00:16:31,500 --> 00:16:32,000
+Kaçakçı: İspanyolca: Verin paramızı dostum.
+Para istiyorlar. Bizde yok, değil mi?
+
+272
+00:16:33,000 --> 00:16:33,500
+Kaçakçı: İspanyolca: Verin paramızı dostum.
+Para istiyorlar. Bizde yok, değil mi?
+
+273
+00:16:34,000 --> 00:16:34,500
+Jason: Brian o işleri aracının hallettiğini söyledi.
+
+274
+00:16:36,000 --> 00:16:36,500
+Jason: Ödeme yapıldı. Anladın mı? Para yok!
+
+275
+00:16:39,000 --> 00:16:39,500
+Kaçakçı: İspanyolca:
+"Para yok!" Ne demek "para yok" şerefsiz?
+Ah, siktir Jay!
+
+276
+00:16:40,000 --> 00:16:40,500
+Kaçakçı: İspanyolca:
+"Para yok!" Ne demek "para yok" şerefsiz?
+Ah, siktir Jay!
+
+277
+00:16:42,000 --> 00:16:42,500
+Jason: Gitmemiz lazım.
+İspanyolca: Paramızı hemen verin.
+
+278
+00:16:43,000 --> 00:16:43,500
+Kaçakçı: İspanyolca: Bizi kandırmaya kalkmayın!
+İndirin şu siktiğimin silahlarını!
+
+279
+00:16:44,500 --> 00:16:45,000
+Kaçakçı: İspanyolca: İndir!
+İspanyolca: Diğerini vurun!
+
+280
+00:16:47,000 --> 00:16:47,500
+Jason: Lu, hiçbir şey yapmamakla ilgili söylediklerimi hatırlıyor musun?
+
+281
+00:16:49,000 --> 00:16:49,500
+Lucia: Çubuk şeysi mi?
+
+282
+00:16:50,000 --> 00:16:50,500
+Lucia: Çubuk şeysi mi?
+
+283
+00:16:50,500 --> 00:16:51,000
+Jason: Çıkar bizi buradan! Bas gaza!
+
+284
+00:16:56,500 --> 00:16:57,000
+Jason: Havalandır bizi, levyeyi kendine çek!
+
+285
+00:17:00,000 --> 00:17:00,500
+Lucia: Ah, siktir!
+
+286
+00:17:02,500 --> 00:17:03,000
+Görevli: İspanyolca: Motorları vurun!
+
+287
+00:17:11,500 --> 00:17:12,000
+Jason: Ah, siktir.
+
+288
+00:17:16,000 --> 00:17:16,500
+Jason: Kontrol bende.
+
+289
+00:17:18,000 --> 00:17:18,500
+Lucia: Hassiktir. Neydi o öyle lan?
+
+290
+00:17:20,500 --> 00:17:21,000
+Jason: İyi misin?
+
+291
+00:17:21,500 --> 00:17:22,000
+Lucia: Evet. Evet. İyiyim.
+
+292
+00:17:23,500 --> 00:17:24,000
+Jason: Tamam, arkadaki kalıpları alıp böl.
+
+293
+00:17:27,500 --> 00:17:28,000
+Lucia: Hâlâ teslimatı mı yapacağız?
+
+294
+00:17:29,000 --> 00:17:29,500
+Jason: Evet, bu malı mecbur olduğumuzdan bir saniye bile fazla
+elimizde tutmak istemiyorum.
+
+295
+00:17:34,000 --> 00:17:34,500
+Jason: İyi olduğuna emin misin?
+
+296
+00:17:35,500 --> 00:17:36,000
+Lucia: Dalga mı geçiyorsun? Müthiş hissediyorum lan. Gördün mü?
+
+297
+00:17:40,000 --> 00:17:40,500
+Lucia: Güzel yeni aracıymış, ha? Sence parayı cebine mi attı?
+
+298
+00:17:44,500 --> 00:17:45,000
+Jason: Evet, Brian'a mesaj atsam iyi olur.
+
+299
+00:17:48,500 --> 00:17:49,000
+Lucia: İnanılmaz.
+
+300
+00:17:51,000 --> 00:17:51,500
+Jason: Tam bir rezalet. Seni o yüzden getirmek istemiyordum işte.
+
+301
+00:17:54,500 --> 00:17:55,000
+Lucia: Ama iyi ki getirdin, değil mi? Kalkışı gördün mü?
+
+302
+00:17:59,000 --> 00:17:59,500
+Jason: Evet, evet. İyi iş çıkardın.
+
+303
+00:18:18,000 --> 00:18:18,500
+Jason: Tamam, teslimat noktasına yaklaşıyoruz.
+Paketlerden biri hazır mı?
+
+304
+00:18:21,500 --> 00:18:22,000
+Lucia: Hı hı.
+
+305
+00:18:29,500 --> 00:18:30,000
+Lucia: Atayım mı öylece?
+
+306
+00:18:30,500 --> 00:18:31,000
+Jason: Evet, evet, onlar sudan çıkarır.
+
+307
+00:18:38,000 --> 00:18:38,500
+Lucia: Alın bakalım!
+
+308
+00:18:39,500 --> 00:18:40,000
+Lucia: Sizinle iş yapmak güzeldi!
+
+309
+00:18:50,000 --> 00:18:50,500
+Lucia: Sıradaki.
+
+310
+00:19:01,500 --> 00:19:02,000
+Lucia: Oo, iyi bir aracı tanıyan kim olabilir biliyor musun...
+
+311
+00:19:05,000 --> 00:19:05,500
+Jason: Sağlam bağlantıları olan insanlarla bağlantısı olan biri mi?
+
+312
+00:19:07,000 --> 00:19:07,500
+Lucia: Kat, Mattia'nın patronunun bu tür işlerde de parmağı
+olabileceğini ima etti.
+
+313
+00:19:11,000 --> 00:19:11,500
+Jason: Evet, diğer her işte de.
+
+314
+00:19:12,500 --> 00:19:13,000
+Lucia: Her hâlükârda Vice City'de söz sahibi insanlar.
+Para orada.
+
+315
+00:19:16,500 --> 00:19:17,000
+Jason: Mattia ilgilenmiyor.
+En son beni onunla konuşmaya zorladığında...
+
+316
+00:19:19,500 --> 00:19:20,000
+Lucia: İlgilerini çekecek bir şey sunman lazım.
+
+317
+00:19:23,000 --> 00:19:23,500
+Lucia: Belki Brian'ı Mattia'nın adamlarıyla tanıştırmayı deneriz,
+ne dersin?
+
+318
+00:19:27,000 --> 00:19:27,500
+Jason: Evet, bir düşünelim, tamam mı?
+
+319
+00:19:31,500 --> 00:19:32,000
+Jason: Hadi, doğuştan yeteneklisin.
+
+320
+00:20:03,000 --> 00:20:03,500
+Görevli: Tüm birimlere: Şüpheli deniz uçağı hareketi.
+
+321
+00:20:05,000 --> 00:20:05,500
+Görevli: Mariana County Deltası açıklarında tekrar tekrar suya iniyor.
+Ayrıntılar için beklemede kalın.
+
+322
+00:20:09,000 --> 00:20:09,500
+Lucia: Siktir, bizden mi bahsediyorlar?
+
+323
+00:20:11,000 --> 00:20:11,500
+Jason: Evet, siktir. Böyle inip kalkarak fazla dikkat
+çekiyoruz.
+
+324
+00:20:15,000 --> 00:20:15,500
+Jason: Havada kalacağız. Riske girmeyelim.
+
+325
+00:20:17,000 --> 00:20:17,500
+Lucia: Güzel.
+
+326
+00:20:24,000 --> 00:20:24,500
+Lucia: Ee, kalkış yapmayı düşünüyor musun?
+
+327
+00:20:27,000 --> 00:20:27,500
+Jason: Evet, bekle.
+
+328
+00:20:29,000 --> 00:20:29,500
+Lucia: Bir dakika. Havada kalmak mı? Ne demek o?
+
+329
+00:20:33,000 --> 00:20:33,500
+Jason: Şu kapıyı aç ve sımsıkı tutun.
+Senin için olabildiğince alçalacağım.
+
+330
+00:20:36,000 --> 00:20:36,500
+Jason: Şu kapıyı aç ve sımsıkı tutun.
+Senin için olabildiğince alçalacağım.
+Lucia: Ciddi misin lan?
+
+331
+00:20:36,500 --> 00:20:37,000
+Lucia: Ciddi misin lan?
+
+332
+00:20:38,000 --> 00:20:38,500
+Jason: Aynen öyle.
+
+333
+00:21:09,500 --> 00:21:10,000
+Jason: Olabildiğince tekneye yakın at.
+
+334
+00:21:14,000 --> 00:21:14,500
+Lucia: Oo, biraz rüzgârlıymış, ha?
+
+335
+00:21:16,500 --> 00:21:17,000
+Jason: Sıkı tutun.
+
+336
+00:21:21,500 --> 00:21:22,000
+Lucia: Hey, hizalaman lazım dostum. Biraz yaklaş.
+
+337
+00:21:25,000 --> 00:21:25,500
+Jason: Aynen.
+
+338
+00:21:29,500 --> 00:21:30,000
+Lucia: Gördün mü? Tam içine düştü!
+
+339
+00:21:34,000 --> 00:21:34,500
+Jason: Evet, Narcos'un seçmelerine katılmalısın.
+
+340
+00:21:38,000 --> 00:21:38,500
+Lucia: Bir dakika.
+
+341
+00:21:39,000 --> 00:21:39,500
+Jason: Ne yapıyorsun?
+
+342
+00:21:40,000 --> 00:21:40,500
+Lucia: Telefonumu alıyorum, ikimizin fotoğrafını çekmek istiyorum.
+
+343
+00:21:43,000 --> 00:21:43,500
+Lucia: Ah, siktir. Hayır.
+
+344
+00:21:45,000 --> 00:21:45,500
+Lucia: Ah, hayır, hayır, hayır, hayır, hayır. Tamam, eve dön Jay.
+
+345
+00:21:48,000 --> 00:21:48,500
+Lucia: Hemen eve dön.
+
+346
+00:21:50,000 --> 00:21:50,500
+Jason: Tamam, tamam, ne oluyor?
+
+347
+00:21:51,500 --> 00:21:52,000
+Lucia: Denetim memurumdan otuz cevapsız arama falan var.
+
+348
+00:21:54,000 --> 00:21:54,500
+Lucia: Mesaj atmış, eve gidiyormuş, hani...
+
+349
+00:21:57,000 --> 00:21:57,500
+Lucia: benim olmam gereken eve.
+
+350
+00:21:58,500 --> 00:21:59,000
+Jason: Siktir Lu! Kelepçen alarm mı veriyor?
+
+351
+00:22:01,500 --> 00:22:02,000
+Lucia: Hayır! Yani, ışığı biraz yanıyor ama... Hani...
+
+352
+00:22:07,000 --> 00:22:07,500
+Jason: İlla bokunu çıkaracaksın!
+
+353
+00:22:09,500 --> 00:22:10,000
+Jason: İşte, bu yüzden istememiştim-
+
+354
+00:22:10,000 --> 00:22:10,500
+Jason: İşte, bu yüzden istememiştim-
+Lucia: Evet, evet, evet, biliyorum, biliyorum.
+
+355
+00:22:11,000 --> 00:22:11,500
+Lucia: Evet, evet, evet, biliyorum, biliyorum.
+
+356
+00:22:30,500 --> 00:22:31,000
+Jason: Oh be, sonunda sustu.
+
+357
+00:22:33,500 --> 00:22:34,000
+Lucia: Gelmek üzereymiş.
+
+358
+00:22:35,500 --> 00:22:36,000
+Jason: Nerede?
+
+359
+00:22:36,500 --> 00:22:37,000
+Lucia: Al şunu. Sakla, git. Git, git, git!
+
+360
+00:22:39,000 --> 00:22:39,500
+Lucia: Eve girmemiz lazım!
+
+361
+00:22:41,000 --> 00:22:41,500
+Jason: O mu?
+
+362
+00:22:43,000 --> 00:22:43,500
+Lucia: Evet, o.
+
+363
+00:22:44,500 --> 00:22:45,000
+Jason: Siktir... Ben bunu hallederim.
+
+364
+00:22:47,000 --> 00:22:47,500
+Lucia: Buraya çıkabilir.
+
+365
+00:22:48,000 --> 00:22:48,500
+Jason: Kulübeye koyarım. Hemen gelirim.
+
+366
+00:22:52,500 --> 00:22:53,000
+Lucia: Aa, Joe? Şey, merhaba!
+
+367
+00:22:53,000 --> 00:22:53,500
+Lucia: Aa, Joe? Şey, merhaba!
+
+368
+00:22:55,000 --> 00:22:55,500
+Denetim memuru: Lucia! Merak ettim seni.
+
+369
+00:22:58,000 --> 00:22:58,500
+Denetim memuru: Telefonuna cevap vermiyordun.
+
+370
+00:23:00,000 --> 00:23:00,500
+Lucia: Ne? Aa, kusura bakmayın. Sessizdeydi.
+
+371
+00:23:03,500 --> 00:23:04,000
+Lucia: Şey, yukarı gelmek ister misiniz?
+İçecek bir şey falan getirebilirim ya da-
+
+372
+00:23:07,000 --> 00:23:07,500
+Lucia: Şey, yukarı gelmek ister misiniz?
+İçecek bir şey falan getirebilirim ya da-
+Denetim memuru: Yok, benim şu... lanet bacağım var ya.
+
+373
+00:23:07,500 --> 00:23:08,000
+Denetim memuru: Yok, benim şu... lanet bacağım var ya.
+
+374
+00:23:11,000 --> 00:23:11,500
+Denetim memuru: Havaya göre azıyor, bilirsin.
+
+375
+00:23:14,000 --> 00:23:14,500
+Denetim memuru: Sen aşağı insen de,
+biraz konuşsak nasıl olur?
+
+376
+00:23:36,000 --> 00:23:36,500
+Jason: Evet, burası iş görür.
+
+377
+00:23:37,500 --> 00:23:38,000
+Denetim memuru: Tahliye şartlarından biri de bu,
+
+378
+00:23:39,500 --> 00:23:40,000
+Denetim memuru: seni aradığımda o telefonu açacaksın.
+
+379
+00:23:41,500 --> 00:23:42,000
+Denetim memuru: Dördüncüde değil, beşincide değil,
+ilk aradığımda.
+
+380
+00:23:44,000 --> 00:23:44,500
+Denetim memuru: Hemen. Bahane yok.
+
+381
+00:23:46,000 --> 00:23:46,500
+Lucia: Evet, kusura bakmayın, şey... Dediğim gibi, telefonum sessizdeydi.
+
+382
+00:23:49,500 --> 00:23:50,000
+Lucia: Bir de aslında,
+
+383
+00:23:50,500 --> 00:23:51,000
+Lucia: B-benim telefon burada pek çekmiyor, o yüzden...
+
+384
+00:23:52,000 --> 00:23:52,500
+Lucia: B-benim telefon burada pek çekmiyor, o yüzden...
+Denetim memuru: Peki ya elektronik kelepçen?
+
+385
+00:23:52,500 --> 00:23:53,000
+Denetim memuru: Peki ya elektronik kelepçen?
+
+386
+00:23:53,500 --> 00:23:54,000
+Lucia: Ha?
+
+387
+00:23:54,000 --> 00:23:54,500
+Lucia: Ha?
+Denetim memuru: Bir bildirim geldi...
+
+388
+00:23:54,500 --> 00:23:55,000
+Denetim memuru: Bir bildirim geldi...
+
+389
+00:23:56,000 --> 00:23:56,500
+Denetim memuru: denizde, kıyıdan bir mil açıktaymışsın.
+
+390
+00:23:58,000 --> 00:23:58,500
+Lucia: Ne? Çok saçma.
+
+391
+00:24:00,000 --> 00:24:00,500
+Lucia: O şey bozuk falan olmalı.
+
+392
+00:24:01,500 --> 00:24:02,000
+Lucia: Bütün zaman boyunca koltuktaydım.
+
+393
+00:24:04,500 --> 00:24:05,000
+Jason: Merhaba memur bey, bütün zaman boyunca benimleydi.
+
+394
+00:24:07,000 --> 00:24:07,500
+Jason: İkimiz de buradaydık.
+
+395
+00:24:08,500 --> 00:24:09,000
+Denetim memuru: Seninleydi... bütün zaman boyunca mı?
+
+396
+00:24:12,500 --> 00:24:13,000
+Jason: Evet. Evet efendim.
+
+397
+00:24:17,000 --> 00:24:17,500
+Denetim memuru: Peki...
+
+398
+00:24:20,000 --> 00:24:20,500
+Denetim memuru: Bin.
+
+399
+00:24:21,000 --> 00:24:21,500
+Lucia: Ne? Nereye gidiyorum?
+
+400
+00:24:23,000 --> 00:24:23,500
+Denetim memuru: Tahliye şartlarını çiğnedin,
+sence nereye gidiyorsun?
+
+401
+00:24:25,000 --> 00:24:25,500
+Lucia: Ciddi misiniz?
+
+402
+00:24:26,000 --> 00:24:26,500
+Denetim memuru: Hem de çok "ciddiyim." Bin.
+
+403
+00:24:28,500 --> 00:24:29,000
+Jason: Bakın, bütün zaman boyunca burada benimleydi.
+
+404
+00:24:33,000 --> 00:24:33,500
+Denetim memuru: Hım.
+
+405
+00:24:34,000 --> 00:24:34,500
+Denetim memuru: Bunlar sana lazım olacak. Al bakalım.
+
+406
+00:24:37,000 --> 00:24:37,500
+Denetim memuru: Tak şunları.
+
+407
+00:24:38,000 --> 00:24:38,500
+Jason: Arabanıza dönün, o kelepçeleri takmayacak.
+
+408
+00:24:41,500 --> 00:24:42,000
+Denetim memuru: Tomás Caminos. Bir yaşında.
+
+409
+00:24:47,500 --> 00:24:48,000
+Denetim memuru: Burada velayetini almayı umduğun yazıyor, değil mi?
+
+410
+00:24:52,000 --> 00:24:52,500
+Denetim memuru: Yani,
+s-sence buna Çocuk ve Aile İşleri Dairesi mi karar veriyor?
+
+411
+00:24:56,000 --> 00:24:56,500
+Denetim memuru: Bir daha düşün. Lehine de konuşabilirim,
+aleyhine de.
+
+412
+00:25:01,000 --> 00:25:01,500
+Denetim memuru: Ama benim sözümün ağırlığı vardır.
+
+413
+00:25:04,500 --> 00:25:05,000
+Denetim memuru: Anlaşıldı mı?
+
+414
+00:25:07,000 --> 00:25:07,500
+Denetim memuru: Arabaya.
+
+415
+00:25:08,000 --> 00:25:08,500
+Jason: Bakın-
+
+416
+00:25:10,500 --> 00:25:11,000
+Lucia: Yatak odasındaydık, aradığınızı gördüm
+ve açmadım.
+
+417
+00:25:14,500 --> 00:25:15,000
+Lucia: Yapmamalıydım. Bir daha yapmayacağım, yemin ederim.
+
+418
+00:25:18,000 --> 00:25:18,500
+Lucia: Ne yapmam gerektiğini söyleyin, yaparım, lütfen.
+
+419
+00:25:22,000 --> 00:25:22,500
+Denetim memuru: Pekâlâ...
+
+420
+00:25:24,500 --> 00:25:25,000
+Denetim memuru: Demek o yüzden nefes nefeseydin.
+
+421
+00:25:26,500 --> 00:25:27,000
+Denetim memuru: Tam bir ateş parçası, ha?
+
+422
+00:25:29,000 --> 00:25:29,500
+Lucia: Pardon, şey... Bunları... takayım mı?
+
+423
+00:25:37,500 --> 00:25:38,000
+Denetim memuru: Yok. Bu seferlik sana bir iyilik yapacağım.
+
+424
+00:25:42,500 --> 00:25:43,000
+Denetim memuru: Pişmanlığını gösterdin. Dürüst davrandın.
+
+425
+00:25:45,500 --> 00:25:46,000
+Denetim memuru: Senden istediğim de bu Lucia.
+
+426
+00:25:48,000 --> 00:25:48,500
+Denetim memuru: Anlıyor musun?
+
+427
+00:25:49,500 --> 00:25:50,000
+Lucia: E-evet, anladım- anladık! Çok teşekkürler.
+
+428
+00:25:53,500 --> 00:25:54,000
+Denetim memuru: Ya sen?
+Bir dahakine telefonu açtığından emin ol.
+
+429
+00:26:04,000 --> 00:26:04,500
+Jason: Ee, öldürmemi ister misin?
+
+430
+00:26:06,000 --> 00:26:06,500
+Jason: Cal'e adresini buldurtur, gece evine gideriz, hani?
+
+431
+00:26:20,500 --> 00:26:21,000
+Jason: Günaydın.
+
+432
+00:26:22,000 --> 00:26:22,500
+Lucia: Günaydın.
+
+433
+00:26:25,000 --> 00:26:25,500
+Jason: Daha erken. Henüz gitmen gerekmiyor.
+
+434
+00:26:29,000 --> 00:26:29,500
+Lucia: Şey, kafamı toplamam gerekiyordu.
+
+435
+00:26:31,500 --> 00:26:32,000
+Lucia: Her gün boktan muameleye katlanmak bir yana...
+
+436
+00:26:33,500 --> 00:26:34,000
+Lucia: ...bir de bundan hoşlanıyormuş gibi yapmak? Asıl o yoruyor.
+
+437
+00:26:47,000 --> 00:26:47,500
+Jason: Hey, Tommy uyanmıştır, FruitFace'ten arayalım.
+
+438
+00:26:51,000 --> 00:26:51,500
+Lucia: Şimdi mi?
+
+439
+00:26:53,500 --> 00:26:54,000
+Jason: Aramak ister misin?
+
+440
+00:26:58,000 --> 00:26:58,500
+Lucia: Jay, bak.
+
+441
+00:27:01,000 --> 00:27:01,500
+Lucia: Tommy mutlu.
+
+442
+00:27:03,500 --> 00:27:04,000
+Lucia: Kuzenleri yanında, hem bak, Lorena teyzem var,
+
+443
+00:27:06,000 --> 00:27:06,500
+Lucia: çocuklarla arası harikadır, Diego amcam da bir tanedir.
+
+444
+00:27:10,000 --> 00:27:10,500
+Lucia: Arayıp kafasını karıştırmak, üzmek falan istemiyorum.
+
+445
+00:27:13,500 --> 00:27:14,000
+Lucia: Olur mu?
+
+446
+00:27:15,500 --> 00:27:16,000
+Lucia: Zaten muhtemelen bizi hatırlamıyordur bile.
+
+447
+00:27:18,500 --> 00:27:19,000
+Lucia: Belki de böylesi daha hayırlıdır.
+
+448
+00:27:22,000 --> 00:27:22,500
+Jason: Öyle deme Lu.
+
+449
+00:27:26,000 --> 00:27:26,500
+Lucia: Bilemezsin Jay. Geleceği kimse bilemez.
+
+450
+00:27:29,500 --> 00:27:30,000
+Lucia: Her şeyi yoluna koyana,
+
+451
+00:27:33,000 --> 00:27:33,500
+Lucia: ona bakabileceğimizden emin olana kadar aramak istemiyorum.
+Gerçekten bir yuvamız olana kadar.
+
+452
+00:27:37,000 --> 00:27:37,500
+Jason: Tamam. Gerçekten bir yuvamız olana kadar.
+
+453
+00:27:40,500 --> 00:27:41,000
+Lucia: Bahane uydurduğumu mu düşünüyorsun?
+
+454
+00:27:45,500 --> 00:27:46,000
+Jason: Hayır.
+
+455
+00:27:47,500 --> 00:27:48,000
+Jason: Oğlumla bir ekranın ardından tanışmak istemiyorum.
+
+456
+00:27:50,000 --> 00:27:50,500
+Jason: Babamı ilk kez bir camın ardından gördüm.
+
+457
+00:27:54,000 --> 00:27:54,500
+Jason: Bu döngüyü kırmak istiyorum artık.
+
+458
+00:27:55,500 --> 00:27:56,000
+Lucia: Öyle, değil mi?
+
+459
+00:27:58,500 --> 00:27:59,000
+Jason: Onunla ilk tanıştığımda yüz yüze olacağız.
+
+460
+00:28:01,500 --> 00:28:02,000
+Jason: Sonra da bir daha ayrılmayacağız.
+
+461
+00:28:03,500 --> 00:28:04,000
+Lucia: Bu hoşuma gitti.
+
+462
+00:28:10,000 --> 00:28:10,500
+Lucia: Ne yapacağımı biliyor musun?
+
+463
+00:28:11,000 --> 00:28:11,500
+Jason: Ne?
+
+464
+00:28:12,000 --> 00:28:12,500
+Lucia: Meditasyon.
+
+465
+00:28:13,500 --> 00:28:14,000
+Jason: Meditasyon mu?
+
+466
+00:28:14,500 --> 00:28:15,000
+Lucia: Evet, sen de yapmalısın.
+
+467
+00:28:18,000 --> 00:28:18,500
+Lucia: Kafanı boşaltmana yardımcı oluyor.
+
+468
+00:28:19,500 --> 00:28:20,000
+Jason: Senin neden ihtiyacın olduğunu anlıyorum tabii.
+
+469
+00:28:21,500 --> 00:28:22,000
+Jason: Hani, şu öfke sorunun yüzünden.
+
+470
+00:28:23,000 --> 00:28:23,500
+Jason: Ama ben? B-ben gayet iyiyim.
+
+471
+00:28:26,500 --> 00:28:27,000
+Jason: Şey... Y-yine de senin yapmanı sonuna kadar destekliyorum.
+
+472
+00:28:30,000 --> 00:28:30,500
+Jason: B-ben... bence faydası olur.
+
+473
+00:28:34,000 --> 00:28:34,500
+Lucia: Hadi. Bir dene. Tabii düşüncelerinle baş başa kalmaktan korkmuyorsan...
+
+474
+00:28:41,000 --> 00:28:41,500
+Jason: Ben mi? Yok. Düşüncelerimin kıçını tekmelerim.
+
+475
+00:28:44,000 --> 00:28:44,500
+Lucia: Harika. Hadi iskeleye inelim.
+
+476
+00:30:37,500 --> 00:30:38,000
+Jason: Selam Donnie, ne haber?
+
+477
+00:30:42,000 --> 00:30:42,500
+Jason: Nereye geleyim abi?
+
+478
+00:30:43,500 --> 00:30:44,000
+Donnie: Southwind'deki Sherwin Boatworks'e.
+Dodo'nun elzem tamiratını yaptırıyorum.
+
+479
+00:30:49,000 --> 00:30:49,500
+Donnie: Brian'ın çok gizli bir işi var, bize anlatacak. İkimizi de burada istiyor.
+
+480
+00:30:53,500 --> 00:30:54,000
+Jason: Tamam. Fırsat bulunca gelirim.
+
+481
+00:30:55,500 --> 00:30:56,000
+Donnie: Bekliyorum.
+
+482
+00:34:01,000 --> 00:34:01,500
+Kingfishers: Peşini bırakma!
+
+483
+00:34:02,500 --> 00:34:03,000
+Kingfishers: Oha, herif uçuyor!
+
+484
+00:35:32,000 --> 00:35:32,500
+Jason: Donnie.
+
+485
+00:35:33,000 --> 00:35:33,500
+Donnie: Ne?
+
+486
+00:35:35,000 --> 00:35:35,500
+Donnie: Brian'la konuştun mu?
+
+487
+00:35:36,500 --> 00:35:37,000
+Jason: Daha yeni geldim.
+
+488
+00:35:38,000 --> 00:35:38,500
+Donnie: Hadi git. İhtiyar barda, bir yanına uğra,
+
+489
+00:35:41,000 --> 00:35:41,500
+Donnie: sonra buraya dön de siktir olup gidelim.
+
+490
+00:35:45,000 --> 00:35:45,500
+Jason: O meret seni öldürecek.
+
+491
+00:35:46,500 --> 00:35:47,000
+Donnie: O sadece batıl inanç!
+
+492
+00:36:17,500 --> 00:36:18,000
+Jason: Brian...
+
+493
+00:36:18,500 --> 00:36:19,000
+Brian: Hı?
+
+494
+00:36:19,000 --> 00:36:19,500
+Jason: Ne içiyorsun?
+
+495
+00:36:20,000 --> 00:36:20,500
+Brian: Aa, selam Jason... Bir şey ister misin?
+Ben Bushwacker içiyorum.
+
+496
+00:36:24,000 --> 00:36:24,500
+Brian: Kahve, krema, rom.
+
+497
+00:36:26,000 --> 00:36:26,500
+Brian: Sabah, öğle, akşam... Her vakit mükemmel gider.
+
+498
+00:36:29,500 --> 00:36:30,000
+Müşteri: Bean Machine'in sıçtığı her şeyden iyidir.
+
+499
+00:36:32,500 --> 00:36:33,000
+Brian: Teşekkür ederim efendim. Kesinlikle katılıyorum.
+
+500
+00:36:38,500 --> 00:36:39,000
+Müşteri: Seninle ben mi? Aynıyız dostum.
+
+501
+00:36:41,500 --> 00:36:42,000
+Müşteri: Bir hödükten diğerine söylüyorum.
+
+502
+00:36:44,000 --> 00:36:44,500
+Müşteri: Burada, şu küçücük kara parçasında karaya vurmuşuz,
+
+503
+00:36:48,500 --> 00:36:49,000
+Müşteri: öyle ucundan sarkıp duran...
+
+504
+00:36:53,000 --> 00:36:53,500
+Müşteri: Ama keyfini çıkarıyoruz, değil mi, ha?
+
+505
+00:36:56,000 --> 00:36:56,500
+Müşteri: Haksız mıyım?
+
+506
+00:37:02,000 --> 00:37:02,500
+Jason: Bu adamı tanıyor musun?
+
+507
+00:37:03,500 --> 00:37:04,000
+Brian: Göz göze gelme, bütün gün başımıza kalır.
+
+508
+00:37:08,000 --> 00:37:08,500
+Müşteri: Anladım. "Göz göze gelmek".
+
+509
+00:37:14,500 --> 00:37:15,000
+Brian: Ucuz atlattık.
+
+510
+00:37:16,500 --> 00:37:17,000
+Jason: Ne bileyim, eğlenceli birine benziyor.
+
+511
+00:37:18,500 --> 00:37:19,000
+Brian: Evet. Benim elimde yeterince eğlence var zaten.
+
+512
+00:37:22,000 --> 00:37:22,500
+Jason: Donnie'yi mi diyorsun?
+Evet, Donnie'yi.
+
+513
+00:37:24,000 --> 00:37:24,500
+Brian: Yan tarafta uçağı onarıyor, senden de
+
+514
+00:37:27,500 --> 00:37:28,000
+Brian: benim için ona göz kulak olmanı istiyorum.
+
+515
+00:37:30,000 --> 00:37:30,500
+Jason: Tabii, anladım seni.
+
+516
+00:37:32,000 --> 00:37:32,500
+Brian: Evet, tamam. Hadi.
+
+517
+00:37:37,500 --> 00:37:38,000
+Jason: İyi günler.
+
+518
+00:37:39,500 --> 00:37:40,000
+Donnie: Of. Dönsene, seni siktiğimin...
+
+519
+00:37:42,500 --> 00:37:43,000
+Brian: Hey! Donnie!
+Ah!
+
+520
+00:37:46,500 --> 00:37:47,000
+Donnie: Bri! Neredesin lan sen?
+
+521
+00:37:50,000 --> 00:37:50,500
+Donnie: Bakıyorum yine iş başında içiyorsun.
+
+522
+00:37:52,500 --> 00:37:53,000
+Donnie: Vay be, büyük patron olmak ne güzelmiş. Vuhu!
+
+523
+00:37:58,000 --> 00:37:58,500
+Brian: Evet, biraz gevşemek için bir şeyler içmem gerekti.
+
+524
+00:38:01,000 --> 00:38:01,500
+Brian: Şu Kingfishers denenler bir yanda, bir de onların...
+
+525
+00:38:04,500 --> 00:38:05,000
+Brian: şu köylü intikamı saçmalığı. Hı?
+
+526
+00:38:10,000 --> 00:38:10,500
+Brian: Bu kadar paranoyak olma!
+
+527
+00:38:13,500 --> 00:38:14,000
+Brian: Tamam, hadi Screamin' Beagle, geç içeri.
+Bugün sen uçuruyorsun.
+
+528
+00:38:17,500 --> 00:38:18,000
+Jason: Umarım kokpitini temizlemişsindir.
+
+529
+00:38:19,000 --> 00:38:19,500
+Donnie: O resmen senin işin amigo. Hadi gidelim.
+
+530
+00:38:24,500 --> 00:38:25,000
+Brian: Hop!
+
+531
+00:38:27,500 --> 00:38:28,000
+Brian: Gel buraya.
+
+532
+00:38:31,500 --> 00:38:32,000
+Brian: Bak, bugün tek yapacağınız o uçağa buraya kadar eşlik etmek. Tamam mı?
+
+533
+00:38:36,500 --> 00:38:37,000
+Brian: Hava trafik kontrolü bunu keyif uçuşu sanacak.
+
+534
+00:38:39,500 --> 00:38:40,000
+Brian: Ama işimiz ve itibarım için çok,
+hem de çok önemli bir şey var:
+
+535
+00:38:46,500 --> 00:38:47,000
+Brian: Bugün radarda görünen tek uçak hangisi olacak?
+
+536
+00:38:52,000 --> 00:38:52,500
+Brian: Bu uçak.
+
+537
+00:38:53,500 --> 00:38:54,000
+Donnie: Bana değil pilota söyle.
+Hı.
+
+538
+00:38:56,000 --> 00:38:56,500
+Donnie: Sonuçta direksiyonda o var.
+
+539
+00:38:58,500 --> 00:38:59,000
+Donnie: Tamam, kontrollerini yaptın mı? Hazır mısın?
+
+540
+00:39:00,500 --> 00:39:01,000
+Jason: Pek sayılmaz.
+
+541
+00:39:01,000 --> 00:39:01,500
+Donnie: Kötü olmuş. Yola çıkmamız lazım. Artık çok geç. Tamam.
+Vakit akıp gidiyor.
+
+542
+00:39:04,500 --> 00:39:05,000
+Donnie: Görüşürüz Brian, seni görmek güzeldi.
+
+543
+00:39:06,500 --> 00:39:07,000
+Donnie: Şu siktiğimin uçağını çalıştır Jason.
+
+544
+00:39:10,500 --> 00:39:11,000
+Brian: Sakın aptalca bir şey yapma Donnie.
+
+545
+00:39:12,000 --> 00:39:12,500
+Donnie: Ben varım ya bebeğim! Rahat ol, Donnie iş başında.
+
+546
+00:39:17,000 --> 00:39:17,500
+Donnie: Her şey kontrol altında... Brian!
+
+547
+00:39:20,000 --> 00:39:20,500
+Donnie: Hadi siktir olup gidelim buradan Jason.
+
+548
+00:39:34,000 --> 00:39:34,500
+Donnie: Tamam şimdi. Rampadan aşağı indir, suya sok.
+
+549
+00:39:49,000 --> 00:39:49,500
+Donnie: Az önce anlatılanlardan bir şey anladın mı?
+
+550
+00:39:51,000 --> 00:39:51,500
+Donnie: Kıyının biraz açığında Pete'le buluşacağız.
+
+551
+00:39:57,500 --> 00:39:58,000
+Jason: Bu Pete denen adamla buluşuyoruz, sonra ne olacak?
+
+552
+00:40:00,000 --> 00:40:00,500
+Donnie: Eve dönüş yolu açılana kadar dibinden ayrılmayacağız.
+
+553
+00:40:03,500 --> 00:40:04,000
+Donnie: Böylece hava trafik kontrolü,
+
+554
+00:40:06,000 --> 00:40:06,500
+Donnie: gökyüzünde iki uçak yerine tek uçak gördüğünü sanacak.
+
+555
+00:40:12,000 --> 00:40:12,500
+Jason: Buraya gelirken Kingfishers'a denk geldim.
+
+556
+00:40:14,000 --> 00:40:14,500
+Jason: Bizi öldürmek istedikleri kesin.
+
+557
+00:40:15,000 --> 00:40:15,500
+Donnie: Takma onları.
+Balık hafızalı onlar.
+
+558
+00:40:32,500 --> 00:40:33,000
+Donnie: İşte Pete, bulutların arasından geliyor!
+
+559
+00:40:35,500 --> 00:40:36,000
+Pilot Pete: Flamingo Altı, beni duyuyor musunuz?
+
+560
+00:40:38,500 --> 00:40:39,000
+Donnie: Gayet net duyuyoruz! Eve hoş geldin dostum.
+
+561
+00:40:41,500 --> 00:40:42,000
+Donnie: Bize bir şey getirdin mi?
+
+562
+00:40:44,000 --> 00:40:44,500
+Pilot Pete: Kes boş muhabbeti.
+Üstüme geçin, hızıma ayak uydurun, tamam mı?
+
+563
+00:40:47,500 --> 00:40:48,000
+Donnie: Anlaşıldı, uyguluyoruz!
+
+564
+00:40:50,000 --> 00:40:50,500
+Donnie: Göt herif. İşte, duydun adamı.
+
+565
+00:40:52,500 --> 00:40:53,000
+Donnie: Üstünde uçup hızını ona göre ayarlayacaksın.
+
+566
+00:40:55,000 --> 00:40:55,500
+Hava trafik kontrolü: NL74573, bir sinyal alıyoruz.
+
+567
+00:40:58,500 --> 00:40:59,000
+Hava trafik kontrolü: Çevrenizde bir şey görüyor musunuz?
+
+568
+00:41:00,500 --> 00:41:01,000
+Jason: Burası NL74573. Olumsuz.
+
+569
+00:41:08,000 --> 00:41:08,500
+Donnie: Tamam, şimdi yakınında kal.
+
+570
+00:41:12,500 --> 00:41:13,000
+Hava trafik kontrolü: NL74573, lütfen dikkate almayın.
+Muhtemelen parazitten ibaretti.
+
+571
+00:41:16,500 --> 00:41:17,000
+Hava trafik kontrolü: Sinyal şu an temiz.
+
+572
+00:41:19,000 --> 00:41:19,500
+Pilot Pete: Tamam! Hadi şu lanet işi yapalım!
+
+573
+00:41:21,500 --> 00:41:22,000
+Donnie: Evet, arkandayız Pete. Teşekküre gerek yok...
+
+574
+00:41:26,500 --> 00:41:27,000
+Donnie: Şimdi tek yapmamız gereken hava trafik kontrolünün bu salağı ürkütmemesi.
+
+575
+00:41:32,500 --> 00:41:33,000
+Donnie: Ee Pete, bir gün o kıçını ormandan çıkarıp
+
+576
+00:41:35,500 --> 00:41:36,000
+Donnie: geri dönecek, medeni insanlar gibi yaşayacak mısın?
+
+577
+00:41:37,000 --> 00:41:37,500
+Pilot Pete: Kolombiya'da da Burger Shot var dostum.
+
+578
+00:41:40,000 --> 00:41:40,500
+Donnie: Evet ama tadı aynı değildir şimdi, değil mi?
+
+579
+00:41:42,500 --> 00:41:43,000
+Pilot Pete: Değil, orada gerçekten dana eti kullanıyorlar.
+
+580
+00:41:45,500 --> 00:41:46,000
+Pilot Pete: Gel de gör.
+
+581
+00:41:46,500 --> 00:41:47,000
+Pilot Pete: Yalnız çeneni tut da kendini öldürtme, tamam mı?
+
+582
+00:41:50,000 --> 00:41:50,500
+Donnie: Hadi be. Öyle düşünüyorsan Donnie'yi hiç tanımıyorsun.
+
+583
+00:41:53,500 --> 00:41:54,000
+Donnie: Bende şeytan tüyü var bebeğim. İngilizcede de İspanyolcada da Portekizcede de.
+
+584
+00:41:59,500 --> 00:42:00,000
+Donnie: Pete birazdan inişe geçecek ama sen uçmaya devam et.
+
+585
+00:42:03,000 --> 00:42:03,500
+Jason: Geri mi dönüyoruz?
+
+586
+00:42:04,000 --> 00:42:04,500
+Donnie: Sonra. Önce başka bir şey almamız lazım.
+
+587
+00:42:09,000 --> 00:42:09,500
+Pilot Pete: Vuhu! Ben buraya iniyorum.
+Brian'a iyi iş çıkardığınızı söylerim.
+
+588
+00:42:15,500 --> 00:42:16,000
+Donnie: Tamamdır Pete. Her zamanki gibi, memnun oldum.
+
+589
+00:42:19,500 --> 00:42:20,000
+Donnie: Buranın kuzeybatısında başka bir havaalanı var.
+Doğruca oraya git.
+
+590
+00:42:24,000 --> 00:42:24,500
+Jason: Brian bundan hiç bahsetmedi.
+
+591
+00:42:26,000 --> 00:42:26,500
+Donnie: Çünkü Brian'ın haberi yok.
+
+592
+00:42:28,000 --> 00:42:28,500
+Donnie: Halletmemiz gereken ufak bir iş sadece,
+
+593
+00:42:30,000 --> 00:42:30,500
+Donnie: şirketin aracıyla daha hızlı olur, hepsi bu.
+
+594
+00:42:35,500 --> 00:42:36,000
+Jason: Madem bana yaptırıyorsun, ne işi olduğunu söyleyecek misin?
+
+595
+00:42:38,500 --> 00:42:39,000
+Donnie: Kokainimiz için bir bağlantıyla kısacık görüşeceğiz sadece.
+
+596
+00:42:43,500 --> 00:42:44,000
+Jason: Siktir ya Donnie.
+
+597
+00:42:44,500 --> 00:42:45,000
+Donnie: Ne var abi? Ne hemen yargılıyorsun?
+
+598
+00:42:47,000 --> 00:42:47,500
+Donnie: Herkesin ekmeğinin peşinde olması lazım, tamam mı?
+
+599
+00:42:49,000 --> 00:42:49,500
+Jason: Kimmiş tam olarak bu bağlantı?
+
+600
+00:42:50,500 --> 00:42:51,000
+Donnie: Bir motorcu tanıyorum, tamam mı?
+
+601
+00:42:52,000 --> 00:42:52,500
+Donnie: Bizimle görüşmeye birkaç arkadaşını da getiriyor.
+
+602
+00:42:55,000 --> 00:42:55,500
+Jason: Hı hı.
+
+603
+00:42:56,000 --> 00:42:56,500
+Donnie: Of be. Bir fırt çek abi, rahatla. Hemen girip çıkacağız.
+
+604
+00:43:03,000 --> 00:43:03,500
+Donnie: Tamam! Bunu doğruca şu piste indir.
+
+605
+00:43:18,000 --> 00:43:18,500
+Donnie: Doğruca hangara yanaştır.
+
+606
+00:43:20,000 --> 00:43:20,500
+Donnie: Ne yapıyorsun lan?
+
+607
+00:43:33,000 --> 00:43:33,500
+Jason: Bu adamı tanıdığına eminsin yani?
+
+608
+00:43:34,500 --> 00:43:35,000
+Donnie: Evet! Of be abi.
+
+609
+00:43:36,500 --> 00:43:37,000
+Donnie: Bana bir iyilik yapıp
+
+610
+00:43:37,500 --> 00:43:38,000
+Donnie: şu sikik negatifliğini uçakta bırakır mısın, tamam mı?
+
+611
+00:43:41,500 --> 00:43:42,000
+Donnie: Beni de geriyorsun...
+
+612
+00:43:43,500 --> 00:43:44,000
+Donnie: Bir de zahmet olmazsa silahın pantolonunda kalsın.
+
+613
+00:43:45,500 --> 00:43:46,000
+Donnie: Bunlar bizim dostlarımız.
+
+614
+00:43:47,000 --> 00:43:47,500
+Jason: Sadece... bizi kapana kıstırma, tamam mı?
+
+615
+00:43:49,000 --> 00:43:49,500
+Jason: Önce onlar gösterecek, sonra biz. Anladın mı?
+
+616
+00:43:52,000 --> 00:43:52,500
+Donnie: Anladım efendim, emredersiniz.
+
+617
+00:43:55,500 --> 00:43:56,000
+Jason: Bir tek adam mı lan?
+
+618
+00:43:57,500 --> 00:43:58,000
+Donnie: Sakin ol kardeşim.
+
+619
+00:44:01,000 --> 00:44:01,500
+Donnie: Hey, hey! Ne haber?
+
+620
+00:44:03,500 --> 00:44:04,000
+Donnie: Ha? Partiye ilk biz mi geldik, ne oldu?
+
+621
+00:44:05,500 --> 00:44:06,000
+Donnie: Ha? Partiye ilk biz mi geldik, ne oldu?
+Devil's Dozen bağlantısı: Geliyorlar.
+
+622
+00:44:06,000 --> 00:44:06,500
+Devil's Dozen bağlantısı: Geliyorlar.
+
+623
+00:44:06,500 --> 00:44:07,000
+Devil's Dozen bağlantısı: Geliyorlar.
+Donnie: Tamam.
+
+624
+00:44:07,000 --> 00:44:07,500
+Donnie: Tamam.
+
+625
+00:44:07,500 --> 00:44:08,000
+Devil's Dozen bağlantısı: Ee... O, düşündüğüm şey mi?
+
+626
+00:44:10,000 --> 00:44:10,500
+Donnie: İyice bir bak. Jason, göster adama.
+
+627
+00:44:14,500 --> 00:44:15,000
+Jason: Burada güvende miyiz? Güvenliğe kim bakıyor?
+
+628
+00:44:17,000 --> 00:44:17,500
+Devil's Dozen bağlantısı: Bir arkadaşım, mesaisi bitti.
+Burası boş. Hadi.
+
+629
+00:44:22,500 --> 00:44:23,000
+Jason: Peki kaç arkadaşın geliyor?
+
+630
+00:44:24,500 --> 00:44:25,000
+Donnie: Sıkıntı yok baba. Beni rezil ediyorsun.
+
+631
+00:44:27,000 --> 00:44:27,500
+Donnie: Bizim arkadaş, şey... eski paralı asker.
+
+632
+00:44:30,000 --> 00:44:30,500
+Donnie: Sivil hayata daha tam alışamadı da.
+
+633
+00:44:33,500 --> 00:44:34,000
+Devil's Dozen bağlantısı: Dinle,
+kiminle iş yaptığınızı anlamanız lazım.
+
+634
+00:44:37,000 --> 00:44:37,500
+Devil's Dozen bağlantısı: Şüpheli davranmazsanız sorun çıkarmazlar.
+
+635
+00:44:40,000 --> 00:44:40,500
+Devil's Dozen bağlantısı: Anlıyor musunuz dediğimi?
+Başka kulüp, başka arma.
+
+636
+00:44:44,000 --> 00:44:44,500
+Devil's Dozen bağlantısı: Yanlış bir laf ederseniz ben yardım edemem.
+
+637
+00:44:46,500 --> 00:44:47,000
+Devil's Dozen bağlantısı: Onlara bir iyilik borcum var. Bu işin giriş bedeli bu.
+
+638
+00:44:57,500 --> 00:44:58,000
+Donnie: Sattığım malı alıyorlar mı?
+
+639
+00:44:58,500 --> 00:44:59,000
+Devil's Dozen bağlantısı: Her şey anlaştığımız gibi.
+
+640
+00:45:00,500 --> 00:45:01,000
+Donnie: O zaman sorun yok bence.
+
+641
+00:45:02,000 --> 00:45:02,500
+Jason: Donnie, aklını başına topla lan.
+
+642
+00:45:11,500 --> 00:45:12,000
+Devil's Dozen bağlantısı: Hey, yolculuk nasıldı?
+
+643
+00:45:13,500 --> 00:45:14,000
+Final Chapter: Biraz alet lazım.
+Onun arka fren bitmiş.
+
+644
+00:45:16,500 --> 00:45:17,000
+Devil's Dozen bağlantısı: Sizin için bir bakayım.
+
+645
+00:45:20,500 --> 00:45:21,000
+Donnie: Sık bakalım kardeşim. Adım Donnie.
+
+646
+00:45:22,500 --> 00:45:23,000
+Donnie: Evet. Hey, eskiden ben de ufak bir Daemon sürerdim.
+
+647
+00:45:26,500 --> 00:45:27,000
+Donnie: Yüksek gidon falan, acayip havalıydı...
+
+648
+00:45:30,000 --> 00:45:30,500
+Final Chapter: Paranı içeriden al. İçeri.
+
+649
+00:45:32,000 --> 00:45:32,500
+Jason: Bir çantayı taşımaya yedi kişi gerekmez. Dışarı getirin.
+
+650
+00:45:36,000 --> 00:45:36,500
+Final Chapter: Satacak malınız var sanıyordum.
+
+651
+00:45:37,000 --> 00:45:37,500
+Jason: Var. Parayı alana kadar da bizde kalıyor.
+
+652
+00:45:40,000 --> 00:45:40,500
+Donnie: Jason! Rahat ol abi, ben gidip alırım.
+
+653
+00:45:42,500 --> 00:45:43,000
+Jason: Donnie, bırak onlar dışarı getirsin.
+
+654
+00:45:44,000 --> 00:45:44,500
+Donnie: Size çok saygı duyuyorum,
+
+655
+00:45:45,500 --> 00:45:46,000
+Donnie: bunca yıldır hâlâ dimdik ayaktasınız.
+Artık öyle...
+Jason: Donnie! Donnie, ben ne dedim?
+
+656
+00:45:48,500 --> 00:45:49,000
+Jason: Donnie! Donnie, ben ne dedim?
+Donnie: ...bizim zamanımızdaki gibi kulüpler kurulmuyor, değil mi? Özgürlük
+bebeğim!
+
+657
+00:45:49,500 --> 00:45:50,000
+Donnie: ...bizim zamanımızdaki gibi kulüpler kurulmuyor, değil mi? Özgürlük
+bebeğim!
+
+658
+00:45:57,000 --> 00:45:57,500
+Donnie: Hey abi! Derdin ne senin?
+
+659
+00:45:59,000 --> 00:45:59,500
+Final Chapter: Kapa çeneni, yürümeye devam et!
+
+660
+00:46:01,500 --> 00:46:02,000
+Final Chapter: Gebertin şunları!
+
+661
+00:46:28,000 --> 00:46:28,500
+Jason: Donnie? Donnie, yanına geliyorum!
+
+662
+00:47:16,000 --> 00:47:16,500
+Final Chapter: Tamam...
+
+663
+00:47:18,000 --> 00:47:18,500
+Final Chapter: Aletleri getir.
+
+664
+00:47:19,000 --> 00:47:19,500
+Final Chapter: Bu herifi fena sikeceğiz.
+
+665
+00:47:21,500 --> 00:47:22,000
+Final Chapter: Orada kilitli pense var, değil mi?
+
+666
+00:47:24,000 --> 00:47:24,500
+Final Chapter: Onsuz evden çıkmam.
+
+667
+00:47:38,000 --> 00:47:38,500
+Donnie: Hey! Biri derdiniz ne söyleyecek mi lan bana?
+
+668
+00:47:41,500 --> 00:47:42,000
+Final Chapter: Sen konuşmaya başlasan nasıl olur?
+
+669
+00:47:43,000 --> 00:47:43,500
+Donnie: Ne hakkında şef? Hiçbir bok bilmiyorum ki!
+
+670
+00:47:46,000 --> 00:47:46,500
+Final Chapter: Sen bilmiyormuş gibi yapmaya devam et.
+
+671
+00:47:47,500 --> 00:47:48,000
+Donnie: Doğruyu söylüyorum!
+
+672
+00:47:50,000 --> 00:47:50,500
+Donnie: Bir ipucu versen, biraz yardım etsen diyorum lan?
+
+673
+00:47:53,000 --> 00:47:53,500
+Final Chapter: Sana yardım mı edeyim?
+
+674
+00:47:54,500 --> 00:47:55,000
+Final Chapter: Senden hoşlanmıyorum bile...
+
+675
+00:47:56,000 --> 00:47:56,500
+Final Chapter: Seni tanıyalı daha iki dakika oldu, şimdiden ölmeni istiyorum!
+
+676
+00:48:01,000 --> 00:48:01,500
+Final Chapter: Şimdi itiraf zamanı.
+
+677
+00:48:02,000 --> 00:48:02,500
+Donnie: Hayır, hayır, hayır, hayır, hayır! Dur, dur, dur, dur! Ah siktir! Ah!
+
+678
+00:48:07,500 --> 00:48:08,000
+Donnie: Ah...
+
+679
+00:48:09,000 --> 00:48:09,500
+Donnie: Ne istersen söylerim. Her şeyi anlatırım. Hayır!
+
+680
+00:48:11,000 --> 00:48:11,500
+Donnie: Hey, hey, bir dakika dur!
+
+681
+00:48:13,000 --> 00:48:13,500
+Final Chapter: Dalga mı geçiyorsunuz? Gebertin şu herifi lan.
+
+682
+00:48:16,000 --> 00:48:16,500
+Donnie: Jason! Çıkar beni şu siktiğimin şeyinden!
+
+683
+00:48:35,500 --> 00:48:36,000
+Donnie: Beni burada unutmayın lan!
+
+684
+00:48:39,000 --> 00:48:39,500
+Donnie: Jason...
+
+685
+00:48:55,000 --> 00:48:55,500
+Donnie: Ne bok yiyorsun?
+
+686
+00:49:08,000 --> 00:49:08,500
+Donnie: Oturup durmanın sırası değil.
+
+687
+00:49:22,500 --> 00:49:23,000
+Jason: Ben sana ne dedim Donnie?
+
+688
+00:49:23,500 --> 00:49:24,000
+Jason: Ben sana ne dedim Donnie?
+Donnie: Şimdi suçlu aramanın sırası değil!
+
+689
+00:49:24,000 --> 00:49:24,500
+Donnie: Şimdi suçlu aramanın sırası değil!
+
+690
+00:49:26,500 --> 00:49:27,000
+Donnie: Kaldırsana beni...
+
+691
+00:49:29,000 --> 00:49:29,500
+Donnie: Tamam, uçağa dönmemiz lazım.
+
+692
+00:49:31,500 --> 00:49:32,000
+Donnie: Bu ne boktu lan böyle?
+
+693
+00:49:33,000 --> 00:49:33,500
+Donnie: Kim yapar böyle bir şeyi lan?
+İnsanı uçağa yem etmek de ne!
+
+694
+00:49:37,500 --> 00:49:38,000
+Jason: Muhtemelen sana kıyak geçmişlerdir.
+
+695
+00:49:44,000 --> 00:49:44,500
+Donnie: Dikkat et Jay!
+
+696
+00:49:51,000 --> 00:49:51,500
+Jason: Dikkat et Donnie!
+
+697
+00:50:00,500 --> 00:50:01,000
+Jason: Uçağa git!
+
+698
+00:50:01,500 --> 00:50:02,000
+Donnie: Yok ya!
+
+699
+00:50:14,500 --> 00:50:15,000
+Donnie: Gidiyorum!
+
+700
+00:50:34,000 --> 00:50:34,500
+Jason: Yürü, yürü, yürü!
+
+701
+00:50:35,000 --> 00:50:35,500
+Donnie: Gidiyorum!
+
+702
+00:50:35,500 --> 00:50:36,000
+Donnie: Gidiyorum!
+
+703
+00:50:38,500 --> 00:50:39,000
+Jason: Ah siktir. Uçağın arkasında!
+
+704
+00:50:45,000 --> 00:50:45,500
+Donnie: Galiba bunun arkasında güvendeyim!
+
+705
+00:50:58,000 --> 00:50:58,500
+Jason: Donnie! Şunu geri çevir, ben onları oyalarım.
+
+706
+00:51:00,500 --> 00:51:01,000
+Donnie: Tamam komando!
+
+707
+00:51:02,000 --> 00:51:02,500
+Donnie: Ama burada ölümü beklemeyeceğim.
+
+708
+00:51:04,500 --> 00:51:05,000
+Donnie: Hadi Bessie!
+
+709
+00:51:30,000 --> 00:51:30,500
+Donnie: Sen uçağı kolla yeter!
+
+710
+00:51:46,500 --> 00:51:47,000
+Donnie: Ben uçağı hazırlayana kadar onları uzak tut!
+
+711
+00:52:05,500 --> 00:52:06,000
+Donnie: Az kaldı, gidiyoruz! Ateş etmeye devam et!
+
+712
+00:52:40,000 --> 00:52:40,500
+Donnie: Siktir, gelmeye devam ediyorlar!
+
+713
+00:52:43,000 --> 00:52:43,500
+Donnie: Abi, burada kalamayız. Bir motor kap, yetiş!
+
+714
+00:53:04,500 --> 00:53:05,000
+Donnie: Boş ver onları abi! Bir motora atla, çık oradan!
+
+715
+00:53:07,500 --> 00:53:08,000
+Jason: Sen git Donnie! Ben yetişirim!
+
+716
+00:53:10,000 --> 00:53:10,500
+Jason: Geliyorum Donnie!
+
+717
+00:53:13,000 --> 00:53:13,500
+Donnie: Siktir, kalkıyorum! Beni takip et!
+
+718
+00:53:16,000 --> 00:53:16,500
+Donnie: İleride bir yerlerde buluşuruz.
+
+719
+00:53:17,500 --> 00:53:18,000
+Donnie: Beni gözden kaybetme yeter.
+
+720
+00:53:45,000 --> 00:53:45,500
+Jason: Önce şu peşimdekileri bir halledeyim.
+
+721
+00:54:01,500 --> 00:54:02,000
+Jason: Daha çok uğraşırsınız götler.
+
+722
+00:54:05,500 --> 00:54:06,000
+Jason: Ben sana ne dedim Donnie?
+
+723
+00:54:06,500 --> 00:54:07,000
+Donnie: Şimdi değil abi. Önce senin kıçını oradan kurtaralım.
+
+724
+00:54:10,500 --> 00:54:11,000
+Donnie: Tamam. Pelican Nehri'ne ineceğim, biraz dayan.
+
+725
+00:54:24,500 --> 00:54:25,000
+Donnie: Tamam, indim dostum. Gel babana.
+
+726
+00:54:28,000 --> 00:54:28,500
+Donnie: Şuradaki köprünün hemen sağındayım, şey...
+Seabell Caddesi'nde.
+
+727
+00:54:49,500 --> 00:54:50,000
+Donnie: Çabuk ol da bin.
+
+728
+00:54:51,500 --> 00:54:52,000
+Donnie: İşte yine kıçını ben kurtarıyorum.
+
+729
+00:54:53,500 --> 00:54:54,000
+Jason: Sağ ol Donnie.
+
+730
+00:54:55,000 --> 00:54:55,500
+Donnie: Rica ederim.
+
+731
+00:55:02,000 --> 00:55:02,500
+Jason: Gayet iyi geçti sanki.
+Siktir!
+
+732
+00:55:04,000 --> 00:55:04,500
+Donnie: Düzelteceğim abi, halledeceğim, tamam mı?
+Donnie.
+
+733
+00:55:06,000 --> 00:55:06,500
+Donnie: Ben hallederim, endişelenecek bir şey yok.
+
+734
+00:55:08,000 --> 00:55:08,500
+Donnie: Orospu çocukları kokainin...
+Donnie, bizi ne boka bulaştırdın?
+
+735
+00:55:10,000 --> 00:55:10,500
+Donnie: ...nereden geldiğini biliyordu, tamam mı?
+Evet.
+
+736
+00:55:12,500 --> 00:55:13,000
+Donnie: Almaya gelmemişlerdi,
+benim kellemi almaya gelmişlerdi lan!
+
+737
+00:55:16,500 --> 00:55:17,000
+Jason: Peki şimdi ne olacak?
+
+738
+00:55:18,000 --> 00:55:18,500
+Donnie: Siktir ya abi. Ne bu kadar soru soruyorsun lan?
+
+739
+00:55:20,500 --> 00:55:21,000
+Donnie: Hepsini ben halledeceğim, hepsini!
+Evet.
+
+740
+00:55:24,500 --> 00:55:25,000
+Donnie: Bu pisliğin hepsini ben temizleyeceğim.
+
+741
+00:55:27,500 --> 00:55:28,000
+Donnie: Tamam, sadece- biraz düşünmem lazım.
+
+742
+00:55:35,500 --> 00:55:36,000
+Donnie: Tamam, sonra görüşürüz.
+
+743
+00:55:39,000 --> 00:55:39,500
+Jason: Evet, Brian bizi gömdükten sonra mı?
+
+744
+00:55:40,000 --> 00:55:40,500
+Donnie: Hey! Kimse bizi gömmeyecek, tamam mı?
+
+745
+00:55:45,500 --> 00:55:46,000
+Jason: Tamam abi. Sonra görüşürüz, olur mu?
+Evet.
+
+746
+00:55:50,000 --> 00:55:50,500
+Donnie: Hey, kapıyı çarpma.
+
+747
+00:55:55,500 --> 00:55:56,000
+Jason: Hey Donnie?
+Ne?
+
+748
+00:56:00,500 --> 00:56:01,000
+Jason: Hiç.
+
+749
+00:56:15,500 --> 00:56:16,000
+Jason: Hey, ben geldim.
+
+750
+00:56:16,500 --> 00:56:17,000
+Lucia: Aa, selam.
+
+751
+00:56:18,000 --> 00:56:18,500
+Lucia: Hım...
+
+752
+00:56:20,000 --> 00:56:20,500
+Jason: İyi misin?
+
+753
+00:56:21,000 --> 00:56:21,500
+Lucia: Ne? İyiyim.
+
+754
+00:56:23,000 --> 00:56:23,500
+Lucia: Tam zamanında geldin, bitirmek üzereyim.
+
+755
+00:56:25,500 --> 00:56:26,000
+Jason: O ne?
+
+756
+00:56:26,500 --> 00:56:27,000
+Lucia: Bir sehpa. Snapmatic'te gördüm.
+
+757
+00:56:30,000 --> 00:56:30,500
+Lucia: Andy'ye seninkinin ne kadar çirkin olduğunu anlatırken telefon duymuştur herhâlde.
+
+758
+00:56:33,500 --> 00:56:34,000
+Jason: Ağır oldu.
+
+759
+00:56:35,000 --> 00:56:35,500
+Lucia: Senin için sorun olur mu?
+
+760
+00:56:36,000 --> 00:56:36,500
+Jason: Yok, burası senin de evin. Zorlandın mı biraz?
+
+761
+00:56:40,000 --> 00:56:40,500
+Lucia: Hayır, bitirmek üzereyim.
+
+762
+00:56:42,000 --> 00:56:42,500
+Lucia: Al, diğer iki ayağı vidalamama yardım et.
+
+763
+00:56:43,500 --> 00:56:44,000
+Lucia: Sen o tarafı yap.
+
+764
+00:56:51,000 --> 00:56:51,500
+Jason: Aa, alyan anahtarı. Ne tatlı.
+
+765
+00:56:53,500 --> 00:56:54,000
+Lucia: Bunu kolay mı sandın?
+
+766
+00:56:55,500 --> 00:56:56,000
+Jason: Eh, bunun da bir tekniği var, yani...
+
+767
+00:56:58,000 --> 00:56:58,500
+Lucia: Teknik mi? Püf...
+
+768
+00:57:00,500 --> 00:57:01,000
+Lucia: Bahse girerim senden hızlıyımdır.
+
+769
+00:57:01,500 --> 00:57:02,000
+Jason: He, kesin öyledir.
+
+770
+00:57:03,500 --> 00:57:04,000
+Lucia: Peki.
+
+771
+00:57:04,500 --> 00:57:05,000
+Lucia: Üç, iki, bir, başla!
+
+772
+00:57:05,500 --> 00:57:06,000
+Jason: Hop, hop, hop, ne?
+
+773
+00:57:10,500 --> 00:57:11,000
+Jason: Şimdi şu meretleri... çevirip tekrar takacağız.
+
+774
+00:57:16,000 --> 00:57:16,500
+Jason: Bir tek üstü kaldı.
+
+775
+00:57:17,000 --> 00:57:17,500
+Jason: Bir tek üstü kaldı.
+Lucia: Evet.
+
+776
+00:57:21,000 --> 00:57:21,500
+Lucia: Şimdi bir tek camı kaldı.
+
+777
+00:57:26,000 --> 00:57:26,500
+Lucia: Bu sefer de olmazsa yakıyoruz.
+
+778
+00:57:28,500 --> 00:57:29,000
+Lucia: Biz ayrılmıyoruz ama sehpa yanıyor.
+
+779
+00:57:35,500 --> 00:57:36,000
+Jason: O tarafı tuttun mu?
+
+780
+00:57:42,000 --> 00:57:42,500
+Jason: Oh, evet.
+
+781
+00:57:44,500 --> 00:57:45,000
+Lucia: İnsanın içi rahatlıyor.
+
+782
+00:57:46,000 --> 00:57:46,500
+Jason: İşte şimdi sehpa oldu.
+
+783
+00:57:48,000 --> 00:57:48,500
+Lucia: Dur, kutuda hâlâ parçalar var!
+
+784
+00:57:49,500 --> 00:57:50,000
+Jason: Şey. Sen onlara bakma.
+Kafan karışsın diye koyuyorlar.
+
+785
+00:57:53,500 --> 00:57:54,000
+Lucia: Ha. Tamam.
+
+786
+00:57:55,500 --> 00:57:56,000
+Lucia: Hadi yerine koyalım.
+
+787
+00:58:45,500 --> 00:58:46,000
+Jason: Sence hazır mı?
+İyi görünüyor.
+
+788
+00:58:48,000 --> 00:58:48,500
+Jason: Evet. Ayy.
+Ayy.
+
+789
+00:58:50,500 --> 00:58:51,000
+Jason: Çok tatlı.
+Teşekkürler.
+
+790
+00:59:10,500 --> 00:59:11,000
+Jason: Hey, güvenli yöne tut, unuttun mu?
+
+791
+00:59:15,000 --> 00:59:15,500
+Lucia: Boş, gördün mü?
+
+792
+00:59:18,000 --> 00:59:18,500
+Jason: Evet ama yine de.
+
+793
+00:59:20,500 --> 00:59:21,000
+Lucia: Hâlâ şu boş tetik çalışmalarını yapıyor musun?
+
+794
+00:59:23,500 --> 00:59:24,000
+Jason: Söyledim ya, günde yirmi dakika. Pencere, boya çentiği.
+
+795
+00:59:27,000 --> 00:59:27,500
+Jason: Tek tek atış. Sakince, yavaşça, ritmi bozmadan.
+
+796
+00:59:30,000 --> 00:59:30,500
+Lucia: Babam gibi konuşuyorsun.
+
+797
+00:59:31,000 --> 00:59:31,500
+Lucia: "Ritmi bozma, ritmi bozma."
+
+798
+00:59:33,500 --> 00:59:34,000
+Jason: İyi, o sayede sağ kroşen müthiş zaten.
+
+799
+00:59:41,500 --> 00:59:42,000
+Jason: Daha iyi. İyi değil.
+
+800
+00:59:43,500 --> 00:59:44,000
+Lucia: Ne?
+
+801
+00:59:44,500 --> 00:59:45,000
+Jason: Sadece... yavaşla.
+
+802
+00:59:47,000 --> 00:59:47,500
+Jason: Asılma, yavaşça sık.
+
+803
+00:59:56,500 --> 00:59:57,000
+Jason: Yaparsın sen, hadi.
+
+804
+01:00:03,500 --> 01:00:04,000
+Jason: Kim o?
+
+805
+01:00:04,500 --> 01:00:05,000
+Lucia: Denetim memurum.
+
+806
+01:00:06,000 --> 01:00:06,500
+Jason: Ha. Benden de bir "siktir git" ilet.
+
+807
+01:00:08,000 --> 01:00:08,500
+Lucia: Evet, kesin söylerim.
+
+808
+01:00:10,500 --> 01:00:11,000
+Lucia: Alo?
+
+809
+01:00:13,000 --> 01:00:13,500
+Lucia: Evet, evdeyim.
+
+810
+01:00:13,500 --> 01:00:14,000
+Lucia: Evet, evdeyim.
+
+811
+01:00:15,500 --> 01:00:16,000
+Lucia: Tabii, evet. Buyurun, dinliyorum.
+
+812
+01:00:18,500 --> 01:00:19,000
+Lucia: Hı hı, evet.
+
+813
+01:00:24,000 --> 01:00:24,500
+Lucia: Hı hı.
+
+814
+01:00:34,500 --> 01:00:35,000
+Lucia: Hı hı.
+
+815
+01:00:40,500 --> 01:00:41,000
+Lucia: Yapma!
+
+816
+01:00:42,000 --> 01:00:42,500
+Lucia: Hayır, hayır, hayır, şey- komik bir şey yok. Pardon, dinliyorum.
+Buradayım.
+
+817
+01:00:46,000 --> 01:00:46,500
+Lucia: Evet. Hayır, evet. Evet, evet, anlıyorum. Tamam, teşekkürler.
+
+818
+01:00:54,000 --> 01:00:54,500
+Jason: Nasıl geçti?
+
+819
+01:00:54,500 --> 01:00:55,000
+Lucia: Bilmem, bence...
+
+820
+01:00:56,000 --> 01:00:56,500
+Lucia: ...adam sadece kendi sesini duymayı seviyor,
+anlıyor musun?
+
+821
+01:00:59,500 --> 01:01:00,000
+Jason: Evet. Denetim memuru işte.
+
+822
+01:01:02,000 --> 01:01:02,500
+Lucia: Ah siktir. Geç kalacağım.
+
+823
+01:01:07,500 --> 01:01:08,000
+Lucia: Tamam, iş için üstümü değiştireceğim.
+
+824
+01:01:10,500 --> 01:01:11,000
+Jason: Ne, beni bırakıp işe mi gidiyorsun? Hem de bu hâlinle?
+
+825
+01:01:41,500 --> 01:01:42,000
+Jason: Sabahın köründeki vardiyayı mı aldın?
+
+826
+01:01:45,000 --> 01:01:45,500
+Lucia: Servis ne zaman gelirse o kadar erken.
+
+827
+01:01:48,500 --> 01:01:49,000
+Lucia: Hep geç kalıyor. Ama sorun değil.
+
+828
+01:01:51,000 --> 01:01:51,500
+Lucia: Oraya gitmek için can atmıyorum.
+
+829
+01:01:53,500 --> 01:01:54,000
+Lucia: Aç mısın? Biraz ister misin?
+
+830
+01:01:55,500 --> 01:01:56,000
+Jason: Yok, sağ ol.
+
+831
+01:01:59,000 --> 01:01:59,500
+Jason: Ee, nasıl uyudun?
+
+832
+01:02:01,500 --> 01:02:02,000
+Lucia: Asıl boktan olan ne biliyor musun?
+
+833
+01:02:04,500 --> 01:02:05,000
+Lucia: Rüyamda çöp topluyordum, verdikleri çöp maşası da çalışmıyordu.
+
+834
+01:02:11,500 --> 01:02:12,000
+Lucia: Gördüğüm rüya buydu işte.
+
+835
+01:02:12,500 --> 01:02:13,000
+Lucia: Gördüğüm rüya buydu işte.
+Jason: Bayağı acıklı Lu.
+
+836
+01:02:13,000 --> 01:02:13,500
+Jason: Bayağı acıklı Lu.
+
+837
+01:02:15,500 --> 01:02:16,000
+Jason: Normal aslında,
+
+838
+01:02:17,000 --> 01:02:17,500
+Jason: dün gece uykunda konuşuyordun,
+durup durup "sikeyim böyle işi" diyordun.
+
+839
+01:02:20,500 --> 01:02:21,000
+Lucia: Gerçekten mi? Komikmiş lan.
+
+840
+01:02:24,000 --> 01:02:24,500
+Jason: Bir an korktum,
+
+841
+01:02:25,500 --> 01:02:26,000
+Jason: rüyanda beni görüyorsun sandım.
+
+842
+01:02:27,500 --> 01:02:28,000
+Lucia: Yok, seninle ilgili rüyalarım hep çok güzel.
+
+843
+01:02:33,000 --> 01:02:33,500
+Jason: Hadi, hazır mısın? Seni bırakayım mı?
+
+844
+01:02:35,000 --> 01:02:35,500
+Lucia: Öyle mi?
+
+845
+01:02:37,000 --> 01:02:37,500
+Jason: Kahveni unutma, olur mu?
+
+846
+01:02:38,000 --> 01:02:38,500
+Lucia: Doğru.
+
+847
+01:02:38,500 --> 01:02:39,000
+Lucia: Sağ ol Jay. Bu siktiğimin işinden nefret ediyorum.
+
+848
+01:02:41,000 --> 01:02:41,500
+Jason: Biliyorum.
+
+849
+01:02:54,000 --> 01:02:54,500
+Jason: Ee, nereye gidiyoruz?
+
+850
+01:02:55,000 --> 01:02:55,500
+Jason: Ee, nereye gidiyoruz?
+Lucia: Toplum merkezine.
+
+851
+01:02:55,500 --> 01:02:56,000
+Lucia: Toplum merkezine.
+
+852
+01:02:57,500 --> 01:02:58,000
+Jason: Bugün sana ne yaptıracaklar? Yine aynı işler mi?
+
+853
+01:03:00,000 --> 01:03:00,500
+Lucia: Duyduğuma göre güne manikür pedikürle başlıyormuşuz.
+
+854
+01:03:04,500 --> 01:03:05,000
+Lucia: Sonra alışveriş.
+
+855
+01:03:06,000 --> 01:03:06,500
+Jason: Tabii.
+
+856
+01:03:07,000 --> 01:03:07,500
+Lucia: Sonra... bilmem, kızlarla birkaç mimoza içer, senin dedikodunu yaparız herhâlde.
+
+857
+01:03:11,500 --> 01:03:12,000
+Jason: Çok da eğlenmeyin.
+
+858
+01:03:23,500 --> 01:03:24,000
+Lucia: Peki, sen bugün ne yapacaksın?
+
+859
+01:03:26,000 --> 01:03:26,500
+Jason: Eh, Brian'a ya da Donnie'ye bir uğrasam iyi olur,
+bakalım bizi yine ne boka bulaştırmış.
+
+860
+01:03:31,500 --> 01:03:32,000
+Jason: Eh, Brian'a ya da Donnie'ye bir uğrasam iyi olur,
+bakalım bizi yine ne boka bulaştırmış.
+Lucia: Ya, o iş baştan aşağı karışık...
+
+861
+01:03:32,000 --> 01:03:32,500
+Lucia: Ya, o iş baştan aşağı karışık...
+
+862
+01:03:35,000 --> 01:03:35,500
+Jason: Ben ilgileniyorum.
+
+863
+01:03:36,000 --> 01:03:36,500
+Jason: Merak etme, Donnie'nin bu boktan işleri yüzünden Brian'la aramın bozulmasına izin vermem,
+
+864
+01:03:39,000 --> 01:03:39,500
+Jason: orası kesin amına koyayım.
+
+865
+01:03:40,500 --> 01:03:41,000
+Lucia: Ha, evet, o konu açılmışken,
+sence Brian bana bir iş ayarlayabilir mi?
+
+866
+01:03:44,500 --> 01:03:45,000
+Lucia: Resepsiyonistlik falan, öyle bir şey.
+
+867
+01:03:46,500 --> 01:03:47,000
+Jason: Resepsiyonistlik, ha?
+
+868
+01:03:48,500 --> 01:03:49,000
+Lucia: Hani, "kâğıt üstünde", denetimdekiler yakamdan düşsün diye.
+
+869
+01:03:52,500 --> 01:03:53,000
+Lucia: Tommy'yle ilgili işleri de hızlandırır.
+
+870
+01:03:54,000 --> 01:03:54,500
+Lucia: Biz de bir yandan asıl parayı kazanmak için ne gerekiyorsa yaparız.
+
+871
+01:03:57,500 --> 01:03:58,000
+Jason: Tabii. Sormaktan zarar gelmez, değil mi?
+
+872
+01:04:00,000 --> 01:04:00,500
+Lucia: Güzel. Ama önce bir izin alayım.
+
+873
+01:04:03,000 --> 01:04:03,500
+Lucia: Sorup da sonra denetim memurunun bir saçmalığı yüzünden hayır demek istemiyorum.
+
+874
+01:04:07,000 --> 01:04:07,500
+Jason: Tamam, senden haber bekliyorum.
+
+875
+01:04:09,000 --> 01:04:09,500
+Lucia: Az ileride, şu sarı bina.
+
+876
+01:04:17,000 --> 01:04:17,500
+Lucia: Bıraktığın için sağ ol.
+
+877
+01:04:18,500 --> 01:04:19,000
+Jason: Ne demek.
+
+878
+01:05:30,500 --> 01:05:31,000
+Rakip: Oynamak ister misin?
+
+879
+01:06:26,500 --> 01:06:27,000
+Jason: İşte geldi.
+
+880
+01:06:27,500 --> 01:06:28,000
+Lucia: Teknede gün geçirecek gibi giyinmemişim pek.
+
+881
+01:06:30,000 --> 01:06:30,500
+Jason: Yok, yok. Harika görünüyorsun.
+
+882
+01:06:32,500 --> 01:06:33,000
+Lucia: Çünkü bazılarımızın çalışması gerekiyor.
+
+883
+01:06:36,500 --> 01:06:37,000
+Lucia: Yine yol kenarında bir vardiya,
+kafama içecek bardakları fırlatıldı.
+
+884
+01:06:40,500 --> 01:06:41,000
+Lucia: Daha iyi işlerim olmuştu.
+
+885
+01:06:42,000 --> 01:06:42,500
+Jason: Saçmalık bu Lu, sana başka bir iş bulacağız.
+
+886
+01:06:45,000 --> 01:06:45,500
+Lucia: Geldiler mi?
+
+887
+01:06:46,000 --> 01:06:46,500
+Jason: Yaklaşmışlardır.
+
+888
+01:06:47,500 --> 01:06:48,000
+Jason: Gidip üstümüzü değiştirelim, ha?
+
+889
+01:06:49,000 --> 01:06:49,500
+Jason: Dışarıda buluşalım.
+
+890
+01:06:55,500 --> 01:06:56,000
+Jason: Vay be. Şu hâline bak.
+
+891
+01:06:58,500 --> 01:06:59,000
+Jason: Dergi kapağına çıkmalısın.
+
+892
+01:07:00,500 --> 01:07:01,000
+Lucia: Haftalık Mahkûm'a mı?
+
+893
+01:07:04,500 --> 01:07:05,000
+Lucia: Hey, hadi.
+
+894
+01:07:06,000 --> 01:07:06,500
+Lucia: Onlar mı?
+
+895
+01:07:07,000 --> 01:07:07,500
+Jason: Vay be. Tam vaktinde.
+
+896
+01:07:09,000 --> 01:07:09,500
+Lucia: Dur, Kat nerede?
+
+897
+01:07:11,000 --> 01:07:11,500
+Jason: Bilmiyorum.
+
+898
+01:07:12,500 --> 01:07:13,000
+Lucia: Bunu o kadar istiyordum ki.
+
+899
+01:07:14,000 --> 01:07:14,500
+Mattia: İşte oradalar.
+
+900
+01:07:16,000 --> 01:07:16,500
+Mattia: Jason, Lucia! Gitmeye hazır mısınız?
+
+901
+01:07:18,000 --> 01:07:18,500
+Lucia: Hazırız.
+
+902
+01:07:19,500 --> 01:07:20,000
+Lucia: Ee, yat nerede? Çünkü...
+
+903
+01:07:21,000 --> 01:07:21,500
+Mattia: Çok uzakta değil, merak etme. Burim'i de bunun için getirdim.
+
+904
+01:07:26,000 --> 01:07:26,500
+Mattia: Burim, sihirbazın kralı.
+
+905
+01:07:28,500 --> 01:07:29,000
+Mattia: Şunu hemen çıkaracak. Biz Vice City'ye gidip takılacağız,
+
+906
+01:07:32,000 --> 01:07:32,500
+Mattia: o da bileklikle sizin evin önüne park edecek,
+
+907
+01:07:34,500 --> 01:07:35,000
+Mattia: böylece şey, bütün gün evdeymişsin gibi görünecek.
+Hadi.
+
+908
+01:07:38,500 --> 01:07:39,000
+Lucia: Şey, ama...
+
+909
+01:07:39,500 --> 01:07:40,000
+Jason: Bilemiyorum abi, Lu'nun denetim memuruyla daha yeni sorun yaşadık.
+
+910
+01:07:42,000 --> 01:07:42,500
+Mattia: Bu taraftan.
+
+911
+01:07:43,500 --> 01:07:44,000
+Lucia: Ya biz dışarıdayken alarm verirse?
+
+912
+01:07:45,000 --> 01:07:45,500
+Mattia: Rahat ol, merak etme.
+
+913
+01:07:46,500 --> 01:07:47,000
+Mattia: Sence Kat denetimdeyken onca seyahati nasıl yaptı, ha?
+
+914
+01:07:50,000 --> 01:07:50,500
+Mattia: Eğleneceğiz, güzel vakit geçireceğiz.
+
+915
+01:07:52,000 --> 01:07:52,500
+Mattia: Sonra dönersin, yine bok küremeye...
+
+916
+01:07:55,000 --> 01:07:55,500
+Mattia: ...ya da her ne iş yapıyorsan ona devam edersin.
+
+917
+01:07:58,000 --> 01:07:58,500
+Burim: Eski model gibi görünüyor. Kolay.
+
+918
+01:08:00,500 --> 01:08:01,000
+Mattia: Söyledim sana, değil mi?
+
+919
+01:08:02,000 --> 01:08:02,500
+Jason: Bunun kusursuz olması lazım. Daha fazla risk alamaz.
+
+920
+01:08:06,000 --> 01:08:06,500
+Mattia: Ne riski? Risk falan yok Jason.
+
+921
+01:08:09,500 --> 01:08:10,000
+Mattia: Bu gece benimle gelmeni istiyorum, tamam mı?
+
+922
+01:08:11,500 --> 01:08:12,000
+Mattia: Güzel vakit geçirir, birileriyle tanışırız.
+
+923
+01:08:14,000 --> 01:08:14,500
+Mattia: Bence seninle iyi dost olabiliriz Jason.
+
+924
+01:08:17,000 --> 01:08:17,500
+Mattia: Ha?
+
+925
+01:08:26,000 --> 01:08:26,500
+Burim: Bitti.
+
+926
+01:08:27,500 --> 01:08:28,000
+Lucia: Ha, alarm vermiyor.
+
+927
+01:08:30,000 --> 01:08:30,500
+Lucia: Hadi gidelim.
+
+928
+01:08:39,000 --> 01:08:39,500
+Mattia: (İtalyanca) Hadi Lucia.
+
+929
+01:08:40,000 --> 01:08:40,500
+Mattia: Bedelini ödedin,
+
+930
+01:08:41,500 --> 01:08:42,000
+Mattia: artık bu şehir de senin adını öğrenecek amına koyayım, ha?
+
+931
+01:08:42,000 --> 01:08:42,500
+Mattia: artık bu şehir de senin adını öğrenecek amına koyayım, ha?
+
+932
+01:08:43,500 --> 01:08:44,000
+Mattia: artık bu şehir de senin adını öğrenecek amına koyayım, ha?
+
+933
+01:08:45,500 --> 01:08:46,000
+Mattia: Hadi kaçalım.
+
+934
+01:08:47,000 --> 01:08:47,500
+Mattia: Şimdi bakın, yatın bağlı olduğu yere biraz yolumuz var ama...
+
+935
+01:08:50,500 --> 01:08:51,000
+Mattia: neye bindiğimize bir bakın...
+
+936
+01:08:53,000 --> 01:08:53,500
+Mattia: İşte bu!
+
+937
+01:08:55,500 --> 01:08:56,000
+Mattia: Birileri özgür olduğuna seviniyor, ha?
+
+938
+01:08:57,500 --> 01:08:58,000
+Jason: Fazla uzun süre kapalı kaldı.
+
+939
+01:09:00,000 --> 01:09:00,500
+Mattia: Bu gemi açılacak bebeğim, hadi! Ah siktir.
+
+940
+01:09:11,500 --> 01:09:12,000
+Mattia: (İtalyanca) Tamam, hadi Lucia!
+
+941
+01:09:14,500 --> 01:09:15,000
+Mattia: Bizi yata götür!
+
+942
+01:09:21,000 --> 01:09:21,500
+Mattia: Nasıl hissediyorsun Lucia? Özgürlüğün keyfini çıkarıyor musun?
+
+943
+01:09:24,000 --> 01:09:24,500
+Lucia: Evet! Çözmem gereken çok şey var,
+
+944
+01:09:25,500 --> 01:09:26,000
+Lucia: ama burada sevinçten takla atabilirim lan!
+
+945
+01:09:28,500 --> 01:09:29,000
+Mattia: Örnek vatandaş olmak için daha bol vaktin olacak.
+
+946
+01:09:32,000 --> 01:09:32,500
+Mattia: Bugün seni iki adım geriye götürüyoruz.
+
+947
+01:09:35,500 --> 01:09:36,000
+Lucia: Hey, bana uyar!
+
+948
+01:09:37,500 --> 01:09:38,000
+Jason: Peki bu yatta kimler olacak?
+
+949
+01:09:39,500 --> 01:09:40,000
+Mattia: Acayip deli insanlar kardeşim, bir de Kat tabii.
+
+950
+01:09:43,000 --> 01:09:43,500
+Mattia: Gel buraya, ona bir video yollayalım!
+
+951
+01:09:51,500 --> 01:09:52,000
+Mattia: Lucia, özgür olmak nasıl bir his lan?
+Hey! Hayır!
+
+952
+01:09:54,000 --> 01:09:54,500
+Lucia: Hayır! Dur, dur.
+
+953
+01:09:55,000 --> 01:09:55,500
+Lucia: Dur, dur, dur.
+Tamam, tamam.
+
+954
+01:09:56,000 --> 01:09:56,500
+Mattia: Siz bir bekleyin, bayılacaksınız buna.
+
+955
+01:10:00,000 --> 01:10:00,500
+Mattia: Şuradaki gökdelenlere doğru git.
+
+956
+01:10:09,500 --> 01:10:10,000
+Mattia: Ee Jason, ne iş yapıyorsun?
+
+957
+01:10:13,000 --> 01:10:13,500
+Jason: Bilirsin işte. Her şeyden biraz.
+
+958
+01:10:15,000 --> 01:10:15,500
+Mattia: Ne gibi? Ne tür işler?
+
+959
+01:10:18,000 --> 01:10:18,500
+Lucia: Anlat Jay.
+
+960
+01:10:19,500 --> 01:10:20,000
+Jason: Keys'te bir adamın sevkiyatlarını yapıyorum.
+
+961
+01:10:22,000 --> 01:10:22,500
+Jason: Son zamanlarda onun için tahsilat da yapıyorum.
+
+962
+01:10:25,000 --> 01:10:25,500
+Mattia: Ha, anladım.
+
+963
+01:10:27,000 --> 01:10:27,500
+Mattia: Umarım sana iyi para veriyordur kardeşim.
+
+964
+01:10:29,500 --> 01:10:30,000
+Mattia: Bu hanımları mutlu etmek pahalı iş, değil mi?
+
+965
+01:10:32,500 --> 01:10:33,000
+Jason: Ya sen kardeşim?
+
+966
+01:10:33,500 --> 01:10:34,000
+Jason: Sen ne iş yapıyorsun?
+
+967
+01:10:35,000 --> 01:10:35,500
+Mattia: Çalışmak boş iş abi ama buraya ilk geldiğimde
+ne param vardı ne bir şeyim.
+
+968
+01:10:40,500 --> 01:10:41,000
+Mattia: Ben de bir yolunu bulup para kazanmak zorundaydım.
+
+969
+01:10:42,500 --> 01:10:43,000
+Mattia: Şimdi Pegassi Kulesi'nde yaşıyorum.
+
+970
+01:10:45,500 --> 01:10:46,000
+Mattia: Bütün Vice City'nin bir numaralı binası.
+
+971
+01:10:48,000 --> 01:10:48,500
+Lucia: Vay...
+
+972
+01:10:49,000 --> 01:10:49,500
+Lucia: Epey pahalıdır herhâlde.
+
+973
+01:10:51,000 --> 01:10:51,500
+Mattia: İnanamazsın!
+
+974
+01:10:52,500 --> 01:10:53,000
+Mattia: Patronum beni iyi kolluyor.
+
+975
+01:10:54,500 --> 01:10:55,000
+Jason: Sağlam bir adam olmalı.
+
+976
+01:10:56,000 --> 01:10:56,500
+Mattia: Delinin teki.
+
+977
+01:10:57,500 --> 01:10:58,000
+Mattia: Ama her sabah bir çatı katında uyanıyorum, o yüzden...
+
+978
+01:11:01,000 --> 01:11:01,500
+Mattia: şikâyet etmeyi unutuyorum.
+
+979
+01:11:03,500 --> 01:11:04,000
+Lucia: Valla ben de unuturdum.
+
+980
+01:11:05,500 --> 01:11:06,000
+Jason: Bana zam yapsalar hiç fena olmaz tabii.
+
+981
+01:11:07,000 --> 01:11:07,500
+Lucia: Evet, başlangıç olarak.
+
+982
+01:11:09,500 --> 01:11:10,000
+Lucia: Fazla mütevazısın Jay.
+
+983
+01:11:11,500 --> 01:11:12,000
+Lucia: Jason'ın yapabileceği şeyler, şu an yaptığı işin çok üstünde.
+
+984
+01:11:14,500 --> 01:11:15,000
+Lucia: Kat sana onun asker olduğunu söylemiş miydi?
+
+985
+01:11:17,000 --> 01:11:17,500
+Mattia: Hayır! Sana bakınca aklıma bile gelmezdi.
+
+986
+01:11:21,000 --> 01:11:21,500
+Mattia: O kadar... rahatsın ki, anlıyor musun?
+
+987
+01:11:23,500 --> 01:11:24,000
+Mattia: Ama elinden çok iş geliyordur, ha?
+
+988
+01:11:26,000 --> 01:11:26,500
+Jason: Öyle denebilir.
+
+989
+01:11:27,500 --> 01:11:28,000
+Mattia: Yani sen mahkûmdun, sen de askerdin?
+
+990
+01:11:32,000 --> 01:11:32,500
+Mattia: Tanrım, ne ikili ama. Vay be.
+
+991
+01:11:34,500 --> 01:11:35,000
+Mattia: İşte bu ülkeyi bu yüzden seviyorum.
+
+992
+01:11:37,000 --> 01:11:37,500
+Mattia: İtalya'dan ayrılmadan önce annem bana dedi ki,
+
+993
+01:11:40,500 --> 01:11:41,000
+Mattia: "Amerika yolunu şaşırmış."
+
+994
+01:11:43,500 --> 01:11:44,000
+Mattia: Anne, ben kendimi ancak buraya gelince buldum!
+
+995
+01:11:49,000 --> 01:11:49,500
+Mattia: Şimdi önümüzdeki köprünün altından geç.
+
+996
+01:11:51,000 --> 01:11:51,500
+Mattia: Dikkat Lucia. Bu köprünün altı biraz dar.
+
+997
+01:11:55,000 --> 01:11:55,500
+Lucia: Hallederim.
+
+998
+01:12:16,500 --> 01:12:17,000
+Mattia: Tamam, tamam, dümdüz devam et.
+
+999
+01:12:19,500 --> 01:12:20,000
+Jason: Hı... bu ayılar da neyin nesi?
+
+1000
+01:12:21,500 --> 01:12:22,000
+Mattia: Orası FLAM, sanat müzesi.
+
+1001
+01:12:24,000 --> 01:12:24,500
+Mattia: Şu aptal ayılar yeni bir sergidir herhâlde.
+
+1002
+01:12:26,500 --> 01:12:27,000
+Mattia: Şu köprünün altından geçeceksin, tamam mı?
+
+1003
+01:12:29,000 --> 01:12:29,500
+Lucia: Emredersiniz kaptan.
+
+1004
+01:12:42,000 --> 01:12:42,500
+Mattia: (İtalyanca) İşte burada.
+
+1005
+01:12:43,500 --> 01:12:44,000
+Mattia: İşte orada, bizim gidip delirmemizi bekliyor lan!
+
+1006
+01:12:48,500 --> 01:12:49,000
+Lucia: Vay!
+
+1007
+01:12:50,500 --> 01:12:51,000
+Jason: Ne tekne ama.
+
+1008
+01:12:56,000 --> 01:12:56,500
+Mattia: Arka tarafına yanaş yeter, tamam mı?
+
+1009
+01:12:58,500 --> 01:12:59,000
+Lucia: Sorun yok.
+
+1010
+01:13:07,500 --> 01:13:08,000
+Lucia: Selam!
+Aşkım!
+
+1011
+01:13:08,000 --> 01:13:08,500
+Mattia: (İtalyanca) Aşkım! Bak kimler gelmiş!
+
+1012
+01:13:10,000 --> 01:13:10,500
+Mattia: Bak kimler gelmiş!
+
+1013
+01:13:11,000 --> 01:13:11,500
+Kat: Sizi görmek ne güzel. Özledik sizi.
+
+1014
+01:13:14,000 --> 01:13:14,500
+Mattia: Bir de hayat zor diyorlar, ha?
+
+1015
+01:13:16,000 --> 01:13:16,500
+Jason: Bu senin teknen mi?
+Ben istediğimde, tabii.
+
+1016
+01:13:18,500 --> 01:13:19,000
+Mattia: Hadi şişeleri patlatalım!
+
+1017
+01:13:20,000 --> 01:13:20,500
+Kat: (İtalyanca) Çoktan açtım bile.
+
+1018
+01:13:21,000 --> 01:13:21,500
+Mattia: Tamam, kadeh kaldıralım.
+
+1019
+01:13:22,500 --> 01:13:23,000
+Mattia: Hayatımızın en güzel gününe lan, ha?
+
+1020
+01:13:25,000 --> 01:13:25,500
+Mattia: Pişmanlık yok!
+Pişmanlık yok!
+
+1021
+01:13:37,000 --> 01:13:37,500
+Kat: Aa, birini sürmek ister misin?
+
+1022
+01:13:38,000 --> 01:13:38,500
+Lucia: Yok, hayır, hayır, hayır, ben almayayım.
+Ne?
+
+1023
+01:13:40,000 --> 01:13:40,500
+Mattia: Hadi, bedava!
+Evet, evet, git!
+
+1024
+01:13:42,000 --> 01:13:42,500
+Mattia: (İtalyanca) Hey! Hey, hey! Alex! Gel buraya, gel!
+Şey...
+
+1025
+01:13:42,500 --> 01:13:43,000
+Mattia: (İtalyanca) Hey! Hey, hey! Alex! Gel buraya, gel!
+Şey...
+
+1026
+01:13:43,000 --> 01:13:43,500
+Mattia: (İtalyanca) Hey! Hey, hey! Alex! Gel buraya, gel!
+Şey...
+
+1027
+01:13:44,000 --> 01:13:44,500
+Mattia: (İtalyanca) Hey! Hey, hey! Alex! Gel buraya, gel!
+Şey...
+
+1028
+01:13:45,500 --> 01:13:46,000
+Mattia: Hemen şuradan. Ben buna biniyorum abi.
+
+1029
+01:13:48,000 --> 01:13:48,500
+Mattia: (İtalyanca) Hadi şu partiyi coşturalım lan!
+
+1030
+01:13:52,000 --> 01:13:52,500
+Mattia: Hadi. Gidelim, gidelim!
+
+1031
+01:13:54,000 --> 01:13:54,500
+Mattia: Yetişmeye çalışın!
+
+1032
+01:14:03,500 --> 01:14:04,000
+Mattia: Gel Lucia, beni takip et.
+
+1033
+01:14:07,500 --> 01:14:08,000
+Jason: İyi ki benimle geldin!
+
+1034
+01:14:08,500 --> 01:14:09,000
+Lucia: Yok, tek başıma bu kadar eğlenceli olmazdı!
+
+1035
+01:14:11,500 --> 01:14:12,000
+Mattia: Bu taraftan, bu taraftan!
+
+1036
+01:14:14,500 --> 01:14:15,000
+Mattia: Köprüden sonra sola dön!
+
+1037
+01:14:17,500 --> 01:14:18,000
+Lucia: Arkana dikkat et kardeşim!
+
+1038
+01:14:23,000 --> 01:14:23,500
+Lucia: Ah! Bayağı iyi, değil mi?
+
+1039
+01:14:33,500 --> 01:14:34,000
+Jason: Şu rampalardan birini denemek ister misin?
+
+1040
+01:14:38,000 --> 01:14:38,500
+Mattia: Adanın etrafında bir tur atacağız, tamam mı?
+
+1041
+01:14:47,500 --> 01:14:48,000
+Mattia: Sol taraftan başla!
+
+1042
+01:14:50,000 --> 01:14:50,500
+Jason: Vay!
+
+1043
+01:14:52,000 --> 01:14:52,500
+Mattia: Tamam, sağa git!
+
+1044
+01:15:03,000 --> 01:15:03,500
+Jason: İşte gidiyoruz!
+
+1045
+01:15:04,500 --> 01:15:05,000
+Jason: Doğuştan yeteneklisin bebeğim.
+
+1046
+01:15:06,000 --> 01:15:06,500
+Lucia: Vuhu! Yağ gibi akıyordum.
+
+1047
+01:15:18,500 --> 01:15:19,000
+Lucia: Sıkı tutun!
+
+1048
+01:15:20,000 --> 01:15:20,500
+Mattia: Hey millet! Yata kadar yarışalım.
+
+1049
+01:15:30,000 --> 01:15:30,500
+Mattia: Sana ağırlık yapıyor, ha?
+
+1050
+01:15:35,500 --> 01:15:36,000
+Jason: Bu adamın kazanmasına izin mi vereceksin?
+
+1051
+01:15:41,500 --> 01:15:42,000
+Jason: Bas gitsin bebeğim.
+
+1052
+01:15:47,000 --> 01:15:47,500
+Mattia: Siktir! Hile yapıyorsunuz!
+
+1053
+01:15:53,500 --> 01:15:54,000
+Lucia: Oho, bu işin püfünü çözdüm artık! Görüşürüz!
+
+1054
+01:15:57,500 --> 01:15:58,000
+Mattia: Bravo Lucia, tam bir profesyonelsin!
+
+1055
+01:16:05,000 --> 01:16:05,500
+Mattia: Seni bitişte yakalarım!
+
+1056
+01:16:08,000 --> 01:16:08,500
+Mattia: (İtalyanca) Bas Lucia, hadi!
+
+1057
+01:16:14,000 --> 01:16:14,500
+Mattia: Oho, sen fenasın!
+
+1058
+01:16:16,500 --> 01:16:17,000
+Mattia: Polisler seni nasıl yakalamış lan, ha?
+
+1059
+01:16:18,000 --> 01:16:18,500
+Jason: Evet, nasıl oldu o iş, ha?
+
+1060
+01:16:20,000 --> 01:16:20,500
+Lucia: Bir daha yakalayamayacaklar.
+
+1061
+01:16:24,500 --> 01:16:25,000
+Mattia: Eğlencenin dozunu artırmaya hazır mıyız?
+
+1062
+01:16:26,500 --> 01:16:27,000
+Mattia: Hop!
+
+1063
+01:16:28,000 --> 01:16:28,500
+Mattia: (İtalyanca) İşte böyle yapılır!
+
+1064
+01:16:29,500 --> 01:16:30,000
+Mattia: Tamam sabıkalı, şimdi sıra sende.
+
+1065
+01:16:31,500 --> 01:16:32,000
+Mattia: Hadi, hadi, hadi!
+Evet.
+
+1066
+01:16:33,000 --> 01:16:33,500
+Jason: Hadi Lu.
+
+1067
+01:16:33,500 --> 01:16:34,000
+Mattia: İşte başlıyoruz!
+
+1068
+01:16:35,000 --> 01:16:35,500
+Lucia: Tamam!
+Mattia: Hop!
+
+1069
+01:16:47,500 --> 01:16:48,000
+Jason: Vay anasını, işte bu!
+
+1070
+01:16:51,000 --> 01:16:51,500
+Jason: Üçte üç.
+
+1071
+01:16:55,500 --> 01:16:56,000
+Jason: Ve... dört!
+
+1072
+01:16:56,500 --> 01:16:57,000
+Kat: Vuhu!
+
+1073
+01:17:01,000 --> 01:17:01,500
+Kat: Eğleniyor musun?
+
+1074
+01:17:02,500 --> 01:17:03,000
+Lucia: Kızım, böyle yaşadığına inanamıyorum. Bu nasıl hayat?
+
+1075
+01:17:05,500 --> 01:17:06,000
+Mattia: Oh, oh!
+Ah Mattia.
+
+1076
+01:17:09,000 --> 01:17:09,500
+Mattia: İşte asıl kaliteli olan bu, tamam mı?
+
+1077
+01:17:12,000 --> 01:17:12,500
+Mattia: Bu tekte dikmek için değil, tadını çıkarmak için. Ağırdan alın.
+
+1078
+01:17:17,500 --> 01:17:18,000
+Mattia: Bu bizi asıl partiye güzelce hazırlayacak.
+
+1079
+01:17:20,500 --> 01:17:21,000
+Mattia: Vice City bizi çağırıyor bebeğim!
+Vuhu!
+
+1080
+01:17:24,000 --> 01:17:24,500
+Mattia: Aa Phillip.
+
+1081
+01:17:26,500 --> 01:17:27,000
+Mattia: Ona giyecek bir şeyler ver.
+
+1082
+01:17:28,000 --> 01:17:28,500
+Kat: Aa Lucia! Benimle gel, sana bir şey göstereceğim.
+
+1083
+01:17:34,000 --> 01:17:34,500
+Kat: Şuradan geç.
+
+1084
+01:17:36,000 --> 01:17:36,500
+Kat: Bir dolaba bak. İşte böyle.
+
+1085
+01:17:40,500 --> 01:17:41,000
+Lucia: Buradan mı?
+İtalyanca: Evet, evet.
+
+1086
+01:17:52,500 --> 01:17:53,000
+Lucia: Her yerim tuz oldu.
+
+1087
+01:17:54,000 --> 01:17:54,500
+Lucia: Bunu kuru temizlemeye veririm, söz.
+
+1088
+01:17:58,000 --> 01:17:58,500
+Lucia: Tamam, şu pullu olan hoşuma gitti.
+
+1089
+01:18:02,500 --> 01:18:03,000
+Lucia: Ee, ne diyorsun?
+
+1090
+01:18:06,500 --> 01:18:07,000
+Lucia: Kızım, iyi misin?
+
+1091
+01:18:08,500 --> 01:18:09,000
+Kat: Yok bir şey, iyiyim.
+
+1092
+01:18:11,000 --> 01:18:11,500
+Kat: Hormonlar işte. İnsanı delirtiyor, bilirsin.
+
+1093
+01:18:14,500 --> 01:18:15,000
+Kat: Harika olmuş.
+
+1094
+01:18:15,500 --> 01:18:16,000
+Lucia: Teşekkür ederim. Tamam, hadi.
+
+1095
+01:18:18,000 --> 01:18:18,500
+Lucia: Bakalım sen ne giyeceksin.
+Yok, hayır, hayır, hayır. Ben değil. Ben eşofmanı seçiyorum.
+
+1096
+01:18:21,500 --> 01:18:22,000
+Kat: Git Jason'ı bul. Mattia gitmek için sabırsızlanıyor.
+
+1097
+01:18:24,000 --> 01:18:24,500
+Lucia: Tamam.
+Hadi! Lucia, gidelim!
+
+1098
+01:18:25,500 --> 01:18:26,000
+Kat: İyi eğlenceler.
+
+1099
+01:18:26,500 --> 01:18:27,000
+Lucia: Teşekkürler!
+
+1100
+01:18:33,500 --> 01:18:34,000
+Lucia: Seni burada görmek ne tesadüf...
+
+1101
+01:18:36,000 --> 01:18:36,500
+Jason: Vay, çok... vay be.
+
+1102
+01:18:40,000 --> 01:18:40,500
+Lucia: Güne hiç de böyle başlamamıştım.
+
+1103
+01:18:44,000 --> 01:18:44,500
+Lucia: Hadi.
+Ne?
+
+1104
+01:18:46,000 --> 01:18:46,500
+Lucia: Az önce Mattia'yı gördüm, hadi onu bulalım.
+Tamam.
+
+1105
+01:18:50,500 --> 01:18:51,000
+Lucia: Hadi... belki alt kattadır.
+
+1106
+01:18:52,500 --> 01:18:53,000
+Yabancı: Tamam, tamam!
+
+1107
+01:18:54,000 --> 01:18:54,500
+Lucia: Sence burada şey var mıdır...
+
+1108
+01:18:55,000 --> 01:18:55,500
+Lucia: ünlü falan?
+
+1109
+01:19:03,500 --> 01:19:04,000
+Lucia: Tabii!
+Evet.
+
+1110
+01:19:04,500 --> 01:19:05,000
+Mattia: (İtalyanca) Süper! Çünkü daha yeni başlıyoruz!
+
+1111
+01:19:13,500 --> 01:19:14,000
+Mattia: Hey, hey, hey, hey!
+
+1112
+01:19:16,000 --> 01:19:16,500
+Lucia: Ne haber kardeşim?
+
+1113
+01:19:17,500 --> 01:19:18,000
+Mattia: Araba kullanabiliyor musun?
+
+1114
+01:19:19,000 --> 01:19:19,500
+Lucia: Sence?
+
+1115
+01:19:20,000 --> 01:19:20,500
+Mattia: İtalyanca: Siktir Fabi, bas gaza. Şu kızı atlat.
+
+1116
+01:19:24,000 --> 01:19:24,500
+Mattia: Senin için yavaşlamayacağım Lucia! Umarım hazırsındır.
+
+1117
+01:19:28,500 --> 01:19:29,000
+Mattia: Tünelde dikkat et.
+
+1118
+01:19:37,000 --> 01:19:37,500
+Lucia: Vuhu! Uçuyoruz!
+
+1119
+01:19:39,500 --> 01:19:40,000
+Lucia: Oh bebeğim!
+
+1120
+01:19:42,500 --> 01:19:43,000
+Lucia: Vuhu!
+
+1121
+01:19:44,500 --> 01:19:45,000
+Jason: İşte böyle yapılır bebeğim.
+
+1122
+01:19:51,500 --> 01:19:52,000
+Jason: Şehrin manzarası da güzelmiş.
+
+1123
+01:20:00,000 --> 01:20:00,500
+Jason: Böyle bir araba nasıl sürülürmüş göster onlara.
+
+1124
+01:20:03,000 --> 01:20:03,500
+Mattia: Jason, fotoğrafa gir!
+
+1125
+01:20:05,500 --> 01:20:06,000
+Mattia: Az ilerideki sol çıkıştan çıkıyoruz.
+
+1126
+01:20:09,000 --> 01:20:09,500
+Jason: Evet, böyle bir araba sana yakışıyor.
+
+1127
+01:20:10,500 --> 01:20:11,000
+Lucia: O zaman işe asıl da bizim de olsun.
+
+1128
+01:20:17,500 --> 01:20:18,000
+Mattia: Dikkat! Minibüs var!
+
+1129
+01:20:20,500 --> 01:20:21,000
+Mattia: Siktir, ne trafik varmış!
+
+1130
+01:20:25,000 --> 01:20:25,500
+Mattia: Tamam, az sonra yine sola döneceğiz.
+
+1131
+01:20:30,500 --> 01:20:31,000
+Mattia: Bu siktiğimin rampasında ne inşa ediyorlar?
+
+1132
+01:20:38,500 --> 01:20:39,000
+Mattia: Burası! Çıkış bu.
+
+1133
+01:20:47,500 --> 01:20:48,000
+Jason: Şu motorun sesini duyuyor musun?
+
+1134
+01:20:55,000 --> 01:20:55,500
+Mattia: İtalyanca: Evet Fabi. Buraya, buraya, buraya, camı indir.
+
+1135
+01:20:57,500 --> 01:20:58,000
+Mattia: En sevdiğim hanımefendi, bana ne getirdin?
+
+1136
+01:21:02,500 --> 01:21:03,000
+Mattia: İşte bundan bahsediyorum. Ciao bebeğim, bir dahaki sefere görüşürüz, ha?
+
+1137
+01:21:07,500 --> 01:21:08,000
+Lucia: Ne haber kardeşim?
+
+1138
+01:21:08,500 --> 01:21:09,000
+Mattia: Hop!
+
+1139
+01:21:09,000 --> 01:21:09,500
+Mattia: Yakıt ikmali için durdum sadece.
+
+1140
+01:21:12,500 --> 01:21:13,000
+Mattia: Köşeyi dön, yanımıza gel.
+
+1141
+01:21:20,500 --> 01:21:21,000
+Mattia: Sana konum attım.
+Kulübe son gelen içkileri öder, orospu çocuğu.
+
+1142
+01:21:24,500 --> 01:21:25,000
+Mattia: Görüşürüz!
+
+1143
+01:21:30,500 --> 01:21:31,000
+Mattia: Bu arada her şeyin en kalitelisini severim.
+
+1144
+01:21:38,500 --> 01:21:39,000
+Jason: Bas bebeğim, sonuna kadar.
+
+1145
+01:21:45,000 --> 01:21:45,500
+Jason: Daha! Daha hızlı!
+
+1146
+01:21:47,000 --> 01:21:47,500
+Jason: Galiba az ileriden sola.
+
+1147
+01:21:52,500 --> 01:21:53,000
+Jason: Tamam, sola dön.
+
+1148
+01:22:01,500 --> 01:22:02,000
+Jason: Geç onları! Yaparsın sen!
+
+1149
+01:22:13,500 --> 01:22:14,000
+Mattia: İtalyanca: Tamam millet, hadi gidelim.
+
+1150
+01:22:16,500 --> 01:22:17,000
+Jason: Hazır mısın Lu?
+
+1151
+01:22:18,000 --> 01:22:18,500
+Lucia: Jay, hem de nasıl, hayal bile edemezsin.
+
+1152
+01:22:26,500 --> 01:22:27,000
+Mahalleli: Mattia baba, seni görmek güzel kardeşim.
+
+1153
+01:22:29,000 --> 01:22:29,500
+Mattia: Her zamanki gibi kardeşim.
+
+1154
+01:22:30,500 --> 01:22:31,000
+Mahalleli: Gigi geliyor mu?
+
+1155
+01:22:31,500 --> 01:22:32,000
+Mattia: Yok, yok. Şehir dışında. Bu üçüyle
+şuradaki diğer üç kişi.
+
+1156
+01:22:35,000 --> 01:22:35,500
+Mattia: Bu da sana.
+
+1157
+01:22:36,000 --> 01:22:36,500
+Mahalleli: Aa, teşekkürler dostum.
+
+1158
+01:22:38,500 --> 01:22:39,000
+Mattia: Jason, Lucia. Hadi, yanımdan ayrılmayın.
+
+1159
+01:22:46,500 --> 01:22:47,000
+Mattia: Yok, yok, bu taraftan gelin!
+
+1160
+01:22:54,000 --> 01:22:54,500
+Mattia: İhtiyacınız olan her şey VIP bölümünde var.
+
+1161
+01:22:57,000 --> 01:22:57,500
+Mattia: İtalyanca: Selam, çok güzelsin!
+
+1162
+01:22:59,500 --> 01:23:00,000
+Mattia: İtalyanca: Ah, güzelim!
+
+1163
+01:23:05,000 --> 01:23:05,500
+Mattia: Burada oturmanın kaça patladığını bilmek istemezsiniz.
+
+1164
+01:23:08,500 --> 01:23:09,000
+Mattia: Biraz eğlenelim, ha?
+
+1165
+01:23:10,500 --> 01:23:11,000
+Mattia: Yapabilir misin bunu?
+
+1166
+01:23:11,500 --> 01:23:12,000
+Lucia: Sanırım.
+
+1167
+01:23:12,500 --> 01:23:13,000
+Mattia: Bravo. İşte benim kızım!
+
+1168
+01:23:23,500 --> 01:23:24,000
+Mattia: İtalyanca: Ee? Evet mi, hayır mı?
+
+1169
+01:23:24,000 --> 01:23:24,500
+Mattia: (İtalyanca) Ee? Evet mi, hayır mı?
+Lucia: Yok, ben almayayım.
+
+1170
+01:23:28,000 --> 01:23:28,500
+Mattia: Hey kardeşim!
+
+1171
+01:23:29,500 --> 01:23:30,000
+Mattia: Tamam, sonra görüşürüz!
+
+1172
+01:23:33,000 --> 01:23:33,500
+Jason: Gel buraya.
+
+1173
+01:23:34,500 --> 01:23:35,000
+Mattia: "Vice City bebeğim!" deyin.
+Vice City bebeğim!
+
+1174
+01:23:44,000 --> 01:23:44,500
+Mattia: Jason! Lucia!
+
+1175
+01:23:46,000 --> 01:23:46,500
+Mattia: Hey, nerelerdeydin? Hadi, hadi. Gidiyoruz!
+
+1176
+01:24:00,500 --> 01:24:01,000
+Mahalleli: Gel buraya.
+
+1177
+01:24:01,000 --> 01:24:01,500
+Mahalleli: Gel buraya.
+Lucia: İşte buradasın!
+
+1178
+01:24:01,500 --> 01:24:02,000
+Mahalleli: Gel buraya.
+Lucia: İşte buradasın!
+Mattia: Ne oluyor lan?
+
+1179
+01:24:02,500 --> 01:24:03,000
+Lucia: İşte buradasın!
+Mattia: Ne oluyor lan?
+
+1180
+01:24:03,500 --> 01:24:04,000
+Mattia: Sıvıştın sandım!
+
+1181
+01:24:04,500 --> 01:24:05,000
+Lucia: Bu... bu yerde amma kapı var ya.
+
+1182
+01:24:05,000 --> 01:24:05,500
+Lucia: Bu... bu yerde amma kapı var ya.
+Mattia: Gir içeri!
+
+1183
+01:24:06,500 --> 01:24:07,000
+Lucia: Bu... bu yerde amma kapı var ya.
+Mattia: Biliyorum. Oğlum, bak kimi buldum. Senin hatunu!
+
+1184
+01:24:08,000 --> 01:24:08,500
+Mattia: Biliyorum. Oğlum, bak kimi buldum. Senin hatunu!
+
+1185
+01:24:09,000 --> 01:24:09,500
+Mattia: Biliyorum. Oğlum, bak kimi buldum. Senin hatunu!
+Jason: Hey!
+
+1186
+01:24:10,500 --> 01:24:11,000
+Jason: Nerelerdeydin?
+
+1187
+01:24:11,500 --> 01:24:12,000
+Lucia: Seni arıyordum, salak!
+
+1188
+01:24:15,500 --> 01:24:16,000
+Mattia: İtalyanca: Vay! Kaplan!
+
+1189
+01:24:17,500 --> 01:24:18,000
+Lucia: Ne oluyor lan?
+
+1190
+01:24:18,500 --> 01:24:19,000
+Mattia: Ben sana ne dedim? Fena dağıttık, değil mi?
+
+1191
+01:24:21,500 --> 01:24:22,000
+Çalışan: Güvenlik! Açın kapıyı!
+İtalyanca: Siktir!
+
+1192
+01:24:24,000 --> 01:24:24,500
+Mattia: Lanet olası güvenlik, çıkalım buradan!
+Hemen açın şu kapıyı!
+
+1193
+01:24:26,000 --> 01:24:26,500
+Mattia: Kaçma vakti millet! Hadi! Hop, hop!
+
+1194
+01:24:33,000 --> 01:24:33,500
+Jason: Iıı...
+Iıı...
+
+1195
+01:24:45,500 --> 01:24:46,000
+Jason: Vay be, ne geceydi.
+
+1196
+01:24:47,000 --> 01:24:47,500
+Lucia: "Kanka. Kanka. Kanka, kanka, kanka, kanka!"
+
+1197
+01:24:51,000 --> 01:24:51,500
+Mattia: Ooo! Dün gece fena dağıttık, değil mi?
+
+1198
+01:24:57,500 --> 01:24:58,000
+Mattia: Şey, düşündüm de. Benden iş istemiştin ya.
+
+1199
+01:25:01,500 --> 01:25:02,000
+Mattia: Tabii ki iş var, kanka.
+
+1200
+01:25:03,500 --> 01:25:04,000
+Jason: Güzel dostum. Ne yapmamız gerekiyor?
+
+1201
+01:25:05,000 --> 01:25:05,500
+Mattia: Kolay. Geçen gün Kat'le bir teslimat yaptık.
+Galiba sana anlatmıştım?
+
+1202
+01:25:10,000 --> 01:25:10,500
+Mattia: Bir nevi ödemeydi ama patronum fikrini değiştirdi.
+
+1203
+01:25:12,500 --> 01:25:13,000
+Mattia: Başka bir yere gitmesini istiyor.
+
+1204
+01:25:14,500 --> 01:25:15,000
+Mattia: Gidip onu alacak, öbür adamlara götüreceksiniz.
+
+1205
+01:25:19,000 --> 01:25:19,500
+Mattia: Grassrivers Ziyaretçi Merkezi'nden alacaksınız.
+
+1206
+01:25:22,000 --> 01:25:22,500
+Jason: Peki sen niye yapmıyorsun?
+
+1207
+01:25:23,000 --> 01:25:23,500
+Mattia: Kanka, iş lazım dememiş miydin?
+
+1208
+01:25:25,000 --> 01:25:25,500
+Mattia: Artık işe ihtiyacınız yok mu?
+Var.
+
+1209
+01:25:27,000 --> 01:25:27,500
+Jason: Sadece ölmek istemiyorum. Sen neden endişeleniyorsun?
+
+1210
+01:25:30,500 --> 01:25:31,000
+Mattia: Hiçbir şeyden. İsterseniz yapın, istemezseniz yapmayın.
+Yaparız.
+
+1211
+01:25:34,000 --> 01:25:34,500
+Lucia: Ne kadar?
+Bu iş mi?
+
+1212
+01:25:36,000 --> 01:25:36,500
+Mattia: On bin. Sonrakinde daha fazla.
+
+1213
+01:25:39,500 --> 01:25:40,000
+Mattia: Bir düşünün, tamam mı?
+
+1214
+01:25:42,500 --> 01:25:43,000
+Mattia: Aa, çocuklar, çocuklar, çocuklar, çocuklar.
+
+1215
+01:25:44,500 --> 01:25:45,000
+Mattia: Vice City'ye taşınmanız lazım. Ciddiyim, kanka.
+
+1216
+01:25:48,500 --> 01:25:49,000
+Mattia: Oh!
+
+1217
+01:26:01,000 --> 01:26:01,500
+Burim: İşte, düzeldi. Git.
+
+1218
+01:26:03,500 --> 01:26:04,000
+Lucia: Ben sana ne dedim?
+Ne?
+
+1219
+01:26:05,000 --> 01:26:05,500
+Lucia: İş meselesi, kanka. Biliyordum. Bu iş tamam.
+
+1220
+01:26:08,000 --> 01:26:08,500
+Jason: Olabilir. Bakalım, göreceğiz.
+
+1221
+01:26:12,500 --> 01:26:13,000
+Lucia: Sanırım işimin başına dönüyorum.
+
+1222
+01:26:14,000 --> 01:26:14,500
+Jason: Ama uzun sürmeyecek, bebeğim. Uzun sürmeyecek.
+
+1223
+01:26:17,000 --> 01:26:17,500
+Lucia: Sonra görüşürüz.
+
+1224
+01:26:18,500 --> 01:26:19,000
+Jason: Tamam. Görüşürüz.
+
+1225
+01:26:22,000 --> 01:26:22,500
+Jason: Sizde kahve var mı?
+
+1226
+01:26:23,500 --> 01:26:24,000
+Barmen: Yok, Mudslide var. İster misin?
+
+1227
+01:26:28,000 --> 01:26:28,500
+Jason: Sağ ol.
+
+1228
+01:26:49,500 --> 01:26:50,000
+Jason: Selam dostum.
+
+1229
+01:26:50,000 --> 01:26:50,500
+Brian: Neredesin?
+
+1230
+01:26:51,500 --> 01:26:52,000
+Jason: Buralardayım.
+
+1231
+01:26:52,000 --> 01:26:52,500
+Brian: Neresi bu buralar? Burada değilsin, seni göremiyorum...
+
+1232
+01:26:55,500 --> 01:26:56,000
+Jason: Ne lazım, Bri? Her şey yolunda mı?
+
+1233
+01:26:57,000 --> 01:26:57,500
+Brian: Hayır, yolunda değil. Donnie sana ne yaptığını söylemedi mi?
+Ha?
+
+1234
+01:27:01,500 --> 01:27:02,000
+Brian: Hemen buraya gel.
+Bu boka artık kökten bir çözüm bulmalıyız,
+
+1235
+01:27:05,500 --> 01:27:06,000
+Brian: bir de... tabancanı getir.
+
+1236
+01:27:17,000 --> 01:27:17,500
+Lucia: Hey, Mattia aradı,
+paketi alma işini şimdilik erteleyeceklermiş.
+
+1237
+01:27:22,000 --> 01:27:22,500
+Jason: Hıh, tahmin etmiştim.
+
+1238
+01:27:24,000 --> 01:27:24,500
+Lucia: Ne demek istiyorsun?
+
+1239
+01:27:25,000 --> 01:27:25,500
+Jason: Bak, arkadaşına laf etmek istemem, Lu.
+
+1240
+01:27:26,500 --> 01:27:27,000
+Jason: Mattia çenesi çok çalışan tiplerden biri gibi.
+
+1241
+01:27:29,000 --> 01:27:29,500
+Jason: O iş için on bin deyince... yok, hiç inandırıcı gelmedi.
+
+1242
+01:27:32,500 --> 01:27:33,000
+Lucia: Saçmalama ya. Adamlarda bok gibi para var.
+
+1243
+01:27:36,000 --> 01:27:36,500
+Lucia: Yani, atış taliminde şampanya şişeleri kullanıyorlar.
+
+1244
+01:27:41,000 --> 01:27:41,500
+Lucia: Cidden, on bin onlar için ne ki, ha?
+
+1245
+01:27:43,500 --> 01:27:44,000
+Lucia: Snapmatic'te zengin bir adam gördüm; iki yüz bin falan...
+
+1246
+01:27:47,000 --> 01:27:47,500
+Lucia: ...köpeğinin o sarkık kulaklarına estetik yaptırmaya harcamış amına koyayım.
+
+1247
+01:27:50,000 --> 01:27:50,500
+Jason: Tamam. İş yeniden başlayınca
+bana "Ben sana demiştim" dersin.
+
+1248
+01:27:53,500 --> 01:27:54,000
+Lucia: Hıh. Derim tabii.
+
+1249
+01:28:02,500 --> 01:28:03,000
+Brian: Nerelerdeydin be?
+
+1250
+01:28:05,000 --> 01:28:05,500
+Brian: Telefonun titreyip ekranda Brian yazınca,
+
+1251
+01:28:07,000 --> 01:28:07,500
+Brian: kıçına tekmeyi yemiş gibi geleceksin, evlat.
+
+1252
+01:28:09,000 --> 01:28:09,500
+Lori: Aman sen de. Sen ona bakma, gel buraya.
+
+1253
+01:28:11,500 --> 01:28:12,000
+Jason: Selam Lori.
+
+1254
+01:28:13,000 --> 01:28:13,500
+Lori: Peki ya o kız arkadaşın,
+
+1255
+01:28:14,500 --> 01:28:15,000
+Lori: ciddi bir ilişkiye hazır olduğuna emin misin?
+
+1256
+01:28:16,500 --> 01:28:17,000
+Jason: Şey, seninle Brian'ın ilişkisine bakınca,
+
+1257
+01:28:19,000 --> 01:28:19,500
+Jason: benim de deneme vaktim geldi diyorum.
+
+1258
+01:28:20,500 --> 01:28:21,000
+Lori: Şu laflara bak, ne de tatlı dilli.
+
+1259
+01:28:23,000 --> 01:28:23,500
+Jason: Tamam, şey, Donnie'yle ilgili bir şey mi diyordun?
+Evet.
+
+1260
+01:28:27,000 --> 01:28:27,500
+Brian: Şu ilerideki Kingfishers'la yüz yüze bir görüşme ayarlamış.
+
+1261
+01:28:31,500 --> 01:28:32,000
+Brian: Vakti gelmişti.
+
+1262
+01:28:32,500 --> 01:28:33,000
+Brian: O kırolarla bölge savaşına girmek istemiyorum, kusura bakma.
+
+1263
+01:28:36,500 --> 01:28:37,000
+Jason: Yok, anladım. Bana niye ihtiyacınız var?
+
+1264
+01:28:39,500 --> 01:28:40,000
+Brian: Sana niye mi ihtiyacımız var?
+
+1265
+01:28:40,500 --> 01:28:41,000
+Brian: Bizi bu boka sen soktun, dostum!
+
+1266
+01:28:43,500 --> 01:28:44,000
+Brian: Seni korumaya çalışıyorum.
+
+1267
+01:28:45,500 --> 01:28:46,000
+Brian: Adını, adresini, her şeyini biliyorlar.
+
+1268
+01:28:49,000 --> 01:28:49,500
+Brian: Şimdi, o adamların evine dayanmasını istemezsin, değil mi?
+
+1269
+01:28:52,500 --> 01:28:53,000
+Lori: Başka yolu yok.
+
+1270
+01:28:54,000 --> 01:28:54,500
+Lori: Yani, sen bilirsin,
+
+1271
+01:28:55,500 --> 01:28:56,000
+Lori: ama bence olay büyümeden halletmeliyiz.
+Hı hı.
+
+1272
+01:28:59,000 --> 01:28:59,500
+Jason: Tamam, peki. Plan ne?
+
+1273
+01:29:01,000 --> 01:29:01,500
+Brian: Güzel, işte beklediğim tavır buydu.
+
+1274
+01:29:03,000 --> 01:29:03,500
+Brian: Şimdi sen endişelenme. Lori'yle kafa yorduk bu işe.
+
+1275
+01:29:06,500 --> 01:29:07,000
+Brian: Seninle ben içeri girip konuşacağız ve...
+
+1276
+01:29:09,500 --> 01:29:10,000
+Brian: o da biraz geride kalıp
+
+1277
+01:29:12,000 --> 01:29:12,500
+Brian: etrafı kollayacak.
+
+1278
+01:29:14,000 --> 01:29:14,500
+Brian: Peki, benim için neyin var, bebeğim?
+
+1279
+01:29:15,500 --> 01:29:16,000
+Lori: Sende var mı, Jason?
+Benim var.
+
+1280
+01:29:17,500 --> 01:29:18,000
+Lori: Tamam.
+
+1281
+01:29:19,000 --> 01:29:19,500
+Lori: O adamlardan biri sana yan bakacak olursa;
+
+1282
+01:29:21,500 --> 01:29:22,000
+Lori: Tut, çek, kavra, it. Bam, bam, bam.
+
+1283
+01:29:26,000 --> 01:29:26,500
+Lori: Anladın mı?
+
+1284
+01:29:27,500 --> 01:29:28,000
+Jason: Sanırım beceririm.
+
+1285
+01:29:28,500 --> 01:29:29,000
+Lori: Şanslısın, bu kız tüfeği olmadan hiçbir yere gitmez.
+
+1286
+01:29:34,000 --> 01:29:34,500
+Brian: Vay be, müthiş değil mi?
+
+1287
+01:29:36,500 --> 01:29:37,000
+Lori: Hadi, gidelim!
+Oh.
+
+1288
+01:29:38,000 --> 01:29:38,500
+Brian: Galiba yola çıkmaya hazırız!
+Hı hı!
+
+1289
+01:29:41,000 --> 01:29:41,500
+Lori: Tamam, sen öne otur, sırık.
+
+1290
+01:29:42,500 --> 01:29:43,000
+Brian: Geldiğimizi haber vereyim.
+
+1291
+01:29:58,500 --> 01:29:59,000
+Brian: Tamam, gidelim.
+
+1292
+01:30:02,500 --> 01:30:03,000
+Brian: Hı hı, buralardan pek uzakta olmayan bir mezbaha var.
+
+1293
+01:30:14,000 --> 01:30:14,500
+Brian: Donnie, Donnie, Donnie...
+
+1294
+01:30:16,000 --> 01:30:16,500
+Brian: Siktiğimin Donnie'si!
+
+1295
+01:30:17,000 --> 01:30:17,500
+Lori: Ağzını topla.
+
+1296
+01:30:18,000 --> 01:30:18,500
+Brian: Peki, tamam. Sevgili dostumuz nasıl oldu da birden
+
+1297
+01:30:20,500 --> 01:30:21,000
+Brian: bu kadar lanet olası kendini beğenmiş birine dönüştü?
+
+1298
+01:30:23,000 --> 01:30:23,500
+Brian: Ben o kıroların yaşadığı...
+
+1299
+01:30:25,000 --> 01:30:25,500
+Brian: ...bok çukuru gibi bataklığa dalıp da...
+
+1300
+01:30:27,500 --> 01:30:28,000
+Brian: ...ceplerindeki parayı almaya cesaret edemezdim.
+
+1301
+01:30:29,500 --> 01:30:30,000
+Lori: Bunu yapmamanı sağlayan, o kafanın içindeki beyin.
+
+1302
+01:30:32,500 --> 01:30:33,000
+Brian: Bak, şu an umudum kalmadı, tamam mı?
+
+1303
+01:30:36,000 --> 01:30:36,500
+Brian: Jason, bu hâle nasıl geldik?
+
+1304
+01:30:38,500 --> 01:30:39,000
+Jason: Bak dostum, bunu Donnie'yle konuşman lazım.
+
+1305
+01:30:42,000 --> 01:30:42,500
+Brian: O bataklık farelerinin sadece aracı olduğunu biliyorsun, değil mi?
+
+1306
+01:30:45,000 --> 01:30:45,500
+Brian: Kokainden bir bok anlamazlar!
+
+1307
+01:30:47,500 --> 01:30:48,000
+Brian: Hangi deliklerine sokacaklarını bile bilmezler!
+
+1308
+01:30:50,500 --> 01:30:51,000
+Brian: Donnie'nin bizi soktuğu bu iş,
+motorcularla ya da...
+
+1309
+01:30:55,000 --> 01:30:55,500
+Brian: başka beyaz ayaktakımı çetelerle başımızı derde sokabilir.
+
+1310
+01:30:57,000 --> 01:30:57,500
+Brian: Eyaletin bir ucundan öbürüne hepsi
+Kingfishers'la iş çeviriyor.
+
+1311
+01:31:01,000 --> 01:31:01,500
+Brian: Hiç bir motorcuyla dans ettin mi, Jason?
+
+1312
+01:31:04,000 --> 01:31:04,500
+Jason: Dans mı?
+
+1313
+01:31:05,000 --> 01:31:05,500
+Lori: Şey, k-kalp ilacını aldın mı, ayıcığım?
+
+1314
+01:31:08,000 --> 01:31:08,500
+Brian: Ne alakası var şimdi?
+
+1315
+01:31:09,500 --> 01:31:10,000
+Lori: Aldın mı?
+
+1316
+01:31:10,000 --> 01:31:10,500
+Lori: Aldın mı?
+Brian: Evet, aldım!
+
+1317
+01:31:10,500 --> 01:31:11,000
+Brian: Evet, aldım!
+
+1318
+01:31:12,000 --> 01:31:12,500
+Brian: Ama o şişenin arkasında bataklık fareleriyle,
+
+1319
+01:31:16,000 --> 01:31:16,500
+Brian: kokainle ya da Donnie'lerle ilgili bir şey yazmıyor! Tanrım!
+
+1320
+01:31:20,000 --> 01:31:20,500
+Brian: Benim için kazık üstündeki evlerin orada
+bir batığı çıkarması gerekiyordu,
+
+1321
+01:31:23,500 --> 01:31:24,000
+Brian: ama onun yerine gidip Kingfishers'la bu işe kalkıştı.
+
+1322
+01:31:27,500 --> 01:31:28,000
+Brian: Benim ne istediğim artık kimsenin umurunda mı?
+
+1323
+01:31:31,500 --> 01:31:32,000
+Jason: Bak, durum kötü.
+
+1324
+01:31:33,000 --> 01:31:33,500
+Jason: Ama Donnie görüşme mi ayarlamış?
+
+1325
+01:31:35,000 --> 01:31:35,500
+Jason: Donnie'ye göre bayağı akıllıca.
+
+1326
+01:31:36,000 --> 01:31:36,500
+Jason: Bence, iyi giderse...
+
+1327
+01:31:37,000 --> 01:31:37,500
+Jason: Bence, iyi giderse...
+Brian: Akıllıca mı?
+
+1328
+01:31:38,500 --> 01:31:39,000
+Jason: Evet. Hani, her şey açık açık konuşulur.
+
+1329
+01:31:41,000 --> 01:31:41,500
+Jason: Asıl taraflar, yani seninle onlar, doğrudan temas kurarsınız.
+
+1330
+01:31:43,500 --> 01:31:44,000
+Jason: Yeni fırsatlar doğar.
+
+1331
+01:31:45,000 --> 01:31:45,500
+Brian: Aa! Sen meseleyi böyle mi görüyorsun, ha?
+
+1332
+01:31:47,500 --> 01:31:48,000
+Brian: Donnie o tombul, kırıntılı parmaklarını kurabiye kavanozuna
+sokarken yakalandı. Şimdi de
+
+1333
+01:31:52,000 --> 01:31:52,500
+Brian: babası annesine onun özür dilediğini,
+
+1334
+01:31:54,500 --> 01:31:55,000
+Brian: bir daha yapmayacağını söylesin istiyor. Bu akıllılık değil!
+
+1335
+01:31:58,500 --> 01:31:59,000
+Brian: Çaresizlik. Bir daha iş yapmak isterlerse,
+
+1336
+01:32:01,500 --> 01:32:02,000
+Brian: şartlar lehimize olmayacak. Tam tersi.
+Buna garanti veririm.
+
+1337
+01:32:07,000 --> 01:32:07,500
+Jason: Bak Brian, ben hazırım. Aklında şüphe kalmasın.
+
+1338
+01:32:11,500 --> 01:32:12,000
+Brian: Ne- neden bahsediyorsun, evlat?
+
+1339
+01:32:14,000 --> 01:32:14,500
+Jason: Yani, bu tür işlerde fazladan birine
+ihtiyacın varsa,
+
+1340
+01:32:18,000 --> 01:32:18,500
+Jason: ben üstlenebilirim. Anlıyor musun?
+
+1341
+01:32:20,000 --> 01:32:20,500
+Jason: İşleri hallederim. Bana fırsat ver de...
+
+1342
+01:32:21,500 --> 01:32:22,000
+Jason: İşleri hallederim. Bana fırsat ver de...
+Brian: Fır- fırs-
+
+1343
+01:32:22,500 --> 01:32:23,000
+Brian: Fır- fırs-
+
+1344
+01:32:23,500 --> 01:32:24,000
+Brian: Sen neden bahsediyorsun be?
+
+1345
+01:32:25,000 --> 01:32:25,500
+Lori: Bir bıraksan da lafını bitirse? Devam et, Jason.
+
+1346
+01:32:28,000 --> 01:32:28,500
+Jason: Sağ ol, Lori.
+
+1347
+01:32:30,000 --> 01:32:30,500
+Jason: Dediğim şu, şu an daha büyük bir işe ihtiyacım var.
+
+1348
+01:32:33,500 --> 01:32:34,000
+Jason: Bu işi kaldırabilirim. Bu işe ihtiyacım var.
+
+1349
+01:32:38,000 --> 01:32:38,500
+Brian: Hı? Şey... evet, evet, ben de, şey...
+öyle duymuştum, hı hı...
+
+1350
+01:32:57,500 --> 01:32:58,000
+Lori: Galiba yaklaşıyoruz,
+
+1351
+01:32:59,000 --> 01:32:59,500
+Lori: hâlâ yolda onlardan tek birini bile görmedim.
+
+1352
+01:33:01,500 --> 01:33:02,000
+Lori: Üzerinden geçmek istediğimiz bir şey var mı?
+
+1353
+01:33:03,000 --> 01:33:03,500
+Jason: Evet. Geride beklemek yerine, Lori,
+bence sen de bizimle içeri gel.
+
+1354
+01:33:06,000 --> 01:33:06,500
+Lori: Ne?
+
+1355
+01:33:06,500 --> 01:33:07,000
+Brian: Plan bu değildi...
+
+1356
+01:33:08,500 --> 01:33:09,000
+Jason: Biliyorum ama birbirimizi kollamamız daha kolay olur.
+
+1357
+01:33:11,500 --> 01:33:12,000
+Jason: Oralarda kimi, neyi sakladıklarını bilmiyoruz.
+
+1358
+01:33:13,500 --> 01:33:14,000
+Lori: Ama silahımı saklayacak yerim yok.
+
+1359
+01:33:15,500 --> 01:33:16,000
+Jason: Saklamana gerek yok. Hatta saklamasan daha iyi.
+
+1360
+01:33:18,000 --> 01:33:18,500
+Lori: İki silah da taşıyabilirim...
+
+1361
+01:33:19,500 --> 01:33:20,000
+Brian: Hayır! Lori, tatlım.
+
+1362
+01:33:20,000 --> 01:33:20,500
+Brian: Hayır! Lori, tatlım.
+Jason: O da olur. Saygı duyarlar buna.
+
+1363
+01:33:21,000 --> 01:33:21,500
+Jason: O da olur. Saygı duyarlar buna.
+
+1364
+01:33:22,000 --> 01:33:22,500
+Brian: Hayır dedim!
+
+1365
+01:33:25,000 --> 01:33:25,500
+Brian: Bu bir iş görüşmesi.
+
+1366
+01:33:26,500 --> 01:33:27,000
+Brian: Biri teklif sunar, öbürü pazarlık eder.
+
+1367
+01:33:30,500 --> 01:33:31,000
+Brian: Herkes evine gider. Hepsi bu!
+
+1368
+01:33:53,000 --> 01:33:53,500
+Lori: Dönüşe yaklaşıyoruz.
+
+1369
+01:33:54,500 --> 01:33:55,000
+Brian: Doğru yol bu, emin misin?
+
+1370
+01:33:56,500 --> 01:33:57,000
+Lori: Haritadakiyle aynı.
+
+1371
+01:34:01,500 --> 01:34:02,000
+Lori: Mekân hemen şurada, birazdan inerim.
+
+1372
+01:34:06,500 --> 01:34:07,000
+Lori: Tamam, dur.
+
+1373
+01:34:09,500 --> 01:34:10,000
+Brian: Dikkatli ol, tatlım.
+
+1374
+01:34:11,500 --> 01:34:12,000
+Brian: Bir şey görürsen ara, duydun mu?
+
+1375
+01:34:14,500 --> 01:34:15,000
+Lori: Ben başımın çaresine bakarım,
+
+1376
+01:34:16,000 --> 01:34:16,500
+Lori: atış talimi gibi işte, bam, bam.
+
+1377
+01:34:18,000 --> 01:34:18,500
+Lori: Siz ikiniz... siz kendinize dikkat edin.
+
+1378
+01:34:21,000 --> 01:34:21,500
+Lori: Tüfekli bir hanıma ihtiyacınız olursa,
+
+1379
+01:34:23,000 --> 01:34:23,500
+Lori: bir seslenin yeter.
+
+1380
+01:34:25,500 --> 01:34:26,000
+Brian: Pekâlâ, şimdi içeri girdiğimizde,
+
+1381
+01:34:27,500 --> 01:34:28,000
+Brian: gözünü açık tut, tuhaf bir şey var mı bak.
+
+1382
+01:34:30,000 --> 01:34:30,500
+Brian: Konuşmayı bana bırak ama yakınımda dur,
+
+1383
+01:34:33,000 --> 01:34:33,500
+Brian: seni biraz tartaklamam gerekebilir.
+
+1384
+01:34:39,000 --> 01:34:39,500
+Brian: Hey. Sen. Kardeşim. Donnie nerede?
+
+1385
+01:34:43,500 --> 01:34:44,000
+Brian: Duydun mu? Donnie nerede?
+
+1386
+01:34:45,500 --> 01:34:46,000
+Kingfishers: Donnie kim, bilmiyorum.
+
+1387
+01:34:47,500 --> 01:34:48,000
+Kingfishers: Doug burada.
+
+1388
+01:34:49,000 --> 01:34:49,500
+Jason: Doug kim?
+
+1389
+01:34:49,500 --> 01:34:50,000
+Brian: Bilmem. Öğrenelim.
+
+1390
+01:34:52,500 --> 01:34:53,000
+Brian: Tamam dostum. Doug da olur. Nerede?
+
+1391
+01:34:55,500 --> 01:34:56,000
+Kingfishers: İleride, ağılların orada.
+
+1392
+01:34:58,000 --> 01:34:58,500
+Kingfishers: İşini bitirmesini bekleseniz iyi olur.
+
+1393
+01:35:00,000 --> 01:35:00,500
+Brian: Yok, yok, gerek yok. Biz buluruz onu, tamam mı?
+
+1394
+01:35:03,000 --> 01:35:03,500
+Brian: Bu tarafta mı?
+
+1395
+01:35:04,000 --> 01:35:04,500
+Kingfishers: Hı hı.
+
+1396
+01:35:05,500 --> 01:35:06,000
+Kingfishers: Peki...
+
+1397
+01:35:10,000 --> 01:35:10,500
+Brian: Şurada, biraz ileride park et.
+
+1398
+01:35:14,500 --> 01:35:15,000
+Brian: Tamam, hadi.
+
+1399
+01:35:19,000 --> 01:35:19,500
+Lori: Tamam, o şirin küçük popolarınız görüş alanımda.
+
+1400
+01:35:22,500 --> 01:35:23,000
+Brian: İyi, ama mecbur kalmadıkça ateş etme.
+
+1401
+01:35:25,000 --> 01:35:25,500
+Lori: Anlaşıldı.
+
+1402
+01:35:36,000 --> 01:35:36,500
+Brian: Niye çıkıp bir şey demiyorlar?
+
+1403
+01:35:38,500 --> 01:35:39,000
+Jason: Merhaba. Nasılsın? Seni görmek güzel.
+
+1404
+01:35:40,500 --> 01:35:41,000
+Brian: Kes şunu.
+
+1405
+01:35:42,000 --> 01:35:42,500
+Brian: Donnie'yi görüyor musun?
+
+1406
+01:35:43,000 --> 01:35:43,500
+Jason: Buraya bir mil mesafede olsa,
+
+1407
+01:35:45,000 --> 01:35:45,500
+Jason: o boş boş konuşmasını kesin duyardık.
+
+1408
+01:35:47,000 --> 01:35:47,500
+Brian: Burada işte. Telefonundan canlı konumunu takip ediyorum.
+
+1409
+01:35:51,500 --> 01:35:52,000
+Jason: O zaman buluruz herhâlde.
+
+1410
+01:35:52,000 --> 01:35:52,500
+Jason: O zaman buluruz herhâlde.
+
+1411
+01:35:53,500 --> 01:35:54,000
+Kingfishers: Sence bu ne kokusu?
+
+1412
+01:35:57,500 --> 01:35:58,000
+Kingfishers: Hem de iyisinden değil.
+
+1413
+01:35:59,000 --> 01:35:59,500
+Kingfishers: Hı hı, evet, aynen öyle.
+
+1414
+01:36:10,500 --> 01:36:11,000
+Brian: Şimdi sessiz ol. Aradığımız adam bu olmalı.
+
+1415
+01:36:19,000 --> 01:36:19,500
+Doug: Hassiktir.
+
+1416
+01:36:21,500 --> 01:36:22,000
+Doug: Gelmişsiniz bile!
+
+1417
+01:36:22,500 --> 01:36:23,000
+Brian: Ben dakik olmayı severim. Saygı göstergesidir.
+
+1418
+01:36:28,500 --> 01:36:29,000
+Brian: Burası... güzel bir yermiş.
+
+1419
+01:36:33,500 --> 01:36:34,000
+Doug: Burası bizim değil. Kübalı birkaç adam işletiyor...
+
+1420
+01:36:38,500 --> 01:36:39,000
+Doug: Fark etmişsinizdir, pek de, şey,
+
+1421
+01:36:40,500 --> 01:36:41,000
+Doug: yönetmeliklere uygun değil, şey...
+
+1422
+01:36:44,500 --> 01:36:45,000
+Doug: ama burada kimsenin sikinde değil.
+
+1423
+01:36:47,500 --> 01:36:48,000
+Doug: İstediklerini kesebiliyorlar. Şey... domuz, keçi,
+midilli...
+
+1424
+01:36:54,000 --> 01:36:54,500
+Doug: Doğrayıp et yapıyorlar.
+
+1425
+01:36:56,000 --> 01:36:56,500
+Doug: Et yeterince ucuz olunca,
+
+1426
+01:36:57,500 --> 01:36:58,000
+Doug: biz de ellerinden alıyoruz.
+
+1427
+01:37:00,000 --> 01:37:00,500
+Brian: Hı hı... Şey, Donnie konuşmak istediğinizi söyledi.
+
+1428
+01:37:06,000 --> 01:37:06,500
+Brian: Gören oldu mu onu? Yani, burada olacağını söylemişti.
+
+1429
+01:37:11,000 --> 01:37:11,500
+Doug: Buralarda bir yerde...
+
+1430
+01:37:13,500 --> 01:37:14,000
+Doug: Ama onu beklemeyelim.
+
+1431
+01:37:16,000 --> 01:37:16,500
+Brian: Ben de aynısını düşünüyordum.
+
+1432
+01:37:19,000 --> 01:37:19,500
+Brian: Anlaşmazlıklarımızı bir kenara bırakıp
+doğru düzgün bir
+
+1433
+01:37:23,000 --> 01:37:23,500
+Brian: anlaşmaya varmaya çalışalım.
+
+1434
+01:37:25,500 --> 01:37:26,000
+Brian: Bakın, ben o uçakla o kadar çok ot taşıdım ki,
+
+1435
+01:37:28,500 --> 01:37:29,000
+Brian: bütün Leonida eyaletini uçururum. Anlatabiliyor muyum!
+
+1436
+01:37:34,000 --> 01:37:34,500
+Brian: Uçan Brian. Duymuşsunuzdur. Ben teslimatı hep yaparım.
+
+1437
+01:37:38,500 --> 01:37:39,000
+Brian: Bir bok yendiyse de o kadar. Bir bok yenmiştir. Hı?
+
+1438
+01:37:45,000 --> 01:37:45,500
+Brian: Anladınız mı?
+
+1439
+01:37:47,000 --> 01:37:47,500
+Brian: Yani, bundan sonra muhatabınız benim.
+
+1440
+01:37:50,000 --> 01:37:50,500
+Brian: Demek istediğim, seninle ben...
+
+1441
+01:37:52,000 --> 01:37:52,500
+Brian: aramız iyi, değil mi?
+
+1442
+01:37:54,500 --> 01:37:55,000
+Brian: Aramız iyi.
+
+1443
+01:37:55,500 --> 01:37:56,000
+Doug: Hey...
+
+1444
+01:37:57,000 --> 01:37:57,500
+Doug: Bir atta ne kadar kan olduğunu hiç gördün mü?
+
+1445
+01:38:00,000 --> 01:38:00,500
+Doug: Şurada birini kesmek üzereler!
+
+1446
+01:38:02,500 --> 01:38:03,000
+Doug: Görmeye değer bir şey.
+
+1447
+01:38:05,000 --> 01:38:05,500
+Brian: Hım. Öyle mi?
+
+1448
+01:38:08,000 --> 01:38:08,500
+Brian: Olur tabii. Neden olmasın ki?
+
+1449
+01:38:12,000 --> 01:38:12,500
+Brian: O ne lan?
+
+1450
+01:38:14,000 --> 01:38:14,500
+Doug: Bir şey yok, yok bir şey.
+
+1451
+01:38:16,000 --> 01:38:16,500
+Jason: Bu bir tuzak,
+
+1452
+01:38:17,500 --> 01:38:18,000
+Lori: Bok yiyin, bataklık maymunları.
+
+1453
+01:38:21,500 --> 01:38:22,000
+Brian: Gitmemiz lazım!
+
+1454
+01:38:32,000 --> 01:38:32,500
+Kingfishers: Oyalayın onları!
+
+1455
+01:38:33,000 --> 01:38:33,500
+Jason: Hadi gidelim!
+Lori: Dinleyin, yer değiştiriyorum. Beni fark ettiler.
+
+1456
+01:38:35,000 --> 01:38:35,500
+Lori: Dinleyin, yer değiştiriyorum. Beni fark ettiler.
+
+1457
+01:38:35,500 --> 01:38:36,000
+Lori: Dinleyin, yer değiştiriyorum. Beni fark ettiler.
+Brian: Siktiğimin bok çukuru!
+
+1458
+01:38:36,500 --> 01:38:37,000
+Brian: Siktiğimin bok çukuru!
+
+1459
+01:38:38,500 --> 01:38:39,000
+Lori: Sipere geçiyorum!
+
+1460
+01:38:44,500 --> 01:38:45,000
+Brian: Çıkar bizi buradan!
+
+1461
+01:38:47,500 --> 01:38:48,000
+Brian: İlerliyoruz, değil mi?
+
+1462
+01:38:55,000 --> 01:38:55,500
+Brian: Orada, ATV'nin üstünde!
+
+1463
+01:38:56,500 --> 01:38:57,000
+Brian: Orada, ATV'nin üstünde!
+Lori: Yine yer değiştiriyorum.
+
+1464
+01:38:57,000 --> 01:38:57,500
+Lori: Yine yer değiştiriyorum.
+
+1465
+01:38:57,500 --> 01:38:58,000
+Lori: Neredesiniz lan? Dibimdeler resmen!
+
+1466
+01:39:02,500 --> 01:39:03,000
+Brian: Hey, Lori'yi bekletmeyeceğiz!
+
+1467
+01:39:06,500 --> 01:39:07,000
+Jason: Acele etmemiz lazım!
+
+1468
+01:39:07,500 --> 01:39:08,000
+Brian: O zaman hadi! Hadi!
+
+1469
+01:39:10,000 --> 01:39:10,500
+Lori: Yol kenarında sipere geçiyorum.
+
+1470
+01:39:11,500 --> 01:39:12,000
+Brian: Görüyor musun bunu?
+
+1471
+01:39:12,000 --> 01:39:12,500
+Brian: Görüyor musun bunu?
+Lori: Suyun oraya gelin.
+
+1472
+01:39:12,500 --> 01:39:13,000
+Lori: Suyun oraya gelin.
+
+1473
+01:39:18,500 --> 01:39:19,000
+Brian: Lori şurada! Onu kolla!
+
+1474
+01:39:22,500 --> 01:39:23,000
+Yabancı: Orospu çocuğu! Gidin, çıkarın onları oradan!
+
+1475
+01:39:23,000 --> 01:39:23,500
+Yabancı: Orospu çocuğu! Gidin, çıkarın onları oradan!
+Brian: Galiba işaret gönderdiler. Başlıyoruz!
+
+1476
+01:39:25,000 --> 01:39:25,500
+Brian: Galiba işaret gönderdiler. Başlıyoruz!
+
+1477
+01:39:27,500 --> 01:39:28,000
+Lori: Hey, orada mısınız? Suyun oraya gidiyorum.
+
+1478
+01:39:36,000 --> 01:39:36,500
+Brian: Siktir, ahırlardalar!
+
+1479
+01:39:37,500 --> 01:39:38,000
+Yabancı: İhtiyar piç ödeyecek bunu. Öbürünü yakalayın!
+
+1480
+01:39:40,500 --> 01:39:41,000
+Brian: Siktir, helikopterde adamları var!
+
+1481
+01:39:45,000 --> 01:39:45,500
+Lori: İskeledeyim, umarım geliyorsunuzdur çocuklar.
+
+1482
+01:39:46,000 --> 01:39:46,500
+Lori: İskeledeyim, umarım geliyorsunuzdur çocuklar.
+Brian: Lori tek başına, yürüyelim!
+
+1483
+01:39:47,500 --> 01:39:48,000
+Brian: Lori tek başına, yürüyelim!
+
+1484
+01:39:48,000 --> 01:39:48,500
+Lori: Burada sıkıştım! Acele edin lan artık.
+
+1485
+01:40:02,000 --> 01:40:02,500
+Lori: Geliyorum bebeğim! Bu piçler bir türlü bırakmıyor.
+
+1486
+01:40:12,000 --> 01:40:12,500
+Lori: Brian! Brian, buradayım!
+
+1487
+01:40:14,500 --> 01:40:15,000
+Doug: Ver şunu!
+
+1488
+01:40:16,000 --> 01:40:16,500
+Brian: Lori!
+
+1489
+01:40:18,500 --> 01:40:19,000
+Doug: Ben malımı geri alınca,
+
+1490
+01:40:19,500 --> 01:40:20,000
+Doug: orospunu da alırsın!
+Lori, geliyorum!
+
+1491
+01:40:21,500 --> 01:40:22,000
+Doug: Ver ellerini.
+Bu ne saçmalık!
+
+1492
+01:40:23,000 --> 01:40:23,500
+Doug: Kes sesini.
+
+1493
+01:40:28,000 --> 01:40:28,500
+Brian: Eğil. Yakınlarında kal.
+
+1494
+01:40:34,500 --> 01:40:35,000
+Brian: Hey, hey! İndir şunları.
+
+1495
+01:40:37,000 --> 01:40:37,500
+Brian: Hadi, helikoptere! Sen uçuracaksın.
+
+1496
+01:40:45,500 --> 01:40:46,000
+Brian: Kaldır bizi havaya, hadi!
+
+1497
+01:40:48,000 --> 01:40:48,500
+Jason: Hazır mısın?
+
+1498
+01:40:53,500 --> 01:40:54,000
+Brian: Pervaneli teknelerine dikkat et, çok hızlılar.
+
+1499
+01:40:57,000 --> 01:40:57,500
+Brian: Peşlerine düşmen lazım!
+
+1500
+01:41:01,000 --> 01:41:01,500
+Brian: Şurada. Nehrin karşısında.
+
+1501
+01:41:03,500 --> 01:41:04,000
+Brian: Bizi onlara yaklaştır!
+
+1502
+01:41:13,500 --> 01:41:14,000
+Jason: Sıkı tutun! Yaklaşmam lazım.
+
+1503
+01:41:16,000 --> 01:41:16,500
+Brian: Kahretsin... Sizi piçler, birinizde olduğunu biliyorum!
+
+1504
+01:41:21,000 --> 01:41:21,500
+Brian: Yeterince yakın değiliz, yaklaş!
+
+1505
+01:41:23,500 --> 01:41:24,000
+Brian: Buradan bir bok göremiyorum.
+
+1506
+01:41:27,500 --> 01:41:28,000
+Brian: Hadi dostum. Yaklaştır bizi.
+
+1507
+01:41:29,000 --> 01:41:29,500
+Brian: Lori! Lori, yukarıdayız!
+
+1508
+01:41:39,000 --> 01:41:39,500
+Brian: Piçler! Ona bir şey yapmasınlar sakın.
+
+1509
+01:41:43,500 --> 01:41:44,000
+Brian: Lori! Korkma! Yukarıdayım! Seni kurtaracağız!
+
+1510
+01:41:47,000 --> 01:41:47,500
+Brian: Lori! Korkma! Yukarıdayım! Seni kurtaracağız!
+Doug: Hadi! İndirin şu sürtüğü teknemden amına koyayım!
+
+1511
+01:41:50,500 --> 01:41:51,000
+Lori: Çekiştirip durma beni!
+
+1512
+01:41:52,000 --> 01:41:52,500
+Lori: Kocam geliyor, göreceksiniz gününüzü!
+
+1513
+01:41:53,500 --> 01:41:54,000
+Brian: Hassiktir,
+Kapa çeneni lan!
+
+1514
+01:41:55,000 --> 01:41:55,500
+Brian: şuna bak!
+Çok kalabalıklar, inemeyiz.
+
+1515
+01:41:56,000 --> 01:41:56,500
+Brian: şuna bak!
+Çok kalabalıklar, inemeyiz.
+
+1516
+01:41:57,000 --> 01:41:57,500
+Brian: İn aşağı, temizle şunları!
+
+1517
+01:41:58,000 --> 01:41:58,500
+Doug: Seninle güzel vakit geçireceğiz,
+
+1518
+01:42:00,000 --> 01:42:00,500
+Doug: Donnie'nin tadına bakan bir tek o domuzlar değil.
+
+1519
+01:42:04,000 --> 01:42:04,500
+Jason: Kumandalar sende mi?
+Evet, anlaşıldı. Siktiğimin götleri.
+
+1520
+01:42:07,000 --> 01:42:07,500
+Doug: Şunları halledin. Kadın benimle kamyonete gelecek.
+
+1521
+01:42:11,000 --> 01:42:11,500
+Brian: Lori! Geliyoruz!
+
+1522
+01:42:20,500 --> 01:42:21,000
+Brian: İskelede! Dikkat et!
+
+1523
+01:42:22,500 --> 01:42:23,000
+Lori: Brian! Brian! Bırak beni. Çekiştirip durma!
+
+1524
+01:42:23,000 --> 01:42:23,500
+Lori: Brian! Brian! Bırak beni. Çekiştirip durma!
+Brian: Gözümüzü ondan ayırmamalıyız!
+
+1525
+01:42:25,000 --> 01:42:25,500
+Lori: Brian! Brian! Bırak beni. Çekiştirip durma!
+Brian: Dışarı çıkıyorlar.
+
+1526
+01:42:25,500 --> 01:42:26,000
+Brian: Dışarı çıkıyorlar.
+
+1527
+01:42:27,500 --> 01:42:28,000
+Lori: Brian!
+
+1528
+01:42:28,500 --> 01:42:29,000
+Doug: Hadi!
+
+1529
+01:42:36,000 --> 01:42:36,500
+Brian: Parçala şu kamyoneti! Onu içine koymalarına izin veremeyiz.
+
+1530
+01:42:43,000 --> 01:42:43,500
+Brian: Daha da geliyorlar!
+
+1531
+01:42:47,500 --> 01:42:48,000
+Brian: Kamyonete gidiyor!
+
+1532
+01:42:58,000 --> 01:42:58,500
+Lori: Bırak!
+
+1533
+01:42:59,000 --> 01:42:59,500
+Doug: Hadi!
+
+1534
+01:43:01,000 --> 01:43:01,500
+Doug: Gir şuraya!
+
+1535
+01:43:04,000 --> 01:43:04,500
+Jason: Hassiktir!
+Vurdum! Vurdum!
+
+1536
+01:43:07,000 --> 01:43:07,500
+Lori: Brian!
+Otur aşağı!
+
+1537
+01:43:08,000 --> 01:43:08,500
+Lori: Brian!
+Kes sesini lan.
+
+1538
+01:43:10,500 --> 01:43:11,000
+Lori: Siktir git!
+
+1539
+01:43:12,000 --> 01:43:12,500
+Brian: İyi misin?
+
+1540
+01:43:13,500 --> 01:43:14,000
+Jason: Evet, iyiyim. Sen iyi misin?
+
+1541
+01:43:15,000 --> 01:43:15,500
+Brian: Evet, kontrol bende, bende, bende!
+
+1542
+01:43:17,000 --> 01:43:17,500
+Jason: Sikeyim böyle işi, aşağı iniyorum.
+
+1543
+01:43:18,500 --> 01:43:19,000
+Brian: Hanımımı kurtar, dostum!
+
+1544
+01:43:26,500 --> 01:43:27,000
+Brian: Hadi! Onu kurtaracağız, Jason!
+
+1545
+01:43:36,500 --> 01:43:37,000
+Brian: Git oraya! Ben yukarıdan pek bir şey yapamıyorum!
+
+1546
+01:43:41,000 --> 01:43:41,500
+Brian: İşte böyle, böyle! İyice yaklaşman lazım!
+
+1547
+01:43:50,500 --> 01:43:51,000
+Brian: Şimdi... geride kalma yeter!
+
+1548
+01:43:52,500 --> 01:43:53,000
+Lori: Sen aşağılık bir orospu çocuğusun,
+
+1549
+01:43:53,000 --> 01:43:53,500
+Lori: Sen aşağılık bir orospu çocuğusun,
+Brian: Sola gidiyor!
+
+1550
+01:43:55,000 --> 01:43:55,500
+Lori: hiç şansın yok!
+
+1551
+01:43:56,500 --> 01:43:57,000
+Brian: Tam zamanı. Git oraya, hallet şu adamı.
+
+1552
+01:44:01,000 --> 01:44:01,500
+Brian: Biraz daha, yeterince yaklaşacaksın!
+Jason: Lori, dayan.
+
+1553
+01:44:02,000 --> 01:44:02,500
+Brian: Biraz daha, yeterince yaklaşacaksın!
+
+1554
+01:44:04,000 --> 01:44:04,500
+Brian: Yakaladın sanmıştım.
+
+1555
+01:44:05,500 --> 01:44:06,000
+Brian: Atlayacak kadar yaklaşmana az kaldı!
+
+1556
+01:44:10,500 --> 01:44:11,000
+Jason: Lori!
+Brian: Atla karşıya!
+
+1557
+01:44:11,000 --> 01:44:11,500
+Brian: Atla karşıya!
+
+1558
+01:44:11,500 --> 01:44:12,000
+Lori: Jason? Jason, gel de şu pisliği buradan at!
+
+1559
+01:44:14,500 --> 01:44:15,000
+Lori: Jason? Jason, gel de şu pisliği buradan at!
+Brian: Hey evlat! Uçur şunun sikik kafasını!
+
+1560
+01:44:15,000 --> 01:44:15,500
+Brian: Hey evlat! Uçur şunun sikik kafasını!
+
+1561
+01:44:15,500 --> 01:44:16,000
+Brian: Hey evlat! Uçur şunun sikik kafasını!
+Lori: Jason!
+
+1562
+01:44:16,000 --> 01:44:16,500
+Brian: Hey evlat! Uçur şunun sikik kafasını!
+Doug: Siktir!
+
+1563
+01:44:16,500 --> 01:44:17,000
+Brian: Hey evlat! Uçur şunun sikik kafasını!
+Lori: Hallet şunu! Of!
+
+1564
+01:44:18,000 --> 01:44:18,500
+Lori: Dağıt şunu, Jason!
+
+1565
+01:44:20,000 --> 01:44:20,500
+Brian: Ölmesini istiyorum!
+
+1566
+01:44:23,500 --> 01:44:24,000
+Brian: Duydun mu? Kendi bokuna gömülsün istiyorum!
+
+1567
+01:44:32,000 --> 01:44:32,500
+Lori: Vay be...
+Brian: Şuna bak... Ne büyük talihsizlik!
+
+1568
+01:44:33,500 --> 01:44:34,000
+Brian: Şuna bak... Ne büyük talihsizlik!
+Jason: Seninle iki lafın belini kırmak güzeldi.
+
+1569
+01:44:35,000 --> 01:44:35,500
+Brian: Şuna bak... Ne büyük talihsizlik!
+
+1570
+01:44:35,500 --> 01:44:36,000
+Lori: Hadi, çabuk götür bizi oraya.
+
+1571
+01:44:37,500 --> 01:44:38,000
+Jason: Tamam, bende.
+
+1572
+01:45:05,000 --> 01:45:05,500
+Brian: Lori! Bir şey yaptılar mı sana?
+
+1573
+01:45:08,000 --> 01:45:08,500
+Lori: İyiyim. Bir şeyim yok.
+Ah. Ah, Tanrım.
+
+1574
+01:45:13,500 --> 01:45:14,000
+Brian: Donnie öldü. Toprağı bol olsun.
+
+1575
+01:45:20,000 --> 01:45:20,500
+Brian: Biliyor musunuz? Bu kadar. Artık temiz yaşayacağım.
+
+1576
+01:45:24,000 --> 01:45:24,500
+Brian: Evet, doğru duydunuz.
+
+1577
+01:45:25,500 --> 01:45:26,000
+Brian: Ben yokum. Bırakıyorum, emekli oluyorum.
+
+1578
+01:45:28,000 --> 01:45:28,500
+Lori: Öyle mi?
+
+1579
+01:45:29,000 --> 01:45:29,500
+Brian: Evet. Uyuşturucu taşımak yok, karanlık işler yok.
+
+1580
+01:45:32,000 --> 01:45:32,500
+Brian: Hiçbiri yok! Hiçbiri!
+Aa, öyle mi?
+
+1581
+01:45:33,500 --> 01:45:34,000
+Brian: Yok! Döner dönmez o uçağı satacağım.
+
+1582
+01:45:36,500 --> 01:45:37,000
+Brian: Bir daire daha alacağım, kararım kesin.
+Benden bu kadar.
+
+1583
+01:45:42,500 --> 01:45:43,000
+Lori: Yani o uzun zamandır beklediğimiz emeklilik
+nihayet gerçekleşecek mi?
+
+1584
+01:45:46,500 --> 01:45:47,000
+Brian: Aynen öyle, güzelim.
+
+1585
+01:45:49,000 --> 01:45:49,500
+Lori: Vakti gelmişti artık amına koyayım.
+Evet.
+
+1586
+01:45:52,000 --> 01:45:52,500
+Jason: Dalga mı geçiyorsun dostum? Peki ya işler?
+
+1587
+01:45:53,500 --> 01:45:54,000
+Brian: Ne işi? Donnie öldü. Bitti, her şey bitti.
+
+1588
+01:45:56,500 --> 01:45:57,000
+Jason: Yapma Brian. Halletmem gereken bir sürü şey var.
+
+1589
+01:45:59,000 --> 01:45:59,500
+Jason: Hadi ama, halledersin. Gençsin, güçlüsün.
+
+1590
+01:46:02,000 --> 01:46:02,500
+Brian: Ben de senin gibi başladım Jason, şimdi hâlime bak!
+
+1591
+01:46:05,500 --> 01:46:06,000
+Lori: Sen halledersin, canım.
+
+1592
+01:46:07,000 --> 01:46:07,500
+Lori: Senin gibi bir delikanlı asla aç kalmaz.
+
+1593
+01:46:09,500 --> 01:46:10,000
+Brian: Aynen. Kendine iyi bak.
+
+1594
+01:46:11,500 --> 01:46:12,000
+Lori: Bu helikopteri de satacak mısın?
+
+1595
+01:46:13,000 --> 01:46:13,500
+Brian: Ne, bunu mu? Hım, bunu tutabilirim.
+
+1596
+01:46:21,000 --> 01:46:21,500
+Cal: Jay, n'aber lan?
+
+1597
+01:46:23,000 --> 01:46:23,500
+Jason: Selam Cal. Şey, bak, ilk benden duy istedim.
+
+1598
+01:46:27,500 --> 01:46:28,000
+Jason: Donnie öldü.
+
+1599
+01:46:33,500 --> 01:46:34,000
+Lucia: Tamam, evet. Sonra ararım seni, şırfıntı. Bay bay.
+
+1600
+01:46:39,500 --> 01:46:40,000
+Lucia: Hey, şey, Andy bana insan haklarıyla ilgilenen bir avukattan bahsetti.
+
+1601
+01:46:44,000 --> 01:46:44,500
+Lucia: Denetim memuruna gerek kalmadan Tommy'nin işini hızlandırabilirmiş.
+
+1602
+01:46:48,000 --> 01:46:48,500
+Lucia: Tek yapmamız gereken biraz para biriktirmek.
+
+1603
+01:46:53,000 --> 01:46:53,500
+Jason: Ne? Şey... evet.
+
+1604
+01:46:57,500 --> 01:46:58,000
+Jason: Evet, kulağa... kulağa iyi geliyor.
+
+1605
+01:46:59,000 --> 01:46:59,500
+Lucia: Brian bir süredir aramıyor, değil mi?
+
+1606
+01:47:02,000 --> 01:47:02,500
+Lucia: Donnie gittiğine göre teslimatları üstlenecek
+birine ihtiyacı olacak.
+
+1607
+01:47:05,500 --> 01:47:06,000
+Lucia: O da sen olmalısın, değil mi?
+
+1608
+01:47:07,500 --> 01:47:08,000
+Lucia: Belki bir yanına gitmelisin.
+
+1609
+01:47:09,000 --> 01:47:09,500
+Jason: O kadar emin değilim.
+
+1610
+01:47:11,000 --> 01:47:11,500
+Lucia: Hâlâ onu o domuzların yemesini mi düşünüyorsun?
+
+1611
+01:47:14,500 --> 01:47:15,000
+Jason: Belki.
+Belki mi?
+
+1612
+01:47:16,500 --> 01:47:17,000
+Jason: Hı hı.
+
+1613
+01:47:18,000 --> 01:47:18,500
+Lucia: Tamam, peki...
+
+1614
+01:47:20,500 --> 01:47:21,000
+Lucia: Ben gidip sandviç yapacağım, sen de ister misin?
+
+1615
+01:47:24,500 --> 01:47:25,000
+Jason: Evet. Evet, sağ ol.
+
+1616
+01:47:46,000 --> 01:47:46,500
+Jason: Şey...
+
+1617
+01:47:50,000 --> 01:47:50,500
+Jason: Brian işi bırakıyor.
+
+1618
+01:47:55,000 --> 01:47:55,500
+Jason: Yan iş bitti.
+
+1619
+01:47:57,500 --> 01:47:58,000
+Lucia: Ciddi misin? Niye söylemedin bana?
+
+1620
+01:48:00,500 --> 01:48:01,000
+Jason: Söylüyorum işte.
+
+1621
+01:48:02,500 --> 01:48:03,000
+Lucia: Söylüyor musun?
+
+1622
+01:48:04,500 --> 01:48:05,000
+Jason: Dövme beni.
+
+1623
+01:48:06,500 --> 01:48:07,000
+Lucia: Başka işler olacak, değil mi?
+
+1624
+01:48:15,000 --> 01:48:15,500
+Jason: İşte, Brian yazdı.
+
+1625
+01:48:17,500 --> 01:48:18,000
+Lucia: Ne diyor?
+
+1626
+01:48:20,000 --> 01:48:20,500
+Jason: Bilmem.
+
+1627
+01:48:22,500 --> 01:48:23,000
+Jason: Saçma sapan bir şey.
+
+1628
+01:48:24,500 --> 01:48:25,000
+Lucia: Para var mı işin ucunda?
+
+1629
+01:48:27,500 --> 01:48:28,000
+Lucia: Biliyor musun? Siktir et. Kat'i arayıp şu işi soracağım.
+
+1630
+01:48:32,000 --> 01:48:32,500
+Jason: Yavaş ol!
+
+1631
+01:48:39,500 --> 01:48:40,000
+Lucia: Selam kızım, şu işi bir sorayım dedim, şey...
+
+1632
+01:48:43,500 --> 01:48:44,000
+Lucia: müsait olunca ara beni.
+
+1633
+01:48:45,500 --> 01:48:46,000
+Lucia: Aa, bir de geçen geceden paylaştığın fotoğraflar,
+
+1634
+01:48:48,000 --> 01:48:48,500
+Lucia: Tanrım, çok tatlılar. Amma geceydi.
+
+1635
+01:48:52,500 --> 01:48:53,000
+Lucia: Neyse, şey, bana dön.
+
+1636
+01:48:55,000 --> 01:48:55,500
+Lucia: Tamam mı? Hadi. Görüşürüz.
+
+1637
+01:49:00,000 --> 01:49:00,500
+Lucia: Sesli mesaj bıraktım sadece.
+
+1638
+01:49:14,500 --> 01:49:15,000
+Jason: Her şey yoluna girecek, Lu.
+
+1639
+01:49:18,500 --> 01:49:19,000
+Lucia: Kusura bakma, Jay.
+
+1640
+01:49:20,500 --> 01:49:21,000
+Lucia: Bir şeyler buluruz.
+
+1641
+01:49:22,500 --> 01:49:23,000
+Jason: Hem de nasıl.
+
+1642
+01:49:26,000 --> 01:49:26,500
+Lucia: Neyse, benim işe gitmem lazım.
+
+1643
+01:50:21,500 --> 01:50:22,000
+Jason: Brian, Donnie'nin evindeyim.
+
+1644
+01:50:23,000 --> 01:50:23,500
+Brian: Evet, tamam. Çantasını al,
+
+1645
+01:50:25,500 --> 01:50:26,000
+Brian: onu bizim işle, benimle ilişkilendiren
+ne varsa hepsini al.
+
+1646
+01:50:29,000 --> 01:50:29,500
+Brian: Bir de kafanı kullan, kimsenin bir şeyler
+çakmasını istemiyoruz, anladın mı?
+
+1647
+01:50:32,500 --> 01:50:33,000
+Brian: Şehirden kaçmış gibi görünsün.
+
+1648
+01:50:34,500 --> 01:50:35,000
+Jason: Blista'yla ilgili bir şey yapmamı ister misin?
+
+1649
+01:50:36,000 --> 01:50:36,500
+Brian: Evet... o da gidecek ama işi fazla karmaşıklaştırma.
+
+1650
+01:50:39,500 --> 01:50:40,000
+Brian: Eşyalarıyla birlikte ondan da kurtul.
+
+1651
+01:50:42,500 --> 01:50:43,000
+Brian: Nasıl yaptığın umurumda değil, göze batma ve mümkün olduğunca uzağa git.
+
+1652
+01:50:46,500 --> 01:50:47,000
+Jason: Tamam, sen merak etme.
+
+1653
+01:50:48,500 --> 01:50:49,000
+Brian: Bayrak çekili mi?
+
+1654
+01:50:50,000 --> 01:50:50,500
+Jason: Bayrak mı?
+
+1655
+01:50:50,500 --> 01:50:51,000
+Jason: Bayrak mı?
+Brian: Evet, Donnie Birleşik Devletleri. Donch Cumhuriyeti...
+o bayrak.
+
+1656
+01:50:51,500 --> 01:50:52,000
+Brian: Evet, Donnie Birleşik Devletleri. Donch Cumhuriyeti...
+o bayrak.
+
+1657
+01:50:55,000 --> 01:50:55,500
+Brian: Evet, evdeyken hep çekili olurdu.
+İndirsen iyi olur.
+
+1658
+01:51:14,500 --> 01:51:15,000
+Havacı: Donnie!
+
+1659
+01:51:16,000 --> 01:51:16,500
+Havacı: Bakın kim gelmiş! Sevgilisi!
+
+1660
+01:51:19,500 --> 01:51:20,000
+Havacı: Donnie içeride mi? Söyle, kaldırsın kıçını da gelsin!
+
+1661
+01:51:22,500 --> 01:51:23,000
+Havacı: Çantada ne var? Bize bir şey mi getirdin?
+
+1662
+01:51:26,500 --> 01:51:27,000
+Jason: Şimdi sırası değil beyler. Siktirin gidin.
+
+1663
+01:51:29,500 --> 01:51:30,000
+Havacı: Bence tam sırası!
+
+1664
+01:51:33,000 --> 01:51:33,500
+Havacı: Yine beni gafil avlayamayacaksın!
+
+1665
+01:51:34,500 --> 01:51:35,000
+Havacı: Dağıtalım şunu!
+
+1666
+01:51:37,000 --> 01:51:37,500
+Havacı: İkinci raund, sik kafalı!
+
+1667
+01:51:40,000 --> 01:51:40,500
+Havacı: Siktir! Hassiktir!
+
+1668
+01:51:53,000 --> 01:51:53,500
+Jason: Gafil avlamak nasıl oluyormuş?
+
+1669
+01:52:46,000 --> 01:52:46,500
+Jason: Pekâlâ, Blista'yla son bir tur.
+
+1670
+01:53:05,000 --> 01:53:05,500
+Jason: Huzur içinde yat, Donnie.
+
+1671
+01:55:53,000 --> 01:55:53,500
+Brian: Jason.
+
+1672
+01:55:53,500 --> 01:55:54,000
+Jason: Her şeyi temizledim. Donnie sırra kadem bastı.
+
+1673
+01:55:56,500 --> 01:55:57,000
+Brian: Güzel, güzel.
+
+1674
+01:55:59,000 --> 01:55:59,500
+Brian: O adamı yirmi yılı aşkın süredir tanıyordum.
+Kanun kaçağıydı, özgür bir ruhtu.
+
+1675
+01:56:03,500 --> 01:56:04,000
+Brian: Tam da böyle olmasını isterdi.
+
+1676
+01:56:07,000 --> 01:56:07,500
+Brian: Gün batımında onun şerefine içeceğim.
+
+1677
+01:56:09,000 --> 01:56:09,500
+Jason: Evet. Donnie gibisi bir daha gelmez. Artık gelmez.
+
+1678
+01:56:12,500 --> 01:56:13,000
+Brian: Hı hı. Gelmez.
+
+1679
+01:56:36,000 --> 01:56:36,500
+Lucia: Hey, hemen bir şey soracağım. Cal'le en son ne zaman konuştun?
+
+1680
+01:56:40,000 --> 01:56:40,500
+Jason: Bilmem, çok olmadı. Ne oldu?
+
+1681
+01:56:42,000 --> 01:56:42,500
+Lucia: Kardeşi az önce seni arayıp buraya daldı.
+
+1682
+01:56:45,000 --> 01:56:45,500
+Lucia: Cal'in delirdiğini söyledi, Donnie'yi soruyordu.
+
+1683
+01:56:48,000 --> 01:56:48,500
+Jason: Ah, siktir. Sen ne dedin?
+
+1684
+01:56:51,000 --> 01:56:51,500
+Lucia: Bir şey demedim. Pester'da kötü bir buluşma
+yaşamıştır falan dedim,
+
+1685
+01:56:55,500 --> 01:56:56,000
+Lucia: ama çok endişeliydi. Cal'in gecenin her saatinde
+dışarıda olduğunu, iyice paranoyaklaştığını söyledi.
+
+1686
+01:57:01,000 --> 01:57:01,500
+Jason: Evet, ben olsam endişelenmezdim.
+O biraz fazla gergin, hepsi bu.
+
+1687
+01:57:05,000 --> 01:57:05,500
+Jason: Donnie meselesi Cal'i biraz sarstı,
+iyi olacak.
+
+1688
+01:57:09,000 --> 01:57:09,500
+Lucia: İyi, tamam. Peki eve ne zaman geliyorsun?
+
+1689
+01:57:12,500 --> 01:57:13,000
+Jason: Yakında görüşürüz.
+
+1690
+01:57:46,000 --> 01:57:46,500
+Jason: Hey.
+Aa, hey.
+
+1691
+01:57:48,000 --> 01:57:48,500
+Lucia: Tanrım, yine Cal'in kardeşi sandım.
+
+1692
+01:57:50,500 --> 01:57:51,000
+Jason: Yok, benim sadece.
+
+1693
+01:57:56,000 --> 01:57:56,500
+Lucia: Ya, gülmemek için kendimi zor tuttum,
+
+1694
+01:57:59,500 --> 01:58:00,000
+Lucia: Cal'in evhamlı anne versiyonu gibi.
+
+1695
+01:58:03,000 --> 01:58:03,500
+Lucia: Buraya gelip bizi darladı,
+
+1696
+01:58:05,000 --> 01:58:05,500
+Lucia: ne bileyim, sanki Cal bir şey yapacakmış gibi davranıyordu.
+
+1697
+01:58:08,500 --> 01:58:09,000
+Jason: Hey, Cal benim dostum. Sadece... biraz abartıyor.
+İyi olacak.
+
+1698
+01:58:14,000 --> 01:58:14,500
+Lucia: Gidip onu görmek ister misin?
+
+1699
+01:58:15,500 --> 01:58:16,000
+Lucia: Buraya seni aramaya geldi,
+
+1700
+01:58:17,500 --> 01:58:18,000
+Lucia: ben de bir şey olursa...
+
+1701
+01:58:20,000 --> 01:58:20,500
+Lucia: ...sorumlu olmak istemiyorum.
+
+1702
+01:58:22,500 --> 01:58:23,000
+Jason: Ne olacakmış?
+
+1703
+01:58:25,500 --> 01:58:26,000
+Jason: Bak, bir şey yapmayacak.
+Sadece biraz ilgi istiyor.
+
+1704
+01:58:31,500 --> 01:58:32,000
+Jason: Şey, hadi...
+
+1705
+01:58:33,000 --> 01:58:33,500
+Jason: Bakalım balığa gitmek ister mi.
+
+1706
+01:58:34,500 --> 01:58:35,000
+Jason: Kendine getirir onu.
+
+1707
+01:58:35,500 --> 01:58:36,000
+Lucia: Balığa mı?
+Balık tutmaya bayılır.
+
+1708
+01:58:38,500 --> 01:58:39,000
+Lucia: Evet, biliyorum. Tamam...
+
+1709
+01:58:42,500 --> 01:58:43,000
+Lucia: Yarın götürelim.
+
+1710
+01:58:55,000 --> 01:58:55,500
+Lucia: Şey, yanımızda sopa falan mı götürmemiz lazım?
+
+1711
+01:58:58,500 --> 01:58:59,000
+Lucia: Solucan molucan? Kanca? Ne bileyim...
+
+1712
+01:59:01,000 --> 01:59:01,500
+Jason: Olta mı demek istedin?
+
+1713
+01:59:02,000 --> 01:59:02,500
+Jason: Olta mı demek istedin?
+Lucia: Evet! Evet, evet.
+
+1714
+01:59:02,500 --> 01:59:03,000
+Lucia: Evet! Evet, evet.
+
+1715
+01:59:03,500 --> 01:59:04,000
+Jason: Yok, Cal hepsini hallediyor. Yemi de
+kendisi yapıyor hatta.
+
+1716
+01:59:09,500 --> 01:59:10,000
+Jason: Bu arada, haberin olsun, kendine "Oltuzbirci" diyor.
+
+1717
+01:59:13,000 --> 01:59:13,500
+Lucia: Aman Tanrım.
+
+1718
+01:59:15,000 --> 01:59:15,500
+Jason: Her seferinde güldürüyor aslında.
+
+1719
+01:59:16,500 --> 01:59:17,000
+Lucia: Eminim öyledir.
+
+1720
+01:59:18,500 --> 01:59:19,000
+Lucia: Sen mi kullanıyorsun?
+
+1721
+01:59:20,000 --> 01:59:20,500
+Jason: Tabii.
+
+1722
+01:59:32,000 --> 01:59:32,500
+Telesekreter: Aradığınız kişiye şu anda ulaşılamıyor.
+Lütfen daha sonra tekrar deneyin. Hoşça kalın.
+
+1723
+01:59:40,500 --> 01:59:41,000
+Jason: Tamam o zaman. Hadi bakalım...
+
+1724
+01:59:42,500 --> 01:59:43,000
+Lucia: Evet. Bu da olur.
+
+1725
+01:59:46,500 --> 01:59:47,000
+Lucia: Balığa mı?
+
+1726
+01:59:48,500 --> 01:59:49,000
+Lucia: Biliyor musun, ilk çıktığımızdan beri bayağı değiştin.
+
+1727
+01:59:51,000 --> 01:59:51,500
+Jason: Ben balık tutmayı hep severdim.
+
+1728
+01:59:52,500 --> 01:59:53,000
+Lucia: Yok... sen iyice Key Lentolu olmuşsun.
+
+1729
+01:59:54,500 --> 01:59:55,000
+Jason: Alt tarafı bir hobi.
+
+1730
+01:59:56,000 --> 01:59:56,500
+Lucia: Bir sürü yeni arkadaşın var. Dre'Quan'a ne oldu, ha?
+
+1731
+02:00:00,000 --> 02:00:00,500
+Lucia: Eskiden hep beraber çıkınca çok eğlenirdik.
+
+1732
+02:00:02,000 --> 02:00:02,500
+Jason: D meşgul. Yeni bir işe girdi. İşleri iyi gidiyor.
+
+1733
+02:00:06,500 --> 02:00:07,000
+Jason: Burada bir şansımı denemek istedim.
+
+1734
+02:00:08,000 --> 02:00:08,500
+Jason: Bakalım bir düzen kurabilecek miyim diye.
+
+1735
+02:00:10,500 --> 02:00:11,000
+Jason: Şu elektronik kelepçen çıksın, gider görürüz onu.
+
+1736
+02:00:13,500 --> 02:00:14,000
+Lucia: Evet, gidelim! Loony geri döndü de ona, tamam mı?
+
+1737
+02:00:16,000 --> 02:00:16,500
+Jason: Derim.
+
+1738
+02:00:17,500 --> 02:00:18,000
+Lucia: Peki, sence Cal niye bu kadar kafayı yemiş?
+
+1739
+02:00:21,500 --> 02:00:22,000
+Lucia: Yani, Donnie'nin yediği bokların bir gün
+başına iş açacağını biliyordu herhâlde.
+
+1740
+02:00:25,000 --> 02:00:25,500
+Jason: Evet... şey, ben...
+
+1741
+02:00:28,000 --> 02:00:28,500
+Jason: Donnie'nin nasıl öldüğü konusunda
+ona biraz yalan söyledim, anlıyor musun?
+
+1742
+02:00:31,000 --> 02:00:31,500
+Jason: Onu üzmek istemedim.
+
+1743
+02:00:32,500 --> 02:00:33,000
+Jason: O da, şey, umduğum gibi karşılamadı.
+
+1744
+02:00:35,500 --> 02:00:36,000
+Lucia: Ne? Neden? Ne dedin ona?
+
+1745
+02:00:37,500 --> 02:00:38,000
+Jason: Donnie'nin uçağının denize düştüğünü söyledim.
+
+1746
+02:00:40,000 --> 02:00:40,500
+Jason: Motor arızası, çarpar çarpmaz ölmüş.
+
+1747
+02:00:41,500 --> 02:00:42,000
+Jason: Motor arızası, çarpar çarpmaz ölmüş.
+Lucia: Aman Tanrım...
+
+1748
+02:00:42,000 --> 02:00:42,500
+Lucia: Aman Tanrım...
+Jason: Şu malum olaydansa bunu daha kolay kaldırır sandım,
+
+1749
+02:00:43,000 --> 02:00:43,500
+Jason: Şu malum olaydansa bunu daha kolay kaldırır sandım,
+
+1750
+02:00:43,500 --> 02:00:44,000
+Jason: hani Kingfisher... domuz meselesi.
+
+1751
+02:00:47,500 --> 02:00:48,000
+Lucia: Sanırım işe yaramadı?
+
+1752
+02:00:49,000 --> 02:00:49,500
+Jason: Yok. Şimdi ne uçakla ilgili bir rapor bulabiliyor
+ne de kıyıya vuran bir ceset haberi.
+
+1753
+02:00:53,500 --> 02:00:54,000
+Jason: Nasıl olduğunu bilirsin işte.
+
+1754
+02:00:55,500 --> 02:00:56,000
+Lucia: Kahretsin. Evet, kardeşi de iyice kafayı yediğini söyledi.
+
+1755
+02:01:00,000 --> 02:01:00,500
+Lucia: Düzmece saldırılardan, psikolojik operasyonlardan bahsedip
+ketaminle kendinden geçiyormuş,
+
+1756
+02:01:04,500 --> 02:01:05,000
+Lucia: "cevap arıyormuş."
+
+1757
+02:01:08,000 --> 02:01:08,500
+Jason: Algoritma kafasını biraz yemiş.
+
+1758
+02:01:10,000 --> 02:01:10,500
+Lucia: Hım. Gerçeği söyleyecek misin ona?
+
+1759
+02:01:12,000 --> 02:01:12,500
+Jason: Hayır, niye?
+
+1760
+02:01:14,000 --> 02:01:14,500
+Jason: Sen de söyleme sakın.
+
+1761
+02:01:16,000 --> 02:01:16,500
+Jason: Ben... ben hallederim.
+
+1762
+02:01:18,000 --> 02:01:18,500
+Jason: Bak, iki bira içer,
+biraz temiz hava alır, hemen kendine gelir. Güven bana.
+
+1763
+02:01:24,000 --> 02:01:24,500
+Lucia: Ya oğlum.
+
+1764
+02:01:25,000 --> 02:01:25,500
+Lucia: Gizemli uçak kazası mı? Komplo teorisine giriş dersi gibi.
+
+1765
+02:01:29,500 --> 02:01:30,000
+Jason: Düşünemedim.
+
+1766
+02:01:36,000 --> 02:01:36,500
+Lucia: İşte orada!
+
+1767
+02:01:39,000 --> 02:01:39,500
+Lucia: Birkaç tane fazladan alsak fena olmaz, değil mi?
+
+1768
+02:01:41,000 --> 02:01:41,500
+Jason: "Fazladan bira" diye bir şey yoktur. Pindayhos'ları sen al.
+
+1769
+02:01:44,500 --> 02:01:45,000
+Lucia: Hallediyorum.
+
+1770
+02:01:58,000 --> 02:01:58,500
+Lucia: Gitmeye hazır mıyız?
+
+1771
+02:02:01,000 --> 02:02:01,500
+Çalışan: Hoş geldiniz. Yardımcı olabileceğim bir şey varsa söyleyin.
+
+1772
+02:02:10,000 --> 02:02:10,500
+Lucia: Hazır mısın?
+
+1773
+02:02:11,000 --> 02:02:11,500
+Jason: Her şey tamam.
+
+1774
+02:02:12,000 --> 02:02:12,500
+Lucia: Güzel, bana bir saniye ver.
+
+1775
+02:02:14,000 --> 02:02:14,500
+Lucia: Tamam, hadi Cal'e gidelim.
+
+1776
+02:02:41,500 --> 02:02:42,000
+Lucia: Bak, bence ona söylemelisin. Dürüst ol.
+
+1777
+02:02:45,000 --> 02:02:45,500
+Jason: Ya, iyilik yapıyorum.
+
+1778
+02:02:46,500 --> 02:02:47,000
+Lucia: Hadi oradan. Sadece kolayına kaçıyorsun.
+
+1779
+02:02:49,500 --> 02:02:50,000
+Lucia: Bazen zor da olsa insanlara
+açık açık konuşman gerekir.
+
+1780
+02:02:54,500 --> 02:02:55,000
+Lucia: Bir dakika. Bana da hiç böyle yalan söylüyor musun?
+
+1781
+02:02:57,500 --> 02:02:58,000
+Jason: Ne, aptala mı benziyorum?
+
+1782
+02:03:06,000 --> 02:03:06,500
+Lucia: İçki dükkânı açmak için akıllıca yer seçmişler, ha?
+
+1783
+02:03:08,000 --> 02:03:08,500
+Lucia: Cal'in evinin hemen yanı.
+
+1784
+02:03:14,000 --> 02:03:14,500
+Jason: Herhâlde arka taraftadır.
+
+1785
+02:03:17,500 --> 02:03:18,000
+Lucia: Hadi, gidip neşelendirelim şu herifi.
+
+1786
+02:03:30,000 --> 02:03:30,500
+Lucia: Daha çok bira.
+
+1787
+02:03:31,000 --> 02:03:31,500
+Jason: Cal'de de olacağını biliyordum.
+
+1788
+02:03:33,000 --> 02:03:33,500
+Lucia: Ben alırım.
+
+1789
+02:03:35,500 --> 02:03:36,000
+Lucia: Müziği duyuyor musun?
+
+1790
+02:03:37,000 --> 02:03:37,500
+Jason: Evet... bayağı dertli gibi.
+
+1791
+02:03:41,000 --> 02:03:41,500
+Jason: İşte orada!
+
+1792
+02:03:48,500 --> 02:03:49,000
+Jason: Hey! N'aber dostum?
+
+1793
+02:03:52,000 --> 02:03:52,500
+Cal: Ah, size bakın... Sizi seviyorum ben.
+
+1794
+02:03:54,500 --> 02:03:55,000
+Lucia: Bira getirdik.
+
+1795
+02:03:56,000 --> 02:03:56,500
+Jason: Evet, Lu'yu balığa çıkaralım dedim.
+
+1796
+02:04:00,000 --> 02:04:00,500
+Cal: Balık tutmaya bayılırım...
+
+1797
+02:04:02,500 --> 02:04:03,000
+Jason: Hadi gidelim o zaman.
+
+1798
+02:04:04,000 --> 02:04:04,500
+Cal: Ne?
+
+1799
+02:04:05,000 --> 02:04:05,500
+Lucia: Balık ve bira! Hadi.
+
+1800
+02:04:09,000 --> 02:04:09,500
+Jason: Ben kullanırım.
+
+1801
+02:04:10,500 --> 02:04:11,000
+Jason: Hadi gidelim, dostum.
+
+1802
+02:04:12,000 --> 02:04:12,500
+Cal: Tamam.
+
+1803
+02:04:14,500 --> 02:04:15,000
+Cal: Balık tutmaya bayılırım...
+
+1804
+02:04:20,000 --> 02:04:20,500
+Cal: Bütün gün burada oturup düşündüm, dostum.
+Donnie...
+
+1805
+02:04:21,000 --> 02:04:21,500
+Cal: Bütün gün burada oturup düşündüm, dostum.
+Donnie...
+
+1806
+02:04:23,500 --> 02:04:24,000
+Cal: Cesetler öylece yok olmaz. Tamam mı?
+
+1807
+02:04:26,500 --> 02:04:27,000
+Cal: Cenazesi bile olmadı, tuhaf.
+
+1808
+02:04:29,000 --> 02:04:29,500
+Jason: Açılınca, ne bileyim...
+
+1809
+02:04:32,000 --> 02:04:32,500
+Jason: Birkaç söz söylesek? Onu ansak?
+
+1810
+02:04:34,000 --> 02:04:34,500
+Cal: Evet... bak, adam bir göttü ama bizim götümüzdü,
+anlıyor musun?
+
+1811
+02:04:38,000 --> 02:04:38,500
+Cal: Evet... bak, adam bir göttü ama bizim götümüzdü,
+anlıyor musun?
+
+1812
+02:04:40,000 --> 02:04:40,500
+Cal: Tabii eğer... Yani, öldüğüne emin miyiz ki?
+
+1813
+02:04:50,000 --> 02:04:50,500
+Cal: Peki, nereye gidiyoruz?
+
+1814
+02:04:51,500 --> 02:04:52,000
+Jason: Her zamanki yere. Çok uzak değil.
+
+1815
+02:04:54,000 --> 02:04:54,500
+Cal: Süper. Sen i-iyi misin, Lucia?
+
+1816
+02:04:57,500 --> 02:04:58,000
+Cal: Como estas, ne deniyorsa işte?
+
+1817
+02:05:00,000 --> 02:05:00,500
+Lucia: Evet! İyiyim dostum. Daha önce hiç balık tutmadım.
+
+1818
+02:05:04,500 --> 02:05:05,000
+Cal: Donnie seni gerçekten severdi. O...
+
+1819
+02:05:07,500 --> 02:05:08,000
+Cal: seni gerçekten çok severdi.
+
+1820
+02:05:09,500 --> 02:05:10,000
+Lucia: Aa. Öyle mi? Şey, başın sağ olsun, Cal.
+
+1821
+02:05:14,000 --> 02:05:14,500
+Lucia: Yakındınız, değil mi?
+
+1822
+02:05:17,000 --> 02:05:17,500
+Cal: Sizinle iletişime geçmedi, değil mi?
+
+1823
+02:05:19,500 --> 02:05:20,000
+Cal: Hani... gecenin ortasında acayip aramalar falan gelmedi mi?
+
+1824
+02:05:23,000 --> 02:05:23,500
+Lucia: Öbür taraftan mı? Yok. Hayır, aramadı.
+
+1825
+02:05:26,500 --> 02:05:27,000
+Cal: Tamam... tamam, sadece düşünüyorum. Ben...
+
+1826
+02:05:30,000 --> 02:05:30,500
+Cal: Bak, telefonlarının sinyalini falan kontrol ettim,
+kapalılar ama şey...
+
+1827
+02:05:34,000 --> 02:05:34,500
+Cal: Hey, şey, kardeşim size uğradı mı acaba?
+
+1828
+02:05:37,000 --> 02:05:37,500
+Jason: Ben dışarıdaydım. Lu gördü.
+
+1829
+02:05:39,500 --> 02:05:40,000
+Cal: Nasıldı?
+
+1830
+02:05:41,500 --> 02:05:42,000
+Lucia: İyiydi, Cal. Seni çok önemsiyor. Çok tatlı biri.
+
+1831
+02:05:46,500 --> 02:05:47,000
+Cal: Şey, erkeksi kadınlardan ve Meksikalılardan nefret eder,
+
+1832
+02:05:49,500 --> 02:05:50,000
+Cal: o yüzden ben olsam onu fazla övmezdim.
+
+1833
+02:05:52,500 --> 02:05:53,000
+Cal: Tam bir psikopat sürtüktür. Evet.
+
+1834
+02:05:54,500 --> 02:05:55,000
+Cal: Hey Jay, şu Donnie meselesinde ciddi misin? Çünkü...
+
+1835
+02:05:57,500 --> 02:05:58,000
+Cal: C-cesedi görmediysen hâlâ yaşıyor olabilir, yani...
+
+1836
+02:06:01,500 --> 02:06:02,000
+Cal: bütün bu siktiğimin olayı bir komplo olabilir.
+
+1837
+02:06:03,000 --> 02:06:03,500
+Cal: Belki de şeytani bir deha,
+
+1838
+02:06:05,500 --> 02:06:06,000
+Cal: Karayipler'deki uyuşturucu ticaretini ele geçirmek için
+ölümünü tezgâhladı. Sonra da
+
+1839
+02:06:09,500 --> 02:06:10,000
+Cal: ilk kimi öldürecek, ha? Ha?
+
+1840
+02:06:12,000 --> 02:06:12,500
+Cal: Evet, bildin... Cal'i!
+
+1841
+02:06:14,000 --> 02:06:14,500
+Cal: Bu oyunda bütün bu işi çözüp
+
+1842
+02:06:16,000 --> 02:06:16,500
+Cal: planlarını sikmeye yetecek zekâya sahip tek oyuncuyu.
+
+1843
+02:06:19,000 --> 02:06:19,500
+Cal: Dostum, muhtemelen ölüm listesine girdim.
+
+1844
+02:06:20,500 --> 02:06:21,000
+Lucia: Fazla zeki olduğun için mi? Ne saçmalıyorsun sen ya?
+
+1845
+02:06:23,500 --> 02:06:24,000
+Cal: Yani adam pilot, dostum. IAA'den olabilir!
+
+1846
+02:06:26,500 --> 02:06:27,000
+Lucia: Neden bahsediyor, Jay?
+
+1847
+02:06:27,500 --> 02:06:28,000
+Lucia: Neden bahsediyor, Jay?
+Jason: Cal, sakin ol. Sen iyisin. Biz iyiyiz. Donnie öldü.
+Bizim yer buralardaydı...
+
+1848
+02:06:28,000 --> 02:06:28,500
+Jason: Cal, sakin ol. Sen iyisin. Biz iyiyiz. Donnie öldü.
+Bizim yer buralardaydı...
+
+1849
+02:06:33,000 --> 02:06:33,500
+Cal: Biraz daha ileride, dostum.
+
+1850
+02:06:36,000 --> 02:06:36,500
+Cal: Hemen şurada, Jay.
+
+1851
+02:06:47,000 --> 02:06:47,500
+Jason: Tamam, hazır mısınız?
+
+1852
+02:06:48,500 --> 02:06:49,000
+Cal: Evet, hazırım. Biraya hazırım!
+
+1853
+02:06:53,000 --> 02:06:53,500
+Lucia: Tamam, al bakalım.
+
+1854
+02:06:54,500 --> 02:06:55,000
+Cal: Durun. Şimdi düşündüm de, beni kimsenin
+bizi duyamayacağı bir yere getirdiniz.
+
+1855
+02:07:00,000 --> 02:07:00,500
+Cal: Tek bir sikik tanık bile yok...
+
+1856
+02:07:02,500 --> 02:07:03,000
+Cal: belki de Donnie'yle iş birliği yapıyorsunuz!
+
+1857
+02:07:05,500 --> 02:07:06,000
+Cal: İşin arkasındaki beyin o, değil mi?
+
+1858
+02:07:07,500 --> 02:07:08,000
+Jason: Donnie öldü, Cal.
+
+1859
+02:07:08,500 --> 02:07:09,000
+Cal: Nereden biliyorsun, ha? Belki o, a-
+
+1860
+02:07:11,000 --> 02:07:11,500
+Lucia: Jay, bilmeli.
+
+1861
+02:07:13,500 --> 02:07:14,000
+Lucia: Söyle gitsin.
+
+1862
+02:07:18,000 --> 02:07:18,500
+Jason: Kingfishers...
+
+1863
+02:07:20,000 --> 02:07:20,500
+Jason: Donnie'yi... domuzlara yedirmiş.
+
+1864
+02:07:23,000 --> 02:07:23,500
+Cal: Ne yapmışlar?
+
+1865
+02:07:24,500 --> 02:07:25,000
+Jason: Bir şey söylemeyecektim.
+
+1866
+02:07:26,500 --> 02:07:27,000
+Cal: Siktiğimin domuzlarına mı?
+
+1867
+02:07:27,500 --> 02:07:28,000
+Jason: Korkunç, biliyorum. O yüzden söylemek istemedim.
+
+1868
+02:07:31,500 --> 02:07:32,000
+Cal: Şaşırmadım.
+
+1869
+02:07:33,500 --> 02:07:34,000
+Cal: O yüzden düşünemedim...
+
+1870
+02:07:35,000 --> 02:07:35,500
+Cal: Çok korkunç ama yani,
+söylemeliydin dostum!
+
+1871
+02:07:40,000 --> 02:07:40,500
+Cal: Donnie...
+
+1872
+02:07:42,000 --> 02:07:42,500
+Cal: Zavallı herif be.
+
+1873
+02:07:46,000 --> 02:07:46,500
+Cal: Hadi çocuklar, gelin buraya. Sarılalım.
+
+1874
+02:07:48,500 --> 02:07:49,000
+Cal: O da böyle olmasını isterdi.
+
+1875
+02:07:57,500 --> 02:07:58,000
+Cal: Ne çılgın günler yaşadık, Snowman.
+
+1876
+02:08:01,000 --> 02:08:01,500
+Cal: Özgürce uç.
+
+1877
+02:08:08,500 --> 02:08:09,000
+Cal: Leonida seni hiç unutmayacak.
+
+1878
+02:08:14,000 --> 02:08:14,500
+Cal: Pekâlâ, kim balık tutmak istiyor lan?
+
+1879
+02:08:16,000 --> 02:08:16,500
+Jason: Evet. Hadi yapalım.
+Tamam.
+
+1880
+02:08:24,000 --> 02:08:24,500
+Cal: Tam zamanında gelmişim.
+
+1881
+02:08:26,000 --> 02:08:26,500
+Lucia: Hey çocuklar? Şey, ne yaptığımı hiç bilmiyorum.
+
+1882
+02:08:29,000 --> 02:08:29,500
+Cal: İzle de öğren, Lucia. İzle de öğren.
+
+1883
+02:08:35,500 --> 02:08:36,000
+Cal: Hey, bir şey yakaladım burada.
+
+1884
+02:08:38,000 --> 02:08:38,500
+Jason: Öyle mi?
+
+1885
+02:08:39,000 --> 02:08:39,500
+Cal: Evet, geliyor. Geliyor.
+
+1886
+02:08:42,000 --> 02:08:42,500
+Jason: Oo, başladı yine...
+
+1887
+02:08:48,500 --> 02:08:49,000
+Cal: Ne güzellik ama!
+
+1888
+02:08:50,500 --> 02:08:51,000
+Lucia: Kabul ediyorum, bu bambaşkaymış. Çok acayip.
+
+1889
+02:08:54,000 --> 02:08:54,500
+Lucia: Kabul ediyorum, bu bambaşkaymış. Çok acayip.
+Cal: Değil mi?
+
+1890
+02:08:54,500 --> 02:08:55,000
+Cal: Değil mi?
+
+1891
+02:08:57,000 --> 02:08:57,500
+Lucia: Oh.
+
+1892
+02:08:58,000 --> 02:08:58,500
+Jason: Adam doğuştan yetenekli,
+üstelik bu yakaladığın en büyük balık bile değil, değil mi?
+
+1893
+02:09:01,500 --> 02:09:02,000
+Jason: Bunu saklayacağım galiba.
+
+1894
+02:09:07,000 --> 02:09:07,500
+Cal: Devletin casus dronlarından birini yakalarsan,
+geri at yeter.
+
+1895
+02:09:10,500 --> 02:09:11,000
+Lucia: Neden bahsediyorsun?
+
+1896
+02:09:12,000 --> 02:09:12,500
+Cal: Bazı balıklar devletin casus dronları.
+
+1897
+02:09:15,000 --> 02:09:15,500
+Cal: Gözlerinden anlarsın.
+
+1898
+02:09:17,000 --> 02:09:17,500
+Cal: Kameralar orada.
+
+1899
+02:09:19,500 --> 02:09:20,000
+Jason: Sormayacaktın.
+
+1900
+02:09:21,000 --> 02:09:21,500
+Cal: Yok, iyi ki sordun. Artık biliyorsun.
+
+1901
+02:09:30,500 --> 02:09:31,000
+Cal: Acıkan başka biri var mı?
+
+1902
+02:09:32,500 --> 02:09:33,000
+Lucia: Ben yerim.
+
+1903
+02:09:34,000 --> 02:09:34,500
+Cal: Evet, güzel.
+
+1904
+02:09:34,500 --> 02:09:35,000
+Cal: Jay, bizi benim eve götürsen de
+mangalı yaksak mı?
+
+1905
+02:09:36,000 --> 02:09:36,500
+Cal: Jay, bizi benim eve götürsen de
+mangalı yaksak mı?
+
+1906
+02:09:39,000 --> 02:09:39,500
+Cal: Biralar nerede, Lu?
+
+1907
+02:09:40,500 --> 02:09:41,000
+Lucia: Burada.
+
+1908
+02:09:42,000 --> 02:09:42,500
+Cal: Sağ ol.
+
+1909
+02:09:55,500 --> 02:09:56,000
+Cal: Peki Lu, yeniden özgür olmak nasıl bir şey?
+
+1910
+02:09:58,000 --> 02:09:58,500
+Lucia: Sence?
+
+1911
+02:09:59,500 --> 02:10:00,000
+Lucia: Hem daha tamamen özgür değilim.
+Şu siktiğimin kelepçesi hâlâ ayağımda.
+
+1912
+02:10:03,500 --> 02:10:04,000
+Cal: Aa evet, evet.
+
+1913
+02:10:07,500 --> 02:10:08,000
+Cal: Pardon. Çok boktan olmalı.
+
+1914
+02:10:10,000 --> 02:10:10,500
+Cal: Bir denetim memuru var,
+
+1915
+02:10:12,000 --> 02:10:12,500
+Cal: her hareketini falan mı izliyor?
+
+1916
+02:10:14,000 --> 02:10:14,500
+Lucia: Of, düşünmek bile istemiyorum.
+
+1917
+02:10:16,000 --> 02:10:16,500
+Jason: O herif hâlâ götün teki mi?
+
+1918
+02:10:18,000 --> 02:10:18,500
+Lucia: İşi bu, değil mi? Keşke siktir olup gitse.
+
+1919
+02:10:22,500 --> 02:10:23,000
+Jason: Her zaman bir yol bulunur.
+
+1920
+02:10:25,000 --> 02:10:25,500
+Jason: Kesinlikle. Her zaman bir yol bulunur. Değil mi Cal?
+
+1921
+02:10:30,000 --> 02:10:30,500
+Cal: Evet, ke...
+
+1922
+02:10:31,500 --> 02:10:32,000
+Cal: kesinlikle... Dur, ne demek istiyorsun dostum?
+
+1923
+02:10:34,000 --> 02:10:34,500
+Cal: Yani, yani cinayet mi?
+
+1924
+02:10:36,500 --> 02:10:37,000
+Cal: Siz şu an birini öldürmekten mi bahsediyorsunuz?
+
+1925
+02:10:38,500 --> 02:10:39,000
+Cal: Dostum, bu şey ses de kaydediyordur muhtemelen.
+Bilemezsin!
+
+1926
+02:10:41,500 --> 02:10:42,000
+Cal: Bunun teknolojisi var onlarda!
+
+1927
+02:10:43,000 --> 02:10:43,500
+Jason: Şaka yapıyoruz!
+
+1928
+02:10:44,500 --> 02:10:45,000
+Cal: Bilmem ki! Siz ikiniz olunca emin olamıyorum!
+
+1929
+02:10:47,500 --> 02:10:48,000
+Lucia: Ama diyelim ki ihtiyacımız oldu, bize yardım edersin,
+
+1930
+02:10:51,500 --> 02:10:52,000
+Lucia: hani... ceset saklamak falan gerekse, değil mi?
+
+1931
+02:10:53,500 --> 02:10:54,000
+Jason: Tabii ki eder, hepimiz arkadaşız burada, değil mi?
+
+1932
+02:10:56,500 --> 02:10:57,000
+Cal: Dostum, şu an ne oluyor lan?
+Çok tuhaf davranıyorsunuz!
+
+1933
+02:11:00,500 --> 02:11:01,000
+Cal: Tamam, buldum.
+
+1934
+02:11:01,500 --> 02:11:02,000
+Cal: Yaslanıp yolun kalanının tadını çıkaralım da,
+
+1935
+02:11:03,500 --> 02:11:04,000
+Cal: siz kalkıp bir şeyler yaptığınızda benim
+
+1936
+02:11:07,000 --> 02:11:07,500
+Cal: ne yapıp yapmayacağımı konuşmayalım, olur mu?
+
+1937
+02:11:24,500 --> 02:11:25,000
+Cal: Tamam, merak etmeyin, birazdan ziyafet çekeceğiz.
+
+1938
+02:11:28,500 --> 02:11:29,000
+Cal: Şunun filetosunu çıkarıp özel baharat karışımımı süreceğim.
+
+1939
+02:11:31,500 --> 02:11:32,000
+Jason: İşin bitince haber ver. Ben mangalın başına geçerim.
+
+1940
+02:11:33,500 --> 02:11:34,000
+Cal: Tamamdır.
+
+1941
+02:11:39,000 --> 02:11:39,500
+Lucia: Biraz müzik falan açsak mı?
+
+1942
+02:11:41,000 --> 02:11:41,500
+Cal: Tabii, buyur.
+
+1943
+02:11:42,500 --> 02:11:43,000
+Lucia: Ama daha önce dinlediğiniz o şeylerden olmasın.
+
+1944
+02:11:45,500 --> 02:11:46,000
+Cal: Şaka mı yapıyorsun? O bir klasikti.
+
+1945
+02:11:47,500 --> 02:11:48,000
+Cal: Ben o parçayı hep dinlerim.
+
+1946
+02:11:49,500 --> 02:11:50,000
+Jason: Hep değil.
+
+1947
+02:11:50,000 --> 02:11:50,500
+Lucia: Evet, eminim öyledir.
+
+1948
+02:11:50,500 --> 02:11:51,000
+Lucia: Evet, eminim öyledir.
+
+1949
+02:11:55,500 --> 02:11:56,000
+Cal: Alo?
+
+1950
+02:11:57,500 --> 02:11:58,000
+Cal: Evet?
+
+1951
+02:11:59,500 --> 02:12:00,000
+Cal: Yok, arkadaşlarımlayım.
+
+1952
+02:12:02,000 --> 02:12:02,500
+Cal: Hayır, p-parti yapıyoruz.
+
+1953
+02:12:05,500 --> 02:12:06,000
+Cal: Takılıyoruz işte, ne?
+
+1954
+02:12:08,000 --> 02:12:08,500
+Cal: Yine mi?
+
+1955
+02:12:09,500 --> 02:12:10,000
+Cal: Bir ot falan içse olmaz mı? Bende bolca var.
+
+1956
+02:12:14,000 --> 02:12:14,500
+Cal: Tamam, peki... neyse.
+
+1957
+02:12:17,000 --> 02:12:17,500
+Cal: Tamam!
+
+1958
+02:12:20,500 --> 02:12:21,000
+Cal: Of.
+
+1959
+02:12:22,500 --> 02:12:23,000
+Jason: Kimdi o?
+
+1960
+02:12:23,500 --> 02:12:24,000
+Cal: Kardeşim. Kocasıyla benim evdeler.
+
+1961
+02:12:26,500 --> 02:12:27,000
+Cal: Yine migreni tutmuş beyefendinin.
+
+1962
+02:12:29,000 --> 02:12:29,500
+Cal: Şunu kapatabilir misiniz?
+
+1963
+02:12:30,500 --> 02:12:31,000
+Lucia: Ah, siktiğimin sürtüğü.
+
+1964
+02:12:32,000 --> 02:12:32,500
+Cal: Ben demiştim.
+
+1965
+02:12:46,000 --> 02:12:46,500
+Cal: İşte böyle.
+
+1966
+02:12:49,000 --> 02:12:49,500
+Cal: O benimki.
+
+1967
+02:12:50,000 --> 02:12:50,500
+Jason: Ah.
+
+1968
+02:12:54,000 --> 02:12:54,500
+Cal: Güzel.
+
+1969
+02:13:01,500 --> 02:13:02,000
+Lucia: Oo! Vay sana bak...
+
+1970
+02:13:08,500 --> 02:13:09,000
+Lucia: Güzel.
+
+1971
+02:13:16,000 --> 02:13:16,500
+Cal: Onu kömür ettin be, tamam, o Lu'nunki olsun!
+
+1972
+02:13:18,500 --> 02:13:19,000
+Cal: Onu kömür ettin be, tamam, o Lu'nunki olsun!
+Lucia: Hey!
+
+1973
+02:13:21,500 --> 02:13:22,000
+Cal: Yok, benimkini yanık istiyorum.
+
+1974
+02:13:24,500 --> 02:13:25,000
+Cal: Dostum, çok iyi çevirdin. Eline sağlık.
+
+1975
+02:13:35,000 --> 02:13:35,500
+Cal: Tamam, servis edelim!
+
+1976
+02:13:41,000 --> 02:13:41,500
+Lucia: Baharat!
+
+1977
+02:13:42,000 --> 02:13:42,500
+Cal: Evet, tamam.
+
+1978
+02:13:43,000 --> 02:13:43,500
+Cal: Evet, tamam.
+Lucia: Başüstüne şef!
+
+1979
+02:13:43,500 --> 02:13:44,000
+Lucia: Başüstüne şef!
+
+1980
+02:13:44,500 --> 02:13:45,000
+Cal: İşte böyle. Şundan da biraz... oldu bu iş!
+
+1981
+02:13:47,000 --> 02:13:47,500
+Cal: İşte böyle. Şundan da biraz... oldu bu iş!
+Lucia: Vay.
+
+1982
+02:13:49,500 --> 02:13:50,000
+Lucia: Of, çok iyi görünüyor.
+
+1983
+02:13:50,500 --> 02:13:51,000
+Lucia: Of, çok iyi görünüyor.
+Cal: Tamam, buyurun bakalım. Afiyet olsun.
+
+1984
+02:13:51,000 --> 02:13:51,500
+Cal: Tamam, buyurun bakalım. Afiyet olsun.
+
+1985
+02:13:52,000 --> 02:13:52,500
+Cal: Tamam, buyurun bakalım. Afiyet olsun.
+Lucia: Teşekkür ederim.
+
+1986
+02:13:57,000 --> 02:13:57,500
+Cal: Bir süre dünyayla bağlantıyı kesersem kusura bakmayın.
+Karnım zil çalıyor!
+
+1987
+02:14:03,000 --> 02:14:03,500
+Cal: Ee Jay, Brian ithalat işlerini yavaştan bıraktığına göre...
+
+1988
+02:14:05,500 --> 02:14:06,000
+Cal: ...şimdi ne yapacağına karar verdin mi?
+
+1989
+02:14:07,500 --> 02:14:08,000
+Jason: Ya... Pek düşünmedim açıkçası.
+
+1990
+02:14:11,000 --> 02:14:11,500
+Cal: Hım. Güzelmiş.
+
+1991
+02:14:12,500 --> 02:14:13,000
+Lucia: Ama düşünmekte fayda var.
+
+1992
+02:14:15,000 --> 02:14:15,500
+Cal: Yani insan burada başka türlü nasıl doğru düzgün
+para kazanır ki?
+
+1993
+02:14:18,500 --> 02:14:19,000
+Cal: Brian'ın tekne bakım işiyle olmaz.
+
+1994
+02:14:21,000 --> 02:14:21,500
+Cal: Buraların hali belli, ya çekip gidersin...
+
+1995
+02:14:23,500 --> 02:14:24,000
+Cal: ...ya da kız kardeşimle kocasınınki gibi...
+
+1996
+02:14:26,000 --> 02:14:26,500
+Cal: ...ağır aksak bir hayata razı olursun.
+
+1997
+02:14:29,000 --> 02:14:29,500
+Cal: İnanın bana...
+
+1998
+02:14:30,500 --> 02:14:31,000
+Cal: Zor günler geliyor dostlarım.
+
+1999
+02:14:33,000 --> 02:14:33,500
+Jason: Açım dememiş miydin kardeşim?
+
+2000
+02:14:37,000 --> 02:14:37,500
+Lucia: Aslında... O kadar aç değilim.
+
+2001
+02:14:40,000 --> 02:14:40,500
+Lucia: Benimkini de siz yiyin... Ben, şey... Biraz yürüyeceğim...
+
+2002
+02:14:47,000 --> 02:14:47,500
+Cal: Ha, t-tamam...
+
+2003
+02:14:49,000 --> 02:14:49,500
+Cal: Görüşürüz Lu! Biralar için sağ ol!
+
+2004
+02:14:54,000 --> 02:14:54,500
+Cal: Kusura bakma kardeşim. Fena bok yedim, değil mi?
+
+2005
+02:14:57,000 --> 02:14:57,500
+Jason: Yok, kafana takma. Bir şey olmaz.
+
+2006
+02:15:01,000 --> 02:15:01,500
+Cal: Peşinden gidecek misin? İstersen git, sorun yok.
+
+2007
+02:15:04,000 --> 02:15:04,500
+Jason: Evet, gitsem iyi olur.
+
+2008
+02:15:14,000 --> 02:15:14,500
+Jason: Hey, bekle.
+
+2009
+02:15:22,000 --> 02:15:22,500
+Jason: Her şey yolunda mı?
+
+2010
+02:15:23,500 --> 02:15:24,000
+Lucia: İyiyim. Sıcak çarptı... Herhalde.
+
+2011
+02:15:27,500 --> 02:15:28,000
+Lucia: Eve gidip uzanmak istiyorum.
+
+2012
+02:15:29,500 --> 02:15:30,000
+Jason: Tamam.
+
+2013
+02:15:52,000 --> 02:15:52,500
+Lucia: Biliyor musun?
+
+2014
+02:15:53,500 --> 02:15:54,000
+Lucia: İyi değilim.
+
+2015
+02:15:55,500 --> 02:15:56,000
+Lucia: Beni dinlemeni istiyorum.
+
+2016
+02:15:57,500 --> 02:15:58,000
+Lucia: Bu yaptığın işlerden daha iyisini hak ettiğini
+biliyorsun, değil mi?
+
+2017
+02:16:00,500 --> 02:16:01,000
+Lucia: O işler senin seviyenin altında. Bunu bir tek sen göremiyorsun.
+
+2018
+02:16:04,500 --> 02:16:05,000
+Jason: Bir şey bulurum. Düzenli bir iş.
+
+2019
+02:16:06,500 --> 02:16:07,000
+Lucia: Öyle herhangi bir iş değil Jay. Uğraştığına değecek bir iş.
+
+2020
+02:16:11,000 --> 02:16:11,500
+Lucia: Bak, sence ben boş bir adamla vakit harcar mıyım?
+Sen taşaklı adamsın.
+
+2021
+02:16:16,000 --> 02:16:16,500
+Lucia: Ciddiyim. Kimse sana bunu söylemedi mi?
+
+2022
+02:16:17,500 --> 02:16:18,000
+Jason: Ya, bilmiyorum...
+
+2023
+02:16:19,500 --> 02:16:20,000
+Lucia: Hım. Derdin ne bilmiyorum ki bunu göremiyorsun.
+
+2024
+02:16:23,000 --> 02:16:23,500
+Jason: Tabii, evet, tabii.
+
+2025
+02:16:24,500 --> 02:16:25,000
+Jason: Tabii, evet, tabii.
+Lucia: Bak. Bu işi kaybetmen mi? Aslında hayrına oldu.
+
+2026
+02:16:25,000 --> 02:16:25,500
+Lucia: Bak. Bu işi kaybetmen mi? Aslında hayrına oldu.
+
+2027
+02:16:29,500 --> 02:16:30,000
+Lucia: Brian'ın işleri zaten hep sana küçük geliyordu.
+
+2028
+02:16:32,000 --> 02:16:32,500
+Jason: Bak, kendine geliyorsun.
+
+2029
+02:16:34,000 --> 02:16:34,500
+Lucia: Peki, katılıyor musun?
+
+2030
+02:16:35,500 --> 02:16:36,000
+Lucia: Katıldığını söyle. Senden duymam lazım.
+
+2031
+02:16:38,000 --> 02:16:38,500
+Jason: Katılıyorum.
+
+2032
+02:16:39,000 --> 02:16:39,500
+Lucia: Güzel, artık büyük düşünüyoruz.
+
+2033
+02:16:43,500 --> 02:16:44,000
+Lucia: Neye gülüyorsun? Bu ciddi bir mesele.
+
+2034
+02:16:45,000 --> 02:16:45,500
+Jason: Ben sadece... Yanımda olmana seviniyorum.
+
+2035
+02:16:48,000 --> 02:16:48,500
+Lucia: Güzel. Çünkü hiçbir yere gitmiyorum.
+
+2036
+02:16:50,500 --> 02:16:51,000
+Jason: Evet... Elektronik kelepçen yüzünden.
+
+2037
+02:16:53,000 --> 02:16:53,500
+Jason: Şaka yapıyorum, şaka.
+
+2038
+02:16:56,000 --> 02:16:56,500
+Jason: Anladım seni.
+
+2039
+02:17:19,000 --> 02:17:19,500
+Lucia: Hadi, yatağa gidelim.
+
+2040
+02:17:21,500 --> 02:17:22,000
+Jason: Hâlâ uykun var mı?
+
+2041
+02:17:22,500 --> 02:17:23,000
+Lucia: Yok.
+
+2042
+02:17:30,500 --> 02:17:31,000
+Lucia: Hey, gelsene.
+Ne yapıyorsun?
+
+2043
+02:17:33,000 --> 02:17:33,500
+Lucia: Gelsene dedim.
+
+2044
+02:17:35,500 --> 02:17:36,000
+Jason: Seni daha sık balığa çıkarmalıyım.
+
+2045
+02:17:53,500 --> 02:17:54,000
+Jason: İyi eğlenceler.
+
+2046
+02:17:55,000 --> 02:17:55,500
+Lucia: Her zamanki gibi.
+
+2047
+02:18:10,000 --> 02:18:10,500
+Jason: Hey.
+Hey!
+
+2048
+02:18:11,500 --> 02:18:12,000
+Lucia: İyi haber, Kat aradı. İş tamam.
+
+2049
+02:18:14,500 --> 02:18:15,000
+Jason: Öyle mi? Ne zaman?
+
+2050
+02:18:16,500 --> 02:18:17,000
+Lucia: Biz ne zaman istersek hazırlar.
+
+2051
+02:18:18,000 --> 02:18:18,500
+Lucia: Beni işten alırsın ya da sonra evde buluşuruz?
+
+2052
+02:18:20,500 --> 02:18:21,000
+Jason: Tamam, olur.
+
+2053
+02:18:22,000 --> 02:18:22,500
+Lucia: Gördün mü? Demiştim sana.
+
+2054
+02:18:24,000 --> 02:18:24,500
+Jason: Evet, evet. Birazdan görüşürüz.

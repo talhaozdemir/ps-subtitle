@@ -1,0 +1,31 @@
+YEREL KONUŞMA BAĞLAMI
+
+Durum: uygulama koduna ve dist/subtitle.json.gz paketine eklendi.
+Varsayılan: Paket öncelikli modda otomatik; her akışın ayrı hafızası var.
+
+DAVRANIŞ
+Son 10 farklı İngilizce okuma tutulur. Aynı altyazının tekrar okunması yeni dayanak değildir. En az iki farklı, yüksek güvenli ve doğrudan eşleşmiş önceki replik aynı kaynak sırasını doğrulamalıdır.
+Güvenilir mevcut isimli eşleşmeler ve mevcut yaklaşık eşleşmeler değişmez. Belirsiz karşılıklar ve okunamayan isimler yakın kaynak sırasıyla çözülebilir. Kaynakta isim yoksa isim eklenmez; seçilen kaydın isim ve renkleri kullanılır.
+Sahne/sıra uyuşmazlığı, uzun ara, oturum/alan/çeviri ayarı değişimi eski bağlamı bırakır. Tekrar eden kısa yanıt ve gerileyen OCR parçası başka kişinin adıyla tamamlanmaz. İki eşit adayda seçim zorlanmaz. Bağlamla bulunan sonuçlar yeni güçlü dayanak olamaz.
+API girişleri/modeli değiştirilmedi, konuşma geçmişi API'ye gönderilmez. Önbellek ve bekleyen istekler bağlama göre ayrıldı. Yerel bağlam internet/API anahtarı gerektirmez. Eski sırasız kayıtlar eski eşleştirme yoluyla çalışır.
+
+DOĞRULAMA
+50 test geçti.
+25637 kaynak kaydında bağlam kapalı/soğuk oturum sonucu önceki uygulamayla aynı.
+İsimli kaynak tekrar oynatması: 189 ek bağlamsal sonuç; 25325 güvenli mevcut isimli sonuç değişmedi.
+İsimlerin okunmadığı tekrar oynatma: 2390 ek/iyileştirilmiş sonuç; bunların 742 adedinde mevcut çeviri korunup isim tamamlandı. 22295 güvenli mevcut sonuç değişmedi.
+Bu sonuçlar örnek kaynak kayıt/görünümlerine aittir; benzersiz replik veya bütün oynanışlar için doğruluk oranı değildir. Eklenen çeviri/isimler kaynak kayıtlarla test edildi; bu tekrar oynatmalarda yeni yanlış çeviri/isim seçimi tespit edilmedi.
+Bütün sözlük değerleri, 26624 isim/renk görünümünün ham verisi, bloklanan anahtarlar ve fuzzy imzaları bağlam öncesiyle aynı kaldı. Gerçek Go örneğinde Söyle ve Lucia'nın kaynak rengi doğrulandı; aynı karedeki iki farklı renkli Polis testi de geçiyor.
+
+PAKET
+Biçim 3, merge_info.version=3, local_context.version=1.
+SHA-256: 59297a7664e7ea34849bf55939fa559ac5e7c0b643d9673cb74c6c81a4a1d7ce
+Güncel uygulama koduyla birlikte paketlenmelidir. TV'ye kurulum veya donanım testi yapılmadı; yeni IPK üretilmedi.
+
+KAYNAKLAR
+service/local-context.js: kaynak sırası, güven şartları ve kısa hafıza.
+service/pack.js: ayrı oturumlar ve değişmeyen stateless eşleştirici.
+service/translation.js: bağlama göre API önbelleği ve sıfırlama.
+tools/test_local_context.cjs: bağlam ve sıfır-regresyon testleri.
+translations/local-context/baseline: değiştirilmeyen önceki okuyucu/sözlük referansı.
+translations/merged/OKU.txt: bütün birleşim ve doğrulama raporu.

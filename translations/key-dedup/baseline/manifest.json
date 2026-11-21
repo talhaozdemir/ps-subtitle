@@ -1,0 +1,13 @@
+{
+  "sha256": "602ade7b7d7dfc452517a8163b53dcf3d03bbc744e4d1daa4c515986120c99ca",
+  "keys": 156118,
+  "json_bytes": 29247216,
+  "gzip_bytes": 8224734,
+  "files": {
+    "matcher.js": "657c5746747b90cb3b86b2f8c4b19af809dca0e52f5bb34440e00a0bca31d94e",
+    "fuzzy.js": "d1161b4ea9f460c9634cc30c1b5d10ab51fba047e2bf60be1bcc703bb386748d",
+    "pack.js": "31b020e9b7be378562ed7ed455bb1da6c86193917f82e452a3b9b195fb4e1f07",
+    "speaker-display.js": "ae9100621632bbd6283453bd6dfb36c054a7ca5d84a0ccfafc62ff3945649c90",
+    "speaker-labels.json": "d542d02efef286d1cf8735a41cbec9f0abfdc0f8edb80ade8e48f525793b085a"
+  }
+}

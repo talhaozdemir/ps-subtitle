@@ -1,0 +1,102 @@
+{
+  "issues": [
+    {
+      "id": "s06-00140000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-00140000.jpg",
+      "visible_fragment": "Lucia: You know [black bar] Entertainment?",
+      "note": "Solid black source-video bar obscures words. Hidden English not inferred; whole cue omitted from approved translation."
+    },
+    {
+      "id": "s06-00182500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-00182500.jpg",
+      "visible_fragment": "Jason: C'mon, he owns [black bar]",
+      "note": "Solid black source-video bar obscures words. Hidden English not inferred; whole cue omitted from approved translation."
+    },
+    {
+      "id": "s06-00187500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-00187500.jpg",
+      "visible_fragment": "Jason: What do you mean, we should star [black bar]?",
+      "note": "Solid black source-video bar obscures words. Hidden English not inferred; whole cue omitted from approved translation."
+    },
+    {
+      "id": "s06-00202500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-00202500.jpg",
+      "visible_fragment": "Lucia: I couldn't even get you to send me any [black bar] pics when I / was inside.",
+      "note": "Solid black source-video bar obscures words. Hidden English not inferred; whole cue omitted from approved translation."
+    },
+    {
+      "id": "s06-00206000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-00206000.jpg",
+      "visible_fragment": "Jason: I told you, there's no fucking way I'm gonna send a picture / of my [black bar]",
+      "note": "Solid black source-video bar obscures words. Hidden English not inferred; whole cue omitted from approved translation."
+    },
+    {
+      "id": "s06-00411500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-00411500.jpg",
+      "visible_fragment": "Gil: I want where story and imagination meet [black bar], capeesh?",
+      "note": "Black source bar hides words in this speaker block; that block omitted without guessing. Any independently complete visible utterance by another speaker is retained separately with source_review disclosure."
+    },
+    {
+      "id": "s06-00418500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-00418500.jpg",
+      "visible_fragment": "Gil: Now, get those [black bar] It's [black bar]",
+      "note": "Black source bar hides words in this speaker block; that block omitted without guessing. Any independently complete visible utterance by another speaker is retained separately with source_review disclosure."
+    },
+    {
+      "id": "s06-00422000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-00422000.jpg",
+      "visible_fragment": "Director: Oh, okay. Sasha, listen [black bar] is an apple, / and you wanna take a bite.",
+      "note": "Black source bar hides words in this speaker block; that block omitted without guessing. Any independently complete visible utterance by another speaker is retained separately with source_review disclosure."
+    },
+    {
+      "id": "s06-00467000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-00467000.jpg",
+      "visible_fragment": "Rodney: Hey, could I get some sunscreen for my [black bar] / Yeah, sure.",
+      "note": "Black source bar hides words in this speaker block; that block omitted without guessing. Any independently complete visible utterance by another speaker is retained separately with source_review disclosure."
+    },
+    {
+      "id": "s06-01680500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-01680500.jpg",
+      "visible_fragment": "Roxy: Suck a [black bar]",
+      "note": "Full native i-004 source sheet visually checked. Solid black source-video bar obscures final word(s); whole censored cue omitted."
+    },
+    {
+      "id": "s06-02169500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-02169500.jpg",
+      "visible_fragment": "Andrea: Fuck, [black bar]",
+      "note": "Full native k-005 source sheet visually checked. Solid black source-video bar obscures following word(s); whole censored cue omitted."
+    },
+    {
+      "id": "s06-05607500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-05607500.jpg",
+      "visible_fragment": "San4San: Y'all tryin' to [black bar]",
+      "note": "Full native z-001 source visually checked: solid source-video bar hides final word(s); whole source cue omitted without guessing."
+    },
+    {
+      "id": "s06-08100500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-08100500.jpg",
+      "visible_fragment": "Local: Look, I'm really not trying to be a [black bar] or anything.",
+      "note": "Full native aj-006 source visually checked: solid source-video black bar obscures a word; whole censored cue excluded without guessing."
+    },
+    {
+      "id": "s06-08327500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s06-08327500.jpg",
+      "visible_fragment": "Local: Oh, that was a [black bar] YOLO play, and you know it. / Dip and rip, bro.",
+      "note": "Full native al-003 source visually checked. Black source-video bar hides a word; censored Local cue omitted. The separate fully visible Jason reply in 8333.0 is retained without the Local cue; hidden word never inferred."
+    }
+  ]
+}

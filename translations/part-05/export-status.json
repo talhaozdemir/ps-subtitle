@@ -1,0 +1,871 @@
+{
+  "reviewed_cues": 2072,
+  "ocr_windows_available": 5124,
+  "not_exported_navigation_windows": 3052,
+  "empty_midpoint_windows": 1046,
+  "earlier_frame_windows_checked": 0,
+  "earlier_frame_windows_with_text": 0,
+  "pack_entries": 4008,
+  "reviewed_earlier_frames": 0,
+  "latest_reviewed_timestamp": 7859.0,
+  "navigation_scan_complete": null,
+  "continuous_scan_candidates": 5124,
+  "continuous_scan_complete": true,
+  "candidate_review_complete": true,
+  "unresolved_source_issues": [
+    {
+      "id": "s05-02490000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02490000.jpg",
+      "visible_fragment": "Jason: Just had shoes and [black bar] Fuckin' creep.",
+      "note": "Solid black censor bar in source video. Hidden English not inferred; omitted from approved translation."
+    },
+    {
+      "id": "s05-02557000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02557000.jpg",
+      "visible_fragment": "Lucia: He just had a bunch of [black bar] Fucking [black bar]",
+      "note": "Two solid black censor bars in source. Hidden English not inferred; omitted from approved translation."
+    },
+    {
+      "id": "s05-02635500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02635500.jpg",
+      "visible_fragment": "Jason: Yeah, I don't think they were after my [black bar]",
+      "note": "Solid black bar in video source; hidden English not inferred, omitted from approved translation."
+    },
+    {
+      "id": "s05-02646500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02646500.jpg",
+      "visible_fragment": "Lucia: breaking into your place to steal your [black bar]",
+      "note": "Solid black bar in video source; hidden English not inferred, omitted from approved translation."
+    },
+    {
+      "id": "s05-02649000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02649000.jpg",
+      "visible_fragment": "Jason: She's a [black bar]... they're a commodity.",
+      "note": "Solid black bar in video source; hidden English not inferred, omitted from approved translation."
+    },
+    {
+      "id": "s05-02650500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02650500.jpg",
+      "visible_fragment": "Jason: She's a [black bar]... they're a commodity.",
+      "note": "Solid black bar in video source; hidden English not inferred, omitted from approved translation."
+    },
+    {
+      "id": "s05-02654500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02654500.jpg",
+      "visible_fragment": "Lucia: of valuable [black bar] this whole time and we didn't even know it?",
+      "note": "Solid black bar in video source; hidden English not inferred, omitted from approved translation."
+    },
+    {
+      "id": "s05-02636500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02636500.jpg",
+      "visible_fragment": "Jason: Yeah, I don't think they were after my [black bar]",
+      "note": "Solid black bar in source, hidden words not inferred; omitted from approved translation."
+    },
+    {
+      "id": "s05-02656500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02656500.jpg",
+      "visible_fragment": "Lucia: of valuable [black bar] this whole time and we didn't even know it?",
+      "note": "Solid black bar in source, hidden words not inferred; omitted from approved translation."
+    },
+    {
+      "id": "s05-02746000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02746000.jpg",
+      "visible_fragment": "Lucia: We gotta keep our [black bar] safe.",
+      "note": "Solid black bar in source, hidden words not inferred; omitted from approved translation."
+    },
+    {
+      "id": "s05-02637500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02637500.jpg",
+      "visible_fragment": "Jason: Yeah, I don't think they were after my [black bar]",
+      "note": "Duplicate censored source caption; hidden word not inferred."
+    },
+    {
+      "id": "s05-03475500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-03475500.jpg",
+      "visible_fragment": "Dre'Quan: [black bar]-for-a-chain-ass rapper!",
+      "note": "Solid black source censor bar; hidden word not inferred."
+    },
+    {
+      "id": "s05-03477500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-03477500.jpg",
+      "visible_fragment": "Dre'Quan: [black bar]-for-a-chain-ass rapper!",
+      "note": "Duplicate censored source caption; no hidden words inferred."
+    },
+    {
+      "id": "s05-03862500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-03862500.jpg",
+      "visible_fragment": "Lucia: was really [black bar] me about it...",
+      "note": "Solid black censor bar in source video; missing English not inferred."
+    },
+    {
+      "id": "s05-04240000",
+      "status": "partial_source_censorship",
+      "source_frame": "continuous/frames/s05-04240000.jpg",
+      "visible_fragment": "[black bar] it out. I wanna see what I'm paying for. / Jason: That's him.",
+      "note": "Separate unlabelled source caption is censored and omitted, no hidden words inferred. Fully readable labelled Jason: That's him. is retained as its own complete cue."
+    },
+    {
+      "id": "s05-04238000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-04238000.jpg",
+      "visible_fragment": "[black bar] it out. I wanna see what I'm paying for.",
+      "note": "Unlabelled line visibly censored in source; missing words not inferred, caption omitted."
+    },
+    {
+      "id": "s05-04241000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-04241000.jpg",
+      "visible_english": "[obscured] it out. I wanna see what I'm paying for.",
+      "note": "Same censored caption as4238; hidden opening and speaker not inferred."
+    },
+    {
+      "id": "s05-07591500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-07591500.jpg",
+      "visible_english": "Pete: Nothin' a hot bath and a [black bar] won't fix.",
+      "note": "Black bar visibly obscures a word in source; hidden text not inferred and caption omitted."
+    },
+    {
+      "id": "s05-00564500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-00564500.jpg",
+      "visible_english": "Guardia Brothers: [black bar]",
+      "note": "Entire speech visibly obscured by source black bar; not inferred."
+    },
+    {
+      "id": "s05-00565000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-00565000.jpg",
+      "visible_english": "Guardia Brothers: [black bar]",
+      "note": "Same fully source-censored caption as564.5; hidden speech not inferred."
+    },
+    {
+      "id": "s05-00565500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-00565500.jpg",
+      "visible_english": "Guardia Brothers: [black bar]",
+      "note": "Same fully source-censored caption as564.5; hidden speech not inferred."
+    },
+    {
+      "id": "s05-00566000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-00566000.jpg",
+      "visible_english": "Guardia Brothers: [black bar]",
+      "note": "Same fully source-censored caption as564.5; hidden speech not inferred."
+    },
+    {
+      "id": "s05-02638000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02638000.jpg",
+      "visible_english": "Jason: Yeah, I don't think they were after my [black bar]",
+      "note": "Native source black bar hides words; same censored scene as original-pass issues, not inferred."
+    },
+    {
+      "id": "s05-02647000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02647000.jpg",
+      "visible_english": "Lucia: breaking into your place to steal your [black bar]",
+      "note": "Native source black bar hides words; same censored scene as original-pass issues, not inferred."
+    },
+    {
+      "id": "s05-02650000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02650000.jpg",
+      "visible_english": "Jason: She's a [black bar]... they're a commodity.",
+      "note": "Native source black bar hides words; same censored scene as original-pass issues, not inferred."
+    },
+    {
+      "id": "s05-02655500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02655500.jpg",
+      "visible_english": "Lucia: of valuable [black bar] this whole time and we didn't even know it?",
+      "note": "Native source black bar hides words; same censored scene as original-pass issues, not inferred."
+    },
+    {
+      "id": "s05-02647500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-02647500.jpg",
+      "visible_english": "Lucia: breaking into your place to steal your [black bar]",
+      "note": "Same censored caption; hidden words not inferred."
+    },
+    {
+      "id": "s05-03476000",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-03476000.jpg",
+      "visible_english": "Dre'Quan: [black bar]-for-a-chain-ass rapper!",
+      "note": "Source black censor bar; hidden word not inferred."
+    },
+    {
+      "id": "s05-03476500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s05-03476500.jpg",
+      "visible_english": "Dre'Quan: [black bar]-for-a-chain-ass rapper!",
+      "note": "Same black-bar caption as s05-03476000; hidden word not inferred."
+    }
+  ],
+  "coverage_verified": false,
+  "timing_verified": false,
+  "ambiguous_primary_records": [],
+  "directly_ambiguous_primary_records": [],
+  "blocked_fallback_primary_records": [],
+  "omitted_ambiguous_keys": [
+    {
+      "english_key": "hey",
+      "alternatives": [
+        [
+          "s05-00007000",
+          "Lucia: Selam."
+        ],
+        [
+          "s05-00305500",
+          "Guardia Kardeşler: Selam."
+        ],
+        [
+          "s05-01089500",
+          "Raul: Selam."
+        ],
+        [
+          "s05-02448500",
+          "Mahalleli: Hey!"
+        ],
+        [
+          "s05-06673500",
+          "Jason: Selam."
+        ]
+      ]
+    },
+    {
+      "english_key": "sure",
+      "alternatives": [
+        [
+          "s05-00013000",
+          "Lucia: Olur."
+        ],
+        [
+          "s05-06230000",
+          "Jason: Tabii."
+        ]
+      ]
+    },
+    {
+      "english_key": "mm hmm",
+      "alternatives": [
+        [
+          "s05-00045500",
+          "Lucia: Hı hı."
+        ],
+        [
+          "s05-00522500",
+          "Jason: Hı hı."
+        ],
+        [
+          "s05-05717500",
+          "Raul: Hı hı."
+        ]
+      ]
+    },
+    {
+      "english_key": "okay",
+      "alternatives": [
+        [
+          "s05-00051500",
+          "Lucia: Tamam."
+        ],
+        [
+          "s05-00387500",
+          "Raul: Tamam."
+        ],
+        [
+          "s05-02480000",
+          "Jason: Tamam..."
+        ],
+        [
+          "s05-04856000",
+          "Mahalleli: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "come on",
+      "alternatives": [
+        [
+          "s05-00073500",
+          "Karim: Hadi gel."
+        ],
+        [
+          "s05-01039500",
+          "Lucia: Hadi."
+        ],
+        [
+          "s05-05011000",
+          "Jason: Hadi."
+        ]
+      ]
+    },
+    {
+      "english_key": "yep",
+      "alternatives": [
+        [
+          "s05-00149000",
+          "Jason: Tamamdır."
+        ],
+        [
+          "s05-00787500",
+          "Lucia: Evet."
+        ]
+      ]
+    },
+    {
+      "english_key": "what",
+      "alternatives": [
+        [
+          "s05-00158500",
+          "Lucia: Ne?"
+        ],
+        [
+          "s05-00552500",
+          "Jason: Ne?"
+        ],
+        [
+          "s05-01250500",
+          "Karim: Ne?"
+        ],
+        [
+          "s05-02080500",
+          "Raul: Ne oldu?"
+        ],
+        [
+          "s05-04450500",
+          "Evelyn: Ne?"
+        ]
+      ]
+    },
+    {
+      "english_key": "something like that",
+      "alternatives": [
+        [
+          "s05-00181000",
+          "Lucia: Öyle bir şey."
+        ],
+        [
+          "s05-00183500",
+          "Raul: Öyle bir şey."
+        ]
+      ]
+    },
+    {
+      "english_key": "no no no",
+      "alternatives": [
+        [
+          "s05-00316000",
+          "Lucia: Hayır, hayır, hayır..."
+        ],
+        [
+          "s05-04973500",
+          "Halifax: Hayır, hayır, hayır..."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh shit",
+      "alternatives": [
+        [
+          "s05-00320000",
+          "Lucia: Ah, siktir!"
+        ],
+        [
+          "s05-02435000",
+          "Hırsız: Hay sıçayım!"
+        ],
+        [
+          "s05-07330000",
+          "Pete: Hassiktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "motherfucker",
+      "alternatives": [
+        [
+          "s05-00322500",
+          "Lucia: Orospu çocuğu."
+        ],
+        [
+          "s05-02470000",
+          "Jason: Orospu çocuğu!"
+        ]
+      ]
+    },
+    {
+      "english_key": "hang on",
+      "alternatives": [
+        [
+          "s05-00331000",
+          "Lucia: Bir saniye!"
+        ],
+        [
+          "s05-07393000",
+          "Brian: Sıkı tutun."
+        ]
+      ]
+    },
+    {
+      "english_key": "i m going",
+      "alternatives": [
+        [
+          "s05-00354500",
+          "Lucia: Gidiyorum."
+        ],
+        [
+          "s05-00704000",
+          "Jason: Gidiyorum!"
+        ]
+      ]
+    },
+    {
+      "english_key": "move",
+      "alternatives": [
+        [
+          "s05-00359500",
+          "Raul: Hadi!"
+        ],
+        [
+          "s05-04832500",
+          "Halifax: Çekilin!"
+        ]
+      ]
+    },
+    {
+      "english_key": "go go go",
+      "alternatives": [
+        [
+          "s05-00586000",
+          "Raul: Hadi! Hadi! Hadi!"
+        ],
+        [
+          "s05-00586500",
+          "Raul: Hadi! Hadi! Hadi!"
+        ],
+        [
+          "s05-00703500",
+          "Lucia: Hadi, hadi, hadi!"
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah",
+      "alternatives": [
+        [
+          "s05-00698500",
+          "Lucia: Evet."
+        ],
+        [
+          "s05-03290000",
+          "Jason: Evet."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh fuck",
+      "alternatives": [
+        [
+          "s05-00800000",
+          "Lucia: Ah, siktir."
+        ],
+        [
+          "s05-04785500",
+          "Jason: Ah, siktir!"
+        ],
+        [
+          "s05-06438000",
+          "Nicole: Ah, siktir."
+        ],
+        [
+          "s05-07218000",
+          "Pete: Hassiktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "good question",
+      "alternatives": [
+        [
+          "s05-00952500",
+          "Raul: Güzel soru."
+        ],
+        [
+          "s05-00961000",
+          "Jason: Güzel soru."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh yeah",
+      "alternatives": [
+        [
+          "s05-01251500",
+          "Karim: Ha, evet."
+        ],
+        [
+          "s05-03691000",
+          "Jason: Aynen öyle."
+        ]
+      ]
+    },
+    {
+      "english_key": "bro",
+      "alternatives": [
+        [
+          "s05-01327000",
+          "Jason: Kardeşim."
+        ],
+        [
+          "s05-01327500",
+          "Lucia: Kardeşim."
+        ]
+      ]
+    },
+    {
+      "english_key": "uh huh",
+      "alternatives": [
+        [
+          "s05-01358000",
+          "Jason: Hı hı."
+        ],
+        [
+          "s05-05602500",
+          "Lucia: Hı hı."
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah okay",
+      "alternatives": [
+        [
+          "s05-01578000",
+          "Lucia: Evet, tamam."
+        ],
+        [
+          "s05-06239000",
+          "Jason: Evet, tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "we got this",
+      "alternatives": [
+        [
+          "s05-01584000",
+          "Lucia: Hallederiz biz."
+        ],
+        [
+          "s05-06816000",
+          "Jason: Hallederiz biz."
+        ]
+      ]
+    },
+    {
+      "english_key": "c mon c mon",
+      "alternatives": [
+        [
+          "s05-01784000",
+          "Lucia: Hadi, hadi!"
+        ],
+        [
+          "s05-07180000",
+          "Pete: Hadi! Hadi!"
+        ]
+      ]
+    },
+    {
+      "english_key": "woo",
+      "alternatives": [
+        [
+          "s05-02194000",
+          "Lucia: Vuhuu!"
+        ],
+        [
+          "s05-03283500",
+          "DWNPLY: Vuhuu!"
+        ]
+      ]
+    },
+    {
+      "english_key": "the fuck",
+      "alternatives": [
+        [
+          "s05-02237500",
+          "Jason: Ne oluyor lan?"
+        ],
+        [
+          "s05-06551000",
+          "Lucia: Ne oluyor lan?"
+        ]
+      ]
+    },
+    {
+      "english_key": "nah",
+      "alternatives": [
+        [
+          "s05-02254500",
+          "Jason: Yok."
+        ],
+        [
+          "s05-03040000",
+          "Tezgâhtar: Yok..."
+        ]
+      ]
+    },
+    {
+      "english_key": "no",
+      "alternatives": [
+        [
+          "s05-02400000",
+          "Jason: Hayır."
+        ],
+        [
+          "s05-04856500",
+          "Mahalleli: Hayır!"
+        ],
+        [
+          "s05-05138500",
+          "Lucia: Hayır."
+        ]
+      ]
+    },
+    {
+      "english_key": "and",
+      "alternatives": [
+        [
+          "s05-02571500",
+          "Jason: Ee?"
+        ],
+        [
+          "s05-05878000",
+          "Raul: Ee?"
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah right",
+      "alternatives": [
+        [
+          "s05-02660000",
+          "Jason: He, tabii."
+        ],
+        [
+          "s05-04048000",
+          "Lucia: He, tabii."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh my god",
+      "alternatives": [
+        [
+          "s05-03002000",
+          "Mahalleli: Aman Tanrım!"
+        ],
+        [
+          "s05-04164500",
+          "Evelyn: Aman Tanrım."
+        ],
+        [
+          "s05-04892000",
+          "Lucia: Aman Tanrım..."
+        ]
+      ]
+    },
+    {
+      "english_key": "go go",
+      "alternatives": [
+        [
+          "s05-03325000",
+          "Jason: Koş, koş!"
+        ],
+        [
+          "s05-04638000",
+          "Lucia: Hadi! Hadi!"
+        ]
+      ]
+    },
+    {
+      "english_key": "aw shit",
+      "alternatives": [
+        [
+          "s05-03859000",
+          "Jason: Hay sıçayım."
+        ],
+        [
+          "s05-07204500",
+          "Pete: Ah, siktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "whoa",
+      "alternatives": [
+        [
+          "s05-04246500",
+          "Halifax: Hop."
+        ],
+        [
+          "s05-04833500",
+          "Mahalleli: Hop!"
+        ],
+        [
+          "s05-07394000",
+          "Lucia: Oha!"
+        ]
+      ]
+    },
+    {
+      "english_key": "c mon",
+      "alternatives": [
+        [
+          "s05-04604000",
+          "Lucia: Hadi."
+        ],
+        [
+          "s05-07249500",
+          "Pete: Hadi!"
+        ],
+        [
+          "s05-07584500",
+          "Jason: Hadi."
+        ]
+      ]
+    },
+    {
+      "english_key": "halifax",
+      "alternatives": [
+        [
+          "s05-04613000",
+          "Jason: Halifax?"
+        ],
+        [
+          "s05-04618500",
+          "Lucia: Halifax?"
+        ]
+      ]
+    },
+    {
+      "english_key": "shit",
+      "alternatives": [
+        [
+          "s05-04634000",
+          "Maryam: Siktir!"
+        ],
+        [
+          "s05-04635500",
+          "Halifax: Siktir."
+        ],
+        [
+          "s05-04703500",
+          "Jason: Siktir..."
+        ],
+        [
+          "s05-06883000",
+          "Lucia: Siktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "alright",
+      "alternatives": [
+        [
+          "s05-05020000",
+          "Halifax: Tamam."
+        ],
+        [
+          "s05-05160500",
+          "Lucia: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "nicole park right",
+      "alternatives": [
+        [
+          "s05-06076500",
+          "Lucia: Nicole Park, değil mi?"
+        ],
+        [
+          "s05-06078500",
+          "Nicole: Nicole Park, değil mi?"
+        ]
+      ]
+    },
+    {
+      "english_key": "wh what wait hold on what is this",
+      "alternatives": [
+        [
+          "s05-06084000",
+          "Nicole: Ne... Dur, bir dakika. Ne oluyor?"
+        ],
+        [
+          "s05-06086500",
+          "Lucia: Ne... Dur, bir dakika. Ne oluyor?"
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah yeah okay lemme just grab a few things",
+      "alternatives": [
+        [
+          "s05-06091500",
+          "Nicole: Evet, evet, tamam. Birkaç eşyamı alayım..."
+        ],
+        [
+          "s05-06094500",
+          "Lucia: Evet, evet, tamam... Birkaç eşyamı alayım..."
+        ]
+      ]
+    },
+    {
+      "english_key": "what are you a fed",
+      "alternatives": [
+        [
+          "s05-06096000",
+          "Nicole: Sen nesin, federal ajan mı?"
+        ],
+        [
+          "s05-06098000",
+          "Lucia: Sen nesin, federal ajan mı?"
+        ]
+      ]
+    },
+    {
+      "english_key": "fuck me",
+      "alternatives": [
+        [
+          "s05-07138500",
+          "Pete: Hassiktir!"
+        ],
+        [
+          "s05-07489000",
+          "Brian: Hassiktir!"
+        ]
+      ]
+    }
+  ],
+  "complete": true,
+  "speaker_color_label_occurrences": 2148,
+  "speaker_color_measured_occurrences": 2140,
+  "speaker_color_visually_identified_occurrences": 7,
+  "speaker_color_unresolved_occurrences": 1
+}

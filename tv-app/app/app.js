@@ -8,7 +8,15 @@
   var sessionNumber = 0;
   var noticeTimer;
   var subtitleTimer;
-  var saved = { port: 1, address: '', quality: 540, paired: false };
+  var lastSubtitleKey = '';
+  var lastSubtitleReadAt = 0;
+  var lastSubtitleText = '';
+  var lastSubtitleSpeakers = [];
+  var showSpeakerNames = false;
+  var subtitleLinger = 1800;
+  var subtitleRepeatGap = 4000;
+  var saved = { port: 1, address: '', quality: 540, ocrRate: 3, paired: false };
+  var ocrRateSaving = false;
   var pending = true;
   var manualHdmi = false;
   var selectedConsoleId = '';
@@ -23,15 +31,18 @@
   var setupSaving = false;
 
   ['hdmi', 'subtitle', 'notice', 'settings', 'setup', 'port', 'findPs5', 'discoveryStatus', 'consoleList',
-    'address', 'quality', 'account', 'pin',
+    'address', 'quality', 'ocrRate', 'ocrRateValue', 'ocrRateHelp', 'saveOcrRate', 'account', 'pin',
     'status', 'start', 'pair', 'editArea', 'updatePack', 'close', 'regionEditor', 'regionBox', 'regionHandle', 'regionTitle',
     'regionHelp', 'regionPreview', 'regionError', 'regionAction', 'regionCancel', 'editAppearance',
     'appearanceEditor', 'appearancePosition', 'appearancePositionValue', 'appearanceEdge',
     'appearanceOffset', 'appearanceOffsetValue', 'appearanceSize', 'appearanceSizeValue',
     'appearanceBackground', 'appearanceBackgroundValue', 'appearanceOpacity', 'appearanceOpacityValue',
+    'appearancePaddingX', 'appearancePaddingXValue', 'appearancePaddingY', 'appearancePaddingYValue',
+    'appearanceNames', 'appearanceNamesValue',
     'appearanceError', 'saveAppearance', 'cancelAppearance', 'tabHdmi', 'tabPs5',
     'tabSubtitle', 'stepHdmi', 'stepPs5', 'stepSubtitle', 'trialHelp', 'subtitleOptions', 'previousStep',
     'nextStep', 'finishSetup', 'editTranslation', 'translationEditor', 'translationMode', 'translationModeValue',
+    'translationSimilaritySection', 'translationSimilarity', 'translationSimilarityValue',
     'translationProvider', 'translationProviderValue', 'translationKeyLabel', 'translationKey', 'testTranslation',
     'removeTranslationKey', 'saveTranslation', 'cancelTranslation', 'translationStatus',
     'openRemoteSetup', 'remoteSetupEditor', 'remoteSetupCodePanel', 'remoteSetupQr', 'remoteSetupAddress',
@@ -40,8 +51,10 @@
   var setupTabs = [view.tabHdmi, view.tabPs5, view.tabSubtitle];
   var setupPanels = [view.stepHdmi, view.stepPs5, view.stepSubtitle];
   var appearanceControls = [view.appearancePosition, view.appearanceOffset, view.appearanceSize,
-    view.appearanceBackground, view.appearanceOpacity, view.saveAppearance, view.cancelAppearance];
-  var translationControls = [view.translationMode, view.translationProvider, view.translationKey, view.testTranslation,
+    view.appearanceNames, view.appearanceBackground, view.appearanceOpacity, view.appearancePaddingX, view.appearancePaddingY,
+    view.saveAppearance, view.cancelAppearance];
+  var backgroundControls = [view.appearanceOpacity, view.appearancePaddingX, view.appearancePaddingY];
+  var translationControls = [view.translationMode, view.translationSimilarity, view.translationProvider, view.translationKey, view.testTranslation,
     view.removeTranslationKey, view.saveTranslation, view.cancelTranslation];
 
   function call(method, parameters, success, failure) {
@@ -79,12 +92,39 @@
     noticeTimer = window.setTimeout(function () { view.notice.hidden = true; }, 5100);
   }
 
-  function subtitle(text) {
-    if (appearanceDraft) return;
+  function hideSubtitle() {
     window.clearTimeout(subtitleTimer);
-    view.subtitle.textContent = text || '';
-    view.subtitle.hidden = !text;
-    if (text) subtitleTimer = window.setTimeout(function () { subtitle(''); }, 1800);
+    view.subtitle.textContent = '';
+    view.subtitle.hidden = true;
+  }
+
+  function subtitle(text, speakers) {
+    if (appearanceDraft) return;
+    if (!text) {
+      lastSubtitleKey = '';
+      lastSubtitleReadAt = 0;
+      lastSubtitleText = '';
+      lastSubtitleSpeakers = [];
+      hideSubtitle();
+      return;
+    }
+    var now = performance.now();
+    speakers = SubtitleRenderer.validSpeakers(text, speakers || []);
+    lastSubtitleText = text;
+    lastSubtitleSpeakers = speakers;
+    var normalized = text.replace(/\s+/g, ' ').trim().toLocaleLowerCase('tr');
+    var key = normalized.replace(/[.!?…]+$/, '') || normalized;
+    if (showSpeakerNames) key += '\u0000' + JSON.stringify(speakers);
+    var recentlyRead = key && key === lastSubtitleKey && now - lastSubtitleReadAt < subtitleRepeatGap;
+    lastSubtitleKey = key;
+    lastSubtitleReadAt = now;
+    // A brief lapse in OCR can hide a caption without ending the line in the game.
+    if (recentlyRead && view.subtitle.hidden) return;
+
+    window.clearTimeout(subtitleTimer);
+    if (view.subtitle.hidden || !recentlyRead) SubtitleRenderer.render(view.subtitle, text, speakers, showSpeakerNames);
+    view.subtitle.hidden = false;
+    subtitleTimer = window.setTimeout(hideSubtitle, subtitleLinger);
   }
 
   function showHdmi(port) {
@@ -128,7 +168,8 @@
   }
 
   function values() {
-    return { port: Number(view.port.value), address: view.address.value.trim(), quality: Number(view.quality.value) };
+    return { port: Number(view.port.value), address: view.address.value.trim(), quality: Number(view.quality.value),
+      ocrRate: saved.ocrRate || 3 };
   }
 
   function isPaired() {
@@ -141,6 +182,8 @@
     var paired = isPaired();
     var complete = saved.setupComplete;
     view.port.disabled = pending || setupSaving;
+    view.ocrRate.disabled = pending || ocrRateSaving;
+    view.saveOcrRate.disabled = pending || ocrRateSaving || Number(view.ocrRate.value) === (saved.ocrRate || 3);
     view.findPs5.disabled = pending;
     view.start.disabled = pending || setupSaving || !paired;
     view.pair.disabled = pending;
@@ -218,6 +261,7 @@
     var draft = edit;
     window.clearTimeout(draft.timer);
     draft.revision = ++regionRevision;
+    draft.lastReadAt = 0;
     view.regionPreview.textContent = session ? 'Metin aranıyor…' : 'Canlı önizleme için altyazıyı başlat.';
     if (!session) return;
     var revision = draft.revision;
@@ -238,13 +282,20 @@
 
   function clamp(value, min, max) { return Math.max(min, Math.min(value, max)); }
 
+  function centeredChange(start, size, delta, minimum) {
+    // Whole percentages on both edges preserve the center of even and odd sizes.
+    return clamp(delta, Math.ceil((minimum - size) / 2), Math.min(start, 100 - start - size));
+  }
+
   function changeRegion(origin, dx, dy) {
     var next = Object.assign({}, origin);
     if (edit.mode === 'resize') {
-      var bottom = origin.y + origin.height;
-      next.width = clamp(origin.width + dx, 10, 100 - origin.x);
-      next.height = clamp(origin.height - dy, 5, bottom);
-      next.y = bottom - next.height;
+      var horizontal = centeredChange(origin.x, origin.width, dx, 10);
+      var vertical = centeredChange(origin.y, origin.height, -dy, 5);
+      next.x -= horizontal;
+      next.width += 2 * horizontal;
+      next.y -= vertical;
+      next.height += 2 * vertical;
     } else {
       next.x = clamp(origin.x + dx, 0, 100 - origin.width);
       next.y = clamp(origin.y + dy, 0, 100 - origin.height);
@@ -264,7 +315,7 @@
     view.regionEditor.dataset.mode = mode;
     view.regionTitle.textContent = resize ? 'Altyazı alanını boyutlandır' : 'Altyazı alanını taşı';
     view.regionHelp.textContent = resize
-      ? '← / → genişliği, ↑ / ↓ yüksekliği ayarlar. İki satırlık yer bırak.'
+      ? '← / → genişliği, ↑ / ↓ yüksekliği merkezden ayarlar. İki satırlık yer bırak.'
       : 'Yön tuşlarıyla kutuyu altyazının üzerine getir.';
     view.regionAction.textContent = resize ? 'OK · Kaydet' : 'OK · Boyutlandır';
     view.regionHandle.hidden = !resize;
@@ -310,12 +361,56 @@
     else finishRegionEdit(true);
   }
 
+  function bindRangeChange(range, update) {
+    function change() { update(Number(range.value)); }
+    range.addEventListener('input', change);
+    range.addEventListener('keydown', function (event) {
+      if (event.keyCode !== 37 && event.keyCode !== 39) return;
+      event.preventDefault();
+      range.stepUp(event.keyCode === 39 ? 1 : -1);
+      change();
+    });
+  }
+
+  function drawOcrRate() {
+    var rate = Number(view.ocrRate.value);
+    var label = rate + ' kez/sn · ' + Math.round(1000 / rate) + ' ms';
+    view.ocrRateValue.textContent = label;
+    view.ocrRate.setAttribute('aria-valuetext', label);
+    updateButtons();
+  }
+
+  function saveOcrRate() {
+    if (view.saveOcrRate.disabled) return;
+    var rate = Number(view.ocrRate.value);
+    ocrRateSaving = true;
+    updateButtons();
+    call('setOcrRate', { ocrRate: rate }, function (response) {
+      saved.ocrRate = response.ocrRate;
+      ocrRateSaving = false;
+      drawOcrRate();
+      view.ocrRate.focus();
+      status('Okuma sıklığı kaydedildi.');
+    }, function (error) {
+      ocrRateSaving = false;
+      updateButtons();
+      view.saveOcrRate.focus();
+      status(error, true);
+    });
+  }
+
   function applyAppearance(appearance) {
+    showSpeakerNames = appearance.showSpeakerNames === true;
     view.subtitle.dataset.position = appearance.position;
     view.subtitle.style.setProperty('--subtitle-offset', appearance.offset + '%');
     view.subtitle.style.setProperty('--subtitle-size', appearance.fontSize + 'px');
     view.subtitle.style.setProperty('--subtitle-background', appearance.background
       ? 'rgba(0, 0, 0, ' + appearance.opacity / 100 + ')' : 'transparent');
+    view.subtitle.style.setProperty('--subtitle-padding-x', appearance.background ? appearance.paddingX + 'px' : '');
+    view.subtitle.style.setProperty('--subtitle-padding-y', appearance.background ? appearance.paddingY + 'px' : '');
+    if (!appearanceDraft && !view.subtitle.hidden && lastSubtitleText) {
+      SubtitleRenderer.render(view.subtitle, lastSubtitleText, lastSubtitleSpeakers, showSpeakerNames);
+    }
   }
 
   function drawAppearanceEditor() {
@@ -325,16 +420,25 @@
     view.appearanceEdge.textContent = top ? 'Üst kenardan mesafe' : 'Alt kenardan mesafe';
     view.appearanceBackground.setAttribute('aria-pressed', String(draft.background));
     view.appearanceBackgroundValue.textContent = draft.background ? 'Açık' : 'Kapalı';
+    view.appearanceNames.setAttribute('aria-pressed', String(draft.showSpeakerNames === true));
+    view.appearanceNamesValue.textContent = draft.showSpeakerNames ? 'Açık' : 'Kapalı';
     view.appearanceOffset.value = draft.offset;
     view.appearanceSize.value = draft.fontSize;
     view.appearanceOpacity.value = draft.opacity;
+    view.appearancePaddingX.value = draft.paddingX;
+    view.appearancePaddingY.value = draft.paddingY;
     view.appearanceOffsetValue.textContent = '%' + draft.offset;
     view.appearanceSizeValue.textContent = draft.fontSize + ' px';
     view.appearanceOpacityValue.textContent = '%' + draft.opacity;
+    view.appearancePaddingXValue.textContent = draft.paddingX + ' px';
+    view.appearancePaddingYValue.textContent = draft.paddingY + ' px';
     appearanceControls.forEach(function (control) { control.disabled = appearanceSaving; });
-    view.appearanceOpacity.disabled = appearanceSaving || !draft.background;
-    view.appearanceOpacity.labels[0].dataset.disabled = String(!draft.background);
+    backgroundControls.forEach(function (control) {
+      control.disabled = appearanceSaving || !draft.background;
+      control.labels[0].dataset.disabled = String(!draft.background);
+    });
     applyAppearance(draft);
+    SubtitleRenderer.render(view.subtitle, 'Örnek altyazı', [{ offset: 0, name: 'Jason', color: '#D4DF98' }], draft.showSpeakerNames);
   }
 
   function appearanceError(text) {
@@ -349,7 +453,6 @@
     view.notice.hidden = true;
     appearanceError('');
     drawAppearanceEditor();
-    view.subtitle.textContent = 'Örnek altyazı';
     view.subtitle.hidden = false;
     view.appearanceEditor.hidden = false;
     view.appearancePosition.focus();
@@ -396,10 +499,16 @@
     view.translationKey.placeholder = hasKey ? 'Kayıtlı anahtar kullanılıyor' : '';
     view.removeTranslationKey.hidden = !hasKey;
     translationControls.forEach(function (control) { control.disabled = translationBusy; });
+    view.translationSimilaritySection.hidden = translationDraft.mode === 'api';
+    view.translationSimilarity.disabled = translationBusy || translationDraft.mode === 'api';
+    view.translationSimilarity.value = translationDraft.similarity;
+    view.translationSimilarityValue.textContent = '%' + translationDraft.similarity;
+    view.translationSimilarity.setAttribute('aria-valuetext', 'Yüzde ' + translationDraft.similarity);
   }
 
   function openTranslationEditor() {
-    translationDraft = { mode: saved.translation.mode, provider: saved.translation.provider, keys: {} };
+    translationDraft = { mode: saved.translation.mode, provider: saved.translation.provider,
+      similarity: saved.translation.similarity, keys: {} };
     view.translationKey.value = '';
     translationStatus('');
     drawTranslationEditor();
@@ -557,6 +666,8 @@
     call('applyRemoteSetup', {}, function (response) {
       finish();
       saved = response.settings;
+      view.ocrRate.value = saved.ocrRate || 3;
+      drawOcrRate();
       var video = draft.summary.video || {};
       if (response.pairedNow) {
         selectedConsoleId = '';
@@ -619,14 +730,31 @@
       if (message.type === 'ready') {
         sessionReady = true;
         updateButtons();
+        status(saved.setupComplete ? '' : 'PS5’e bağlandı.');
         if (edit && !edit.busy) previewRegion();
-        else status(saved.setupComplete ? '' : 'PS5’e bağlandı.');
+      }
+      if (message.type === 'waitingVideo') {
+        if (edit) view.regionPreview.textContent = 'PS5 görüntüsü bekleniyor…';
+        else status('PS5 görüntüsü bekleniyor…');
+      }
+      if (message.type === 'reconnecting') {
+        sessionReady = false;
+        updateButtons();
+        subtitle('');
+        if (edit) view.regionPreview.textContent = 'PS5’e yeniden bağlanıyor…';
+        else status('PS5’e yeniden bağlanıyor…');
       }
       if (message.type === 'preview' && edit && message.revision === edit.revision) {
         var text = (message.text || '').trim();
-        view.regionPreview.textContent = text ? 'Okunan metin · ' + text : 'Bu alanda metin okunamadı.';
+        var now = Date.now();
+        if (text) {
+          edit.lastReadAt = now;
+          view.regionPreview.textContent = 'Okunan metin · ' + text;
+        } else if (now - edit.lastReadAt >= 1100) {
+          view.regionPreview.textContent = 'Bu alanda metin okunamadı.';
+        }
       }
-      if (message.type === 'subtitle' && !edit) subtitle(message.text);
+      if (message.type === 'subtitle' && !edit) subtitle(message.text, message.speakers);
       if (message.type === 'translationError' && view.translationEditor.hidden) status(message.text, true);
       if (message.type === 'ended') {
         stop();
@@ -725,6 +853,8 @@
       pending = false;
       saved = response.settings;
       applyAppearance(saved.appearance);
+      view.ocrRate.value = saved.ocrRate || 3;
+      drawOcrRate();
       selectedConsoleId = '';
       view.address.value = saved.address;
       clearConsoleList();
@@ -761,6 +891,8 @@
     updateButtons();
   });
   view.quality.addEventListener('change', function () { if (!saved.setupComplete && session) stop(); });
+  bindRangeChange(view.ocrRate, drawOcrRate);
+  view.saveOcrRate.addEventListener('click', saveOcrRate);
   view.close.addEventListener('click', function () { view.settings.hidden = true; });
   view.editArea.addEventListener('click', openRegionEditor);
   view.editAppearance.addEventListener('click', openAppearanceEditor);
@@ -772,19 +904,16 @@
     appearanceDraft.background = !appearanceDraft.background;
     drawAppearanceEditor();
   });
-  [[view.appearanceOffset, 'offset'], [view.appearanceSize, 'fontSize'], [view.appearanceOpacity, 'opacity']]
+  view.appearanceNames.addEventListener('click', function () {
+    appearanceDraft.showSpeakerNames = !appearanceDraft.showSpeakerNames;
+    drawAppearanceEditor();
+  });
+  [[view.appearanceOffset, 'offset'], [view.appearanceSize, 'fontSize'], [view.appearanceOpacity, 'opacity'],
+    [view.appearancePaddingX, 'paddingX'], [view.appearancePaddingY, 'paddingY']]
     .forEach(function (entry) {
-      var range = entry[0];
-      function updateRange() {
-        appearanceDraft[entry[1]] = Number(range.value);
+      bindRangeChange(entry[0], function (value) {
+        appearanceDraft[entry[1]] = value;
         drawAppearanceEditor();
-      }
-      range.addEventListener('input', updateRange);
-      range.addEventListener('keydown', function (event) {
-        if (event.keyCode !== 37 && event.keyCode !== 39) return;
-        event.preventDefault();
-        range.stepUp(event.keyCode === 39 ? 1 : -1);
-        updateRange();
       });
     });
   view.saveAppearance.addEventListener('click', saveAppearance);
@@ -792,6 +921,10 @@
   view.editTranslation.addEventListener('click', openTranslationEditor);
   view.translationMode.addEventListener('click', function () {
     translationDraft.mode = translationDraft.mode === 'api' ? 'pack' : 'api';
+    drawTranslationEditor();
+  });
+  bindRangeChange(view.translationSimilarity, function (value) {
+    translationDraft.similarity = value;
     drawTranslationEditor();
   });
   view.translationProvider.addEventListener('click', function () {
@@ -875,7 +1008,7 @@
       } else if (event.keyCode === 38 || event.keyCode === 40) {
         event.preventDefault();
         if (translationBusy) return;
-        var translationFields = translationControls.filter(function (control) { return !control.hidden; });
+        var translationFields = translationControls.filter(function (control) { return !control.hidden && !control.disabled; });
         var translationIndex = translationFields.indexOf(document.activeElement);
         translationFields[clamp(translationIndex + (event.keyCode === 40 ? 1 : -1), 0, translationFields.length - 1)].focus();
       }
@@ -948,6 +1081,8 @@
     pending = false;
     saved = response.settings;
     applyAppearance(saved.appearance);
+    view.ocrRate.value = saved.ocrRate || 3;
+    drawOcrRate();
     view.port.value = saved.paired ? saved.port : '';
     view.address.value = saved.address;
     view.quality.value = saved.quality;

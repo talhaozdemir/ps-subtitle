@@ -1,0 +1,796 @@
+{
+  "reviewed_cues": 2603,
+  "ocr_windows_available": 7640,
+  "not_exported_navigation_windows": 5037,
+  "empty_midpoint_windows": 1916,
+  "earlier_frame_windows_checked": 0,
+  "earlier_frame_windows_with_text": 0,
+  "pack_entries": 5013,
+  "reviewed_earlier_frames": 0,
+  "latest_reviewed_timestamp": 9788.5,
+  "navigation_scan_complete": null,
+  "continuous_scan_candidates": 7640,
+  "continuous_scan_complete": true,
+  "candidate_review_complete": true,
+  "unresolved_source_issues": [
+    "s06-00140000",
+    "s06-00182500",
+    "s06-00187500",
+    "s06-00202500",
+    "s06-00206000",
+    "s06-00411500",
+    "s06-00418500",
+    "s06-00422000",
+    "s06-00467000",
+    "s06-01680500",
+    "s06-02169500",
+    "s06-05607500",
+    "s06-08100500",
+    "s06-08327500"
+  ],
+  "coverage_verified": false,
+  "timing_verified": false,
+  "ambiguous_primary_records": [],
+  "directly_ambiguous_primary_records": [],
+  "blocked_fallback_primary_records": [],
+  "omitted_ambiguous_keys": [
+    {
+      "english_key": "raul",
+      "alternatives": [
+        [
+          "s06-00073500",
+          "Nicole: Raul!"
+        ],
+        [
+          "s06-02511000",
+          "Karim: Raul."
+        ]
+      ]
+    },
+    {
+      "english_key": "let s go",
+      "alternatives": [
+        [
+          "s06-00126000",
+          "Lucia: Hadi gidelim."
+        ],
+        [
+          "s06-06761000",
+          "Felipe: Hadi gidelim!"
+        ],
+        [
+          "s06-06804500",
+          "Jason: Gidelim."
+        ],
+        [
+          "s06-07721000",
+          "Raul: Hadi gidelim."
+        ]
+      ]
+    },
+    {
+      "english_key": "mm hmm",
+      "alternatives": [
+        [
+          "s06-00234000",
+          "Lucia: Hı hı."
+        ],
+        [
+          "s06-00287000",
+          "Jason: Hı hı."
+        ],
+        [
+          "s06-02412500",
+          "Andrea: Hı hı."
+        ]
+      ]
+    },
+    {
+      "english_key": "copy that",
+      "alternatives": [
+        [
+          "s06-00272500",
+          "Jason: Anlaşıldı."
+        ],
+        [
+          "s06-06077000",
+          "Merkez: Anlaşıldı."
+        ]
+      ]
+    },
+    {
+      "english_key": "got it",
+      "alternatives": [
+        [
+          "s06-00282500",
+          "Jason: Anladım."
+        ],
+        [
+          "s06-06693500",
+          "Lucia: Anlaşıldı."
+        ]
+      ]
+    },
+    {
+      "english_key": "yup",
+      "alternatives": [
+        [
+          "s06-00310000",
+          "Lucia: Aynen."
+        ],
+        [
+          "s06-05688500",
+          "Jason: Evet."
+        ]
+      ]
+    },
+    {
+      "english_key": "thanks",
+      "alternatives": [
+        [
+          "s06-00311500",
+          "Lucia: Sağ olun."
+        ],
+        [
+          "s06-00464500",
+          "Jason: Sağ ol."
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah yeah",
+      "alternatives": [
+        [
+          "s06-00346500",
+          "Jason: He, he."
+        ],
+        [
+          "s06-02520000",
+          "Karim: Evet, evet."
+        ],
+        [
+          "s06-07561500",
+          "Lucia: Evet, evet."
+        ]
+      ]
+    },
+    {
+      "english_key": "damn",
+      "alternatives": [
+        [
+          "s06-00357500",
+          "Güvenlik görevlisi: Vay anasını!"
+        ],
+        [
+          "s06-00752000",
+          "Lucia: Kahretsin!"
+        ],
+        [
+          "s06-06548500",
+          "Jason: Vay be."
+        ]
+      ]
+    },
+    {
+      "english_key": "what",
+      "alternatives": [
+        [
+          "s06-00394500",
+          "Lucia: Ne?"
+        ],
+        [
+          "s06-02414500",
+          "Andrea: Ne?"
+        ],
+        [
+          "s06-04071500",
+          "Mia: Ne?"
+        ],
+        [
+          "s06-05309500",
+          "Jason: Ne?"
+        ]
+      ]
+    },
+    {
+      "english_key": "fuck",
+      "alternatives": [
+        [
+          "s06-00404500",
+          "Jason: Siktir."
+        ],
+        [
+          "s06-00698500",
+          "Lucia: Siktir."
+        ],
+        [
+          "s06-02785500",
+          "Monty: Siktir..."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh",
+      "alternatives": [
+        [
+          "s06-00416000",
+          "Lucia: Aa."
+        ],
+        [
+          "s06-01973000",
+          "Andrea: Ah..."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh shit",
+      "alternatives": [
+        [
+          "s06-00553500",
+          "Jason: Ah, siktir."
+        ],
+        [
+          "s06-00620000",
+          "Gil: Ah, siktir!"
+        ],
+        [
+          "s06-00759000",
+          "Lucia: Ah, siktir!"
+        ],
+        [
+          "s06-04002000",
+          "Mia: Ah, siktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "c mon",
+      "alternatives": [
+        [
+          "s06-00635000",
+          "Lucia: Hadi."
+        ],
+        [
+          "s06-06526500",
+          "Jason: Hadi."
+        ]
+      ]
+    },
+    {
+      "english_key": "go go go",
+      "alternatives": [
+        [
+          "s06-00654500",
+          "Jason: Bas, bas, bas."
+        ],
+        [
+          "s06-02362500",
+          "Andrea: Bas, bas, bas!"
+        ]
+      ]
+    },
+    {
+      "english_key": "shit",
+      "alternatives": [
+        [
+          "s06-00655500",
+          "Lucia: Siktir."
+        ],
+        [
+          "s06-02196500",
+          "Kartel üyesi: Siktir!"
+        ],
+        [
+          "s06-06158000",
+          "Jason: Siktir!"
+        ],
+        [
+          "s06-07268000",
+          "Lex: Siktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "left",
+      "alternatives": [
+        [
+          "s06-00680000",
+          "Lucia: Sola mı?"
+        ],
+        [
+          "s06-00680500",
+          "Jason: Sola."
+        ]
+      ]
+    },
+    {
+      "english_key": "okay",
+      "alternatives": [
+        [
+          "s06-00784500",
+          "Lucia: Tamam."
+        ],
+        [
+          "s06-02029500",
+          "Andrea: Tamam..."
+        ],
+        [
+          "s06-02357500",
+          "Andrea: Tamam..."
+        ],
+        [
+          "s06-03337000",
+          "Mia: Tamam."
+        ],
+        [
+          "s06-03819500",
+          "Terro: Tamam."
+        ],
+        [
+          "s06-04614500",
+          "Karim: Tamam,"
+        ],
+        [
+          "s06-07169000",
+          "Nicole: Tamam."
+        ],
+        [
+          "s06-07449000",
+          "Jason: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "no no no no no",
+      "alternatives": [
+        [
+          "s06-00803000",
+          "Lucia: Hayır, hayır, hayır, hayır, hayır."
+        ],
+        [
+          "s06-08960500",
+          "Yolcu: Hayır... Hayır!\nHayır! Hayır... Hayır."
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah",
+      "alternatives": [
+        [
+          "s06-00899000",
+          "Nicole: Evet."
+        ],
+        [
+          "s06-01879000",
+          "Andrea: Evet."
+        ],
+        [
+          "s06-02403500",
+          "Lucia: Evet..."
+        ],
+        [
+          "s06-04497500",
+          "Jason: Evet."
+        ],
+        [
+          "s06-05621500",
+          "San4San: Evet."
+        ]
+      ]
+    },
+    {
+      "english_key": "alright",
+      "alternatives": [
+        [
+          "s06-00949500",
+          "Nicole: Tamam."
+        ],
+        [
+          "s06-02658000",
+          "Raul: Pekâlâ."
+        ],
+        [
+          "s06-04015500",
+          "Lucia: Tamam."
+        ],
+        [
+          "s06-04658500",
+          "Jason: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "hmm",
+      "alternatives": [
+        [
+          "s06-01102500",
+          "Lucia: Hımm?"
+        ],
+        [
+          "s06-04261500",
+          "Karim: Hım..."
+        ]
+      ]
+    },
+    {
+      "english_key": "hey",
+      "alternatives": [
+        [
+          "s06-01173500",
+          "Roxy: Selam."
+        ],
+        [
+          "s06-04231000",
+          "Jason: Selam."
+        ],
+        [
+          "s06-04515000",
+          "Lucia: Hey!"
+        ]
+      ]
+    },
+    {
+      "english_key": "what s up",
+      "alternatives": [
+        [
+          "s06-01208500",
+          "Jason: Naber?"
+        ],
+        [
+          "s06-04564500",
+          "Lucia: Ne oldu?"
+        ],
+        [
+          "s06-06618500",
+          "Karim: N'aber?"
+        ]
+      ]
+    },
+    {
+      "english_key": "eh",
+      "alternatives": [
+        [
+          "s06-01214500",
+          "Jason: Ee..."
+        ],
+        [
+          "s06-02119500",
+          "Monty: Eh."
+        ]
+      ]
+    },
+    {
+      "english_key": "ready",
+      "alternatives": [
+        [
+          "s06-01424000",
+          "Bae-Luxe: Hazır mısın?"
+        ],
+        [
+          "s06-07580500",
+          "Lucia: Hazırım."
+        ]
+      ]
+    },
+    {
+      "english_key": "great",
+      "alternatives": [
+        [
+          "s06-01592500",
+          "Lucia: Harika."
+        ],
+        [
+          "s06-07879000",
+          "Jason: Harika."
+        ]
+      ]
+    },
+    {
+      "english_key": "shh",
+      "alternatives": [
+        [
+          "s06-01639000",
+          "Bae-Luxe: Şşş!"
+        ],
+        [
+          "s06-07833000",
+          "Lucia: Şşt!"
+        ]
+      ]
+    },
+    {
+      "english_key": "uh huh",
+      "alternatives": [
+        [
+          "s06-01883500",
+          "Andrea: Hı hı."
+        ],
+        [
+          "s06-02142000",
+          "Lucia: Hı hı!"
+        ],
+        [
+          "s06-05529000",
+          "Jason: Hı hı."
+        ]
+      ]
+    },
+    {
+      "english_key": "nah",
+      "alternatives": [
+        [
+          "s06-01980500",
+          "Monty: Yok."
+        ],
+        [
+          "s06-09702500",
+          "Lucia: Yok."
+        ]
+      ]
+    },
+    {
+      "english_key": "woo",
+      "alternatives": [
+        [
+          "s06-02157000",
+          "Monterossa: Vuhuu!"
+        ],
+        [
+          "s06-05332000",
+          "Boobie: Vuhuu!"
+        ],
+        [
+          "s06-08873500",
+          "Lucia: Vuhuu!"
+        ]
+      ]
+    },
+    {
+      "english_key": "what the fuck",
+      "alternatives": [
+        [
+          "s06-02173000",
+          "Lucia: Ne oluyor lan?"
+        ],
+        [
+          "s06-03109000",
+          "Mia: Ne oluyor lan..."
+        ]
+      ]
+    },
+    {
+      "english_key": "you good",
+      "alternatives": [
+        [
+          "s06-02188000",
+          "Lucia: İyi misin?"
+        ],
+        [
+          "s06-07578500",
+          "Nicole: Tamam mısın?"
+        ]
+      ]
+    },
+    {
+      "english_key": "no",
+      "alternatives": [
+        [
+          "s06-02420500",
+          "Lucia: Hayır..."
+        ],
+        [
+          "s06-03744500",
+          "Terro: Hayır."
+        ],
+        [
+          "s06-05609000",
+          "Jason: Hayır."
+        ]
+      ]
+    },
+    {
+      "english_key": "on it",
+      "alternatives": [
+        [
+          "s06-02510500",
+          "Jason: Hallediyorum."
+        ],
+        [
+          "s06-05914500",
+          "Lucia: Tamamdır."
+        ]
+      ]
+    },
+    {
+      "english_key": "nice",
+      "alternatives": [
+        [
+          "s06-02669000",
+          "Raul: Güzel."
+        ],
+        [
+          "s06-03596500",
+          "Terro: Güzel."
+        ]
+      ]
+    },
+    {
+      "english_key": "yo what the fuck",
+      "alternatives": [
+        [
+          "s06-03230000",
+          "Viper: Hey, ne oluyor lan?"
+        ],
+        [
+          "s06-05603500",
+          "San4San: Hey, ne oluyor lan?"
+        ]
+      ]
+    },
+    {
+      "english_key": "in spanish let s go",
+      "alternatives": [
+        [
+          "s06-03336000",
+          "Terro: İspanyolca: Gidelim."
+        ],
+        [
+          "s06-06652000",
+          "Felipe: İspanyolca: Hadi bakalım."
+        ]
+      ]
+    },
+    {
+      "english_key": "in spanish son of a bitch",
+      "alternatives": [
+        [
+          "s06-03777000",
+          "Terro: İspanyolca: Orospu çocuğu..."
+        ],
+        [
+          "s06-04000000",
+          "Mia: İspanyolca: Orospu çocuğu."
+        ]
+      ]
+    },
+    {
+      "english_key": "huh",
+      "alternatives": [
+        [
+          "s06-04030000",
+          "Mia: Ha?"
+        ],
+        [
+          "s06-05300500",
+          "Lucia: Hah."
+        ]
+      ]
+    },
+    {
+      "english_key": "ah shit",
+      "alternatives": [
+        [
+          "s06-04097500",
+          "Mia: Ah, siktir."
+        ],
+        [
+          "s06-04563000",
+          "Karim: Ah, siktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "yo",
+      "alternatives": [
+        [
+          "s06-04279500",
+          "Karim: Hey!"
+        ],
+        [
+          "s06-05644000",
+          "San4San: Hey."
+        ]
+      ]
+    },
+    {
+      "english_key": "there",
+      "alternatives": [
+        [
+          "s06-04625000",
+          "Karim: Şurada."
+        ],
+        [
+          "s06-07274500",
+          "Lex: Al işte."
+        ]
+      ]
+    },
+    {
+      "english_key": "good",
+      "alternatives": [
+        [
+          "s06-04867000",
+          "Raul: Güzel."
+        ],
+        [
+          "s06-07166500",
+          "Karim: Güzel."
+        ],
+        [
+          "s06-07527000",
+          "Nicole: Güzel."
+        ]
+      ]
+    },
+    {
+      "english_key": "yep",
+      "alternatives": [
+        [
+          "s06-05416500",
+          "Jason: Evet."
+        ],
+        [
+          "s06-07519500",
+          "Lucia: Evet."
+        ]
+      ]
+    },
+    {
+      "english_key": "good times",
+      "alternatives": [
+        [
+          "s06-05419000",
+          "Boobie: Güzel günlerdi..."
+        ],
+        [
+          "s06-06685500",
+          "Nicole: Eğleniriz artık."
+        ]
+      ]
+    },
+    {
+      "english_key": "nobody fuckin move",
+      "alternatives": [
+        [
+          "s06-07069000",
+          "Lucia: Kimse kıpırdamasın lan!"
+        ],
+        [
+          "s06-07072000",
+          "Jason: Kimse kıpırdamasın lan!"
+        ]
+      ]
+    },
+    {
+      "english_key": "go",
+      "alternatives": [
+        [
+          "s06-07092500",
+          "Lucia: Yürüyün!"
+        ],
+        [
+          "s06-07102000",
+          "Jason: Yürü!"
+        ]
+      ]
+    },
+    {
+      "english_key": "oh fuck",
+      "alternatives": [
+        [
+          "s06-08668000",
+          "Lucia: Hassiktir."
+        ],
+        [
+          "s06-08982500",
+          "Yolcu: Hassiktir!"
+        ]
+      ]
+    }
+  ],
+  "complete": true,
+  "speaker_color_label_occurrences": 2770,
+  "speaker_color_measured_occurrences": 2757,
+  "speaker_color_visually_identified_occurrences": 13,
+  "speaker_color_unresolved_occurrences": 0
+}

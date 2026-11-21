@@ -1,0 +1,1196 @@
+{
+  "reviewed_groups": 295,
+  "reviewed_occurrences": 830,
+  "decisions": [
+    {
+      "id": "r00002",
+      "consistent": true
+    },
+    {
+      "id": "r00039",
+      "consistent": true
+    },
+    {
+      "id": "r00051",
+      "consistent": true
+    },
+    {
+      "id": "r00071",
+      "consistent": true
+    },
+    {
+      "id": "r00072",
+      "consistent": true
+    },
+    {
+      "id": "r00088",
+      "consistent": true
+    },
+    {
+      "id": "r00094",
+      "consistent": true
+    },
+    {
+      "id": "r00118",
+      "consistent": true
+    },
+    {
+      "id": "r00123",
+      "consistent": true
+    },
+    {
+      "id": "r00124",
+      "consistent": true
+    },
+    {
+      "id": "r00149",
+      "consistent": true
+    },
+    {
+      "id": "r00178",
+      "consistent": true
+    },
+    {
+      "id": "r00182",
+      "consistent": true
+    },
+    {
+      "id": "r00189",
+      "consistent": true
+    },
+    {
+      "id": "r00190",
+      "consistent": true
+    },
+    {
+      "id": "r00214",
+      "consistent": true
+    },
+    {
+      "id": "r00215",
+      "consistent": true
+    },
+    {
+      "id": "r00221",
+      "consistent": true
+    },
+    {
+      "id": "r00240",
+      "consistent": true
+    },
+    {
+      "id": "r00336",
+      "consistent": true
+    },
+    {
+      "id": "r00337",
+      "consistent": true
+    },
+    {
+      "id": "r00347",
+      "consistent": true
+    },
+    {
+      "id": "r00348",
+      "consistent": true
+    },
+    {
+      "id": "r00357",
+      "consistent": true
+    },
+    {
+      "id": "r00360",
+      "consistent": true
+    },
+    {
+      "id": "r00372",
+      "consistent": true
+    },
+    {
+      "id": "r00373",
+      "consistent": true
+    },
+    {
+      "id": "r00387",
+      "consistent": true
+    },
+    {
+      "id": "r00388",
+      "consistent": true
+    },
+    {
+      "id": "r00394",
+      "consistent": true
+    },
+    {
+      "id": "r00395",
+      "consistent": true
+    },
+    {
+      "id": "r00405",
+      "consistent": true
+    },
+    {
+      "id": "r00406",
+      "consistent": true
+    },
+    {
+      "id": "r00435",
+      "consistent": true
+    },
+    {
+      "id": "r00453",
+      "consistent": true
+    },
+    {
+      "id": "r00454",
+      "consistent": true
+    },
+    {
+      "id": "r00467",
+      "consistent": true
+    },
+    {
+      "id": "r00468",
+      "consistent": true
+    },
+    {
+      "id": "r00482",
+      "consistent": true
+    },
+    {
+      "id": "r00483",
+      "consistent": true
+    },
+    {
+      "id": "r00484",
+      "consistent": true
+    },
+    {
+      "id": "r00532",
+      "consistent": true
+    },
+    {
+      "id": "r00533",
+      "consistent": true
+    },
+    {
+      "id": "r00545",
+      "consistent": true
+    },
+    {
+      "id": "r00546",
+      "consistent": true
+    },
+    {
+      "id": "r00555",
+      "consistent": true
+    },
+    {
+      "id": "r00559",
+      "consistent": true
+    },
+    {
+      "id": "r00582",
+      "consistent": true
+    },
+    {
+      "id": "r00584",
+      "consistent": true
+    },
+    {
+      "id": "r00606",
+      "consistent": true
+    },
+    {
+      "id": "r00674",
+      "consistent": true
+    },
+    {
+      "id": "r00688",
+      "consistent": true
+    },
+    {
+      "id": "r00689",
+      "consistent": true
+    },
+    {
+      "id": "r00695",
+      "consistent": true
+    },
+    {
+      "id": "r00696",
+      "consistent": true
+    },
+    {
+      "id": "r00703",
+      "consistent": true
+    },
+    {
+      "id": "r00704",
+      "consistent": true
+    },
+    {
+      "id": "r00718",
+      "consistent": true
+    },
+    {
+      "id": "r00729",
+      "consistent": true
+    },
+    {
+      "id": "r00730",
+      "consistent": true
+    },
+    {
+      "id": "r00732",
+      "consistent": true
+    },
+    {
+      "id": "r00752",
+      "consistent": true
+    },
+    {
+      "id": "r00764",
+      "consistent": true
+    },
+    {
+      "id": "r00772",
+      "consistent": true
+    },
+    {
+      "id": "r00773",
+      "consistent": true
+    },
+    {
+      "id": "r00784",
+      "consistent": true
+    },
+    {
+      "id": "r00809",
+      "consistent": true
+    },
+    {
+      "id": "r00810",
+      "consistent": true
+    },
+    {
+      "id": "r00845",
+      "consistent": true
+    },
+    {
+      "id": "r00855",
+      "consistent": true
+    },
+    {
+      "id": "r00856",
+      "consistent": true
+    },
+    {
+      "id": "r00857",
+      "consistent": true
+    },
+    {
+      "id": "r00861",
+      "consistent": true
+    },
+    {
+      "id": "r00867",
+      "consistent": true
+    },
+    {
+      "id": "r00895",
+      "consistent": true
+    },
+    {
+      "id": "r00898",
+      "consistent": true
+    },
+    {
+      "id": "r00899",
+      "consistent": true
+    },
+    {
+      "id": "r00900",
+      "consistent": true
+    },
+    {
+      "id": "r00901",
+      "consistent": true
+    },
+    {
+      "id": "r00904",
+      "consistent": true
+    },
+    {
+      "id": "r00905",
+      "consistent": true
+    },
+    {
+      "id": "r00921",
+      "consistent": true
+    },
+    {
+      "id": "r00954",
+      "consistent": true
+    },
+    {
+      "id": "r00959",
+      "consistent": true
+    },
+    {
+      "id": "r00961",
+      "consistent": true
+    },
+    {
+      "id": "r00962",
+      "consistent": true
+    },
+    {
+      "id": "r00963",
+      "consistent": true
+    },
+    {
+      "id": "r00994",
+      "consistent": true
+    },
+    {
+      "id": "r01011",
+      "consistent": true
+    },
+    {
+      "id": "r01021",
+      "consistent": true
+    },
+    {
+      "id": "r01022",
+      "consistent": true
+    },
+    {
+      "id": "r01023",
+      "consistent": true
+    },
+    {
+      "id": "r01026",
+      "consistent": true
+    },
+    {
+      "id": "r01057",
+      "consistent": true
+    },
+    {
+      "id": "r01064",
+      "consistent": true
+    },
+    {
+      "id": "r01074",
+      "consistent": true
+    },
+    {
+      "id": "r01075",
+      "consistent": true
+    },
+    {
+      "id": "r01144",
+      "consistent": true
+    },
+    {
+      "id": "r01145",
+      "consistent": true
+    },
+    {
+      "id": "r01201",
+      "consistent": true
+    },
+    {
+      "id": "r01202",
+      "consistent": true
+    },
+    {
+      "id": "r01224",
+      "consistent": true
+    },
+    {
+      "id": "r01230",
+      "consistent": true
+    },
+    {
+      "id": "r01231",
+      "consistent": true
+    },
+    {
+      "id": "r01239",
+      "consistent": true
+    },
+    {
+      "id": "r01265",
+      "consistent": true
+    },
+    {
+      "id": "r01268",
+      "consistent": true
+    },
+    {
+      "id": "r01290",
+      "consistent": true
+    },
+    {
+      "id": "r01291",
+      "consistent": true
+    },
+    {
+      "id": "r01316",
+      "consistent": true
+    },
+    {
+      "id": "r01317",
+      "consistent": true
+    },
+    {
+      "id": "r01403",
+      "consistent": true
+    },
+    {
+      "id": "r01410",
+      "consistent": true
+    },
+    {
+      "id": "r01423",
+      "consistent": true
+    },
+    {
+      "id": "r01429",
+      "consistent": true
+    },
+    {
+      "id": "r01511",
+      "consistent": true
+    },
+    {
+      "id": "r01512",
+      "consistent": true
+    },
+    {
+      "id": "r01516",
+      "consistent": true
+    },
+    {
+      "id": "r01525",
+      "consistent": true
+    },
+    {
+      "id": "r01575",
+      "consistent": true
+    },
+    {
+      "id": "r01590",
+      "consistent": true
+    },
+    {
+      "id": "r01600",
+      "consistent": true
+    },
+    {
+      "id": "r01611",
+      "consistent": true
+    },
+    {
+      "id": "r01645",
+      "consistent": true
+    },
+    {
+      "id": "r01646",
+      "consistent": true
+    },
+    {
+      "id": "r01705",
+      "consistent": true
+    },
+    {
+      "id": "r01778",
+      "consistent": true
+    },
+    {
+      "id": "r01787",
+      "consistent": true
+    },
+    {
+      "id": "r01788",
+      "consistent": true
+    },
+    {
+      "id": "r01789",
+      "consistent": true
+    },
+    {
+      "id": "r01896",
+      "consistent": true
+    },
+    {
+      "id": "r01903",
+      "consistent": true
+    },
+    {
+      "id": "r01923",
+      "consistent": true
+    },
+    {
+      "id": "r02088",
+      "consistent": true
+    },
+    {
+      "id": "r02185",
+      "consistent": true
+    },
+    {
+      "id": "r02196",
+      "consistent": true
+    },
+    {
+      "id": "r02239",
+      "consistent": true
+    },
+    {
+      "id": "r02240",
+      "consistent": true
+    },
+    {
+      "id": "r02253",
+      "consistent": true
+    },
+    {
+      "id": "r02336",
+      "consistent": true
+    },
+    {
+      "id": "r02362",
+      "consistent": true
+    },
+    {
+      "id": "r02363",
+      "consistent": true
+    },
+    {
+      "id": "r02391",
+      "consistent": true
+    },
+    {
+      "id": "r02432",
+      "consistent": true
+    },
+    {
+      "id": "r02439",
+      "consistent": true
+    },
+    {
+      "id": "r02443",
+      "consistent": true
+    },
+    {
+      "id": "r02484",
+      "consistent": true
+    },
+    {
+      "id": "r02488",
+      "consistent": true
+    },
+    {
+      "id": "r02526",
+      "consistent": true
+    },
+    {
+      "id": "r02527",
+      "consistent": true
+    },
+    {
+      "id": "r02579",
+      "consistent": true
+    },
+    {
+      "id": "r02608",
+      "consistent": true
+    },
+    {
+      "id": "r02611",
+      "consistent": true
+    },
+    {
+      "id": "r02664",
+      "consistent": true
+    },
+    {
+      "id": "r02665",
+      "consistent": true
+    },
+    {
+      "id": "r02770",
+      "consistent": true
+    },
+    {
+      "id": "r02783",
+      "consistent": true
+    },
+    {
+      "id": "r02804",
+      "consistent": true
+    },
+    {
+      "id": "r02845",
+      "consistent": true
+    },
+    {
+      "id": "r02857",
+      "consistent": true
+    },
+    {
+      "id": "r02891",
+      "consistent": true
+    },
+    {
+      "id": "r02965",
+      "consistent": true
+    },
+    {
+      "id": "r02971",
+      "consistent": true
+    },
+    {
+      "id": "r03002",
+      "consistent": true
+    },
+    {
+      "id": "r03068",
+      "consistent": true
+    },
+    {
+      "id": "r03157",
+      "consistent": true
+    },
+    {
+      "id": "r03192",
+      "consistent": true
+    },
+    {
+      "id": "r03193",
+      "consistent": true
+    },
+    {
+      "id": "r03195",
+      "consistent": true
+    },
+    {
+      "id": "r03198",
+      "consistent": true
+    },
+    {
+      "id": "r03203",
+      "consistent": true
+    },
+    {
+      "id": "r03206",
+      "consistent": true
+    },
+    {
+      "id": "r03210",
+      "consistent": true
+    },
+    {
+      "id": "r03234",
+      "consistent": true
+    },
+    {
+      "id": "r03250",
+      "consistent": true
+    },
+    {
+      "id": "r03253",
+      "consistent": true
+    },
+    {
+      "id": "r03274",
+      "consistent": true
+    },
+    {
+      "id": "r03346",
+      "consistent": true
+    },
+    {
+      "id": "r03367",
+      "consistent": true
+    },
+    {
+      "id": "r03491",
+      "consistent": true
+    },
+    {
+      "id": "r03492",
+      "consistent": true
+    },
+    {
+      "id": "r03528",
+      "consistent": true
+    },
+    {
+      "id": "r03529",
+      "consistent": true
+    },
+    {
+      "id": "r03532",
+      "consistent": true
+    },
+    {
+      "id": "r03548",
+      "consistent": true
+    },
+    {
+      "id": "r03577",
+      "consistent": true
+    },
+    {
+      "id": "r03635",
+      "consistent": true
+    },
+    {
+      "id": "r03687",
+      "consistent": true
+    },
+    {
+      "id": "r03689",
+      "consistent": true
+    },
+    {
+      "id": "r03702",
+      "consistent": true
+    },
+    {
+      "id": "r03713",
+      "consistent": true
+    },
+    {
+      "id": "r03890",
+      "consistent": true
+    },
+    {
+      "id": "r03972",
+      "consistent": true
+    },
+    {
+      "id": "r04019",
+      "consistent": true
+    },
+    {
+      "id": "r04022",
+      "consistent": true
+    },
+    {
+      "id": "r04028",
+      "consistent": true
+    },
+    {
+      "id": "r04093",
+      "consistent": true
+    },
+    {
+      "id": "r04195",
+      "consistent": true
+    },
+    {
+      "id": "r04197",
+      "consistent": true
+    },
+    {
+      "id": "r04211",
+      "consistent": true
+    },
+    {
+      "id": "r04216",
+      "consistent": true
+    },
+    {
+      "id": "r04260",
+      "consistent": true
+    },
+    {
+      "id": "r04286",
+      "consistent": true
+    },
+    {
+      "id": "r04427",
+      "consistent": true
+    },
+    {
+      "id": "r04453",
+      "consistent": true
+    },
+    {
+      "id": "r04458",
+      "consistent": true
+    },
+    {
+      "id": "r04553",
+      "consistent": true
+    },
+    {
+      "id": "r04562",
+      "consistent": true
+    },
+    {
+      "id": "r04682",
+      "consistent": true
+    },
+    {
+      "id": "r04700",
+      "consistent": true
+    },
+    {
+      "id": "r04703",
+      "consistent": true
+    },
+    {
+      "id": "r04755",
+      "consistent": true
+    },
+    {
+      "id": "r04767",
+      "consistent": true
+    },
+    {
+      "id": "r04947",
+      "consistent": true
+    },
+    {
+      "id": "r04959",
+      "consistent": true
+    },
+    {
+      "id": "r05002",
+      "consistent": true
+    },
+    {
+      "id": "r05168",
+      "consistent": true
+    },
+    {
+      "id": "r05177",
+      "consistent": true
+    },
+    {
+      "id": "r05197",
+      "consistent": true
+    },
+    {
+      "id": "r05308",
+      "consistent": true
+    },
+    {
+      "id": "r05358",
+      "consistent": true
+    },
+    {
+      "id": "r05366",
+      "consistent": true
+    },
+    {
+      "id": "r05368",
+      "consistent": true
+    },
+    {
+      "id": "r05369",
+      "consistent": true
+    },
+    {
+      "id": "r05377",
+      "consistent": true
+    },
+    {
+      "id": "r05379",
+      "consistent": true
+    },
+    {
+      "id": "r05380",
+      "consistent": true
+    },
+    {
+      "id": "r05387",
+      "consistent": true
+    },
+    {
+      "id": "r05388",
+      "consistent": true
+    },
+    {
+      "id": "r05392",
+      "consistent": true
+    },
+    {
+      "id": "r05393",
+      "consistent": true
+    },
+    {
+      "id": "r05396",
+      "consistent": true
+    },
+    {
+      "id": "r05408",
+      "consistent": true
+    },
+    {
+      "id": "r05410",
+      "consistent": true
+    },
+    {
+      "id": "r05417",
+      "consistent": true
+    },
+    {
+      "id": "r05425",
+      "consistent": true
+    },
+    {
+      "id": "r05427",
+      "consistent": true
+    },
+    {
+      "id": "r05431",
+      "consistent": true
+    },
+    {
+      "id": "r05436",
+      "consistent": true
+    },
+    {
+      "id": "r05438",
+      "consistent": true
+    },
+    {
+      "id": "r05440",
+      "consistent": true
+    },
+    {
+      "id": "r05441",
+      "consistent": true
+    },
+    {
+      "id": "r05452",
+      "consistent": true
+    },
+    {
+      "id": "r05461",
+      "consistent": true
+    },
+    {
+      "id": "r05462",
+      "consistent": true
+    },
+    {
+      "id": "r05466",
+      "consistent": true
+    },
+    {
+      "id": "r05468",
+      "consistent": true
+    },
+    {
+      "id": "r05471",
+      "consistent": true
+    },
+    {
+      "id": "r05479",
+      "consistent": true
+    },
+    {
+      "id": "r05482",
+      "consistent": true
+    },
+    {
+      "id": "r05494",
+      "consistent": true
+    },
+    {
+      "id": "r05509",
+      "consistent": true
+    },
+    {
+      "id": "r05523",
+      "consistent": true
+    },
+    {
+      "id": "r05525",
+      "consistent": true
+    },
+    {
+      "id": "r05539",
+      "consistent": true
+    },
+    {
+      "id": "r05544",
+      "consistent": true
+    },
+    {
+      "id": "r05550",
+      "consistent": true
+    },
+    {
+      "id": "r05552",
+      "consistent": true
+    },
+    {
+      "id": "r05555",
+      "consistent": true
+    },
+    {
+      "id": "r05572",
+      "consistent": true
+    },
+    {
+      "id": "r05573",
+      "consistent": true
+    },
+    {
+      "id": "r05574",
+      "consistent": true
+    },
+    {
+      "id": "r05576",
+      "consistent": true
+    },
+    {
+      "id": "r05578",
+      "consistent": true
+    },
+    {
+      "id": "r05592",
+      "consistent": true
+    },
+    {
+      "id": "r05599",
+      "consistent": true
+    },
+    {
+      "id": "r05605",
+      "consistent": true
+    },
+    {
+      "id": "r05610",
+      "consistent": true
+    },
+    {
+      "id": "r05617",
+      "consistent": true
+    },
+    {
+      "id": "r05620",
+      "consistent": true
+    },
+    {
+      "id": "r05622",
+      "consistent": true
+    },
+    {
+      "id": "r05654",
+      "consistent": true
+    },
+    {
+      "id": "r05664",
+      "consistent": true
+    },
+    {
+      "id": "r05678",
+      "consistent": true
+    },
+    {
+      "id": "r05680",
+      "consistent": true
+    },
+    {
+      "id": "r05684",
+      "consistent": true
+    },
+    {
+      "id": "r05695",
+      "consistent": true
+    },
+    {
+      "id": "r05717",
+      "consistent": true
+    },
+    {
+      "id": "r05724",
+      "consistent": true
+    },
+    {
+      "id": "r05727",
+      "consistent": true
+    },
+    {
+      "id": "r05728",
+      "consistent": true
+    },
+    {
+      "id": "r05732",
+      "consistent": true
+    },
+    {
+      "id": "r05755",
+      "consistent": true
+    },
+    {
+      "id": "r05803",
+      "consistent": true
+    },
+    {
+      "id": "r05833",
+      "consistent": true
+    },
+    {
+      "id": "r05844",
+      "consistent": true
+    },
+    {
+      "id": "r05847",
+      "consistent": true
+    },
+    {
+      "id": "r05864",
+      "consistent": false,
+      "note": "Selam Jasonın telefon açılışında uygun; Jason Karim? diye seslendiğinde Karimin yanıtı Efendim olmalı. Root istisnasıyla uyumlu."
+    },
+    {
+      "id": "r05877",
+      "consistent": true
+    },
+    {
+      "id": "r05889",
+      "consistent": true
+    },
+    {
+      "id": "r05917",
+      "consistent": true
+    },
+    {
+      "id": "r05947",
+      "consistent": true
+    },
+    {
+      "id": "r05955",
+      "consistent": true
+    },
+    {
+      "id": "r05985",
+      "consistent": true
+    },
+    {
+      "id": "r05992",
+      "consistent": true
+    }
+  ],
+  "exceptions": [
+    {
+      "ref": "8:s08-07800500",
+      "unit": "r05864",
+      "choice": "new",
+      "translation": "Karim: Efendim.",
+      "note": "Jason Karim? diye sesleniyor; bu yanıt bir selamlama değil, seslenmeye karşılık. Root zaten aynı düzeltmeyi planlamış."
+    }
+  ]
+}

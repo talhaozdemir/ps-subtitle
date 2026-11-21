@@ -53,6 +53,8 @@ input, select {
 #pairingHelp, #trialHelp, #status, #discoveryStatus { color: #dad0d4; font-size: 18px; line-height: 1.4; margin: 15px 0 0; }
 #pairingHelp p { margin: 8px 0 0; }
 #status:empty { display: none; }
+#ocrRate { display: block; padding: 0; margin-bottom: 8px; }
+#ocrRateHelp { color: #dad0d4; font-size: 16px; line-height: 1.4; margin: 0 0 10px; }
 #status[data-error="true"], #discoveryStatus[data-error="true"] { color: #ffae9b; }
 #findPs5 { margin-top: 15px; }
 #discoveryStatus { margin: 0 0 8px; }
@@ -80,7 +82,7 @@ button:disabled { opacity: 0.47; }
   margin: auto;
   width: fit-content;
   max-width: 82%;
-  padding: 7px 14px;
+  padding: var(--subtitle-padding-y, 7px) var(--subtitle-padding-x, 14px);
   border-radius: 5px;
   background: var(--subtitle-background, rgba(0, 0, 0, 0.9));
   color: #fff;
@@ -173,7 +175,7 @@ button:disabled { opacity: 0.47; }
 .appearanceChoice, .appearanceLabel { display: flex; justify-content: space-between; }
 .appearanceChoice { width: 100%; margin: 0; }
 .appearanceChoice span, .appearanceLabel span:last-child { color: #fff3a8; }
-#appearanceEditor input[type="range"] { display: block; padding: 0; margin: 0 0 14px; }
+#appearanceEditor input[type="range"], #translationSimilarity { display: block; padding: 0; margin: 0 0 14px; }
 #appearanceEditor input:disabled, #appearanceEditor label[data-disabled="true"] { opacity: 0.47; }
 #appearanceEditor .actions { margin-top: 16px; }
 #appearanceEditor .actions button { margin-bottom: 0; }

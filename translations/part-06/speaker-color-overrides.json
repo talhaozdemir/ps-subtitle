@@ -1,0 +1,119 @@
+{
+  "s06-00084000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Turuncu / şeftali",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s06-00367000": {
+    "2": {
+      "status": "visually_identified",
+      "name_tr": "Turuncu / şeftali",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s06-00367500": {
+    "2": {
+      "status": "visually_identified",
+      "name_tr": "Turuncu / şeftali",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s06-00368000": {
+    "2": {
+      "status": "visually_identified",
+      "name_tr": "Turuncu / şeftali",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s06-00369000": {
+    "2": {
+      "status": "visually_identified",
+      "name_tr": "Turuncu / şeftali",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s06-03072000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Turkuaz / açık mavi",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s06-03344500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s06-03424000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Pembe",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s06-03451500": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Mor / lila",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s06-03483000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s06-04116000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Mor / lila",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s06-06655000": {
+    "0": {
+      "status": "visually_identified",
+      "name_tr": "Açık yeşil",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  },
+  "s06-07468500": {
+    "3": {
+      "status": "visually_identified",
+      "name_tr": "Turuncu / şeftali",
+      "hex": null,
+      "confidence": "visual",
+      "review_note": "Native source crop visually checked; colour family visible, exact hex not inferred."
+    }
+  }
+}

@@ -1,0 +1,941 @@
+{
+  "reviewed_cues": 2853,
+  "ocr_windows_available": 9236,
+  "not_exported_navigation_windows": 6383,
+  "empty_midpoint_windows": 3039,
+  "earlier_frame_windows_checked": 0,
+  "earlier_frame_windows_with_text": 0,
+  "pack_entries": 5571,
+  "reviewed_earlier_frames": 0,
+  "latest_reviewed_timestamp": 13240.0,
+  "navigation_scan_complete": null,
+  "continuous_scan_candidates": 9236,
+  "continuous_scan_complete": true,
+  "candidate_review_complete": true,
+  "unresolved_source_issues": [
+    {
+      "id": "s03-00461000",
+      "source_frame": "continuous/frames/s03-00461000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Méndez: [obscured] You're all exposed out here.",
+      "note": "Solid black source-video censor bar covers text directly after the speaker name. Caption omitted rather than inventing obscured source words."
+    },
+    {
+      "id": "s03-01167000",
+      "source_frame": "continuous/frames/s03-01167000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Gang Member: Unknown Language: Stupid [obscured]",
+      "note": "Source censor bar hides the word(s) after Stupid; not guessed or exported."
+    },
+    {
+      "id": "s03-03060500",
+      "source_frame": "continuous/frames/s03-03060500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Vicki: Crazy [obscured]",
+      "note": "Solid source-video censor bar covers word(s) after Crazy. Full caption omitted; hidden wording not guessed."
+    },
+    {
+      "id": "s03-03095500",
+      "source_frame": "continuous/frames/s03-03095500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Vicki: So you can [obscured] me, princess fucking perfect.",
+      "note": "Source-video censor bar covers verb phrase between can and me. Full caption omitted; hidden wording not guessed."
+    },
+    {
+      "id": "s03-04375500",
+      "related_source_ids": [
+        "s03-04374500"
+      ],
+      "source_frame": "continuous/frames/s03-04375500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Kolt & Associates: Just tryin' to shake us down,\nget you [obscured] sucked!",
+      "note": "Black source censor bar hides word(s) between you and sucked. Gang caption omitted; only separately readable Cop: Come on. retained from related overlap frame."
+    },
+    {
+      "id": "s03-05238500",
+      "related_source_ids": [],
+      "source_frame": "continuous/frames/s03-05238500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Addict: You gotta [obscured] on it, bro.",
+      "note": "Source-video black bars obscure words. Alternate frame reveals sucking in second clause but still obscures word(s) after Like; full caption omitted without guessing."
+    },
+    {
+      "id": "s03-05240500",
+      "related_source_ids": [
+        "s03-05241500"
+      ],
+      "source_frame": "continuous/frames/s03-05240500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Addict: Like, [obscured] you're not [obscured] hard enough!",
+      "note": "Source-video black bars obscure words. Alternate frame reveals sucking in second clause but still obscures word(s) after Like; full caption omitted without guessing."
+    },
+    {
+      "id": "s03-06496500",
+      "source_frame": "continuous/frames/s03-06496500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Dr. Bill: Today, it's this. Tomorrow,\nyou're giving [obscured] for a hit of rat poison.",
+      "note": "Black source-video censor bar obscures word(s) after giving. Full caption omitted without guessing."
+    },
+    {
+      "id": "s03-10885500",
+      "related_source_ids": [
+        "s03-10886500"
+      ],
+      "source_frame": "continuous/frames/s03-10885500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Security Guard: Stoner fuckin' [obscured]",
+      "note": "Solid black source-video censor bar hides end of Security Guard caption. Caption omitted without guessing; clean independent Billy reply retained from s03-10887500."
+    },
+    {
+      "id": "s03-12296000",
+      "source_frame": "continuous/frames/s03-12296000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Lucia: Oh, what happened to \"no more [obscured], hm?",
+      "note": "Solid black source-video censor bar obscures words within caption. Full affected caption omitted without guessing."
+    },
+    {
+      "id": "s03-12305500",
+      "source_frame": "continuous/frames/s03-12305500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Lucia: I just don't want someone' [obscured] my face when those\npsychos from the motel",
+      "note": "Solid black source-video censor bar obscures words within caption. Full affected caption omitted without guessing."
+    },
+    {
+      "id": "s03-13003500",
+      "source_frame": "continuous/frames/s03-13003500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Dre'Quan: \"Kiss my [obscured] and pucker\"?\nWatch the cadence, alright?",
+      "note": "Source-video black bar obscures words within caption. Entire affected caption omitted without guessing."
+    },
+    {
+      "id": "s03-13019500",
+      "source_frame": "continuous/frames/s03-13019500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Bae-Luxe: You know some of these hoes be payin' to get they [obscured]\nup.",
+      "note": "Source-video black bar obscures words within caption. Entire affected caption omitted without guessing."
+    },
+    {
+      "id": "s03-13050000",
+      "source_frame": "continuous/frames/s03-13050000.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "Jason: You want something raw? \"[obscured]\nyou know? That's pretty raw.",
+      "note": "Source-video black bar obscures words within caption. Entire affected caption omitted without guessing."
+    },
+    {
+      "id": "s03-13054500",
+      "source_frame": "continuous/frames/s03-13054500.jpg",
+      "status": "unresolved_source_censorship",
+      "visible_english": "[Fully obscured unheaded caption below separately readable Dre'Quan reply]",
+      "note": "Source-video black bar entirely hides lower unheaded caption. Hidden line omitted without guessing; independent fully readable Dre'Quan reply retained."
+    }
+  ],
+  "coverage_verified": false,
+  "timing_verified": false,
+  "ambiguous_primary_records": [],
+  "directly_ambiguous_primary_records": [],
+  "blocked_fallback_primary_records": [],
+  "omitted_ambiguous_keys": [
+    {
+      "english_key": "hey",
+      "alternatives": [
+        [
+          "s03-00011000",
+          "Jason: Selam."
+        ],
+        [
+          "s03-00011500",
+          "Lucia: Selam."
+        ],
+        [
+          "s03-01165000",
+          "Çete üyesi: Hey!"
+        ],
+        [
+          "s03-07045500",
+          "Dunk: Selam."
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah",
+      "alternatives": [
+        [
+          "s03-00017500",
+          "Lucia: Öyle mi?"
+        ],
+        [
+          "s03-02223500",
+          "Jason: Efendim?"
+        ]
+      ]
+    },
+    {
+      "english_key": "okay",
+      "alternatives": [
+        [
+          "s03-00051500",
+          "Lucia: Tamam."
+        ],
+        [
+          "s03-00374000",
+          "Polis: Tamam."
+        ],
+        [
+          "s03-01067500",
+          "Cal: Tamam."
+        ],
+        [
+          "s03-02459000",
+          "Jason: Tamam."
+        ],
+        [
+          "s03-06489000",
+          "Dr. Bill: Tamam..."
+        ],
+        [
+          "s03-06907500",
+          "Dunk: Tamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "come on in",
+      "alternatives": [
+        [
+          "s03-00086500",
+          "Jason: Gel içeri."
+        ],
+        [
+          "s03-03886000",
+          "Dunk: Gel içeri!"
+        ]
+      ]
+    },
+    {
+      "english_key": "mmhmm",
+      "alternatives": [
+        [
+          "s03-00209500",
+          "Lucia: Hı hı."
+        ],
+        [
+          "s03-09616000",
+          "Jason: Hı hı."
+        ]
+      ]
+    },
+    {
+      "english_key": "anything else",
+      "alternatives": [
+        [
+          "s03-00213500",
+          "Lucia: Başka?"
+        ],
+        [
+          "s03-02400000",
+          "Jason: Başka bir şey var mı?"
+        ]
+      ]
+    },
+    {
+      "english_key": "you got it",
+      "alternatives": [
+        [
+          "s03-00356500",
+          "Polis: Tamamdır."
+        ],
+        [
+          "s03-07277000",
+          "Dunk: Tamamdır!"
+        ]
+      ]
+    },
+    {
+      "english_key": "please",
+      "alternatives": [
+        [
+          "s03-00387000",
+          "Polis: Lütfen."
+        ],
+        [
+          "s03-00491000",
+          "Méndez: \"Lütfen\" mi?"
+        ]
+      ]
+    },
+    {
+      "english_key": "just go",
+      "alternatives": [
+        [
+          "s03-00502000",
+          "Galecki: Git artık."
+        ],
+        [
+          "s03-00825500",
+          "Jason: Sen git!"
+        ]
+      ]
+    },
+    {
+      "english_key": "no problem",
+      "alternatives": [
+        [
+          "s03-00509000",
+          "Méndez: Sorun yok."
+        ],
+        [
+          "s03-04392500",
+          "Polis: Sorun yok."
+        ]
+      ]
+    },
+    {
+      "english_key": "fuck",
+      "alternatives": [
+        [
+          "s03-00603000",
+          "Castro: Siktir!"
+        ],
+        [
+          "s03-00693500",
+          "Lucia: Siktir!"
+        ],
+        [
+          "s03-10861000",
+          "Güvenlik görevlisi: Siktir..."
+        ],
+        [
+          "s03-11728000",
+          "Jason: Siktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "shit",
+      "alternatives": [
+        [
+          "s03-00665500",
+          "Lucia: Siktir."
+        ],
+        [
+          "s03-01697000",
+          "Jason: Siktir."
+        ],
+        [
+          "s03-01927500",
+          "Mahalleli: Siktir!,"
+        ],
+        [
+          "s03-02003500",
+          "Polis: Siktir..."
+        ],
+        [
+          "s03-02049500",
+          "Çete üyesi: Siktir!"
+        ],
+        [
+          "s03-06156500",
+          "Dunk: Siktir..."
+        ]
+      ]
+    },
+    {
+      "english_key": "ah shit",
+      "alternatives": [
+        [
+          "s03-00706000",
+          "Jason: Ah, siktir!"
+        ],
+        [
+          "s03-00752500",
+          "Lucia: Ah, siktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "let s go",
+      "alternatives": [
+        [
+          "s03-00810500",
+          "Jason: Hadi gidelim!"
+        ],
+        [
+          "s03-08085000",
+          "Lucia: Hadi!"
+        ]
+      ]
+    },
+    {
+      "english_key": "ugh",
+      "alternatives": [
+        [
+          "s03-00821000",
+          "Jason: Ah!"
+        ],
+        [
+          "s03-01250000",
+          "Lucia: Ah!"
+        ]
+      ]
+    },
+    {
+      "english_key": "hello",
+      "alternatives": [
+        [
+          "s03-01022000",
+          "Cal: Alo?"
+        ],
+        [
+          "s03-05675000",
+          "Dunk: Alo?"
+        ],
+        [
+          "s03-11708000",
+          "Jason: Alo."
+        ],
+        [
+          "s03-12740500",
+          "Lucia: Merhaba?"
+        ]
+      ]
+    },
+    {
+      "english_key": "oh fuck",
+      "alternatives": [
+        [
+          "s03-01087000",
+          "Jason: Ah, siktir."
+        ],
+        [
+          "s03-01558500",
+          "Lucia: Ah, siktir."
+        ]
+      ]
+    },
+    {
+      "english_key": "lucia",
+      "alternatives": [
+        [
+          "s03-01257000",
+          "Andy: Lucia!"
+        ],
+        [
+          "s03-02246000",
+          "Jason: Lucia?"
+        ]
+      ]
+    },
+    {
+      "english_key": "come on",
+      "alternatives": [
+        [
+          "s03-01625500",
+          "Lucia: Hadi."
+        ],
+        [
+          "s03-04374500",
+          "Polis: Hadi."
+        ],
+        [
+          "s03-08156000",
+          "Sürücü: Yapmayın ya."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh shit",
+      "alternatives": [
+        [
+          "s03-01687000",
+          "Lucia: Ah, siktir!"
+        ],
+        [
+          "s03-03715000",
+          "Korucu: Ah, siktir."
+        ],
+        [
+          "s03-03903000",
+          "Dunk: Ah, siktir."
+        ],
+        [
+          "s03-10926500",
+          "Polis: Hassiktir!"
+        ]
+      ]
+    },
+    {
+      "english_key": "got it",
+      "alternatives": [
+        [
+          "s03-01809000",
+          "Lucia: Tamamdır."
+        ],
+        [
+          "s03-08078500",
+          "Jason: Anladın mı?"
+        ]
+      ]
+    },
+    {
+      "english_key": "stay the fuck away",
+      "alternatives": [
+        [
+          "s03-01817000",
+          "Lucia: Uzak dur lan!"
+        ],
+        [
+          "s03-12166000",
+          "Jason: Uzak durun lan!"
+        ]
+      ]
+    },
+    {
+      "english_key": "c mon",
+      "alternatives": [
+        [
+          "s03-01931500",
+          "Mahalleli: Hadi!"
+        ],
+        [
+          "s03-08260000",
+          "Lucia: Hadi!"
+        ]
+      ]
+    },
+    {
+      "english_key": "what",
+      "alternatives": [
+        [
+          "s03-01938000",
+          "Lucia: Ne?"
+        ],
+        [
+          "s03-03275000",
+          "Frankie: Ne?"
+        ],
+        [
+          "s03-12808500",
+          "Jason: Ne?"
+        ]
+      ]
+    },
+    {
+      "english_key": "what the fuck",
+      "alternatives": [
+        [
+          "s03-02056000",
+          "Lucia: Ne oluyor lan?"
+        ],
+        [
+          "s03-03607500",
+          "Kolt ve Ortakları: Ne oluyor lan?"
+        ],
+        [
+          "s03-05893000",
+          "Koruma: Ne sikim?"
+        ]
+      ]
+    },
+    {
+      "english_key": "yup",
+      "alternatives": [
+        [
+          "s03-02142000",
+          "Lucia: Aynen!"
+        ],
+        [
+          "s03-03003000",
+          "Vicki: Tamamdır."
+        ]
+      ]
+    },
+    {
+      "english_key": "alright",
+      "alternatives": [
+        [
+          "s03-02460500",
+          "Lucia: Tamam,"
+        ],
+        [
+          "s03-07559000",
+          "Kyle: Tamamdır!"
+        ]
+      ]
+    },
+    {
+      "english_key": "but",
+      "alternatives": [
+        [
+          "s03-02579000",
+          "Linda: Ama..."
+        ],
+        [
+          "s03-11415000",
+          "Sunucu: Ama-"
+        ]
+      ]
+    },
+    {
+      "english_key": "oh good",
+      "alternatives": [
+        [
+          "s03-02617500",
+          "Linda: Ah, ne güzel!"
+        ],
+        [
+          "s03-10704000",
+          "Lucia: Ha. Harika."
+        ]
+      ]
+    },
+    {
+      "english_key": "uh huh",
+      "alternatives": [
+        [
+          "s03-02633500",
+          "Linda: Hı hı."
+        ],
+        [
+          "s03-05849000",
+          "Koruma: Hı hı."
+        ],
+        [
+          "s03-11659000",
+          "Jason: Hı hı."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh yeah",
+      "alternatives": [
+        [
+          "s03-02850500",
+          "Yabancı: Ah, evet..."
+        ],
+        [
+          "s03-03513000",
+          "Vicki: Evet, kesin."
+        ],
+        [
+          "s03-09919000",
+          "Lucia: Öyle mi?"
+        ],
+        [
+          "s03-12418500",
+          "Dre'Quan: Tabii ya."
+        ]
+      ]
+    },
+    {
+      "english_key": "thanks",
+      "alternatives": [
+        [
+          "s03-02877500",
+          "Lucia: Sağ ol..."
+        ],
+        [
+          "s03-08939000",
+          "Jason: Sağ ol."
+        ]
+      ]
+    },
+    {
+      "english_key": "mm hmm",
+      "alternatives": [
+        [
+          "s03-02992500",
+          "Vicki: Hı hı."
+        ],
+        [
+          "s03-10203000",
+          "Billy: Hı hı."
+        ]
+      ]
+    },
+    {
+      "english_key": "why",
+      "alternatives": [
+        [
+          "s03-03424000",
+          "Lucia: Neden?"
+        ],
+        [
+          "s03-03791500",
+          "Dunk: Neden?"
+        ]
+      ]
+    },
+    {
+      "english_key": "ah",
+      "alternatives": [
+        [
+          "s03-04489500",
+          "Linda: Ah."
+        ],
+        [
+          "s03-12406000",
+          "Dre'Quan: Ah..."
+        ]
+      ]
+    },
+    {
+      "english_key": "really",
+      "alternatives": [
+        [
+          "s03-05836000",
+          "Koruma: Ciddi misin?"
+        ],
+        [
+          "s03-08421500",
+          "Lucia: Gerçekten mi?"
+        ],
+        [
+          "s03-11668000",
+          "Jason: Öyle mi?"
+        ]
+      ]
+    },
+    {
+      "english_key": "alright alright",
+      "alternatives": [
+        [
+          "s03-06684000",
+          "Dr. Bill: Tamam, tamam."
+        ],
+        [
+          "s03-13065500",
+          "Roxy: Tamam.\nTamam."
+        ]
+      ]
+    },
+    {
+      "english_key": "right",
+      "alternatives": [
+        [
+          "s03-06831000",
+          "Dunk: Değil mi?"
+        ],
+        [
+          "s03-08586000",
+          "Lucia: Aynen."
+        ],
+        [
+          "s03-08838000",
+          "Jason: Aynen."
+        ]
+      ]
+    },
+    {
+      "english_key": "hmm",
+      "alternatives": [
+        [
+          "s03-06901500",
+          "Dunk: Hımm."
+        ],
+        [
+          "s03-11152000",
+          "Lucia: Hımm..."
+        ]
+      ]
+    },
+    {
+      "english_key": "sure",
+      "alternatives": [
+        [
+          "s03-06921000",
+          "Lucia: Tabii."
+        ],
+        [
+          "s03-11123500",
+          "Jason: Tabii."
+        ]
+      ]
+    },
+    {
+      "english_key": "think so",
+      "alternatives": [
+        [
+          "s03-07062500",
+          "Lucia: Galiba."
+        ],
+        [
+          "s03-07334500",
+          "Jason: Galiba."
+        ]
+      ]
+    },
+    {
+      "english_key": "woo",
+      "alternatives": [
+        [
+          "s03-07702000",
+          "Kyle: Vuhuu!"
+        ],
+        [
+          "s03-08465500",
+          "Lucia: Vuhuu!"
+        ]
+      ]
+    },
+    {
+      "english_key": "oh",
+      "alternatives": [
+        [
+          "s03-08181000",
+          "Jason: Ha."
+        ],
+        [
+          "s03-11807000",
+          "Linda: Aa."
+        ]
+      ]
+    },
+    {
+      "english_key": "hey hey",
+      "alternatives": [
+        [
+          "s03-08283500",
+          "Jason: Hey, hey!"
+        ],
+        [
+          "s03-08540000",
+          "Vicki: Selam.\nSelam."
+        ],
+        [
+          "s03-10858500",
+          "Billy: Hey, hey."
+        ],
+        [
+          "s03-11951000",
+          "Lucia: Hey, hey!"
+        ]
+      ]
+    },
+    {
+      "english_key": "no",
+      "alternatives": [
+        [
+          "s03-08324000",
+          "Mahalleli: Hayır!"
+        ],
+        [
+          "s03-11445500",
+          "Gelin: Hayır!"
+        ]
+      ]
+    },
+    {
+      "english_key": "trust",
+      "alternatives": [
+        [
+          "s03-08494500",
+          "Lucia: Güveniyor musun?"
+        ],
+        [
+          "s03-08496500",
+          "Jason: Güveniyorum."
+        ]
+      ]
+    },
+    {
+      "english_key": "unless",
+      "alternatives": [
+        [
+          "s03-08549500",
+          "Vicki: Ama..."
+        ],
+        [
+          "s03-08550500",
+          "Lucia: Ama?"
+        ]
+      ]
+    },
+    {
+      "english_key": "say hi from me",
+      "alternatives": [
+        [
+          "s03-08880500",
+          "Lucia: Benden selam söyle."
+        ],
+        [
+          "s03-12844000",
+          "Jason: Benden selam söyle."
+        ]
+      ]
+    },
+    {
+      "english_key": "oh hey",
+      "alternatives": [
+        [
+          "s03-10551000",
+          "Lucia: Aa, selam."
+        ],
+        [
+          "s03-11203000",
+          "Vicki: Aa, selam."
+        ]
+      ]
+    },
+    {
+      "english_key": "yo",
+      "alternatives": [
+        [
+          "s03-10626000",
+          "Billy: Selam..."
+        ],
+        [
+          "s03-12485000",
+          "Yabancı: Selam."
+        ],
+        [
+          "s03-12998000",
+          "Jason: Ne haber?"
+        ]
+      ]
+    },
+    {
+      "english_key": "you ready",
+      "alternatives": [
+        [
+          "s03-10627500",
+          "Billy: Hazır mısın?"
+        ],
+        [
+          "s03-12216500",
+          "Jason: Hazır mısın?"
+        ]
+      ]
+    },
+    {
+      "english_key": "yeah of course",
+      "alternatives": [
+        [
+          "s03-10658500",
+          "Lucia: Evet, tabii."
+        ],
+        [
+          "s03-12780000",
+          "Jason: Evet, tabii."
+        ]
+      ]
+    },
+    {
+      "english_key": "for sure",
+      "alternatives": [
+        [
+          "s03-11632000",
+          "Lucia: Kesinlikle."
+        ],
+        [
+          "s03-12484500",
+          "Dre'Quan: Tabii."
+        ]
+      ]
+    }
+  ],
+  "complete": true,
+  "speaker_color_label_occurrences": 2955,
+  "speaker_color_measured_occurrences": 2933,
+  "speaker_color_visually_identified_occurrences": 21,
+  "speaker_color_unresolved_occurrences": 1
+}

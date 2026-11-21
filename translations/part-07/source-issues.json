@@ -1,0 +1,40 @@
+{
+  "issues": [
+    {
+      "id": "s07-00773000",
+      "source_frame": "continuous/frames/s07-00773000.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Solid black bar in source obscures words between someone is a and boy; hidden wording not inferred."
+    },
+    {
+      "id": "s07-03944000",
+      "source_frame": "continuous/frames/s07-03944000.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Solid black source bar obscures word(s) between my and too small; hidden wording not inferred."
+    },
+    {
+      "id": "s07-04526500",
+      "source_frame": "continuous/frames/s07-04526500.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Solid black source bar hides the end after dirty,; hidden wording not inferred."
+    },
+    {
+      "id": "s07-04529000",
+      "source_frame": "continuous/frames/s07-04529000.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Solid black source bar hides words after Who got a; hidden wording not inferred."
+    },
+    {
+      "id": "s07-05347000",
+      "source_frame": "continuous/frames/s07-05347000.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Solid black source bar hides Nate wording after For a quick and before because; hidden wording not inferred. Lucia portion separately reviewed in s07-05343000."
+    },
+    {
+      "id": "s07-06192000",
+      "source_frame": "continuous/frames/s07-06192000.jpg",
+      "status": "unresolved_source_censorship",
+      "note": "Solid black source bar hides Francisco words after Move it! and before Let's go, move! Move!; hidden wording not inferred. Same Francisco part censored in s07-06194000; only independent uncensored Nate portion from that frame is exported."
+    }
+  ]
+}

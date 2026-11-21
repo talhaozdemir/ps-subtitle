@@ -1,0 +1,10 @@
+{
+  "issues": [
+    {
+      "id": "s01-09560500",
+      "status": "unresolved_source_censorship",
+      "source_frame": "continuous/frames/s01-09560500.jpg",
+      "note": "Source video overlays a solid black censor bar across words after could have been and before off, man. Do not infer the obscured English."
+    }
+  ]
+}

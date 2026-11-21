@@ -1,0 +1,23 @@
+﻿Bölüm 3 — İngilizce / Türkçe çeviri
+
+2853 kaynak görüntüsünden denetlenmiş diyalog kaydı. Kişi adları ve ekrandaki konuşmacı etiketleri korunarak doğal konuşma Türkçesiyle sıfırdan çevrildi.
+
+Videonun 0–13263,96 saniyesi normal ve soluk altyazı taramasından geçti. Başlıklı, başlıksız ve boş OCR adayları görsel olarak kontrol edildi.
+
+15 kaynak sansürü / örtülü metin sorunu source-issues.json dosyasında belirtilmiştir. Örtülü sözcükler tahmin edilmedi; bu nedenle kapsamın eksiksiz olduğu iddia edilmez. Ayrı, tamamen okunabilir örtüşen replikler korunmuştur.
+
+part-03.en-tr.txt: İngilizce ve Türkçe karşılıklar.
+subtitle.json.gz: Projedeki örnek biçimine uygun çeviri paketi.
+part-03.en.srt / part-03.tr.srt: Yaklaşık sahne bulma zamanları; oynatma senkronu doğrulanmamıştır.
+reviewed.json: Görsel kontrolü yapılmış ana çeviri kaynağı.
+source-audit.json: Tekrar / arayüz / diyalog olmayan kaynak kararları.
+
+Tarama tamamlandı ve bütün aday kuyrukları temizlendi; complete=true bu bölümün iş kuyruğunun tamamlandığını gösterir. Kaynak sansürü nedeniyle eksiksiz yakalama garantisi verilmez; coverage_verified ve timing_verified false kalmıştır.
+
+
+CÜMLE DEVAMI DENETİMİ — 21 Kasım 2026
+2853 mevcut İngilizce/Türkçe kayıt zaman sırasıyla okundu. Ekranlar arasında süren cümlelerin yüklemleri, zamirleri, soru/koşul yapıları ve araya giren yanıtları bağlamlarıyla denetlendi. 19 Türkçe ve 0 İngilizce kayıt düzeltildi; değişen kayıt sayısı 19. Önce/sonra ve ilgili kaynak kayıtlar continuation-review.json içinde. Kaynak sansürleri ve yaklaşık zamanlar korundu; bu işlem yeniden tam video OCR taraması değildir. Gerçek tüketici: 2853 doğru eşleşme, 0 güvenli dışlama; yanlış yedek eşleşme kontrolü geçti.
+
+
+KONUŞMACI İSİM RENKLERİ
+İngilizce/Türkçe TXT ve dialogues.json içindeki speaker_labels alanına, ekranda görünen isim/rol etiketlerinin renk bilgisi eklendi. speaker-colors.json dosyası her adın her satırdaki görünümünü ayrı tutar; line_index sıfırdan başlar, TXT satır numarası birden başlar. Aynı kişi veya aynı rol farklı sahnelerde, hatta aynı karede başka renkte olabilir. 2955 etiket görünümü: 2933 piksel ölçümü, 21 görsel renk ailesi kontrolü, 1 belirsiz. HEX değerleri sıkıştırılmış video görüntüsünden yaklaşık örneklerdir, oyunun kesin renk paleti değildir. Yalnız gözle rengi seçilen örneklerde HEX uydurulmadı. Rengi seçilmeyen/ismi görünmeyen yerler belirsiz bırakıldı.

@@ -7,7 +7,9 @@ const path = require('path');
 const { URL } = require('url');
 const { promisify } = require('util');
 const { createGunzip } = require('zlib');
-const { createMatcher } = require('./matcher');
+const { correctedMatch, createMatcher, key } = require('./matcher');
+const { createSpeakerIndex, consensus } = require('./speaker-display');
+const { createContextIndex, createLocalContext } = require('./local-context');
 
 const repository = 'talhaozdemir/ps-subtitle';
 const releaseFilename = 'subtitle.json.gz';
@@ -98,9 +100,17 @@ async function decode(bytes) {
   let pack;
   try { pack = JSON.parse((await unpacked).toString('utf8')); }
   catch (error) { throw Error('Altyazı paketi açılamadı.'); }
-  if (!pack || pack.format !== 2 || pack.id !== 'gta-6') throw Error('GTA VI altyazı paketi biçimi geçersiz.');
+  if (!pack || ![2, 3].includes(pack.format) || pack.id !== 'gta-6' ||
+      (pack.format === 3 && !pack.key_compaction)) throw Error('GTA VI altyazı paketi biçimi geçersiz.');
   if (validateEntries(pack.entries) + validateEntries(pack.segments) === 0) throw Error('Altyazı paketi boş.');
-  return { match: createMatcher({ format: pack.format, id: pack.id, entries: pack.entries, segments: pack.segments }),
+  if (pack.blocked_keys !== undefined && (!Array.isArray(pack.blocked_keys) ||
+      !pack.blocked_keys.every(function (hash) { return typeof hash === 'string' && /^[0-9a-f]{16}$/.test(hash); }))) {
+    throw Error('Altyazı paketinin belirsiz replik listesi geçersiz.');
+  }
+  const matcher = createMatcher(pack);
+  return { matcher: matcher, speakers: createSpeakerIndex(pack, matcher.lookup),
+    contextIndex: createContextIndex(pack),
+    mergeVersion: pack.merge_info && pack.merge_info.version || 0,
     digest: 'sha256:' + createHash('sha256').update(bytes).digest('hex') };
 }
 
@@ -129,18 +139,59 @@ async function latestAsset() {
   return { asset: asset, version: typeof release.tag_name === 'string' ? release.tag_name.slice(0, 60) : '' };
 }
 
-function createPackStore(directory, bundledPath) {
+function createPackStore(directory, bundledPath, preferredPath) {
   const cachedPath = path.join(directory, 'gta-6.json.gz');
   let current;
+  let preferred;
+  let preferredLoad;
   let loading;
   let updating;
+  const corrections = new Map();
 
-  function load() {
+  function withSpeakers(found, owner, approximate) {
+    const groups = (found.keys || []).map(function (hash) {
+      const source = owner || (preferred && preferred.matcher.lookup(hash) ? preferred : current);
+      return source && source.matcher.lookup(hash) === found.translation ? source.speakers.get(hash) : [];
+    });
+    return { score: approximate ? found.score : 100, translation: found.translation,
+      approximate: approximate, speakers: consensus(groups) };
+  }
+
+  function lookup(text) {
+    const hash = key(text);
+    return (preferred && preferred.matcher.lookup(hash)) || (current && current.matcher.lookup(hash)) || '';
+  }
+
+  function findCorrection(text, minimum) {
+    const cacheKey = minimum + ':' + text;
+    if (corrections.has(cacheKey)) return corrections.get(cacheKey);
+    const result = correctedMatch(text, minimum, lookup);
+    if (corrections.size >= 256) corrections.delete(corrections.keys().next().value);
+    corrections.set(cacheKey, result);
+    return result;
+  }
+
+  function loadBase() {
     if (current) return Promise.resolve(current);
     if (!loading) {
-      loading = readPack(cachedPath).catch(function () { return readPack(bundledPath); })
+      // A pre-merge cached download must not hide the reviewed bundled dictionary.
+      // Read both so the migration also works on TVs with an existing v5 cache.
+      loading = Promise.all([
+        readPack(cachedPath).catch(function () { return null; }),
+        readPack(bundledPath).catch(function () { return null; })
+      ]).then(function (copies) {
+        const cached = copies[0];
+        const bundled = copies[1];
+        return cached && (!bundled || cached.mergeVersion >= bundled.mergeVersion) ? cached : bundled;
+      }).then(function (result) {
+        if (!result) throw Error('Yerel GTA VI altyazı paketi açılamadı.');
+        return result;
+      })
         .then(function (result) {
-          if (!current) current = result;
+          if (!current) {
+            current = result;
+            corrections.clear();
+          }
           loading = null;
           return current;
         }, function () {
@@ -150,6 +201,20 @@ function createPackStore(directory, bundledPath) {
         });
     }
     return loading;
+  }
+
+  function load() {
+    if (!preferredPath) return loadBase();
+    if (!preferredLoad) {
+      preferredLoad = readPack(preferredPath).then(function (result) {
+        preferred = result;
+        corrections.clear();
+      }, function () {});
+    }
+    return preferredLoad.then(loadBase).catch(function (error) {
+      if (preferred) return preferred;
+      throw error;
+    });
   }
 
   async function replace() {
@@ -162,6 +227,9 @@ function createPackStore(directory, bundledPath) {
     const digest = 'sha256:' + createHash('sha256').update(bytes).digest('hex');
     if (bytes.length !== asset.size || digest !== asset.digest) throw Error('İndirilen altyazı dosyası doğrulanamadı.');
     const next = await decode(bytes);
+    if (installed && next.mergeVersion < installed.mergeVersion) {
+      throw Error('Yayımdaki paket birleşik sözlüğü içermiyor. Mevcut çeviriler korundu.');
+    }
     const temporary = cachedPath + '.new';
     try {
       await promisify(fs.mkdir)(directory, 0o700).catch(function (error) {
@@ -174,12 +242,28 @@ function createPackStore(directory, bundledPath) {
       throw Error('Altyazı paketi TV’ye kaydedilemedi.');
     }
     current = next;
+    corrections.clear();
     return { updated: true, version: release.version };
   }
 
-  return {
+  const store = {
     load: load,
-    match: function (text, confidence) { return current ? current.match(text, confidence) : ''; },
+    match: function (text, confidence, minimum) {
+      if (typeof text !== 'string' || text.length > 360 || confidence < 55) return null;
+      const preferredExact = preferred && preferred.matcher.exactDetails(text);
+      if (preferredExact) return withSpeakers(preferredExact, preferred, false);
+      const exact = current && current.matcher.exactDetails(text);
+      if (exact) return withSpeakers(exact, current, false);
+      if ((preferred && preferred.matcher.blocked(text)) || (current && current.matcher.blocked(text))) return null;
+      if (confidence < 72 || minimum >= 100) return null;
+      const corrected = findCorrection(text, minimum);
+      if (corrected === false) return null; // The exact keys disagree on the corrected translation.
+      if (corrected) return withSpeakers(corrected, null, true);
+      const match = current && current.matcher.similar(text, minimum);
+      if (match) return withSpeakers(match, current, true);
+      const alternate = preferred && preferred.matcher.similar(text, minimum);
+      return alternate ? withSpeakers(alternate, preferred, true) : null;
+    },
     update: function () {
       if (!updating) {
         updating = replace().then(function (result) { updating = null; return result; },
@@ -188,6 +272,28 @@ function createPackStore(directory, bundledPath) {
       return updating;
     }
   };
+  store.createSession = function (options) {
+    options = options || {};
+    let owner, context, generation = 0;
+    function refresh() {
+      const next = preferred && preferred.contextIndex ? preferred : current;
+      if (owner !== next) {
+        owner = next;
+        generation++;
+        context = options.enabled !== false && owner && owner.contextIndex ? createLocalContext(owner.contextIndex, options) : null;
+      }
+    }
+    return {
+      match: function (text, confidence, minimum) {
+        refresh();
+        const baseline = store.match(text, confidence, minimum);
+        return context ? context.read(text, confidence, minimum, baseline) : baseline;
+      },
+      reset: function () { refresh(); generation++; if (context) context.reset(); },
+      cacheKey: function (text) { refresh(); return context ? generation + ':' + context.token() + ':' + text : text; }
+    };
+  };
+  return store;
 }
 
 module.exports = { createPackStore };

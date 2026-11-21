@@ -1,0 +1,77 @@
+{
+  "1:p01-00663": {
+    "choice": "corrected",
+    "translation": "Jason: Hâlâ kız kardeşinle kocasının yanında mı kalıyorsun?",
+    "note": "Yeni iyelik eki düzeltildi; eski sürümdeki abla yaş çıkarımı kaynakta kesin olmadığı için alınmadı."
+  },
+  "1:s01-06774500": {
+    "choice": "corrected",
+    "translation": "Brian: Ne dedin sen?",
+    "note": "Ghost ifadesini anlamayan Brian önceki sözü tekrar soruyor; eski ve yeni kısa alternatifler kusurlu. Birleşik ekranda da aynı düzeltme korundu."
+  },
+  "1:s01-06775000": {
+    "choice": "corrected",
+    "translation": "Brian: Ne dedin sen?\nCal: Abi, hadi, biliyorsun işte.\nBir kızla takılırken ya da...",
+    "note": "Ghost ifadesini anlamayan Brian önceki sözü tekrar soruyor; eski ve yeni kısa alternatifler kusurlu. Birleşik ekranda da aynı düzeltme korundu."
+  },
+  "1:s01-13260000": {
+    "choice": "corrected",
+    "translation": "Lucia: Şimdi de içkileri ben alayım.",
+    "note": "İki sürüm de dilbilgisel olarak bozuk; anlamı değiştirmeden doğal Türkçe düzeltildi."
+  },
+  "1:p01-00299": {
+    "choice": "old",
+    "translation": "Donnie: Iı... gayet iyiyim! İşte, ıı... varmamıza saniyeler kaldı, beyler.",
+    "note": "A-okay sağlık sorusuna cevap; iki eski alternatiften r00352 seçildi."
+  },
+  "1:s01-05946500": {
+    "choice": "old",
+    "translation": "Mandy: En berbat ev aletlerini alması benim suçum değil.",
+    "note": "İki eski alternatiften daha akıcı r01122 seçildi."
+  },
+  "1:s01-08816000": {
+    "choice": "old",
+    "translation": "Dobbs: Evet, mesela striptizci bir balina gibi.",
+    "note": "Tekil benzetmeyi koruyan eski r01630 seçildi."
+  },
+  "1:p01-02071": {
+    "choice": "old",
+    "translation": "Yabancı: Bekle, b-bekle, dur! Şimdi oraya gidiyorum, sadece kayboldum!",
+    "note": "İki eski alternatiften r02222 seçildi; kekeleme ve konuşmacı etiketi korundu."
+  },
+  "1:s01-14087500": {
+    "choice": "old",
+    "translation": "Jason: Ah. Yani sen bir... DJ falan mısın?",
+    "note": "İki eski alternatiften daha akıcı r02720 seçildi."
+  },
+  "1:s01-14104500": {
+    "choice": "old",
+    "translation": "Mattia: Ne diyorsun, kanka?",
+    "note": "İki eski alternatiften kısa konuşma dili karşılığı r02734 seçildi."
+  },
+  "8:s08-01432500": {
+    "choice": "corrected",
+    "translation": "Kordell: Böyle nasıl?",
+    "note": "İki karşılığın da ters sözdizimi, konuşma dilinde doğal soruya düzeltildi."
+  },
+  "7:s07-07482000": {
+    "choice": "corrected",
+    "translation": "Lucia: Git...",
+    "note": "Kaynak yalnız Go...; söylenmeyen cehennem devamı varsayılmadı, yarım cümle korundu."
+  },
+  "3:s03-00688000": {
+    "choice": "old",
+    "translation": "Jason: Siktir, tam karşıda!",
+    "note": "688. saniyenin tam video karesinde karşıda silahlı polis görünüyor; yön emri olan dümdüz git yerine eski yer bildiren karşılık seçildi. Bozuk iki nokta ünlemle düzeltildi."
+  },
+  "1:p01-00029": {
+    "choice": "old",
+    "translation": "Yabancı: Niye? Deli mi? Yeter dedim.",
+    "note": "İki eski alternatiften r00032 seçildi; önceki Beni deli diye çağırma sözüne cevap olarak soru parçacığı korundu."
+  },
+  "8:s08-07800500": {
+    "choice": "new",
+    "translation": "Karim: Efendim.",
+    "note": "r05864 iki farklı sahneyi içeriyor. Bu görünüm Jason Karim? diye seslendikten sonraki cevap; Selam yerine kaynak yeni Efendim korundu. Diğer görünüm telefondaki selamlaşma."
+  }
+}

@@ -1,0 +1,10144 @@
+{
+  "format": 1,
+  "reviewer": "review_two",
+  "decisions": [
+    {
+      "id": "r00005",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00006",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00008",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00014",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00015",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00018",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00021",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00023",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00024",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00026",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00031",
+      "choice": "new",
+      "reason": "same_quality",
+      "note": "İki seçenek de Why? Crazy? için kırık; kaynak konuşmacı/geçiş bağlamı gerektiğinden mevcut yeni korunuyor."
+    },
+    {
+      "id": "r00032",
+      "choice": "new",
+      "reason": "same_quality",
+      "note": "İki seçenek de Why? Crazy? için kırık; kaynak konuşmacı/geçiş bağlamı gerektiğinden mevcut yeni korunuyor."
+    },
+    {
+      "id": "r00037",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00045",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00048",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00050",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00051",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00053",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00054",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00055",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00057",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00060",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "İyice gaza gelmiş hâlde karşılığı keyed up anlamını daha doğal koruyor."
+    },
+    {
+      "id": "r00062",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00064",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00068",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00069",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00074",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00078",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00080",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00081",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00082",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00087",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00089",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00090",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00091",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00092",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00095",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00097",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00100",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00102",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00107",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00112",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00114",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00116",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00119",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00120",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00125",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Dikkatli araba sürmen lazım daha kısa ve doğal."
+    },
+    {
+      "id": "r00130",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00135",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00138",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00140",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00143",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00150",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00152",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00154",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Onu soran ifadesi asking eylemini açıkça koruyor."
+    },
+    {
+      "id": "r00156",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00157",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00158",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00164",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00167",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00168",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00170",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00172",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00180",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00186",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00187",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00188",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00192",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00193",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00196",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00203",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00206",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00207",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00209",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Hey ifadesini selamlaşmaya çevirmeden repliği doğal sürdürüyor."
+    },
+    {
+      "id": "r00213",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00215",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00222",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00224",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00225",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00226",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00229",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00233",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00239",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00242",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00243",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00252",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00255",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00257",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00259",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00260",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00262",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00266",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00267",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00273",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00276",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00279",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Çocuğun babasının adresi bilgisini daha açık koruyor."
+    },
+    {
+      "id": "r00281",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00285",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00286",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00288",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Sana onu diyorum işte ifadesi daha doğal konuşma Türkçesi."
+    },
+    {
+      "id": "r00291",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00293",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00296",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00298",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00303",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00304",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00306",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00307",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00311",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00315",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00316",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00323",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00329",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00330",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00337",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Dur tabelalarını takmamak ifadesi daha doğal konuşma Türkçesi."
+    },
+    {
+      "id": "r00340",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00341",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00344",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00349",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00351",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "A-okay yanıtı gayet iyi olma anlamında; mevcut yeni sapasağlamım gereksiz dar."
+    },
+    {
+      "id": "r00352",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Gayet iyiyim yanıtı A-okay anlamını daha isabetli ve akıcı veriyor."
+    },
+    {
+      "id": "r00354",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00358",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00359",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00369",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00372",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00373",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00378",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00379",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00380",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00385",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00393",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00395",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00396",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00399",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00402",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00403",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00406",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00408",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00410",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Gel dümene geç ifadesi dümeni al ifadesinden doğal."
+    },
+    {
+      "id": "r00411",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00421",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00423",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00424",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00427",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00430",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00434",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00436",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00437",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00438",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00439",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00440",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00441",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00442",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00444",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00446",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00451",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00457",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00461",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00462",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Falan söyleyişi like konuşma dolgusunu da doğal koruyor."
+    },
+    {
+      "id": "r00463",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00464",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00465",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00467",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00469",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00470",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00471",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00473",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00474",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00476",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00477",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00481",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00484",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00485",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00494",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00499",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Radio tower için radyo kulesi daha doğrudan; telsiz türü kaynakta belirtilmiyor."
+    },
+    {
+      "id": "r00503",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00505",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00506",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00512",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00514",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00515",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00518",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00530",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00541",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00544",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00549",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00552",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00554",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00556",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00563",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00566",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00568",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00572",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00573",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00574",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00575",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00584",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00588",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00592",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00596",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00597",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00599",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00602",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00604",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00605",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00607",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00608",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00609",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00611",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00622",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00624",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00626",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00630",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00633",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00634",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00636",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00642",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00643",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00646",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Here we go henüz yanaşmadan söyleniyor; eski hadi bakalım ile erken geldik anlamını eklemiyor."
+    },
+    {
+      "id": "r00647",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00648",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00652",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Merak etme karşılığı dont worry anlamını daha doğrudan koruyor."
+    },
+    {
+      "id": "r00653",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00658",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00663",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00665",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Cosmetic dış hasarını belirtir; çizilmiş diye daraltmadan hasarlı karşılığı daha doğru."
+    },
+    {
+      "id": "r00666",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00670",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00672",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00674",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaynak kekeleyişini ve as soon as vurgusunu doğal koruyor."
+    },
+    {
+      "id": "r00677",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00681",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00683",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00686",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00693",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00695",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00696",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00697",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00702",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00705",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00706",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00709",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00716",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00717",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00731",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00733",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00736",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00738",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00739",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00742",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00749",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00750",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00752",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00753",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00754",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00755",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00759",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00760",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00764",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Telefon çağrısındaki Alo daha doğal."
+    },
+    {
+      "id": "r00772",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00773",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00776",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00783",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00785",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00788",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00792",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00795",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "O apayrı bir konu ve B-ben kekeleyişi daha doğal ve tam."
+    },
+    {
+      "id": "r00797",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00798",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00799",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00800",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00805",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Mülkler ve kira ödeyen kiracılar daha kısa ve açık ifade ediliyor."
+    },
+    {
+      "id": "r00807",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00810",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00811",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00813",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00815",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00818",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00820",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00821",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00823",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00824",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00825",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00827",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00828",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00830",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00831",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00836",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00837",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00839",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00840",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00843",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00851",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00852",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00854",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00855",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00859",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00860",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00861",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00862",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00863",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "White light niteliğini de beyaz ışıklı fener olarak doğru koruyor."
+    },
+    {
+      "id": "r00866",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00867",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00869",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00889",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00892",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00895",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00913",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Şu butikteyim, at that boutique ifadesini daha doğrudan ve doğal koruyor."
+    },
+    {
+      "id": "r00914",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00916",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00924",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00929",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00931",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00933",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Hey tekrarını koruyarak telaşlı yatıştırma tonunu sürdürüyor."
+    },
+    {
+      "id": "r00936",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kira param yok ve Sadece-sadece ifadeleri kaynak kişi ve kekeleyişini koruyor."
+    },
+    {
+      "id": "r00937",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00939",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00940",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00943",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00946",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00952",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00959",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00961",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00964",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00969",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00977",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00978",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00979",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00980",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00981",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Grow house ifadesindeki evde yetiştirme anlamını kaybetmeden doğal veriyor."
+    },
+    {
+      "id": "r00983",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00984",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00994",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01000",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01002",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01007",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01010",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01018",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01020",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01021",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01023",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01024",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01029",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01035",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01038",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01041",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01044",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01047",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01048",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01049",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01050",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01053",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01056",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Facility tesis demektir; yeni depo diyerek gereksiz daraltıyor."
+    },
+    {
+      "id": "r01058",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01060",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01061",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01062",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01064",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01065",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01066",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01069",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01071",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01072",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01078",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01079",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01080",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01088",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01089",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01091",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01093",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01099",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01103",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01105",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01106",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01108",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01113",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01115",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01116",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01117",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01121",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Appliances ev aletleri olarak daha açık ve isabetli."
+    },
+    {
+      "id": "r01122",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ev aletleri karşılığı appliances için daha belirli ve doğru."
+    },
+    {
+      "id": "r01127",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01128",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01129",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01132",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01144",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Yüzyıl olmuş resmen daha akıcı konuşma Türkçesi."
+    },
+    {
+      "id": "r01146",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01148",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01150",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01152",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01156",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01158",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01167",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01169",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01170",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01173",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01174",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01178",
+      "choice": "new",
+      "reason": "context",
+      "note": "Önceki kaynakta da bağlamı eksik olduğu belgeli parça; eski seçenek de soru gibi çeviriyor, güvenli yeni korunuyor."
+    },
+    {
+      "id": "r01179",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01181",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01182",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01183",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01184",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01185",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01191",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01192",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01194",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01195",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01198",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "İşin dozunu kaçırmak deyimi burada daha doğal."
+    },
+    {
+      "id": "r01199",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01202",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01205",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01208",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kim olacak karşılığı thats who yanıtını ve öfkeli küfür tonunu daha iyi koruyor."
+    },
+    {
+      "id": "r01211",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01216",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01218",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01219",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01223",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01231",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01234",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01236",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01239",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01243",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01245",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01249",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01253",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01254",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01255",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "İşte, arıyorum onu. Cevap yok, neyse söyleyişi daha doğal akıyor."
+    },
+    {
+      "id": "r01257",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01261",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01263",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Cal bakıyor o işe ve arabayı sen kullan ifadeleri daha kısa ve doğal."
+    },
+    {
+      "id": "r01264",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01265",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01266",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01268",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01272",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01275",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01276",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01278",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01290",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01291",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01296",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01297",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01301",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01302",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01304",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01306",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01308",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kekeleyişi ve No,yeah tereddüdünü koruyarak doğal aktarılıyor."
+    },
+    {
+      "id": "r01318",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01321",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01327",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01329",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01331",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01334",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01338",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01341",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Retorik soru biçimini koruyor."
+    },
+    {
+      "id": "r01342",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01351",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01359",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01360",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01364",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01365",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01369",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bu göt heriften bıktım daha doğal bir fed up karşılığı."
+    },
+    {
+      "id": "r01380",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01382",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01385",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01389",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01392",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01393",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01395",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01396",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01399",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01404",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01406",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01412",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01413",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01420",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01422",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01428",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01430",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01431",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01432",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01433",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01437",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ağzını sıkı tutmak sırrı saklama bağlamına daha uygun deyim."
+    },
+    {
+      "id": "r01439",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01441",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01444",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01445",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01452",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01455",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01456",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01457",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01458",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01459",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01460",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Olurdu da, hâlâ yapabilseydim konuşma dilinde daha doğal."
+    },
+    {
+      "id": "r01466",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01468",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01479",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01482",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01488",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01489",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01500",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01501",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01505",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01507",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01513",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01518",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01521",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01524",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Be right with ya hemen geliyorum anlamını gereksiz hallediyorum eklemeden koruyor."
+    },
+    {
+      "id": "r01525",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01526",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01532",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01533",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01534",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Could know ihtimalini biliyor olabilirsin ile daha açık koruyor."
+    },
+    {
+      "id": "r01536",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01541",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01542",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01546",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01550",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Cover örtülü faaliyetin paravanını anlatıyor; paravan daha belirli karşılık."
+    },
+    {
+      "id": "r01556",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01560",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01564",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01566",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01572",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01577",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01578",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01579",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01580",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01586",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01587",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01589",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01590",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01592",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01593",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01594",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01596",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01598",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01601",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01608",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01609",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01613",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01616",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01619",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaynağın küfürlü sert tonunu sikimde değil olarak koruyor."
+    },
+    {
+      "id": "r01621",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01622",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01623",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bu sularda ifadesi suyun bu tarafında ifadesinden doğal."
+    },
+    {
+      "id": "r01624",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01625",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01626",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01631",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Tekil stripper whale benzetmesini ve kekelemeyi koruyor."
+    },
+    {
+      "id": "r01633",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bitchy için çirkef daha doğrudan."
+    },
+    {
+      "id": "r01638",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01640",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01642",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01646",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01651",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01663",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01664",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Efsane anılar ifadesi epic memories vurgusunu daha doğrudan koruyor."
+    },
+    {
+      "id": "r01668",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01673",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01674",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01675",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01677",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01678",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01681",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01682",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01685",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01686",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01688",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01695",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01700",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01702",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01706",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01707",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Gently nazikçe demektir; yavaşça anlamı daraltıyor."
+    },
+    {
+      "id": "r01710",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01717",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01719",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01722",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01727",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01731",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01733",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01739",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01740",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01742",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01746",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01748",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01754",
+      "choice": "new",
+      "reason": "same_quality",
+      "note": "İkisi de kusurlu: yeni Eşim kaynak buddies ile uyuşmuyor, eski siktir gitmiş olsun anlamsız. Roota düzeltme için bildirildi; kaynak görüntüden buddies doğrulanmalı."
+    },
+    {
+      "id": "r01756",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01757",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01758",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01759",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01761",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01764",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01765",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01770",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaynağın shit küfrünü siktir olarak daha iyi koruyor."
+    },
+    {
+      "id": "r01773",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01776",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01777",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01780",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01781",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01782",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01783",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01787",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01789",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01790",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01793",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01795",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01796",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01799",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01801",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01806",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01807",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01809",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01811",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01813",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01815",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Keep the ocean safe güvenli tutmak olarak daha açık korunuyor."
+    },
+    {
+      "id": "r01816",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01818",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01826",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01829",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01830",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01831",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01832",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01838",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01841",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01842",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01845",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01850",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01851",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01854",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01855",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01861",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01864",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01866",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01867",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01869",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01873",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01875",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01878",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01879",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01881",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01884",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01886",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01889",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01892",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01893",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01895",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01898",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01906",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01907",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01908",
+      "choice": "new",
+      "reason": "same_quality",
+      "note": "I got you için Bende eksik/doğal değil, eski Hallettim seni de hatalı; başka eski alternatif r01909 Ben hallederim doğru."
+    },
+    {
+      "id": "r01909",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "I got you ifadesini Ben hallederim olarak tam ve doğal veriyor."
+    },
+    {
+      "id": "r01913",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01915",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01917",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01926",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01928",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01931",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01932",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01933",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01934",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01936",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01941",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01944",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01945",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01952",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01955",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01960",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01963",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01965",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01967",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01973",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01976",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01977",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01979",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01981",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01983",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bir evi beğenmek bağlamında Beğendi mi daha doğal."
+    },
+    {
+      "id": "r01986",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01988",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01990",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01993",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01996",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02001",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Lucianın iletişimi kesip kaybolması meselesi ghosting anlamını daha açık veriyor."
+    },
+    {
+      "id": "r02003",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02010",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02016",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02018",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02020",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02024",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02026",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02034",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Could kipini halledebilirdi ile koruyor."
+    },
+    {
+      "id": "r02037",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02040",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02042",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02045",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02051",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02052",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02053",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02055",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02058",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02062",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02063",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02070",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02072",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02080",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02089",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02090",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02094",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02095",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02097",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02098",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02103",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02107",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02109",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02110",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02117",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02121",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02122",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02124",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02125",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ghost you iletişimini kesmek olarak daha açık ve doğru."
+    },
+    {
+      "id": "r02128",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02129",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02130",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02131",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02132",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02133",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02139",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bir işe çıktım suç işi bağlamında daha doğal."
+    },
+    {
+      "id": "r02140",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02141",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02144",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02146",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02152",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02155",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02161",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02164",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02173",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02181",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02183",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02184",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02185",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02188",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02198",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02202",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02206",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kendi teknem ifadesi own vurgusunu koruyor."
+    },
+    {
+      "id": "r02207",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ekipman ayarlarım daha açık ve akıcı."
+    },
+    {
+      "id": "r02208",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02213",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02214",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02215",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02216",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02220",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02221",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaynak kekeleyişini ve bekle tekrarlarını koruyor."
+    },
+    {
+      "id": "r02222",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaynak kekeleyişini ve bekle tekrarlarını koruyor."
+    },
+    {
+      "id": "r02223",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaynak B-bana kekeleyişini ve sözel tekrarlarını koruyor."
+    },
+    {
+      "id": "r02224",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02225",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02226",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02228",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02232",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02238",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02239",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02244",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02245",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02247",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02250",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02254",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02261",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Zahmet ettiğin için sağ ol, teşekkürün muhatabını ve taking trouble anlamını daha doğrudan veriyor."
+    },
+    {
+      "id": "r02265",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02271",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02272",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02273",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02277",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02278",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02281",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02284",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02293",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02294",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02295",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02298",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02306",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02308",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02309",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02310",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02312",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02314",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02315",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02316",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02320",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Hasret gidermek catching up için daha belirli ve doğal."
+    },
+    {
+      "id": "r02321",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02324",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02326",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02328",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02329",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02333",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02341",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02342",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02343",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02345",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02348",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02349",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02351",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02352",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02353",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02354",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02355",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02358",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02375",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02379",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02380",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02391",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02392",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02407",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02408",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02411",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02413",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02421",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02423",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02426",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02427",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02432",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02438",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02440",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02442",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02444",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02446",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02447",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02456",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaynak küfrünün kaba tonunu koruyor; Pislik daha yumuşak."
+    },
+    {
+      "id": "r02460",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02463",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Tanıdıkların tanıdıkları ifadesi daha kısa ve konuşma diline uygun."
+    },
+    {
+      "id": "r02464",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02467",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02468",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02473",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02477",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02478",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02480",
+      "choice": "new",
+      "reason": "same_quality",
+      "note": "Yeni bir şeyler içmeye alayım dilbilgisel bozuk; eski Şimdi sıra bize içki almada da doğal değil. İdeal Şimdi de içkileri ben alayım; roota bildirilecek."
+    },
+    {
+      "id": "r02482",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02484",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02487",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02488",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02493",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02495",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02496",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02501",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02502",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02503",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02510",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02511",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02512",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02516",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02519",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02525",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02526",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02533",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02535",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02536",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02539",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02541",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02542",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02551",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02552",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02556",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02564",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02567",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02568",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02572",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02578",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02579",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02582",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02592",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02596",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02598",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02602",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02604",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02606",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02609",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02613",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02619",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02622",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02630",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02632",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02638",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02641",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02643",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02644",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02646",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02649",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02654",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02657",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02661",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02664",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02666",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02669",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02680",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02681",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02685",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02688",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02692",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02695",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02696",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02697",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02714",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02720",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kekeleyişi de doğal biçimde koruyor."
+    },
+    {
+      "id": "r02721",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Tekrarlanan bir... bir DJ ifadesi kaynak tereddüdünü koruyor."
+    },
+    {
+      "id": "r02729",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02733",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Neyden bahsediyorsun dilbilgisel olarak daha doğru."
+    },
+    {
+      "id": "r02734",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ne diyorsun kanka ifadesi daha doğal konuşma Türkçesi."
+    },
+    {
+      "id": "r02735",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02739",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02740",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02741",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02748",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02749",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02752",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02753",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02755",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02757",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02759",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02764",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02773",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02775",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02778",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02780",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02785",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02788",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02789",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02792",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02795",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02797",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02799",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02808",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02810",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02813",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02818",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02824",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02829",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02831",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02834",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02845",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02849",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Hissediyor musun kaynak şimdiki zamanı koruyor."
+    },
+    {
+      "id": "r02855",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02858",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02865",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Koşu için güzel bir gece ifadesi daha akıcı."
+    },
+    {
+      "id": "r02866",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02871",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02872",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02873",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02874",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02875",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02878",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02881",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02889",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02890",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02891",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02892",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02896",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02898",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02902",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02903",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02908",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02909",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02917",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02923",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02925",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02927",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02928",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02933",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02934",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02938",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02939",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02940",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02951",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02952",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02958",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02960",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02964",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02968",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02969",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02970",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02971",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02973",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Senin için vurgusunu koruyor; yeni kaynakta olmayan attığın nitelemesini ekliyor."
+    },
+    {
+      "id": "r02976",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02978",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02982",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02983",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02988",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02992",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ben devralsam olur mu sürücülük isteğini daha açık veriyor."
+    },
+    {
+      "id": "r02993",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02999",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03000",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03005",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03007",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03008",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03010",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03012",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Sevgilimin de bir hesaba ihtiyacı var daha açık ve doğal."
+    },
+    {
+      "id": "r03016",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03023",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03024",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03027",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03029",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03031",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03032",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03038",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03043",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03045",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03046",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03049",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03050",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03052",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03059",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03067",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03069",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03070",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03071",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03075",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03077",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03081",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03084",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03087",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03088",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03089",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03092",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03094",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03095",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03097",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03099",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03100",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03102",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03104",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03106",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03111",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03112",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03113",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03116",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03117",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ayak bileğine bağlı takip cihazı hem ankle hem homing beacon anlamını doğal veriyor."
+    },
+    {
+      "id": "r03123",
+      "choice": "new",
+      "reason": "context",
+      "note": "Türkçe yan cümle önceki/sonraki ekrana yeniden sıralanmış; bağlam incelendi ve tek parçayı eskiyle değiştirmek devamı bozacağından yeni seçildi."
+    },
+    {
+      "id": "r03125",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03126",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03127",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03129",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03130",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03133",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03141",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03144",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03149",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03151",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03155",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03157",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03161",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03162",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03165",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03167",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03168",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03170",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03171",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03172",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03177",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03182",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03185",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03186",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Santim santim ilerlet inch us forward hassas hareketini koruyor."
+    },
+    {
+      "id": "r03190",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03191",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03193",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03194",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03196",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03197",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03198",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03204",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03207",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03214",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03216",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03217",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03218",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03225",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03227",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03229",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03230",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03231",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03233",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03236",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03241",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03248",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03251",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03258",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Biraz laflasak ifadesi daha doğal konuşma Türkçesi."
+    },
+    {
+      "id": "r03261",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03263",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03269",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03270",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03274",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03287",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03289",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03292",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03294",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03295",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03298",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03301",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03302",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03304",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03309",
+      "choice": "new",
+      "reason": "context",
+      "note": "Türkçe yan cümle önceki/sonraki ekrana yeniden sıralanmış; bağlam incelendi ve tek parçayı eskiyle değiştirmek devamı bozacağından yeni seçildi."
+    },
+    {
+      "id": "r03311",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03315",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03318",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03319",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03321",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03326",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03328",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03329",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03331",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03334",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03337",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03339",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03344",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03345",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03346",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03348",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Eye contact için yerleşik Göz teması karşılığı daha uygun."
+    },
+    {
+      "id": "r03352",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03354",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03359",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03363",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03365",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03369",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03372",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03373",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03374",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03375",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03380",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03383",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03385",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03390",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03391",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03400",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03408",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03414",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03415",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03418",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03421",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03424",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03429",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03431",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03433",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03436",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03438",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03445",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03447",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Nasıl tiplerle uğraştığın ifadesi kinda people vurgusunu daha açık koruyor."
+    },
+    {
+      "id": "r03449",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03454",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03456",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03457",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03459",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03462",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03468",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03469",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03472",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03482",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03490",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03495",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03497",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03498",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03499",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03500",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03501",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03504",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03507",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03508",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03509",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03510",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03512",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03514",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03517",
+      "choice": "new",
+      "reason": "context",
+      "note": "Türkçe yan cümle önceki/sonraki ekrana yeniden sıralanmış; bağlam incelendi ve tek parçayı eskiyle değiştirmek devamı bozacağından yeni seçildi."
+    },
+    {
+      "id": "r03521",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Sadece-sadece tekrarı kaynak tereddüdünü koruyor."
+    },
+    {
+      "id": "r03527",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03528",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03529",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03534",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03543",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03546",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03549",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03550",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaynak küfrünü ve döndürme eylemini daha tam koruyor."
+    },
+    {
+      "id": "r03552",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03555",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03556",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03557",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03558",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03560",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03562",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03564",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03565",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03567",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03568",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03571",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03575",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03576",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03577",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03580",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03582",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03583",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03588",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03598",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03599",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03601",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03602",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03606",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03607",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03610",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Dergi/başlık adı Convicts Weekly kaynak biçiminde korunuyor."
+    },
+    {
+      "id": "r03611",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03616",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03625",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03634",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03637",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03641",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03642",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03643",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03644",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03645",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03649",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03650",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03651",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03653",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bütün işler boktan all work is bullshit kaba genellemesini daha doğrudan koruyor."
+    },
+    {
+      "id": "r03654",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03656",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03657",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03660",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03663",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03666",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03670",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03671",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03676",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03677",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03682",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03685",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03689",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03696",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03699",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03700",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03707",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03708",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03712",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03713",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03714",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03715",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03716",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03721",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03723",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03724",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03728",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03729",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03732",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03733",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03734",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03735",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03741",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03742",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03744",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03745",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03748",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03749",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03755",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03757",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03760",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03768",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03769",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03775",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03786",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Always için Her zaman daha doğrudan; Her zamanki gibi ek yorum."
+    },
+    {
+      "id": "r03788",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03793",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03794",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03798",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03799",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03805",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03806",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03810",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03811",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03816",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03817",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03818",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03822",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03824",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03828",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03835",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03837",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03842",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03847",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03848",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03851",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03852",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03858",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03859",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03862",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03866",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03867",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03870",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03871",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03874",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03876",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03877",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03881",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bana ne getirdin bebeğim ifadesi mevcut Türkçeden daha doğal."
+    },
+    {
+      "id": "r03884",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03885",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03888",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03891",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03895",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03897",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03899",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03900",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03901",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03902",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03908",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03910",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03912",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03914",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03922",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03923",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03924",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03927",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03931",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03932",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03933",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03937",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03942",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03943",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03944",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Doğru yolda olduğumuzdan emin misin daha akıcı soru."
+    },
+    {
+      "id": "r03945",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03949",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03952",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03956",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03958",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03959",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03967",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03971",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03981",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03984",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03985",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03986",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03990",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03991",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03994",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03995",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03999",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04000",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04003",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04007",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04009",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04010",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04011",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04026",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kocam sizi halletmeye geliyor tehdit anlamını daha doğrudan koruyor."
+    },
+    {
+      "id": "r04028",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04029",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04031",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04033",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Shes with me in the truck şimdiki durumu ifade ediyor; yeni gelecek zaman ekliyor."
+    },
+    {
+      "id": "r04035",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04037",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04038",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04040",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04042",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04045",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04049",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04057",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04059",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04060",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04064",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04065",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04066",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04068",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04069",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04070",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04071",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04073",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04076",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04077",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04079",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04080",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Civil rights için sivil haklar daha belirli karşılık."
+    },
+    {
+      "id": "r04081",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Denetim memurunu karıştırmadan ifadesi daha doğal."
+    },
+    {
+      "id": "r04088",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04094",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04098",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04099",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Başka işler de çıkacaktır daha doğal konuşma Türkçesi."
+    },
+    {
+      "id": "r04103",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04106",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04107",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04111",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04113",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04116",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04119",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04120",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04122",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04125",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04126",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Eylemi göze batmadan uzakta yapmak anlamını koruyor; yeni sadece uzağa git diyor."
+    },
+    {
+      "id": "r04129",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04133",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04134",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04135",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Sucker punch içindeki yumruk atma eylemini de açık tutuyor."
+    },
+    {
+      "id": "r04137",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04138",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04139",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04149",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04151",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04153",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04155",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Sister kız kardeş bilgisini ve Cal adına doğru eki koruyor."
+    },
+    {
+      "id": "r04160",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04161",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04164",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04167",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04170",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04171",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04174",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04177",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04179",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04184",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04190",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04196",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04201",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04203",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04205",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04206",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04208",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04211",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04212",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04219",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04226",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04227",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04228",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04229",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04234",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04240",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04244",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ölüm fermanım yazıldı yerleşik ve daha doğal bir marked for death karşılığı."
+    },
+    {
+      "id": "r04249",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04252",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04255",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04256",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04259",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04263",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Fucked up ifadesinin kaba tonunu Boktan bir şey olarak koruyor."
+    },
+    {
+      "id": "r04265",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04266",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04267",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04268",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04270",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04271",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04272",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04273",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04274",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04281",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04289",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Elektronik kelepçe bilgisini açık ve doğal veriyor."
+    },
+    {
+      "id": "r04292",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04293",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04295",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04300",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04301",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04302",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04303",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04306",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04308",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04326",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04327",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04329",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04331",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04332",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04336",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04339",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04345",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04362",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Need ifadesinin gerekliliğini Beni dinlemen lazım ile koruyor."
+    },
+    {
+      "id": "r04363",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04364",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04367",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04368",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04371",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04372",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04373",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04385",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Biz hazır olduğumuzda ready koşulunu koruyor; istersek diye kaydırmıyor."
+    },
+    {
+      "id": "r04389",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04390",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Lets go gitme çağrısını da koruyor."
+    },
+    {
+      "id": "r04392",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04396",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04398",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04399",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04401",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04402",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04407",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04410",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04411",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04412",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04415",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04420",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04423",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04424",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04428",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04429",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04431",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04432",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04433",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04435",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04439",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04440",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04445",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04446",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04450",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04453",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04454",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04456",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Elini kolunu akıllı tut daha doğal bir ikaz."
+    },
+    {
+      "id": "r04461",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04463",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04464",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04468",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04472",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04478",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04485",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04488",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04497",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04500",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04501",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04505",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04507",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04508",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04512",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04513",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaynak küfrünün sertliğini siktiğimin ile koruyor."
+    },
+    {
+      "id": "r04523",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04524",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04525",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04530",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04531",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04532",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04534",
+      "choice": "new",
+      "reason": "context",
+      "note": "Straight ahead tek başına yönlendirme veya düşman işareti olabilir. Mevcut dümdüz git görsel/video olmadan kesin değil; eski tam karşıda da muhtemel. Ek sahne kontrolü önerilir."
+    },
+    {
+      "id": "r04540",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04542",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04547",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04553",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04554",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04555",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04558",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04561",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04562",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04566",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04568",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04569",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04570",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04572",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04574",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Peşimize düşecekler bağlamda daha doğal."
+    },
+    {
+      "id": "r04579",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04580",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04582",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04583",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04588",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04590",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04591",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04592",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04595",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04596",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Hep onun yanında olsun daha kısa ve açık."
+    },
+    {
+      "id": "r04598",
+      "choice": "new",
+      "reason": "context",
+      "note": "Sonraki ekrandaki what trouble youre in ile Türkçe yeniden sıralanmış; yeni korunmalı."
+    },
+    {
+      "id": "r04609",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04611",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04617",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04619",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04624",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04627",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04631",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04637",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04641",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04648",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04650",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04653",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04658",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04660",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04664",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04666",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04678",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04679",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04680",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04682",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04683",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04699",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04702",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04707",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04710",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04712",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04714",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04715",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04716",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04719",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04721",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04727",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04731",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04733",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04736",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04740",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04742",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04747",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04748",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04749",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04750",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04752",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04756",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Blacked out niteliğini doğrudan karartılmış SUVlar olarak koruyor; yalnız camlara daraltmıyor."
+    },
+    {
+      "id": "r04758",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04759",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04764",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04768",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04773",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04778",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04781",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04785",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Thats the guy he had killed Öldürttüğü adam bu olarak daha doğrudan korunuyor."
+    },
+    {
+      "id": "r04787",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04790",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04792",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04793",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04795",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04796",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04797",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04803",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04805",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04809",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04810",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04811",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04813",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04818",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04823",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Katlanmak zorunda kalmak put up with anlamını daha doğrudan koruyor."
+    },
+    {
+      "id": "r04825",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04835",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04842",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04844",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04845",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04846",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04847",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04851",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04861",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04870",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04872",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04876",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04885",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Makes sense mantıklı olarak açıkça korunuyor."
+    },
+    {
+      "id": "r04887",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04888",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04890",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04892",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04907",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04908",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Doorman kapıcıya daraltılmadan kapıdaki adam olarak daha doğru veriliyor."
+    },
+    {
+      "id": "r04918",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04926",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Yeni kıyafet bulabileceğim bir yer biliyor musun daha doğal soru."
+    },
+    {
+      "id": "r04928",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "O yollardan ben de geçtim kişisel deneyimi ve deyimi daha iyi koruyor."
+    },
+    {
+      "id": "r04929",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04930",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04932",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04933",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04934",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kolt & Associates özel adı kaynak biçiminde korunuyor."
+    },
+    {
+      "id": "r04935",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04938",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04939",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04942",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Zula evi daha kısa ve doğal suç dili karşılığı."
+    },
+    {
+      "id": "r04943",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04944",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Unless koşulunu doğru kuruyor; yeni istemiyorsan diyerek mantıksal yönünü ters çeviriyor."
+    },
+    {
+      "id": "r04949",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04959",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04961",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04967",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04971",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04975",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04980",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04994",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04995",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04997",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Acı verecek kadar aptalca daha doğal bir kalıp."
+    },
+    {
+      "id": "r04998",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04999",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05002",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05006",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05008",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05014",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05015",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05016",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05017",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05019",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05022",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05024",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05032",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05033",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05034",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05035",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05038",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05041",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05043",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05045",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kusura bakma konuşma dilinde daha doğal özür."
+    },
+    {
+      "id": "r05047",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05049",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05054",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05055",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05058",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05061",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05065",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05068",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05070",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05073",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05076",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05077",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05081",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05084",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05085",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05092",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05093",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05096",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05097",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05102",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05104",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05107",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05109",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05113",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05114",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05115",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05116",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "O benimki nesneye sahipliği dilbilgisel olarak daha düzgün veriyor."
+    },
+    {
+      "id": "r05120",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05121",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05131",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05133",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05134",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05137",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05138",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05141",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05148",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05154",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05158",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05159",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05163",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05167",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05168",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05170",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05171",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05176",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05182",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05184",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05185",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05186",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05187",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05188",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05191",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Onun adamlarıyla tamlaması dilbilgisel olarak doğru; yeni onun adamlarla bozuk."
+    },
+    {
+      "id": "r05200",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05201",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05205",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05206",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05208",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05211",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05214",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05224",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05225",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05227",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05229",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05230",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05233",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05237",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05238",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05243",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05246",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05247",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05249",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05250",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ne kadar sürede daha düzgün ve doğal soru."
+    },
+    {
+      "id": "r05251",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05258",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05260",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05263",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05272",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05274",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05275",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05276",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05277",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05284",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05291",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05292",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05293",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05300",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05301",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05306",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05315",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05318",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05323",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05325",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaynak fucking kaba vurgusunu koruyor."
+    },
+    {
+      "id": "r05329",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05335",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05336",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05347",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05351",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05357",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05358",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05359",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05362",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05364",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05365",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05371",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05373",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05377",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05379",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05384",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05388",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05396",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05397",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05408",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05415",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05418",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05422",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05429",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05430",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05432",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05433",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05437",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05439",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05445",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05448",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05450",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05453",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05454",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kapatıcı isteğine verilen gündelik özürde Kusura bakma daha doğal."
+    },
+    {
+      "id": "r05455",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05456",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05460",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05465",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05467",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05469",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Dışarıda olma anlamını açıkça koruyor; yalnız geç kaldın diye kaydırmıyor."
+    },
+    {
+      "id": "r05470",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05473",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05476",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05487",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05488",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05491",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05493",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05494",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05496",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05505",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05506",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05515",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05517",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05523",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05525",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05528",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05530",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05531",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05532",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05533",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05539",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05541",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05542",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05554",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05556",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05559",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05560",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05562",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05567",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05568",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05573",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05578",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05580",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05583",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05587",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05599",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05607",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05618",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05623",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05625",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05627",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05630",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05636",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05640",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05642",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05645",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05647",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05649",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05650",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05652",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05653",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05655",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05656",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05660",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05662",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05664",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05666",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05670",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05675",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05686",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05687",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05689",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05695",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05696",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05702",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05704",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05706",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05709",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05711",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05714",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05716",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05718",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05719",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05720",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05723",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05725",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05732",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05733",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05735",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05737",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05739",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05740",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05742",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05750",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05752",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05755",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05756",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05759",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05761",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05762",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05768",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05775",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05778",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05780",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05781",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05782",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05783",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05786",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05787",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05789",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05790",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05792",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05794",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05804",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05805",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05806",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05807",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05808",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05809",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05813",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05814",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05817",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05822",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05823",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05824",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05836",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05838",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05842",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05844",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05846",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05853",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05856",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05857",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05858",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05861",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05865",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05868",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05871",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05875",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05876",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05879",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05882",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05885",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05887",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05888",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05889",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05896",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05897",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05902",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05903",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05905",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05906",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05907",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05909",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05915",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05922",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05923",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05925",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05927",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05929",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05932",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05934",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05946",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05951",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05952",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05956",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05958",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05962",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05964",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05966",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Siktir et, tamam daha yerleşik ve doğal bir Fuck it karşılığı."
+    },
+    {
+      "id": "r05968",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05969",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05970",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05974",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05976",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05983",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05985",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05988",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05997",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05999",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r06001",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r06002",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r06004",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06005",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r06008",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06010",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kaynağın küfürlü şaşkınlık tonunu koruyor; Oha daha hafif."
+    },
+    {
+      "id": "r06012",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06013",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06014",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r06015",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06021",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06027",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06029",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r06037",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r06039",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06040",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06041",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r06043",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06051",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06054",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06063",
+      "choice": "new",
+      "reason": "meaning"
+    }
+  ],
+  "coverage": {
+    "expected": 2000,
+    "reviewed": 2000,
+    "complete": true
+  }
+}

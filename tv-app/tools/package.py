@@ -13,7 +13,7 @@ import tarfile
 import tempfile
 import zlib
 
-PACK_SHA256 = "5196776c454db1db03b07355b5f3b454ae7dedeeda46a1ddc9642ee7aca7fd84"
+PACK_SHA256 = "59297a7664e7ea34849bf55939fa559ac5e7c0b643d9673cb74c6c81a4a1d7ce"
 EXECUTABLES = {
     "usr/palm/services/com.gtavi.turkce.altyazi/runtime/subtitle-engine",
     "usr/palm/services/com.gtavi.turkce.altyazi/runtime/lib/ld-linux-armhf.so.3",
@@ -85,13 +85,17 @@ def fix_archive_modes(path):
 def package(options):
     root = pathlib.Path(__file__).resolve().parents[1]
     if hashlib.sha256(options.pack.read_bytes()).hexdigest() != PACK_SHA256:
-        raise ValueError("GTA VI pack does not match the v5 catalog checksum.")
+        raise ValueError("GTA VI pack does not match the reviewed merged checksum.")
 
-    for binary in (options.runtime / "subtitle-engine", options.runtime / "lib/ld-linux-armhf.so.3"):
+    for binary in (options.runtime / "subtitle-engine", options.runtime / "lib/ld-linux-armhf.so.3",
+                   options.runtime / "lib/libonnxruntime.so.1.21"):
         with binary.open("rb") as file:
             header = file.read(20)
         if not (header[:6] == b"\x7fELF\x01\x01" and header[18:20] == b"\x28\x00"):
             raise ValueError(f"{binary} is not a 32-bit ARM ELF.")
+    for name in ("det.onnx", "rec.onnx", "characters.bin"):
+        if not (options.runtime / "paddle" / name).stat().st_size:
+            raise ValueError(f"PaddleOCR file is empty: {name}")
 
     output = options.output.resolve()
     output.mkdir(parents=True, exist_ok=True)

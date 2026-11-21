@@ -1,0 +1,827 @@
+[
+  {
+    "id": "c0041",
+    "english_key": "what the fuck",
+    "first": {
+      "id": "c0041",
+      "safe": false,
+      "note": "Nesne tanıma ile olay sorma ayrılıyor."
+    },
+    "second": {
+      "id": "c0041",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Ne oluyor lan?"
+    }
+  },
+  {
+    "id": "c0045",
+    "english_key": "are you sure",
+    "first": {
+      "id": "c0045",
+      "safe": false,
+      "note": "Tekil/çoğul veya resmî kişi çekimini koruyan nötr mevcut seçenek yok."
+    },
+    "second": {
+      "id": "c0045",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel iletişim işlevini taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Emin misiniz?"
+    }
+  },
+  {
+    "id": "c0050",
+    "english_key": "let s go",
+    "first": {
+      "id": "c0050",
+      "safe": true,
+      "note": "Okunan bütün varyantlar aynı temel anlamı taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Hadi!"
+    },
+    "second": {
+      "id": "c0050",
+      "safe": false,
+      "note": "Ayrılma hareketi ile genel teşvik işlevleri farklı."
+    }
+  },
+  {
+    "id": "c0093",
+    "english_key": "stay the fuck away",
+    "first": {
+      "id": "c0093",
+      "safe": false,
+      "note": "Uzak dur ve uzak durun kişi/sayı çekimleri farklı."
+    },
+    "second": {
+      "id": "c0093",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Uzak durun lan!"
+    }
+  },
+  {
+    "id": "c0095",
+    "english_key": "jason ugh",
+    "first": {
+      "id": "c0095",
+      "safe": true,
+      "note": "Okunan bütün varyantlar aynı temel anlamı taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Of."
+    },
+    "second": {
+      "id": "c0095",
+      "safe": false,
+      "note": "Acı ünlemi ve bıkkınlık sesi aynı işlevde değil."
+    }
+  },
+  {
+    "id": "c0096",
+    "english_key": "ugh",
+    "first": {
+      "id": "c0096",
+      "safe": true,
+      "note": "Okunan bütün varyantlar aynı temel anlamı taşıyor; mevcut nötr karşılık seçildi.",
+      "translation": "Of."
+    },
+    "second": {
+      "id": "c0096",
+      "safe": false,
+      "note": "Acı, tiksinti ve bıkkınlık sesleri çakışıyor."
+    }
+  },
+  {
+    "id": "c0114",
+    "english_key": "check this out",
+    "first": {
+      "id": "c0114",
+      "safe": false,
+      "note": "Tekil/çoğul emir ayrımı için mevcut nötr seçenek yok."
+    },
+    "second": {
+      "id": "c0114",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Şuna bakın."
+    }
+  },
+  {
+    "id": "c0119",
+    "english_key": "c mon man",
+    "first": {
+      "id": "c0119",
+      "safe": false,
+      "note": "Hadi ama itirazıyla Hadi çağrısı aynı işlev olmayabilir."
+    },
+    "second": {
+      "id": "c0119",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Hadi ama abi."
+    }
+  },
+  {
+    "id": "c0135",
+    "english_key": "what you want",
+    "first": {
+      "id": "c0135",
+      "safe": false,
+      "note": "Tekil/çoğul kişi ve sipariş/istek sorma işlevleri farklı."
+    },
+    "second": {
+      "id": "c0135",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Ne istiyorsunuz?"
+    }
+  },
+  {
+    "id": "c0142",
+    "english_key": "mattia in italian what the fuck",
+    "first": {
+      "id": "c0142",
+      "safe": false,
+      "note": "Bu ne nesne sorusu ve Ne oluyor olay sorusu farklı."
+    },
+    "second": {
+      "id": "c0142",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "İtalyanca: Bu ne lan?"
+    }
+  },
+  {
+    "id": "c0143",
+    "english_key": "in italian what the fuck",
+    "first": {
+      "id": "c0143",
+      "safe": false,
+      "note": "Nesne ve olay sorusu ayrılıyor."
+    },
+    "second": {
+      "id": "c0143",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "İtalyanca: Bu ne lan?"
+    }
+  },
+  {
+    "id": "c0145",
+    "english_key": "look at you",
+    "first": {
+      "id": "c0145",
+      "safe": false,
+      "note": "Hayranlık ile Şu hâline bak eleştirisi farklı tonu/işlevi taşıyor."
+    },
+    "second": {
+      "id": "c0145",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Şu hâline bak."
+    }
+  },
+  {
+    "id": "c0177",
+    "english_key": "you don t have a bank account",
+    "first": {
+      "id": "c0177",
+      "safe": false,
+      "note": "Tekil/çoğul soru çekimlerini koruyan nötr mevcut karşılık yok."
+    },
+    "second": {
+      "id": "c0177",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "Banka hesabınız yok mu?"
+    }
+  },
+  {
+    "id": "c0179",
+    "english_key": "you good",
+    "first": {
+      "id": "c0179",
+      "safe": false,
+      "note": "Sağlık/esenlik ve hazırlık onayı farklı bağlamlar."
+    },
+    "second": {
+      "id": "c0179",
+      "safe": true,
+      "note": "Mevcut nötr karşılık bütün varyantların temel anlamına uyuyor; fark üslup/ünlem/biçim düzeyinde.",
+      "translation": "İyi misin?"
+    }
+  },
+  {
+    "id": "c0215",
+    "english_key": "go go go",
+    "first": {
+      "id": "c0215",
+      "safe": true,
+      "note": "Bütün varyantlar aynı işlev ve anlamı koruyor; mevcut nötr ifade seçildi.",
+      "translation": "Hadi, hadi, hadi!"
+    },
+    "second": {
+      "id": "c0215",
+      "safe": false,
+      "note": "Koşma, yürüme ve gaza basma farklı."
+    }
+  },
+  {
+    "id": "c0238",
+    "english_key": "look who it is",
+    "first": {
+      "id": "c0238",
+      "safe": false,
+      "note": "Tekil/çoğul hitap ve kişi gösterimi farklı."
+    },
+    "second": {
+      "id": "c0238",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Bakın kim gelmiş."
+    }
+  },
+  {
+    "id": "c0244",
+    "english_key": "lucia what the fuck",
+    "first": {
+      "id": "c0244",
+      "safe": false,
+      "note": "Olay ve nesne sorusu farklı."
+    },
+    "second": {
+      "id": "c0244",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Ne oluyor lan?"
+    }
+  },
+  {
+    "id": "c0245",
+    "english_key": "jason thanks",
+    "first": {
+      "id": "c0245",
+      "safe": false,
+      "note": "Tekil/çoğul hitabı nötrleştiren mevcut üçüncü çeviri yok."
+    },
+    "second": {
+      "id": "c0245",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Sağ olun."
+    }
+  },
+  {
+    "id": "c0256",
+    "english_key": "will do",
+    "first": {
+      "id": "c0256",
+      "safe": true,
+      "note": "Okunan varyantlar aynı temel anlam ve işlevde; mevcut ortak ifade seçildi.",
+      "translation": "Tamamdır."
+    },
+    "second": {
+      "id": "c0256",
+      "safe": false,
+      "note": "Söyleme, uğrama ve genel onay farklı eylem."
+    }
+  },
+  {
+    "id": "c0264",
+    "english_key": "you know what",
+    "first": {
+      "id": "c0264",
+      "safe": false,
+      "note": "Tekil ve çoğul soru farklı kişi çekimi."
+    },
+    "second": {
+      "id": "c0264",
+      "safe": true,
+      "note": "Bütün karşılıklar aynı temel anlamı taşıyor; mevcut nötr varyant seçildi.",
+      "translation": "Biliyor musunuz?"
+    }
+  },
+  {
+    "id": "c0291",
+    "english_key": "we just gotta",
+    "first": {
+      "id": "c0291",
+      "safe": true,
+      "note": "Okunan varyantlar aynı temel anlam ve işlevde; mevcut ortak ifade seçildi.",
+      "translation": "Sadece..."
+    },
+    "second": {
+      "id": "c0291",
+      "safe": false,
+      "note": "Eksik devam parçalarında biraz niceliği eklenmiş."
+    }
+  },
+  {
+    "id": "c0294",
+    "english_key": "lucia ugh",
+    "first": {
+      "id": "c0294",
+      "safe": true,
+      "note": "Okunan varyantlar aynı temel anlam ve işlevde; mevcut ortak ifade seçildi.",
+      "translation": "Of."
+    },
+    "second": {
+      "id": "c0294",
+      "safe": false,
+      "note": "Acı ünlemi ve bıkkınlık sesi farklı."
+    }
+  },
+  {
+    "id": "c0300",
+    "english_key": "hey lu",
+    "first": {
+      "id": "c0300",
+      "safe": true,
+      "note": "Okunan varyantlar aynı temel anlam ve işlevde; mevcut ortak ifade seçildi.",
+      "translation": "Hey Lu..."
+    },
+    "second": {
+      "id": "c0300",
+      "safe": false,
+      "note": "Selamlama ve dikkat çağrısı farklı."
+    }
+  },
+  {
+    "id": "c0319",
+    "english_key": "like what",
+    "first": {
+      "id": "c0319",
+      "safe": true,
+      "note": "Okunan varyantlar aynı temel anlam ve işlevde; mevcut ortak ifade seçildi.",
+      "translation": "Ne gibi?"
+    },
+    "second": {
+      "id": "c0319",
+      "safe": false,
+      "note": "Örnek isteme ve yöntem sorusu farklı."
+    }
+  },
+  {
+    "id": "c0323",
+    "english_key": "lucia well",
+    "first": {
+      "id": "c0323",
+      "safe": true,
+      "note": "Okunan varyantlar aynı temel anlam ve işlevde; mevcut ortak ifade seçildi.",
+      "translation": "Şey..."
+    },
+    "second": {
+      "id": "c0323",
+      "safe": false,
+      "note": "Açıklama bağlacı, tereddüt ve kabul farklı."
+    }
+  },
+  {
+    "id": "c0333",
+    "english_key": "you ll see",
+    "first": {
+      "id": "c0333",
+      "safe": false,
+      "note": "Tekil/çoğul hitap çekimleri farklı."
+    },
+    "second": {
+      "id": "c0333",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Göreceksiniz..."
+    }
+  },
+  {
+    "id": "c0337",
+    "english_key": "jason right",
+    "first": {
+      "id": "c0337",
+      "safe": false,
+      "note": "Anlama, kabul ve doğrulama farklı işlevler."
+    },
+    "second": {
+      "id": "c0337",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Tamam."
+    }
+  },
+  {
+    "id": "c0339",
+    "english_key": "you smell that",
+    "first": {
+      "id": "c0339",
+      "safe": false,
+      "note": "Tekil/çoğul hitap ve zaman çekimi farklı."
+    },
+    "second": {
+      "id": "c0339",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Kokuyu aldınız mı?"
+    }
+  },
+  {
+    "id": "c0348",
+    "english_key": "jason got em",
+    "first": {
+      "id": "c0348",
+      "safe": false,
+      "note": "Vurmak ile indirmek sonuç bakımından aynı garanti değil."
+    },
+    "second": {
+      "id": "c0348",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Vurdum!"
+    }
+  },
+  {
+    "id": "c0349",
+    "english_key": "got em",
+    "first": {
+      "id": "c0349",
+      "safe": false,
+      "note": "Vuruş ile düşürme sonucu farklı olabilir."
+    },
+    "second": {
+      "id": "c0349",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Vurdum!"
+    }
+  },
+  {
+    "id": "c0350",
+    "english_key": "the fuck",
+    "first": {
+      "id": "c0350",
+      "safe": false,
+      "note": "Olay ve nesne sorusu farklı."
+    },
+    "second": {
+      "id": "c0350",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Ne oluyor lan?"
+    }
+  },
+  {
+    "id": "c0351",
+    "english_key": "here take this",
+    "first": {
+      "id": "c0351",
+      "safe": true,
+      "note": "Okunan varyantlar aynı temel anlam ve işlevde; mevcut ortak ifade seçildi.",
+      "translation": "Al. Şunu al."
+    },
+    "second": {
+      "id": "c0351",
+      "safe": false,
+      "note": "Kullanma emri ve nesneyi alma emri farklı."
+    }
+  },
+  {
+    "id": "c0381",
+    "english_key": "look at this",
+    "first": {
+      "id": "c0381",
+      "safe": false,
+      "note": "Tekil/çoğul hitap ayrı."
+    },
+    "second": {
+      "id": "c0381",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Şuna bakın!"
+    }
+  },
+  {
+    "id": "c0382",
+    "english_key": "mia what the fuck",
+    "first": {
+      "id": "c0382",
+      "safe": false,
+      "note": "Nesne ve olay sorusu ayrı."
+    },
+    "second": {
+      "id": "c0382",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantlara uygun; anlam farkı yok.",
+      "translation": "Ne oluyor lan..."
+    }
+  },
+  {
+    "id": "c0396",
+    "english_key": "we re here",
+    "first": {
+      "id": "c0396",
+      "safe": true,
+      "note": "Tüm EN/TR varyantları okundu; mevcut ifade her varyantta aynı temel işlevi koruyor.",
+      "translation": "Buradayız."
+    },
+    "second": {
+      "id": "c0396",
+      "safe": false,
+      "note": "Varış ve bulunduğu yeri bildirme farklı."
+    }
+  },
+  {
+    "id": "c0399",
+    "english_key": "lucia the fuck",
+    "first": {
+      "id": "c0399",
+      "safe": false,
+      "note": "Nesne ve olay sorusu farklı."
+    },
+    "second": {
+      "id": "c0399",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Ne oluyor lan?"
+    }
+  },
+  {
+    "id": "c0400",
+    "english_key": "lucia will do",
+    "first": {
+      "id": "c0400",
+      "safe": true,
+      "note": "Tüm EN/TR varyantları okundu; mevcut ifade her varyantta aynı temel işlevi koruyor.",
+      "translation": "Tamamdır."
+    },
+    "second": {
+      "id": "c0400",
+      "safe": false,
+      "note": "Uğrama eylemi ve genel onay farklı."
+    }
+  },
+  {
+    "id": "c0402",
+    "english_key": "alright let s go",
+    "first": {
+      "id": "c0402",
+      "safe": true,
+      "note": "Tüm EN/TR varyantları okundu; mevcut ifade her varyantta aynı temel işlevi koruyor.",
+      "translation": "Tamam, hadi bakalım..."
+    },
+    "second": {
+      "id": "c0402",
+      "safe": false,
+      "note": "Harekete/ayrılmaya davet ve genel başlama farklı."
+    }
+  },
+  {
+    "id": "c0409",
+    "english_key": "in spanish let s go",
+    "first": {
+      "id": "c0409",
+      "safe": true,
+      "note": "Tüm EN/TR varyantları okundu; mevcut ifade her varyantta aynı temel işlevi koruyor.",
+      "translation": "İspanyolca: Hadi gidelim."
+    },
+    "second": {
+      "id": "c0409",
+      "safe": false,
+      "note": "Ayrılma ve genel teşvik/başlama farklı."
+    }
+  },
+  {
+    "id": "c0425",
+    "english_key": "good to see you",
+    "first": {
+      "id": "c0425",
+      "safe": false,
+      "note": "Tekil/çoğul çekimleri farklı."
+    },
+    "second": {
+      "id": "c0425",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Sizi görmek güzel."
+    }
+  },
+  {
+    "id": "c0426",
+    "english_key": "raul in spanish understand me",
+    "first": {
+      "id": "c0426",
+      "safe": false,
+      "note": "Tekil/çoğul çekimleri farklı."
+    },
+    "second": {
+      "id": "c0426",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "İspanyolca: Anlıyor musunuz?"
+    }
+  },
+  {
+    "id": "c0427",
+    "english_key": "in spanish understand me",
+    "first": {
+      "id": "c0427",
+      "safe": false,
+      "note": "Tekil/çoğul çekimleri farklı."
+    },
+    "second": {
+      "id": "c0427",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "İspanyolca: Anlıyor musunuz?"
+    }
+  },
+  {
+    "id": "c0428",
+    "english_key": "hey karim",
+    "first": {
+      "id": "c0428",
+      "safe": true,
+      "note": "Tüm EN/TR varyantları okundu; mevcut ifade her varyantta aynı temel işlevi koruyor.",
+      "translation": "Hey Karim."
+    },
+    "second": {
+      "id": "c0428",
+      "safe": false,
+      "note": "Selamlama ve dikkat çekme farklı."
+    }
+  },
+  {
+    "id": "c0437",
+    "english_key": "go go",
+    "first": {
+      "id": "c0437",
+      "safe": true,
+      "note": "Tüm EN/TR varyantları okundu; mevcut ifade her varyantta aynı temel işlevi koruyor.",
+      "translation": "Hadi! Hadi!"
+    },
+    "second": {
+      "id": "c0437",
+      "safe": false,
+      "note": "Koşma emri ve genel teşvik farklı."
+    }
+  },
+  {
+    "id": "c0468",
+    "english_key": "look",
+    "first": {
+      "id": "c0468",
+      "safe": false,
+      "note": "Tekil/çoğul hitap farklı."
+    },
+    "second": {
+      "id": "c0468",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Bakın."
+    }
+  },
+  {
+    "id": "c0470",
+    "english_key": "check these out",
+    "first": {
+      "id": "c0470",
+      "safe": false,
+      "note": "Tekil/çoğul hitap farklı."
+    },
+    "second": {
+      "id": "c0470",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Şunlara bakın."
+    }
+  },
+  {
+    "id": "c0475",
+    "english_key": "lucia where you going",
+    "first": {
+      "id": "c0475",
+      "safe": false,
+      "note": "Tekil/çoğul hitap farklı."
+    },
+    "second": {
+      "id": "c0475",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Nereye gidiyorsunuz?"
+    }
+  },
+  {
+    "id": "c0476",
+    "english_key": "where you going",
+    "first": {
+      "id": "c0476",
+      "safe": false,
+      "note": "Tekil/çoğul hitap farklı."
+    },
+    "second": {
+      "id": "c0476",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Nereye gidiyorsunuz?"
+    }
+  },
+  {
+    "id": "c0503",
+    "english_key": "i m up",
+    "first": {
+      "id": "c0503",
+      "safe": true,
+      "note": "Tüm EN/TR varyantları okundu; mevcut ifade her varyantta aynı temel işlevi koruyor.",
+      "translation": "Ayaktayım."
+    },
+    "second": {
+      "id": "c0503",
+      "safe": false,
+      "note": "Ayakta olma durumu ve kalkma eylemi farklı."
+    }
+  },
+  {
+    "id": "c0511",
+    "english_key": "hey let s go",
+    "first": {
+      "id": "c0511",
+      "safe": true,
+      "note": "Tüm EN/TR varyantları okundu; mevcut ifade her varyantta aynı temel işlevi koruyor.",
+      "translation": "Hadi, gidelim."
+    },
+    "second": {
+      "id": "c0511",
+      "safe": false,
+      "note": "Birlikte gitme çağrısı ve muhataba yürü emri farklı."
+    }
+  },
+  {
+    "id": "c0517",
+    "english_key": "you know that right",
+    "first": {
+      "id": "c0517",
+      "safe": false,
+      "note": "Tekil/çoğul hitap farklı."
+    },
+    "second": {
+      "id": "c0517",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Biliyorsunuz, değil mi?"
+    }
+  },
+  {
+    "id": "c0518",
+    "english_key": "together",
+    "first": {
+      "id": "c0518",
+      "safe": true,
+      "note": "Tüm EN/TR varyantları okundu; mevcut ifade her varyantta aynı temel işlevi koruyor.",
+      "translation": "Birlikte."
+    },
+    "second": {
+      "id": "c0518",
+      "safe": false,
+      "note": "Yan yana konum ve birlikte hareket farklı."
+    }
+  },
+  {
+    "id": "c0520",
+    "english_key": "you got em",
+    "first": {
+      "id": "c0520",
+      "safe": false,
+      "note": "Vurmak ve indirmek farklı başarı düzeyi."
+    },
+    "second": {
+      "id": "c0520",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Vurdun onları."
+    }
+  },
+  {
+    "id": "c0525",
+    "english_key": "what do you want",
+    "first": {
+      "id": "c0525",
+      "safe": false,
+      "note": "Tekil/çoğul hitap farklı."
+    },
+    "second": {
+      "id": "c0525",
+      "safe": true,
+      "note": "Mevcut ortak karşılık bütün varyantların anlamını koruyor.",
+      "translation": "Ne istiyorsunuz?"
+    }
+  },
+  {
+    "id": "c0529",
+    "english_key": "get out",
+    "first": {
+      "id": "c0529",
+      "safe": true,
+      "note": "Tüm EN/TR varyantları okundu; mevcut ifade her varyantta aynı temel işlevi koruyor.",
+      "translation": "Çık!"
+    },
+    "second": {
+      "id": "c0529",
+      "safe": false,
+      "note": "Araçtan inme ve bir yerden çıkma farklı."
+    }
+  }
+]

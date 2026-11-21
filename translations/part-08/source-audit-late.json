@@ -1,0 +1,1495 @@
+{
+  "decisions": [
+    {
+      "id": "s08-07238000",
+      "source_frame": "continuous/frames/s08-07238000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked: objective and phone message UI, no speech caption."
+    },
+    {
+      "id": "s08-07238500",
+      "source_frame": "continuous/frames/s08-07238500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked: objective and phone message UI, no speech caption."
+    },
+    {
+      "id": "s08-07239000",
+      "source_frame": "continuous/frames/s08-07239000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked: objective and phone message UI, no speech caption."
+    },
+    {
+      "id": "s08-07243500",
+      "source_frame": "continuous/frames/s08-07243500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked: objective and phone message UI, no speech caption."
+    },
+    {
+      "id": "s08-07244000",
+      "source_frame": "continuous/frames/s08-07244000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked: objective and phone message UI, no speech caption."
+    },
+    {
+      "id": "s08-07244500",
+      "source_frame": "continuous/frames/s08-07244500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked: objective and phone message UI, no speech caption."
+    },
+    {
+      "id": "s08-07504500",
+      "source_frame": "continuous/frames/s08-07504500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene and objective UI, no speech caption."
+    },
+    {
+      "id": "s08-07511500",
+      "source_frame": "continuous/frames/s08-07511500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene and objective UI, no speech caption."
+    },
+    {
+      "id": "s08-07534500",
+      "source_frame": "continuous/frames/s08-07534500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene and objective UI, no speech caption."
+    },
+    {
+      "id": "s08-07535000",
+      "source_frame": "continuous/frames/s08-07535000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene and objective UI, no speech caption."
+    },
+    {
+      "id": "s08-07535500",
+      "source_frame": "continuous/frames/s08-07535500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene and objective UI, no speech caption."
+    },
+    {
+      "id": "s08-07545000",
+      "source_frame": "continuous/frames/s08-07545000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene and objective UI, no speech caption."
+    },
+    {
+      "id": "s08-07589000",
+      "source_frame": "continuous/frames/s08-07589000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene and objective UI, no speech caption."
+    },
+    {
+      "id": "s08-07592500",
+      "source_frame": "continuous/frames/s08-07592500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene and objective UI, no speech caption."
+    },
+    {
+      "id": "s08-07716500",
+      "source_frame": "continuous/frames/s08-07716500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene and objective UI, no speech caption."
+    },
+    {
+      "id": "s08-07719000",
+      "source_frame": "continuous/frames/s08-07719000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene and objective UI, no speech caption."
+    },
+    {
+      "id": "s08-07726000",
+      "source_frame": "continuous/frames/s08-07726000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene and objective UI, no speech caption."
+    },
+    {
+      "id": "s08-07741000",
+      "source_frame": "continuous/frames/s08-07741000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene and objective UI, no speech caption."
+    },
+    {
+      "id": "s08-07796000",
+      "source_frame": "continuous/frames/s08-07796000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene and objective UI, no speech caption."
+    },
+    {
+      "id": "s08-07827500",
+      "source_frame": "continuous/frames/s08-07827500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-07828500",
+      "source_frame": "continuous/frames/s08-07828500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-07887500",
+      "source_frame": "continuous/frames/s08-07887500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-07890000",
+      "source_frame": "continuous/frames/s08-07890000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-07891000",
+      "source_frame": "continuous/frames/s08-07891000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-07928000",
+      "source_frame": "continuous/frames/s08-07928000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-07929000",
+      "source_frame": "continuous/frames/s08-07929000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-08040500",
+      "source_frame": "continuous/frames/s08-08040500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-08041000",
+      "source_frame": "continuous/frames/s08-08041000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-08057000",
+      "source_frame": "continuous/frames/s08-08057000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-08057500",
+      "source_frame": "continuous/frames/s08-08057500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-08059000",
+      "source_frame": "continuous/frames/s08-08059000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-08062000",
+      "source_frame": "continuous/frames/s08-08062000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-08088000",
+      "source_frame": "continuous/frames/s08-08088000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop: only scene, map, or objective UI; no speech caption."
+    },
+    {
+      "id": "s08-08113500",
+      "source_frame": "continuous/frames/s08-08113500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08114000",
+      "source_frame": "continuous/frames/s08-08114000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08114500",
+      "source_frame": "continuous/frames/s08-08114500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08118000",
+      "source_frame": "continuous/frames/s08-08118000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08120000",
+      "source_frame": "continuous/frames/s08-08120000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08120500",
+      "source_frame": "continuous/frames/s08-08120500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08211000",
+      "source_frame": "continuous/frames/s08-08211000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08211500",
+      "source_frame": "continuous/frames/s08-08211500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08212000",
+      "source_frame": "continuous/frames/s08-08212000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08228500",
+      "source_frame": "continuous/frames/s08-08228500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08279000",
+      "source_frame": "continuous/frames/s08-08279000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08279500",
+      "source_frame": "continuous/frames/s08-08279500.jpg",
+      "decision": "duplicate_caption",
+      "note": "Visually checked: same fully readable Jason caption translated from s08-08280000."
+    },
+    {
+      "id": "s08-08281500",
+      "source_frame": "continuous/frames/s08-08281500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08299500",
+      "source_frame": "continuous/frames/s08-08299500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08312500",
+      "source_frame": "continuous/frames/s08-08312500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08313500",
+      "source_frame": "continuous/frames/s08-08313500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08317500",
+      "source_frame": "continuous/frames/s08-08317500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08333000",
+      "source_frame": "continuous/frames/s08-08333000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08342500",
+      "source_frame": "continuous/frames/s08-08342500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08345500",
+      "source_frame": "continuous/frames/s08-08345500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08374500",
+      "source_frame": "continuous/frames/s08-08374500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08427500",
+      "source_frame": "continuous/frames/s08-08427500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08428000",
+      "source_frame": "continuous/frames/s08-08428000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08431000",
+      "source_frame": "continuous/frames/s08-08431000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08431500",
+      "source_frame": "continuous/frames/s08-08431500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08436000",
+      "source_frame": "continuous/frames/s08-08436000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08501500",
+      "source_frame": "continuous/frames/s08-08501500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08502000",
+      "source_frame": "continuous/frames/s08-08502000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08512500",
+      "source_frame": "continuous/frames/s08-08512500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08515500",
+      "source_frame": "continuous/frames/s08-08515500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08519500",
+      "source_frame": "continuous/frames/s08-08519500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-08832500",
+      "source_frame": "continuous/frames/s08-08832500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/workout UI, no speech caption."
+    },
+    {
+      "id": "s08-08833000",
+      "source_frame": "continuous/frames/s08-08833000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/workout UI, no speech caption."
+    },
+    {
+      "id": "s08-08833500",
+      "source_frame": "continuous/frames/s08-08833500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/workout UI, no speech caption."
+    },
+    {
+      "id": "s08-08839000",
+      "source_frame": "continuous/frames/s08-08839000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/workout UI, no speech caption."
+    },
+    {
+      "id": "s08-08877000",
+      "source_frame": "continuous/frames/s08-08877000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/workout UI, no speech caption."
+    },
+    {
+      "id": "s08-08878000",
+      "source_frame": "continuous/frames/s08-08878000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/workout UI, no speech caption."
+    },
+    {
+      "id": "s08-08887500",
+      "source_frame": "continuous/frames/s08-08887500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/workout UI, no speech caption."
+    },
+    {
+      "id": "s08-08888000",
+      "source_frame": "continuous/frames/s08-08888000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/workout UI, no speech caption."
+    },
+    {
+      "id": "s08-08888500",
+      "source_frame": "continuous/frames/s08-08888500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/workout UI, no speech caption."
+    },
+    {
+      "id": "s08-08901000",
+      "source_frame": "continuous/frames/s08-08901000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/workout UI, no speech caption."
+    },
+    {
+      "id": "s08-08901500",
+      "source_frame": "continuous/frames/s08-08901500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/workout UI, no speech caption."
+    },
+    {
+      "id": "s08-08905000",
+      "source_frame": "continuous/frames/s08-08905000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/workout UI, no speech caption."
+    },
+    {
+      "id": "s08-08985000",
+      "source_frame": "continuous/frames/s08-08985000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/workout UI, no speech caption."
+    },
+    {
+      "id": "s08-09026500",
+      "source_frame": "continuous/frames/s08-09026500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone UI, no speech caption."
+    },
+    {
+      "id": "s08-09029500",
+      "source_frame": "continuous/frames/s08-09029500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone UI, no speech caption."
+    },
+    {
+      "id": "s08-09030000",
+      "source_frame": "continuous/frames/s08-09030000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone UI, no speech caption."
+    },
+    {
+      "id": "s08-09030500",
+      "source_frame": "continuous/frames/s08-09030500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone UI, no speech caption."
+    },
+    {
+      "id": "s08-09151000",
+      "source_frame": "continuous/frames/s08-09151000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone UI, no speech caption."
+    },
+    {
+      "id": "s08-09151500",
+      "source_frame": "continuous/frames/s08-09151500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone UI, no speech caption."
+    },
+    {
+      "id": "s08-09209000",
+      "source_frame": "continuous/frames/s08-09209000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone UI, no speech caption."
+    },
+    {
+      "id": "s08-09209500",
+      "source_frame": "continuous/frames/s08-09209500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone UI, no speech caption."
+    },
+    {
+      "id": "s08-09216500",
+      "source_frame": "continuous/frames/s08-09216500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone UI, no speech caption."
+    },
+    {
+      "id": "s08-09286000",
+      "source_frame": "continuous/frames/s08-09286000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone UI, no speech caption."
+    },
+    {
+      "id": "s08-09286500",
+      "source_frame": "continuous/frames/s08-09286500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone UI, no speech caption."
+    },
+    {
+      "id": "s08-09287000",
+      "source_frame": "continuous/frames/s08-09287000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone UI, no speech caption."
+    },
+    {
+      "id": "s08-09383500",
+      "source_frame": "continuous/frames/s08-09383500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09384000",
+      "source_frame": "continuous/frames/s08-09384000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09394500",
+      "source_frame": "continuous/frames/s08-09394500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09464000",
+      "source_frame": "continuous/frames/s08-09464000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09490500",
+      "source_frame": "continuous/frames/s08-09490500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09491500",
+      "source_frame": "continuous/frames/s08-09491500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09492000",
+      "source_frame": "continuous/frames/s08-09492000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09492500",
+      "source_frame": "continuous/frames/s08-09492500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09495000",
+      "source_frame": "continuous/frames/s08-09495000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09499000",
+      "source_frame": "continuous/frames/s08-09499000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09503000",
+      "source_frame": "continuous/frames/s08-09503000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09505000",
+      "source_frame": "continuous/frames/s08-09505000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09507000",
+      "source_frame": "continuous/frames/s08-09507000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09557000",
+      "source_frame": "continuous/frames/s08-09557000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09557500",
+      "source_frame": "continuous/frames/s08-09557500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09563500",
+      "source_frame": "continuous/frames/s08-09563500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09565000",
+      "source_frame": "continuous/frames/s08-09565000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09580000",
+      "source_frame": "continuous/frames/s08-09580000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09584500",
+      "source_frame": "continuous/frames/s08-09584500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09585500",
+      "source_frame": "continuous/frames/s08-09585500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/vehicle/weapon UI, no speech caption."
+    },
+    {
+      "id": "s08-09345500",
+      "source_frame": "continuous/frames/s08-09345500.jpg",
+      "decision": "duplicate_caption",
+      "note": "Visually checked; same full Nate easy caption as s08-09345000."
+    },
+    {
+      "id": "s08-09558000",
+      "source_frame": "continuous/frames/s08-09558000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09620000",
+      "source_frame": "continuous/frames/s08-09620000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09622000",
+      "source_frame": "continuous/frames/s08-09622000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09624000",
+      "source_frame": "continuous/frames/s08-09624000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09628000",
+      "source_frame": "continuous/frames/s08-09628000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09631500",
+      "source_frame": "continuous/frames/s08-09631500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09632000",
+      "source_frame": "continuous/frames/s08-09632000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09632500",
+      "source_frame": "continuous/frames/s08-09632500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09654500",
+      "source_frame": "continuous/frames/s08-09654500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09686500",
+      "source_frame": "continuous/frames/s08-09686500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09687000",
+      "source_frame": "continuous/frames/s08-09687000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09709000",
+      "source_frame": "continuous/frames/s08-09709000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09709500",
+      "source_frame": "continuous/frames/s08-09709500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09710500",
+      "source_frame": "continuous/frames/s08-09710500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09827000",
+      "source_frame": "continuous/frames/s08-09827000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09836500",
+      "source_frame": "continuous/frames/s08-09836500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09837000",
+      "source_frame": "continuous/frames/s08-09837000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09868500",
+      "source_frame": "continuous/frames/s08-09868500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09872000",
+      "source_frame": "continuous/frames/s08-09872000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09873000",
+      "source_frame": "continuous/frames/s08-09873000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09873500",
+      "source_frame": "continuous/frames/s08-09873500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09878000",
+      "source_frame": "continuous/frames/s08-09878000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09883000",
+      "source_frame": "continuous/frames/s08-09883000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09883500",
+      "source_frame": "continuous/frames/s08-09883500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09884500",
+      "source_frame": "continuous/frames/s08-09884500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09897500",
+      "source_frame": "continuous/frames/s08-09897500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09898000",
+      "source_frame": "continuous/frames/s08-09898000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09899000",
+      "source_frame": "continuous/frames/s08-09899000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; only scene/objective/map/phone/vehicle UI, no speech caption."
+    },
+    {
+      "id": "s08-09671500",
+      "source_frame": "continuous/frames/s08-09671500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-09872500",
+      "source_frame": "continuous/frames/s08-09872500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-09900000",
+      "source_frame": "continuous/frames/s08-09900000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10034500",
+      "source_frame": "continuous/frames/s08-10034500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10035000",
+      "source_frame": "continuous/frames/s08-10035000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10035500",
+      "source_frame": "continuous/frames/s08-10035500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10094500",
+      "source_frame": "continuous/frames/s08-10094500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10095000",
+      "source_frame": "continuous/frames/s08-10095000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10099000",
+      "source_frame": "continuous/frames/s08-10099000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10106000",
+      "source_frame": "continuous/frames/s08-10106000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10155000",
+      "source_frame": "continuous/frames/s08-10155000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10156500",
+      "source_frame": "continuous/frames/s08-10156500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10159500",
+      "source_frame": "continuous/frames/s08-10159500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10163500",
+      "source_frame": "continuous/frames/s08-10163500.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Visually checked same censored caption as s08-10161000."
+    },
+    {
+      "id": "s08-10166500",
+      "source_frame": "continuous/frames/s08-10166500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10197000",
+      "source_frame": "continuous/frames/s08-10197000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10142000",
+      "source_frame": "continuous/frames/s08-10142000.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Visually checked duplicate of s08-10141000."
+    },
+    {
+      "id": "s08-10161500",
+      "source_frame": "continuous/frames/s08-10161500.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Visually checked duplicate of s08-10161000."
+    },
+    {
+      "id": "s08-10110500",
+      "source_frame": "continuous/frames/s08-10110500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10197500",
+      "source_frame": "continuous/frames/s08-10197500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10198000",
+      "source_frame": "continuous/frames/s08-10198000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10200000",
+      "source_frame": "continuous/frames/s08-10200000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10257500",
+      "source_frame": "continuous/frames/s08-10257500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10259000",
+      "source_frame": "continuous/frames/s08-10259000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10260500",
+      "source_frame": "continuous/frames/s08-10260500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10276000",
+      "source_frame": "continuous/frames/s08-10276000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10337500",
+      "source_frame": "continuous/frames/s08-10337500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10346000",
+      "source_frame": "continuous/frames/s08-10346000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10346500",
+      "source_frame": "continuous/frames/s08-10346500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10347000",
+      "source_frame": "continuous/frames/s08-10347000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10352500",
+      "source_frame": "continuous/frames/s08-10352500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10355000",
+      "source_frame": "continuous/frames/s08-10355000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10385500",
+      "source_frame": "continuous/frames/s08-10385500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10388500",
+      "source_frame": "continuous/frames/s08-10388500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10389500",
+      "source_frame": "continuous/frames/s08-10389500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10390000",
+      "source_frame": "continuous/frames/s08-10390000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10390500",
+      "source_frame": "continuous/frames/s08-10390500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10392000",
+      "source_frame": "continuous/frames/s08-10392000.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10397500",
+      "source_frame": "continuous/frames/s08-10397500.jpg",
+      "decision": "no_dialogue",
+      "note": "Visually checked native source crop; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10016500",
+      "source_frame": "continuous/frames/s08-10016500.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Visually checked same caption as s08-10015500."
+    },
+    {
+      "id": "s08-10162000",
+      "source_frame": "continuous/frames/s08-10162000.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Visually checked same caption as s08-10161000."
+    },
+    {
+      "id": "s08-10280500",
+      "source_frame": "continuous/frames/s08-10280500.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Visually checked same caption as s08-10267500."
+    },
+    {
+      "id": "s08-10285000",
+      "source_frame": "continuous/frames/s08-10285000.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Visually checked same caption as s08-10273000."
+    },
+    {
+      "id": "s08-10368000",
+      "source_frame": "continuous/frames/s08-10368000.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Visually checked same caption as s08-10367500."
+    },
+    {
+      "id": "s08-10017000",
+      "source_frame": "continuous/frames/s08-10017000.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Visually checked same censored source caption as s08-10015500."
+    },
+    {
+      "id": "s08-10162500",
+      "source_frame": "continuous/frames/s08-10162500.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Visually checked same censored source caption as s08-10161000."
+    },
+    {
+      "id": "s08-10113000",
+      "source_frame": "continuous/frames/s08-10113000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only."
+    },
+    {
+      "id": "s08-09047500",
+      "source_frame": "continuous/frames/s08-09047500.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Source-checked Nate: Yeah! canonical duplicate of main approved s08-06750500; keep main Turkish İşte bu! for both workout encouragement contexts."
+    },
+    {
+      "id": "s08-10114000",
+      "source_frame": "continuous/frames/s08-10114000.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Visually checked duplicate of censored s08-10113500."
+    },
+    {
+      "id": "s08-10149500",
+      "source_frame": "continuous/frames/s08-10149500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10490500",
+      "source_frame": "continuous/frames/s08-10490500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10491000",
+      "source_frame": "continuous/frames/s08-10491000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10491500",
+      "source_frame": "continuous/frames/s08-10491500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10493500",
+      "source_frame": "continuous/frames/s08-10493500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10494000",
+      "source_frame": "continuous/frames/s08-10494000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10496000",
+      "source_frame": "continuous/frames/s08-10496000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10496500",
+      "source_frame": "continuous/frames/s08-10496500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10502000",
+      "source_frame": "continuous/frames/s08-10502000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10521000",
+      "source_frame": "continuous/frames/s08-10521000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10164000",
+      "source_frame": "continuous/frames/s08-10164000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10545000",
+      "source_frame": "continuous/frames/s08-10545000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10545500",
+      "source_frame": "continuous/frames/s08-10545500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10617000",
+      "source_frame": "continuous/frames/s08-10617000.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Visually checked censored Nate caption same as issue10618.5; independent Lucia question approved at10615."
+    },
+    {
+      "id": "s08-10274000",
+      "source_frame": "continuous/frames/s08-10274000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10750500",
+      "source_frame": "continuous/frames/s08-10750500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10754500",
+      "source_frame": "continuous/frames/s08-10754500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10819500",
+      "source_frame": "continuous/frames/s08-10819500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene only, no speech caption."
+    },
+    {
+      "id": "s08-10881000",
+      "source_frame": "continuous/frames/s08-10881000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10913500",
+      "source_frame": "continuous/frames/s08-10913500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10922000",
+      "source_frame": "continuous/frames/s08-10922000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10922500",
+      "source_frame": "continuous/frames/s08-10922500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10938500",
+      "source_frame": "continuous/frames/s08-10938500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10939000",
+      "source_frame": "continuous/frames/s08-10939000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10939500",
+      "source_frame": "continuous/frames/s08-10939500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10947000",
+      "source_frame": "continuous/frames/s08-10947000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10947500",
+      "source_frame": "continuous/frames/s08-10947500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10957500",
+      "source_frame": "continuous/frames/s08-10957500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-10958000",
+      "source_frame": "continuous/frames/s08-10958000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11060000",
+      "source_frame": "continuous/frames/s08-11060000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11060500",
+      "source_frame": "continuous/frames/s08-11060500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11065500",
+      "source_frame": "continuous/frames/s08-11065500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11135500",
+      "source_frame": "continuous/frames/s08-11135500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11136000",
+      "source_frame": "continuous/frames/s08-11136000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11136500",
+      "source_frame": "continuous/frames/s08-11136500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11141500",
+      "source_frame": "continuous/frames/s08-11141500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11142000",
+      "source_frame": "continuous/frames/s08-11142000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11165500",
+      "source_frame": "continuous/frames/s08-11165500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11166000",
+      "source_frame": "continuous/frames/s08-11166000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11166500",
+      "source_frame": "continuous/frames/s08-11166500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11208500",
+      "source_frame": "continuous/frames/s08-11208500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene only, no speech caption."
+    },
+    {
+      "id": "s08-11700000",
+      "source_frame": "continuous/frames/s08-11700000.jpg",
+      "decision": "duplicate_source_caption",
+      "note": "Native source crop visually checked; same caption as11696.5, OCR I/l variation."
+    },
+    {
+      "id": "s08-11694000",
+      "source_frame": "continuous/frames/s08-11694000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11696000",
+      "source_frame": "continuous/frames/s08-11696000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11700500",
+      "source_frame": "continuous/frames/s08-11700500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11708000",
+      "source_frame": "continuous/frames/s08-11708000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11894500",
+      "source_frame": "continuous/frames/s08-11894500.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11895000",
+      "source_frame": "continuous/frames/s08-11895000.jpg",
+      "decision": "no_dialogue",
+      "note": "Native source crop visually checked; scene/UI only, no speech caption."
+    },
+    {
+      "id": "s08-11952500",
+      "decision": "no_dialogue",
+      "reason": "Native source contact sheet visually checked: gameplay and objective interface only; no readable speech caption."
+    },
+    {
+      "id": "s08-11953000",
+      "decision": "no_dialogue",
+      "reason": "Native source contact sheet visually checked: gameplay and objective interface only; no readable speech caption."
+    },
+    {
+      "id": "s08-11953500",
+      "decision": "no_dialogue",
+      "reason": "Native source contact sheet visually checked: gameplay and objective interface only; no readable speech caption."
+    },
+    {
+      "id": "s08-11959000",
+      "decision": "no_dialogue",
+      "reason": "Native source contact sheet visually checked: gameplay and objective interface only; no readable speech caption."
+    },
+    {
+      "id": "s08-11962000",
+      "decision": "no_dialogue",
+      "reason": "Native source contact sheet visually checked: gameplay and objective interface only; no readable speech caption."
+    },
+    {
+      "id": "s08-11976000",
+      "decision": "no_dialogue",
+      "reason": "Native source contact sheet visually checked: gameplay and objective interface only; no readable speech caption."
+    },
+    {
+      "id": "s08-11981500",
+      "decision": "no_dialogue",
+      "reason": "Native source contact sheet visually checked: gameplay and objective interface only; no readable speech caption."
+    },
+    {
+      "id": "s08-11996000",
+      "decision": "no_dialogue",
+      "reason": "Native source contact sheet visually checked: gameplay and objective interface only; no readable speech caption."
+    },
+    {
+      "id": "s08-11996500",
+      "decision": "no_dialogue",
+      "reason": "Native source contact sheet visually checked: gameplay and objective interface only; no readable speech caption."
+    },
+    {
+      "id": "s08-11997000",
+      "decision": "no_dialogue",
+      "reason": "Native source contact sheet visually checked: gameplay and objective interface only; no readable speech caption."
+    },
+    {
+      "id": "s08-11943000",
+      "decision": "duplicate",
+      "duplicate_of": "s08-11942500",
+      "reason": "Source checked: identical Hey, chill! caption."
+    },
+    {
+      "id": "s08-07207000",
+      "decision": "no_dialogue",
+      "reason": "Native source visually checked: no speech caption; gameplay, phone and objective interface only."
+    },
+    {
+      "id": "s08-07236500",
+      "decision": "no_dialogue",
+      "reason": "Native source visually checked: no speech caption; gameplay, phone and objective interface only."
+    },
+    {
+      "id": "s08-07239500",
+      "decision": "no_dialogue",
+      "reason": "Native source visually checked: no speech caption; gameplay, phone and objective interface only."
+    },
+    {
+      "id": "s08-07256500",
+      "decision": "no_dialogue",
+      "reason": "Native source visually checked: no speech caption; gameplay, phone and objective interface only."
+    },
+    {
+      "id": "s08-07302500",
+      "decision": "no_dialogue",
+      "reason": "Native source visually checked: no speech caption; gameplay, phone and objective interface only."
+    }
+  ]
+}

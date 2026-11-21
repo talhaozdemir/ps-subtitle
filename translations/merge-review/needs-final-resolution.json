@@ -1,0 +1,50 @@
+[
+  {
+    "ref": "1:p01-00299",
+    "reason": "different_old_choices",
+    "units": [
+      "r00351",
+      "r00352"
+    ]
+  },
+  {
+    "ref": "1:s01-05946500",
+    "reason": "different_old_choices",
+    "units": [
+      "r01121",
+      "r01122"
+    ]
+  },
+  {
+    "ref": "1:s01-08816000",
+    "reason": "different_old_choices",
+    "units": [
+      "r01630",
+      "r01631"
+    ]
+  },
+  {
+    "ref": "1:p01-02071",
+    "reason": "different_old_choices",
+    "units": [
+      "r02221",
+      "r02222"
+    ]
+  },
+  {
+    "ref": "1:s01-14087500",
+    "reason": "different_old_choices",
+    "units": [
+      "r02720",
+      "r02721"
+    ]
+  },
+  {
+    "ref": "1:s01-14104500",
+    "reason": "different_old_choices",
+    "units": [
+      "r02733",
+      "r02734"
+    ]
+  }
+]

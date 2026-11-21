@@ -1,0 +1,164 @@
+{
+  "scope": "Chronological review of existing extracted English/Turkish text in Parts 01–08, with native evidence checks of changed/suspicious continuation chains.",
+  "complete": true,
+  "reviewed_records": 22547,
+  "changed_records": 154,
+  "turkish_changes": 153,
+  "english_changes": 1,
+  "parts": [
+    {
+      "part": 1,
+      "reviewed_records": 2943,
+      "changed_records": 29,
+      "turkish_changes": 29,
+      "english_changes": 0,
+      "pack_entries": 5518,
+      "consumer_matched_records": 2943,
+      "intentionally_omitted_ambiguous_records": [],
+      "all_consumer_checks_passed": true,
+      "record_ids_preserved": true,
+      "navigation_and_evidence_preserved": true,
+      "source_issues_unchanged": true,
+      "report": "part-01/continuation-review.json"
+    },
+    {
+      "part": 2,
+      "reviewed_records": 2054,
+      "changed_records": 28,
+      "turkish_changes": 28,
+      "english_changes": 0,
+      "pack_entries": 3983,
+      "consumer_matched_records": 2054,
+      "intentionally_omitted_ambiguous_records": [],
+      "all_consumer_checks_passed": true,
+      "record_ids_preserved": true,
+      "navigation_and_evidence_preserved": true,
+      "source_issues_unchanged": true,
+      "report": "part-02/continuation-review.json"
+    },
+    {
+      "part": 3,
+      "reviewed_records": 2853,
+      "changed_records": 19,
+      "turkish_changes": 19,
+      "english_changes": 0,
+      "pack_entries": 5571,
+      "consumer_matched_records": 2853,
+      "intentionally_omitted_ambiguous_records": [],
+      "all_consumer_checks_passed": true,
+      "record_ids_preserved": true,
+      "navigation_and_evidence_preserved": true,
+      "source_issues_unchanged": true,
+      "report": "part-03/continuation-review.json"
+    },
+    {
+      "part": 4,
+      "reviewed_records": 2504,
+      "changed_records": 14,
+      "turkish_changes": 14,
+      "english_changes": 0,
+      "pack_entries": 4803,
+      "consumer_matched_records": 2504,
+      "intentionally_omitted_ambiguous_records": [],
+      "all_consumer_checks_passed": true,
+      "record_ids_preserved": true,
+      "navigation_and_evidence_preserved": true,
+      "source_issues_unchanged": true,
+      "report": "part-04/continuation-review.json"
+    },
+    {
+      "part": 5,
+      "reviewed_records": 2072,
+      "changed_records": 7,
+      "turkish_changes": 7,
+      "english_changes": 0,
+      "pack_entries": 4008,
+      "consumer_matched_records": 2072,
+      "intentionally_omitted_ambiguous_records": [],
+      "all_consumer_checks_passed": true,
+      "record_ids_preserved": true,
+      "navigation_and_evidence_preserved": true,
+      "source_issues_unchanged": true,
+      "report": "part-05/continuation-review.json"
+    },
+    {
+      "part": 6,
+      "reviewed_records": 2603,
+      "changed_records": 9,
+      "turkish_changes": 9,
+      "english_changes": 0,
+      "pack_entries": 5013,
+      "consumer_matched_records": 2603,
+      "intentionally_omitted_ambiguous_records": [],
+      "all_consumer_checks_passed": true,
+      "record_ids_preserved": true,
+      "navigation_and_evidence_preserved": true,
+      "source_issues_unchanged": true,
+      "report": "part-06/continuation-review.json"
+    },
+    {
+      "part": 7,
+      "reviewed_records": 2273,
+      "changed_records": 12,
+      "turkish_changes": 12,
+      "english_changes": 0,
+      "pack_entries": 4444,
+      "consumer_matched_records": 2273,
+      "intentionally_omitted_ambiguous_records": [],
+      "all_consumer_checks_passed": true,
+      "record_ids_preserved": true,
+      "navigation_and_evidence_preserved": true,
+      "source_issues_unchanged": true,
+      "report": "part-07/continuation-review.json"
+    },
+    {
+      "part": 8,
+      "reviewed_records": 5245,
+      "changed_records": 36,
+      "turkish_changes": 35,
+      "english_changes": 1,
+      "pack_entries": 10150,
+      "consumer_matched_records": 5242,
+      "intentionally_omitted_ambiguous_records": [
+        "s08-00627000",
+        "s08-07975500",
+        "s08-16800000"
+      ],
+      "all_consumer_checks_passed": true,
+      "record_ids_preserved": true,
+      "navigation_and_evidence_preserved": true,
+      "source_issues_unchanged": true,
+      "report": "part-08/continuation-review.json"
+    }
+  ],
+  "video_boundary_review": {
+    "boundaries": [
+      "01→02",
+      "02→03",
+      "03→04",
+      "04→05",
+      "05→06",
+      "06→07",
+      "07→08",
+      "08→09"
+    ],
+    "result": "No unfinished cross-video sentence found. 01–08 boundaries: 168 surrounding records read; 03→04 native frames additionally checked. 08→09 checked separately."
+  },
+  "independent_root_changes_qa": {
+    "records": 38,
+    "result": "PASS; all 29 Part01 and 9 Part06 changes re-read by a separate agent."
+  },
+  "uncertain_source_fragments": [
+    {
+      "part": 1,
+      "id": "p01-01047",
+      "english": "Mandy: where they work out...",
+      "reason": "Preceding/following stored crops contain no continuation; meaning cannot be resolved safely from available evidence. No guessed continuation added."
+    }
+  ],
+  "limits": [
+    "Existing extracted text audited; full-video OCR not repeated.",
+    "Source censorship and approximate timing preserved.",
+    "Unreadable or never-extracted speech cannot be guaranteed complete."
+  ]
+}

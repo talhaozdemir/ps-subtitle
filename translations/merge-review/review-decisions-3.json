@@ -1,0 +1,10240 @@
+{
+  "format": 1,
+  "reviewer": "review_three",
+  "decisions": [
+    {
+      "id": "r00002",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00007",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00009",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00013",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r00016",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00017",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00020",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00025",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00027",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00028",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00030",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00033",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00034",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00036",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00040",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00041",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00043",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00047",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00049",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00052",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00056",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00058",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00059",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00061",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00063",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00065",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r00072",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00073",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00076",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00077",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00079",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00083",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00084",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Pencereye dalıp gitmek staring anlamını daha doğal veriyor."
+    },
+    {
+      "id": "r00093",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00096",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00098",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00101",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00104",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00105",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00109",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00110",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00111",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00113",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00115",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00118",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00121",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00123",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00124",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00126",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00129",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00131",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00132",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00133",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00136",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00141",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00142",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00147",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00151",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00153",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00155",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00159",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00161",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r00162",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00166",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bilmesi gerekenleri anlat yeter daha akıcı ve aynı anlamda."
+    },
+    {
+      "id": "r00169",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00173",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00176",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00177",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r00182",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00184",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00190",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00191",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00194",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00198",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00199",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00200",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00202",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00204",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00210",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00211",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00214",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00216",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00217",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00220",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00221",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00228",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00231",
+      "choice": "new",
+      "reason": "tone"
+    },
+    {
+      "id": "r00234",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00235",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00236",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00238",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00241",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00244",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00246",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00247",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00248",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00249",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00250",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00251",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00253",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00256",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00263",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00268",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00269",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00271",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00274",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00277",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00280",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00282",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00287",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00289",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00295",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00297",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00301",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00309",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00314",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00317",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00319",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00322",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00327",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00331",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00332",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Trafik tabelalarının ne işe yaradığını ifadesi daha doğal."
+    },
+    {
+      "id": "r00339",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00347",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00356",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00357",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00360",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00362",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00363",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Yapmak üzereyim, about to zamanını daha doğru koruyor."
+    },
+    {
+      "id": "r00367",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00368",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00374",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00376",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00377",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00381",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00382",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00391",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00394",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00397",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00400",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00407",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00413",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00414",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r00415",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00417",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00418",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r00422",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00425",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00426",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00429",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Tekil emir olan Double check için Bir daha kontrol et daha uygun."
+    },
+    {
+      "id": "r00432",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00447",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00448",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00449",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00450",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00460",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r00468",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00478",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00487",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00490",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r00496",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00497",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00498",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00500",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00502",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00507",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00509",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00513",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00517",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00522",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00523",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Kulübede tutuyorlar ifadesi mevcut durumu daha doğru aktarıyor."
+    },
+    {
+      "id": "r00524",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00526",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00527",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00533",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00538",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00539",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00546",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00551",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00555",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00557",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00558",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00560",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00561",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r00564",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00578",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00579",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00583",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00585",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00586",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00591",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00593",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00598",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00603",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r00606",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00610",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00613",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00615",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00617",
+      "choice": "new",
+      "reason": "incomplete_old"
+    },
+    {
+      "id": "r00618",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00620",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00623",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00627",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00629",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00631",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00635",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00638",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00650",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00651",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00654",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00655",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00656",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00657",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00662",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00667",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00668",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00669",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00675",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00676",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00680",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00684",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00685",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00687",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Happy hour indirimli içki saatidir; eski bu anlamı koruyor."
+    },
+    {
+      "id": "r00689",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00694",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00698",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00699",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00700",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Lori seni Sangria içmeye bekliyor daha doğal."
+    },
+    {
+      "id": "r00707",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00710",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00711",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00712",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00714",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r00715",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00722",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00723",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00725",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00726",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00727",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00728",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00730",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00732",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00734",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00735",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00741",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00746",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00747",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ablan ve eniştenle mi yaşıyorsun daha akıcı; sister için yaş ilişkisi yalnız bu cümleden kesinleşmez."
+    },
+    {
+      "id": "r00748",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00756",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00757",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00758",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00762",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00765",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00766",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00768",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00777",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00779",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r00780",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00782",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00786",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00787",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00789",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00790",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00793",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00794",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00801",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00802",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Eve göz kulak olmak look after anlamını daha doğal aktarıyor."
+    },
+    {
+      "id": "r00804",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00806",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00809",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00817",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00826",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00829",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00833",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00834",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00838",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00844",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00847",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00848",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00857",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00864",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00868",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00870",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00871",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00872",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00874",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00879",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00880",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00882",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00885",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00886",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Tam üstüne bastın Türkçe deyim olarak daha doğal."
+    },
+    {
+      "id": "r00890",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00894",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00896",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Araç onarım bağlamında atölye daha isabetli."
+    },
+    {
+      "id": "r00898",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r00901",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00902",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00903",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bir de boya benden daha akıcı."
+    },
+    {
+      "id": "r00904",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00905",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00907",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00910",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00911",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00915",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ezikler, dorks hakaretini daha uygun karşılıyor."
+    },
+    {
+      "id": "r00917",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00920",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00923",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00926",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00927",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00928",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00930",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00932",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00934",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00935",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00938",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00942",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00944",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00945",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00950",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00953",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00954",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00960",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00962",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00966",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r00967",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00968",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Eski soru biçimini koruyor; yeni söylenen bilgiyi düz cümleye çeviriyor."
+    },
+    {
+      "id": "r00972",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00974",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00976",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00982",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00985",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00988",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00989",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00991",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00992",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00993",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00995",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r00999",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01003",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01004",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01005",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01008",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01011",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r01012",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01013",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Eski, kaynakta açık olmayan gittiği bilgisini eklemeden akıcı."
+    },
+    {
+      "id": "r01017",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01025",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01026",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01028",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01030",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01033",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01040",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01042",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01043",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01046",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01051",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01052",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01063",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01070",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01074",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01084",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01087",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01094",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01095",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01097",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01098",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01101",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01102",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01109",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01110",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01112",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01114",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01119",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01120",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01124",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01130",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01131",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01136",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01138",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01139",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01140",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01141",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01149",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Stuff için eğlenceli şey ifadesi daha sadık ve doğal."
+    },
+    {
+      "id": "r01157",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01159",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01161",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01164",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01165",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01168",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01175",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Like what? için Ne gibi? doğrudan doğru anlamı koruyor."
+    },
+    {
+      "id": "r01180",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01187",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01193",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01197",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r01201",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01207",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01212",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bildiğin Sağa dön Clyde göndermesini eski sürüm daha iyi koruyor."
+    },
+    {
+      "id": "r01213",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01214",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01217",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01220",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01221",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01222",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01224",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01225",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01227",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01229",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01230",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01232",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01233",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01238",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01240",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01242",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01244",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01247",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01248",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01252",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01256",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01259",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01267",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01270",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01271",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01277",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r01280",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01281",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01284",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01285",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01286",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01288",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01289",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01293",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01295",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01298",
+      "choice": "new",
+      "reason": "same_quality",
+      "note": "İki seçenek de zayıf. Cal neden ghostlandığını soruyor, Brian sözcüğü anlamadığı için Do what now? diyor. Ne dedin sen? / Ne yapıyor dedin? daha uygun."
+    },
+    {
+      "id": "r01303",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01305",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01307",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01309",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01312",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01322",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01323",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01324",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01330",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01332",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01337",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01340",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01343",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01345",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01347",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01348",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r01350",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01353",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01356",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01357",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01358",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01361",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01366",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Senin hakkında herkese haber salacağım daha akıcı ve açık."
+    },
+    {
+      "id": "r01367",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01368",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01370",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r01372",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01373",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01375",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01376",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01378",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01379",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01383",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01384",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01390",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01391",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01394",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01397",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01398",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01401",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01407",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01409",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01411",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01414",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01416",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01418",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01419",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01423",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01427",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r01429",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01435",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01436",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01438",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01440",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01442",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01443",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01446",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01448",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01449",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01453",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01454",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01461",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01463",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01465",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01469",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bunu yapmak için artık çok geç kaynak fiili daha eksiksiz koruyor."
+    },
+    {
+      "id": "r01473",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01475",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01476",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01477",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01483",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01486",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01491",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01492",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01495",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01496",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01498",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01504",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01506",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01512",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01514",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01516",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01517",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01519",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01520",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01522",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01527",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01530",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01537",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01538",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01539",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01540",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01545",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01547",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01548",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01551",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01553",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01554",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01558",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01559",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01562",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01563",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01565",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01570",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01571",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01573",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01575",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01576",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01582",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01584",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01585",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01591",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01595",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01599",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Waiver için feragatname daha doğru terim."
+    },
+    {
+      "id": "r01602",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01604",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01615",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01618",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01628",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01635",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01637",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01639",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01643",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01644",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01645",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01648",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01650",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01652",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01653",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01658",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01660",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01661",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01665",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01667",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01670",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01671",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01672",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01676",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01679",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01683",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01690",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01694",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01697",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Şu filmdeymişim gibi ifadesi daha akıcı ve dilbilgisel."
+    },
+    {
+      "id": "r01698",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01704",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r01709",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r01711",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01715",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01723",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01726",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01728",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01729",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01730",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01732",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01734",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r01741",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01743",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01745",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01747",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01751",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01755",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Buddies çoğul arkadaşlar demek; yeni eşim diyerek anlamı değiştiriyor."
+    },
+    {
+      "id": "r01760",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01762",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01763",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01766",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01767",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01768",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01769",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01774",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01775",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01779",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r01784",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01786",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r01788",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01791",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01792",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01794",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01797",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01798",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01800",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01808",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Eserlere değer biçmek daha yerleşik ve doğal."
+    },
+    {
+      "id": "r01812",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01821",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01822",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01825",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01827",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01833",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Square için kuralcı karşılığı bu denetçi bağlamında daha uygun."
+    },
+    {
+      "id": "r01834",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01836",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01839",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01840",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01846",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01847",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01848",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "İki konuşmayı daha doğal ve küfür tonunu koruyarak veriyor."
+    },
+    {
+      "id": "r01852",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01853",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01856",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01859",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01862",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01872",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01876",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01880",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01883",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01885",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01891",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01894",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01896",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01897",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01900",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01902",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r01903",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01904",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01905",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01911",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ben hallederim ve şunda bana yardım et daha akıcı."
+    },
+    {
+      "id": "r01921",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r01925",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01930",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01938",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01940",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01946",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01947",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01949",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01950",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01956",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01964",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01969",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01972",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01974",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01978",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01980",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01982",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01984",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01989",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r01995",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01997",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r01999",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02000",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02004",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02005",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02009",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02013",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02014",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02015",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02019",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02021",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02030",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02032",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02033",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02035",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r02036",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Film/oyun görüntüsü için sahici daha doğal; katıksız bir şey muğlak."
+    },
+    {
+      "id": "r02041",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02043",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02047",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02048",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02049",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02050",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02056",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02057",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02059",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02060",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02061",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02064",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02066",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02068",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02069",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02071",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02073",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02075",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02076",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02077",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02078",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02079",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02081",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02083",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02087",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02088",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r02099",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02102",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02104",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02106",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02108",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02111",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02112",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02113",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02114",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02116",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02118",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02120",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02123",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02136",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02137",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02138",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02142",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Senin çocuğuna hamileyken daha akıcı ve aynı anlamda."
+    },
+    {
+      "id": "r02143",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02145",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02147",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02149",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02150",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02151",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02153",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02157",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02158",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Şanslısın ki ben varım daha doğal Türkçe."
+    },
+    {
+      "id": "r02159",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02160",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02163",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02166",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02174",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02176",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02179",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02187",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02190",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02191",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02192",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02194",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02196",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r02199",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Ben kralım dilbilgisel olarak açık; benim kral ifadesi bozuk."
+    },
+    {
+      "id": "r02204",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02209",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Öyle yaparım, will do yanıtını daha açık ve doğal veriyor."
+    },
+    {
+      "id": "r02210",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02212",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02219",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02231",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02234",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02237",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02243",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02252",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02253",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02259",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02267",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02270",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02276",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02282",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02285",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02287",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02289",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02290",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02291",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02296",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02299",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02304",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r02307",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02323",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02325",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02330",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02334",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02336",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02337",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02344",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02346",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02356",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02359",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02361",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02362",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02364",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02365",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02367",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02374",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02376",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02378",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02381",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02383",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02387",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r02390",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02393",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02395",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02399",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02400",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02403",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r02404",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02409",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02410",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02414",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02415",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02416",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02418",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02419",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02425",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02428",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02429",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02430",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02431",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02433",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02434",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02439",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02443",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02449",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02451",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02455",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02458",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02461",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02462",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02465",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02470",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02471",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02472",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02474",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02479",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02485",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02489",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02492",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02494",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02500",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02507",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02508",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02509",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02514",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02515",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02520",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02522",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02528",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02531",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02532",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02534",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02543",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02544",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02545",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02546",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02548",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02549",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02557",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02559",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02561",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02562",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02563",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02565",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02569",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02570",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02574",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02575",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02576",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02577",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02587",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02588",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02591",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02594",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02605",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02607",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r02608",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02612",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02616",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02618",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02624",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02626",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02627",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Just like that şaşkınlığı Öyle hemen mi? ile daha doğru veriliyor."
+    },
+    {
+      "id": "r02628",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02631",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02633",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02634",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Mağazadan bir şeyler yürütmek daha doğal konuşma Türkçesi."
+    },
+    {
+      "id": "r02637",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02640",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02642",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02647",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02648",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02652",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02653",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02659",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02663",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02665",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02668",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02672",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02676",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02678",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02679",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02682",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02683",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02684",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02687",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02689",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r02690",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02691",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02693",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02702",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02705",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02706",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02708",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02710",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02713",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02716",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02717",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02719",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "DJ kabini ifadesi decks anlamını açık ve doğru veriyor."
+    },
+    {
+      "id": "r02722",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02724",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02727",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02731",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02732",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02736",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02737",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r02738",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02743",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02745",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02747",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02754",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02756",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02760",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02761",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02763",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02766",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02767",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02768",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02769",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02771",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02774",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02781",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02784",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02786",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02791",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02793",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02798",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02800",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02801",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02802",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02804",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02807",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02809",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02816",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02817",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r02821",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02826",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02832",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02835",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02839",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02842",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02853",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02854",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02859",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02860",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02861",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02864",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02868",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02876",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02877",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02879",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02880",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02882",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02885",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02888",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02894",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02897",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02900",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Through there yön bildirdiği için Şuradan daha doğru."
+    },
+    {
+      "id": "r02901",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02905",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02912",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02913",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02914",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02915",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r02916",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02920",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02921",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02922",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02924",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02926",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02929",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02931",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02937",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02941",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02942",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02943",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02944",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02946",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02950",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02961",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02962",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02965",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r02972",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02979",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02984",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02986",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02987",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02989",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Elinde getirebilecek biri var mı sorusunu eski daha doğru koruyor."
+    },
+    {
+      "id": "r02991",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r02997",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03004",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03006",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03009",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03013",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03014",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03015",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03018",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Krediye ne ihtiyacımız var? daha doğal Türkçe."
+    },
+    {
+      "id": "r03019",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r03021",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03025",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03028",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "On good terms ilişkiyi anlatır; pek iyi ayrılmadık daha doğru."
+    },
+    {
+      "id": "r03033",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r03035",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Taşak mı geçiyorsun karakterin argo tonunu daha iyi koruyor."
+    },
+    {
+      "id": "r03039",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03040",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03041",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03047",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03053",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03054",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03056",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03061",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03068",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03073",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03076",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03080",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03082",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03085",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03086",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03090",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03091",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03096",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bir bira hak ettim dilbilgisel olarak daha akıcı."
+    },
+    {
+      "id": "r03109",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Window burada fırsat anlamında; eski daha doğal."
+    },
+    {
+      "id": "r03110",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03118",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03119",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03122",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03131",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03132",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Tetikte olmak stay sharp anlamını daha iyi taşıyor."
+    },
+    {
+      "id": "r03135",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03136",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03138",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Elini sürme konuşma dilinde daha doğal."
+    },
+    {
+      "id": "r03142",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03143",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03148",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03152",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03154",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03156",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03160",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03166",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r03173",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03175",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03176",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03179",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03180",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03181",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03184",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03187",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Ters oldu bu ifadesi anlaşılır; O geri Lu bozuk."
+    },
+    {
+      "id": "r03188",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03189",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03192",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03195",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03200",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03206",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03208",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Hâlâ teslimatı yapacak mıyız sorunun odağını daha doğru koruyor."
+    },
+    {
+      "id": "r03210",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03212",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r03213",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03215",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03221",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03226",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Kaynakta yalnız iniş var; eski daha sadık ve akıcı."
+    },
+    {
+      "id": "r03228",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03232",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03235",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03237",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03238",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03240",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03243",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03244",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03253",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03255",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03256",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03257",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Hava değişince azıyor daha doğal."
+    },
+    {
+      "id": "r03260",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03262",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03264",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03265",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03268",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03271",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03272",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03275",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03276",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03278",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03280",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03281",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03284",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r03288",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03296",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Öldürmemi mi istiyorsun teklif yerine istek teyidini doğru veriyor."
+    },
+    {
+      "id": "r03299",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03300",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03305",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03306",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03307",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03308",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03310",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03320",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03323",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03325",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03330",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03335",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03336",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03340",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03341",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03343",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bir kırodan diğerine daha yerleşik konuşma ifadesi."
+    },
+    {
+      "id": "r03349",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03350",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Yeterince eğlencem var zaten elinde eğlence kalıbından daha akıcı."
+    },
+    {
+      "id": "r03351",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03358",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Nerelerdeydin geçmiş zamanını koruyor."
+    },
+    {
+      "id": "r03362",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03366",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03367",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03370",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03371",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03377",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03378",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03379",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03381",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03384",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03387",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03388",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03393",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03394",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03398",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03403",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Tadı artık aynı değil daha doğal ve kaynak zamanını koruyor."
+    },
+    {
+      "id": "r03404",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03409",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03410",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03411",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03412",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03416",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03422",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03423",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03427",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03428",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03430",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03432",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03440",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03442",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03443",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03444",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03446",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03448",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03450",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03452",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03453",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Anlaştığımız her şey satılacak malın kapsamını daha doğru veriyor."
+    },
+    {
+      "id": "r03461",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03463",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03464",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03465",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03474",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03478",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03479",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03485",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03489",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03494",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Asker efendi kaynak soldier hitabını komando rolü eklemeden koruyor."
+    },
+    {
+      "id": "r03496",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03502",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03503",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03505",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03513",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03515",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03519",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Niye bu kadar soru soruyorsun dilbilgisel olarak daha doğru."
+    },
+    {
+      "id": "r03524",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03526",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03532",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03536",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Sakıncası var mı daha kısa ve doğal."
+    },
+    {
+      "id": "r03538",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03539",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Gel de şu ... vidalamama yardım et daha doğal; yeni Al yanlış çağrı."
+    },
+    {
+      "id": "r03540",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03542",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03545",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03547",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03551",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03553",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03554",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03561",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03566",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03570",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03572",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03573",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03586",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03587",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r03589",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03590",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r03591",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03593",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03596",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03604",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bazılarımız çalışmak zorunda konuşma dilinde daha doğal."
+    },
+    {
+      "id": "r03608",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r03609",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03612",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03614",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03615",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03618",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03619",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03620",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03622",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03623",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03626",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03628",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03635",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03636",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03648",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03658",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03661",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Belli ki önemli biri daha açık ve doğal."
+    },
+    {
+      "id": "r03662",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03665",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03667",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03668",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03674",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03678",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03679",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03680",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03684",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03687",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03688",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03690",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03691",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03692",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03701",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03703",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03704",
+      "choice": "new",
+      "reason": "tone"
+    },
+    {
+      "id": "r03705",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03706",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03709",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Arkanı kolla daha yerleşik ifade."
+    },
+    {
+      "id": "r03710",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03718",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03720",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03722",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03725",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03726",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03731",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03736",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03737",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03738",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03747",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03750",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03752",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03753",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03754",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03756",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03758",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03762",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03763",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03765",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03771",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03774",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03776",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "İçkileri ısmarlar daha doğal Türkçe."
+    },
+    {
+      "id": "r03779",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bas gaza ifadesi anlamı daha açık veriyor."
+    },
+    {
+      "id": "r03781",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "İleriden sola döneceğiz galiba daha akıcı tam cümle."
+    },
+    {
+      "id": "r03782",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03787",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03791",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03795",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03801",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03803",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03804",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03807",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03808",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03809",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03812",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r03813",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03819",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03823",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03825",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03827",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03830",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03832",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03834",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03836",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03838",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03839",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03840",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03841",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03845",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03846",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03854",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03855",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03860",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03863",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03865",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03868",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03872",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03878",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03879",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03880",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03883",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03886",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03887",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03890",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03894",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Birdenbire bu kadar kibirlendi daha akıcı; kaynakta sudden vurgusu da korunuyor."
+    },
+    {
+      "id": "r03896",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03898",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03904",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03906",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03907",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03917",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03918",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03919",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03921",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03925",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03929",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03934",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03940",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03947",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r03950",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03954",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03955",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03960",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03961",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03962",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r03965",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03966",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03969",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03973",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03974",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03979",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03980",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03989",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03993",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03996",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r03997",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r03998",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04001",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04004",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04005",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04008",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04012",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04013",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04016",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04017",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04019",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04020",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04022",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r04023",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04036",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04039",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04044",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04047",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04048",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ağzını burnunu dağıt Türkçede daha yerleşik deyim."
+    },
+    {
+      "id": "r04051",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04052",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04053",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04054",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04055",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04058",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04061",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04063",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04067",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04082",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04089",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04091",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04095",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04096",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04097",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04100",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04105",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04108",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04110",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04115",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04117",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04118",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04121",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04124",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04130",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04136",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04140",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04143",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04145",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04146",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04147",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Calın iki eylemini aynı özneye bağlayıp daha açık aktarıyor."
+    },
+    {
+      "id": "r04150",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04152",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Düzelir günlük konuşmada daha doğal."
+    },
+    {
+      "id": "r04157",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04159",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04165",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04166",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04169",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04172",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04180",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04183",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04186",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04187",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04189",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04191",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04193",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04194",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04195",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04198",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04202",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04207",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Şunlara bak hitabı daha doğal."
+    },
+    {
+      "id": "r04210",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04213",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Cenaze yapılması daha yerleşik ifade."
+    },
+    {
+      "id": "r04214",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04216",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04217",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04222",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04225",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04232",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04233",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04236",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04237",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Eski dilbilgisel olarak doğru; yenide bütün bu olayı özne olarak yanlış çekilmiş."
+    },
+    {
+      "id": "r04238",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r04239",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Kendi ölümünü sahnelemiş fake death anlamını daha açık veriyor."
+    },
+    {
+      "id": "r04242",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04245",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04247",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04250",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04253",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04254",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04257",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04258",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04260",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04262",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r04275",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04276",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04277",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04283",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04284",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04286",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04287",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04304",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04305",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04307",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04311",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04312",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04314",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04316",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04317",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04319",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r04322",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Takılıyoruz işte ne var ki daha doğal."
+    },
+    {
+      "id": "r04325",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04333",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04334",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04337",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04338",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04340",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04342",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04343",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04346",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04347",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04348",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04350",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04352",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04353",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04355",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04356",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04357",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Orada fena çuvalladım source there ve mahcup tonu daha iyi koruyor."
+    },
+    {
+      "id": "r04358",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04366",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04369",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Neyin var da bunu göremiyorsun bilmiyorum daha akıcı ve dilbilgisel."
+    },
+    {
+      "id": "r04374",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04375",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04376",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04379",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04380",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Yatalım artık daha doğal konuşma Türkçesi."
+    },
+    {
+      "id": "r04381",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04382",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04383",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04384",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04387",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04391",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04393",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04394",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04395",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04397",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04403",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04409",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04414",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04416",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04421",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04422",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04426",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04434",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04438",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r04441",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04442",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04448",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04449",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04452",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04459",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04460",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04462",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04465",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04469",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04473",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04475",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04484",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04487",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04490",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04493",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04503",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04504",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04506",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04510",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04514",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04515",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04517",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04518",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04520",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04526",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04527",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04528",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04533",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04536",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04544",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04546",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04550",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04551",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04552",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04556",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04557",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04559",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04560",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04564",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04565",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r04567",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04571",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04575",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04578",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04584",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04587",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04594",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04600",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04601",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04602",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04604",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04605",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04610",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04612",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04613",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04615",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04616",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Aldın değil mi soru kalıbı daha doğal."
+    },
+    {
+      "id": "r04621",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04622",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04623",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04625",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04629",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Yalnız takılan biri loner anlamını daha doğrudan veriyor."
+    },
+    {
+      "id": "r04630",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04632",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04633",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04634",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04635",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04639",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04642",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04643",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04645",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04649",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04651",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04652",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04656",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04659",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04661",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04665",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04668",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04669",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04670",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04673",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04674",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04676",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04677",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04685",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04690",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04691",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04692",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04696",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04698",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04703",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04704",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04706",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04708",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04718",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04720",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04723",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r04726",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04728",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04729",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04730",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04732",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04735",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04739",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04741",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04746",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Kalbim yerinden çıkacak gibi Türkçede daha yerleşik ifade."
+    },
+    {
+      "id": "r04751",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04753",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04754",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04755",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04757",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04760",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04761",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04763",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04767",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r04770",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04772",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04774",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04775",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04776",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r04780",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04782",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04788",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04789",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04791",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04794",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04798",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04799",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04800",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04801",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04802",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04812",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04816",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04817",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04819",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Zahmet payı olarak yüzde on daha doğal ve aynı anlamda."
+    },
+    {
+      "id": "r04821",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04822",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04826",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04831",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04832",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04836",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04837",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04839",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04850",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04853",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04854",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04858",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r04859",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04860",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04865",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04866",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04875",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "Alıntıdaki fucking junkie küfür vurgusu eski sürümde korunuyor."
+    },
+    {
+      "id": "r04879",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04882",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04883",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04884",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04886",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04894",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04895",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04896",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Araç için emektar ekmek teknemiz daha doğal mecaz."
+    },
+    {
+      "id": "r04901",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04902",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04905",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04910",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04911",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04912",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04914",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04916",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04921",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Vet bağlamında emektar daha doğal."
+    },
+    {
+      "id": "r04922",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04924",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04927",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04936",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04941",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04945",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04946",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04948",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04952",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04954",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04955",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04957",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ne kadar da masum alaycı tonu daha doğal ve kısa veriyor."
+    },
+    {
+      "id": "r04958",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04964",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04965",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04969",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04972",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04973",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04979",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Eski ifade Anlatacaklarını duymak için sabırsızlanıyorum daha doğal."
+    },
+    {
+      "id": "r04981",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04982",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04983",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04984",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04986",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r04987",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r04990",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r04993",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05001",
+      "choice": "old",
+      "reason": "meaning",
+      "note": "PTSD tanısını açıkça ve doğru aktarıyor."
+    },
+    {
+      "id": "r05005",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05007",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05012",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Şu karidesin hakkını ver daha doğal konuşma ifadesi."
+    },
+    {
+      "id": "r05013",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05020",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05021",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05023",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Ne idüğü belirsiz şüpheli maddeler için daha doğal deyim."
+    },
+    {
+      "id": "r05025",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05027",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05030",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05037",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05039",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05046",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05050",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05051",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05052",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05053",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05057",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05059",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05062",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05063",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05066",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05074",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05079",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05080",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05083",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05086",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05090",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05095",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05106",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05108",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05112",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05119",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05123",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05125",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05126",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05127",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r05128",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05129",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05136",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Aracının kaydını halledeceğim benden olsun daha doğal konuşma."
+    },
+    {
+      "id": "r05143",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05145",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05146",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05150",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05152",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05155",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05156",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05157",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05161",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05164",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05165",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05166",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05173",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05174",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05177",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05179",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05180",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05181",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Benden ona bir öpücük kondur daha doğal."
+    },
+    {
+      "id": "r05183",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05189",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05192",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05193",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05194",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05195",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05197",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05198",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05209",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05215",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05220",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05221",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05223",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05232",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05234",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05236",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05239",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05242",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05259",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05261",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05262",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05264",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05267",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r05269",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05271",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05273",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05280",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05285",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05287",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05288",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05289",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05294",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05297",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05305",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05308",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05314",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05317",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Bayağı ateşli daha açık; epey taşmış ifadesi muğlak/bozuk."
+    },
+    {
+      "id": "r05321",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05322",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05327",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r05328",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05330",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05331",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05334",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05340",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05341",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05342",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05345",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05350",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05354",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05355",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05356",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05363",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05367",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05372",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05374",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05375",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05376",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r05378",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05381",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r05385",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05389",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05391",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05392",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r05394",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05395",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05398",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05399",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05403",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05404",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05405",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05407",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05411",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05413",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r05417",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05421",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05423",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05424",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05425",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05427",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05431",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05434",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05435",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05436",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r05441",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05442",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05443",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05444",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05446",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05447",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05457",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r05458",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05459",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05461",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05463",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05472",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05478",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05480",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05482",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05490",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05497",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05498",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05500",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r05501",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05502",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05508",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05509",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05513",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05518",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05520",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05521",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r05522",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05524",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05526",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05534",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05536",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05537",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05540",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05543",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05546",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05548",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05549",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05550",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05553",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r05557",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05558",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05563",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05565",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05566",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05570",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05574",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05575",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05576",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05581",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05582",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05584",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05586",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05591",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05593",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05595",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05597",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05606",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05610",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05611",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05612",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05613",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05614",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05616",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05619",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05620",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05621",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05622",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05629",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05633",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05635",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05637",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05644",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05648",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05651",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05658",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05661",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05667",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05669",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05677",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05678",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05679",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05680",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05681",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05683",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05684",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r05685",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05693",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05694",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05697",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05699",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05705",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05707",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05710",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05727",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05729",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05730",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05745",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05747",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05748",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05749",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05751",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05757",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05763",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05765",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05767",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05769",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05770",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05773",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05776",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05777",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05779",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05784",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05791",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05793",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05800",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05801",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05811",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05815",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05816",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05818",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r05819",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05820",
+      "choice": "new",
+      "reason": "same_quality",
+      "note": "Yeni seçenek eskiden iyi ama Nasıl böyle? yerine Böyle nasıl? daha akıcı olabilir. Bağlam: Kordell egzersizde tempoyu artırıp Jasona soruyor; Jason Ona mı soruyorsun bana mı? diye yanıtlıyor."
+    },
+    {
+      "id": "r05821",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05825",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05826",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05828",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05830",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05831",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05832",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05833",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05837",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05840",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05841",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05843",
+      "choice": "old",
+      "reason": "naturalness",
+      "note": "Çekil üstümden ifadesi fiziksel itişmede daha doğal ve doğru."
+    },
+    {
+      "id": "r05847",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r05848",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05849",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05850",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05859",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05863",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05867",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05870",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05873",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05874",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05886",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05890",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05893",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05894",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05895",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05910",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05912",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05913",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05917",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05919",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05920",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05926",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05928",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05930",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r05933",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05938",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05943",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05944",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05945",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05948",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05949",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05953",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05957",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05960",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05963",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05971",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05973",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05975",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05979",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r05981",
+      "choice": "new",
+      "reason": "old_artifact"
+    },
+    {
+      "id": "r05982",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05984",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05987",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r05991",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r05992",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06003",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06007",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r06009",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06022",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06023",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06024",
+      "choice": "new",
+      "reason": "naturalness"
+    },
+    {
+      "id": "r06026",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r06030",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06034",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06035",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06045",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06047",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06048",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06049",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r06050",
+      "choice": "new",
+      "reason": "meaning"
+    },
+    {
+      "id": "r06053",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06055",
+      "choice": "new",
+      "reason": "same_quality"
+    },
+    {
+      "id": "r06060",
+      "choice": "new",
+      "reason": "context"
+    },
+    {
+      "id": "r06062",
+      "choice": "new",
+      "reason": "meaning"
+    }
+  ],
+  "coverage": {
+    "expected": 2027,
+    "reviewed": 2027
+  }
+}
