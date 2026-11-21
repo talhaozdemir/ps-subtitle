@@ -1,0 +1,56 @@
+[
+  {
+    "file": "security-540.png",
+    "ref": "6:s06-00367000",
+    "sha256": "35b8202ab63af3779125f9682f50cc503ad9df3ecabaa56749994b8b0649791f",
+    "text": "Security: Oh, Yeah, yeah, yeah. But check it out. Oh!\nIt's straight for the ankles.\nSecurity: Oh.. shit! Wait. Yo. put it back to the beginning.\nPut it back to the beginning.\nJason: Huh.",
+    "confidence": 98,
+    "lines": 5,
+    "candidate": true
+  },
+  {
+    "file": "security-720.png",
+    "ref": "6:s06-00367000",
+    "sha256": "f11f1f02dced65afe93eec805722d84654b933a8a8f2eccd6175c556ec92bef6",
+    "text": "Security: Oh, Yeah, yeah, yeah. But check it out. Oh!\nIt's straight for the ankles.\nSecurity: Oh.. shit! Wait. Yo. put it back to the beginning.\nPut it back to the beginning.\nJason: Huh.",
+    "confidence": 99,
+    "lines": 5,
+    "candidate": true
+  },
+  {
+    "file": "security-1080.png",
+    "ref": "6:s06-00367000",
+    "sha256": "8d88eb151e6b7ce0b50d36a36a3a717695e22934a0126563562ad9354b447480",
+    "text": "Security: Oh, Yeah, yeah, yeah. But check it out. Oh!\nIt's straight for the ankles.\nSecurity: h.. shit! Wait. Yo, put it back to the beginning.\nPut it back to the beginning.\nJason: Huh.",
+    "confidence": 99,
+    "lines": 5,
+    "candidate": true
+  },
+  {
+    "file": "relay-540.png",
+    "ref": "6:s06-07468500",
+    "sha256": "2ac1ed54494a225cb0519171c16cc0225c25f084a22e5e216cbef008dd9777a6",
+    "text": "La Polilla Negra: In Spanish: Which relay?\nThey're_six fuckin' switches here!\nLa Polilla Negra: In Spanish: Careful, there's one ever here!\nLa Polilla Negra: In Spanish: Two from the right! Do that! Do that!\nIf not do the whole fucking line!",
+    "confidence": 99,
+    "lines": 5,
+    "candidate": true
+  },
+  {
+    "file": "relay-720.png",
+    "ref": "6:s06-07468500",
+    "sha256": "040c261bff162ecc1808dce7e53f193206d8679814eba42302fb59a8c8897980",
+    "text": "La Polilla Negra: In Spanish: Which relay?\nThey're-six fuckin' switches here!\nLa Polilla Negra: In Spanish: Careful, there's one ever here!\nLa Polilla Negra: In Spanish: Two from the right! Do that! Do that!\nIf not do the whole fucking line!",
+    "confidence": 99,
+    "lines": 5,
+    "candidate": true
+  },
+  {
+    "file": "relay-1080.png",
+    "ref": "6:s06-07468500",
+    "sha256": "b6560862f5fe7db5483ad9d618e4b227ecd59cec13874d4379ea8ecaaa8ee75b",
+    "text": "La Polilla Negra: In Spanish: Which relay?\nThey're-six fuckin' switches here!\nLa Polilla Negra: In Spanish: Careful, there's one ever here!\nLa Polilla Negra: In Spanish: Two from the right! Do that! Do that!\nIf not do the whole fucking line!",
+    "confidence": 98,
+    "lines": 5,
+    "candidate": true
+  }
+]

@@ -182,6 +182,7 @@
     var paired = isPaired();
     var complete = saved.setupComplete;
     view.port.disabled = pending || setupSaving;
+    view.quality.disabled = pending || setupSaving;
     view.ocrRate.disabled = pending || ocrRateSaving;
     view.saveOcrRate.disabled = pending || ocrRateSaving || Number(view.ocrRate.value) === (saved.ocrRate || 3);
     view.findPs5.disabled = pending;
@@ -707,14 +708,14 @@
     if (edit) view.regionPreview.textContent = 'Canlı önizleme için altyazıyı başlat.';
   }
 
-  function start(requested) {
+  function start(requested, keepSettingsOpen) {
     stop();
     var settings = requested || values();
     var formAddress = settings.address;
     settings.consoleId = saved.consoleId;
     var ticket = sessionNumber;
     showHdmi(settings.port);
-    view.settings.hidden = Boolean(saved.setupComplete);
+    if (!keepSettingsOpen) view.settings.hidden = Boolean(saved.setupComplete);
     status('PS5’e bağlanıyor…');
     settings.subscribe = true;
     session = call('start', settings, function (message) {
@@ -890,7 +891,10 @@
     showHdmi(Number(view.port.value));
     updateButtons();
   });
-  view.quality.addEventListener('change', function () { if (!saved.setupComplete && session) stop(); });
+  view.quality.addEventListener('change', function () {
+    if (pending || setupSaving || !isPaired()) return;
+    start(null, true);
+  });
   bindRangeChange(view.ocrRate, drawOcrRate);
   view.saveOcrRate.addEventListener('click', saveOcrRate);
   view.close.addEventListener('click', function () { view.settings.hidden = true; });

@@ -19,6 +19,8 @@ const configPath = path.join(configDirectory, 'settings.json');
 const runtime = path.join(__dirname, 'runtime');
 const packs = createPackStore(configDirectory, path.join(__dirname, 'gta-6.json.gz'));
 let active = null;
+// Cancellation clears active before the native Remote Play process has exited.
+let streamClosed = Promise.resolve();
 let pairing = false;
 let discovery = null;
 let remoteSetup = null;
@@ -51,10 +53,15 @@ function launch(input, onMessage, onExit) {
   ], { stdio: ['pipe', 'pipe', 'ignore'], env: Object.assign({}, process.env, { OMP_THREAD_LIMIT: '1' }) });
   const lines = readline.createInterface({ input: worker.stdout, terminal: false });
   let exited = false;
+  let stopping = false;
+  let resolveClosed;
+  const closed = new Promise(function (resolve) { resolveClosed = resolve; });
+  if (input.mode === 'stream') streamClosed = closed;
   function finish(error) {
     if (exited) return;
     exited = true;
     lines.close();
+    resolveClosed();
     onExit(error);
   }
   worker.on('error', function () { finish('TV altyazı motorunu başlatamadı.'); });
@@ -73,8 +80,9 @@ function launch(input, onMessage, onExit) {
   return {
     send: send,
     stop: function () {
+      if (exited || stopping) return;
+      stopping = true;
       worker.stdin.end();
-      if (exited) return;
       const timer = setTimeout(function () { if (!exited) worker.kill('SIGKILL'); }, 3000);
       worker.once('close', function () { clearTimeout(timer); });
     }
@@ -477,7 +485,7 @@ stream.on('request', function (message) {
     const translation = savedTranslation(saved);
     const metrics = { phase: 'starting', attempt: 0, requestedQuality: requested.quality, engine: null,
       reads: 0, nonEmptyReads: 0, usableReads: 0, staleReads: 0,
-      packMatches: 0, approximatePackMatches: 0, contextualPackMatches: 0, lastPackSimilarity: null, displayed: 0 };
+      packMatches: 0, approximatePackMatches: 0, contextualPackMatches: 0, multilinePackMatches: 0, lastPackSimilarity: null, displayed: 0 };
     videoDiagnostics = metrics;
     const localSession = packs.createSession();
     const feed = createSubtitleFeed(translation, function (text, confidence, minimum) {
@@ -486,6 +494,7 @@ stream.on('request', function (message) {
         metrics.packMatches++;
         if (found.approximate) metrics.approximatePackMatches++;
         if (found.contextual) metrics.contextualPackMatches++;
+        if (found.multiline) metrics.multilinePackMatches++;
         metrics.lastPackSimilarity = Math.round(found.score * 10) / 10;
       }
       return found || '';
@@ -513,7 +522,7 @@ stream.on('request', function (message) {
       const current = savedTranslation(readSettings());
       if (current.mode === 'pack' && !current.keys[current.provider]) throw error;
     });
-    Promise.all([pack, consoles]).then(function (results) {
+    Promise.all([pack, consoles, streamClosed]).then(function (results) {
       if (active !== slot) return;
       const found = results[1];
       const matched = found.find(function (console) { return console.id === id; });
@@ -599,9 +608,9 @@ stream.on('request', function (message) {
           slot.worker = null;
           feed.reset();
           if (firstFrameAt !== undefined && lastFrameAt - firstFrameAt >= 30000) reconnectAttempts = 0;
-          const busyAfterRetry = reconnectAttempts > 0 && failure === 'Remote Play on Console is already in use';
+          const busy = failure === 'Remote Play on Console is already in use';
           metrics.lastError = timedOut ? noVideo : failure || error;
-          if ((!failure || connected || busyAfterRetry) && reconnectAttempts < reconnectDelays.length) {
+          if ((!failure || connected || busy) && reconnectAttempts < reconnectDelays.length) {
             metrics.phase = 'reconnecting';
             reconnectTimer = setTimeout(startWorker, reconnectDelays[reconnectAttempts++]);
             message.respond({ returnValue: true, type: 'reconnecting' });

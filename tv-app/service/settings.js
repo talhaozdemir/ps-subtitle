@@ -133,9 +133,11 @@ function publicSettings(saved) {
     try { appearance = subtitleAppearance(saved.appearance); }
     catch (error) { /* Use the defaults when stored values are invalid. */ }
   }
+  const oldDefault = saved.region && saved.region.x === 6 && saved.region.y === 62 &&
+    saved.region.width === 88 && saved.region.height === 38;
   return { address: saved.address || '', port: saved.port || 1, quality: captureQuality(saved.quality), ocrRate: savedOcrRate(saved),
     paired: paired, setupComplete: paired && saved.setupComplete !== false, consoleId: consoleId(saved.consoleId),
-    region: saved.region || defaultRegion, appearance: appearance, translation: publicTranslation(savedTranslation(saved)) };
+    region: !saved.region || oldDefault ? defaultRegion : saved.region, appearance: appearance, translation: publicTranslation(savedTranslation(saved)) };
 }
 
 module.exports = { accountBytes, settings, publicSettings, subtitleRegion, subtitleAppearance, consoleId,

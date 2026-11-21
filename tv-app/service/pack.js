@@ -10,6 +10,7 @@ const { createGunzip } = require('zlib');
 const { correctedMatch, createMatcher, key } = require('./matcher');
 const { createSpeakerIndex, consensus } = require('./speaker-display');
 const { createContextIndex, createLocalContext } = require('./local-context');
+const { matchMultiline, maxTextLength } = require('./multiline');
 
 const repository = 'talhaozdemir/ps-subtitle';
 const releaseFilename = 'subtitle.json.gz';
@@ -162,6 +163,17 @@ function createPackStore(directory, bundledPath, preferredPath) {
     return (preferred && preferred.matcher.lookup(hash)) || (current && current.matcher.lookup(hash)) || '';
   }
 
+  function exactMatch(text) {
+    const preferredExact = preferred && preferred.matcher.exactDetails(text);
+    if (preferredExact) return withSpeakers(preferredExact, preferred, false);
+    const exact = current && current.matcher.exactDetails(text);
+    return exact ? withSpeakers(exact, current, false) : null;
+  }
+
+  function blocked(text) {
+    return Boolean((preferred && preferred.matcher.blocked(text)) || (current && current.matcher.blocked(text)));
+  }
+
   function findCorrection(text, minimum) {
     const cacheKey = minimum + ':' + text;
     if (corrections.has(cacheKey)) return corrections.get(cacheKey);
@@ -250,11 +262,9 @@ function createPackStore(directory, bundledPath, preferredPath) {
     load: load,
     match: function (text, confidence, minimum) {
       if (typeof text !== 'string' || text.length > 360 || confidence < 55) return null;
-      const preferredExact = preferred && preferred.matcher.exactDetails(text);
-      if (preferredExact) return withSpeakers(preferredExact, preferred, false);
-      const exact = current && current.matcher.exactDetails(text);
-      if (exact) return withSpeakers(exact, current, false);
-      if ((preferred && preferred.matcher.blocked(text)) || (current && current.matcher.blocked(text))) return null;
+      const exact = exactMatch(text);
+      if (exact) return exact;
+      if (blocked(text)) return null;
       if (confidence < 72 || minimum >= 100) return null;
       const corrected = findCorrection(text, minimum);
       if (corrected === false) return null; // The exact keys disagree on the corrected translation.
@@ -287,7 +297,12 @@ function createPackStore(directory, bundledPath, preferredPath) {
       match: function (text, confidence, minimum) {
         refresh();
         const baseline = store.match(text, confidence, minimum);
-        return context ? context.read(text, confidence, minimum, baseline) : baseline;
+        const result = context ? context.read(text, confidence, minimum, baseline) : baseline;
+        if (result || typeof text !== 'string' || text.length > maxTextLength || !Number.isFinite(confidence) || confidence < 85) return result;
+        // Keep the legacy stateless path unchanged. Longer blocks and composed
+        // rows belong to the live session and never seed context anchors.
+        const whole = text.length > 360 ? exactMatch(text) : null;
+        return whole || matchMultiline(text, confidence, exactMatch, blocked);
       },
       reset: function () { refresh(); generation++; if (context) context.reset(); },
       cacheKey: function (text) { refresh(); return context ? generation + ':' + context.token() + ':' + text : text; }

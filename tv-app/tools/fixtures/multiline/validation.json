@@ -1,0 +1,84 @@
+{
+  "tested_ipk": "1.0.28",
+  "integration_tests_passed": 69,
+  "native_arm_build_passed": true,
+  "native_image_tests_passed": true,
+  "arm_startup_passed": true,
+  "tv_hardware_tested": false,
+  "ocr_platform": "Production C reader compiled for Windows, same Paddle models as ARM runtime",
+  "pack_sha256": "59297a7664e7ea34849bf55939fa559ac5e7c0b643d9673cb74c6c81a4a1d7ce",
+  "source_sha256": {
+    "tv-app/native/paddle_ocr.c": "ec3f87001052f08f60aca6e9c3ea6ae960633747a6c1a406362c2ad70874d56a",
+    "tv-app/native/ocr_image.c": "78478d9152c543a4a74333064f75f779615db428a2c22f3018c3547dbd9ddb26",
+    "tv-app/native/engine.c": "4d2ab3d988d16d031ca62a1b0f37b11973d184dd2a605170df95c1771ff38c51",
+    "tv-app/service/multiline.js": "a05c1c5947cba77681fe72a2a91663c3acb4a77a89ff7c899244df82b739e968",
+    "tv-app/service/pack.js": "478928ac565522f909e016cbbc87fcea25b6af7ff0141dcb80d9948666d09153"
+  },
+  "model_sha256": {
+    "characters.bin": "51ba786226d730cfb26fc6f1022394e0b2fdb840cc2416de4b1432430bc7f534",
+    "det.onnx": "193bab7a04fca699a6c82e6abb5b81bdb28177f0abd4062552b04908dafb19f8",
+    "rec.onnx": "09dcd08e6a74d57a2b8b8a7839b8222436ced1fa63de6c6c7e5e1ec5dea24b1e"
+  },
+  "results": [
+    {
+      "file": "security-540.png",
+      "ref": "6:s06-00367000",
+      "lines": 5,
+      "confidence": 98,
+      "similarity": 100,
+      "translation_complete": true,
+      "speaker_occurrences": 3,
+      "speaker_metadata_preserved": true
+    },
+    {
+      "file": "security-720.png",
+      "ref": "6:s06-00367000",
+      "lines": 5,
+      "confidence": 99,
+      "similarity": 100,
+      "translation_complete": true,
+      "speaker_occurrences": 3,
+      "speaker_metadata_preserved": true
+    },
+    {
+      "file": "security-1080.png",
+      "ref": "6:s06-00367000",
+      "lines": 5,
+      "confidence": 99,
+      "similarity": 98.05100875523411,
+      "translation_complete": true,
+      "speaker_occurrences": 3,
+      "speaker_metadata_preserved": true
+    },
+    {
+      "file": "relay-540.png",
+      "ref": "6:s06-07468500",
+      "lines": 5,
+      "confidence": 99,
+      "similarity": 100,
+      "translation_complete": true,
+      "speaker_occurrences": 3,
+      "speaker_metadata_preserved": true
+    },
+    {
+      "file": "relay-720.png",
+      "ref": "6:s06-07468500",
+      "lines": 5,
+      "confidence": 99,
+      "similarity": 100,
+      "translation_complete": true,
+      "speaker_occurrences": 3,
+      "speaker_metadata_preserved": true
+    },
+    {
+      "file": "relay-1080.png",
+      "ref": "6:s06-07468500",
+      "lines": 5,
+      "confidence": 98,
+      "similarity": 100,
+      "translation_complete": true,
+      "speaker_occurrences": 3,
+      "speaker_metadata_preserved": true
+    }
+  ]
+}

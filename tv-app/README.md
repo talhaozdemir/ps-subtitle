@@ -5,10 +5,12 @@ OLED55CX6LA ve webOS 5 hedeflenerek hazırlanmış ilk TV prototipi. Uygulama PS
 ## Kurulum
 
 1. LG Content Store’dan **Developer Mode** uygulamasını aç, LG geliştirici hesabıyla modu etkinleştir ve **Key Server**’ı aç.
-2. Bilgisayarda [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop) ile TV’yi ekle. TV’nin gösterdiği kodu kullanıp `com.gtavi.turkce_1.0.22_all.ipk` dosyasını kur.
+2. Bilgisayarda [webOS Dev Manager](https://github.com/webosbrew/dev-manager-desktop) ile TV’yi ekle. TV’nin gösterdiği kodu kullanıp `com.gtavi.turkce_1.0.27_all.ipk` dosyasını kur.
 3. PS5’te ikinci bir PSN hesabıyla oturum aç. **Ayarlar → Sistem → Uzaktan Oynatma** bölümünde Uzaktan Oynatma’yı aç ve **Cihazı Bağla** ekranından 8 haneli kodu al.
 4. TV ile PS5’i aynı ev ağına bağla. LG uygulaması ilk açılışta **HDMI** sekmesini gösterir. TV tek bir girişi PS5 olarak tanıyorsa o port otomatik seçilir. Gerekirse portu elle seç ve **PS5** sekmesinde **PS5’i bul** düğmesine bas. Konsol listelenmezse IPv4 adresini elle gir. İkinci hesabın sayısal veya Base64 PSN hesap kimliğini ve ekrandaki kodu gir, ardından **PS5’i eşleştir** düğmesine bas. [PSN hesap kimliği arama sayfası](https://psn.flipscreen.games/)
 5. **Altyazı** adımında PS5’te ana hesabına dön, İngilizce oyun altyazısını aç ve **Altyazıyı dene** düğmesine bas. Bağlantı kurulunca **Kurulumu bitir** ile tamamla. Sonraki açılışlarda uygulama kayıtlı ayarlarla altyazıyı başlatır.
+
+PS5 eşleştirildikten sonra okuma çözünürlüğünü seçmen yeterli; seçim otomatik kaydedilip uygulanır. **Altyazıyı başlat** düğmesine ayrıca basman gerekmez ve ayar ekranı açık kalır. Çözünürlük değişimi Remote Play bağlantısını yeniden kurar; uygulama eski oturumun kapanmasını bekler. PS5 geçici olarak meşgulse 2, 5 ve 10 saniye arayla yeniden dener.
 
 Oyun sırasında ayarlara LG kumandasındaki **Geri** tuşuyla dönülür. Varsayılan okuma çözünürlüğü 540p. TV’nin yükünü azaltmak için 360p, küçük yazıları okumak için 720p veya 1080p denenebilir. Bu ayar altyazı okuma akışına ait. Uygulama altyazı başlarken eşleştirilmiş PS5’i ağda arar ve IP adresi değişmişse yeni adresi kaydeder. PS5’i bulamazsa son kayıtlı adresi dener. Bu özellik eklenmeden önce eşleştirilen konsolları bir kez yeniden eşleştirerek otomatik adres güncellemesini etkinleştir.
 
@@ -102,7 +104,7 @@ python tv-app/tools/package.py --runtime /tmp/gtavi-paddle-runtime --pack dist/s
 
 ```sh
 python tv-app/tools/build_merged_translation.py
-node --test tv-app/tools/test_merged_translation.cjs tv-app/tools/test_ocr_rate.cjs tv-app/tools/test_speaker_names.cjs tv-app/tools/test_key_dedup.cjs tv-app/tools/test_local_context.cjs
+node --test tv-app/tools/test_merged_translation.cjs tv-app/tools/test_ocr_rate.cjs tv-app/tools/test_speaker_names.cjs tv-app/tools/test_key_dedup.cjs tv-app/tools/test_local_context.cjs tv-app/tools/test_reconnect.cjs tv-app/tools/test_quality.cjs
 ```
 
 Birleştirici önce `dist/merged/subtitle.json.gz` adayını üretir. `translations/merge-review` içindeki bütün farklı ortak karşılıkların kararları eksiksiz olmalıdır; incelenen İngilizce veya Türkçe değişmişse eski karar uygulanmaz. Nihai uzlaştırmalar `final-overrides.json`, aynı anlama gelen kısa karşılıkların bağımsız incelemeleri `collision-decisions-1.json` ve `collision-decisions-2.json`, onaylanmış ortak gösterimler `collision-resolutions.json` içindedir. Aday doğrulandıktan sonra dağıtım kopyası `dist/subtitle.json.gz` ve paketleyicideki SHA-256 birlikte güncellenir.
@@ -138,3 +140,13 @@ Yerel bağlam internet veya API gerektirmez. API çağrılarının giriş metni/
 `local_context.version=1`, kaynak kayıt kimlikleri ve yaklaşık gezinme zamanlarıyla bölüm sırasını taşır. Eksik veya bozuk isteğe bağlı sıra verisi yalnız bağlam yardımını kapatır; sözlük, OCR onarımı ve isim/renk gösterimi çalışmaya devam eder. `createPackStore().match()` stateless eski yol olarak korunur; oyun akışı `createSession()` ile ayrı hafıza kullanır. Testler için `createSession({enabled:false})` bağlamı kapatır. `videoDiagnostics.contextualPackMatches`, bu yardımla gösterilen sonuçları sayar.
 
 `translations/local-context/baseline` bağlam öncesi bağımsız kod/sözlük referansıdır. `test_local_context.cjs`, bütün kaynak kayıtlarında kapalı/soğuk oturumların aynı sonuç vermesini; isimli ve isimsiz kaynak sırası tekrar oynatmalarını; belirsizlik, ara, tekrar, geri gidiş, oturum ayrımı, renkler ve API önbelleğini doğrular. Yerel tekrar oynatma testleri gerçek TV üzerindeki bütün oynanışlar için doğruluk ölçümü değildir.
+
+### OCR hızı ve çok satırlı eşleştirme
+
+1.0.29'da TV'deki yavaşlama üzerine önceki hızlı OCR davranışına dönüldü: tek karede en fazla **3 metin kutusu**, satırlar arasında boşluk, varsayılan ekran alanı `%77–100` (yatay `%6–94`) ve uzun seçimlerde önceki `%31–79` iç bant filtresi. 1.0.28'in geniş `%62–100` fabrika alanı yeni dar varsayılana geçirilir; diğer özel seçimler korunur. 1.0.28'deki altı satır/geniş alan deneyi artık canlı OCR'de kullanılmaz. Beş satırlı geçmiş görüntüler ve sonuçları eşleştirme test referansı olarak saklanır; mevcut hızlı okuyucunun bütün beş satırı okuyacağı anlamına gelmez.
+
+Önce mevcut tam metin, OCR onarımı/benzerlik ve yerel bağlam yolu kullanılır. Sonuç bulunamazsa canlı oturum en fazla 1440 karakterlik, 2–6 fiziksel satırlı okumayı ardışık replik gruplarına ayırarak **yalnız birebir sözlük karşılıklarını** dener. Satıra taşan cümleler grup olarak aranır; tek tek kelime/cümle tahmini yapılmaz. En fazla 21 grup aranır ve 32 bölünme değerlendirilir. Bütün satırlar karşılanmalıdır; okunamayan satırı atıp kısmi çeviri gösterilmez. Tam bloğun bilinen belirsizliği veya farklı tam bölünmelerin farklı anlam/isim üretmesi halinde sonuç seçilmez. Bu yedek yol parçalar üzerinde yaklaşık eşleştirme yapmaz.
+
+Seçilen sözlük çevirileri aynen kullanılır. İsimler ve her kaynak görünümüne ait renkler metinden ayrı taşınır; birleştirme sırasında isimlerin karakter konumları yeni metne göre kaydırılır. Farklı bölünmelerin renkleri uyuşmazsa renk uydurulmaz. Yeni blok önceki ekrandaki metni biriktirmez. Birleştirme sonucu yerel bağlam için güçlü dayanak olarak kullanılmaz. `createPackStore().match()` eski 360 karakterlik davranışını korur; uzun blok desteği `createSession()` yolundadır. API isteğinin 360 karakter sınırı ve API giriş/model davranışı değişmez. `videoDiagnostics.multilinePackMatches` birleşik sonuçları sayar.
+
+`tools/test_multiline.cjs`; geçmiş altı satırlı eşleştirme girdilerini, cümle devamlarını, farklı renkli aynı isimleri, eksik/belirsiz grupları, uzun okumaları, isim açık/kapalı gösterimini ve önceki metnin birikmemesini doğrular. Bu hafif eşleştirme yedeği korunur; hızlı OCR'nin boşlukla birleştirdiği normal okumalar bu satırlı yola girmez. `tools/fixtures/multiline` iki gerçek beş satırlı sahnenin 540p/720p/1080p Y düzlemi karelerini ve 1.0.28 dönemindeki yerel OCR çıktısını içerir. `tools/benchmark_multiline_ocr.py`, seçilen Windows C okuyucusu ve aynı Paddle modelleriyle bu kareleri yeniden işleyebilir; eski geniş alan deneyi için `--region-top 62`, güncel hızlı alan için varsayılan `77` kullanılır. `--video` ve `--ffmpeg` ile kareler tekrar üretilebilir. Ölçeklenmiş indirilmiş video kareleriyle yapılan test, TV donanımında Remote Play gecikmesi/doğruluğu ölçümü değildir.

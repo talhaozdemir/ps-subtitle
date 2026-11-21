@@ -1,0 +1,56 @@
+[
+  {
+    "file": "security-540.png",
+    "ref": "6:s06-00367000",
+    "seconds": 367.5,
+    "frame_width": 960,
+    "frame_height": 540,
+    "expected_lines": 5,
+    "sha256": "35b8202ab63af3779125f9682f50cc503ad9df3ecabaa56749994b8b0649791f"
+  },
+  {
+    "file": "security-720.png",
+    "ref": "6:s06-00367000",
+    "seconds": 367.5,
+    "frame_width": 1280,
+    "frame_height": 720,
+    "expected_lines": 5,
+    "sha256": "f11f1f02dced65afe93eec805722d84654b933a8a8f2eccd6175c556ec92bef6"
+  },
+  {
+    "file": "security-1080.png",
+    "ref": "6:s06-00367000",
+    "seconds": 367.5,
+    "frame_width": 1920,
+    "frame_height": 1080,
+    "expected_lines": 5,
+    "sha256": "8d88eb151e6b7ce0b50d36a36a3a717695e22934a0126563562ad9354b447480"
+  },
+  {
+    "file": "relay-540.png",
+    "ref": "6:s06-07468500",
+    "seconds": 7469.0,
+    "frame_width": 960,
+    "frame_height": 540,
+    "expected_lines": 5,
+    "sha256": "2ac1ed54494a225cb0519171c16cc0225c25f084a22e5e216cbef008dd9777a6"
+  },
+  {
+    "file": "relay-720.png",
+    "ref": "6:s06-07468500",
+    "seconds": 7469.0,
+    "frame_width": 1280,
+    "frame_height": 720,
+    "expected_lines": 5,
+    "sha256": "040c261bff162ecc1808dce7e53f193206d8679814eba42302fb59a8c8897980"
+  },
+  {
+    "file": "relay-1080.png",
+    "ref": "6:s06-07468500",
+    "seconds": 7469.0,
+    "frame_width": 1920,
+    "frame_height": 1080,
+    "expected_lines": 5,
+    "sha256": "b6560862f5fe7db5483ad9d618e4b227ecd59cec13874d4379ea8ecaaa8ee75b"
+  }
+]

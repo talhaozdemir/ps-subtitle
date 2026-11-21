@@ -21,14 +21,15 @@ def main():
         assert pack['merge_info'][field] == expected, f'Rebuild candidate after editing {name}'
     result = subprocess.run(['node', '--test', 'tv-app/tools/test_merged_translation.cjs',
                              'tv-app/tools/test_ocr_rate.cjs', 'tv-app/tools/test_speaker_names.cjs',
-                             'tv-app/tools/test_key_dedup.cjs', 'tv-app/tools/test_local_context.cjs'], cwd=ROOT, capture_output=True, text=True, encoding='utf-8',
+                             'tv-app/tools/test_key_dedup.cjs', 'tv-app/tools/test_local_context.cjs',
+                             'tv-app/tools/test_multiline.cjs'], cwd=ROOT, capture_output=True, text=True, encoding='utf-8',
                             env=dict(os.environ, MERGED_PACK=str(candidate)))
     (REVIEW / 'integration-tests.txt').write_text(result.stdout + result.stderr, encoding='utf-8')
     print(result.stdout, end='')
     if result.returncode:
         print(result.stderr)
         raise SystemExit(result.returncode)
-    for script in ['service.js', 'pack.js', 'matcher.js', 'fuzzy.js', 'translation.js', 'speaker-display.js', 'lookup.js', 'text-key.js', 'local-context.js']:
+    for script in ['service.js', 'pack.js', 'matcher.js', 'fuzzy.js', 'translation.js', 'speaker-display.js', 'lookup.js', 'text-key.js', 'local-context.js', 'multiline.js']:
         subprocess.run(['node', '--check', str(ROOT / 'tv-app/service' / script)], check=True)
 
     summary = json.loads((REVIEW / 'merge-summary.json').read_text(encoding='utf-8'))

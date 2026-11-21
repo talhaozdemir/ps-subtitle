@@ -111,6 +111,13 @@ static void rectangle_first(void) {
 }
 
 int main(void) {
+    int top, bottom;
+    subtitle_band(411, 1080, &top, &bottom);
+    assert(top == 127 && bottom == 324);
+    subtitle_band(205, 540, &top, &bottom);
+    assert(top == 63 && bottom == 161);
+    subtitle_band(100, 1080, &top, &bottom);
+    assert(top == 0 && bottom == 100);
     outlined_rows();
     empty_and_boxed();
     rectangle_first();

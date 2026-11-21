@@ -52,12 +52,13 @@
       <section id="stepSubtitle" role="tabpanel" aria-labelledby="tabSubtitle" hidden>
         <p id="trialHelp" hidden></p>
         <label for="quality">Okuma çözünürlüğü</label>
-        <select id="quality">
+        <select id="quality" aria-describedby="qualityHelp">
           <option value="360">360p</option>
           <option value="540" selected>540p</option>
           <option value="720">720p</option>
           <option value="1080">1080p</option>
         </select>
+        <p id="qualityHelp">Seçtiğin çözünürlük otomatik uygulanır.</p>
         <label class="appearanceLabel" for="ocrRate"><span>Okuma sıklığı</span><span id="ocrRateValue">3 kez/sn · 333 ms</span></label>
         <input id="ocrRate" type="range" min="1" max="10" step="1" value="3" aria-describedby="ocrRateHelp">
         <p id="ocrRateHelp">Yüksek değer altyazıyı daha sık kontrol eder ve TV’nin yükünü artırabilir.</p>
