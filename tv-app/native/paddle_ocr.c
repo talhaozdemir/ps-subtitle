@@ -1,5 +1,6 @@
 /* SPDX-License-Identifier: AGPL-3.0-only */
 #include "paddle_ocr.h"
+#include "ocr_line_cache.h"
 
 #include <math.h>
 #include <stddef.h>
@@ -40,6 +41,9 @@ struct paddle_ocr {
     uint8_t *foreground;
     int *queue;
     size_t mask_capacity;
+    struct ocr_line_cache line_cache;
+    struct paddle_stats stats;
+    bool cache_enabled;
 };
 
 static int minimum(int a, int b) { return a < b ? a : b; }
@@ -122,8 +126,15 @@ static bool load_dictionary(struct paddle_ocr *ocr, const char *path) {
 }
 
 struct paddle_ocr *paddle_open(const char *runtime) {
+    return paddle_open_threads(runtime, PADDLE_DEFAULT_THREADS);
+}
+
+struct paddle_ocr *paddle_open_threads(const char *runtime, int threads) {
+    if (threads < 1 || threads > 3) return NULL;
     struct paddle_ocr *ocr = calloc(1, sizeof(*ocr));
     if (!ocr) return NULL;
+    ocr->stats.threads = threads;
+    ocr->cache_enabled = true;
     OrtSessionOptions *options = NULL;
     char path[4096];
 #ifdef _WIN32
@@ -147,7 +158,7 @@ struct paddle_ocr *paddle_open(const char *runtime) {
     ocr->api = api;
     if (!check(api, api->CreateEnv(ORT_LOGGING_LEVEL_ERROR, "ps-subtitle", &ocr->env)) ||
         !check(api, api->CreateSessionOptions(&options)) ||
-        !check(api, api->SetIntraOpNumThreads(options, 3)) ||
+        !check(api, api->SetIntraOpNumThreads(options, threads)) ||
         !check(api, api->SetInterOpNumThreads(options, 1)) ||
         !check(api, api->AddSessionConfigEntry(options, "session.intra_op.allow_spinning", "0")) ||
         !check(api, api->SetSessionGraphOptimizationLevel(options, ORT_ENABLE_ALL)) ||
@@ -185,7 +196,17 @@ void paddle_close(struct paddle_ocr *ocr) {
     free(ocr->foreground);
     free(ocr->dictionary);
     free(ocr->input);
+    ocr_line_cache_clear(&ocr->line_cache);
     free(ocr);
+}
+
+void paddle_cache_enable(struct paddle_ocr *ocr, bool enabled) {
+    ocr->cache_enabled = enabled;
+    ocr_line_cache_clear(&ocr->line_cache);
+}
+
+void paddle_stats_read(const struct paddle_ocr *ocr, struct paddle_stats *stats) {
+    *stats = ocr->stats;
 }
 
 static bool run(struct paddle_ocr *ocr, OrtSession *session, int height, int width,
@@ -313,9 +334,19 @@ static bool recognize(struct paddle_ocr *ocr, const uint8_t *luma, int stride, s
     int width = maximum(32, (content_width + 7) / 8 * 8);
     if (!reserve_input(ocr, (size_t)width * LINE_HEIGHT)) return false;
     prepare_input(ocr->input, luma, stride, box, width, LINE_HEIGHT, content_width, false);
+    // Recognition input is grayscale replicated over all three channels.
+    // Matching the entire first plane is therefore an exact tensor match,
+    // including antialiasing, padding and every glyph. No approximate mark.
+    size_t cache_size = (size_t)width * LINE_HEIGHT * sizeof(*ocr->input);
+    if (ocr->cache_enabled && ocr_line_cache_get(&ocr->line_cache, ocr->input, cache_size,
+            width, text, capacity, confidence)) {
+        ocr->stats.line_cache_hits++;
+        return true;
+    }
     OrtValue *output = NULL;
     int64_t dims[3];
     void *data = NULL;
+    ocr->stats.reader_runs++;
     bool ok = run(ocr, ocr->reader, LINE_HEIGHT, width, &output, dims, 3);
     ok = ok && dims[0] == 1 && dims[1] > 0 && dims[1] <= width && dims[2] == ocr->character_count &&
         check(ocr->api, ocr->api->GetTensorMutableData(output, &data));
@@ -353,6 +384,8 @@ static bool recognize(struct paddle_ocr *ocr, const uint8_t *luma, int stride, s
         }
     }
     ocr->api->ReleaseValue(output);
+    if (ok && ocr->cache_enabled && *confidence)
+        ocr_line_cache_put(&ocr->line_cache, ocr->input, cache_size, width, text, *confidence);
     return ok;
 }
 
@@ -371,6 +404,7 @@ bool paddle_read(struct paddle_ocr *ocr, const uint8_t *luma, int width, int hei
     OrtValue *output = NULL;
     int64_t dims[4];
     void *data = NULL;
+    ocr->stats.detector_runs++;
     bool ok = run(ocr, ocr->detector, map_height, map_width, &output, dims, 4);
     ok = ok && dims[0] == 1 && dims[1] == 1 && dims[2] == map_height && dims[3] == map_width &&
         check(ocr->api, ocr->api->GetTensorMutableData(output, &data));

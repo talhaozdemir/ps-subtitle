@@ -11,7 +11,7 @@ const serviceDirectory = path.resolve(__dirname, '../service');
 const source = fs.readFileSync(path.join(serviceDirectory, 'service.js'), 'utf8');
 const settle = () => new Promise(resolve => setImmediate(resolve));
 
-function harness() {
+function harness(options = {}) {
   const handlers = {}, workers = [], timers = new Map();
   const files = new Map([['/media/internal/.com.gtavi.turkce.altyazi/settings.json', JSON.stringify({
     address: '192.168.1.10', port: 1, quality: 540, registKey: 'registration', rpKey: 'pairing'
@@ -54,10 +54,11 @@ function harness() {
       if (name === 'path') return path.posix;
       if (name === './settings') return settings;
       if (name === './pack') return { createPackStore: () => ({
-        load: () => Promise.resolve(), createSession: () => ({ match: () => null })
+        load: () => Promise.resolve(), createSession: () => ({ match: options.match || (() => null) })
       }) };
-      if (name === './translation') return { createSubtitleFeed: () => ({ reset() {}, read() {} }) };
+      if (name === './translation') return options.realFeed ? require('../service/translation') : { createSubtitleFeed: () => ({ reset() {}, read() {} }) };
       if (name === './remote-setup') return {};
+      if (name === './translation-archive') return require('../service/translation-archive');
       return require(name);
     }
   });
@@ -93,7 +94,7 @@ test('changing resolution waits for the old native session to close', async func
   const old = service.workers[0];
   old.send({ type: 'ready' });
   old.send({ type: 'ocr', text: '', confidence: 0, revision: 0 });
-  assert.equal(first.messages.at(-1).type, 'ready');
+  assert.ok(first.messages.some(message => message.type === 'ready'));
   const next = service.start(1080);
   await settle();
   assert.equal(old.stopping, true);
@@ -104,7 +105,7 @@ test('changing resolution waits for the old native session to close', async func
   assert.equal(service.workers.length, 2);
   assert.equal(service.workers[1].commands[0].quality, 1080);
   service.workers[1].send({ type: 'ocr', text: '', confidence: 0, revision: 0 });
-  assert.equal(next.messages.at(-1).type, 'ready');
+  assert.ok(next.messages.some(message => message.type === 'ready'));
   assert.equal(service.timers.size, 1, 'Old shutdown timer must be cleared');
 });
 
@@ -123,6 +124,39 @@ test('video diagnostics preserve the latest and maximum native stage durations',
   worker.send({ type: 'ocr', revision: 0, text: '', confidence: 0,
     queueMs: -1, ocrMs: 'invalid', cropAgeMs: null });
   assert.deepEqual(service.diagnostics().video.timing, expected);
+});
+
+test('real pack-only feed forwards complete turns and only confirmed blank/unmatched reads release the overlay', async () => {
+  const service = harness({ realFeed: true, match: text => text === 'Known.' ?
+    { translation: 'Kapıyı aç.\nTamam.', speakers: [], turns: [0, 11] } : null });
+  const stream = service.start();
+  await settle();
+  const worker = service.workers[0];
+  worker.send({ type: 'ocr', revision: 0, text: 'Known.', confidence: 95 });
+  assert.deepEqual(stream.messages.at(-1), { returnValue: true, type: 'subtitle', text: 'Kapıyı aç.\nTamam.', speakers: [], turns: [0, 11] });
+  const count = stream.messages.length;
+  worker.send({ type: 'ocr', revision: 0, text: '', confidence: 0, skipped: true });
+  worker.send({ type: 'ocr', revision: 1, text: '', confidence: 0 });
+  assert.equal(stream.messages.length, count, 'Skipped and stale frames cannot clear a current subtitle');
+  worker.send({ type: 'ocr', revision: 0, text: 'Unknown.', confidence: 95 });
+  assert.equal(stream.messages.at(-1).type, 'subtitleIdle');
+  worker.send({ type: 'ocr', revision: 0, text: 'Known.', confidence: 95 });
+  assert.equal(stream.messages.at(-1).type, 'subtitle');
+  worker.send({ type: 'ocr', revision: 0, text: '', confidence: 0 });
+  assert.equal(stream.messages.at(-1).type, 'subtitleIdle');
+});
+
+test('native line cache and thread counters reach diagnostics without accepting invalid values', async () => {
+  const service = harness();
+  service.start();
+  await settle();
+  const worker = service.workers[0];
+  worker.send({ type: 'ocr', revision: 0, text: '', confidence: 0, ocrThreads: 2, readerRuns: 8, lineCacheHits: 12 });
+  assert.deepEqual(service.diagnostics().video.ocr, { threads: 2, readerRuns: 8, lineCacheHits: 12 });
+  worker.send({ type: 'ocr', revision: 0, text: '', confidence: 0, ocrThreads: 'bad', readerRuns: -1, lineCacheHits: null });
+  assert.deepEqual(service.diagnostics().video.ocr, { threads: 2, readerRuns: 8, lineCacheHits: 12 });
+  worker.send({ type: 'ocr', revision: 0, text: '', confidence: 0, ocrThreads: 0, readerRuns: 1.5, lineCacheHits: 2.3 });
+  assert.deepEqual(service.diagnostics().video.ocr, { threads: 2, readerRuns: 8, lineCacheHits: 12 });
 });
 
 test('a cancelled subscription still blocks replacement until its worker exits', async function () {
@@ -170,7 +204,45 @@ test('a busy console on the first attempt retries and becomes ready without anot
   assert.equal(retry.commands[0].quality, 1080);
   retry.send({ type: 'ready' });
   retry.send({ type: 'ocr', text: '', confidence: 0, revision: 0 });
-  assert.equal(stream.messages.at(-1).type, 'ready');
+  assert.ok(stream.messages.some(message => message.type === 'ready'));
+});
+
+test('a rejected reconnect handshake after a healthy stream retries and resumes real subtitles', async () => {
+  const service = harness({ realFeed: true, match: text => text === 'Known.' ? { translation: 'Merhaba.', speakers: [] } : null });
+  const stream = service.start();
+  await settle();
+  service.workers[0].send({ type: 'ready' });
+  service.workers[0].send({ type: 'ocr', text: 'Known.', confidence: 99, revision: 0 });
+  service.workers[0].exit();
+  service.tick(2000);
+  const rejected = service.workers[1];
+  rejected.send({ type: 'error', text: 'Unknown Session Request Error' });
+  rejected.exit();
+  assert.equal(stream.messages.at(-1).type, 'reconnecting');
+  service.tick(5000);
+  const recovered = service.workers[2];
+  recovered.send({ type: 'ready' });
+  recovered.send({ type: 'ocr', text: 'Known.', confidence: 99, revision: 0 });
+  assert.equal(stream.messages.at(-1).text, 'Merhaba.');
+  assert.equal(service.diagnostics().video.phase, 'reading');
+  assert.equal(service.diagnostics().video.lastError, undefined, 'A recovered stream must not advertise a stale current error');
+});
+
+test('unknown session handshake errors have bounded retries and do not loop indefinitely', async () => {
+  const service = harness();
+  const stream = service.start();
+  await settle();
+  for (const delay of [2000, 5000, 10000]) {
+    service.workers.at(-1).send({ type: 'error', text: 'Unknown Session Request Error' });
+    service.workers.at(-1).exit();
+    assert.equal(stream.messages.at(-1).type, 'reconnecting');
+    service.tick(delay);
+  }
+  service.workers.at(-1).send({ type: 'error', text: 'Unknown Session Request Error' });
+  service.workers.at(-1).exit();
+  assert.equal(stream.messages.at(-1).type, 'ended');
+  assert.equal(service.workers.length, 4);
+  assert.equal(service.timers.size, 0);
 });
 
 test('a busy console has a finite retry limit', async function () {

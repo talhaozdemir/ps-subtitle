@@ -22,7 +22,7 @@ Oyun sırasında ayarlara LG kumandasındaki **Geri** tuşuyla dönülür. Varsa
 
 TV ile formu açan cihaz internete bağlı olduğu sürece farklı ağları kullanabilir. Tarayıcı veriyi şifreler ve Worker yalnızca şifreli paketi geçici olarak tutar. TV uyguladıktan sonra oturumu kapatır. PS5 eşleştirmesi için TV ile konsol aynı yerel ağda kalır.
 
-Kurulum formunu yayımlamak için repo kökündeki `setup-worker` klasöründen, `u-talha-o` alt alan adının sahibi olan Cloudflare hesabıyla `npx wrangler@4 deploy --no-bundle` çalıştırılır. Worker yapılandırması geçici oturum verileri için Durable Object bağını ve migrasyonu içerir. [Cloudflare Durable Objects](https://developers.cloudflare.com/durable-objects/get-started/)
+Kurulum formunu ve eksik replik arşivini yayımlama adımları `setup-worker/README.md` içindedir. Worker yapılandırması geçici şifreli oturumlar ve kalıcı inceleme arşivi için ayrı SQLite Durable Object bağları içerir. [Cloudflare Durable Objects](https://developers.cloudflare.com/durable-objects/get-started/)
 
 ### Altyazı alanı
 
@@ -32,7 +32,7 @@ GTA VI’da İngilizce altyazının arka planı **Düz / Solid** olarak ayarland
 
 İngilizce bir altyazı ekrandayken **Geri → Altyazı alanı** menüsünü aç. Kutuyu yön tuşlarıyla taşı, **OK** ile boyutlandırmaya geç. Sol ve sağ tuşlar genişliği, yukarı ve aşağı tuşlar yüksekliği değiştirir. Magic Remote işaretçisiyle kutuyu veya boyutlandırma köşesini sürükleyebilirsin. Boyutlandırma kutunun merkezini korur ve ekran kenarlarında durur.
 
-Remote Play bağlıyken kutudan okunan İngilizce metin üstte görünür. En uzun iki satırın etrafında pay bırak. **OK** alanı kaydedip oyuna döner, **Geri** önceki ayara döner. Kayıt sonraki açılışta da kullanılır.
+Remote Play bağlıyken kutudan okunan İngilizce metin üstte görünür. Görünebilecek bütün altyazı satırlarının etrafında pay bırak. **OK** alanı kaydedip oyuna döner, **Geri** önceki ayara döner. Kayıt sonraki açılışta da kullanılır.
 
 ### Altyazı görünümü
 
@@ -60,7 +60,87 @@ Sonraki yayınlarda aynı `subtitle.json.gz` dosya adını kullan. Tekilleştiri
 
 TV, OCR ile okuduğu altyazı metnini HTTPS üzerinden doğrudan seçili sağlayıcıya gönderir. Gemini, **Gemini 3.5 Flash-Lite** kullanır. OpenAI, **GPT‑6 Luna** modelini `reasoning.effort: none` ayarıyla kullanır. Anahtarlar TV’de ayrı ayrı saklanır. **Anahtarı kaldır → Kaydet** seçili sağlayıcının anahtarını siler ve yerel paket moduna döner.
 
+**1.0.34:** Paket öncelikli modda bulunamayan ve API'de başarıyla çevrilen replikler,
+Cloudflare kurulumu yapıldığında sonradan incelemek/birleştirmek için kalıcı arşive
+gönderilir. Önce TV'ye yazılan kuyruk, bulut onayından sonra temizlenir; bağlantı
+kesildiğinde yeniden dener. İngilizce/Türkçe metin ve kaynak bilgileri kaydedilir,
+Gemini/OpenAI anahtarları kaydedilmez. Çakışan çeviriler ayrı inceleme adaylarıdır;
+yerel dil paketine otomatik eklenmez. Arşiv erişim anahtarları IPK içinde bulunmaz.
+Kurulum ve dışa aktarma için `setup-worker/README.md` dosyasına bak.
+
+API, güncel OCR'nin 1.440 karaktere kadar çok satırlı bloklarını kabul eder. Düşük
+güvenli okumalar filtrelenir. En fazla iki istek sürdürülür; yeni OCR eski isteği her
+karede iptal etmez. Geç biten eski konuşma kaydedilebilir, ancak güncel altyazıyı
+değiştiremez. Sağlayıcı/anahtar değişimi veya oturum sıfırlaması eski işleri iptal
+eder; bağlam değişen aynı replik eski bağlamın işini kullanmaz. Tamamlanmamış API
+yanıtları gösterilmez ve 429 yanıtının `Retry-After` süresi dikkate alınır.
+
+`test_api_translation.cjs`, API istek/yanıt sözleşmesini, çok satırlı OCR'yi, geç
+tamamlanan cevapları, iptalleri, hata/kota/zaman aşımını ve arşiv seçimlerini;
+`test_translation_archive.cjs`, disk/kesinti/yeniden başlatma/kuyruk sınırlarını;
+`test_remote_setup.cjs`, yalnız doldurulan alanların en son kayıtlı ayarlara
+uygulanmasını sınar. Worker testleri gerçek yerel workerd/SQLite kullanır. Bunlar
+gerçek anahtarla canlı Gemini çeviri doğrulaması değildir.
+
 ## Prototip doğrulaması
+
+**1.0.40:** HTTP 500/502/503/504 yanıtlarında, toplam 5/8 saniyelik istek süresi
+uzatılmadan en fazla bir yeniden deneme yapılır. İlk hata kuyruğu silmez ve hemen
+uyarı çıkarmaz; 600–1.000 ms rastgele bekleme kullanılır. `Retry-After` varsa erken
+denenmez; belirtilen süre kalan bütçeye sığmıyorsa kısa tekrar yapılmaz. Anahtar,
+izin, geçersiz istek ve kota hataları bu yolla yeniden denenmez. Sıfırlama, anahtar
+değişimi veya iptal bekleyen tekrarın da zamanlayıcısını temizler. Hata sürerse
+mevcut geri çekilme ve uyarı geçerlidir; sunucu kesintisini uygulama gideremez.
+
+Gerçek başarılı API yanıtından sonra eski Gemini uyarısı temizlenir; daha yeni
+bir PS5 bağlantı uyarısı silinmez. `videoDiagnostics.video.api`, mantıksal istek
+sayılarına ek olarak `httpAttempts`, `retried`, `transientResponses`, `retrying`,
+`lastStatusCode` ve `lastErrorStatusCode` bilgilerini içerir. Anahtar veya ham
+sağlayıcı hata gövdesi bu alanlara eklenmez.
+
+**1.0.39:** Konuşmalar tek bir alttan büyüyen metin kutusu yerine, ayrı ve sabit
+konumlu bloklar olarak çizilir. Yeni konuşmanın eklenmesi veya eski konuşmanın
+süresinin dolması, ekranda kalan metinleri kaydırmaz; farklı uzunluklar eski
+metnin satırlarını yeniden sardırmaz. Blokların arası boş satır yerine 4 pikseldir.
+İlk blok kayıtlı konuma yerleşir; yenileri yer oldukça altına gelir. Ekran sınırında
+mevcut bloklar taşınmadan uygun boş alan kullanılır. Ekrana aynı anda sığmayacak
+kadar uzun metinlerde en eski blok görsel olarak bırakılır; üst sınır yine üçtür.
+Süre çarpanı, konuşma başına okuma süresi ve isim/renkler korunur. Eşdeğer OCR
+satır sonu/noktalama değişiklikleri okunmakta olan bloğu yeniden biçimlendirmez.
+`test_subtitle_timeline.cjs`, ekleme, süre dolması, sürekli üçlü akış, sınırlar ve
+kimliklerin korunmasını konum hesaplarıyla doğrular.
+
+**1.0.38:** API yanıtı gelmeden OCR'nin boş kareye veya henüz çevrilmemiş başka
+satıra geçmesi, önceki çevirinin tek başına elenme nedeni değildir. Son görülmesinden
+itibaren dört saniye içindeki yanıt, daha yeni bir konuşma zaten gösterilmediyse
+ekrana alınır. Kaynağı artık görünmeyen bu sonuç, 10 saniyelik bekçi süresi yerine
+metin uzunluğuna ve ekran süresi çarpanına göre tutulur; iki satırın tabanı 2,5 saniyedir.
+Yeni satırlar devam eden HTTP isteklerini iptal etmez. İki istek sürdürülür; en fazla
+üç satır sırada bekler, 1.500 ms'den eski bekleyen satırlar API'ye gönderilmez.
+Oturum/anahtar sıfırlamasında işler iptal edilir; farklı bağlamdaki aynı replik ve
+daha yeni gösterilmiş metinler için eski sonuç kullanılmaz. Kota hatası kuyruğu
+boşaltır ve `Retry-After` uygulanır.
+
+`videoDiagnostics.video.api`, istek/başarı/hata/gösterim/elenme sayaçlarını, uçuşta
+ve sıradaki iş sayısını ve son kararı içerir; anahtar içermez. `lastTextRead` son
+gerçek OCR metnini ve güvenini verir. `testTranslation` için `{ "display": true }`,
+çalışan akışa etiketli test metni, hemen ardından boş OCR girdisi gönderir. Böylece
+Gemini yanıtı, gerçek altyazı aboneliği, okuma süresi ve bulut kaydı aynı yoldan
+sınanabilir. Normal Bağlantıyı test et düğmesi bu seçeneği kullanmaz.
+
+**1.0.37:** API yönlendirmesi, `In Spanish` gibi kaynak konuşma dilini bildiren
+ifadeler olsa bile Türkçe çıktı ister; bu ifadeler hedef dili değiştirmez.
+Gerçek Gemini çağrısında İspanyolca dönen `In Spanish: Let's go!` örneği bu nedenle
+ayrı canlı doğrulama örneğidir. `testTranslation` tanılaması isteğe bağlı, en fazla
+1.440 karakterlik `text` alabilir; varsayılan test ve kayıt davranışı korunur.
+
+**1.0.36:** Yerel motorun `Unknown Session Request Error` yanıtı, meşgul Remote Play
+yanıtı gibi 2/5/10 saniyelik sınırlı yeniden denemeye alınır. Önceden sağlıklı bir
+akışın ardından ilk el sıkışması reddedildiğinde okumanın doğrudan sona ermesi
+engellenir. Yeni görüntü geldiğinde tanılamadaki eski hata temizlenir. Geçersiz
+eşleştirme hataları yeniden denenmez ve ardışık başarısız bağlantı sayısı sınırlıdır.
+`test_reconnect.cjs`, önce bu kesintiyi tekrar üretir, sonra çevirinin yeniden
+gösterilmesini ve başarısız oturumların sonsuz döngüye girmemesini sınar.
 
 TV, seçili altyazı alanının parlaklık kanalında harf dizisi arar. Uygun karelerde PP-OCRv6 Tiny metin bölgelerini bulur, Latin alfabesine daraltılmış PP-OCRv6 Small bu bölgeleri okur. Tarama seçilen alanın tamamını kullanır. Harf adayı görülmediğinde alan seyrek olarak tekrar taranır. `videoDiagnostics` içindeki `ocrRuns` model çağrılarını, `skippedCrops` model çalıştırmadan atlanan kareleri gösterir. Tanılama kayıtları gri kırpımı içerir.
 
@@ -145,10 +225,60 @@ Yerel bağlam internet veya API gerektirmez. API çağrılarının giriş metni/
 
 1.0.30'da üst/alt satırları kesebilen `%31–79` iç bant filtresi kaldırıldı; okuma ve aday seçimi kullanıcının belirlediği alanın tamamını kullanır. Varsayılan alan `%77–100` (yatay `%6–94`) olarak kalır; 1.0.28'in eski `%62–100` fabrika alanı bu dar varsayılana geçirilir, diğer özel seçimler korunur. Tek karede en fazla **6 metin bölgesi** okunur ve bölge sınırları satır sonuyla aktarılır. Böylece çok satırlı eşleştirme yedeği canlı OCR çıktısında da kullanılabilir. Algılayıcının 512 piksel sınırı, kare başına tek algılama ve adaysız karelerde seyrek kontrol sürer. Daha fazla yazı içeren alanların işlem maliyeti TV üzerinde ölçülmelidir.
 
-OCR okumaları arasında 1,8 saniyelik gösterim süresi dolduğunda aynı Türkçe karşılığı taşıyan yeni bir okuma altyazıyı yeniden görünür yapar. Art arda gelen aynı metinler görünürken gereksiz yeniden çizilmez. `videoDiagnostics.video.timing` içindeki `queueMs` kırpımın OCR kuyruğunda beklemesini, `ocrMs` model işlemesini, `cropAgeMs` kırpım seçiminden sonucun yayımlanmasına kadar geçen süreyi, `matchMs` yerel sözlük/bağlam aramasını gösterir. Her alanın `maxQueueMs`, `maxOcrMs`, `maxCropAgeMs`, `maxMatchMs` karşılıkları oturumdaki en yüksek süreyi tutar. Aynı görüntü tekrar kullanıldığında veya OCR atlandığında `ocrMs` sıfırdır. Bu ölçümler PS5'in görüntüyü oluşturması ile Remote Play'de alınması arasındaki süreyi içermez.
+1.0.31’de ekranda en fazla üç konuşma tutulur; yeni konuşma altta görünür. Her konuşmanın okuma süresi uzunluğundan hesaplanır: kısa yanıt yaklaşık 0,5 saniye, iki satır en az 2,5 saniye; uzun metinler daha fazla süre alır. **Altyazı görünümü → Ekranda kalma süresi** çarpanı 0,5×–3× arasında seçilir ve TV’de saklanır. Oyundaki yazı okunmaya devam ettikçe güncel konuşma korunur; yavaş OCR aralarında 1,8 saniyelik erken gizleme yapılmaz. Boş veya eşleşmeyen bir okuma önceki konuşmaları yalnız kendi asgari süreleri dolduysa kaldırır. Durdurma, yeniden bağlantı ve ayar değişimi geçmişi temizler. Hiç yeni sonuç gelmezse 10 saniyelik koruma süresi sonunda görüntü bırakılır. Art arda aynı metinler yeniden eklenmez ve gereksiz çizilmez. `videoDiagnostics.video.timing` içindeki `queueMs` kırpımın OCR kuyruğunda beklemesini, `ocrMs` model işlemesini, `cropAgeMs` kırpım seçiminden sonucun yayımlanmasına kadar geçen süreyi, `matchMs` yerel sözlük/bağlam aramasını gösterir. Her alanın `maxQueueMs`, `maxOcrMs`, `maxCropAgeMs`, `maxMatchMs` karşılıkları oturumdaki en yüksek süreyi tutar. Aynı görüntü tekrar kullanıldığında veya OCR atlandığında `ocrMs` sıfırdır. Bu ölçümler PS5'in görüntüyü oluşturması ile Remote Play'de alınması arasındaki süreyi içermez.
 
 Önce mevcut tam metin, OCR onarımı/benzerlik ve yerel bağlam yolu kullanılır. Sonuç bulunamazsa canlı oturum en fazla 1440 karakterlik, 2–6 fiziksel satırlı okumayı ardışık replik gruplarına ayırarak **yalnız birebir sözlük karşılıklarını** dener. Satıra taşan cümleler grup olarak aranır; tek tek kelime/cümle tahmini yapılmaz. En fazla 21 grup aranır ve 32 bölünme değerlendirilir. Bütün satırlar karşılanmalıdır; okunamayan satırı atıp kısmi çeviri gösterilmez. Tam bloğun bilinen belirsizliği veya farklı tam bölünmelerin farklı anlam/isim üretmesi halinde sonuç seçilmez. Bu yedek yol parçalar üzerinde yaklaşık eşleştirme yapmaz.
 
-Seçilen sözlük çevirileri aynen kullanılır. İsimler ve her kaynak görünümüne ait renkler metinden ayrı taşınır; birleştirme sırasında isimlerin karakter konumları yeni metne göre kaydırılır. Farklı bölünmelerin renkleri uyuşmazsa renk uydurulmaz. Yeni blok önceki ekrandaki metni biriktirmez. Birleştirme sonucu yerel bağlam için güçlü dayanak olarak kullanılmaz. `createPackStore().match()` eski 360 karakterlik davranışını korur; uzun blok desteği `createSession()` yolundadır. API isteğinin 360 karakter sınırı ve API giriş/model davranışı değişmez. `videoDiagnostics.multilinePackMatches` birleşik sonuçları sayar.
+Seçilen sözlük çevirileri aynen kullanılır. İsimler ve her kaynak görünümüne ait renkler metinden ayrı taşınır; birleştirme sırasında isimlerin karakter konumları yeni metne göre kaydırılır. Farklı bölünmelerin renkleri uyuşmazsa renk uydurulmaz. Servis yeni bloğa önceki OCR metnini eklemez; arayüz son üç konuşmanın gösterim sürelerini bağımsız yönetir. Birleştirme sonucu yerel bağlam için güçlü dayanak olarak kullanılmaz. `createPackStore().match()` eski 360 karakterlik davranışını korur; uzun blok desteği `createSession()` yolundadır. API isteğinin 360 karakter sınırı ve API giriş/model davranışı değişmez. `videoDiagnostics.multilinePackMatches` birleşik sonuçları sayar.
 
-`tools/test_multiline.cjs`; geçmiş altı satırlı eşleştirme girdilerini, cümle devamlarını, farklı renkli aynı isimleri, eksik/belirsiz grupları, uzun okumaları, isim açık/kapalı gösterimini ve önceki metnin birikmemesini doğrular. `test_quality.cjs` yavaş OCR sonrasında aynı altyazının yeniden görünmesini, `test_reconnect.cjs` tanılama sürelerinin aktarılmasını sınar. `tools/fixtures/multiline` iki gerçek beş satırlı sahnenin 540p/720p/1080p Y düzlemi karelerini ve 1.0.28 dönemindeki yerel OCR çıktısını içerir. `tools/benchmark_multiline_ocr.py`, seçilen Windows C okuyucusu ve aynı Paddle modelleriyle bu kareleri yeniden işleyebilir; eski geniş alan deneyi için `--region-top 62`, güncel alan için varsayılan `77` kullanılır. `--video` ve `--ffmpeg` ile kareler tekrar üretilebilir. Ölçeklenmiş indirilmiş video kareleriyle yapılan test, TV donanımında Remote Play gecikmesi/doğruluğu ölçümü değildir.
+`tools/test_multiline.cjs`; geçmiş altı satırlı eşleştirme girdilerini, cümle devamlarını, farklı renkli aynı isimleri, eksik/belirsiz grupları, uzun okumaları, isim açık/kapalı gösterimini ve önceki metnin birikmemesini doğrular. `test_quality.cjs` yavaş OCR sırasında altyazının kesintisiz görünmesini, `test_reconnect.cjs` tanılama sürelerinin aktarılmasını sınar. `tools/fixtures/multiline` iki gerçek beş satırlı sahnenin 540p/720p/1080p Y düzlemi karelerini ve 1.0.28 dönemindeki yerel OCR çıktısını içerir. `tools/benchmark_multiline_ocr.py`, seçilen Windows C okuyucusu ve aynı Paddle modelleriyle bu kareleri yeniden işleyebilir; eski geniş alan deneyi için `--region-top 62`, güncel alan için varsayılan `77` kullanılır. `--video` ve `--ffmpeg` ile kareler tekrar üretilebilir. Ölçeklenmiş indirilmiş video kareleriyle yapılan test, TV donanımında Remote Play gecikmesi/doğruluğu ölçümü değildir.
+
+
+### Görünen konuşmaların API’siz eşleştirilmesi
+
+`turn-index.js`, doğrulanmış çok konuşmalı kaynak kayıtlarından konuşmacı başlıklarıyla ayrılan **tam konuşmaları** çıkarır. Kaydın Türkçe gövdesi seçilmiş sözlük karşılığıyla aynı değilse kayıt kullanılmaz. İngilizce/Türkçe konuşmacı sırası ve sınırlar doğrulanır; yarım satıra veya kelimeye çeviri atanmaz. Aynı İngilizcenin farklı Türkçe karşılıkları varsa seçim yapılmaz. Bu dizin yalnız canlı oturumun mevcut eşleştirmesi sonuç vermediğinde, en az %85 OCR güveniyle ve birebir anahtarla kullanılır; parçalı yaklaşık eşleştirme eklenmez. Böylece varsayılan dar alanda yalnız son iki konuşması görünen Relay sahnesi de API olmadan eşleşir. Bu sonuçlar yerel bağlamın güçlü dayanağı yapılmaz.
+
+### Güncel OCR akışını sınama
+
+`test_subtitle_timeline.cjs`, bağımsız süreleri, üç konuşma sınırını, kayan blokları ve çarpanı; `test_turn_index.cjs`, kaynak sınırlarını ve belirsizlikleri sınar. `test_quality.cjs`, gerçek uygulama kodunda yavaş OCR sırasında görünürlüğü ve ekran koruyucu aboneliğini kontrol eder.
+
+`test_current_ocr.cjs`, hazır OCR metni kullanmaz: mevcut `native/paddle_ocr.c` ve `native/ocr_image.c` dosyalarını yeniden derler, SHA-256 değerlerini kaydeder, gerçek Y düzlemi görüntülerini 540p/720p/1080p’de hem dar hem geniş alanda okur. Üretilen 12 sonuç gerçek sözlük, API’siz servis beslemesi ve üç konuşmalı gösterimden geçirilir. Derleyici, ONNX Runtime C başlıkları, incelenmiş Paddle runtime’ı ve numpy/Pillow içeren Python gerekir. Ortam verilmezse bu donanımsız entegrasyon testi açıkça atlanır; TV performans ölçümü sayılmaz.
+
+```powershell
+$env:OCR_RUNTIME = 'C:/path/to/windows-paddle-runtime'
+$env:OCR_ONNX_INCLUDE = 'C:/path/to/onnx-headers'
+$env:OCR_PYTHON = 'C:/path/to/venv/Scripts/python.exe'
+$env:OCR_VCVARS = 'C:/path/to/Visual Studio/VC/Auxiliary/Build/vcvars64.bat'
+node --test tv-app/tools/test_current_ocr.cjs
+node --test tv-app/tools/test_subtitle_timeline.cjs tv-app/tools/test_turn_index.cjs tv-app/tools/test_quality.cjs
+```
+
+Linux’ta `OCR_VCVARS` gerekmez; `CC` ile C derleyicisi seçilebilir.
+
+### OCR okuyucularını karşılaştırma
+
+`tools/compare_ocr.py`, güncel C okuyucusunu derler ve aynı Tiny algılayıcıyla Small Latin, Tiny, Tiny Latin ve İngilizce PP-OCRv5 Mobile okuyucularını karşılaştırır. `onnx`, numpy/Pillow ve yereldeki etiketli `output/ocr/live-samples` kayıtları gerekir. Her kare beş kez, modeller sırayla ve sabit tohumla karıştırılmış düzende okunur; ısınma ve model yükleme süreleri kare süresine katılmaz. Gerçek TV hızını ölçmez.
+
+```sh
+python tv-app/tools/compare_ocr.py --runtime PATH_TO_CURRENT_RUNTIME --tiny PATH_TO_TINY_MODEL_FILES --english PATH_TO_ENGLISH_RUNTIME --onnx-include PATH_TO_ONNX_HEADERS --output output/ocr-comparison/comparison.json
+```
+
+`compare_ocr.cjs` aynı çıktıları güncel yerel paketle, API ve konuşma bağlamı olmadan eşleştirir. Tiny→Small yedeği, önceden ölçülen tam model çağrılarının süreleri toplanarak değerlendirilir; canlı hibrit uygulaması değildir. Referans Türkçeyle birebir uyuşma ayrı tutulur. İstenirse `--translation-review PATH` ile yalnız kimliği ve iki metni birebir doğrulanan, elle incelenmiş eşdeğer ifadeler ayrıca sayılır; bu inceleme sözlüğü değiştirmez. Referans İngilizcesi bile eşleşmeyen kareler çeviri başarı paydasına alınmaz. JSON raporu ham okumaları, beş tekrarın sürelerini, model/kaynak/görüntü SHA-256 değerlerini ve sonuçları; CSV dosyası özet tabloyu içerir.
+
+### Satır önbelleği ve kuyruk — 1.0.33
+
+Small Latin okuyucusu ve Tiny algılayıcının model dosyaları değişmez. Okuyucuya verilen 48 piksel yüksekliğindeki satırın hazırlanmış tensörü birebir aynıysa önceki İngilizce metin ve güven değeri kullanılır. Gri görüntünün üç kanalı aynı olduğundan ilk kanalın bütün float baytları ve genişlik karşılaştırılır; yaklaşık harf işareti veya yalnız hash eşitliği yeterli değildir. Arka planın satır kutusu dışındaki değişimi tekrar okumayı gerektirmez. Değişen harf, kenar yumuşatma veya satır geometrisi yeni model çağrısı doğurur. Algılama her yeni kırpımda sürer; yeni satır ve silinen satır eski bloktan devralınmaz.
+
+Önbellek 12 satırla sınırlıdır; en eski kullanılan kayıt çıkarılır. Ek görüntü belleği en çok yaklaşık 3,4 MiB’dir. Bellek ayrılamazsa normal OCR devam eder. Önbellek Türkçe çeviriyi veya konuşma bağlamını saklamaz; model/oturum kapanınca bırakılır. İlk kez okunan bir satırın model süresini kısaltmaz; tekrarlanan ve kayan bloklardaki değişmeyen satırların tekrar işlenmesini azaltır.
+
+OCR kuyruğunda aynı boyut, alan sürümü ve bütün kırpım baytları doğrulanan en son kayıt tazelenebilir; ilk görülme sırası korunur. Farklı iki konuşma kaba harf işaretine bakılarak birleştirilmez. Korunmayan eski arka plan kareleri de 1,5 saniye sonunda elenir. Yeni replik başlangıçları arka plan tekrarlarından önce alınır; iki ayrı başlangıcın kendi aralarındaki sıra korunur. `videoDiagnostics.video.ocr`, kullanılan `threads`, gerçek `readerRuns` ve `lineCacheHits` değerlerini; `video.engine`, `expiredCrops` ve `refreshedCrops` sayaçlarını taşır. Bu sayaçlar native motor yeniden başladığında sıfırlanır.
+
+`native/ocr_cache_queue_test.c`, tek bitlik görüntü değişimini, boyutu, LRU çıkarmayı, kuyruk sırasını, tazelemeyi ve eski arka planların elenmesini sınar. Güncel OCR entegrasyon testi bu C testini de derleyip çalıştırır. `tools/test_cache_ocr.py`, gerçek görüntüleri önbellek açık/kapalı okuyarak metin ve güven değerlerini karşılaştırır; aynı satır tekrarları ve tek piksel arka plan değişimleri de denenir. Yerel geniş veri varsa 174 görüntüde 696 karşılaştırma yapılır; yalnız depodaki görüntüler varsa çok satırlı 12 kırpım kullanılır. Bunlar canlı TV gecikmesi ölçümü değildir.
+
+`native/paddle_cpu_probe.c` ve `tools/benchmark_cpu_tv.cjs`, TV’de Small modeli önbellek kapalıyken 1/2/3 iş parçacığıyla karşılaştırmak içindir. Uygulama ölçüm boyunca kapatılır ve sonunda açılır; ölçüme eşzamanlı Remote Play çözümü dahil değildir. OLED55CX6LA üzerindeki 10 görüntü ve ters sıralı iki turda toplam 60 ölçüm yapıldı. Yazılı karelerin ortancası 1 iş parçacığında 3443 ms, 2’de 1886 ms, 3’te 1418 ms oldu; metin ve güven değerleri değişmedi. Bu nedenle varsayılan 3 korunur. Tekrarlanan görüntülerle yapılan önbellek testi ile ilk okuma CPU ölçümü ayrı değerlendirilmelidir.
+
+### Oyun sırasında ekran koruyucu
+
+Oyun oturumu açık ve uygulama ön plandayken `tvpower/power/registerScreenSaverRequest` aboneliği başlatılır; ekran koruyucu isteğine aynı zaman damgasıyla `ack: false` yanıtı verilir. Eski webOS sürümlerinin `state` alanı göndermediği istekler de kabul edilir. Uygulama arka plana geçtiğinde veya oturum kapandığında abonelik bırakılır. Erişim reddedilirse uygulama bunu bildirir. TV’nin genel güç ayarları değiştirilmez.
+
+Mevcut `screenSaverProperties.preferredType: 2` ayarı tek başına ekran koruyucuyu tamamen kapatmaz ([LG açıklaması](https://webostv.developer.lge.com/develop/guides/screensaver)). Abonelik için [webOS uygulaması örneği](https://github.com/zzeppieri/webos-custom-home/blob/main/src/service/luna.ts) temel alındı. Otomatik testler abonelik, zaman damgası yanıtı ve uygulamadan çıkış davranışını doğrular; gerçek TV’de uzun oyun oturumu ayrıca denenmelidir.

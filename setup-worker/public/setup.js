@@ -42,7 +42,7 @@ function derive(label, secret) {
 
 function videoSettings() {
   const video = {};
-  for (const name of ['port', 'quality']) {
+  for (const name of ['port', 'quality', 'ocrRate']) {
     const value = byId(name).value;
     if (value !== '') video[name] = Number(value);
   }
@@ -54,12 +54,13 @@ function videoSettings() {
   if (Object.keys(region).length) video.region = region;
 
   const appearance = {};
-  for (const name of ['offset', 'fontSize', 'opacity']) {
+  for (const name of ['offset', 'fontSize', 'opacity', 'durationScale', 'paddingX', 'paddingY']) {
     const value = byId(name).value;
     if (value !== '') appearance[name] = Number(value);
   }
   if (byId('position').value) appearance.position = byId('position').value;
   if (byId('background').value) appearance.background = byId('background').value === 'on';
+  if (byId('showSpeakerNames').value) appearance.showSpeakerNames = byId('showSpeakerNames').value === 'on';
   if (Object.keys(appearance).length) video.appearance = appearance;
   return video;
 }
@@ -70,13 +71,18 @@ function settings() {
     const address = byId('address').value.trim();
     const accountId = byId('account').value.trim();
     const pin = byId('pin').value.replace(/\s/g, '');
-    if (!/^(?:\d{1,3}\.){3}\d{1,3}$/.test(address) || address.split('.').some(part => Number(part) > 255)) {
+    if (address && (!/^(?:\d{1,3}\.){3}\d{1,3}$/.test(address) || address.split('.').some(part => Number(part) > 255))) {
       throw new Error('PS5’in IPv4 adresini kontrol et.');
     }
-    if (!/^(?:\d{1,20}|[A-Za-z0-9+/]{11}=)$/.test(accountId) || !/^\d{8}$/.test(pin)) {
+    if ((accountId || pin) && (!/^(?:\d{1,20}|[A-Za-z0-9+/]{11}=)$/.test(accountId) || !/^\d{8}$/.test(pin))) {
       throw new Error('PSN hesap kimliğini ve 8 haneli eşleştirme kodunu kontrol et.');
     }
-    draft.ps5 = { address, accountId, pin };
+    if (address || accountId || pin) {
+      draft.ps5 = {};
+      if (address) draft.ps5.address = address;
+      if (accountId) draft.ps5.accountId = accountId;
+      if (pin) draft.ps5.pin = pin;
+    }
   }
   if (byId('includeTranslation').checked) {
     const gemini = byId('geminiKey').value.trim();
@@ -87,7 +93,12 @@ function settings() {
     const mode = byId('mode').value;
     const provider = byId('provider').value;
     if (mode || provider || gemini || openai) {
-      draft.translation = { keys: { gemini, openai } };
+      draft.translation = {};
+      if (gemini || openai) {
+        draft.translation.keys = {};
+        if (gemini) draft.translation.keys.gemini = gemini;
+        if (openai) draft.translation.keys.openai = openai;
+      }
       if (mode) draft.translation.mode = mode;
       if (provider) draft.translation.provider = provider;
     }
@@ -130,11 +141,12 @@ form.addEventListener('submit', async event => {
   notify('TV’ye gönderiliyor…');
   try {
     const result = await upload(draft, secret);
-    if (result.status === 204 || result.status === 409) {
+    if (result.status === 204) {
       form.reset();
       form.hidden = true;
       notify('Ayarlar gönderildi. TV’de Uygula’ya bas.');
-    } else if (result.status === 404) notify('Kurulum oturumu bulunamadı. TV’den yeni kod al.', true);
+    } else if (result.status === 409) notify('Bu oturumda başka ayarlar bekliyor. TV’den yeni kod al.', true);
+    else if (result.status === 404) notify('Kurulum oturumu bulunamadı. TV’den yeni kod al.', true);
     else notify('Ayarlar gönderilemedi. Tekrar dene.', true);
   } catch {
     notify('Bağlantı kurulamadı. Tekrar dene.', true);

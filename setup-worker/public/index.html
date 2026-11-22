@@ -10,6 +10,7 @@
 <body>
   <main>
     <h1>TV kurulumu</h1>
+    <p class="hint">Yalnızca doldurduğun alanlar güncellenir. Boş alanlar TV’deki değerlerini korur.</p>
     <form id="setup">
       <div id="codeRow">
         <label for="code">TV’deki kurulum kodu</label>
@@ -19,11 +20,12 @@
       <fieldset id="ps5" disabled hidden>
         <legend>PS5 eşleştirme</legend>
         <label for="address">PS5 IP adresi</label>
-        <input id="address" placeholder="192.168.1.50" maxlength="15" autocomplete="off" required>
+        <input id="address" placeholder="Kayıtlı adres" maxlength="15" autocomplete="off">
         <label for="account">İkinci hesabın PSN kimliği (sayı veya Base64)</label>
-        <input id="account" maxlength="20" autocomplete="off" autocapitalize="off" spellcheck="false" required>
+        <input id="account" maxlength="20" autocomplete="off" autocapitalize="off" spellcheck="false">
         <label for="pin">8 haneli eşleştirme kodu</label>
-        <input id="pin" inputmode="numeric" maxlength="9" autocomplete="off" required>
+        <input id="pin" inputmode="numeric" maxlength="9" autocomplete="off">
+        <p class="hint">Yalnız IP adresini değiştirmek için hesap ve kod alanlarını boş bırak. Yeniden eşleştirme için hesap kimliğini ve kodu birlikte gir.</p>
       </fieldset>
       <label class="toggle"><input id="includeTranslation" type="checkbox"> Çeviri ayarları</label>
       <fieldset id="translation" disabled hidden>
@@ -65,6 +67,7 @@
             </select>
           </label>
         </div>
+        <label>Okuma sıklığı (saniyede)<input id="ocrRate" type="number" min="1" max="10" inputmode="numeric"></label>
         <fieldset class="subgroup">
           <legend>Altyazı okuma alanı</legend>
           <div class="field-grid">
@@ -92,6 +95,10 @@
               </select>
             </label>
             <label>Arka plan opaklığı (%)<input id="opacity" type="number" min="0" max="100" inputmode="numeric"></label>
+            <label>Ekranda kalma çarpanı (%)<input id="durationScale" type="number" min="50" max="300" step="25" inputmode="numeric"></label>
+            <label>Yatay boşluk (px)<input id="paddingX" type="number" min="0" max="100" inputmode="numeric"></label>
+            <label>Dikey boşluk (px)<input id="paddingY" type="number" min="0" max="60" inputmode="numeric"></label>
+            <label>Konuşmacı isimleri<select id="showSpeakerNames"><option value="">Kayıtlı seçim</option><option value="on">Açık</option><option value="off">Kapalı</option></select></label>
           </div>
         </fieldset>
       </fieldset>

@@ -38,6 +38,7 @@ function harness(initial) {
       if (name === './settings') return settings;
       if (name === './pack') return { createPackStore: () => ({}) };
       if (name === './translation' || name === './remote-setup') return {};
+      if (name === './translation-archive') return require('../service/translation-archive');
       return require(name);
     }
   });

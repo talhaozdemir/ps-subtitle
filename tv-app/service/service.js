@@ -10,8 +10,9 @@ const { createPackStore } = require('./pack');
 const { accountBytes, settings, publicSettings, subtitleRegion, subtitleAppearance, consoleId,
   translationSettings, savedTranslation, publicTranslation, translationProviderNames, supportedQualities,
   subtitleOcrRate, savedOcrRate } = require('./settings');
-const { createSubtitleFeed, requestTranslation, testLine } = require('./translation');
+const { createSubtitleFeed, requestTranslation, testLine, translationModels } = require('./translation');
 const { createRemoteTransfer } = require('./remote-setup');
+const { createTranslationArchive, makeRecord } = require('./translation-archive');
 
 const service = new Service('com.gtavi.turkce.altyazi');
 const configDirectory = '/media/internal/.com.gtavi.turkce.altyazi';
@@ -24,6 +25,12 @@ let streamClosed = Promise.resolve();
 let pairing = false;
 let discovery = null;
 let remoteSetup = null;
+let translationArchive = null;
+
+function archiveStore() {
+  if (!translationArchive) translationArchive = createTranslationArchive(configDirectory);
+  return translationArchive;
+}
 
 function readSettings() {
   try { return JSON.parse(fs.readFileSync(configPath, 'utf8')); }
@@ -176,14 +183,54 @@ service.register('setTranslation', async function (message) {
 
 service.register('testTranslation', function (message) {
   try {
+    if ((message.payload.archive !== undefined && typeof message.payload.archive !== 'boolean') ||
+        (message.payload.display !== undefined && typeof message.payload.display !== 'boolean')) {
+      throw Error('Çeviri testi seçimi geçersiz.');
+    }
+    if (message.payload.text !== undefined && (typeof message.payload.text !== 'string' ||
+        !message.payload.text.trim() || message.payload.text.length > 1440)) throw Error('Çeviri testi metni geçersiz.');
     const translation = translationSettings(message.payload, savedTranslation(readSettings()));
     if (!translation.keys[translation.provider]) {
       throw Error('Önce ' + translationProviderNames[translation.provider] + ' API anahtarını gir.');
     }
-    requestTranslation(translation, testLine).result.then(function (text) {
-      message.respond({ returnValue: true, text: text });
-    }, function (error) { replyError(message, error); });
+    const saveTest = message.payload.archive === true;
+    const input = message.payload.text === undefined ? testLine : message.payload.text;
+    const displayTest = message.payload.display === true;
+    const source = saveTest || displayTest ? '[PS Subtitle connectivity test] ' + input : input;
+    if (source.length > 1440) throw Error('Çeviri testi metni geçersiz.');
+    if (displayTest) {
+      if (!active || !active.feed) throw Error('Ekran testi için altyazı akışı açık olmalı.');
+      active.feed.read(source, 100);
+      // Reproduce the short-caption failure through the actual running feed:
+      // OCR goes blank while Gemini is still answering.
+      active.feed.read('', 0);
+      message.respond({ returnValue: true, started: true, source: source });
+      return;
+    }
+    requestTranslation(translation, source).result.then(async function (text) {
+      const reply = { returnValue: true, text: text };
+      if (saveTest) {
+        const record = { english: source, turkish: text, confidence: 100,
+          provider: translation.provider, model: translationModels[translation.provider] };
+        await archiveStore().record(record);
+        reply.testRecordId = makeRecord(record).id;
+        reply.archive = archiveStore().status();
+      }
+      message.respond(reply);
+    }).catch(function (error) { replyError(message, error); });
   } catch (error) { replyError(message, error); }
+});
+
+service.register('translationArchiveStatus', function (message) {
+  try { message.respond({ returnValue: true, archive: archiveStore().status() }); }
+  catch (error) { replyError(message, error); }
+});
+
+service.register('setTranslationArchive', function (message) {
+  try {
+    archiveStore().configure(message.payload.writeToken);
+    message.respond({ returnValue: true, archive: archiveStore().status() });
+  } catch (error) { replyError(message, Error('Cloudflare kayıt anahtarı TV’ye kaydedilemedi.')); }
 });
 
 service.register('setOcrRate', function (message) {
@@ -311,6 +358,7 @@ function remoteSettings(draft, saved) {
       if (supportedQualities.indexOf(video.quality) === -1) throw Error('Geçerli bir okuma çözünürlüğü seç.');
       changes.quality = video.quality;
     }
+    if (video.ocrRate !== undefined) changes.ocrRate = subtitleOcrRate(video.ocrRate);
     if (video.region !== undefined) changes.region = mergedSetting(previous.region, video.region, subtitleRegion);
     if (video.appearance !== undefined) {
       changes.appearance = mergedSetting(previous.appearance, video.appearance, subtitleAppearance);
@@ -318,18 +366,23 @@ function remoteSettings(draft, saved) {
     if (Object.keys(changes).length) summary.video = Object.assign({}, changes);
   }
   if (draft.ps5) {
-    ps5 = Object.assign({}, draft.ps5, {
-      port: changes.port || (draft.ps5.port === undefined ? previous.port : draft.ps5.port),
-      quality: changes.quality || previous.quality
-    });
-    const input = pairInput(ps5);
-    summary.ps5 = { address: input.config.address, port: input.config.port };
+    if (typeof draft.ps5 !== 'object' || Array.isArray(draft.ps5)) throw Error('PS5 ayarları geçersiz.');
+    if (draft.ps5.accountId !== undefined || draft.ps5.pin !== undefined) {
+      ps5 = Object.assign({}, draft.ps5, {
+        address: draft.ps5.address === undefined ? previous.address : draft.ps5.address,
+        port: changes.port || previous.port, quality: changes.quality || previous.quality
+      });
+      const input = pairInput(ps5);
+      summary.ps5 = { address: input.config.address, port: input.config.port, pairing: true };
+    } else if (draft.ps5.address !== undefined) {
+      if (!net.isIPv4(draft.ps5.address)) throw Error('Geçerli bir PS5 IPv4 adresi gir.');
+      changes.address = draft.ps5.address;
+      summary.ps5 = { address: changes.address, port: changes.port || previous.port, pairing: false };
+    }
   }
   if (draft.translation) {
     const previousTranslation = savedTranslation(saved);
-    const value = translationSettings(Object.assign({
-      mode: previousTranslation.mode, provider: previousTranslation.provider
-    }, draft.translation), previousTranslation);
+    const value = translationSettings(draft.translation, previousTranslation);
     changes.translation = value;
     summary.translation = { provider: translationProviderNames[value.provider], mode: value.mode };
     const keys = Object.keys(translationProviderNames).filter(function (provider) {
@@ -355,6 +408,10 @@ async function saveRemoteSettings(draft) {
   Object.assign(config, prepared.changes);
   saveSettings(config);
   if (active && prepared.changes.translation) active.feed.update(config.translation);
+  if (active && prepared.changes.ocrRate !== undefined) {
+    active.ocrRate = config.ocrRate;
+    if (active.worker) active.worker.send({ ocrRate: config.ocrRate });
+  }
   return config;
 }
 
@@ -425,7 +482,8 @@ service.register('applyRemoteSetup', async function (message) {
     try {
       const config = await saveRemoteSettings(draft);
       await slot.close();
-      message.respond({ returnValue: true, settings: publicSettings(config), pairedNow: Boolean(draft.ps5) });
+      message.respond({ returnValue: true, settings: publicSettings(config),
+        pairedNow: Boolean(draft.ps5 && (draft.ps5.accountId !== undefined || draft.ps5.pin !== undefined)) });
     } finally {
       slot.applying = false;
       if (remoteSetup === slot && Date.now() >= slot.expiresAt) slot.close();
@@ -459,6 +517,7 @@ service.register('videoDiagnostics', function (message) {
     videoDiagnostics.capture = { complete: false, frames: 0, expiresAt: Date.now() + 20000 };
     active.worker.send({ captureFrames: frames });
   }
+  if (active && active.feed && typeof active.feed.diagnostics === 'function') videoDiagnostics.api = active.feed.diagnostics();
   message.respond({ returnValue: true, active: Boolean(active), preview: Boolean(active && active.preview),
     video: videoDiagnostics || null });
 });
@@ -483,13 +542,16 @@ stream.on('request', function (message) {
     const ocrRate = message.payload.ocrRate === undefined ? savedOcrRate(saved) : requested.ocrRate;
     saveSettings(Object.assign(saved, { port: requested.port, quality: requested.quality, ocrRate: ocrRate }));
     const translation = savedTranslation(saved);
+    if (translation.keys[translation.provider]) archiveStore().flush();
     const metrics = { phase: 'starting', attempt: 0, requestedQuality: requested.quality, engine: null,
       reads: 0, nonEmptyReads: 0, usableReads: 0, staleReads: 0,
       packMatches: 0, approximatePackMatches: 0, contextualPackMatches: 0, multilinePackMatches: 0, lastPackSimilarity: null, displayed: 0,
+      ocr: { threads: null, readerRuns: 0, lineCacheHits: 0 },
       timing: { queueMs: 0, maxQueueMs: 0, ocrMs: 0, maxOcrMs: 0, cropAgeMs: 0, maxCropAgeMs: 0,
         matchMs: 0, maxMatchMs: 0 } };
     videoDiagnostics = metrics;
     const localSession = packs.createSession();
+    localSession.recovered = function () { message.respond({ returnValue: true, type: 'translationRecovered' }); };
     const feed = createSubtitleFeed(translation, function (text, confidence, minimum) {
       const started = Date.now();
       const found = localSession.match(text, confidence, minimum);
@@ -503,12 +565,14 @@ stream.on('request', function (message) {
         metrics.lastPackSimilarity = Math.round(found.score * 10) / 10;
       }
       return found || '';
-    }, function (text, speakers) {
+    }, function (text, speakers, turns, details) {
       if (text) metrics.displayed++;
-      message.respond({ returnValue: true, type: 'subtitle', text: text, speakers: speakers || [] });
+      const reply = { returnValue: true, type: 'subtitle', text: text, speakers: speakers || [], turns: turns };
+      if (details && typeof details.sourceActive === 'boolean') reply.sourceActive = details.sourceActive;
+      message.respond(reply);
     }, function (error) {
       message.respond({ returnValue: true, type: 'translationError', text: error });
-    }, localSession);
+    }, localSession, function (record) { archiveStore().record(record); });
     let reconnectTimer;
     let videoTimer;
     slot = { token: message.uniqueToken, worker: null, ocrRate: ocrRate,
@@ -575,6 +639,7 @@ stream.on('request', function (message) {
           if (result.type === 'videoStats') {
             metrics.engine = { videoSamples: result.videoSamples, droppedSamples: result.droppedSamples,
               sampledCrops: result.sampledCrops, replacedCrops: result.replacedCrops,
+              expiredCrops: result.expiredCrops, refreshedCrops: result.refreshedCrops,
               decodedFrames: result.decodedFrames, ocrRuns: result.ocrRuns, skippedCrops: result.skippedCrops,
               width: result.width, height: result.height, ocrIntervalMs: result.ocrIntervalMs };
           }
@@ -585,6 +650,11 @@ stream.on('request', function (message) {
             message.respond({ returnValue: true, type: 'waitingVideo' });
           }
           if (result.type !== 'ocr') return;
+          [['ocrThreads', 'threads'], ['readerRuns', 'readerRuns'], ['lineCacheHits', 'lineCacheHits']].forEach(function (fields) {
+            const value = result[fields[0]];
+            if (Number.isInteger(value) && value >= 0 &&
+                (fields[1] !== 'threads' || value >= 1 && value <= 3)) metrics.ocr[fields[1]] = value;
+          });
           ['queueMs', 'ocrMs', 'cropAgeMs'].forEach(function (field) {
             const value = result[field];
             if (!Number.isFinite(value) || value < 0) return;
@@ -602,6 +672,7 @@ stream.on('request', function (message) {
           if (firstFrameAt === undefined) {
             firstFrameAt = lastFrameAt;
             metrics.phase = 'reading';
+            delete metrics.lastError;
             message.respond({ returnValue: true, type: 'ready' });
           }
           if (result.revision !== slot.frameRevision) {
@@ -613,7 +684,13 @@ stream.on('request', function (message) {
             message.respond({ returnValue: true, type: 'preview', text: result.text, revision: slot.revision });
             return;
           }
-          feed.read(result.text, result.confidence);
+          if (typeof result.text === 'string' && result.text.trim()) {
+            metrics.lastTextRead = { text: result.text.slice(0, 1440), confidence: result.confidence, at: Date.now() };
+          }
+          const shown = feed.read(result.text, result.confidence);
+          if ((!result.text || !result.text.trim()) || shown === false) {
+            message.respond({ returnValue: true, type: 'subtitleIdle' });
+          }
         }, function (error) {
           if (active !== slot) return;
           clearTimeout(videoTimer);
@@ -621,8 +698,9 @@ stream.on('request', function (message) {
           feed.reset();
           if (firstFrameAt !== undefined && lastFrameAt - firstFrameAt >= 30000) reconnectAttempts = 0;
           const busy = failure === 'Remote Play on Console is already in use';
+          const rejectedSession = failure === 'Unknown Session Request Error';
           metrics.lastError = timedOut ? noVideo : failure || error;
-          if ((!failure || connected || busy) && reconnectAttempts < reconnectDelays.length) {
+          if ((!failure || connected || busy || rejectedSession) && reconnectAttempts < reconnectDelays.length) {
             metrics.phase = 'reconnecting';
             reconnectTimer = setTimeout(startWorker, reconnectDelays[reconnectAttempts++]);
             message.respond({ returnValue: true, type: 'reconnecting' });

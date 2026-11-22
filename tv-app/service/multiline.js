@@ -12,16 +12,17 @@ function identity(result) {
 
 function combine(groups) {
   let translation = '';
-  const speakers = [];
+  const speakers = [], turns = [];
   for (const group of groups) {
     if (translation) translation += '\n';
     const offset = translation.length;
+    turns.push(offset);
     for (const span of group.speakers || []) {
       speakers.push({ offset: offset + span.offset, name: span.name, color: span.color });
     }
     translation += group.translation;
   }
-  return { score: 100, approximate: false, translation: translation, speakers: speakers, multiline: true };
+  return { score: 100, approximate: false, translation: translation, speakers: speakers, turns: turns, multiline: true };
 }
 
 function matchMultiline(text, confidence, exact, blocked) {

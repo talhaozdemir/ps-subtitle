@@ -8,13 +8,14 @@
   var sessionNumber = 0;
   var noticeTimer;
   var subtitleTimer;
-  var lastSubtitleKey = '';
-  var lastSubtitleReadAt = 0;
   var lastSubtitleText = '';
   var lastSubtitleSpeakers = [];
+  var lastSubtitleKey = '';
   var showSpeakerNames = false;
-  var subtitleLinger = 1800;
-  var subtitleRepeatGap = 4000;
+  var subtitleTimeline = SubtitleRenderer.createTimeline();
+  var screenSaverBridge = null;
+  var screenSaverReplies = [];
+  var screenSaverWanted = false;
   var saved = { port: 1, address: '', quality: 540, ocrRate: 3, paired: false };
   var ocrRateSaving = false;
   var pending = true;
@@ -26,6 +27,7 @@
   var appearanceSaving = false;
   var translationDraft;
   var translationBusy = false;
+  var lastTranslationError = '';
   var remoteSetupDraft;
   var setupStep = 0;
   var setupSaving = false;
@@ -38,7 +40,7 @@
     'appearanceOffset', 'appearanceOffsetValue', 'appearanceSize', 'appearanceSizeValue',
     'appearanceBackground', 'appearanceBackgroundValue', 'appearanceOpacity', 'appearanceOpacityValue',
     'appearancePaddingX', 'appearancePaddingXValue', 'appearancePaddingY', 'appearancePaddingYValue',
-    'appearanceNames', 'appearanceNamesValue',
+    'appearanceNames', 'appearanceNamesValue', 'appearanceDuration', 'appearanceDurationValue',
     'appearanceError', 'saveAppearance', 'cancelAppearance', 'tabHdmi', 'tabPs5',
     'tabSubtitle', 'stepHdmi', 'stepPs5', 'stepSubtitle', 'trialHelp', 'subtitleOptions', 'previousStep',
     'nextStep', 'finishSetup', 'editTranslation', 'translationEditor', 'translationMode', 'translationModeValue',
@@ -51,7 +53,7 @@
   var setupTabs = [view.tabHdmi, view.tabPs5, view.tabSubtitle];
   var setupPanels = [view.stepHdmi, view.stepPs5, view.stepSubtitle];
   var appearanceControls = [view.appearancePosition, view.appearanceOffset, view.appearanceSize,
-    view.appearanceNames, view.appearanceBackground, view.appearanceOpacity, view.appearancePaddingX, view.appearancePaddingY,
+    view.appearanceNames, view.appearanceDuration, view.appearanceBackground, view.appearanceOpacity, view.appearancePaddingX, view.appearancePaddingY,
     view.saveAppearance, view.cancelAppearance];
   var backgroundControls = [view.appearanceOpacity, view.appearancePaddingX, view.appearancePaddingY];
   var translationControls = [view.translationMode, view.translationSimilarity, view.translationProvider, view.translationKey, view.testTranslation,
@@ -94,36 +96,61 @@
 
   function hideSubtitle() {
     window.clearTimeout(subtitleTimer);
+    SubtitleRenderer.clearLayout(view.subtitle);
     view.subtitle.textContent = '';
     view.subtitle.hidden = true;
   }
 
-  function subtitle(text, speakers) {
+  function drawSubtitles(state) {
+    window.clearTimeout(subtitleTimer);
+    var key = state.blocks.map(function (block) { return block.id; }).join(',') + '\u0000' +
+      state.text + '\u0000' + (showSpeakerNames ? JSON.stringify(state.speakers) : '');
+    var previous = lastSubtitleKey;
+    lastSubtitleKey = key;
+    lastSubtitleText = state.text;
+    lastSubtitleSpeakers = state.speakers;
+    if (!state.text) { hideSubtitle(); return; }
+    var wasHidden = view.subtitle.hidden;
+    view.subtitle.hidden = false;
+    if (wasHidden || key !== previous) SubtitleRenderer.renderTimeline(view.subtitle, state, showSpeakerNames);
+    subtitleTimer = window.setTimeout(function () {
+      drawSubtitles(subtitleTimeline.snapshot(performance.now()));
+    }, Math.max(1, state.next - performance.now()));
+  }
+
+  function subtitle(text, speakers, turns) {
     if (appearanceDraft) return;
     if (!text) {
-      lastSubtitleKey = '';
-      lastSubtitleReadAt = 0;
+      subtitleTimeline.clear();
       lastSubtitleText = '';
       lastSubtitleSpeakers = [];
       hideSubtitle();
       return;
     }
-    var now = performance.now();
-    speakers = SubtitleRenderer.validSpeakers(text, speakers || []);
-    lastSubtitleText = text;
-    lastSubtitleSpeakers = speakers;
-    var normalized = text.replace(/\s+/g, ' ').trim().toLocaleLowerCase('tr');
-    var key = normalized.replace(/[.!?…]+$/, '') || normalized;
-    if (showSpeakerNames) key += '\u0000' + JSON.stringify(speakers);
-    var recentlyRead = key && key === lastSubtitleKey && now - lastSubtitleReadAt < subtitleRepeatGap;
-    lastSubtitleKey = key;
-    lastSubtitleReadAt = now;
-    // A fresh reading must restore a caption hidden during a slow OCR pass,
-    // even when its text is identical to the previous reading.
-    window.clearTimeout(subtitleTimer);
-    if (view.subtitle.hidden || !recentlyRead) SubtitleRenderer.render(view.subtitle, text, speakers, showSpeakerNames);
-    view.subtitle.hidden = false;
-    subtitleTimer = window.setTimeout(hideSubtitle, subtitleLinger);
+    drawSubtitles(subtitleTimeline.read(text, speakers, performance.now(), turns));
+  }
+
+  function updateScreenSaver() {
+    var enabled = screenSaverWanted && !document.hidden;
+    if (!enabled) {
+      if (screenSaverBridge) screenSaverBridge.cancel();
+      screenSaverBridge = null;
+      screenSaverReplies.forEach(function (bridge) { bridge.cancel(); });
+      screenSaverReplies = [];
+      return;
+    }
+    if (screenSaverBridge || !window.PalmServiceBridge) return;
+    screenSaverBridge = callLuna('luna://com.webos.service.tvpower/power/registerScreenSaverRequest',
+      { subscribe: true, clientName: 'com.gtavi.turkce' }, function (request) {
+        if (!screenSaverWanted || document.hidden ||
+            !(typeof request.timestamp === 'string' && request.timestamp.length ||
+              typeof request.timestamp === 'number' && Number.isFinite(request.timestamp)) ||
+            (request.state !== undefined && request.state !== 'Active')) return;
+        // Older firmware sends a timestamp without a state field.
+        var reply = callLuna('luna://com.webos.service.tvpower/power/responseScreenSaverRequest',
+          { clientName: 'com.gtavi.turkce', ack: false, timestamp: request.timestamp }, function () {}, function () {});
+        if (reply) screenSaverReplies = screenSaverReplies.slice(-3).concat([reply]);
+      }, function (error) { status('Ekran koruyucu engellenemedi: ' + error, true); });
   }
 
   function showHdmi(port) {
@@ -400,7 +427,10 @@
   }
 
   function applyAppearance(appearance) {
+    SubtitleRenderer.clearLayout(view.subtitle);
+    lastSubtitleKey = '';
     showSpeakerNames = appearance.showSpeakerNames === true;
+    subtitleTimeline.setScale(appearance.durationScale || 100, performance.now());
     view.subtitle.dataset.position = appearance.position;
     view.subtitle.style.setProperty('--subtitle-offset', appearance.offset + '%');
     view.subtitle.style.setProperty('--subtitle-size', appearance.fontSize + 'px');
@@ -409,7 +439,7 @@
     view.subtitle.style.setProperty('--subtitle-padding-x', appearance.background ? appearance.paddingX + 'px' : '');
     view.subtitle.style.setProperty('--subtitle-padding-y', appearance.background ? appearance.paddingY + 'px' : '');
     if (!appearanceDraft && !view.subtitle.hidden && lastSubtitleText) {
-      SubtitleRenderer.render(view.subtitle, lastSubtitleText, lastSubtitleSpeakers, showSpeakerNames);
+      drawSubtitles(subtitleTimeline.snapshot(performance.now()));
     }
   }
 
@@ -427,6 +457,8 @@
     view.appearanceOpacity.value = draft.opacity;
     view.appearancePaddingX.value = draft.paddingX;
     view.appearancePaddingY.value = draft.paddingY;
+    view.appearanceDuration.value = draft.durationScale || 100;
+    view.appearanceDurationValue.textContent = ((draft.durationScale || 100) / 100).toLocaleString('tr') + '×';
     view.appearanceOffsetValue.textContent = '%' + draft.offset;
     view.appearanceSizeValue.textContent = draft.fontSize + ' px';
     view.appearanceOpacityValue.textContent = '%' + draft.opacity;
@@ -622,6 +654,7 @@
         if (video) {
           if (video.port && !draft.summary.ps5) labels.push('HDMI ' + video.port);
           if (video.quality) labels.push('Okuma çözünürlüğü · ' + video.quality + 'p');
+          if (video.ocrRate) labels.push('Okuma sıklığı · ' + video.ocrRate + '/sn');
           if (video.region) labels.push('Altyazı alanı · ' + video.region.width + ' × ' + video.region.height + '%');
           if (video.appearance) labels.push('Altyazı görünümü · ' +
             (video.appearance.position === 'top' ? 'Üst orta' : 'Alt orta') + ' · ' + video.appearance.fontSize + ' px');
@@ -656,9 +689,10 @@
     var draft = remoteSetupDraft;
     if (!draft || !draft.summary || draft.applying) return;
     draft.applying = true;
+    var wasRunning = Boolean(session);
     if (draft.summary.ps5) stop();
     view.remoteSetupApply.disabled = view.remoteSetupCancel.disabled = true;
-    remoteSetupStatus(draft.summary.ps5 ? 'PS5 eşleştiriliyor…' : 'Ayarlar kaydediliyor…');
+    remoteSetupStatus(draft.summary.ps5 && draft.summary.ps5.pairing ? 'PS5 eşleştiriliyor…' : 'Ayarlar kaydediliyor…');
     function finish() {
       draft.applying = false;
       view.remoteSetupApply.disabled = view.remoteSetupCancel.disabled = false;
@@ -675,6 +709,7 @@
         view.pin.value = view.account.value = '';
         clearConsoleList();
       }
+      if (draft.summary.ps5) view.address.value = saved.address;
       if (response.pairedNow || video.port) {
         manualHdmi = true;
         view.port.value = saved.port;
@@ -685,7 +720,7 @@
       closeRemoteSetup();
       updateButtons();
       if (response.pairedNow) showStep(2, true);
-      else if (session && (video.quality || video.region)) {
+      else if (wasRunning && (draft.summary.ps5 || video.quality || video.region)) {
         start({ port: saved.port, address: saved.address, quality: saved.quality });
       }
       status('Ayarlar kaydedildi.');
@@ -698,6 +733,8 @@
   }
 
   function stop() {
+    screenSaverWanted = false;
+    updateScreenSaver();
     sessionNumber++;
     if (session) session.cancel();
     session = null;
@@ -709,6 +746,8 @@
 
   function start(requested, keepSettingsOpen) {
     stop();
+    screenSaverWanted = true;
+    updateScreenSaver();
     var settings = requested || values();
     var formAddress = settings.address;
     settings.consoleId = saved.consoleId;
@@ -754,8 +793,21 @@
           view.regionPreview.textContent = 'Bu alanda metin okunamadı.';
         }
       }
-      if (message.type === 'subtitle' && !edit) subtitle(message.text, message.speakers);
-      if (message.type === 'translationError' && view.translationEditor.hidden) status(message.text, true);
+      if (message.type === 'subtitle' && !edit) {
+        subtitle(message.text, message.speakers, message.turns);
+        if (message.sourceActive === false && !appearanceDraft) drawSubtitles(subtitleTimeline.release(performance.now()));
+      }
+      if (message.type === 'subtitleIdle' && !edit && !appearanceDraft) {
+        drawSubtitles(subtitleTimeline.release(performance.now()));
+      }
+      if (message.type === 'translationError') {
+        lastTranslationError = message.text || '';
+        if (view.translationEditor.hidden) status(message.text, true);
+      }
+      if (message.type === 'translationRecovered') {
+        if (lastTranslationError && view.status.textContent === lastTranslationError) status('');
+        lastTranslationError = '';
+      }
       if (message.type === 'ended') {
         stop();
         if (edit) regionError(message.text);
@@ -912,7 +964,7 @@
     drawAppearanceEditor();
   });
   [[view.appearanceOffset, 'offset'], [view.appearanceSize, 'fontSize'], [view.appearanceOpacity, 'opacity'],
-    [view.appearancePaddingX, 'paddingX'], [view.appearancePaddingY, 'paddingY']]
+    [view.appearancePaddingX, 'paddingX'], [view.appearancePaddingY, 'paddingY'], [view.appearanceDuration, 'durationScale']]
     .forEach(function (entry) {
       bindRangeChange(entry[0], function (value) {
         appearanceDraft[entry[1]] = value;
@@ -1078,6 +1130,7 @@
     else if (saved.setupComplete && isPaired() && view.settings.hidden) start();
   });
   window.addEventListener('unload', stop);
+  document.addEventListener('visibilitychange', updateScreenSaver);
 
   updateButtons();
   call('settings', {}, function (response) {

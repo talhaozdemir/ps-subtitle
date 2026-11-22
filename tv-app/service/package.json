@@ -1,6 +1,6 @@
 {
   "name": "com.gtavi.turkce.altyazi",
-  "version": "1.0.30",
+  "version": "1.0.40",
   "main": "service.js",
   "license": "AGPL-3.0-only"
 }

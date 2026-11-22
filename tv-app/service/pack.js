@@ -11,6 +11,7 @@ const { correctedMatch, createMatcher, key } = require('./matcher');
 const { createSpeakerIndex, consensus } = require('./speaker-display');
 const { createContextIndex, createLocalContext } = require('./local-context');
 const { matchMultiline, maxTextLength } = require('./multiline');
+const { createTurnIndex } = require('./turn-index');
 
 const repository = 'talhaozdemir/ps-subtitle';
 const releaseFilename = 'subtitle.json.gz';
@@ -110,6 +111,7 @@ async function decode(bytes) {
   }
   const matcher = createMatcher(pack);
   return { matcher: matcher, speakers: createSpeakerIndex(pack, matcher.lookup),
+    turns: createTurnIndex(pack, matcher),
     contextIndex: createContextIndex(pack),
     mergeVersion: pack.merge_info && pack.merge_info.version || 0,
     digest: 'sha256:' + createHash('sha256').update(bytes).digest('hex') };
@@ -302,7 +304,11 @@ function createPackStore(directory, bundledPath, preferredPath) {
         // Keep the legacy stateless path unchanged. Longer blocks and composed
         // rows belong to the live session and never seed context anchors.
         const whole = text.length > 360 ? exactMatch(text) : null;
-        return whole || matchMultiline(text, confidence, exactMatch, blocked);
+        if (whole || blocked(text)) return whole;
+        function completeTurn(source) {
+          return exactMatch(source) || (preferred && preferred.turns.match(source)) || (current && current.turns.match(source));
+        }
+        return completeTurn(text) || matchMultiline(text, confidence, completeTurn, blocked);
       },
       reset: function () { refresh(); generation++; if (context) context.reset(); },
       cacheKey: function (text) { refresh(); return context ? generation + ':' + context.token() + ':' + text : text; }

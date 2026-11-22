@@ -99,6 +99,17 @@ button:disabled { opacity: 0.47; }
   bottom: auto;
 }
 
+#subtitle[data-layout="stable"] { white-space: normal; }
+.subtitle-turn {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  white-space: pre-line;
+  overflow-wrap: break-word;
+  overflow: hidden;
+}
+
 #notice {
   position: fixed;
   top: 4vh;
@@ -178,6 +189,7 @@ button:disabled { opacity: 0.47; }
 #appearanceEditor input[type="range"], #translationSimilarity { display: block; padding: 0; margin: 0 0 14px; }
 #appearanceEditor input:disabled, #appearanceEditor label[data-disabled="true"] { opacity: 0.47; }
 #appearanceEditor .actions { margin-top: 16px; }
+.appearanceHelp { color: #dad0d4; font-size: 16px; line-height: 1.4; }
 #appearanceEditor .actions button { margin-bottom: 0; }
 #saveAppearance { background: #ffbcae; color: #271b21; border-color: #ffbcae; }
 #appearanceError { color: #ffae9b; }

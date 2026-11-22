@@ -1,0 +1,14 @@
+{
+  "name": "ps-subtitle-setup-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "deploy": "wrangler deploy",
+    "archive:deploy": "node tools/deploy-archive.cjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.166.0"
+  }
+}

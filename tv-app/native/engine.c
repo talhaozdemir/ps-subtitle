@@ -408,7 +408,20 @@ static bool publish_crop(struct engine *engine, uint8_t *const planes[3], const 
     atomic_store(&engine->last_crop_ms, (unsigned int)now);
     atomic_store(&engine->frame_size, ((unsigned int)frame_width << 16) | (unsigned int)frame_height);
     bool replaced;
-    int index = ocr_pending_offer(&engine->pending, sample->candidate ? &mark : NULL, now, &replaced);
+    int index = ocr_pending_latest(&engine->pending, now);
+    bool duplicate = index >= 0 && engine->crops[index].width == sample->width &&
+        engine->crops[index].height == sample->height && engine->crops[index].revision == sample->revision &&
+        engine->crops[index].frame_height == sample->frame_height &&
+        engine->crops[index].candidate == sample->candidate &&
+        memcmp(engine->crops[index].pixels, sample->pixels, size) == 0;
+    if (duplicate && ocr_pending_refresh(&engine->pending, index, now)) {
+        replaced = true;
+        if (sample->candidate) {
+            engine->pending.has_visible = true;
+            engine->pending.visible = mark;
+            engine->pending.last_visible = now;
+        }
+    } else index = ocr_pending_offer(&engine->pending, sample->candidate ? &mark : NULL, now, &replaced);
     if (index >= 0) {
         struct crop spare = engine->crops[index];
         engine->crops[index] = *sample;
@@ -459,7 +472,7 @@ static void *decode_packets(void *context) {
     return NULL;
 }
 
-static void report_ocr(const struct paddle_result *result, const struct crop *crop, bool skipped,
+static void report_ocr(const struct paddle_ocr *ocr, const struct paddle_result *result, const struct crop *crop, bool skipped,
         uint64_t queue_ms, uint64_t ocr_ms) {
     struct json_object *value = event("ocr");
     json_object_object_add(value, "text", json_object_new_string(result->text));
@@ -468,11 +481,16 @@ static void report_ocr(const struct paddle_result *result, const struct crop *cr
     json_object_object_add(value, "cropAgeMs", json_object_new_int64(milliseconds() - crop->captured_at));
     json_object_object_add(value, "queueMs", json_object_new_int64(queue_ms));
     json_object_object_add(value, "ocrMs", json_object_new_int64(ocr_ms));
+    struct paddle_stats stats;
+    paddle_stats_read(ocr, &stats);
+    json_object_object_add(value, "ocrThreads", json_object_new_int(stats.threads));
+    json_object_object_add(value, "readerRuns", json_object_new_int64(stats.reader_runs));
+    json_object_object_add(value, "lineCacheHits", json_object_new_int64(stats.line_cache_hits));
     if (skipped) json_object_object_add(value, "skipped", json_object_new_boolean(true));
     emit(value);
 }
 
-static void report_video_stats(const struct engine *engine) {
+static void report_video_stats(struct engine *engine) {
     struct json_object *value = event("videoStats");
     unsigned int frame_size = atomic_load(&engine->frame_size);
     json_object_object_add(value, "videoSamples", json_object_new_int64(atomic_load(&engine->video_samples)));
@@ -483,6 +501,10 @@ static void report_video_stats(const struct engine *engine) {
     json_object_object_add(value, "ocrRuns", json_object_new_int64(atomic_load(&engine->ocr_runs)));
     json_object_object_add(value, "skippedCrops", json_object_new_int64(atomic_load(&engine->skipped_crops)));
     json_object_object_add(value, "ocrIntervalMs", json_object_new_int(atomic_load(&engine->crop_interval_ms)));
+    pthread_mutex_lock(&engine->mutex);
+    json_object_object_add(value, "expiredCrops", json_object_new_int64(engine->pending.expired));
+    json_object_object_add(value, "refreshedCrops", json_object_new_int64(engine->pending.refreshed));
+    pthread_mutex_unlock(&engine->mutex);
     json_object_object_add(value, "width", json_object_new_int(frame_size >> 16));
     json_object_object_add(value, "height", json_object_new_int(frame_size & 0xffff));
     emit(value);
@@ -592,7 +614,7 @@ static void *read_subtitles(void *context) {
             memcmp(previous, crop.pixels, size) == 0;
         if (unchanged) {
             atomic_fetch_add(&engine->skipped_crops, 1);
-            report_ocr(&result, &crop, false, queue_ms, 0);
+            report_ocr(engine->ocr, &result, &crop, false, queue_ms, 0);
             continue;
         }
 
@@ -602,7 +624,7 @@ static void *read_subtitles(void *context) {
         uint64_t now = milliseconds();
         if (!candidate && now < next_probe && previous_revision == crop.revision) {
             atomic_fetch_add(&engine->skipped_crops, 1);
-            report_ocr(&(struct paddle_result){0}, &crop, true, queue_ms, 0);
+            report_ocr(engine->ocr, &(struct paddle_result){0}, &crop, true, queue_ms, 0);
             continue;
         }
 
@@ -627,7 +649,7 @@ static void *read_subtitles(void *context) {
         previous_width = crop.width;
         previous_revision = crop.revision;
         previous_frame_height = crop.frame_height;
-        report_ocr(&result, &crop, false, queue_ms, ocr_ms);
+        report_ocr(engine->ocr, &result, &crop, false, queue_ms, ocr_ms);
     }
     if (capture.requested) report_capture(&capture, true);
     free(crop.pixels);

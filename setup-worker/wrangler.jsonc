@@ -5,10 +5,17 @@
   "workers_dev": true,
   "assets": { "directory": "./public" },
   "durable_objects": {
-    "bindings": [{ "name": "SETUP_SESSIONS", "class_name": "SetupSession" }]
+    "bindings": [
+      { "name": "SETUP_SESSIONS", "class_name": "SetupSession" },
+      { "name": "TRANSLATION_ARCHIVE", "class_name": "TranslationArchive" }
+    ]
   },
-  "migrations": [{ "tag": "setup-v1", "new_sqlite_classes": ["SetupSession"] }],
+  "migrations": [
+    { "tag": "setup-v1", "new_sqlite_classes": ["SetupSession"] },
+    { "tag": "archive-v1", "new_sqlite_classes": ["TranslationArchive"] }
+  ],
   "ratelimits": [
+    { "name": "ARCHIVE_LIMIT", "namespace_id": "273428160", "simple": { "limit": 60, "period": 60 } },
     {
       "name": "SETUP_LIMIT",
       "namespace_id": "273428159",

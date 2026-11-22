@@ -38,7 +38,7 @@ pkg_check_modules(JSON REQUIRED IMPORTED_TARGET json-c)
 
 add_subdirectory("${CHIAKI_SOURCE}" chiaki EXCLUDE_FROM_ALL)
 find_path(ONNXRUNTIME_INCLUDE_DIR onnxruntime_c_api.h PATH_SUFFIXES onnxruntime REQUIRED)
-add_executable(subtitle-engine engine.c ocr_image.c ocr_pending.c paddle_ocr.c)
+add_executable(subtitle-engine engine.c ocr_image.c ocr_pending.c ocr_line_cache.c paddle_ocr.c)
 target_include_directories(subtitle-engine PRIVATE "${ONNXRUNTIME_INCLUDE_DIR}")
 target_compile_options(subtitle-engine PRIVATE -Wall -Wextra -Werror)
 target_link_libraries(subtitle-engine PRIVATE chiaki-lib PkgConfig::JSON

@@ -2,7 +2,7 @@
 
 const net = require('net');
 const defaultRegion = { x: 6, y: 77, width: 88, height: 23 };
-const defaultAppearance = { position: 'bottom', offset: 5, background: true, opacity: 90, fontSize: 38, paddingX: 14, paddingY: 7, showSpeakerNames: false };
+const defaultAppearance = { position: 'bottom', offset: 5, background: true, opacity: 90, fontSize: 38, paddingX: 14, paddingY: 7, showSpeakerNames: false, durationScale: 100 };
 const supportedQualities = [360, 540, 720, 1080];
 const defaultOcrRate = 3;
 const translationProviderNames = { gemini: 'Gemini', openai: 'OpenAI' };
@@ -71,18 +71,20 @@ function consoleId(value) {
 
 function subtitleAppearance(value) {
   const { paddingX = defaultAppearance.paddingX, paddingY = defaultAppearance.paddingY,
-    showSpeakerNames = defaultAppearance.showSpeakerNames } = value || {};
+    showSpeakerNames = defaultAppearance.showSpeakerNames, durationScale = defaultAppearance.durationScale } = value || {};
   if (!value || (value.position !== 'bottom' && value.position !== 'top') ||
       !Number.isInteger(value.offset) || value.offset < 0 || value.offset > 30 ||
       typeof value.background !== 'boolean' ||
       !Number.isInteger(value.opacity) || value.opacity < 0 || value.opacity > 100 ||
       !Number.isInteger(value.fontSize) || value.fontSize < 24 || value.fontSize > 64 ||
       !Number.isInteger(paddingX) || paddingX < 0 || paddingX > 100 ||
-      !Number.isInteger(paddingY) || paddingY < 0 || paddingY > 60 || typeof showSpeakerNames !== 'boolean') {
+      !Number.isInteger(paddingY) || paddingY < 0 || paddingY > 60 || typeof showSpeakerNames !== 'boolean' ||
+      !Number.isInteger(durationScale) || durationScale < 50 || durationScale > 300 || durationScale % 25 !== 0) {
     throw Error('Altyazı görünümü ayarları geçersiz.');
   }
   return { position: value.position, offset: value.offset, background: value.background,
-    opacity: value.opacity, fontSize: value.fontSize, paddingX: paddingX, paddingY: paddingY, showSpeakerNames: showSpeakerNames };
+    opacity: value.opacity, fontSize: value.fontSize, paddingX: paddingX, paddingY: paddingY,
+    showSpeakerNames: showSpeakerNames, durationScale: durationScale };
 }
 
 function translationSettings(value, previous = defaultTranslation) {
@@ -90,13 +92,17 @@ function translationSettings(value, previous = defaultTranslation) {
     value = { mode: value.mode, provider: 'gemini', similarity: value.similarity, keys: { gemini: value.apiKey } };
   }
   const providers = Object.keys(translationProviderNames);
-  if (!value || ['pack', 'api'].indexOf(value.mode) === -1 || providers.indexOf(value.provider) === -1 ||
-      !value.keys || typeof value.keys !== 'object' || Array.isArray(value.keys)) {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) throw Error('Çeviri ayarları geçersiz.');
+  const mode = value.mode === undefined ? previous.mode : value.mode;
+  const selected = value.provider === undefined ? previous.provider : value.provider;
+  const edits = value.keys === undefined ? {} : value.keys;
+  if (['pack', 'api'].indexOf(mode) === -1 || providers.indexOf(selected) === -1 ||
+      !edits || typeof edits !== 'object' || Array.isArray(edits)) {
     throw Error('Çeviri ayarları geçersiz.');
   }
   const keys = {};
   for (const provider of providers) {
-    const entry = value.keys[provider];
+    const entry = edits[provider];
     const key = typeof entry === 'string' ? entry.trim() : '';
     if ((entry !== undefined && entry !== null && typeof entry !== 'string') ||
         (key && !/^[!-~]{1,512}$/.test(key))) {
@@ -104,14 +110,14 @@ function translationSettings(value, previous = defaultTranslation) {
     }
     keys[provider] = entry === null ? '' : key || previous.keys[provider];
   }
-  if (value.mode === 'api' && !keys[value.provider]) {
-    throw Error('Önce ' + translationProviderNames[value.provider] + ' API anahtarını gir.');
+  if (mode === 'api' && !keys[selected]) {
+    throw Error('Önce ' + translationProviderNames[selected] + ' API anahtarını gir.');
   }
   const similarity = value.similarity === undefined ? previous.similarity : value.similarity;
   if (!Number.isInteger(similarity) || similarity < 80 || similarity > 100) {
     throw Error('Benzerlik eşiği %80 ile %100 arasında olmalı.');
   }
-  return { mode: value.mode, provider: value.provider, similarity: similarity, keys: keys };
+  return { mode: mode, provider: selected, similarity: similarity, keys: keys };
 }
 
 function savedTranslation(saved) {

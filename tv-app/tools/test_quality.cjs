@@ -6,13 +6,14 @@ const path = require('node:path');
 const vm = require('node:vm');
 const { test } = require('node:test');
 const settings = require('../service/settings');
+const renderer = require('../app/subtitle-renderer');
 const appDirectory = path.resolve(__dirname, '../app');
 
 function harness(options = {}) {
-  const nodes = {}, starts = [];
+  const nodes = {}, starts = [], calls = [], events = {};
   const timers = new Map();
   let now = 0, timerId = 0, renders = 0;
-  const doc = { addEventListener() {}, getElementById: id => nodes[id] };
+  const doc = { hidden: false, addEventListener(name, handler) { (events[name] || (events[name] = [])).push(handler); }, getElementById: id => nodes[id] };
   function node() {
     return { dataset: {}, handlers: {}, style: { setProperty() {} }, value: '', hidden: false,
       addEventListener(name, handler) { this.handlers[name] = handler; },
@@ -28,6 +29,7 @@ function harness(options = {}) {
   class Bridge {
     cancel() { this.cancelled = true; }
     call(uri, raw) {
+      calls.push({ bridge: this, uri, payload: JSON.parse(raw) });
       let response;
       if (uri.endsWith('/settings')) response = { returnValue: true,
         settings: settings.publicSettings({ address: '192.168.1.10', port: 2, quality: 540,
@@ -45,10 +47,14 @@ function harness(options = {}) {
     clearTimeout(id) { timers.delete(id); } };
   vm.runInNewContext(fs.readFileSync(path.join(appDirectory, 'app.js'), 'utf8'), {
     window: win, document: doc, performance: { now: () => now },
-    SubtitleRenderer: { validSpeakers: () => [], render(element, text) { renders++; element.textContent = text; } }
+    SubtitleRenderer: Object.assign({}, renderer, {
+      render(element, text) { renders++; element.textContent = text; },
+      renderTimeline(element, state) { renders++; element.textContent = state.text; }
+    })
   });
   return {
-    nodes, starts, renders: () => renders,
+    nodes, starts, calls, renders: () => renders,
+    visibility(hidden) { doc.hidden = hidden; (events.visibilitychange || []).forEach(handler => handler()); },
     advance(milliseconds) {
       const target = now + milliseconds;
       for (;;) {
@@ -87,18 +93,44 @@ test('every resolution change automatically replaces the stream and keeps settin
   }
 });
 
-test('identical translations reappear after slow OCR instead of being suppressed forever', function () {
+test('slow OCR keeps the latest conversation visible without blinking or redrawing', function () {
   const app = harness();
   const read = () => app.emit({ type: 'subtitle', text: 'Tamam.' });
   read();
   for (let i = 0; i < 5; i++) {
     app.advance(2000);
-    assert.equal(app.nodes.subtitle.hidden, true, 'A lapse still expires the old caption');
+    assert.equal(app.nodes.subtitle.hidden, false, 'Slow inference must not hide the current source');
     read();
     assert.equal(app.nodes.subtitle.hidden, false, 'A fresh result must restore the same translation');
     assert.equal(app.nodes.subtitle.textContent, 'Tamam.');
   }
-  assert.equal(app.renders(), 6);
+  assert.equal(app.renders(), 1);
+  app.advance(10000);
+  assert.equal(app.nodes.subtitle.hidden, true, 'A dead stream has a finite watchdog');
+  read();
+  assert.equal(app.nodes.subtitle.hidden, false, 'A fresh result restores an expired source');
+});
+
+test('a late API reply after the source disappeared is visible for its reading duration', () => {
+  const app = harness();
+  app.emit({ type: 'subtitleIdle' });
+  app.advance(1000);
+  app.emit({ type: 'subtitle', text: 'Bekle.', sourceActive: false });
+  assert.equal(app.nodes.subtitle.hidden, false);
+  app.advance(499);
+  assert.equal(app.nodes.subtitle.hidden, false);
+  app.advance(1);
+  assert.equal(app.nodes.subtitle.hidden, true, 'Inactive short replies use their minimum, not the 10-second watchdog');
+});
+
+test('a late two-line API reply remains readable for 2.5 seconds despite repeated blank OCR', () => {
+  const app = harness(), text = 'Kapıyı aç.\nBurada bekle.';
+  app.emit({ type: 'subtitle', text, sourceActive: false });
+  for (let i = 0; i < 24; i++) { app.advance(100); app.emit({ type: 'subtitleIdle' }); }
+  assert.equal(app.nodes.subtitle.hidden, false);
+  assert.equal(app.nodes.subtitle.textContent, text);
+  app.advance(100);
+  assert.equal(app.nodes.subtitle.hidden, true);
 });
 
 test('frequent repeated readings extend visibility without redrawing or accumulating text', function () {
@@ -111,11 +143,55 @@ test('frequent repeated readings extend visibility without redrawing or accumula
   assert.equal(app.renders(), 1);
   app.emit({ type: 'subtitle', text: 'Burada bekle.' });
   assert.equal(app.nodes.subtitle.textContent, 'Burada bekle.');
-  app.advance(1800);
+  app.emit({ type: 'subtitleIdle' });
+  app.advance(1000);
   assert.equal(app.nodes.subtitle.hidden, true);
   app.emit({ type: 'subtitle', text: '' });
   app.emit({ type: 'subtitle', text: 'Burada bekle.' });
   assert.equal(app.nodes.subtitle.hidden, false);
+});
+
+test('new conversations appear below older ones, with independent length-based expiry and a three-turn cap', function () {
+  const app = harness();
+  const long = 'Kapıyı kontrol et.\nArka tarafta seni bekliyor olacağım.';
+  app.emit({ type: 'subtitle', text: long });
+  app.advance(100);
+  app.emit({ type: 'subtitle', text: 'Tamam.' });
+  assert.equal(app.nodes.subtitle.textContent, long + '\n\nTamam.');
+  app.advance(100);
+  app.emit({ type: 'subtitle', text: 'Git.' });
+  assert.equal(app.nodes.subtitle.textContent, long + '\n\nTamam.\n\nGit.');
+  app.advance(100);
+  app.emit({ type: 'subtitle', text: 'Dur.' });
+  assert.equal(app.nodes.subtitle.textContent, 'Tamam.\n\nGit.\n\nDur.');
+  app.advance(400);
+  assert.equal(app.nodes.subtitle.textContent, 'Dur.');
+  app.emit({ type: 'subtitleIdle' });
+  app.advance(100);
+  assert.equal(app.nodes.subtitle.hidden, true);
+});
+
+test('screen saver requests are vetoed throughout gameplay and released when the app leaves the foreground', () => {
+  const app = harness();
+  const registrations = () => app.calls.filter(call => call.uri.endsWith('/registerScreenSaverRequest'));
+  const guard = registrations()[0];
+  assert.equal(guard.payload.subscribe, true);
+  for (const request of [{ state: 'Active', timestamp: '100' }, { timestamp: 200 }]) {
+    guard.bridge.onservicecallback(JSON.stringify({ returnValue: true, ...request }));
+    const reply = app.calls.at(-1);
+    assert.ok(reply.uri.endsWith('/responseScreenSaverRequest'));
+    assert.deepEqual(reply.payload, { clientName: 'com.gtavi.turkce', ack: false, timestamp: request.timestamp });
+  }
+  const count = app.calls.length;
+  guard.bridge.onservicecallback(JSON.stringify({ returnValue: true, state: 'Inactive', timestamp: '300' }));
+  guard.bridge.onservicecallback('{bad json');
+  assert.equal(app.calls.length, count);
+  app.visibility(true);
+  assert.equal(guard.bridge.cancelled, true);
+  guard.bridge.onservicecallback(JSON.stringify({ returnValue: true, timestamp: '400' }));
+  assert.equal(app.calls.filter(call => call.uri.endsWith('/responseScreenSaverRequest')).length, 2);
+  app.visibility(false);
+  assert.equal(registrations().length, 2);
 });
 
 test('selecting a resolution starts the first paired setup trial without submitting the form', function () {
@@ -146,4 +222,19 @@ test('failed automatic application reports the error and another selection can r
   assert.equal(app.starts.at(-1).payload.quality, 720);
   app.emit({ type: 'ready' });
   assert.equal(app.nodes.status.textContent, '');
+});
+
+test('API recovery clears its stale error notice without clearing a newer connection notice', () => {
+  const app = harness();
+  app.emit({ type: 'translationError', text: 'Gemini temporarily unavailable.' });
+  assert.equal(app.nodes.status.textContent, 'Gemini temporarily unavailable.');
+  app.emit({ type: 'translationRecovered' });
+  assert.equal(app.nodes.status.textContent, '');
+  assert.equal(app.nodes.notice.hidden, true);
+  app.emit({ type: 'translationError', text: 'Gemini temporarily unavailable.' });
+  app.emit({ type: 'reconnecting' });
+  const connection = app.nodes.status.textContent;
+  app.emit({ type: 'translationRecovered' });
+  assert.equal(app.nodes.status.textContent, connection);
+  assert.match(connection, /PS5/);
 });

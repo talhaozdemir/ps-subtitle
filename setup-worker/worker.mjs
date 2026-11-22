@@ -1,4 +1,6 @@
 import { DurableObject } from 'cloudflare:workers';
+import { archiveRequest } from './archive.mjs';
+export { TranslationArchive } from './archive.mjs';
 
 const lifetime = 5 * 60 * 1000;
 const hashPattern = /^[0-9a-f]{64}$/;
@@ -14,7 +16,7 @@ async function digest(token) {
   return Array.from(bytes, byte => byte.toString(16).padStart(2, '0')).join('');
 }
 
-async function readJson(body) {
+async function readJson(body, limit = 8300) {
   if (!body) throw new Error('Missing body');
   const reader = body.getReader();
   const decoder = new TextDecoder('utf-8', { fatal: true });
@@ -25,7 +27,7 @@ async function readJson(body) {
       const { value, done } = await reader.read();
       if (done) return JSON.parse(text + decoder.decode());
       size += value.byteLength;
-      if (size > 8300) throw new Error('Body too large');
+      if (size > limit) throw new Error('Body too large');
       text += decoder.decode(value, { stream: true });
     }
   } catch (error) {
@@ -110,6 +112,10 @@ export class SetupSession extends DurableObject {
 
 export default {
   async fetch(request, env) {
+    if (new URL(request.url).pathname === '/api/translations') {
+      try { return await archiveRequest(request, env, readJson, response); }
+      catch { console.error({ event: 'archive_request_failed', method: request.method }); return response(503); }
+    }
     const match = /^\/api\/setup\/([0-9a-f]{32})$/.exec(new URL(request.url).pathname);
     if (!match) return response(404);
     const method = request.method;
