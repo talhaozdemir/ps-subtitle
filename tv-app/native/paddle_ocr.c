@@ -14,7 +14,7 @@
 #endif
 #include <onnxruntime_c_api.h>
 
-enum { DETECTOR_LIMIT = 512, LINE_HEIGHT = 48, MAX_BOXES = 16, MAX_LINES = 3,
+enum { DETECTOR_LIMIT = 512, LINE_HEIGHT = 48, MAX_BOXES = 16, MAX_LINES = 6,
     MAX_CHARACTERS = 18710, MAX_MODEL_BYTES = 32 * 1024 * 1024 };
 
 struct box {
@@ -389,7 +389,7 @@ bool paddle_read(struct paddle_ocr *ocr, const uint8_t *luma, int width, int hei
         if (!confidence) continue;
         size_t line_length = strlen(line);
         if (line_length + (lines != 0) >= sizeof(result->text) - length) break;
-        if (lines) result->text[length++] = ' ';
+        if (lines) result->text[length++] = '\n';
         memcpy(result->text + length, line, line_length + 1);
         length += line_length;
         lines++;

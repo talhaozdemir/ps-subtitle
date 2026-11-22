@@ -118,9 +118,8 @@
     var recentlyRead = key && key === lastSubtitleKey && now - lastSubtitleReadAt < subtitleRepeatGap;
     lastSubtitleKey = key;
     lastSubtitleReadAt = now;
-    // A brief lapse in OCR can hide a caption without ending the line in the game.
-    if (recentlyRead && view.subtitle.hidden) return;
-
+    // A fresh reading must restore a caption hidden during a slow OCR pass,
+    // even when its text is identical to the previous reading.
     window.clearTimeout(subtitleTimer);
     if (view.subtitle.hidden || !recentlyRead) SubtitleRenderer.render(view.subtitle, text, speakers, showSpeakerNames);
     view.subtitle.hidden = false;

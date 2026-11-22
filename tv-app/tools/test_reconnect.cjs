@@ -64,6 +64,11 @@ function harness() {
   vm.runInContext(source, context);
   return {
     workers, timers,
+    diagnostics() {
+      let result;
+      handlers.videoDiagnostics({ payload: {}, respond: reply => { result = JSON.parse(JSON.stringify(reply)); } });
+      return result;
+    },
     start(quality = 540) {
       const messages = [];
       const message = { uniqueToken: ++nextToken, isSubscription: true,
@@ -101,6 +106,23 @@ test('changing resolution waits for the old native session to close', async func
   service.workers[1].send({ type: 'ocr', text: '', confidence: 0, revision: 0 });
   assert.equal(next.messages.at(-1).type, 'ready');
   assert.equal(service.timers.size, 1, 'Old shutdown timer must be cleared');
+});
+
+test('video diagnostics preserve the latest and maximum native stage durations', async function () {
+  const service = harness();
+  service.start();
+  await settle();
+  const worker = service.workers[0];
+  worker.send({ type: 'ocr', revision: 0, text: 'Hello.', confidence: 95,
+    queueMs: 300, ocrMs: 650, cropAgeMs: 950 });
+  worker.send({ type: 'ocr', revision: 0, text: 'Hello.', confidence: 95,
+    queueMs: 10, ocrMs: 200, cropAgeMs: 210 });
+  const expected = { queueMs: 10, maxQueueMs: 300, ocrMs: 200, maxOcrMs: 650,
+    cropAgeMs: 210, maxCropAgeMs: 950, matchMs: 0, maxMatchMs: 0 };
+  assert.deepEqual(service.diagnostics().video.timing, expected);
+  worker.send({ type: 'ocr', revision: 0, text: '', confidence: 0,
+    queueMs: -1, ocrMs: 'invalid', cropAgeMs: null });
+  assert.deepEqual(service.diagnostics().video.timing, expected);
 });
 
 test('a cancelled subscription still blocks replacement until its worker exits', async function () {

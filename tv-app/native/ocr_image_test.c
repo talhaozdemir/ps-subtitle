@@ -66,6 +66,24 @@ static void empty_and_boxed(void) {
     release(&search);
 }
 
+static void selected_area_edges(void) {
+    uint8_t image[WIDTH * HEIGHT], mask[WIDTH * HEIGHT];
+    struct subtitle_search search = {0};
+    const int positions[] = {2, HEIGHT - 12};
+    for (size_t i = 0; i < sizeof(positions) / sizeof(*positions); i++) {
+        memset(image, 16, sizeof(image));
+        for (int col = 0; col < 6; col++) rectangle(image, 144 + 12 * col, positions[i], 5, 10, 220);
+        int top, bottom;
+        subtitle_band(HEIGHT, 540, &top, &bottom);
+        assert(subtitle_candidate(&search, image + top * WIDTH, WIDTH, bottom - top, 540, mask));
+        // Both captions were outside the old fixed inner band.
+        top = HEIGHT * 31 / 100;
+        bottom = HEIGHT * 79 / 100;
+        assert(!subtitle_candidate(&search, image + top * WIDTH, WIDTH, bottom - top, 540, mask));
+    }
+    release(&search);
+}
+
 static void paint_panel(uint8_t *image, uint8_t *blue, int x, int y, int width, int height) {
     rectangle(image, x, y, width, height, 42);
     for (int row = y / 2; row < (y + height) / 2; row++)
@@ -113,14 +131,15 @@ static void rectangle_first(void) {
 int main(void) {
     int top, bottom;
     subtitle_band(411, 1080, &top, &bottom);
-    assert(top == 127 && bottom == 324);
+    assert(top == 0 && bottom == 411);
     subtitle_band(205, 540, &top, &bottom);
-    assert(top == 63 && bottom == 161);
+    assert(top == 0 && bottom == 205);
     subtitle_band(100, 1080, &top, &bottom);
     assert(top == 0 && bottom == 100);
     outlined_rows();
     empty_and_boxed();
+    selected_area_edges();
     rectangle_first();
-    puts("OCR image tests passed: outlined glyphs, solid boxes, two panels, dim text, empty panels and HUD exclusion.");
+    puts("OCR image tests passed: selected area edges, outlined glyphs, solid boxes, two panels, dim text, empty panels and HUD exclusion.");
     return 0;
 }

@@ -485,11 +485,16 @@ stream.on('request', function (message) {
     const translation = savedTranslation(saved);
     const metrics = { phase: 'starting', attempt: 0, requestedQuality: requested.quality, engine: null,
       reads: 0, nonEmptyReads: 0, usableReads: 0, staleReads: 0,
-      packMatches: 0, approximatePackMatches: 0, contextualPackMatches: 0, multilinePackMatches: 0, lastPackSimilarity: null, displayed: 0 };
+      packMatches: 0, approximatePackMatches: 0, contextualPackMatches: 0, multilinePackMatches: 0, lastPackSimilarity: null, displayed: 0,
+      timing: { queueMs: 0, maxQueueMs: 0, ocrMs: 0, maxOcrMs: 0, cropAgeMs: 0, maxCropAgeMs: 0,
+        matchMs: 0, maxMatchMs: 0 } };
     videoDiagnostics = metrics;
     const localSession = packs.createSession();
     const feed = createSubtitleFeed(translation, function (text, confidence, minimum) {
+      const started = Date.now();
       const found = localSession.match(text, confidence, minimum);
+      metrics.timing.matchMs = Date.now() - started;
+      metrics.timing.maxMatchMs = Math.max(metrics.timing.maxMatchMs, metrics.timing.matchMs);
       if (found) {
         metrics.packMatches++;
         if (found.approximate) metrics.approximatePackMatches++;
@@ -580,6 +585,13 @@ stream.on('request', function (message) {
             message.respond({ returnValue: true, type: 'waitingVideo' });
           }
           if (result.type !== 'ocr') return;
+          ['queueMs', 'ocrMs', 'cropAgeMs'].forEach(function (field) {
+            const value = result[field];
+            if (!Number.isFinite(value) || value < 0) return;
+            metrics.timing[field] = value;
+            const maximum = 'max' + field[0].toUpperCase() + field.slice(1);
+            metrics.timing[maximum] = Math.max(metrics.timing[maximum], value);
+          });
           metrics.reads++;
           if (result.text && result.text.trim()) {
             metrics.nonEmptyReads++;

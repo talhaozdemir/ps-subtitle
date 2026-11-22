@@ -56,6 +56,7 @@ struct crop {
     int frame_height;
     int revision;
     bool candidate;
+    uint64_t captured_at;
 };
 
 struct sample_capture {
@@ -397,6 +398,7 @@ static bool publish_crop(struct engine *engine, uint8_t *const planes[3], const 
     sample->height = height;
     sample->frame_height = frame_height;
     sample->revision = region.revision;
+    sample->captured_at = now;
 
     pthread_mutex_lock(&engine->mutex);
     if (engine->region.revision != region.revision || atomic_load(&engine->done)) {
@@ -457,11 +459,15 @@ static void *decode_packets(void *context) {
     return NULL;
 }
 
-static void report_ocr(const struct paddle_result *result, int revision, bool skipped) {
+static void report_ocr(const struct paddle_result *result, const struct crop *crop, bool skipped,
+        uint64_t queue_ms, uint64_t ocr_ms) {
     struct json_object *value = event("ocr");
     json_object_object_add(value, "text", json_object_new_string(result->text));
     json_object_object_add(value, "confidence", json_object_new_int(result->confidence));
-    json_object_object_add(value, "revision", json_object_new_int(revision));
+    json_object_object_add(value, "revision", json_object_new_int(crop->revision));
+    json_object_object_add(value, "cropAgeMs", json_object_new_int64(milliseconds() - crop->captured_at));
+    json_object_object_add(value, "queueMs", json_object_new_int64(queue_ms));
+    json_object_object_add(value, "ocrMs", json_object_new_int64(ocr_ms));
     if (skipped) json_object_object_add(value, "skipped", json_object_new_boolean(true));
     emit(value);
 }
@@ -560,6 +566,7 @@ static void *read_subtitles(void *context) {
         crop.frame_height = pending->frame_height;
         crop.revision = pending->revision;
         crop.candidate = pending->candidate;
+        crop.captured_at = pending->captured_at;
         size_t size = (size_t)crop.width * (size_t)crop.height;
         if (size > crop.capacity) {
             uint8_t *buffers = realloc(crop.pixels, size * 2);
@@ -575,6 +582,7 @@ static void *read_subtitles(void *context) {
         }
         memcpy(crop.pixels, pending->pixels, size);
         pthread_mutex_unlock(&engine->mutex);
+        uint64_t queue_ms = milliseconds() - crop.captured_at;
 
         capture_crop(engine, &capture, &crop);
         // Keep the current crop and the last model input together.
@@ -584,7 +592,7 @@ static void *read_subtitles(void *context) {
             memcmp(previous, crop.pixels, size) == 0;
         if (unchanged) {
             atomic_fetch_add(&engine->skipped_crops, 1);
-            report_ocr(&result, crop.revision, false);
+            report_ocr(&result, &crop, false, queue_ms, 0);
             continue;
         }
 
@@ -594,23 +602,22 @@ static void *read_subtitles(void *context) {
         uint64_t now = milliseconds();
         if (!candidate && now < next_probe && previous_revision == crop.revision) {
             atomic_fetch_add(&engine->skipped_crops, 1);
-            report_ocr(&(struct paddle_result){0}, crop.revision, true);
+            report_ocr(&(struct paddle_result){0}, &crop, true, queue_ms, 0);
             continue;
         }
 
-        // Periodically examine the whole selection to catch less typical captions.
-        if (!candidate) {
-            top = 0;
-            bottom = crop.height;
-        }
+        // The full selected area is also probed periodically when the cheap
+        // text gate cannot identify an atypical caption.
         bool had_text = result.confidence > 0;
         atomic_fetch_add(&engine->ocr_runs, 1);
+        uint64_t ocr_started = milliseconds();
         if (!paddle_read(engine->ocr, crop.pixels + (size_t)top * crop.width, crop.width,
                 bottom - top, crop.frame_height, &result)) {
             message("error", "PaddleOCR altyazı karesini işleyemedi.");
             atomic_store(&engine->done, true);
             break;
         }
+        uint64_t ocr_ms = milliseconds() - ocr_started;
         // Start the quiet interval after inference and prioritize another read
         // if a probe found actual text.
         next_probe = milliseconds() + (!candidate && !had_text && result.confidence ?
@@ -620,7 +627,7 @@ static void *read_subtitles(void *context) {
         previous_width = crop.width;
         previous_revision = crop.revision;
         previous_frame_height = crop.frame_height;
-        report_ocr(&result, crop.revision, false);
+        report_ocr(&result, &crop, false, queue_ms, ocr_ms);
     }
     if (capture.requested) report_capture(&capture, true);
     free(crop.pixels);

@@ -57,6 +57,23 @@ test('existing whole-block translations win over potentially conflicting line pa
   assert.deepEqual(store.createSession().match('Stay here.\nWatch the door.', 100, 100), store.match('Stay here.\nWatch the door.', 100, 100));
 });
 
+test('separate OCR rows reach the pack-only feed as a complete translation', async () => {
+  const rows = [
+    { en: 'Open the door.', tr: 'Kapıyı aç.' },
+    { en: 'Stay here.', tr: 'Burada bekle.' },
+    { en: 'Watch the road.', tr: 'Yolu kolla.' }
+  ];
+  const store = await fixture(rows), session = store.createSession(), shown = [];
+  const input = rows.map(row => row.en).join('\n');
+  assert.equal(store.match(input, 95, 95), null, 'The full block is not a dictionary entry');
+  const feed = createSubtitleFeed({ mode: 'pack', provider: 'gemini', similarity: 95, keys: {} },
+    session.match, text => shown.push(text), assert.fail, session);
+  feed.read(input, 95);
+  assert.deepEqual(shown, [rows.map(row => row.tr).join('\n')]);
+  feed.read('Stay here.', 95);
+  assert.deepEqual(shown, [rows.map(row => row.tr).join('\n'), 'Burada bekle.']);
+});
+
 test('unmatched rows, ambiguous whole blocks and uncertain OCR are never silently discarded', async () => {
   const store = await fixture([{ en: 'Stay here.', tr: 'Burada kal.' }, { en: 'Watch the door.', tr: 'Kapıyı kolla.' }], ['Stay here. Watch the door.']);
   const session = store.createSession();
@@ -99,7 +116,7 @@ test('long blocks stay local and the next subtitle replaces the current block wi
   assert.equal(session.match(input + 'x'.repeat(1441), 100, 100), null);
 });
 
-test('the fast three-line ROI replaces the stacked factory ROI and preserves custom selections', () => {
+test('the compact factory ROI remains selected and custom selections are preserved', () => {
   const expected = { x: 6, y: 77, width: 88, height: 23 };
   assert.deepEqual(settings.publicSettings({}).region, expected);
   assert.deepEqual(settings.publicSettings({ region: { x: 6, y: 62, width: 88, height: 38 } }).region, expected);

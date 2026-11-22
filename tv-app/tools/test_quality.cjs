@@ -10,6 +10,8 @@ const appDirectory = path.resolve(__dirname, '../app');
 
 function harness(options = {}) {
   const nodes = {}, starts = [];
+  const timers = new Map();
+  let now = 0, timerId = 0, renders = 0;
   const doc = { addEventListener() {}, getElementById: id => nodes[id] };
   function node() {
     return { dataset: {}, handlers: {}, style: { setProperty() {} }, value: '', hidden: false,
@@ -38,12 +40,26 @@ function harness(options = {}) {
       this.onservicecallback(JSON.stringify(response));
     }
   }
-  const win = { PalmServiceBridge: Bridge, addEventListener() {}, setTimeout() { return 1; }, clearTimeout() {} };
+  const win = { PalmServiceBridge: Bridge, addEventListener() {},
+    setTimeout(callback, delay) { const id = ++timerId; timers.set(id, { callback, at: now + delay }); return id; },
+    clearTimeout(id) { timers.delete(id); } };
   vm.runInNewContext(fs.readFileSync(path.join(appDirectory, 'app.js'), 'utf8'), {
-    window: win, document: doc, performance: { now: () => 0 }
+    window: win, document: doc, performance: { now: () => now },
+    SubtitleRenderer: { validSpeakers: () => [], render(element, text) { renders++; element.textContent = text; } }
   });
   return {
-    nodes, starts,
+    nodes, starts, renders: () => renders,
+    advance(milliseconds) {
+      const target = now + milliseconds;
+      for (;;) {
+        const next = Array.from(timers).filter(([, value]) => value.at <= target).sort((a, b) => a[1].at - b[1].at)[0];
+        if (!next) break;
+        timers.delete(next[0]);
+        now = next[1].at;
+        next[1].callback();
+      }
+      now = target;
+    },
     select(quality) {
       nodes.settings.hidden = false;
       nodes.quality.value = String(quality);
@@ -69,6 +85,37 @@ test('every resolution change automatically replaces the stream and keeps settin
     app.emit({ type: 'ready' });
     assert.equal(app.nodes.settings.hidden, false);
   }
+});
+
+test('identical translations reappear after slow OCR instead of being suppressed forever', function () {
+  const app = harness();
+  const read = () => app.emit({ type: 'subtitle', text: 'Tamam.' });
+  read();
+  for (let i = 0; i < 5; i++) {
+    app.advance(2000);
+    assert.equal(app.nodes.subtitle.hidden, true, 'A lapse still expires the old caption');
+    read();
+    assert.equal(app.nodes.subtitle.hidden, false, 'A fresh result must restore the same translation');
+    assert.equal(app.nodes.subtitle.textContent, 'Tamam.');
+  }
+  assert.equal(app.renders(), 6);
+});
+
+test('frequent repeated readings extend visibility without redrawing or accumulating text', function () {
+  const app = harness();
+  for (let i = 0; i < 5; i++) {
+    app.emit({ type: 'subtitle', text: 'Kapıyı aç.\nHemen gel.' });
+    app.advance(1000);
+    assert.equal(app.nodes.subtitle.hidden, false);
+  }
+  assert.equal(app.renders(), 1);
+  app.emit({ type: 'subtitle', text: 'Burada bekle.' });
+  assert.equal(app.nodes.subtitle.textContent, 'Burada bekle.');
+  app.advance(1800);
+  assert.equal(app.nodes.subtitle.hidden, true);
+  app.emit({ type: 'subtitle', text: '' });
+  app.emit({ type: 'subtitle', text: 'Burada bekle.' });
+  assert.equal(app.nodes.subtitle.hidden, false);
 });
 
 test('selecting a resolution starts the first paired setup trial without submitting the form', function () {

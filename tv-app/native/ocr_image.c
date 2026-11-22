@@ -539,9 +539,11 @@ bool subtitle_same_mark(const struct subtitle_mark *first, const struct subtitle
 }
 
 void subtitle_band(int height, int frame_height, int *top, int *bottom) {
-    bool tall = height > frame_height / 5;
-    *top = tall ? height * 31 / 100 : 0;
-    *bottom = tall ? height * 79 / 100 : height;
+    // The user-selected ROI is already the subtitle band. An inner fixed band
+    // can cut off wrapped rows even while a middle row remains detectable.
+    (void)frame_height;
+    *top = 0;
+    *bottom = height;
 }
 
 static bool dark_nearby(const uint8_t *pixel, int step, int radius, int threshold) {
