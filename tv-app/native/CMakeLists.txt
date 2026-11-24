@@ -43,3 +43,13 @@ target_include_directories(subtitle-engine PRIVATE "${ONNXRUNTIME_INCLUDE_DIR}")
 target_compile_options(subtitle-engine PRIVATE -Wall -Wextra -Werror)
 target_link_libraries(subtitle-engine PRIVATE chiaki-lib PkgConfig::JSON
     PkgConfig::H264 Threads::Threads m ${CMAKE_DL_LIBS})
+
+find_package(JPEG REQUIRED)
+add_executable(subtitle-hdmi-engine engine.c hdmi_jpeg.c ocr_image.c ocr_pending.c ocr_line_cache.c paddle_ocr.c)
+target_include_directories(subtitle-hdmi-engine PRIVATE "${ONNXRUNTIME_INCLUDE_DIR}")
+target_compile_definitions(subtitle-hdmi-engine PRIVATE HDMI_ONLY)
+target_compile_options(subtitle-hdmi-engine PRIVATE -Wall -Wextra -Werror -Wno-unused-function
+    -ffunction-sections -fdata-sections)
+target_link_options(subtitle-hdmi-engine PRIVATE -Wl,--gc-sections)
+target_link_libraries(subtitle-hdmi-engine PRIVATE chiaki-lib PkgConfig::JSON PkgConfig::H264
+    JPEG::JPEG Threads::Threads m ${CMAKE_DL_LIBS})

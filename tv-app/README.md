@@ -1,6 +1,6 @@
 # GTA VI Türkçe Altyazı
 
-OLED55CX6LA ve webOS 5 hedeflenerek hazırlanmış ilk TV prototipi. Uygulama PS5’in HDMI görüntüsünü gösterir. TV içindeki Remote Play alıcısı İngilizce altyazıyı okur. Türkçe karşılık için yerel paket ve isteğe bağlı Gemini veya OpenAI bağlantısı kullanılabilir.
+OLED55CX6LA ve webOS 5 hedeflenerek hazırlanmış TV uygulaması. Uygulama PS5’in HDMI görüntüsünü gösterir. İngilizce altyazıyı Uzaktan Oynatma veya deneysel HDMI kaynağından okur. Türkçe karşılık için yerel paket ve isteğe bağlı Gemini veya OpenAI bağlantısı kullanılabilir.
 
 ## Kurulum
 
@@ -13,6 +13,10 @@ OLED55CX6LA ve webOS 5 hedeflenerek hazırlanmış ilk TV prototipi. Uygulama PS
 PS5 eşleştirildikten sonra okuma çözünürlüğünü seçmen yeterli; seçim otomatik kaydedilip uygulanır. **Altyazıyı başlat** düğmesine ayrıca basman gerekmez ve ayar ekranı açık kalır. Çözünürlük değişimi Remote Play bağlantısını yeniden kurar; uygulama eski oturumun kapanmasını bekler. PS5 geçici olarak meşgulse 2, 5 ve 10 saniye arayla yeniden dener.
 
 Oyun sırasında ayarlara LG kumandasındaki **Geri** tuşuyla dönülür. Varsayılan okuma çözünürlüğü 540p. TV’nin yükünü azaltmak için 360p, küçük yazıları okumak için 720p veya 1080p denenebilir. Bu ayar altyazı okuma akışına ait. Uygulama altyazı başlarken eşleştirilmiş PS5’i ağda arar ve IP adresi değişmişse yeni adresi kaydeder. PS5’i bulamazsa son kayıtlı adresi dener. Bu özellik eklenmeden önce eşleştirilen konsolları bir kez yeniden eşleştirerek otomatik adres güncellemesini etkinleştir.
+
+### Deneysel HDMI kaynağı
+
+**Altyazı** sekmesinde **Altyazı kaynağı → HDMI (deneysel)** seç ve altyazıyı başlat. TV’nin ilk bağlantı onayını kabul et. Uygulama HDMI görüntüsünün 540p JPEG karesini yerel, kalıcı HTTPS bağlantısıyla alır ve seçili metin bölgesini çözer. PS5’te İngilizce altyazıyı açık tut. TV eşleştirmesi yalnızca `CONTROL_DISPLAY` izni ister.
 
 ### iPhone veya bilgisayardan ayar girme
 
@@ -158,7 +162,7 @@ sudo apt-get update
 sudo apt-get install cmake ninja-build gcc-arm-linux-gnueabihf g++-arm-linux-gnueabihf \
   git pkg-config protobuf-compiler python3-protobuf python3-onnx libjson-c-dev:armhf libssl-dev:armhf \
   libevent-dev:armhf libminiupnpc-dev:armhf libopus-dev:armhf libjerasure-dev:armhf \
-  libgf-complete-dev:armhf libopenh264-dev:armhf ca-certificates
+  libgf-complete-dev:armhf libopenh264-dev:armhf libjpeg62-turbo-dev:armhf ca-certificates
 bash tv-app/native/prepare-onnxruntime.sh /tmp/gtavi-onnx
 bash tv-app/native/build.sh /tmp/gtavi-build /tmp/gtavi-paddle-runtime /tmp/gtavi-onnx/sysroot
 ```
@@ -166,8 +170,9 @@ bash tv-app/native/build.sh /tmp/gtavi-build /tmp/gtavi-paddle-runtime /tmp/gtav
 LG CLI `@webos-tools/cli@3.2.6` içindeki `bin/ares-package.js` ve `dist/subtitle.json.gz` birleşik sözlüğüyle uygulamayı paketle. Paketleyici incelenmiş birleşik dosyanın SHA-256 değerini kontrol eder. Eski CouchSubs v5 kopyası `translations/merge-review/legacy-subtitle.json.gz` içinde değiştirilmeden korunur; kaynak bilgisi birleşik paketin `merge_info.legacy_source` alanında da bulunur.
 
 ```sh
+npm install --no-save @webos-tools/cli@3.2.6 ws@7.5.10
 python tv-app/tools/package.py --runtime /tmp/gtavi-paddle-runtime --pack dist/subtitle.json.gz \
-  --cli ./node_modules/@webos-tools/cli/bin/ares-package.js --output dist
+  --cli ./node_modules/@webos-tools/cli/bin/ares-package.js --websocket ./node_modules/ws --output dist
 ```
 
 ## Kaynaklar

@@ -2,7 +2,7 @@
 
 const assert = require('node:assert/strict');
 const { test } = require('node:test');
-const { createTimeline, readingDuration, createPinnedLayout } = require('../app/subtitle-renderer');
+const { createTimeline, readingDuration, createPinnedLayout, hdmiSubtitleArea } = require('../app/subtitle-renderer');
 const { subtitleAppearance, publicSettings } = require('../service/settings');
 
 test('reading time follows length, two physical rows and the saved multiplier', () => {
@@ -97,6 +97,32 @@ test('turn identifiers survive scrolling, and equivalent OCR wrapping never rewr
 
 const geometry = { width: 1920, height: 1080, position: 'bottom', offset: 20, paddingY: 10 };
 const block = (id, height = 43.2) => ({ id, height });
+
+test('HDMI keeps the bottom preference and places subtitles just above the OCR band', () => {
+  const appearance = { ...geometry, fontSize: 36 };
+  const area = hdmiSubtitleArea({ y: 72, height: 27 }, { y: 93, height: 7 }, geometry.height, appearance);
+  const options = { ...geometry, safeTop: area.top, safeBottom: geometry.height - area.bottom };
+  const caption = createPinnedLayout().place([block(1, 45)], options)[0];
+  assert.equal(area.bottom, 766);
+  assert.ok(caption.top > geometry.height * 0.65);
+  assert.equal(caption.top + caption.height + geometry.paddingY, area.bottom);
+
+  const withObjective = createPinnedLayout().place([block(1, 45)], { ...options, bottomInset: 42 })[0];
+  assert.equal(withObjective.top + withObjective.height + geometry.paddingY + 42, area.bottom);
+});
+
+test('HDMI keeps the configured position when its anchor is outside the OCR band', () => {
+  const regions = [{ y: 36, height: 18 }, { y: 55, height: 5 }];
+  for (const position of ['top', 'bottom']) {
+    const options = { ...geometry, position };
+    const safe = hdmiSubtitleArea(...regions, options.height, options);
+    const requested = createPinnedLayout().place([block(1)], options);
+    const guarded = createPinnedLayout().place([block(1)], {
+      ...options, safeTop: safe.top, safeBottom: options.height - safe.bottom
+    });
+    assert.deepEqual(guarded, requested);
+  }
+});
 
 test('new captions sit four pixels below existing captions without moving the text being read', () => {
   for (const position of ['bottom', 'top']) {

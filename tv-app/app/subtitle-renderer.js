@@ -40,7 +40,25 @@
     if (!element._subtitleLayout) return;
     delete element._subtitleLayout;
     delete element.dataset.layout;
-    ['top', 'bottom', 'left', 'right', 'width', 'height'].forEach(function (name) { element.style[name] = ''; });
+    ['top', 'bottom', 'left', 'right', 'width', 'height', 'visibility'].forEach(function (name) { element.style[name] = ''; });
+  }
+
+  function hdmiSubtitleArea(dialogue, objective, height, appearance) {
+    var first = Math.min(dialogue.y, objective ? objective.y : dialogue.y);
+    var last = Math.max(dialogue.y + dialogue.height, objective ? objective.y + objective.height : 0);
+    // The HDMI decoder rounds its source rectangle outwards. Leave room for
+    // that rounding and for the subtitle shadow at the edge of the rectangle.
+    var gap = Math.max(8, Math.ceil(height / 100));
+    var above = { top: 0, bottom: Math.max(0, Math.floor(height * first / 100) - gap) };
+    var below = { top: Math.min(height, Math.ceil(height * last / 100) + gap), bottom: height };
+    var anchor = height * (appearance.position === 'top' ? appearance.offset : 100 - appearance.offset) / 100;
+    var minHeight = (appearance.fontSize || 38) * 2.4 + (appearance.paddingY || 0) * 2 + 16;
+    var upperFits = above.bottom >= minHeight, lowerFits = below.bottom - below.top >= minHeight;
+    if (upperFits !== lowerFits) return upperFits ? above : below;
+    if (!upperFits) return above.bottom >= below.bottom - below.top ? above : below;
+    var upperDistance = Math.max(0, anchor - above.bottom);
+    var lowerDistance = Math.max(0, below.top - anchor);
+    return upperDistance <= lowerDistance ? above : below;
   }
 
   function createPinnedLayout() {
@@ -52,7 +70,9 @@
       placed = placed.filter(function (row) { return ids.indexOf(row.id) !== -1; });
       hidden = hidden.filter(function (id) { return ids.indexOf(id) !== -1; });
       var gap = 4, padding = options.paddingY || 0;
-      var top = 8 + padding, bottom = options.height - Math.max(8, options.bottomInset || 0) - padding;
+      var top = Math.max(8, options.safeTop || 0) + padding;
+      var bottom = options.height - Math.max(8, (options.safeBottom || 0) + (options.bottomInset || 0)) - padding;
+      if (bottom <= top) return [];
       function space(height) {
         var sorted = placed.slice().sort(function (a, b) { return a.top - b.top; });
         if (!sorted.length) {
@@ -98,6 +118,8 @@
     var viewport = { width: win.innerWidth, height: win.innerHeight,
       position: element.dataset.position || 'bottom', offset: parseFloat(style.getPropertyValue('--subtitle-offset')) || 0,
       bottomInset: parseFloat(style.getPropertyValue('--subtitle-reserved-bottom')) || 0,
+      safeTop: parseFloat(style.getPropertyValue('--subtitle-safe-top')) || 0,
+      safeBottom: parseFloat(style.getPropertyValue('--subtitle-safe-bottom')) || 0,
       paddingY: paddingY, font: style.fontSize + '/' + style.lineHeight, names: enabled };
     var layout = element._subtitleLayout;
     if (!layout) layout = element._subtitleLayout = { planner: createPinnedLayout(), nodes: {} };
@@ -135,6 +157,8 @@
     });
     layout.nodes = nodes;
     element.dataset.layout = 'stable';
+    element.style.visibility = positions.length ? '' : 'hidden';
+    if (!positions.length) return;
     element.style.top = (first - paddingY) + 'px';
     element.style.bottom = 'auto'; element.style.right = 'auto';
     element.style.width = (width + paddingX * 2) + 'px';
@@ -246,6 +270,7 @@
   }
 
   var api = { render: render, renderTimeline: renderTimeline, clearLayout: clearLayout, createPinnedLayout: createPinnedLayout,
+    hdmiSubtitleArea: hdmiSubtitleArea,
     validSpeakers: validSpeakers, readingDuration: readingDuration, createTimeline: createTimeline };
   if (typeof module === 'object' && module.exports) module.exports = api;
   else root.SubtitleRenderer = api;

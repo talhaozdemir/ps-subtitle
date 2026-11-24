@@ -119,6 +119,12 @@ button:disabled { opacity: 0.47; }
   line-height: 1.2;
   overflow-wrap: break-word;
 }
+body[data-hdmi-overlay] #objective {
+  box-sizing: border-box;
+  bottom: calc(var(--subtitle-safe-bottom) + 1vh);
+  max-height: calc(100vh - var(--subtitle-safe-top) - var(--subtitle-safe-bottom) - 1vh);
+  overflow: hidden;
+}
 .subtitle-turn {
   position: fixed;
   left: 50%;

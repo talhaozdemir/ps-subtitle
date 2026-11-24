@@ -26,11 +26,13 @@ cmake -S "$root" -B "$build/build" -G Ninja \
     -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="$root/armhf.cmake" \
     -DONNXRUNTIME_INCLUDE_DIR="$ort/usr/include/onnxruntime" \
     -DCHIAKI_SOURCE="$chiaki" -DPYTHON_EXECUTABLE=/usr/bin/python3 \
+    -DJPEG_LIBRARY=/usr/lib/arm-linux-gnueabihf/libjpeg.a \
     -DOPENSSL_CRYPTO_LIBRARY=/usr/lib/arm-linux-gnueabihf/libcrypto.so \
     -DOPENSSL_SSL_LIBRARY=/usr/lib/arm-linux-gnueabihf/libssl.so \
     -DOPENSSL_INCLUDE_DIR=/usr/include
-cmake --build "$build/build" --target subtitle-engine --parallel 4
+cmake --build "$build/build" --target subtitle-engine subtitle-hdmi-engine --parallel 4
 python3 "$root/bundle.py" "$build/build/subtitle-engine" "$output" "$ort"
+cp "$build/build/subtitle-hdmi-engine" "$output/"
 python3 "$root/paddle_models.py" "$build/paddle-models" "$output"
 cp "$chiaki/COPYING" "$output/licenses/chiaki-ng.txt"
 cp "$chiaki/third-party/curl/COPYING" "$output/licenses/curl.txt"

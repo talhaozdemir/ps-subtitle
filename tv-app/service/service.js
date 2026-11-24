@@ -15,6 +15,7 @@ const { createRemoteTransfer } = require('./remote-setup');
 const { createTranslationArchive, makeRecord } = require('./translation-archive');
 const { canonical } = require('./text-key');
 const { captureRegion, splitReading } = require('./ocr-regions');
+const { openCapture } = require('./hdmi');
 
 const service = new Service('com.gtavi.turkce.altyazi');
 const configDirectory = '/media/internal/.com.gtavi.turkce.altyazi';
@@ -57,15 +58,16 @@ function replyError(message, error) {
 }
 
 function launch(input, onMessage, onExit) {
+  const hdmi = input.mode === 'hdmi';
   const worker = spawn(path.join(runtime, 'lib', 'ld-linux-armhf.so.3'), [
-    '--library-path', path.join(runtime, 'lib'), path.join(runtime, 'subtitle-engine'), runtime
+    '--library-path', path.join(runtime, 'lib'), path.join(runtime, hdmi ? 'subtitle-hdmi-engine' : 'subtitle-engine'), runtime
   ], { stdio: ['pipe', 'pipe', 'ignore'], env: Object.assign({}, process.env, { OMP_THREAD_LIMIT: '1' }) });
   const lines = readline.createInterface({ input: worker.stdout, terminal: false });
   let exited = false;
   let stopping = false;
   let resolveClosed;
   const closed = new Promise(function (resolve) { resolveClosed = resolve; });
-  if (input.mode === 'stream') streamClosed = closed;
+  if (input.mode === 'stream' || hdmi) streamClosed = closed;
   function finish(error) {
     if (exited) return;
     exited = true;
@@ -88,6 +90,12 @@ function launch(input, onMessage, onExit) {
   send(input);
   return {
     send: send,
+    frame: function (image) {
+      if (hdmi && !exited && !stopping && worker.stdin.writable) {
+        worker.stdin.write('JPEG ' + image.length + '\n');
+        worker.stdin.write(image);
+      }
+    },
     stop: function () {
       if (exited || stopping) return;
       stopping = true;
@@ -96,6 +104,67 @@ function launch(input, onMessage, onExit) {
       worker.once('close', function () { clearTimeout(timer); });
     }
   };
+}
+
+function launchHdmi(input, saved, callbacks) {
+  const capture = openCapture(saved.hdmiClientKey, callbacks.onPrompt);
+  let worker, timer, stopped = false;
+  let rate = input.ocrRate;
+  let error, requestStarted = 0, firstImage = true;
+  function stop() {
+    if (stopped) return;
+    stopped = true;
+    clearTimeout(timer);
+    capture.close();
+    if (worker) worker.stop();
+  }
+  async function takeFrame(key) {
+    if (stopped) return;
+    try {
+      requestStarted = Date.now();
+      const image = await capture.frame();
+      if (stopped) return;
+      if (firstImage) {
+        const current = readSettings();
+        if (key && key !== current.hdmiClientKey) {
+          current.hdmiClientKey = key;
+          saveSettings(current);
+        }
+        if (key) saved.hdmiClientKey = key;
+        firstImage = false;
+      }
+      worker.frame(image);
+    } catch (failure) {
+      if (stopped) return;
+      error = failure.message;
+      callbacks.onMessage({ type: 'error', text: error });
+      stop();
+    }
+  }
+  capture.ready.then(function (key) {
+    if (stopped) return;
+    worker = launch(input, function (result) {
+      if (result.type === 'ready') takeFrame(key);
+      if (result.type === 'frameAccepted') {
+        timer = setTimeout(function () { takeFrame(key); },
+          Math.max(0, 1000 / rate - (Date.now() - requestStarted)));
+      }
+      callbacks.onMessage(result);
+    }, function (failure) {
+      stop();
+      callbacks.onExit(error || failure);
+    });
+  }).catch(function (failure) {
+    if (stopped) return;
+    stop();
+    callbacks.onMessage({ type: 'error', text: failure.message });
+    callbacks.onExit(failure.message);
+  });
+  return { stop: stop, send: function (command) {
+    if (command.ocrRate) rate = command.ocrRate;
+    Object.assign(input, command);
+    if (worker) worker.send(command);
+  } };
 }
 
 function discoverConsoles() {
@@ -137,7 +206,8 @@ service.register('settings', function (message) {
 service.register('completeSetup', function (message) {
   try {
     const config = readSettings();
-    if (!config.registKey || !config.rpKey) throw Error('Önce PS5’i eşleştir.');
+    if (config.source === 'hdmi' ? !config.hdmiClientKey : !config.registKey || !config.rpKey)
+      throw Error('Önce seçilen altyazı kaynağını başlat.');
     config.setupComplete = true;
     saveSettings(config);
     message.respond({ returnValue: true });
@@ -539,19 +609,22 @@ stream.on('request', function (message) {
   try {
     if (!message.isSubscription) throw Error('Altyazı akışı için abonelik gerekiyor.');
     if (pairing) throw Error('Eşleştirmenin tamamlanmasını bekle.');
-    const requested = settings(message.payload);
     const saved = readSettings();
+    const source = message.payload.source === undefined ? (saved.source || 'remotePlay') : message.payload.source;
+    if (source !== 'hdmi' && source !== 'remotePlay') throw Error('Altyazı kaynağı geçersiz.');
+    const hdmi = source === 'hdmi';
+    const requested = settings(hdmi ? Object.assign({}, message.payload, { address: '127.0.0.1' }) : message.payload);
     const id = consoleId(saved.consoleId);
-    if (!saved.registKey || !saved.rpKey ||
-        (saved.address !== requested.address && (!id || id !== consoleId(message.payload.consoleId)))) {
+    if (!hdmi && (!saved.registKey || !saved.rpKey ||
+        (saved.address !== requested.address && (!id || id !== consoleId(message.payload.consoleId))))) {
       throw Error('Önce PS5’i eşleştir.');
     }
     if (active) active.close();
     const ocrRate = message.payload.ocrRate === undefined ? savedOcrRate(saved) : requested.ocrRate;
-    saveSettings(Object.assign(saved, { port: requested.port, quality: requested.quality, ocrRate: ocrRate }));
+    saveSettings(Object.assign(saved, { source: source, port: requested.port, quality: requested.quality, ocrRate: ocrRate }));
     const translation = savedTranslation(saved);
     if (translation.keys[translation.provider]) archiveStore().flush();
-    const metrics = { phase: 'starting', attempt: 0, requestedQuality: requested.quality, engine: null,
+    const metrics = { phase: 'starting', source: source, attempt: 0, requestedQuality: hdmi ? 540 : requested.quality, engine: null,
       reads: 0, nonEmptyReads: 0, usableReads: 0, staleReads: 0,
       packMatches: 0, approximatePackMatches: 0, contextualPackMatches: 0, multilinePackMatches: 0, lastPackSimilarity: null, displayed: 0,
       ocr: { threads: null, readerRuns: 0, lineCacheHits: 0 },
@@ -633,7 +706,7 @@ stream.on('request', function (message) {
       if (slot.worker) slot.worker.stop();
     } };
     active = slot;
-    const consoles = id ? discoverConsoles().catch(function () { return []; }) : Promise.resolve([]);
+    const consoles = !hdmi && id ? discoverConsoles().catch(function () { return []; }) : Promise.resolve([]);
     const pack = translation.mode === 'api' ? Promise.resolve() : packs.load().catch(function (error) {
       const current = savedTranslation(readSettings());
       if (current.mode === 'pack' && !current.keys[current.provider]) throw error;
@@ -651,7 +724,7 @@ stream.on('request', function (message) {
       } else if (!matched && found.some(function (console) { return console.address === saved.address; })) {
         throw Error('Eşleştirilen PS5 ağda bulunamadı. PS5’i açıp tekrar dene.');
       }
-      if (saved.address !== previousAddress || saved.address !== requested.address) {
+      if (!hdmi && (saved.address !== previousAddress || saved.address !== requested.address)) {
         message.respond({ returnValue: true, type: 'address', address: saved.address });
       }
       let reconnectAttempts = 0;
@@ -673,13 +746,18 @@ stream.on('request', function (message) {
             slot.worker.stop();
           }, videoTimeout);
         }
-        const input = Object.assign({}, saved, { mode: 'stream', region: slot.capture,
+        const input = Object.assign(hdmi ? {} : Object.assign({}, saved), { mode: hdmi ? 'hdmi' : 'stream', region: slot.capture,
           dialogueRegion: slot.region, objectiveRegion: slot.objectiveRegion,
           revision: slot.frameRevision, ocrRate: slot.ocrRate });
         delete input.translation;
-        slot.worker = launch(input, function (result) {
+        delete input.hdmiClientKey;
+        function onMessage(result) {
           if (active !== slot || timedOut) return;
           if (result.type === 'error') failure = result.text;
+          if (result.type === 'frameAccepted') {
+            metrics.hdmiFrames = (metrics.hdmiFrames || 0) + 1;
+            metrics.timing.decodeMs = result.decodeMs;
+          }
           if (result.type === 'sampleCapture') {
             metrics.capture = Object.assign({}, metrics.capture, { directory: result.directory,
               frames: result.frames, complete: result.complete });
@@ -742,7 +820,8 @@ stream.on('request', function (message) {
             message.respond({ returnValue: true, type: 'subtitleIdle' });
           }
           readObjective(reading.objective);
-        }, function (error) {
+        }
+        function onExit(error) {
           if (active !== slot) return;
           clearTimeout(videoTimer);
           slot.worker = null;
@@ -761,7 +840,10 @@ stream.on('request', function (message) {
           slot.close();
           metrics.phase = 'ended';
           message.respond({ returnValue: true, type: 'ended', text: timedOut ? noVideo : failure || error });
-        });
+        }
+        slot.worker = hdmi ? launchHdmi(input, saved, { onMessage: onMessage, onExit: onExit, onPrompt: function () {
+          if (active === slot) message.respond({ returnValue: true, type: 'hdmiPairing' });
+        } }) : launch(input, onMessage, onExit);
       }
       startWorker();
     }).catch(function (error) {

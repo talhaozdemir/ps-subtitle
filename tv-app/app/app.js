@@ -35,7 +35,7 @@
   var setupSaving = false;
 
   ['hdmi', 'subtitle', 'objective', 'notice', 'settings', 'setup', 'port', 'findPs5', 'discoveryStatus', 'consoleList',
-    'address', 'quality', 'ocrRate', 'ocrRateValue', 'ocrRateHelp', 'saveOcrRate', 'account', 'pin',
+    'address', 'source', 'hdmiHelp', 'skipRemotePlay', 'quality', 'ocrRate', 'ocrRateValue', 'ocrRateHelp', 'saveOcrRate', 'account', 'pin',
     'status', 'start', 'pair', 'editArea', 'editObjectiveArea', 'updatePack', 'close', 'regionEditor', 'regionBox', 'regionHandle', 'regionTitle',
     'regionHelp', 'regionPreview', 'regionError', 'regionPresets', 'regionAction', 'regionCancel', 'editAppearance',
     'appearanceEditor', 'appearancePosition', 'appearancePositionValue', 'appearanceEdge',
@@ -148,6 +148,22 @@
     reserveObjectiveSpace();
   }
 
+  function placeHdmiOverlay(appearance) {
+    appearance = appearance || saved.appearance;
+    var area;
+    if (saved.source === 'hdmi' && saved.region && appearance) {
+      area = SubtitleRenderer.hdmiSubtitleArea(saved.region, saved.objectiveRegion, window.innerHeight, appearance);
+      document.body.dataset.hdmiOverlay = 'true';
+    } else {
+      delete document.body.dataset.hdmiOverlay;
+    }
+    var safeTop = area ? area.top : 0;
+    var safeBottom = area ? window.innerHeight - area.bottom : 0;
+    document.body.style.setProperty('--subtitle-safe-top', safeTop + 'px');
+    document.body.style.setProperty('--subtitle-safe-bottom', safeBottom + 'px');
+    lastSubtitleKey = '';
+  }
+
   function updateScreenSaver() {
     var enabled = screenSaverWanted && !document.hidden;
     if (!enabled) {
@@ -213,7 +229,7 @@
 
   function values() {
     return { port: Number(view.port.value), address: view.address.value.trim(), quality: Number(view.quality.value),
-      ocrRate: saved.ocrRate || 3 };
+      source: view.source.value, ocrRate: saved.ocrRate || 3 };
   }
 
   function isPaired() {
@@ -225,12 +241,18 @@
   function updateButtons() {
     var paired = isPaired();
     var complete = saved.setupComplete;
+    var hdmi = view.source.value === 'hdmi';
+    var sourceReady = hdmi ? Boolean(Number(view.port.value)) : paired;
+    view.address.required = !hdmi;
     view.port.disabled = pending || setupSaving;
-    view.quality.disabled = pending || setupSaving;
+    view.quality.disabled = pending || setupSaving || hdmi;
+    view.source.disabled = pending || setupSaving;
+    view.skipRemotePlay.disabled = pending || !Number(view.port.value);
+    view.hdmiHelp.hidden = !hdmi;
     view.ocrRate.disabled = pending || ocrRateSaving;
     view.saveOcrRate.disabled = pending || ocrRateSaving || Number(view.ocrRate.value) === (saved.ocrRate || 3);
     view.findPs5.disabled = pending;
-    view.start.disabled = pending || setupSaving || !paired;
+    view.start.disabled = pending || setupSaving || !sourceReady;
     view.pair.disabled = pending;
     view.editArea.disabled = pending || !saved.region;
     view.editObjectiveArea.disabled = pending || !saved.objectiveRegion;
@@ -242,11 +264,11 @@
     view.nextStep.hidden = complete || setupStep === 2;
     view.nextStep.disabled = pending || (setupStep === 0 && !view.port.value) || (setupStep === 1 && !paired);
     view.finishSetup.hidden = complete || setupStep !== 2;
-    view.finishSetup.disabled = pending || setupSaving || !paired || !sessionReady;
+    view.finishSetup.disabled = pending || setupSaving || !sourceReady || !sessionReady;
     view.close.hidden = !complete;
     view.subtitleOptions.hidden = !complete;
     view.start.textContent = complete ? 'Altyazıyı başlat' : 'Altyazıyı dene';
-    view.trialHelp.hidden = complete && paired;
+    view.trialHelp.hidden = hdmi || (complete && paired);
     view.trialHelp.textContent = paired
       ? 'Ana hesabına dön ve İngilizce altyazıyı aç.'
       : 'Önce PS5’i eşleştir.';
@@ -439,6 +461,7 @@
     call('setRegion', { target: draft.target, region: region, revision: draft.revision, save: save }, function () {
       if (save) saved[draft.target] = region;
       edit = null;
+      placeHdmiOverlay();
       view.regionEditor.hidden = true;
       view.regionAction.disabled = view.regionCancel.disabled = false;
       objective(objectiveText);
@@ -506,6 +529,7 @@
       ? 'rgba(0, 0, 0, ' + appearance.opacity / 100 + ')' : 'transparent');
     view.subtitle.style.setProperty('--subtitle-padding-x', appearance.background ? appearance.paddingX + 'px' : '');
     view.subtitle.style.setProperty('--subtitle-padding-y', appearance.background ? appearance.paddingY + 'px' : '');
+    if (saved.source === 'hdmi') placeHdmiOverlay(appearance);
     if (!appearanceDraft && !view.subtitle.hidden && lastSubtitleText) {
       drawSubtitles(subtitleTimeline.snapshot(performance.now()));
     }
@@ -818,15 +842,19 @@
     screenSaverWanted = true;
     updateScreenSaver();
     var settings = requested || values();
+    settings.source = settings.source || saved.source || 'remotePlay';
+    saved.source = settings.source;
+    placeHdmiOverlay();
     var formAddress = settings.address;
     settings.consoleId = saved.consoleId;
     var ticket = sessionNumber;
     showHdmi(settings.port);
     if (!keepSettingsOpen) view.settings.hidden = Boolean(saved.setupComplete);
-    status('PS5’e bağlanıyor…');
+    status(settings.source === 'hdmi' ? 'HDMI yakalama hazırlanıyor…' : 'PS5’e bağlanıyor…');
     settings.subscribe = true;
     session = call('start', settings, function (message) {
       if (ticket !== sessionNumber) return;
+      if (message.type === 'hdmiPairing') status('TV’deki ekran yakalama bağlantısını onayla.');
       if (message.type === 'address') {
         if ((!selectedConsoleId || selectedConsoleId === saved.consoleId) &&
             (view.address.value.trim() === formAddress || view.address.value.trim() === saved.address)) {
@@ -1001,6 +1029,11 @@
   view.previousStep.addEventListener('click', function () { navigateSetup(setupStep - 1); });
   view.nextStep.addEventListener('click', function () { navigateSetup(setupStep + 1); });
   view.finishSetup.addEventListener('click', finishSetup);
+  view.skipRemotePlay.addEventListener('click', function () {
+    view.source.value = 'hdmi';
+    navigateSetup(2);
+  });
+  view.source.addEventListener('change', updateButtons);
 
   view.address.addEventListener('input', function () {
     selectedConsoleId = '';
@@ -1022,7 +1055,11 @@
   view.close.addEventListener('click', function () { view.settings.hidden = true; });
   view.editArea.addEventListener('click', function () { openRegionEditor('region'); });
   view.editObjectiveArea.addEventListener('click', function () { openRegionEditor('objectiveRegion'); });
-  window.addEventListener('resize', reserveObjectiveSpace);
+  window.addEventListener('resize', function () {
+    placeHdmiOverlay();
+    reserveObjectiveSpace();
+    if (!appearanceDraft && !view.subtitle.hidden) drawSubtitles(subtitleTimeline.snapshot(performance.now()));
+  });
   view.editAppearance.addEventListener('click', openAppearanceEditor);
   view.appearancePosition.addEventListener('click', function () {
     appearanceDraft.position = appearanceDraft.position === 'top' ? 'bottom' : 'top';
@@ -1209,7 +1246,7 @@
       if (remoteSetupDraft) closeRemoteSetup();
       stop();
     }
-    else if (saved.setupComplete && isPaired() && view.settings.hidden) start();
+    else if (saved.setupComplete && (saved.source === 'hdmi' || isPaired()) && view.settings.hidden) start();
   });
   window.addEventListener('unload', stop);
   document.addEventListener('visibilitychange', updateScreenSaver);
@@ -1224,7 +1261,8 @@
     view.port.value = saved.paired ? saved.port : '';
     view.address.value = saved.address;
     view.quality.value = saved.quality;
-    showStep(saved.paired ? 2 : 0);
+    view.source.value = saved.source || 'remotePlay';
+    showStep(saved.paired || saved.setupComplete ? 2 : 0);
     showHdmi(Number(view.port.value));
     detectHdmiInputs();
     if (saved.setupComplete) start();

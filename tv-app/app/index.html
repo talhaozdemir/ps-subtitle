@@ -49,9 +49,16 @@
           <p>İkinci PSN hesabında Ayarlar → Sistem → Uzaktan Oynatma → Cihazı Eşleştir.</p>
         </details>
         <div class="actions"><button id="pair" type="button">PS5’i eşleştir</button></div>
+        <button id="skipRemotePlay" type="button">HDMI ile devam et</button>
       </section>
       <section id="stepSubtitle" role="tabpanel" aria-labelledby="tabSubtitle" hidden>
         <p id="trialHelp" hidden></p>
+        <label for="source">Altyazı kaynağı</label>
+        <select id="source">
+          <option value="remotePlay">Uzaktan Oynatma</option>
+          <option value="hdmi">HDMI (deneysel)</option>
+        </select>
+        <p id="hdmiHelp" hidden>İlk başlatmada TV’nin ekran yakalama bağlantısını onayla. HDMI yakalama 540p çalışır.</p>
         <label for="quality">Okuma çözünürlüğü</label>
         <select id="quality" aria-describedby="qualityHelp">
           <option value="360">360p</option>

@@ -16,6 +16,7 @@ import zlib
 PACK_SHA256 = "59297a7664e7ea34849bf55939fa559ac5e7c0b643d9673cb74c6c81a4a1d7ce"
 EXECUTABLES = {
     "usr/palm/services/com.gtavi.turkce.altyazi/runtime/subtitle-engine",
+    "usr/palm/services/com.gtavi.turkce.altyazi/runtime/subtitle-hdmi-engine",
     "usr/palm/services/com.gtavi.turkce.altyazi/runtime/lib/ld-linux-armhf.so.3",
 }
 
@@ -87,7 +88,7 @@ def package(options):
     if hashlib.sha256(options.pack.read_bytes()).hexdigest() != PACK_SHA256:
         raise ValueError("GTA VI pack does not match the reviewed merged checksum.")
 
-    for binary in (options.runtime / "subtitle-engine", options.runtime / "lib/ld-linux-armhf.so.3",
+    for binary in (options.runtime / "subtitle-engine", options.runtime / "subtitle-hdmi-engine", options.runtime / "lib/ld-linux-armhf.so.3",
                    options.runtime / "lib/libonnxruntime.so.1.21"):
         with binary.open("rb") as file:
             header = file.read(20)
@@ -107,6 +108,14 @@ def package(options):
         packed.mkdir()
         shutil.copytree(root / "app", app)
         shutil.copytree(root / "service", service)
+        ws = json.loads((options.websocket / "package.json").read_text(encoding="utf-8"))
+        if ws.get("name") != "ws" or ws.get("version") != "7.5.10":
+            raise ValueError("The package requires ws 7.5.10 for the on-TV Node runtime.")
+        websocket = service / "node_modules/ws"
+        websocket.mkdir(parents=True, exist_ok=True)
+        for name in ("index.js", "package.json", "LICENSE"):
+            shutil.copy2(options.websocket / name, websocket / name)
+        shutil.copytree(options.websocket / "lib", websocket / "lib", dirs_exist_ok=True)
         shutil.copytree(options.runtime, service / "runtime")
         shutil.copy2(options.pack, service / "gta-6.json.gz")
         shutil.copy2(root / "LICENSE", app / "LICENSE")
@@ -128,6 +137,6 @@ def package(options):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    for name in ("runtime", "pack", "cli", "output"):
+    for name in ("runtime", "pack", "cli", "output", "websocket"):
         parser.add_argument("--" + name, type=pathlib.Path, required=True)
     print(package(parser.parse_args()))

@@ -28,6 +28,9 @@
 #include "ocr_image.h"
 #include "ocr_pending.h"
 #include "paddle_ocr.h"
+#ifdef HDMI_ONLY
+#include "hdmi_jpeg.h"
+#endif
 
 enum { QUEUE_SIZE = 12, MAX_WIDTH = 1920, MAX_HEIGHT = 1080 };
 enum { DEFAULT_OCR_RATE = 3, BACKGROUND_PROBE_MS = 1000 };
@@ -175,14 +178,7 @@ static void parse_text_regions(struct engine *engine, struct json_object *input)
     parse_region(input, "objectiveRegion", 3, &engine->objective_region);
 }
 
-static bool receive_stream_control(struct engine *engine) {
-    struct pollfd input = { .fd = STDIN_FILENO, .events = POLLIN };
-    int result = poll(&input, 1, 100);
-    if (result <= 0) return result == 0 || errno == EINTR;
-    if (!(input.revents & POLLIN)) return false;
-
-    char line[512];
-    if (!fgets(line, sizeof(line), stdin)) return false;
+static void apply_stream_control(struct engine *engine, const char *line) {
     struct json_object *command = json_tokener_parse(line);
     struct region next;
     if (command && parse_region(command, "region", 5, &next)) {
@@ -201,6 +197,16 @@ static bool receive_stream_control(struct engine *engine) {
         if (frames > 0 && frames <= CAPTURE_MAX_FRAMES) atomic_store(&engine->capture_requested, (unsigned int)frames);
         json_object_put(command);
     }
+}
+
+static bool receive_stream_control(struct engine *engine) {
+    struct pollfd input = { .fd = STDIN_FILENO, .events = POLLIN };
+    int result = poll(&input, 1, 100);
+    if (result <= 0) return result == 0 || errno == EINTR;
+    if (!(input.revents & POLLIN)) return false;
+    char line[512];
+    if (!fgets(line, sizeof(line), stdin)) return false;
+    apply_stream_control(engine, line);
     return true;
 }
 
@@ -375,13 +381,13 @@ static struct paddle_area crop_area(struct region region, int frame_width, int f
 }
 
 static bool publish_crop(struct engine *engine, uint8_t *const planes[3], const SBufferInfo *picture,
-        uint64_t now, bool replace_pending, struct crop *sample, struct subtitle_search *search) {
+        uint64_t now, bool replace_pending, struct crop *sample, struct subtitle_search *search, bool band_only) {
     const uint8_t *luma = planes[0];
     int frame_width = picture->UsrData.sSystemBuffer.iWidth;
     int frame_height = picture->UsrData.sSystemBuffer.iHeight;
     int stride = picture->UsrData.sSystemBuffer.iStride[0];
     if (!luma || frame_width < 120 || frame_height < 80 || frame_width > MAX_WIDTH ||
-        frame_height > MAX_HEIGHT || stride < frame_width) return false;
+        frame_height > MAX_HEIGHT || (!band_only && stride < frame_width)) return false;
     pthread_mutex_lock(&engine->mutex);
     if (!replace_pending && ocr_pending_waiting(&engine->pending, now)) {
         pthread_mutex_unlock(&engine->mutex);
@@ -408,7 +414,8 @@ static bool publish_crop(struct engine *engine, uint8_t *const planes[3], const 
         sample->pixels = pixels;
         sample->capacity = size;
     }
-    for (int row = 0; row < height; row++)
+    if (band_only) memcpy(sample->pixels, luma, size);
+    else for (int row = 0; row < height; row++)
         memcpy(sample->pixels + (size_t)row * width, luma + (size_t)(top + row) * stride + left, (size_t)width);
 
     int band_top, band_bottom;
@@ -495,7 +502,7 @@ static void *decode_packets(void *context) {
         unsigned int interval = atomic_load(&engine->crop_interval_ms);
         if (elapsed >= interval &&
                 publish_crop(engine, planes, &picture, now, true,
-                    &sample, &search)) last_sample = now;
+                    &sample, &search, false)) last_sample = now;
     }
     free(search.queue);
     free(search.seen);
@@ -824,6 +831,70 @@ cleanup:
     return result;
 }
 
+#ifdef HDMI_ONLY
+static int stream_hdmi(struct engine *engine, struct json_object *input, const char *runtime) {
+    atomic_store(&engine->crop_interval_ms, ocr_interval(nonnegative_int(input, "ocrRate")));
+    engine->region = default_region;
+    parse_region(input, "region", 5, &engine->region);
+    parse_text_regions(engine, input);
+    uint8_t *jpeg = malloc(HDMI_MAX_JPEG);
+    uint8_t *band = malloc(HDMI_WIDTH * HDMI_HEIGHT);
+    engine->ocr = paddle_open(runtime);
+    pthread_t reader;
+    int result = 1;
+    if (!jpeg || !band || !engine->ocr || pthread_create(&reader, NULL, read_subtitles, engine) != 0) {
+        message("error", "HDMI altyazı motoru başlatılamadı.");
+        goto done;
+    }
+    struct crop sample = {0};
+    struct subtitle_search search = {0};
+    SBufferInfo frame = {0};
+    frame.UsrData.sSystemBuffer.iWidth = HDMI_WIDTH;
+    frame.UsrData.sSystemBuffer.iHeight = HDMI_HEIGHT;
+    char line[512];
+    emit(event("ready"));
+    while (!atomic_load(&engine->done) && fgets(line, sizeof(line), stdin)) {
+        if (line[0] == '{') {
+            apply_stream_control(engine, line);
+            continue;
+        }
+        unsigned int length;
+        struct region region = engine->region;
+        uint64_t received = milliseconds();
+        if (sscanf(line, "JPEG %u", &length) != 1 || !length || length > HDMI_MAX_JPEG ||
+                fread(jpeg, 1, length, stdin) != length ||
+                !hdmi_decode_band(jpeg, length, HDMI_WIDTH * region.x / 100, HDMI_HEIGHT * region.y / 100,
+                    HDMI_WIDTH - HDMI_WIDTH * (100 - region.x - region.width) / 100,
+                    HDMI_HEIGHT - HDMI_HEIGHT * (100 - region.y - region.height) / 100, band)) {
+            message("error", "HDMI ekran görüntüsü çözülemedi.");
+            goto stop;
+        }
+        uint8_t *planes[3] = {band, NULL, NULL};
+        atomic_fetch_add(&engine->decoded_frames, 1);
+        publish_crop(engine, planes, &frame, received, true, &sample, &search, true);
+        struct json_object *accepted = event("frameAccepted");
+        json_object_object_add(accepted, "decodeMs", json_object_new_int64(milliseconds() - received));
+        emit(accepted);
+    }
+    result = 0;
+stop:
+    pthread_mutex_lock(&engine->mutex);
+    atomic_store(&engine->done, true);
+    pthread_cond_broadcast(&engine->crop_ready);
+    pthread_mutex_unlock(&engine->mutex);
+    pthread_join(reader, NULL);
+    free(search.queue);
+    free(search.seen);
+    free(sample.pixels);
+    for (int index = 0; index < OCR_PENDING_SLOTS; ++index) free(engine->crops[index].pixels);
+done:
+    paddle_close(engine->ocr);
+    free(band);
+    free(jpeg);
+    return result;
+}
+#endif
+
 int main(int argc, char **argv) {
     if (argc != 2) return 1;
     setvbuf(stdin, NULL, _IONBF, 0);
@@ -832,10 +903,13 @@ int main(int argc, char **argv) {
     struct json_object *input = json_tokener_parse(line);
     if (!input) return 1;
     const char *mode = field(input, "mode");
-    const char *address = field(input, "address");
-    struct in_addr ip;
     int result = 1;
     struct engine *engine = NULL;
+#ifdef HDMI_ONLY
+    if (strcmp(mode, "hdmi") != 0) goto done;
+#else
+    const char *address = field(input, "address");
+    struct in_addr ip;
     if (chiaki_lib_init() != CHIAKI_ERR_SUCCESS) {
         message("error", "Uzaktan Oynatma altyapısı başlatılamadı.");
         goto done;
@@ -848,12 +922,15 @@ int main(int argc, char **argv) {
         message("error", "PS5 bağlantısı için geçerli bir IP adresi gerekli.");
         goto done;
     }
+#endif
     engine = calloc(1, sizeof(*engine));
     if (!engine) {
         message("error", "TV altyazı motoru için yeterli bellek yok.");
         goto done;
     }
+#ifndef HDMI_ONLY
     chiaki_log_init(&engine->log, 0, NULL, NULL);
+#endif
     atomic_init(&engine->done, false);
     atomic_init(&engine->registered, false);
     atomic_init(&engine->video_connected, false);
@@ -870,8 +947,12 @@ int main(int argc, char **argv) {
     pthread_mutex_init(&engine->mutex, NULL);
     pthread_cond_init(&engine->packet_ready, NULL);
     pthread_cond_init(&engine->crop_ready, NULL);
+#ifdef HDMI_ONLY
+    result = stream_hdmi(engine, input, argv[1]);
+#else
     if (strcmp(mode, "pair") == 0) result = pair_console(engine, input, address);
     else if (strcmp(mode, "stream") == 0) result = stream_console(engine, input, address, argv[1]);
+#endif
     pthread_cond_destroy(&engine->crop_ready);
     pthread_cond_destroy(&engine->packet_ready);
     pthread_mutex_destroy(&engine->mutex);

@@ -21,6 +21,7 @@ function harness(options = {}) {
       setAttribute() {}, focus() { doc.activeElement = this; }, load() {}, appendChild(child) { this.children.push(child); } };
   }
   doc.createElement = node;
+  doc.body = node();
   const html = fs.readFileSync(path.join(appDirectory, 'index.html'), 'utf8');
   for (const found of html.matchAll(/<[a-z][a-z0-9]*\b[^>]*\bid="([^"]+)"[^>]*>/g)) {
     nodes[found[1]] = node();

@@ -147,8 +147,10 @@ function publicSettings(saved) {
     try { objectiveRegion = subtitleRegion(saved.objectiveRegion, true); }
     catch (error) { /* Use the defaults when stored values are invalid. */ }
   }
+  const source = saved.source === 'hdmi' ? 'hdmi' : 'remotePlay';
   return { address: saved.address || '', port: saved.port || 1, quality: captureQuality(saved.quality), ocrRate: savedOcrRate(saved),
-    paired: paired, setupComplete: paired && saved.setupComplete !== false, consoleId: consoleId(saved.consoleId),
+    source: source, paired: paired, setupComplete: (paired || (source === 'hdmi' && !!saved.hdmiClientKey)) && saved.setupComplete !== false,
+    consoleId: consoleId(saved.consoleId),
     region: !saved.region || oldDefault ? defaultRegion : saved.region, objectiveRegion: objectiveRegion,
     objectiveRegionPresets: objectiveRegionPresets,
     appearance: appearance, translation: publicTranslation(savedTranslation(saved)) };
