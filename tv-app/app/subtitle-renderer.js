@@ -52,7 +52,7 @@
       placed = placed.filter(function (row) { return ids.indexOf(row.id) !== -1; });
       hidden = hidden.filter(function (id) { return ids.indexOf(id) !== -1; });
       var gap = 4, padding = options.paddingY || 0;
-      var top = 8 + padding, bottom = options.height - 8 - padding;
+      var top = 8 + padding, bottom = options.height - Math.max(8, options.bottomInset || 0) - padding;
       function space(height) {
         var sorted = placed.slice().sort(function (a, b) { return a.top - b.top; });
         if (!sorted.length) {
@@ -97,6 +97,7 @@
     var paddingX = parseFloat(style.paddingLeft) || 0, paddingY = parseFloat(style.paddingTop) || 0;
     var viewport = { width: win.innerWidth, height: win.innerHeight,
       position: element.dataset.position || 'bottom', offset: parseFloat(style.getPropertyValue('--subtitle-offset')) || 0,
+      bottomInset: parseFloat(style.getPropertyValue('--subtitle-reserved-bottom')) || 0,
       paddingY: paddingY, font: style.fontSize + '/' + style.lineHeight, names: enabled };
     var layout = element._subtitleLayout;
     if (!layout) layout = element._subtitleLayout = { planner: createPinnedLayout(), nodes: {} };

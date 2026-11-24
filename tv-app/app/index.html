@@ -9,6 +9,7 @@
 <body>
   <video id="hdmi" autoplay aria-label="PlayStation 5 HDMI görüntüsü"></video>
   <div id="subtitle" role="status" hidden></div>
+  <div id="objective" role="status" hidden></div>
   <div id="notice" role="status" hidden></div>
 
   <main id="settings" aria-label="GTA VI Türkçe Altyazı">
@@ -69,6 +70,7 @@
         </div>
         <div id="subtitleOptions" class="actions" hidden>
           <button id="editArea" type="button" disabled>Altyazı alanı</button>
+          <button id="editObjectiveArea" type="button" disabled>Görev yazısı alanı</button>
           <button id="editAppearance" type="button" disabled>Altyazı görünümü</button>
           <button id="updatePack" type="button">Altyazı paketini güncelle</button>
         </div>
@@ -90,6 +92,7 @@
       <p id="regionHelp">Yön tuşlarıyla kutuyu altyazının üzerine getir.</p>
       <p id="regionPreview" aria-live="off">Metin aranıyor…</p>
       <p id="regionError" role="alert" hidden></p>
+      <div id="regionPresets" class="actions" hidden></div>
       <div class="actions">
         <button id="regionAction" type="button">OK · Boyutlandır</button>
         <button id="regionCancel" type="button">Geri · İptal</button>

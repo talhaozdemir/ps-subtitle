@@ -15,13 +15,14 @@ function harness(options = {}) {
   let now = 0, timerId = 0, renders = 0;
   const doc = { hidden: false, addEventListener(name, handler) { (events[name] || (events[name] = [])).push(handler); }, getElementById: id => nodes[id] };
   function node() {
-    return { dataset: {}, handlers: {}, style: { setProperty() {} }, value: '', hidden: false,
+    return { dataset: {}, handlers: {}, style: { setProperty() {} }, value: '', hidden: false, offsetHeight: 40, children: [],
+      set textContent(text) { this.text = text; this.children.length = 0; }, get textContent() { return this.text; },
       addEventListener(name, handler) { this.handlers[name] = handler; },
-      setAttribute() {}, focus() {}, load() {}, appendChild() {} };
+      setAttribute() {}, focus() { doc.activeElement = this; }, load() {}, appendChild(child) { this.children.push(child); } };
   }
   doc.createElement = node;
   const html = fs.readFileSync(path.join(appDirectory, 'index.html'), 'utf8');
-  for (const found of html.matchAll(/<[a-z]+\b[^>]*\bid="([^"]+)"[^>]*>/g)) {
+  for (const found of html.matchAll(/<[a-z][a-z0-9]*\b[^>]*\bid="([^"]+)"[^>]*>/g)) {
     nodes[found[1]] = node();
     nodes[found[1]].hidden = /\bhidden\b/.test(found[0]);
   }
@@ -33,7 +34,7 @@ function harness(options = {}) {
       let response;
       if (uri.endsWith('/settings')) response = { returnValue: true,
         settings: settings.publicSettings({ address: '192.168.1.10', port: 2, quality: 540,
-          ocrRate: 7, setupComplete: options.complete !== false,
+          ocrRate: 7, setupComplete: options.complete !== false, objectiveRegion: options.objectiveRegion,
           registKey: paired ? 'registration' : '', rpKey: paired ? 'pairing' : '' }) };
       else if (uri.endsWith('/start')) {
         starts.push({ bridge: this, payload: JSON.parse(raw) });
@@ -42,7 +43,7 @@ function harness(options = {}) {
       this.onservicecallback(JSON.stringify(response));
     }
   }
-  const win = { PalmServiceBridge: Bridge, addEventListener() {},
+  const win = { PalmServiceBridge: Bridge, innerHeight: 1080, addEventListener() {},
     setTimeout(callback, delay) { const id = ++timerId; timers.set(id, { callback, at: now + delay }); return id; },
     clearTimeout(id) { timers.delete(id); } };
   vm.runInNewContext(fs.readFileSync(path.join(appDirectory, 'app.js'), 'utf8'), {
@@ -54,6 +55,12 @@ function harness(options = {}) {
   });
   return {
     nodes, starts, calls, renders: () => renders,
+    focus: () => doc.activeElement,
+    key(keyCode) {
+      const event = { keyCode, target: doc.activeElement, preventDefault() { this.defaultPrevented = true; } };
+      (events.keydown || []).forEach(handler => handler(event));
+      if (keyCode === 13 && !event.defaultPrevented && event.target.handlers.click) event.target.handlers.click(event);
+    },
     visibility(hidden) { doc.hidden = hidden; (events.visibilitychange || []).forEach(handler => handler()); },
     advance(milliseconds) {
       const target = now + milliseconds;
@@ -109,6 +116,74 @@ test('slow OCR keeps the latest conversation visible without blinking or redrawi
   assert.equal(app.nodes.subtitle.hidden, true, 'A dead stream has a finite watchdog');
   read();
   assert.equal(app.nodes.subtitle.hidden, false, 'A fresh result restores an expired source');
+});
+
+test('objectives stay visible through dialogue changes and hide immediately on the service clear event', () => {
+  const app = harness();
+  app.emit({ type: 'subtitle', text: 'Gazla!' });
+  app.emit({ type: 'objective', text: 'Kasayı çıkarmak için R2’ye bas.' });
+  app.advance(12000);
+  app.emit({ type: 'subtitle', text: 'Çıkmıyor!' });
+  assert.equal(app.nodes.objective.hidden, false);
+  assert.equal(app.nodes.objective.textContent, 'Kasayı çıkarmak için R2’ye bas.');
+  app.emit({ type: 'objective', text: '' });
+  assert.equal(app.nodes.objective.hidden, true);
+  assert.equal(app.nodes.subtitle.textContent, 'Çıkmıyor!');
+  app.emit({ type: 'objective', text: 'Tekrar dene.' });
+  app.emit({ type: 'reconnecting' });
+  assert.equal(app.nodes.objective.hidden, true);
+});
+
+test('the objective editor reuses the adjustable rectangle and sends a separate settings target', () => {
+  const app = harness();
+  app.nodes.editObjectiveArea.handlers.click();
+  assert.equal(app.nodes.regionEditor.hidden, false);
+  app.nodes.regionPresets.children.find(button => button.textContent === 'Özel').handlers.click();
+  assert.equal(app.nodes.regionTitle.textContent, 'Görev yazısı alanını taşı');
+  app.key(39);
+  app.advance(90);
+  const preview = app.calls.at(-1);
+  assert.equal(preview.uri.endsWith('/setRegion'), true);
+  assert.equal(preview.payload.target, 'objectiveRegion');
+  assert.equal(preview.payload.preview, true);
+  assert.equal(preview.payload.region.x, 29);
+  app.emit({ type: 'objective', text: 'Görev çevirisi' });
+  assert.equal(app.nodes.objective.hidden, true);
+  app.nodes.regionAction.handlers.click();
+  app.nodes.regionAction.handlers.click();
+  assert.equal(app.calls.at(-1).payload.target, 'objectiveRegion');
+  assert.equal(app.calls.at(-1).payload.save, true);
+  assert.equal(app.nodes.regionEditor.hidden, true);
+  assert.equal(app.nodes.objective.textContent, 'Görev çevirisi');
+  assert.equal(app.nodes.objective.hidden, false);
+});
+
+test('Size 2 can be selected with the remote, previewed, cancelled, and saved', () => {
+  const custom = { x: 30, y: 90, width: 42, height: 8 };
+  const size2 = { x: 28, y: 93, width: 44, height: 7 };
+  const app = harness({ objectiveRegion: custom });
+  function chooseSize2() {
+    app.nodes.editObjectiveArea.handlers.click();
+    assert.deepEqual(app.nodes.regionPresets.children.map(button => button.textContent), ['Boyut 2', 'Özel']);
+    assert.equal(app.focus().textContent, 'Özel');
+    app.key(37);
+    assert.equal(app.focus().textContent, 'Boyut 2');
+    app.key(13);
+    assert.equal(app.nodes.regionPresets.hidden, true);
+    app.advance(90);
+    assert.deepEqual(app.calls.at(-1).payload.region, size2);
+    assert.equal(app.calls.at(-1).payload.preview, true);
+  }
+  chooseSize2();
+  app.key(461);
+  assert.deepEqual(app.calls.at(-1).payload.region, custom);
+  assert.equal(app.calls.at(-1).payload.save, false);
+  chooseSize2();
+  app.key(13);
+  assert.deepEqual(app.calls.at(-1).payload.region, size2);
+  assert.equal(app.calls.at(-1).payload.save, true);
+  app.nodes.editObjectiveArea.handlers.click();
+  assert.equal(app.focus().textContent, 'Boyut 2');
 });
 
 test('a late API reply after the source disappeared is visible for its reading duration', () => {

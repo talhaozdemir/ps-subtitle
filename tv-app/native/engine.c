@@ -53,7 +53,12 @@ struct crop {
     size_t capacity;
     int width;
     int height;
+    int left;
+    int top;
+    int frame_width;
     int frame_height;
+    struct paddle_regions regions;
+    bool has_regions;
     int revision;
     bool candidate;
     uint64_t captured_at;
@@ -77,6 +82,8 @@ struct engine {
     size_t head;
     size_t count;
     struct region region;
+    struct region dialogue_region;
+    struct region objective_region;
     struct crop crops[OCR_PENDING_SLOTS];
     struct ocr_pending pending;
     atomic_bool done;
@@ -142,9 +149,9 @@ static unsigned int ocr_interval(int rate) {
     return (unsigned int)((1000 + rate / 2) / rate);
 }
 
-static bool parse_region(struct json_object *input, struct region *region) {
+static bool parse_region(struct json_object *input, const char *name, int minimum_height, struct region *region) {
     struct json_object *rectangle;
-    if (!json_object_object_get_ex(input, "region", &rectangle) ||
+    if (!json_object_object_get_ex(input, name, &rectangle) ||
         !json_object_is_type(rectangle, json_type_object))
         return false;
     struct region next = {
@@ -154,11 +161,18 @@ static bool parse_region(struct json_object *input, struct region *region) {
         .height = nonnegative_int(rectangle, "height"),
         .revision = nonnegative_int(input, "revision"),
     };
-    if (next.width < 10 || next.height < 5 || next.revision < 0 ||
+    if (next.width < 10 || next.height < minimum_height || next.revision < 0 ||
         next.x < 0 || next.y < 0 || next.x > 100 - next.width || next.y > 100 - next.height)
         return false;
     *region = next;
     return true;
+}
+
+static void parse_text_regions(struct engine *engine, struct json_object *input) {
+    engine->dialogue_region = engine->region;
+    engine->objective_region = (struct region){0};
+    parse_region(input, "dialogueRegion", 5, &engine->dialogue_region);
+    parse_region(input, "objectiveRegion", 3, &engine->objective_region);
 }
 
 static bool receive_stream_control(struct engine *engine) {
@@ -171,10 +185,11 @@ static bool receive_stream_control(struct engine *engine) {
     if (!fgets(line, sizeof(line), stdin)) return false;
     struct json_object *command = json_tokener_parse(line);
     struct region next;
-    if (command && parse_region(command, &next)) {
+    if (command && parse_region(command, "region", 5, &next)) {
         pthread_mutex_lock(&engine->mutex);
         if (next.revision > engine->region.revision) {
             engine->region = next;
+            parse_text_regions(engine, command);
             engine->pending = (struct ocr_pending){0};
         }
         pthread_mutex_unlock(&engine->mutex);
@@ -353,6 +368,12 @@ static bool video_packet(uint8_t *data, size_t size, int32_t lost, bool recovere
     return true;
 }
 
+static struct paddle_area crop_area(struct region region, int frame_width, int frame_height, int left, int top) {
+    return (struct paddle_area){ frame_width * region.x / 100.0 - left, frame_height * region.y / 100.0 - top,
+        frame_width * (region.x + region.width) / 100.0 - left,
+        frame_height * (region.y + region.height) / 100.0 - top };
+}
+
 static bool publish_crop(struct engine *engine, uint8_t *const planes[3], const SBufferInfo *picture,
         uint64_t now, bool replace_pending, struct crop *sample, struct subtitle_search *search) {
     const uint8_t *luma = planes[0];
@@ -367,6 +388,7 @@ static bool publish_crop(struct engine *engine, uint8_t *const planes[3], const 
         return false;
     }
     const struct region region = engine->region;
+    const struct region dialogue = engine->dialogue_region, objective = engine->objective_region;
     pthread_mutex_unlock(&engine->mutex);
 
     int left = frame_width * region.x / 100;
@@ -396,7 +418,15 @@ static bool publish_crop(struct engine *engine, uint8_t *const planes[3], const 
         width, band_bottom - band_top, frame_height, sample->pixels + sample->capacity, &mark);
     sample->width = width;
     sample->height = height;
+    sample->left = left;
+    sample->top = top + band_top;
+    sample->frame_width = frame_width;
     sample->frame_height = frame_height;
+    sample->has_regions = objective.width > 0;
+    if (sample->has_regions) {
+        sample->regions.dialogue = crop_area(dialogue, frame_width, frame_height, left, sample->top);
+        sample->regions.objective = crop_area(objective, frame_width, frame_height, left, sample->top);
+    }
     sample->revision = region.revision;
     sample->captured_at = now;
 
@@ -411,6 +441,7 @@ static bool publish_crop(struct engine *engine, uint8_t *const planes[3], const 
     int index = ocr_pending_latest(&engine->pending, now);
     bool duplicate = index >= 0 && engine->crops[index].width == sample->width &&
         engine->crops[index].height == sample->height && engine->crops[index].revision == sample->revision &&
+        engine->crops[index].frame_width == sample->frame_width &&
         engine->crops[index].frame_height == sample->frame_height &&
         engine->crops[index].candidate == sample->candidate &&
         memcmp(engine->crops[index].pixels, sample->pixels, size) == 0;
@@ -472,7 +503,8 @@ static void *decode_packets(void *context) {
     return NULL;
 }
 
-static void report_ocr(const struct paddle_ocr *ocr, const struct paddle_result *result, const struct crop *crop, bool skipped,
+static void report_ocr(const struct paddle_ocr *ocr, const struct paddle_result *result,
+        const struct paddle_lines *positions, const struct crop *crop,
         uint64_t queue_ms, uint64_t ocr_ms) {
     struct json_object *value = event("ocr");
     json_object_object_add(value, "text", json_object_new_string(result->text));
@@ -486,7 +518,20 @@ static void report_ocr(const struct paddle_ocr *ocr, const struct paddle_result 
     json_object_object_add(value, "ocrThreads", json_object_new_int(stats.threads));
     json_object_object_add(value, "readerRuns", json_object_new_int64(stats.reader_runs));
     json_object_object_add(value, "lineCacheHits", json_object_new_int64(stats.line_cache_hits));
-    if (skipped) json_object_object_add(value, "skipped", json_object_new_boolean(true));
+    if (positions) {
+        struct json_object *lines = json_object_new_array();
+        for (int index = 0; index < positions->count; index++) {
+            const struct paddle_line *line = &positions->items[index];
+            struct json_object *item = json_object_new_object();
+            json_object_object_add(item, "text", json_object_new_string_len(result->text + line->offset, line->length));
+            json_object_object_add(item, "confidence", json_object_new_int(line->confidence));
+            json_object_object_add(item, "x", json_object_new_double(50.0 * (2 * crop->left + line->left + line->right) / crop->frame_width));
+            json_object_object_add(item, "y", json_object_new_double(50.0 * (2 * crop->top + line->top + line->bottom) / crop->frame_height));
+            json_object_object_add(item, "height", json_object_new_double(100.0 * (line->bottom - line->top) / crop->frame_height));
+            json_object_array_add(lines, item);
+        }
+        json_object_object_add(value, "lines", lines);
+    } else json_object_object_add(value, "skipped", json_object_new_boolean(true));
     emit(value);
 }
 
@@ -567,10 +612,12 @@ static void *read_subtitles(void *context) {
     size_t previous_size = 0;
     int previous_width = 0;
     int previous_revision = -1;
+    int previous_frame_width = 0;
     int previous_frame_height = 0;
     uint64_t next_probe = 0;
     struct sample_capture capture = {0};
     struct paddle_result result = {0};
+    struct paddle_lines positions = {0};
     while (!atomic_load(&engine->done)) {
         pthread_mutex_lock(&engine->mutex);
         int index = ocr_pending_take(&engine->pending, milliseconds());
@@ -585,7 +632,12 @@ static void *read_subtitles(void *context) {
         const struct crop *pending = &engine->crops[index];
         crop.width = pending->width;
         crop.height = pending->height;
+        crop.left = pending->left;
+        crop.top = pending->top;
+        crop.frame_width = pending->frame_width;
         crop.frame_height = pending->frame_height;
+        crop.has_regions = pending->has_regions;
+        crop.regions = pending->regions;
         crop.revision = pending->revision;
         crop.candidate = pending->candidate;
         crop.captured_at = pending->captured_at;
@@ -610,11 +662,12 @@ static void *read_subtitles(void *context) {
         // Keep the current crop and the last model input together.
         uint8_t *previous = crop.pixels + crop.capacity;
         bool unchanged = previous_size == size && previous_width == crop.width &&
-            previous_revision == crop.revision && previous_frame_height == crop.frame_height &&
+            previous_revision == crop.revision && previous_frame_width == crop.frame_width &&
+            previous_frame_height == crop.frame_height &&
             memcmp(previous, crop.pixels, size) == 0;
         if (unchanged) {
             atomic_fetch_add(&engine->skipped_crops, 1);
-            report_ocr(engine->ocr, &result, &crop, false, queue_ms, 0);
+            report_ocr(engine->ocr, &result, &positions, &crop, queue_ms, 0);
             continue;
         }
 
@@ -624,7 +677,7 @@ static void *read_subtitles(void *context) {
         uint64_t now = milliseconds();
         if (!candidate && now < next_probe && previous_revision == crop.revision) {
             atomic_fetch_add(&engine->skipped_crops, 1);
-            report_ocr(engine->ocr, &(struct paddle_result){0}, &crop, true, queue_ms, 0);
+            report_ocr(engine->ocr, &(struct paddle_result){0}, NULL, &crop, queue_ms, 0);
             continue;
         }
 
@@ -633,8 +686,8 @@ static void *read_subtitles(void *context) {
         bool had_text = result.confidence > 0;
         atomic_fetch_add(&engine->ocr_runs, 1);
         uint64_t ocr_started = milliseconds();
-        if (!paddle_read(engine->ocr, crop.pixels + (size_t)top * crop.width, crop.width,
-                bottom - top, crop.frame_height, &result)) {
+        if (!paddle_read_lines(engine->ocr, crop.pixels + (size_t)top * crop.width, crop.width,
+                bottom - top, crop.frame_height, &result, &positions, crop.has_regions ? &crop.regions : NULL)) {
             message("error", "PaddleOCR altyazı karesini işleyemedi.");
             atomic_store(&engine->done, true);
             break;
@@ -648,8 +701,9 @@ static void *read_subtitles(void *context) {
         previous_size = size;
         previous_width = crop.width;
         previous_revision = crop.revision;
+        previous_frame_width = crop.frame_width;
         previous_frame_height = crop.frame_height;
-        report_ocr(engine->ocr, &result, &crop, false, queue_ms, ocr_ms);
+        report_ocr(engine->ocr, &result, &positions, &crop, queue_ms, ocr_ms);
     }
     if (capture.requested) report_capture(&capture, true);
     free(crop.pixels);
@@ -676,7 +730,8 @@ static void stream_event(ChiakiEvent *status, void *context) {
 static int stream_console(struct engine *engine, struct json_object *input, const char *address, const char *runtime) {
     atomic_store(&engine->crop_interval_ms, ocr_interval(nonnegative_int(input, "ocrRate")));
     engine->region = default_region;
-    parse_region(input, &engine->region);
+    parse_region(input, "region", 5, &engine->region);
+    parse_text_regions(engine, input);
     ChiakiConnectInfo info = { .ps5 = true, .host = address, .enable_idr_on_fec_failure = true };
     if (!from_hex(field(input, "registKey"), (uint8_t *)info.regist_key, sizeof(info.regist_key)) ||
         !from_hex(field(input, "rpKey"), info.morning, sizeof(info.morning))) {

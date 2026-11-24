@@ -7,12 +7,31 @@
 
 enum { PADDLE_TEXT_BYTES = 1441 };
 enum { PADDLE_DEFAULT_THREADS = 3 };
+enum { PADDLE_MAX_LINES = 6 };
 
 struct paddle_ocr;
 
 struct paddle_result {
     char text[PADDLE_TEXT_BYTES];
     int confidence;
+};
+
+struct paddle_line {
+    int offset, length, confidence;
+    int left, top, right, bottom;
+};
+
+struct paddle_lines {
+    int count;
+    struct paddle_line items[PADDLE_MAX_LINES];
+};
+
+struct paddle_area {
+    double left, top, right, bottom;
+};
+
+struct paddle_regions {
+    struct paddle_area dialogue, objective;
 };
 
 struct paddle_stats {
@@ -29,5 +48,8 @@ void paddle_stats_read(const struct paddle_ocr *ocr, struct paddle_stats *stats)
 void paddle_close(struct paddle_ocr *ocr);
 bool paddle_read(struct paddle_ocr *ocr, const uint8_t *luma, int width, int height,
     int frame_height, struct paddle_result *result);
+bool paddle_read_lines(struct paddle_ocr *ocr, const uint8_t *luma, int width, int height,
+    int frame_height, struct paddle_result *result, struct paddle_lines *positions,
+    const struct paddle_regions *regions);
 
 #endif

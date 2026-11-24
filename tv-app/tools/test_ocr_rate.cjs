@@ -39,6 +39,7 @@ function harness(initial) {
       if (name === './pack') return { createPackStore: () => ({}) };
       if (name === './translation' || name === './remote-setup') return {};
       if (name === './translation-archive') return require('../service/translation-archive');
+      if (name.startsWith('./')) return require(path.join(serviceDirectory, name));
       return require(name);
     }
   });

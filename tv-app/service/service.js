@@ -13,6 +13,8 @@ const { accountBytes, settings, publicSettings, subtitleRegion, subtitleAppearan
 const { createSubtitleFeed, requestTranslation, testLine, translationModels } = require('./translation');
 const { createRemoteTransfer } = require('./remote-setup');
 const { createTranslationArchive, makeRecord } = require('./translation-archive');
+const { canonical } = require('./text-key');
+const { captureRegion, splitReading } = require('./ocr-regions');
 
 const service = new Service('com.gtavi.turkce.altyazi');
 const configDirectory = '/media/internal/.com.gtavi.turkce.altyazi';
@@ -150,6 +152,7 @@ service.register('discover', function (message) {
 
 service.register('updatePack', function (message) {
   packs.update().then(function (result) {
+    if (active && result.updated) active.resetObjective();
     message.respond(Object.assign({ returnValue: true }, result));
   }, function (error) { replyError(message, error); });
 });
@@ -170,7 +173,7 @@ async function saveTranslation(payload) {
   const config = readSettings();
   config.translation = translationSettings(payload, savedTranslation(config));
   saveSettings(config);
-  if (active) active.feed.update(config.translation);
+  if (active) active.updateTranslation(config.translation);
   return config;
 }
 
@@ -250,30 +253,34 @@ service.register('setOcrRate', function (message) {
 service.register('setRegion', function (message) {
   try {
     const payload = message.payload;
-    const region = subtitleRegion(payload.region);
+    const target = payload.target === undefined ? 'region' : payload.target;
     const revision = payload.revision;
-    if (!Number.isInteger(revision) || revision < 1 || revision > 2147483647) {
-      throw Error('Altyazı alanı isteği geçersiz.');
+    if ((target !== 'region' && target !== 'objectiveRegion') ||
+        !Number.isInteger(revision) || revision < 1 || revision > 2147483647) {
+      throw Error('Metin alanı isteği geçersiz.');
     }
+    const region = subtitleRegion(payload.region, target === 'objectiveRegion');
     if (active && revision <= active.revision) {
       message.respond({ returnValue: true });
       return;
     }
     if (payload.save === true) {
       const config = readSettings();
-      config.region = region;
+      config[target] = region;
       saveSettings(config);
     }
     if (active) {
-      const changed = region.x !== active.region.x || region.y !== active.region.y ||
-        region.width !== active.region.width || region.height !== active.region.height;
-      active.region = region;
+      const changed = Object.keys(region).some(function (key) { return region[key] !== active[target][key]; });
+      active[target] = region;
       active.revision = revision;
-      active.preview = payload.preview === true;
+      active.preview = payload.preview === true ? target : null;
       active.feed.reset();
+      active.resetObjective();
       if (changed) {
+        active.capture = captureRegion(active.region, active.objectiveRegion);
         active.frameRevision = revision;
-        if (active.worker) active.worker.send({ region: region, revision: revision });
+        if (active.worker) active.worker.send({ region: active.capture, dialogueRegion: active.region,
+          objectiveRegion: active.objectiveRegion, revision: revision });
       }
     }
     message.respond({ returnValue: true });
@@ -312,6 +319,7 @@ function pairConsole(payload, additionalSettings) {
           const previous = publicSettings(previousConfig);
           config.setupComplete = previous.setupComplete;
           config.region = previous.region;
+          if (previousConfig.objectiveRegion) config.objectiveRegion = previous.objectiveRegion;
           if (payload.ocrRate === undefined) config.ocrRate = previous.ocrRate;
           config.appearance = previous.appearance;
           config.translation = savedTranslation(previousConfig);
@@ -407,7 +415,7 @@ async function saveRemoteSettings(draft) {
   }
   Object.assign(config, prepared.changes);
   saveSettings(config);
-  if (active && prepared.changes.translation) active.feed.update(config.translation);
+  if (active && prepared.changes.translation) active.updateTranslation(config.translation);
   if (active && prepared.changes.ocrRate !== undefined) {
     active.ocrRate = config.ocrRate;
     if (active.worker) active.worker.send({ ocrRate: config.ocrRate });
@@ -551,7 +559,10 @@ stream.on('request', function (message) {
         matchMs: 0, maxMatchMs: 0 } };
     videoDiagnostics = metrics;
     const localSession = packs.createSession();
-    localSession.recovered = function () { message.respond({ returnValue: true, type: 'translationRecovered' }); };
+    const notify = function (error) { message.respond({ returnValue: true, type: 'translationError', text: error }); };
+    const recovered = function () { message.respond({ returnValue: true, type: 'translationRecovered' }); };
+    const archive = function (record) { archiveStore().record(record); };
+    localSession.recovered = recovered;
     const feed = createSubtitleFeed(translation, function (text, confidence, minimum) {
       const started = Date.now();
       const found = localSession.match(text, confidence, minimum);
@@ -570,19 +581,55 @@ stream.on('request', function (message) {
       const reply = { returnValue: true, type: 'subtitle', text: text, speakers: speakers || [], turns: turns };
       if (details && typeof details.sourceActive === 'boolean') reply.sourceActive = details.sourceActive;
       message.respond(reply);
-    }, function (error) {
-      message.respond({ returnValue: true, type: 'translationError', text: error });
-    }, localSession, function (record) { archiveStore().record(record); });
+    }, notify, localSession, archive);
+    let objectiveKey = '', objectiveSource = null, objectivePackMatch, displayedObjective = '';
+    function showObjective(text) {
+      if (text === displayedObjective) return;
+      displayedObjective = text;
+      if (active === slot) message.respond({ returnValue: true, type: 'objective', text: text });
+    }
+    const objectiveFeed = createSubtitleFeed(translation, function (text, confidence, minimum) {
+      if (objectivePackMatch === undefined) objectivePackMatch = packs.match(text, confidence, minimum);
+      return objectivePackMatch;
+    }, showObjective, notify, { recovered: recovered }, archive);
+    function resetObjective() {
+      objectiveKey = '';
+      objectiveSource = null;
+      objectivePackMatch = undefined;
+      objectiveFeed.reset();
+      showObjective('');
+    }
+    function readObjective(reading) {
+      const key = canonical(reading.text).replace(/ /g, '') || reading.text;
+      if (key !== objectiveKey) {
+        resetObjective();
+        objectiveKey = key;
+      }
+      if (!key || displayedObjective) return;
+      // Keep the request source stable across punctuation and whitespace OCR changes.
+      if (!objectiveSource || (objectiveSource.confidence < 72 && reading.confidence > objectiveSource.confidence)) {
+        objectiveSource = reading;
+        objectivePackMatch = undefined;
+      }
+      objectiveFeed.read(objectiveSource.text, objectiveSource.confidence);
+    }
     let reconnectTimer;
     let videoTimer;
+    const regions = publicSettings(saved);
     slot = { token: message.uniqueToken, worker: null, ocrRate: ocrRate,
-      region: publicSettings(saved).region, revision: 0, frameRevision: 0,
-      preview: false, feed: feed, close: function () {
+      region: regions.region, objectiveRegion: regions.objectiveRegion,
+      capture: captureRegion(regions.region, regions.objectiveRegion), revision: 0, frameRevision: 0,
+      preview: null, feed: feed, resetObjective: resetObjective, updateTranslation: function (config) {
+        feed.update(config);
+        resetObjective();
+        objectiveFeed.update(config);
+      }, close: function () {
       if (active === slot) active = null;
       metrics.phase = 'stopped';
       clearTimeout(reconnectTimer);
       clearTimeout(videoTimer);
       feed.reset();
+      resetObjective();
       if (slot.worker) slot.worker.stop();
     } };
     active = slot;
@@ -626,7 +673,8 @@ stream.on('request', function (message) {
             slot.worker.stop();
           }, videoTimeout);
         }
-        const input = Object.assign({}, saved, { mode: 'stream', region: slot.region,
+        const input = Object.assign({}, saved, { mode: 'stream', region: slot.capture,
+          dialogueRegion: slot.region, objectiveRegion: slot.objectiveRegion,
           revision: slot.frameRevision, ocrRate: slot.ocrRate });
         delete input.translation;
         slot.worker = launch(input, function (result) {
@@ -680,22 +728,26 @@ stream.on('request', function (message) {
             return;
           }
           if (result.skipped) return;
+          const reading = splitReading(result, slot.region, slot.objectiveRegion);
           if (slot.preview) {
-            message.respond({ returnValue: true, type: 'preview', text: result.text, revision: slot.revision });
+            const preview = slot.preview === 'objectiveRegion' ? reading.objective : reading.dialogue;
+            message.respond({ returnValue: true, type: 'preview', text: preview.text, revision: slot.revision });
             return;
           }
           if (typeof result.text === 'string' && result.text.trim()) {
             metrics.lastTextRead = { text: result.text.slice(0, 1440), confidence: result.confidence, at: Date.now() };
           }
-          const shown = feed.read(result.text, result.confidence);
-          if ((!result.text || !result.text.trim()) || shown === false) {
+          const shown = feed.read(reading.dialogue.text, reading.dialogue.confidence);
+          if ((!reading.dialogue.text || !reading.dialogue.text.trim()) || shown === false) {
             message.respond({ returnValue: true, type: 'subtitleIdle' });
           }
+          readObjective(reading.objective);
         }, function (error) {
           if (active !== slot) return;
           clearTimeout(videoTimer);
           slot.worker = null;
           feed.reset();
+          resetObjective();
           if (firstFrameAt !== undefined && lastFrameAt - firstFrameAt >= 30000) reconnectAttempts = 0;
           const busy = failure === 'Remote Play on Console is already in use';
           const rejectedSession = failure === 'Unknown Session Request Error';

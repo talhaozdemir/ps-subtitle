@@ -15,7 +15,7 @@
 #endif
 #include <onnxruntime_c_api.h>
 
-enum { DETECTOR_LIMIT = 512, LINE_HEIGHT = 48, MAX_BOXES = 16, MAX_LINES = 6,
+enum { DETECTOR_LIMIT = 512, LINE_HEIGHT = 48, MAX_BOXES = 16,
     MAX_CHARACTERS = 18710, MAX_MODEL_BYTES = 32 * 1024 * 1024 };
 
 struct box {
@@ -285,8 +285,13 @@ static struct box component(struct paddle_ocr *ocr, int width, int height, int f
     return area;
 }
 
+static bool contains_center(const struct paddle_area *area, double x, double y) {
+    return x >= area->left && x < area->right && y >= area->top && y < area->bottom;
+}
+
 static size_t find_boxes(struct paddle_ocr *ocr, const float *map, int width, int height,
-        int original_width, int original_height, int frame_height, struct box *boxes) {
+        int original_width, int original_height, int frame_height, struct box *boxes,
+        const struct paddle_regions *regions) {
     for (int row = 0; row < height; row++) {
         for (int col = 0; col < width; col++) {
             int here = row * width + col;
@@ -316,8 +321,14 @@ static size_t find_boxes(struct paddle_ocr *ocr, const float *map, int width, in
         area.left = maximum(0, (int)lroundf((area.left - padding) * sx));
         area.top = maximum(0, (int)lroundf((area.top - padding) * sy));
         int text_width = area.right - area.left, text_height = area.bottom - area.top;
-        if (text_width < 5 || text_height < 5 || text_height > maximum(20, frame_height / 10) ||
-            abs(area.left + area.right - original_width) > original_width / 3) continue;
+        if (text_width < 5 || text_height < 5 || text_height > maximum(20, frame_height / 10)) continue;
+        if (regions) {
+            double x = (area.left + area.right) / 2.0, y = (area.top + area.bottom) / 2.0;
+            const struct paddle_area *dialogue = &regions->dialogue;
+            double middle = (dialogue->left + dialogue->right) / 2.0;
+            if (!contains_center(&regions->objective, x, y) && (!contains_center(dialogue, x, y) ||
+                fabs(x - middle) > (dialogue->right - dialogue->left) / 6.0)) continue;
+        } else if (abs(area.left + area.right - original_width) > original_width / 3) continue;
         if (count < MAX_BOXES) boxes[count++] = area;
     }
     return count;
@@ -391,7 +402,14 @@ static bool recognize(struct paddle_ocr *ocr, const uint8_t *luma, int stride, s
 
 bool paddle_read(struct paddle_ocr *ocr, const uint8_t *luma, int width, int height,
         int frame_height, struct paddle_result *result) {
+    return paddle_read_lines(ocr, luma, width, height, frame_height, result, NULL, NULL);
+}
+
+bool paddle_read_lines(struct paddle_ocr *ocr, const uint8_t *luma, int width, int height,
+        int frame_height, struct paddle_result *result, struct paddle_lines *positions,
+        const struct paddle_regions *regions) {
     *result = (struct paddle_result){0};
+    if (positions) positions->count = 0;
     if (width < 12 || height < 6) return true;
     int longest = maximum(width, height);
     float scale = fminf(1.0f, (float)DETECTOR_LIMIT / longest);
@@ -409,26 +427,31 @@ bool paddle_read(struct paddle_ocr *ocr, const uint8_t *luma, int width, int hei
     ok = ok && dims[0] == 1 && dims[1] == 1 && dims[2] == map_height && dims[3] == map_width &&
         check(ocr->api, ocr->api->GetTensorMutableData(output, &data));
     struct box boxes[MAX_BOXES];
-    size_t count = ok ? find_boxes(ocr, data, map_width, map_height, width, height, frame_height, boxes) : 0;
+    size_t count = ok ? find_boxes(ocr, data, map_width, map_height, width, height, frame_height, boxes, regions) : 0;
     ocr->api->ReleaseValue(output);
     if (!ok) return false;
     qsort(boxes, count, sizeof(*boxes), by_position);
 
     size_t length = 0;
     int lines = 0, confidence_sum = 0;
-    for (size_t index = 0; index < count && lines < MAX_LINES; index++) {
+    for (size_t index = 0; index < count && lines < PADDLE_MAX_LINES; index++) {
+        const struct box area = boxes[index];
         char line[PADDLE_TEXT_BYTES];
         int confidence;
-        if (!recognize(ocr, luma, width, boxes[index], line, sizeof(line), &confidence)) return false;
+        if (!recognize(ocr, luma, width, area, line, sizeof(line), &confidence)) return false;
         if (!confidence) continue;
         size_t line_length = strlen(line);
         if (line_length + (lines != 0) >= sizeof(result->text) - length) break;
         if (lines) result->text[length++] = '\n';
+        if (positions) positions->items[lines] = (struct paddle_line){
+            (int)length, (int)line_length, confidence, area.left, area.top, area.right, area.bottom
+        };
         memcpy(result->text + length, line, line_length + 1);
         length += line_length;
         lines++;
         confidence_sum += confidence;
     }
     if (lines) result->confidence = confidence_sum / lines;
+    if (positions) positions->count = lines;
     return true;
 }

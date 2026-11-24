@@ -14,7 +14,7 @@ const settle = () => new Promise(resolve => setImmediate(resolve));
 function harness(options = {}) {
   const handlers = {}, workers = [], timers = new Map();
   const files = new Map([['/media/internal/.com.gtavi.turkce.altyazi/settings.json', JSON.stringify({
-    address: '192.168.1.10', port: 1, quality: 540, registKey: 'registration', rpKey: 'pairing'
+    address: '192.168.1.10', port: 1, quality: 540, registKey: 'registration', rpKey: 'pairing', ...options.settings
   })]]);
   let nextToken = 0;
   class Service {
@@ -54,17 +54,27 @@ function harness(options = {}) {
       if (name === 'path') return path.posix;
       if (name === './settings') return settings;
       if (name === './pack') return { createPackStore: () => ({
-        load: () => Promise.resolve(), createSession: () => ({ match: options.match || (() => null) })
+        load: () => Promise.resolve(), createSession: () => ({ match: options.match || (() => null) }),
+        match: options.matchObjective || (() => null)
       }) };
-      if (name === './translation') return options.realFeed ? require('../service/translation') : { createSubtitleFeed: () => ({ reset() {}, read() {} }) };
+      if (name === './translation') return options.api || (options.realFeed ? require('../service/translation') :
+        { createSubtitleFeed: () => ({ reset() {}, read() {} }) });
       if (name === './remote-setup') return {};
-      if (name === './translation-archive') return require('../service/translation-archive');
+      if (name === './translation-archive') return options.api ? { createTranslationArchive: () => ({ flush() {} }) } :
+        require('../service/translation-archive');
+      if (name.startsWith('./')) return require(path.join(serviceDirectory, name));
       return require(name);
     }
   });
   vm.runInContext(source, context);
   return {
     workers, timers,
+    config: () => JSON.parse(files.get('/media/internal/.com.gtavi.turkce.altyazi/settings.json')),
+    setRegion(payload) {
+      let result;
+      handlers.setRegion({ payload, respond: reply => { result = reply; } });
+      return result;
+    },
     diagnostics() {
       let result;
       handlers.videoDiagnostics({ payload: {}, respond: reply => { result = JSON.parse(JSON.stringify(reply)); } });
@@ -144,6 +154,101 @@ test('real pack-only feed forwards complete turns and only confirmed blank/unmat
   assert.equal(stream.messages.at(-1).type, 'subtitle');
   worker.send({ type: 'ocr', revision: 0, text: '', confidence: 0 });
   assert.equal(stream.messages.at(-1).type, 'subtitleIdle');
+});
+
+test('positioned reads keep a task independent of dialogue and clear it on the first empty task reading', async () => {
+  const lookups = [];
+  const service = harness({ realFeed: true, match: text => ({ 'Go!': 'Git!', 'Wait!': 'Bekle!' })[text],
+    matchObjective: text => {
+      lookups.push(text);
+      return text === 'Follow the plane' ? 'Uçağı takip et.' : 'Ekipmanını açmak için L1’e basılı tut.';
+    } });
+  const stream = service.start();
+  await settle();
+  const worker = service.workers[0];
+  const line = (text, x, y) => ({ text, x, y, height: 2, confidence: 95 });
+  const read = (...lines) => worker.send({ type: 'ocr', revision: 0, lines,
+    text: lines.map(item => item.text).join('\n'), confidence: 95 });
+  const taskMessages = () => stream.messages.filter(message => message.type === 'objective').map(message => message.text);
+
+  read(line('Go!', 50, 90), line('to open your loadout', 58, 95.7), line('Hold L1', 43, 96));
+  read(line('Wait!', 50, 90), line('HoldL1 to open your loadout!', 50, 96));
+  worker.send({ type: 'ocr', revision: 0, text: '', lines: [], confidence: 0, skipped: true });
+  assert.deepEqual(lookups, ['Hold L1 to open your loadout']);
+  assert.deepEqual(taskMessages(), ['Ekipmanını açmak için L1’e basılı tut.']);
+  assert.deepEqual(stream.messages.filter(message => message.type === 'subtitle').map(message => message.text), ['Git!', 'Bekle!']);
+
+  read(line('Wait!', 50, 90));
+  assert.deepEqual(taskMessages(), ['Ekipmanını açmak için L1’e basılı tut.', '']);
+  assert.equal(stream.messages.some(message => message.type === 'subtitleIdle'), false);
+  read(line('Hold L1 to open your loadout', 50, 96));
+  assert.equal(taskMessages().at(-1), 'Ekipmanını açmak için L1’e basılı tut.');
+  read(line('Follow the plane', 50, 96));
+  assert.equal(taskMessages().at(-1), 'Uçağı takip et.');
+});
+
+test('moving the objective box previews only its lines, persists the box, and still uses a single native capture', async () => {
+  const service = harness({ realFeed: true, matchObjective: () => 'Hedef' });
+  const stream = service.start();
+  await settle();
+  const worker = service.workers[0];
+  const region = { x: 2, y: 50, width: 24, height: 5 };
+  assert.equal(service.setRegion({ target: 'objectiveRegion', region, revision: 1, preview: true }).returnValue, true);
+  assert.deepEqual(worker.commands[1], { region: { x: 2, y: 50, width: 92, height: 50 },
+    dialogueRegion: { x: 6, y: 77, width: 88, height: 23 }, objectiveRegion: region, revision: 1 });
+  const lines = [{ text: 'Target', x: 14, y: 52, height: 2, confidence: 95 },
+    { text: 'Go!', x: 50, y: 90, height: 2, confidence: 95 },
+    { text: 'Outside either box', x: 50, y: 64, height: 2, confidence: 95 }];
+  worker.send({ type: 'ocr', revision: 0, lines, text: 'Stale', confidence: 95 });
+  assert.equal(stream.messages.some(message => message.type === 'preview'), false);
+  worker.send({ type: 'ocr', revision: 1, lines, text: 'OCR', confidence: 95 });
+  assert.deepEqual(stream.messages.at(-1), { returnValue: true, type: 'preview', text: 'Target', revision: 1 });
+  assert.equal(service.config().objectiveRegion, undefined);
+  assert.equal(service.setRegion({ target: 'objectiveRegion', region, revision: 2, save: true }).returnValue, true);
+  assert.deepEqual(service.config().objectiveRegion, region);
+  assert.equal(worker.commands.length, 2);
+  worker.send({ type: 'ocr', revision: 1, lines, text: 'OCR', confidence: 95 });
+  assert.equal(stream.messages.at(-1).text, 'Hedef');
+});
+
+test('a blank task read cancels the pending API translation before a late response can show it', async () => {
+  const requests = [];
+  const api = { module: { exports: {} }, Buffer, setTimeout, clearTimeout, require(name) {
+    if (name === 'https') return { Agent: class {}, request(options, reply) {
+      const request = new EventEmitter();
+      request.end = body => requests.push({ reply, body: JSON.parse(body), request });
+      request.destroy = () => { request.destroyed = true; };
+      return request;
+    } };
+    return require(path.join(serviceDirectory, name));
+  } };
+  vm.runInNewContext(fs.readFileSync(path.join(serviceDirectory, 'translation.js'), 'utf8'), api);
+  const service = harness({ api: api.module.exports, settings: {
+    translation: { mode: 'api', provider: 'gemini', keys: { gemini: 'test-key' } }
+  } });
+  const stream = service.start();
+  await settle();
+  const worker = service.workers[0];
+  function read(text) {
+    worker.send({ type: 'ocr', revision: 0, text, confidence: 95,
+      lines: text ? [{ text, x: 50, y: 96, height: 2, confidence: 95 }] : [] });
+  }
+  read('Hold L2 to aim');
+  read('HoldL2 to aim!');
+  assert.deepEqual(requests.map(request => request.body.input), ['Hold L2 to aim']);
+  read('');
+  assert.equal(requests[0].request.destroyed, true);
+
+  const response = new EventEmitter();
+  response.statusCode = 200;
+  response.headers = {};
+  requests[0].reply(response);
+  response.emit('data', Buffer.from(JSON.stringify({ status: 'completed', steps: [
+    { type: 'model_output', content: [{ type: 'text', text: 'Nişan almak için L2’ye bas.' }] }
+  ] })));
+  response.emit('end');
+  await settle();
+  assert.equal(stream.messages.some(message => message.type === 'objective'), false);
 });
 
 test('native line cache and thread counters reach diagnostics without accepting invalid values', async () => {

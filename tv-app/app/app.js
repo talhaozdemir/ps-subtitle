@@ -11,6 +11,8 @@
   var lastSubtitleText = '';
   var lastSubtitleSpeakers = [];
   var lastSubtitleKey = '';
+  var objectiveText = '';
+  var objectiveInset = 0;
   var showSpeakerNames = false;
   var subtitleTimeline = SubtitleRenderer.createTimeline();
   var screenSaverBridge = null;
@@ -32,10 +34,10 @@
   var setupStep = 0;
   var setupSaving = false;
 
-  ['hdmi', 'subtitle', 'notice', 'settings', 'setup', 'port', 'findPs5', 'discoveryStatus', 'consoleList',
+  ['hdmi', 'subtitle', 'objective', 'notice', 'settings', 'setup', 'port', 'findPs5', 'discoveryStatus', 'consoleList',
     'address', 'quality', 'ocrRate', 'ocrRateValue', 'ocrRateHelp', 'saveOcrRate', 'account', 'pin',
-    'status', 'start', 'pair', 'editArea', 'updatePack', 'close', 'regionEditor', 'regionBox', 'regionHandle', 'regionTitle',
-    'regionHelp', 'regionPreview', 'regionError', 'regionAction', 'regionCancel', 'editAppearance',
+    'status', 'start', 'pair', 'editArea', 'editObjectiveArea', 'updatePack', 'close', 'regionEditor', 'regionBox', 'regionHandle', 'regionTitle',
+    'regionHelp', 'regionPreview', 'regionError', 'regionPresets', 'regionAction', 'regionCancel', 'editAppearance',
     'appearanceEditor', 'appearancePosition', 'appearancePositionValue', 'appearanceEdge',
     'appearanceOffset', 'appearanceOffsetValue', 'appearanceSize', 'appearanceSizeValue',
     'appearanceBackground', 'appearanceBackgroundValue', 'appearanceOpacity', 'appearanceOpacityValue',
@@ -130,6 +132,22 @@
     drawSubtitles(subtitleTimeline.read(text, speakers, performance.now(), turns));
   }
 
+  function reserveObjectiveSpace() {
+    var inset = view.objective.hidden ? 0 : view.objective.offsetHeight + window.innerHeight * 0.01 + 4;
+    if (inset === objectiveInset) return;
+    objectiveInset = inset;
+    view.subtitle.style.setProperty('--subtitle-reserved-bottom', inset + 'px');
+    lastSubtitleKey = '';
+    if (!appearanceDraft && !view.subtitle.hidden) drawSubtitles(subtitleTimeline.snapshot(performance.now()));
+  }
+
+  function objective(text) {
+    objectiveText = text;
+    view.objective.textContent = text;
+    view.objective.hidden = !text || Boolean(edit);
+    reserveObjectiveSpace();
+  }
+
   function updateScreenSaver() {
     var enabled = screenSaverWanted && !document.hidden;
     if (!enabled) {
@@ -215,6 +233,7 @@
     view.start.disabled = pending || setupSaving || !paired;
     view.pair.disabled = pending;
     view.editArea.disabled = pending || !saved.region;
+    view.editObjectiveArea.disabled = pending || !saved.objectiveRegion;
     view.editAppearance.disabled = pending || !saved.appearance;
     view.editTranslation.disabled = pending || !saved.translation;
     view.openRemoteSetup.disabled = pending || setupSaving || !saved.translation;
@@ -293,7 +312,7 @@
     if (!session) return;
     var revision = draft.revision;
     draft.timer = window.setTimeout(function () {
-      call('setRegion', { region: draft.region, revision: revision, preview: true }, function () {}, function (error) {
+      call('setRegion', { target: draft.target, region: draft.region, revision: revision, preview: true }, function () {}, function (error) {
         if (edit === draft && draft.revision === revision) regionError(error);
       });
     }, 90);
@@ -314,11 +333,15 @@
     return clamp(delta, Math.ceil((minimum - size) / 2), Math.min(start, 100 - start - size));
   }
 
+  function sameRegion(first, second) {
+    return first.x === second.x && first.y === second.y && first.width === second.width && first.height === second.height;
+  }
+
   function changeRegion(origin, dx, dy) {
     var next = Object.assign({}, origin);
     if (edit.mode === 'resize') {
       var horizontal = centeredChange(origin.x, origin.width, dx, 10);
-      var vertical = centeredChange(origin.y, origin.height, -dy, 5);
+      var vertical = centeredChange(origin.y, origin.height, -dy, edit.target === 'objectiveRegion' ? 3 : 5);
       next.x -= horizontal;
       next.width += 2 * horizontal;
       next.y -= vertical;
@@ -327,9 +350,7 @@
       next.x = clamp(origin.x + dx, 0, 100 - origin.width);
       next.y = clamp(origin.y + dy, 0, 100 - origin.height);
     }
-    var current = edit.region;
-    if (next.x === current.x && next.y === current.y &&
-        next.width === current.width && next.height === current.height) return;
+    if (sameRegion(next, edit.region)) return;
     edit.region = next;
     drawRegion();
     regionError('');
@@ -339,24 +360,70 @@
   function setRegionMode(mode) {
     edit.mode = mode;
     var resize = mode === 'resize';
+    var isObjective = edit.target === 'objectiveRegion';
+    var label = isObjective ? 'Görev yazısı alanını' : 'Altyazı alanını';
     view.regionEditor.dataset.mode = mode;
-    view.regionTitle.textContent = resize ? 'Altyazı alanını boyutlandır' : 'Altyazı alanını taşı';
+    view.regionTitle.textContent = label + (resize ? ' boyutlandır' : ' taşı');
     view.regionHelp.textContent = resize
-      ? '← / → genişliği, ↑ / ↓ yüksekliği merkezden ayarlar. İki satırlık yer bırak.'
-      : 'Yön tuşlarıyla kutuyu altyazının üzerine getir.';
+      ? '← / → genişliği, ↑ / ↓ yüksekliği merkezden ayarlar.' + (isObjective ? '' : ' İki satırlık yer bırak.')
+      : 'Yön tuşlarıyla kutuyu ' + (isObjective ? 'görev yazısının' : 'altyazının') + ' üzerine getir.';
     view.regionAction.textContent = resize ? 'OK · Kaydet' : 'OK · Boyutlandır';
+    view.regionAction.hidden = false;
+    view.regionPresets.hidden = true;
     view.regionHandle.hidden = !resize;
     view.regionEditor.focus();
   }
 
-  function openRegionEditor() {
-    edit = { region: Object.assign({}, saved.region), busy: false };
+  function chooseObjectiveRegion() {
+    edit.mode = 'choose';
+    edit.choices = [];
+    view.regionEditor.dataset.mode = 'choose';
+    view.regionTitle.textContent = 'Görev yazısı alanı';
+    view.regionHelp.textContent = 'Bir boyut seç veya kutuyu elle ayarla.';
+    view.regionHandle.hidden = true;
+    view.regionAction.hidden = true;
+    view.regionPresets.hidden = false;
+    view.regionPresets.textContent = '';
+
+    function addChoice(label, onClick) {
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.textContent = label;
+      button.addEventListener('click', function () {
+        if (edit && edit.mode === 'choose' && !edit.busy) onClick();
+      });
+      view.regionPresets.appendChild(button);
+      edit.choices.push(button);
+      return button;
+    }
+
+    var selected;
+    var presets = saved.objectiveRegionPresets || {};
+    Object.keys(presets).forEach(function (size) {
+      var region = presets[size];
+      var button = addChoice('Boyut ' + size, function () {
+        edit.region = Object.assign({}, region);
+        setRegionMode('resize');
+        drawRegion();
+        regionError('');
+        previewRegion();
+      });
+      if (sameRegion(region, edit.region)) selected = button;
+    });
+    var custom = addChoice('Özel', function () { setRegionMode('move'); });
+    (selected || custom).focus();
+  }
+
+  function openRegionEditor(target) {
+    edit = { target: target, region: Object.assign({}, saved[target]), busy: false };
     view.settings.hidden = true;
     view.notice.hidden = true;
     subtitle('');
+    objective('');
     view.regionEditor.hidden = false;
     regionError('');
-    setRegionMode('move');
+    if (target === 'objectiveRegion') chooseObjectiveRegion();
+    else setRegionMode('move');
     drawRegion();
     previewRegion();
   }
@@ -368,13 +435,14 @@
     draft.revision = ++regionRevision;
     window.clearTimeout(draft.timer);
     view.regionAction.disabled = view.regionCancel.disabled = true;
-    var region = save ? draft.region : saved.region;
-    call('setRegion', { region: region, revision: draft.revision, save: save }, function () {
-      if (save) saved.region = region;
+    var region = save ? draft.region : saved[draft.target];
+    call('setRegion', { target: draft.target, region: region, revision: draft.revision, save: save }, function () {
+      if (save) saved[draft.target] = region;
       edit = null;
       view.regionEditor.hidden = true;
       view.regionAction.disabled = view.regionCancel.disabled = false;
-      if (!save) showSettings(view.editArea);
+      objective(objectiveText);
+      if (!save) showSettings(draft.target === 'objectiveRegion' ? view.editObjectiveArea : view.editArea);
     }, function (error) {
       draft.busy = false;
       view.regionAction.disabled = view.regionCancel.disabled = false;
@@ -741,6 +809,7 @@
     sessionReady = false;
     updateButtons();
     subtitle('');
+    objective('');
     if (edit) view.regionPreview.textContent = 'Canlı önizleme için altyazıyı başlat.';
   }
 
@@ -780,6 +849,7 @@
         sessionReady = false;
         updateButtons();
         subtitle('');
+        objective('');
         if (edit) view.regionPreview.textContent = 'PS5’e yeniden bağlanıyor…';
         else status('PS5’e yeniden bağlanıyor…');
       }
@@ -800,6 +870,7 @@
       if (message.type === 'subtitleIdle' && !edit && !appearanceDraft) {
         drawSubtitles(subtitleTimeline.release(performance.now()));
       }
+      if (message.type === 'objective') objective(message.text);
       if (message.type === 'translationError') {
         lastTranslationError = message.text || '';
         if (view.translationEditor.hidden) status(message.text, true);
@@ -949,7 +1020,9 @@
   bindRangeChange(view.ocrRate, drawOcrRate);
   view.saveOcrRate.addEventListener('click', saveOcrRate);
   view.close.addEventListener('click', function () { view.settings.hidden = true; });
-  view.editArea.addEventListener('click', openRegionEditor);
+  view.editArea.addEventListener('click', function () { openRegionEditor('region'); });
+  view.editObjectiveArea.addEventListener('click', function () { openRegionEditor('objectiveRegion'); });
+  window.addEventListener('resize', reserveObjectiveSpace);
   view.editAppearance.addEventListener('click', openAppearanceEditor);
   view.appearancePosition.addEventListener('click', function () {
     appearanceDraft.position = appearanceDraft.position === 'top' ? 'bottom' : 'top';
@@ -1024,7 +1097,8 @@
   view.regionCancel.addEventListener('click', function () { finishRegionEdit(false); });
 
   view.regionBox.addEventListener('pointerdown', function (event) {
-    if (!edit || edit.busy || event.button !== 0 || (edit.mode === 'resize' && event.target !== view.regionHandle)) return;
+    if (!edit || edit.busy || edit.mode === 'choose' || event.button !== 0 ||
+        (edit.mode === 'resize' && event.target !== view.regionHandle)) return;
     event.preventDefault();
     edit.drag = { id: event.pointerId, x: event.clientX, y: event.clientY, region: edit.region };
     view.regionBox.setPointerCapture(event.pointerId);
@@ -1087,6 +1161,14 @@
       if (key === 461 || key === 27) {
         event.preventDefault();
         if (!event.repeat) finishRegionEdit(false);
+      } else if (edit.mode === 'choose') {
+        if (key >= 37 && key <= 40) {
+          event.preventDefault();
+          if (edit.busy) return;
+          var choices = edit.choices.concat(view.regionCancel);
+          var choice = choices.indexOf(document.activeElement);
+          choices[clamp(choice + (key === 37 || key === 38 ? -1 : 1), 0, choices.length - 1)].focus();
+        }
       } else if (key === 13 && event.target !== view.regionAction && event.target !== view.regionCancel) {
         event.preventDefault();
         if (!event.repeat) advanceRegionEdit();

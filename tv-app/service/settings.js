@@ -2,17 +2,18 @@
 
 const net = require('net');
 const defaultRegion = { x: 6, y: 77, width: 88, height: 23 };
+const objectiveRegionPresets = { 2: { x: 28, y: 93, width: 44, height: 7 } };
 const defaultAppearance = { position: 'bottom', offset: 5, background: true, opacity: 90, fontSize: 38, paddingX: 14, paddingY: 7, showSpeakerNames: false, durationScale: 100 };
 const supportedQualities = [360, 540, 720, 1080];
 const defaultOcrRate = 3;
 const translationProviderNames = { gemini: 'Gemini', openai: 'OpenAI' };
 const defaultTranslation = { mode: 'pack', provider: 'gemini', similarity: 95, keys: { gemini: '', openai: '' } };
 
-function subtitleRegion(value) {
+function subtitleRegion(value, objective = false) {
   if (!value || !['x', 'y', 'width', 'height'].every(function (key) { return Number.isInteger(value[key]); }) ||
-      value.x < 0 || value.y < 0 || value.width < 10 || value.height < 5 ||
+      value.x < 0 || value.y < 0 || value.width < 10 || value.height < (objective ? 3 : 5) ||
       value.x + value.width > 100 || value.y + value.height > 100) {
-    throw Error('Altyazı alanı ekran sınırları içinde olmalı.');
+    throw Error((objective ? 'Görev yazısı alanı' : 'Altyazı alanı') + ' ekran sınırları içinde olmalı.');
   }
   return { x: value.x, y: value.y, width: value.width, height: value.height };
 }
@@ -141,9 +142,16 @@ function publicSettings(saved) {
   }
   const oldDefault = saved.region && saved.region.x === 6 && saved.region.y === 62 &&
     saved.region.width === 88 && saved.region.height === 38;
+  let objectiveRegion = objectiveRegionPresets[2];
+  if (saved.objectiveRegion) {
+    try { objectiveRegion = subtitleRegion(saved.objectiveRegion, true); }
+    catch (error) { /* Use the defaults when stored values are invalid. */ }
+  }
   return { address: saved.address || '', port: saved.port || 1, quality: captureQuality(saved.quality), ocrRate: savedOcrRate(saved),
     paired: paired, setupComplete: paired && saved.setupComplete !== false, consoleId: consoleId(saved.consoleId),
-    region: !saved.region || oldDefault ? defaultRegion : saved.region, appearance: appearance, translation: publicTranslation(savedTranslation(saved)) };
+    region: !saved.region || oldDefault ? defaultRegion : saved.region, objectiveRegion: objectiveRegion,
+    objectiveRegionPresets: objectiveRegionPresets,
+    appearance: appearance, translation: publicTranslation(savedTranslation(saved)) };
 }
 
 module.exports = { accountBytes, settings, publicSettings, subtitleRegion, subtitleAppearance, consoleId,

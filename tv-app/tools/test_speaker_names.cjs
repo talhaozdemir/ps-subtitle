@@ -41,6 +41,7 @@ test('the real service persists the preference across restarts and rejects inval
       if (name === './pack') return { createPackStore: () => ({}) };
       if (name === './translation' || name === './remote-setup') return {};
       if (name === './translation-archive') return require('../service/translation-archive');
+      if (name.startsWith('./')) return require(path.join(root, 'tv-app/service', name));
       return require(name);
     } });
     vm.runInContext(fs.readFileSync(path.join(root, 'tv-app/service/service.js'), 'utf8'), context);
