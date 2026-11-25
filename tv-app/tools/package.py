@@ -14,6 +14,7 @@ import tempfile
 import zlib
 
 PACK_SHA256 = "59297a7664e7ea34849bf55939fa559ac5e7c0b643d9673cb74c6c81a4a1d7ce"
+STORY_PACK_SHA256 = "7f093f1c9ae688f5393476e58f5b07ee4e6cc4550729a82fb1ea40613d335101"
 EXECUTABLES = {
     "usr/palm/services/com.gtavi.turkce.altyazi/runtime/subtitle-engine",
     "usr/palm/services/com.gtavi.turkce.altyazi/runtime/subtitle-hdmi-engine",
@@ -85,8 +86,8 @@ def fix_archive_modes(path):
 
 def package(options):
     root = pathlib.Path(__file__).resolve().parents[1]
-    if hashlib.sha256(options.pack.read_bytes()).hexdigest() != PACK_SHA256:
-        raise ValueError("GTA VI pack does not match the reviewed merged checksum.")
+    if hashlib.sha256(options.pack.read_bytes()).hexdigest() not in (PACK_SHA256, STORY_PACK_SHA256):
+        raise ValueError("GTA VI pack does not match either reviewed dictionary checksum.")
 
     for binary in (options.runtime / "subtitle-engine", options.runtime / "subtitle-hdmi-engine", options.runtime / "lib/ld-linux-armhf.so.3",
                    options.runtime / "lib/libonnxruntime.so.1.21"):
