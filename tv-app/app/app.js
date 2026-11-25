@@ -34,7 +34,7 @@
   var setupStep = 0;
   var setupSaving = false;
 
-  ['hdmi', 'subtitle', 'objective', 'notice', 'settings', 'setup', 'port', 'findPs5', 'discoveryStatus', 'consoleList',
+  ['hdmi', 'subtitle', 'objective', 'hint', 'notice', 'settings', 'setup', 'port', 'findPs5', 'discoveryStatus', 'consoleList',
     'address', 'source', 'hdmiHelp', 'skipRemotePlay', 'quality', 'ocrRate', 'ocrRateValue', 'ocrRateHelp', 'saveOcrRate', 'account', 'pin',
     'status', 'start', 'pair', 'editArea', 'editObjectiveArea', 'updatePack', 'close', 'regionEditor', 'regionBox', 'regionHandle', 'regionTitle',
     'regionHelp', 'regionPreview', 'regionError', 'regionPresets', 'regionAction', 'regionCancel', 'editAppearance',
@@ -146,6 +146,11 @@
     view.objective.textContent = text;
     view.objective.hidden = !text || Boolean(edit);
     reserveObjectiveSpace();
+  }
+
+  function hint(text) {
+    view.hint.textContent = text;
+    view.hint.hidden = !text || Boolean(edit);
   }
 
   function placeHdmiOverlay(appearance) {
@@ -442,6 +447,7 @@
     view.notice.hidden = true;
     subtitle('');
     objective('');
+    hint('');
     view.regionEditor.hidden = false;
     regionError('');
     if (target === 'objectiveRegion') chooseObjectiveRegion();
@@ -465,6 +471,7 @@
       view.regionEditor.hidden = true;
       view.regionAction.disabled = view.regionCancel.disabled = false;
       objective(objectiveText);
+      hint(view.hint.textContent);
       if (!save) showSettings(draft.target === 'objectiveRegion' ? view.editObjectiveArea : view.editArea);
     }, function (error) {
       draft.busy = false;
@@ -834,6 +841,7 @@
     updateButtons();
     subtitle('');
     objective('');
+    hint('');
     if (edit) view.regionPreview.textContent = 'Canlı önizleme için altyazıyı başlat.';
   }
 
@@ -878,6 +886,7 @@
         updateButtons();
         subtitle('');
         objective('');
+        hint('');
         if (edit) view.regionPreview.textContent = 'PS5’e yeniden bağlanıyor…';
         else status('PS5’e yeniden bağlanıyor…');
       }
@@ -899,6 +908,7 @@
         drawSubtitles(subtitleTimeline.release(performance.now()));
       }
       if (message.type === 'objective') objective(message.text);
+      if (message.type === 'hint') hint(message.text);
       if (message.type === 'translationError') {
         lastTranslationError = message.text || '';
         if (view.translationEditor.hidden) status(message.text, true);

@@ -123,16 +123,20 @@ test('objectives stay visible through dialogue changes and hide immediately on t
   const app = harness();
   app.emit({ type: 'subtitle', text: 'Gazla!' });
   app.emit({ type: 'objective', text: 'Kasayı çıkarmak için R2’ye bas.' });
+  app.emit({ type: 'hint', text: 'El ele tutuş' });
   app.advance(12000);
   app.emit({ type: 'subtitle', text: 'Çıkmıyor!' });
   assert.equal(app.nodes.objective.hidden, false);
   assert.equal(app.nodes.objective.textContent, 'Kasayı çıkarmak için R2’ye bas.');
   app.emit({ type: 'objective', text: '' });
   assert.equal(app.nodes.objective.hidden, true);
+  assert.equal(app.nodes.hint.hidden, false);
+  assert.equal(app.nodes.hint.textContent, 'El ele tutuş');
   assert.equal(app.nodes.subtitle.textContent, 'Çıkmıyor!');
   app.emit({ type: 'objective', text: 'Tekrar dene.' });
   app.emit({ type: 'reconnecting' });
   assert.equal(app.nodes.objective.hidden, true);
+  assert.equal(app.nodes.hint.hidden, true);
 });
 
 test('the objective editor reuses the adjustable rectangle and sends a separate settings target', () => {
@@ -147,7 +151,7 @@ test('the objective editor reuses the adjustable rectangle and sends a separate 
   assert.equal(preview.uri.endsWith('/setRegion'), true);
   assert.equal(preview.payload.target, 'objectiveRegion');
   assert.equal(preview.payload.preview, true);
-  assert.equal(preview.payload.region.x, 29);
+  assert.equal(preview.payload.region.x, 25);
   app.emit({ type: 'objective', text: 'Görev çevirisi' });
   assert.equal(app.nodes.objective.hidden, true);
   app.nodes.regionAction.handlers.click();
@@ -161,7 +165,7 @@ test('the objective editor reuses the adjustable rectangle and sends a separate 
 
 test('Size 2 can be selected with the remote, previewed, cancelled, and saved', () => {
   const custom = { x: 30, y: 90, width: 42, height: 8 };
-  const size2 = { x: 28, y: 93, width: 44, height: 7 };
+  const size2 = { x: 24, y: 93, width: 52, height: 7 };
   const app = harness({ objectiveRegion: custom });
   function chooseSize2() {
     app.nodes.editObjectiveArea.handlers.click();

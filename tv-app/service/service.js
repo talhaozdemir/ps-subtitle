@@ -222,7 +222,7 @@ service.register('discover', function (message) {
 
 service.register('updatePack', function (message) {
   packs.update().then(function (result) {
-    if (active && result.updated) active.resetObjective();
+    if (active && result.updated) active.resetHud();
     message.respond(Object.assign({ returnValue: true }, result));
   }, function (error) { replyError(message, error); });
 });
@@ -345,12 +345,12 @@ service.register('setRegion', function (message) {
       active.revision = revision;
       active.preview = payload.preview === true ? target : null;
       active.feed.reset();
-      active.resetObjective();
+      active.resetHud();
       if (changed) {
-        active.capture = captureRegion(active.region, active.objectiveRegion);
+        active.capture = captureRegion(active.region, active.objectiveRegion, active.hintRegion);
         active.frameRevision = revision;
         if (active.worker) active.worker.send({ region: active.capture, dialogueRegion: active.region,
-          objectiveRegion: active.objectiveRegion, revision: revision });
+          objectiveRegion: active.objectiveRegion, hintRegion: active.hintRegion, revision: revision });
       }
     }
     message.respond({ returnValue: true });
@@ -655,54 +655,69 @@ stream.on('request', function (message) {
       if (details && typeof details.sourceActive === 'boolean') reply.sourceActive = details.sourceActive;
       message.respond(reply);
     }, notify, localSession, archive);
-    let objectiveKey = '', objectiveSource = null, objectivePackMatch, displayedObjective = '';
-    function showObjective(text) {
-      if (text === displayedObjective) return;
-      displayedObjective = text;
-      if (active === slot) message.respond({ returnValue: true, type: 'objective', text: text });
+    function createHudFeed(type, lookup, archiveHud) {
+      let lastKey = '', source = null, packMatch, displayed = '';
+      function show(text) {
+        if (text === displayed) return;
+        displayed = text;
+        if (active === slot) message.respond({ returnValue: true, type: type, text: text });
+      }
+      const hudFeed = createSubtitleFeed(translation, function (text, confidence, minimum) {
+        if (packMatch === undefined) packMatch = lookup(text, confidence, minimum);
+        return packMatch;
+      }, show, notify, { recovered: recovered }, archiveHud);
+      function reset() {
+        lastKey = '';
+        source = null;
+        packMatch = undefined;
+        hudFeed.reset();
+        show('');
+      }
+      return { reset: reset, update: hudFeed.update, read: function (reading) {
+        let key = canonical(reading.text).replace(/ /g, '') || reading.text;
+        if (type === 'hint' && key === 'holdhandsr2') key = 'holdhands';
+        if (key !== lastKey) {
+          reset();
+          lastKey = key;
+        }
+        if (!key || displayed) return;
+        // Keep the request source stable across punctuation and whitespace OCR changes.
+        if (!source || (source.confidence < 72 && reading.confidence > source.confidence)) {
+          source = reading;
+          packMatch = undefined;
+        }
+        hudFeed.read(source.text, source.confidence);
+      } };
     }
-    const objectiveFeed = createSubtitleFeed(translation, function (text, confidence, minimum) {
-      if (objectivePackMatch === undefined) objectivePackMatch = packs.match(text, confidence, minimum);
-      return objectivePackMatch;
-    }, showObjective, notify, { recovered: recovered }, archive);
-    function resetObjective() {
-      objectiveKey = '';
-      objectiveSource = null;
-      objectivePackMatch = undefined;
+    const objectiveFeed = createHudFeed('objective', function (text, confidence, minimum) {
+      return packs.match(text, confidence, minimum);
+    }, archive);
+    const hintFeed = createHudFeed('hint', function (text, confidence) {
+      if (/^holdhands(?:r2)?$/.test(canonical(text).replace(/ /g, ''))) return 'El ele tutuş';
+      return packs.match(text, confidence, 100);
+    });
+    function resetHud() {
       objectiveFeed.reset();
-      showObjective('');
-    }
-    function readObjective(reading) {
-      const key = canonical(reading.text).replace(/ /g, '') || reading.text;
-      if (key !== objectiveKey) {
-        resetObjective();
-        objectiveKey = key;
-      }
-      if (!key || displayedObjective) return;
-      // Keep the request source stable across punctuation and whitespace OCR changes.
-      if (!objectiveSource || (objectiveSource.confidence < 72 && reading.confidence > objectiveSource.confidence)) {
-        objectiveSource = reading;
-        objectivePackMatch = undefined;
-      }
-      objectiveFeed.read(objectiveSource.text, objectiveSource.confidence);
+      hintFeed.reset();
     }
     let reconnectTimer;
     let videoTimer;
     const regions = publicSettings(saved);
     slot = { token: message.uniqueToken, worker: null, ocrRate: ocrRate,
-      region: regions.region, objectiveRegion: regions.objectiveRegion,
-      capture: captureRegion(regions.region, regions.objectiveRegion), revision: 0, frameRevision: 0,
-      preview: null, feed: feed, resetObjective: resetObjective, updateTranslation: function (config) {
+      region: regions.region, objectiveRegion: regions.objectiveRegion, hintRegion: regions.hintRegion,
+      capture: captureRegion(regions.region, regions.objectiveRegion, regions.hintRegion), revision: 0, frameRevision: 0,
+      preview: null, feed: feed, resetHud: resetHud, updateTranslation: function (config) {
         feed.update(config);
-        resetObjective();
+        resetHud();
         objectiveFeed.update(config);
+        hintFeed.update(config);
       }, close: function () {
       if (active === slot) active = null;
       metrics.phase = 'stopped';
       clearTimeout(reconnectTimer);
       clearTimeout(videoTimer);
       feed.reset();
-      resetObjective();
+      resetHud();
       if (slot.worker) slot.worker.stop();
     } };
     active = slot;
@@ -747,7 +762,7 @@ stream.on('request', function (message) {
           }, videoTimeout);
         }
         const input = Object.assign(hdmi ? {} : Object.assign({}, saved), { mode: hdmi ? 'hdmi' : 'stream', region: slot.capture,
-          dialogueRegion: slot.region, objectiveRegion: slot.objectiveRegion,
+          dialogueRegion: slot.region, objectiveRegion: slot.objectiveRegion, hintRegion: slot.hintRegion,
           revision: slot.frameRevision, ocrRate: slot.ocrRate });
         delete input.translation;
         delete input.hdmiClientKey;
@@ -806,7 +821,7 @@ stream.on('request', function (message) {
             return;
           }
           if (result.skipped) return;
-          const reading = splitReading(result, slot.region, slot.objectiveRegion);
+          const reading = splitReading(result, slot.region, slot.objectiveRegion, slot.hintRegion);
           if (slot.preview) {
             const preview = slot.preview === 'objectiveRegion' ? reading.objective : reading.dialogue;
             message.respond({ returnValue: true, type: 'preview', text: preview.text, revision: slot.revision });
@@ -819,14 +834,15 @@ stream.on('request', function (message) {
           if ((!reading.dialogue.text || !reading.dialogue.text.trim()) || shown === false) {
             message.respond({ returnValue: true, type: 'subtitleIdle' });
           }
-          readObjective(reading.objective);
+          objectiveFeed.read(reading.objective);
+          hintFeed.read(reading.hint);
         }
         function onExit(error) {
           if (active !== slot) return;
           clearTimeout(videoTimer);
           slot.worker = null;
           feed.reset();
-          resetObjective();
+          resetHud();
           if (firstFrameAt !== undefined && lastFrameAt - firstFrameAt >= 30000) reconnectAttempts = 0;
           const busy = failure === 'Remote Play on Console is already in use';
           const rejectedSession = failure === 'Unknown Session Request Error';

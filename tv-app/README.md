@@ -38,6 +38,8 @@ GTA VI’da İngilizce altyazının arka planı **Düz / Solid** olarak ayarland
 
 Remote Play bağlıyken kutudan okunan İngilizce metin üstte görünür. Görünebilecek bütün altyazı satırlarının etrafında pay bırak. **OK** alanı kaydedip oyuna döner, **Geri** önceki ayara döner. Kayıt sonraki açılışta da kullanılır.
 
+Varsayılan konuşma kutusu ekranın solundan %6, üstünden %67 başlar ve %88 × %26 boyutundadır. Küçük ve normal altyazılar aynı kutudan okunur. **Görev yazısı alanı → Boyut 2**, sol %24 ve üst %93 konumunda %52 × %7 boyutundaki kutuyu seçer. Sağ alttaki tuş ipuçları sol %80 ve üst %92 konumundaki sabit %20 × %8 kutudan okunur ve ekranda kendi çevirisiyle gösterilir.
+
 ### Altyazı görünümü
 
 Kumandada **Geri → Altyazı görünümü** menüsünü aç. Türkçe altyazıyı alt veya üst ortaya alabilir, seçili kenardan uzaklığını ekran yüksekliğinin %0–30’u arasında ayarlayabilirsin. Yazı boyutu 24–64 px arasında değişir. Siyah arka plan açıkken opaklığı, yatay boşluğu (0–100 px) ve dikey boşluğu (0–60 px) ayrı ayrı ayarlayabilirsin.

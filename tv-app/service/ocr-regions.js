@@ -1,10 +1,10 @@
 'use strict';
 
-function captureRegion(dialogue, objective) {
-  const x = Math.min(dialogue.x, objective.x);
-  const y = Math.min(dialogue.y, objective.y);
-  return { x: x, y: y, width: Math.max(dialogue.x + dialogue.width, objective.x + objective.width) - x,
-    height: Math.max(dialogue.y + dialogue.height, objective.y + objective.height) - y };
+function captureRegion(dialogue, objective, hint) {
+  const x = Math.min(dialogue.x, objective.x, hint.x);
+  const y = Math.min(dialogue.y, objective.y, hint.y);
+  return { x: x, y: y, width: Math.max(dialogue.x + dialogue.width, objective.x + objective.width, hint.x + hint.width) - x,
+    height: Math.max(dialogue.y + dialogue.height, objective.y + objective.height, hint.y + hint.height) - y };
 }
 
 function contains(region, line) {
@@ -17,7 +17,7 @@ function reading(lines, text) {
     Math.floor(lines.reduce(function (sum, line) { return sum + line.confidence; }, 0) / lines.length) : 0 };
 }
 
-function objectiveText(lines) {
+function positionedText(lines) {
   const rows = [];
   lines.forEach(function (line) {
     const row = rows.find(function (items) {
@@ -33,18 +33,19 @@ function objectiveText(lines) {
   }).join('\n');
 }
 
-function splitReading(result, region, objectiveRegion) {
+function splitReading(result, region, objectiveRegion, hintRegion) {
   if (!Array.isArray(result.lines)) {
-    return { dialogue: { text: result.text, confidence: result.confidence }, objective: reading([], '') };
+    return { dialogue: { text: result.text, confidence: result.confidence }, objective: reading([], ''), hint: reading([], '') };
   }
-  const dialogue = [], objective = [];
+  const dialogue = [], objective = [], hint = [];
   result.lines.forEach(function (line) {
     if (!line || typeof line.text !== 'string' || !line.text.trim()) return;
-    if (contains(objectiveRegion, line)) objective.push(line);
+    if (contains(hintRegion, line)) hint.push(line);
+    else if (contains(objectiveRegion, line)) objective.push(line);
     else if (contains(region, line)) dialogue.push(line);
   });
-  return { dialogue: reading(dialogue, dialogue.map(function (line) { return line.text; }).join('\n')),
-    objective: reading(objective, objectiveText(objective)) };
+  return { dialogue: reading(dialogue, positionedText(dialogue)),
+    objective: reading(objective, positionedText(objective)), hint: reading(hint, positionedText(hint)) };
 }
 
 module.exports = { captureRegion, splitReading };

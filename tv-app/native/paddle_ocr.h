@@ -7,7 +7,8 @@
 
 enum { PADDLE_TEXT_BYTES = 1441 };
 enum { PADDLE_DEFAULT_THREADS = 3 };
-enum { PADDLE_MAX_LINES = 6 };
+enum { PADDLE_SUBTITLE_LINES = 6, PADDLE_HINT_LINES = 2,
+    PADDLE_MAX_LINES = PADDLE_SUBTITLE_LINES + PADDLE_HINT_LINES };
 
 struct paddle_ocr;
 
@@ -31,7 +32,7 @@ struct paddle_area {
 };
 
 struct paddle_regions {
-    struct paddle_area dialogue, objective;
+    struct paddle_area dialogue, objective, hint;
 };
 
 struct paddle_stats {

@@ -101,14 +101,9 @@ button:disabled { opacity: 0.47; }
 }
 
 #subtitle[data-layout="stable"] { white-space: normal; }
-#objective {
+#objective, #hint {
   position: fixed;
-  left: 9%;
-  right: 9%;
-  bottom: 1%;
-  margin: auto;
   width: fit-content;
-  max-width: 82%;
   padding: 4px 12px;
   border-radius: 5px;
   background: rgba(0, 0, 0, 0.9);
@@ -119,10 +114,29 @@ button:disabled { opacity: 0.47; }
   line-height: 1.2;
   overflow-wrap: break-word;
 }
+#objective {
+  left: 9%;
+  right: 9%;
+  bottom: 1%;
+  margin: auto;
+  max-width: 82%;
+}
+#hint {
+  box-sizing: border-box;
+  right: 2vw;
+  bottom: 9vh;
+  max-width: 18vw;
+  font-size: 2.3vh;
+}
 body[data-hdmi-overlay] #objective {
   box-sizing: border-box;
   bottom: calc(var(--subtitle-safe-bottom) + 1vh);
   max-height: calc(100vh - var(--subtitle-safe-top) - var(--subtitle-safe-bottom) - 1vh);
+  overflow: hidden;
+}
+body[data-hdmi-overlay] #hint {
+  bottom: calc(var(--subtitle-safe-bottom) + 9vh);
+  max-height: calc(91vh - var(--subtitle-safe-top) - var(--subtitle-safe-bottom));
   overflow: hidden;
 }
 .subtitle-turn {

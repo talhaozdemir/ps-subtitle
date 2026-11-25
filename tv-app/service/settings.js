@@ -1,8 +1,9 @@
 'use strict';
 
 const net = require('net');
-const defaultRegion = { x: 6, y: 77, width: 88, height: 23 };
-const objectiveRegionPresets = { 2: { x: 28, y: 93, width: 44, height: 7 } };
+const defaultRegion = { x: 6, y: 67, width: 88, height: 26 };
+const objectiveRegionPresets = { 2: { x: 24, y: 93, width: 52, height: 7 } };
+const hintRegion = { x: 80, y: 92, width: 20, height: 8 };
 const defaultAppearance = { position: 'bottom', offset: 5, background: true, opacity: 90, fontSize: 38, paddingX: 14, paddingY: 7, showSpeakerNames: false, durationScale: 100 };
 const supportedQualities = [360, 540, 720, 1080];
 const defaultOcrRate = 3;
@@ -140,10 +141,12 @@ function publicSettings(saved) {
     try { appearance = subtitleAppearance(saved.appearance); }
     catch (error) { /* Use the defaults when stored values are invalid. */ }
   }
-  const oldDefault = saved.region && saved.region.x === 6 && saved.region.y === 62 &&
-    saved.region.width === 88 && saved.region.height === 38;
+  const oldDefault = saved.region && saved.region.x === 6 && saved.region.width === 88 &&
+    (saved.region.y === 62 || saved.region.y === 77) && saved.region.y + saved.region.height === 100;
+  const oldObjective = saved.objectiveRegion && saved.objectiveRegion.x === 28 && saved.objectiveRegion.y === 93 &&
+    saved.objectiveRegion.width === 44 && saved.objectiveRegion.height === 7;
   let objectiveRegion = objectiveRegionPresets[2];
-  if (saved.objectiveRegion) {
+  if (saved.objectiveRegion && !oldObjective) {
     try { objectiveRegion = subtitleRegion(saved.objectiveRegion, true); }
     catch (error) { /* Use the defaults when stored values are invalid. */ }
   }
@@ -152,7 +155,7 @@ function publicSettings(saved) {
     source: source, paired: paired, setupComplete: (paired || (source === 'hdmi' && !!saved.hdmiClientKey)) && saved.setupComplete !== false,
     consoleId: consoleId(saved.consoleId),
     region: !saved.region || oldDefault ? defaultRegion : saved.region, objectiveRegion: objectiveRegion,
-    objectiveRegionPresets: objectiveRegionPresets,
+    objectiveRegionPresets: objectiveRegionPresets, hintRegion: hintRegion,
     appearance: appearance, translation: publicTranslation(savedTranslation(saved)) };
 }
 

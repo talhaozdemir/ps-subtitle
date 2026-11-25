@@ -291,7 +291,7 @@ static bool contains_center(const struct paddle_area *area, double x, double y) 
 
 static size_t find_boxes(struct paddle_ocr *ocr, const float *map, int width, int height,
         int original_width, int original_height, int frame_height, struct box *boxes,
-        const struct paddle_regions *regions) {
+        const struct paddle_regions *regions, bool hint_only) {
     for (int row = 0; row < height; row++) {
         for (int col = 0; col < width; col++) {
             int here = row * width + col;
@@ -326,9 +326,10 @@ static size_t find_boxes(struct paddle_ocr *ocr, const float *map, int width, in
             double x = (area.left + area.right) / 2.0, y = (area.top + area.bottom) / 2.0;
             const struct paddle_area *dialogue = &regions->dialogue;
             double middle = (dialogue->left + dialogue->right) / 2.0;
-            if (!contains_center(&regions->objective, x, y) && (!contains_center(dialogue, x, y) ||
-                fabs(x - middle) > (dialogue->right - dialogue->left) / 6.0)) continue;
-        } else if (abs(area.left + area.right - original_width) > original_width / 3) continue;
+            if (contains_center(&regions->hint, x, y) ||
+                (!contains_center(&regions->objective, x, y) && (!contains_center(dialogue, x, y) ||
+                fabs(x - middle) > (dialogue->right - dialogue->left) / 6.0))) continue;
+        } else if (!hint_only && abs(area.left + area.right - original_width) > original_width / 3) continue;
         if (count < MAX_BOXES) boxes[count++] = area;
     }
     return count;
@@ -400,6 +401,36 @@ static bool recognize(struct paddle_ocr *ocr, const uint8_t *luma, int stride, s
     return ok;
 }
 
+static bool detect_boxes(struct paddle_ocr *ocr, const uint8_t *luma, int stride, struct box view,
+        int frame_height, struct box *boxes, size_t *count, const struct paddle_regions *regions, bool hint_only) {
+    int width = view.right - view.left, height = view.bottom - view.top;
+    *count = 0;
+    if (width < 12 || height < 6) return true;
+    int longest = maximum(width, height);
+    float scale = fminf(hint_only ? 1.5f : 1.0f, (float)DETECTOR_LIMIT / longest);
+    int map_width = maximum(32, (int)lroundf(width * scale / 32) * 32);
+    int map_height = maximum(32, (int)lroundf(height * scale / 32) * 32);
+    size_t pixels = (size_t)map_width * map_height;
+    if (!reserve_input(ocr, pixels) || !reserve_mask(ocr, pixels)) return false;
+    prepare_input(ocr->input, luma, stride, view, map_width, map_height, map_width, true);
+    OrtValue *output = NULL;
+    int64_t dims[4];
+    void *data = NULL;
+    ocr->stats.detector_runs++;
+    bool ok = run(ocr, ocr->detector, map_height, map_width, &output, dims, 4);
+    ok = ok && dims[0] == 1 && dims[1] == 1 && dims[2] == map_height && dims[3] == map_width &&
+        check(ocr->api, ocr->api->GetTensorMutableData(output, &data));
+    if (ok) *count = find_boxes(ocr, data, map_width, map_height, width, height, frame_height, boxes, regions, hint_only);
+    ocr->api->ReleaseValue(output);
+    for (size_t index = 0; index < *count; index++) {
+        boxes[index].left += view.left;
+        boxes[index].right += view.left;
+        boxes[index].top += view.top;
+        boxes[index].bottom += view.top;
+    }
+    return ok;
+}
+
 bool paddle_read(struct paddle_ocr *ocr, const uint8_t *luma, int width, int height,
         int frame_height, struct paddle_result *result) {
     return paddle_read_lines(ocr, luma, width, height, frame_height, result, NULL, NULL);
@@ -410,32 +441,28 @@ bool paddle_read_lines(struct paddle_ocr *ocr, const uint8_t *luma, int width, i
         const struct paddle_regions *regions) {
     *result = (struct paddle_result){0};
     if (positions) positions->count = 0;
-    if (width < 12 || height < 6) return true;
-    int longest = maximum(width, height);
-    float scale = fminf(1.0f, (float)DETECTOR_LIMIT / longest);
-    int map_width = maximum(32, (int)lroundf(width * scale / 32) * 32);
-    int map_height = maximum(32, (int)lroundf(height * scale / 32) * 32);
-    size_t pixels = (size_t)map_width * map_height;
-    if (!reserve_input(ocr, pixels) || !reserve_mask(ocr, pixels)) return false;
+    struct box boxes[2 * MAX_BOXES];
+    size_t count, hint_count = 0;
     struct box full = {0, 0, width, height};
-    prepare_input(ocr->input, luma, width, full, map_width, map_height, map_width, true);
-    OrtValue *output = NULL;
-    int64_t dims[4];
-    void *data = NULL;
-    ocr->stats.detector_runs++;
-    bool ok = run(ocr, ocr->detector, map_height, map_width, &output, dims, 4);
-    ok = ok && dims[0] == 1 && dims[1] == 1 && dims[2] == map_height && dims[3] == map_width &&
-        check(ocr->api, ocr->api->GetTensorMutableData(output, &data));
-    struct box boxes[MAX_BOXES];
-    size_t count = ok ? find_boxes(ocr, data, map_width, map_height, width, height, frame_height, boxes, regions) : 0;
-    ocr->api->ReleaseValue(output);
-    if (!ok) return false;
+    if (!detect_boxes(ocr, luma, width, full, frame_height, boxes, &count, regions, false)) return false;
+    if (regions) {
+        const struct paddle_area *hint = &regions->hint;
+        struct box strip = { maximum(0, (int)floor(hint->left)), maximum(0, (int)floor(hint->top)),
+            minimum(width, (int)ceil(hint->right)), minimum(height, (int)ceil(hint->bottom)) };
+        // Keep small controller text at a useful detector scale even when
+        // the rest of the capture rectangle contains no subtitle.
+        if (!detect_boxes(ocr, luma, width, strip, frame_height, boxes + count, &hint_count, NULL, true)) return false;
+    }
+    count += hint_count;
     qsort(boxes, count, sizeof(*boxes), by_position);
 
     size_t length = 0;
-    int lines = 0, confidence_sum = 0;
+    int lines = 0, subtitle_lines = 0, hint_lines = 0, confidence_sum = 0;
     for (size_t index = 0; index < count && lines < PADDLE_MAX_LINES; index++) {
         const struct box area = boxes[index];
+        bool hint = regions && contains_center(&regions->hint,
+            (area.left + area.right) / 2.0, (area.top + area.bottom) / 2.0);
+        if (hint ? hint_lines >= PADDLE_HINT_LINES : subtitle_lines >= PADDLE_SUBTITLE_LINES) continue;
         char line[PADDLE_TEXT_BYTES];
         int confidence;
         if (!recognize(ocr, luma, width, area, line, sizeof(line), &confidence)) return false;
@@ -449,6 +476,8 @@ bool paddle_read_lines(struct paddle_ocr *ocr, const uint8_t *luma, int width, i
         memcpy(result->text + length, line, line_length + 1);
         length += line_length;
         lines++;
+        if (hint) hint_lines++;
+        else subtitle_lines++;
         confidence_sum += confidence;
     }
     if (lines) result->confidence = confidence_sum / lines;

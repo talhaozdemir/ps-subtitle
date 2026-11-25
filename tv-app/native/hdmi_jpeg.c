@@ -40,8 +40,9 @@ bool hdmi_decode_band(const uint8_t *source, size_t size, int x, int y, int righ
     for (int line = y; line < bottom; ++line) {
         JSAMPROW scan = row;
         if (jpeg_read_scanlines(&decoder, &scan, 1) != 1) goto done;
+        uint8_t *pixels = destination + (size_t)(line - y) * (right - x);
         for (int column = x; column < right; ++column)
-            *destination++ = (uint8_t)(16 + (row[column - left] * 219 + 127) / 255);
+            pixels[column - x] = (uint8_t)(16 + (row[column - left] * 219 + 127) / 255);
     }
     ok = true;
 done:

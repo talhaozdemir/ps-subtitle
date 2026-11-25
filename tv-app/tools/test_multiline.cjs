@@ -116,13 +116,19 @@ test('long blocks stay local and the next subtitle replaces the current block wi
   assert.equal(session.match(input + 'x'.repeat(1441), 100, 100), null);
 });
 
-test('the compact factory ROI remains selected and custom selections are preserved', () => {
-  const expected = { x: 6, y: 77, width: 88, height: 23 };
+test('factory regions migrate to the measured boxes and preserve custom selections', () => {
+  const expected = { x: 6, y: 67, width: 88, height: 26 };
+  const objective = { x: 24, y: 93, width: 52, height: 7 };
   assert.deepEqual(settings.publicSettings({}).region, expected);
   assert.deepEqual(settings.publicSettings({ region: { x: 6, y: 62, width: 88, height: 38 } }).region, expected);
+  assert.deepEqual(settings.publicSettings({ region: { x: 6, y: 77, width: 88, height: 23 } }).region, expected);
   assert.deepEqual(settings.publicSettings({ region: expected }).region, expected);
+  assert.deepEqual(settings.publicSettings({ objectiveRegion: { x: 28, y: 93, width: 44, height: 7 } }).objectiveRegion, objective);
+  assert.deepEqual(settings.publicSettings({}).objectiveRegionPresets[2], objective);
+  assert.deepEqual(settings.publicSettings({}).hintRegion, { x: 80, y: 92, width: 20, height: 8 });
   const custom = { x: 10, y: 60, width: 80, height: 35 };
   assert.deepEqual(settings.publicSettings({ region: custom }).region, custom);
+  assert.deepEqual(settings.publicSettings({ objectiveRegion: custom }).objectiveRegion, custom);
 });
 
 test('real five-line scenes retain all selected translations and every speaker occurrence colour', async () => {

@@ -44,7 +44,7 @@ struct region {
     int revision;
 };
 
-static const struct region default_region = { .x = 6, .y = 77, .width = 88, .height = 23 };
+static const struct region default_region = { .x = 6, .y = 67, .width = 88, .height = 26 };
 
 struct packet {
     uint8_t *bytes;
@@ -87,6 +87,7 @@ struct engine {
     struct region region;
     struct region dialogue_region;
     struct region objective_region;
+    struct region hint_region;
     struct crop crops[OCR_PENDING_SLOTS];
     struct ocr_pending pending;
     atomic_bool done;
@@ -174,8 +175,10 @@ static bool parse_region(struct json_object *input, const char *name, int minimu
 static void parse_text_regions(struct engine *engine, struct json_object *input) {
     engine->dialogue_region = engine->region;
     engine->objective_region = (struct region){0};
+    engine->hint_region = (struct region){0};
     parse_region(input, "dialogueRegion", 5, &engine->dialogue_region);
     parse_region(input, "objectiveRegion", 3, &engine->objective_region);
+    parse_region(input, "hintRegion", 3, &engine->hint_region);
 }
 
 static void apply_stream_control(struct engine *engine, const char *line) {
@@ -394,7 +397,7 @@ static bool publish_crop(struct engine *engine, uint8_t *const planes[3], const 
         return false;
     }
     const struct region region = engine->region;
-    const struct region dialogue = engine->dialogue_region, objective = engine->objective_region;
+    const struct region dialogue = engine->dialogue_region, objective = engine->objective_region, hint = engine->hint_region;
     pthread_mutex_unlock(&engine->mutex);
 
     int left = frame_width * region.x / 100;
@@ -405,7 +408,7 @@ static bool publish_crop(struct engine *engine, uint8_t *const planes[3], const 
     int height = bottom - top;
     size_t size = (size_t)width * height;
     if (size > sample->capacity) {
-        uint8_t *pixels = realloc(sample->pixels, size * 2);
+        uint8_t *pixels = realloc(sample->pixels, size * 3);
         if (!pixels) {
             atomic_store(&engine->done, true);
             message("error", "TV altyazı alanı için yeterli bellek ayıramadı.");
@@ -423,16 +426,34 @@ static bool publish_crop(struct engine *engine, uint8_t *const planes[3], const 
     struct subtitle_mark mark;
     sample->candidate = subtitle_candidate_mark(search, sample->pixels + (size_t)band_top * width,
         width, band_bottom - band_top, frame_height, sample->pixels + sample->capacity, &mark);
+    if (!sample->candidate && hint.width > 0) {
+        // The normal text gate looks near the middle. Check the right strip on
+        // its own when a button hint is the only text on screen.
+        int hint_left = frame_width * hint.x / 100 - left;
+        int hint_top = frame_height * hint.y / 100 - top;
+        int hint_right = frame_width - frame_width * (100 - hint.x - hint.width) / 100 - left;
+        int hint_bottom = frame_height - frame_height * (100 - hint.y - hint.height) / 100 - top;
+        if (hint_left >= 0 && hint_top >= 0 && hint_right <= width && hint_bottom <= height) {
+            int hint_width = hint_right - hint_left, hint_height = hint_bottom - hint_top;
+            uint8_t *strip = sample->pixels + sample->capacity;
+            for (int row = 0; row < hint_height; row++)
+                memcpy(strip + (size_t)row * hint_width, sample->pixels + (size_t)(hint_top + row) * width + hint_left,
+                    (size_t)hint_width);
+            sample->candidate = subtitle_candidate_mark(search, strip, hint_width, hint_height, frame_height,
+                strip + (size_t)hint_width * hint_height, &mark);
+        }
+    }
     sample->width = width;
     sample->height = height;
     sample->left = left;
     sample->top = top + band_top;
     sample->frame_width = frame_width;
     sample->frame_height = frame_height;
-    sample->has_regions = objective.width > 0;
+    sample->has_regions = objective.width > 0 || hint.width > 0;
     if (sample->has_regions) {
         sample->regions.dialogue = crop_area(dialogue, frame_width, frame_height, left, sample->top);
         sample->regions.objective = crop_area(objective, frame_width, frame_height, left, sample->top);
+        sample->regions.hint = crop_area(hint, frame_width, frame_height, left, sample->top);
     }
     sample->revision = region.revision;
     sample->captured_at = now;

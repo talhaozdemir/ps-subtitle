@@ -156,9 +156,10 @@ test('real pack-only feed forwards complete turns and only confirmed blank/unmat
   assert.equal(stream.messages.at(-1).type, 'subtitleIdle');
 });
 
-test('positioned reads keep a task independent of dialogue and clear it on the first empty task reading', async () => {
+test('positioned reads keep dialogue, tasks, and button hints independent', async () => {
   const lookups = [];
-  const service = harness({ realFeed: true, match: text => ({ 'Go!': 'Git!', 'Wait!': 'Bekle!' })[text],
+  const service = harness({ realFeed: true, match: text => ({ 'Go now!': 'Git!', 'Wait!': 'Bekle!' })[text],
+    settings: { objectiveRegion: { x: 24, y: 93, width: 76, height: 7 } },
     matchObjective: text => {
       lookups.push(text);
       return text === 'Follow the plane' ? 'Uçağı takip et.' : 'Ekipmanını açmak için L1’e basılı tut.';
@@ -170,16 +171,21 @@ test('positioned reads keep a task independent of dialogue and clear it on the f
   const read = (...lines) => worker.send({ type: 'ocr', revision: 0, lines,
     text: lines.map(item => item.text).join('\n'), confidence: 95 });
   const taskMessages = () => stream.messages.filter(message => message.type === 'objective').map(message => message.text);
+  const hintMessages = () => stream.messages.filter(message => message.type === 'hint').map(message => message.text);
 
-  read(line('Go!', 50, 90), line('to open your loadout', 58, 95.7), line('Hold L1', 43, 96));
-  read(line('Wait!', 50, 90), line('HoldL1 to open your loadout!', 50, 96));
+  read(line('now!', 54, 89.9), line('Go', 46, 90), line('to open your loadout', 58, 95.7),
+    line('Hold L1', 43, 96), line('HOLD HANDS', 91, 96));
+  read(line('Wait!', 50, 90), line('HoldL1 to open your loadout!', 50, 96),
+    line('R2', 97, 96), line('HOLDHANDS', 91, 96));
   worker.send({ type: 'ocr', revision: 0, text: '', lines: [], confidence: 0, skipped: true });
   assert.deepEqual(lookups, ['Hold L1 to open your loadout']);
   assert.deepEqual(taskMessages(), ['Ekipmanını açmak için L1’e basılı tut.']);
+  assert.deepEqual(hintMessages(), ['El ele tutuş']);
   assert.deepEqual(stream.messages.filter(message => message.type === 'subtitle').map(message => message.text), ['Git!', 'Bekle!']);
 
   read(line('Wait!', 50, 90));
   assert.deepEqual(taskMessages(), ['Ekipmanını açmak için L1’e basılı tut.', '']);
+  assert.deepEqual(hintMessages(), ['El ele tutuş', '']);
   assert.equal(stream.messages.some(message => message.type === 'subtitleIdle'), false);
   read(line('Hold L1 to open your loadout', 50, 96));
   assert.equal(taskMessages().at(-1), 'Ekipmanını açmak için L1’e basılı tut.');
@@ -194,8 +200,9 @@ test('moving the objective box previews only its lines, persists the box, and st
   const worker = service.workers[0];
   const region = { x: 2, y: 50, width: 24, height: 5 };
   assert.equal(service.setRegion({ target: 'objectiveRegion', region, revision: 1, preview: true }).returnValue, true);
-  assert.deepEqual(worker.commands[1], { region: { x: 2, y: 50, width: 92, height: 50 },
-    dialogueRegion: { x: 6, y: 77, width: 88, height: 23 }, objectiveRegion: region, revision: 1 });
+  assert.deepEqual(worker.commands[1], { region: { x: 2, y: 50, width: 98, height: 50 },
+    dialogueRegion: { x: 6, y: 67, width: 88, height: 26 }, objectiveRegion: region,
+    hintRegion: { x: 80, y: 92, width: 20, height: 8 }, revision: 1 });
   const lines = [{ text: 'Target', x: 14, y: 52, height: 2, confidence: 95 },
     { text: 'Go!', x: 50, y: 90, height: 2, confidence: 95 },
     { text: 'Outside either box', x: 50, y: 64, height: 2, confidence: 95 }];
