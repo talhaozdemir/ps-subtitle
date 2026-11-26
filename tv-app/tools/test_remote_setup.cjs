@@ -76,7 +76,10 @@ test('phone sends only filled inputs, including zeros/false; enabled but empty s
   p.nodes.geminiKey.value = '';
   p.nodes.offset.value = '0'; p.nodes.opacity.value = '0'; p.nodes.background.value = 'off';
   p.nodes.regionX.value = '0'; p.nodes.durationScale.value = '150'; p.nodes.ocrRate.value = '6';
-  assert.deepEqual(p.draft(), { video: { ocrRate: 6, region: { x: 0 }, appearance: { offset: 0, opacity: 0, durationScale: 150, background: false } } });
+  p.nodes.subtitleCount.value = '4';
+  p.nodes.backgroundBlur.value = '0';
+  assert.deepEqual(p.draft(), { video: { ocrRate: 6, region: { x: 0 }, appearance: { offset: 0, opacity: 0, durationScale: 150,
+    subtitleCount: 4, backgroundBlur: 0, background: false } } });
 });
 
 test('PS5 address can be sent alone; re-pairing requires the account and PIN together', () => {
@@ -108,7 +111,7 @@ test('mode/provider/key-only translation patches retain all unentered settings; 
 
 test('received phone patches are applied against the latest settings without resetting keys, ROI, CPU/OCR rate or pairing', async () => {
   const s = service(original);
-  await s.receive({ translation: { keys: { gemini: 'new-test-key' } }, video: { appearance: { fontSize: 44 } } });
+  await s.receive({ translation: { keys: { gemini: 'new-test-key' } }, video: { appearance: { fontSize: 44, subtitleCount: 4, backgroundBlur: 8 } } });
   // The TV changes another setting while the phone draft waits for Apply.
   const latest = { ...original, ocrRate: 6, appearance: { ...original.appearance, offset: 24 } };
   s.replace(latest);
@@ -116,7 +119,7 @@ test('received phone patches are applied against the latest settings without res
   assert.equal(result.returnValue, true);
   assert.equal(result.pairedNow, false);
   assert.deepEqual(s.config(), { ...latest, translation: { ...original.translation,
-    keys: { ...original.translation.keys, gemini: 'new-test-key' } }, appearance: { ...latest.appearance, fontSize: 44 } });
+    keys: { ...original.translation.keys, gemini: 'new-test-key' } }, appearance: { ...latest.appearance, fontSize: 44, subtitleCount: 4, backgroundBlur: 8 } });
 });
 
 test('address-only updates preserve Remote Play pairing; account+PIN patches use the saved IP/HDMI/quality', async () => {
@@ -136,7 +139,7 @@ test('address-only updates preserve Remote Play pairing; account+PIN patches use
 test('invalid partial numeric/region/appearance requests are rejected before changing stored settings', () => {
   const s = service(original);
   for (const draft of [{ video: { ocrRate: 11 } }, { video: { region: { width: 100 } } },
-    { video: { appearance: { durationScale: 10 } } }, { ps5: { pin: '12345678' } },
+    { video: { appearance: { durationScale: 10 } } }, { video: { appearance: { subtitleCount: 5 } } }, { ps5: { pin: '12345678' } },
     { translation: { keys: { gemini: 'has whitespace' } } }]) {
     assert.throws(() => s.prepared(draft));
     assert.deepEqual(s.config(), original);

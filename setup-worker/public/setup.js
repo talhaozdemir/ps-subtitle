@@ -54,7 +54,7 @@ function videoSettings() {
   if (Object.keys(region).length) video.region = region;
 
   const appearance = {};
-  for (const name of ['offset', 'fontSize', 'opacity', 'durationScale', 'paddingX', 'paddingY']) {
+  for (const name of ['offset', 'fontSize', 'opacity', 'backgroundBlur', 'durationScale', 'subtitleCount', 'paddingX', 'paddingY']) {
     const value = byId(name).value;
     if (value !== '') appearance[name] = Number(value);
   }

@@ -4,7 +4,8 @@ const net = require('net');
 const defaultRegion = { x: 6, y: 67, width: 88, height: 26 };
 const objectiveRegionPresets = { 2: { x: 24, y: 93, width: 52, height: 7 } };
 const hintRegion = { x: 80, y: 92, width: 20, height: 8 };
-const defaultAppearance = { position: 'bottom', offset: 5, background: true, opacity: 90, fontSize: 38, paddingX: 14, paddingY: 7, showSpeakerNames: false, durationScale: 100 };
+const defaultAppearance = { position: 'bottom', offset: 5, background: true, opacity: 90, fontSize: 38, paddingX: 14, paddingY: 7,
+  showSpeakerNames: false, durationScale: 100, subtitleCount: 3, backgroundBlur: 0 };
 const supportedQualities = [360, 540, 720, 1080];
 const defaultOcrRate = 3;
 const translationProviderNames = { gemini: 'Gemini', openai: 'OpenAI' };
@@ -73,20 +74,23 @@ function consoleId(value) {
 
 function subtitleAppearance(value) {
   const { paddingX = defaultAppearance.paddingX, paddingY = defaultAppearance.paddingY,
-    showSpeakerNames = defaultAppearance.showSpeakerNames, durationScale = defaultAppearance.durationScale } = value || {};
+    showSpeakerNames = defaultAppearance.showSpeakerNames, durationScale = defaultAppearance.durationScale,
+    subtitleCount = defaultAppearance.subtitleCount, backgroundBlur = defaultAppearance.backgroundBlur } = value || {};
   if (!value || (value.position !== 'bottom' && value.position !== 'top') ||
       !Number.isInteger(value.offset) || value.offset < 0 || value.offset > 30 ||
       typeof value.background !== 'boolean' ||
       !Number.isInteger(value.opacity) || value.opacity < 0 || value.opacity > 100 ||
+      !Number.isInteger(backgroundBlur) || backgroundBlur < 0 || backgroundBlur > 20 ||
       !Number.isInteger(value.fontSize) || value.fontSize < 24 || value.fontSize > 64 ||
       !Number.isInteger(paddingX) || paddingX < 0 || paddingX > 100 ||
       !Number.isInteger(paddingY) || paddingY < 0 || paddingY > 60 || typeof showSpeakerNames !== 'boolean' ||
-      !Number.isInteger(durationScale) || durationScale < 50 || durationScale > 300 || durationScale % 25 !== 0) {
+      !Number.isInteger(durationScale) || durationScale < 50 || durationScale > 300 || durationScale % 25 !== 0 ||
+      [2, 3, 4].indexOf(subtitleCount) === -1) {
     throw Error('Altyazı görünümü ayarları geçersiz.');
   }
   return { position: value.position, offset: value.offset, background: value.background,
-    opacity: value.opacity, fontSize: value.fontSize, paddingX: paddingX, paddingY: paddingY,
-    showSpeakerNames: showSpeakerNames, durationScale: durationScale };
+    opacity: value.opacity, backgroundBlur: backgroundBlur, fontSize: value.fontSize, paddingX: paddingX, paddingY: paddingY,
+    showSpeakerNames: showSpeakerNames, durationScale: durationScale, subtitleCount: subtitleCount };
 }
 
 function translationSettings(value, previous = defaultTranslation) {

@@ -208,7 +208,7 @@ function requestTranslation(config, text) {
   } };
 }
 
-function createSubtitleFeed(config, match, show, notify, lifecycle, archive) {
+function createSubtitleFeed(config, match, show, notify, lifecycle, archive, { minApiWords = 0 } = {}) {
   lifecycle = lifecycle || {};
   const cache = new Map();
   const jobs = new Map();
@@ -316,7 +316,9 @@ function createSubtitleFeed(config, match, show, notify, lifecycle, archive) {
 
   function read(text, confidence) {
     cleanQueue();
-    const local = config.mode === 'pack' && match(text, confidence, config.similarity);
+    const short = minApiWords > 0 && typeof text === 'string' &&
+      (stripKnownHeaders(text).match(/[a-z0-9À-ÖØ-öø-ž]+(?:['’.-][a-z0-9À-ÖØ-öø-ž]+)*/gi) || []).length < minApiWords;
+    const local = (config.mode === 'pack' || short) && match(text, confidence, config.similarity);
     if (local) {
       current = null;
       lastShownSequence = ++sequence;
@@ -325,7 +327,7 @@ function createSubtitleFeed(config, match, show, notify, lifecycle, archive) {
         typeof local === 'object' ? local.turns : undefined);
       return true;
     }
-    const source = config.keys[config.provider] && Number.isFinite(confidence) && confidence >= 72 && confidence <= 100 &&
+    const source = !short && config.keys[config.provider] && Number.isFinite(confidence) && confidence >= 72 && confidence <= 100 &&
       typeof text === 'string' && text.length <= maxSourceLength && /[a-z]/i.test(text) ?
       text.trim().replace(/[^\S\r\n]+/g, ' ').replace(/\r\n?/g, '\n') : '';
     const cacheKey = source && lifecycle.cacheKey ? lifecycle.cacheKey(source) : source;

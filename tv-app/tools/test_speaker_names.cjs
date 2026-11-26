@@ -29,7 +29,7 @@ test('old appearance settings default off and the new preference validates witho
   for (const value of ['true', 1, null, {}]) assert.throws(() => settings.subtitleAppearance({ ...old, showSpeakerNames: value }));
 });
 
-test('the real service persists the preference across restarts and rejects invalid saves', function () {
+test('the real service persists appearance settings across restarts and rejects invalid saves', function () {
   function harness(initial) {
     let saved = JSON.stringify(initial), staged;
     const handlers = {};
@@ -53,12 +53,19 @@ test('the real service persists the preference across restarts and rejects inval
   }
   const initial = { address: '192.168.1.10', ocrRate: 7, registKey: 'keep' };
   const service = harness(initial);
-  const appearance = { ...settings.publicSettings({}).appearance, showSpeakerNames: true };
+  assert.equal(settings.publicSettings({}).appearance.backgroundBlur, 0);
+  const appearance = { ...settings.publicSettings({}).appearance, showSpeakerNames: true, subtitleCount: 4, backgroundBlur: 12 };
+  assert.equal(settings.subtitleAppearance({ ...appearance, backgroundBlur: undefined }).backgroundBlur, 0);
   assert.equal(service.call('setAppearance', { appearance }).returnValue, true);
   assert.deepEqual(service.config(), { ...initial, appearance });
   const restarted = harness(service.config());
   assert.equal(restarted.call('settings', {}).settings.appearance.showSpeakerNames, true);
+  assert.equal(restarted.call('settings', {}).settings.appearance.subtitleCount, 4);
+  assert.equal(restarted.call('settings', {}).settings.appearance.backgroundBlur, 12);
   assert.equal(restarted.call('setAppearance', { appearance: { ...appearance, showSpeakerNames: 'true' } }).returnValue, false);
+  for (const backgroundBlur of [-1, 21, 2.5, '12', null]) {
+    assert.equal(restarted.call('setAppearance', { appearance: { ...appearance, backgroundBlur } }).returnValue, false);
+  }
   assert.deepEqual(restarted.config(), service.config());
 });
 
@@ -232,16 +239,28 @@ test('the actual settings screen previews, saves, cancels and restores the prefe
   const click = id => nodes[id].handlers.click({ preventDefault() {} });
   click('editAppearance');
   assert.equal(nodes.appearanceNamesValue.textContent, 'Kapalı');
-  assert.equal(nodes.subtitle.textContent, 'Örnek altyazı');
+  assert.equal(nodes.appearanceCountValue.textContent, '3');
+  assert.equal(nodes.appearanceBlurValue.textContent, '0 px');
+  assert.equal(nodes.subtitle.textContent.split('\n\n').length, 3);
+  nodes.appearanceCount.value = '4';
+  nodes.appearanceCount.handlers.input();
+  assert.equal(nodes.appearanceCountValue.textContent, '4');
+  assert.equal(nodes.subtitle.textContent.split('\n\n').length, 4);
   click('appearanceNames');
   assert.equal(nodes.appearanceNames.attrs['aria-pressed'], 'true');
-  assert.equal(nodes.subtitle.textContent, 'Jason: Örnek altyazı');
+  assert.match(nodes.subtitle.textContent, /Jason: Örnek altyazı$/);
   nodes.appearanceDuration.value = '200';
   nodes.appearanceDuration.handlers.input();
   assert.equal(nodes.appearanceDurationValue.textContent, '2×');
+  nodes.appearanceBlur.value = '12';
+  nodes.appearanceBlur.handlers.input();
+  assert.equal(nodes.appearanceBlurValue.textContent, '12 px');
+  assert.equal(nodes.subtitle.dataset.backgroundBlur, 'true');
   click('saveAppearance');
   assert.equal(calls[0].showSpeakerNames, true);
   assert.equal(calls[0].durationScale, 200);
+  assert.equal(calls[0].subtitleCount, 4);
+  assert.equal(calls[0].backgroundBlur, 12);
   nodes.setup.handlers.submit({ preventDefault() {} });
   const emit = (name, color) => stream(JSON.stringify({ returnValue: true, type: 'subtitle', text: 'Tamam.',
     speakers: name ? [{ offset: 0, name, color }] : [] }));
@@ -256,11 +275,22 @@ test('the actual settings screen previews, saves, cancels and restores the prefe
   click('appearanceNames');
   nodes.appearanceDuration.value = '300';
   nodes.appearanceDuration.handlers.input();
+  nodes.appearanceCount.value = '2';
+  nodes.appearanceCount.handlers.input();
+  assert.equal(nodes.subtitle.textContent.split('\n\n').length, 2);
   click('cancelAppearance');
   assert.equal(appearance.showSpeakerNames, true);
   assert.equal(appearance.durationScale, 200);
   click('editAppearance');
   assert.equal(nodes.appearanceNamesValue.textContent, 'Açık');
+  assert.equal(nodes.appearanceCountValue.textContent, '4');
+  click('appearanceBackground');
+  assert.equal(nodes.appearanceBlur.disabled, true);
+  assert.equal(nodes.subtitle.dataset.backgroundBlur, undefined);
+  click('appearanceBackground');
+  assert.equal(nodes.appearanceBlur.disabled, false);
+  assert.equal(nodes.appearanceBlurValue.textContent, '12 px');
+  assert.equal(nodes.subtitle.dataset.backgroundBlur, 'true');
   click('appearanceNames');
   click('saveAppearance');
   assert.equal(calls[1].showSpeakerNames, false);

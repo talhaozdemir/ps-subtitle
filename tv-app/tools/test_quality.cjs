@@ -222,6 +222,8 @@ test('frequent repeated readings extend visibility without redrawing or accumula
   }
   assert.equal(app.renders(), 1);
   app.emit({ type: 'subtitle', text: 'Burada bekle.' });
+  assert.equal(app.nodes.subtitle.textContent, 'Kapıyı aç.\nHemen gel.\n\nBurada bekle.');
+  app.advance(2500);
   assert.equal(app.nodes.subtitle.textContent, 'Burada bekle.');
   app.emit({ type: 'subtitleIdle' });
   app.advance(1000);
@@ -231,7 +233,7 @@ test('frequent repeated readings extend visibility without redrawing or accumula
   assert.equal(app.nodes.subtitle.hidden, false);
 });
 
-test('new conversations appear below older ones, with independent length-based expiry and a three-turn cap', function () {
+test('each new conversation moves earlier ones into a three-caption stack by default', function () {
   const app = harness();
   const long = 'Kapıyı kontrol et.\nArka tarafta seni bekliyor olacağım.';
   app.emit({ type: 'subtitle', text: long });
@@ -244,7 +246,9 @@ test('new conversations appear below older ones, with independent length-based e
   app.advance(100);
   app.emit({ type: 'subtitle', text: 'Dur.' });
   assert.equal(app.nodes.subtitle.textContent, 'Tamam.\n\nGit.\n\nDur.');
-  app.advance(400);
+  app.advance(2499);
+  assert.equal(app.nodes.subtitle.textContent, 'Tamam.\n\nGit.\n\nDur.');
+  app.advance(1);
   assert.equal(app.nodes.subtitle.textContent, 'Dur.');
   app.emit({ type: 'subtitleIdle' });
   app.advance(100);

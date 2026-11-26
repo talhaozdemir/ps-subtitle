@@ -139,6 +139,32 @@ test('pack hits never call API; missing long OCR blocks retain line breaks and a
   feed.reset();
 });
 
+test('the two-word dialogue minimum keeps single-word local hits and skips single-word API misses in both modes', async () => {
+  for (const mode of ['pack', 'api']) {
+    const api = harness(), shown = [], lookups = [];
+    const feed = api.createSubtitleFeed({ ...config, mode }, text => {
+      lookups.push(text);
+      return text === 'Wait!' ? 'Bekle!' : null;
+    }, text => shown.push(text), assert.fail, null, null, { minApiWords: 2 });
+
+    assert.equal(feed.read('Wait!', 99), true);
+    for (const text of ['8ABC-123', 'STOP', 'Can’t.', '— Go!', 'Jason: Wait.']) {
+      assert.equal(feed.read(text, 99), false, text);
+    }
+    assert.deepEqual(shown, ['Bekle!']);
+    assert.equal(api.jobs.length, 0);
+    assert.equal(feed.diagnostics().queued, 0);
+
+    const source = 'I\ncan’t.';
+    feed.read(source, 99);
+    assert.equal(lookups.includes(source), mode === 'pack');
+    assert.deepEqual(api.jobs.map(job => job.body.input), [source]);
+    await api.respond(0, 'Yapamam.');
+    assert.deepEqual(shown, ['Bekle!', 'Yapamam.']);
+    feed.reset();
+  }
+});
+
 test('two fast successive captions finish and are saved, but an older completion never replaces the current source', async () => {
   const api = harness(), shown = [], archived = [];
   const feed = api.createSubtitleFeed(config, () => null, text => shown.push(text), assert.fail, null, row => archived.push(row));

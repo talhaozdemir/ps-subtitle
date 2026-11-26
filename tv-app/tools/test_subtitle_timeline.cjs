@@ -2,7 +2,7 @@
 
 const assert = require('node:assert/strict');
 const { test } = require('node:test');
-const { createTimeline, readingDuration, createPinnedLayout, hdmiSubtitleArea } = require('../app/subtitle-renderer');
+const { createTimeline, readingDuration, placeSubtitleStack, hdmiSubtitleArea } = require('../app/subtitle-renderer');
 const { subtitleAppearance, publicSettings } = require('../service/settings');
 
 test('reading time follows length, two physical rows and the saved multiplier', () => {
@@ -26,9 +26,11 @@ test('a short reply expires independently while the previous long conversation r
   timeline.read(long, [], 0);
   timeline.read('Tamam.', [], 100);
   timeline.release(200);
-  assert.equal(timeline.snapshot(601).text, long);
-  assert.equal(timeline.snapshot(2499).text, long);
-  assert.equal(timeline.snapshot(2500).text, '');
+  const remaining = timeline.snapshot(601);
+  assert.equal(remaining.text, long);
+  assert.equal(remaining.blocks[0].age, 1);
+  assert.equal(timeline.snapshot(2599).text, long);
+  assert.equal(timeline.snapshot(2600).text, '');
 });
 
 test('the multiplier applies to active and retained conversations without losing their start time', () => {
@@ -42,7 +44,7 @@ test('the multiplier applies to active and retained conversations without losing
   assert.equal(timeline.snapshot(1500).text, '');
 });
 
-test('rolling multi-turn OCR blocks preserve order, speaker offsets and the last three conversations', () => {
+test('rolling multi-turn OCR blocks preserve order and speaker offsets for the last three conversations by default', () => {
   const timeline = createTimeline();
   const read = (texts, at) => timeline.read(texts.join('\n'), texts.map((text, i) => ({
     offset: texts.slice(0, i).join('\n').length + (i ? 1 : 0), name: 'Konuşmacı ' + text, color: '#99EEFF'
@@ -51,10 +53,30 @@ test('rolling multi-turn OCR blocks preserve order, speaker offsets and the last
   let result = read(['A', 'B', 'C', 'D'], 100);
   assert.equal(result.text, 'B\n\nC\n\nD');
   assert.deepEqual(result.speakers.map(span => span.offset), [0, 3, 6]);
+  assert.deepEqual(result.blocks.map(block => block.age), [2, 1, 0]);
   result = read(['A', 'B', 'C', 'D'], 200);
   assert.equal(result.text, 'B\n\nC\n\nD');
   assert.equal(result.count, 3);
   assert.equal(read(['B', 'C', 'D'], 300).text, 'B\n\nC\n\nD');
+});
+
+test('the saved limit counts the current caption and keeps recent history through consecutive changes', () => {
+  const appearance = publicSettings({}).appearance;
+  assert.equal(appearance.subtitleCount, 3);
+  assert.equal(subtitleAppearance({ ...appearance, subtitleCount: undefined }).subtitleCount, 3);
+  for (const subtitleCount of [2, 3, 4]) {
+    const saved = subtitleAppearance({ ...appearance, subtitleCount });
+    const timeline = createTimeline();
+    timeline.setLimit(publicSettings({ appearance: saved }).appearance.subtitleCount);
+    const captions = ['A', 'B', 'C', 'D', 'E'];
+    captions.forEach((caption, index) => timeline.read(caption, [], index * 800));
+    assert.deepEqual(timeline.snapshot(3200).blocks.map(block => block.text), captions.slice(-subtitleCount));
+    assert.equal(timeline.snapshot(5699).count, subtitleCount);
+    assert.equal(timeline.snapshot(5700).text, 'E');
+  }
+  for (const subtitleCount of [1, 5, 2.5, '3', null]) {
+    assert.throws(() => subtitleAppearance({ ...appearance, subtitleCount }));
+  }
 });
 
 test('unlabelled complete turn boundaries split blocks but wrapped lines stay together', () => {
@@ -66,12 +88,18 @@ test('unlabelled complete turn boundaries split blocks but wrapped lines stay to
   assert.equal(timeline.read(text, [], 0, [0, 3]).count, 1, 'Invalid boundaries cannot slice words');
 });
 
-test('identical turns in one source block remain distinct and do not disappear during repeated OCR', () => {
+test('identical turns stay distinct and repeated OCR does not revive the previous turn', () => {
   const timeline = createTimeline();
-  for (let at = 0; at <= 15000; at += 2000) {
-    assert.equal(timeline.read('Tamam.\nTamam.', [], at, [0, 7]).count, 2);
+  const read = at => timeline.read('Tamam.\nTamam.', [], at, [0, 7]);
+  const pair = read(0).blocks;
+  assert.deepEqual(pair.map(block => block.age), [1, 0]);
+  assert.notEqual(pair[0].id, pair[1].id);
+  assert.deepEqual(read(2499).blocks, pair);
+  assert.deepEqual(read(2500).blocks, [pair[1]]);
+  for (let at = 4000; at <= 15000; at += 2000) {
+    assert.deepEqual(read(at).blocks, [pair[1]]);
   }
-  assert.equal(timeline.read('Tamam.', [], 15100).count, 1, 'A scrolling block retains the newest occurrence');
+  assert.deepEqual(timeline.read('Tamam.', [], 15100).blocks, [pair[1]]);
 });
 
 test('a composed group never conceals the individual speakers inside that group', () => {
@@ -95,20 +123,39 @@ test('turn identifiers survive scrolling, and equivalent OCR wrapping never rewr
   assert.notEqual(next.blocks[1].id, first.blocks[0].id);
 });
 
-const geometry = { width: 1920, height: 1080, position: 'bottom', offset: 20, paddingY: 10 };
-const block = (id, height = 43.2) => ({ id, height });
+test('a direct change keeps the prior turn briefly even after its minimum reading time passed', () => {
+  const timeline = createTimeline();
+  const old = timeline.read('Tamam.', [], 0).blocks[0];
+  const next = timeline.read('Başla.', [], 2000).blocks;
+  assert.deepEqual(next[0], { ...old, age: 1 });
+  assert.deepEqual(timeline.snapshot(4499).blocks, next);
+  assert.deepEqual(timeline.snapshot(4500).blocks, [next[1]]);
+});
+
+const geometry = { height: 1080, position: 'bottom', offset: 20, paddingY: 10, lineHeight: 40 };
+const block = (id, height = 40, age = 0) => ({ id, height, age });
+
+test('the caption stack grows upward as more text arrives', () => {
+  const short = placeSubtitleStack([block(1)], geometry)[1];
+  const tall = placeSubtitleStack([block(1, 40, 1), block(2, 80)], geometry);
+  assert.equal(tall[2].top + tall[2].height, short.top + short.height);
+  assert.ok(tall[1].top < short.top);
+});
 
 test('HDMI keeps the bottom preference and places subtitles just above the OCR band', () => {
   const appearance = { ...geometry, fontSize: 36 };
   const area = hdmiSubtitleArea({ y: 72, height: 27 }, { y: 93, height: 7 }, geometry.height, appearance);
   const options = { ...geometry, safeTop: area.top, safeBottom: geometry.height - area.bottom };
-  const caption = createPinnedLayout().place([block(1, 45)], options)[0];
+  const caption = placeSubtitleStack([block(1, 45)], options)[1];
   assert.equal(area.bottom, 766);
   assert.ok(caption.top > geometry.height * 0.65);
   assert.equal(caption.top + caption.height + geometry.paddingY, area.bottom);
 
-  const withObjective = createPinnedLayout().place([block(1, 45)], { ...options, bottomInset: 42 })[0];
+  const withObjective = placeSubtitleStack([block(1, 45)], { ...options, bottomInset: 42 })[1];
   assert.equal(withObjective.top + withObjective.height + geometry.paddingY + 42, area.bottom);
+
+  const withBlur = placeSubtitleStack([block(1, 45)], { ...options, backgroundBlur: 12 })[1];
+  assert.equal(withBlur.top + withBlur.height + geometry.paddingY + 36, area.bottom);
 });
 
 test('HDMI keeps the configured position when its anchor is outside the OCR band', () => {
@@ -116,60 +163,54 @@ test('HDMI keeps the configured position when its anchor is outside the OCR band
   for (const position of ['top', 'bottom']) {
     const options = { ...geometry, position };
     const safe = hdmiSubtitleArea(...regions, options.height, options);
-    const requested = createPinnedLayout().place([block(1)], options);
-    const guarded = createPinnedLayout().place([block(1)], {
+    const requested = placeSubtitleStack([block(1)], options);
+    const guarded = placeSubtitleStack([block(1)], {
       ...options, safeTop: safe.top, safeBottom: options.height - safe.bottom
     });
     assert.deepEqual(guarded, requested);
   }
 });
 
-test('new captions sit four pixels below existing captions without moving the text being read', () => {
+test('the previous caption moves above the current caption and reserves only its scaled height', () => {
   for (const position of ['bottom', 'top']) {
-    const layout = createPinnedLayout(), options = { ...geometry, position };
-    const first = layout.place([block(1)], options)[0];
-    const two = layout.place([block(1), block(2, 86.4)], options);
-    assert.equal(two[0].top, first.top);
-    assert.ok(Math.abs(two[1].top - (first.top + first.height + 4)) < 0.001);
-    const three = layout.place([block(1), block(2, 86.4), block(3)], options);
-    assert.deepEqual(three.slice(0, 2), two);
-    assert.ok(Math.abs(three[2].top - (two[1].top + two[1].height + 4)) < 0.001);
+    const options = { ...geometry, position };
+    const first = placeSubtitleStack([block(1)], options)[1];
+    const pair = placeSubtitleStack([block(1, 40, 1), block(2, 80)], options);
+    assert.equal(pair[1].height, 36);
+    assert.ok(pair[1].top < first.top);
+    assert.equal(pair[2].top, pair[1].top + pair[1].height + 4);
+    assert.deepEqual(pair[2], placeSubtitleStack([block(2, 80)], options)[2]);
   }
 });
 
-test('expiration of an earlier caption does not pull a surviving caption up', () => {
-  const layout = createPinnedLayout();
-  const before = layout.place([block(1), block(2)], geometry);
-  const after = layout.place([block(2), block(3)], geometry);
-  assert.deepEqual(after[0], before[1]);
-  layout.place([], geometry);
-  assert.equal(layout.place([block(4)], geometry)[0].top, before[0].top, 'A fully empty overlay resets its anchor');
+test('previous captions keep their size and position when the current one expires first', () => {
+  const history = [block(1, 40, 2), block(2, 40, 1)], current = block(3, 80);
+  const before = placeSubtitleStack([...history, current], geometry);
+  const after = placeSubtitleStack(history, geometry, current.height);
+  assert.deepEqual(after, { 1: before[1], 2: before[2] });
 });
 
-test('continuous conversation reuses free space without moving survivors or exceeding the screen', () => {
-  const layout = createPinnedLayout();
-  let before = [];
-  for (let id = 1; id <= 30; id++) {
-    const rows = [id - 2, id - 1, id].filter(value => value > 0).map(value => block(value));
-    const after = layout.place(rows, geometry);
-    for (const previous of before) {
-      const survivor = after.find(row => row.id === previous.id);
-      if (survivor) assert.equal(survivor.top, previous.top);
-    }
-    const sorted = [...after].sort((a, b) => a.top - b.top);
-    sorted.forEach((row, i) => {
-      assert.ok(row.top >= 18 && row.top + row.height <= 1062);
-      if (i) assert.ok(row.top >= sorted[i - 1].top + sorted[i - 1].height + 3.999);
-    });
-    before = after;
-  }
+test('both captions fit inside the safe area even if the top setting leaves no room above its anchor', () => {
+  const options = { ...geometry, position: 'top', offset: 0, safeTop: 100, safeBottom: 780, bottomInset: 20 };
+  const pair = placeSubtitleStack([block(1, 40, 1), block(2, 80)], options);
+  assert.equal(pair[1].top, 110);
+  assert.equal(pair[2].top, 150);
+  assert.ok(pair[2].top + pair[2].height + options.paddingY <= 280);
 });
 
-test('oversized caption groups retire the oldest block without resurrecting it or shifting survivors', () => {
-  const layout = createPinnedLayout();
-  const before = layout.place([block(1, 400), block(2, 400)], geometry);
-  const after = layout.place([block(1, 400), block(2, 400), block(3, 400)], geometry);
-  assert.deepEqual(after.find(row => row.id === 2), before.find(row => row.id === 2));
-  assert.equal(after.some(row => row.id === 1), false);
-  assert.deepEqual(layout.place([block(1, 400), block(2, 400), block(3, 400)], geometry), after);
+test('when the safe area is tight the longest current caption gets all available space', () => {
+  const options = { ...geometry, safeTop: 600, safeBottom: 200 };
+  const pair = placeSubtitleStack([block(1, 80, 1), block(2, 400)], options);
+  assert.deepEqual(pair, { 2: { top: 610, height: 260 } });
+});
+
+test('limited vertical space trims the oldest history before placing the newest captions', () => {
+  const rows = [block(1, 40, 3), block(2, 40, 2), block(3, 40, 1), block(4)];
+  const fullStack = placeSubtitleStack(rows, geometry);
+  assert.deepEqual(Object.values(fullStack).map(position => position.height), [28, 32, 36, 40]);
+  const options = { ...geometry, safeTop: 710, safeBottom: 210 };
+  const stack = placeSubtitleStack(rows, options);
+  assert.deepEqual(Object.keys(stack), ['2', '3', '4']);
+  assert.equal(stack[2].top + stack[2].height + 4, stack[3].top);
+  assert.equal(stack[3].top + stack[3].height + 4, stack[4].top);
 });

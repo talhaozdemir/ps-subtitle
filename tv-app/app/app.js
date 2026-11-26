@@ -40,7 +40,9 @@
     'regionHelp', 'regionPreview', 'regionError', 'regionPresets', 'regionAction', 'regionCancel', 'editAppearance',
     'appearanceEditor', 'appearancePosition', 'appearancePositionValue', 'appearanceEdge',
     'appearanceOffset', 'appearanceOffsetValue', 'appearanceSize', 'appearanceSizeValue',
+    'appearanceCount', 'appearanceCountValue',
     'appearanceBackground', 'appearanceBackgroundValue', 'appearanceOpacity', 'appearanceOpacityValue',
+    'appearanceBlur', 'appearanceBlurValue',
     'appearancePaddingX', 'appearancePaddingXValue', 'appearancePaddingY', 'appearancePaddingYValue',
     'appearanceNames', 'appearanceNamesValue', 'appearanceDuration', 'appearanceDurationValue',
     'appearanceError', 'saveAppearance', 'cancelAppearance', 'tabHdmi', 'tabPs5',
@@ -54,10 +56,11 @@
     .forEach(function (id) { view[id] = document.getElementById(id); });
   var setupTabs = [view.tabHdmi, view.tabPs5, view.tabSubtitle];
   var setupPanels = [view.stepHdmi, view.stepPs5, view.stepSubtitle];
-  var appearanceControls = [view.appearancePosition, view.appearanceOffset, view.appearanceSize,
-    view.appearanceNames, view.appearanceDuration, view.appearanceBackground, view.appearanceOpacity, view.appearancePaddingX, view.appearancePaddingY,
+  var appearanceControls = [view.appearancePosition, view.appearanceOffset, view.appearanceSize, view.appearanceCount,
+    view.appearanceDuration, view.appearanceNames, view.appearanceBackground, view.appearanceOpacity, view.appearanceBlur,
+    view.appearancePaddingX, view.appearancePaddingY,
     view.saveAppearance, view.cancelAppearance];
-  var backgroundControls = [view.appearanceOpacity, view.appearancePaddingX, view.appearancePaddingY];
+  var backgroundControls = [view.appearanceOpacity, view.appearanceBlur, view.appearancePaddingX, view.appearancePaddingY];
   var translationControls = [view.translationMode, view.translationSimilarity, view.translationProvider, view.translationKey, view.testTranslation,
     view.removeTranslationKey, view.saveTranslation, view.cancelTranslation];
 
@@ -103,7 +106,7 @@
     view.subtitle.hidden = true;
   }
 
-  function drawSubtitles(state) {
+  function drawSubtitles(state, fadeIn) {
     window.clearTimeout(subtitleTimer);
     var key = state.blocks.map(function (block) { return block.id; }).join(',') + '\u0000' +
       state.text + '\u0000' + (showSpeakerNames ? JSON.stringify(state.speakers) : '');
@@ -114,7 +117,12 @@
     if (!state.text) { hideSubtitle(); return; }
     var wasHidden = view.subtitle.hidden;
     view.subtitle.hidden = false;
-    if (wasHidden || key !== previous) SubtitleRenderer.renderTimeline(view.subtitle, state, showSpeakerNames);
+    if (wasHidden || key !== previous) {
+      SubtitleRenderer.renderTimeline(view.subtitle, state, showSpeakerNames, {
+        region: saved.appearance && saved.appearance.background ? saved.region : null,
+        fadeIn: fadeIn
+      });
+    }
     subtitleTimer = window.setTimeout(function () {
       drawSubtitles(subtitleTimeline.snapshot(performance.now()));
     }, Math.max(1, state.next - performance.now()));
@@ -129,7 +137,7 @@
       hideSubtitle();
       return;
     }
-    drawSubtitles(subtitleTimeline.read(text, speakers, performance.now(), turns));
+    drawSubtitles(subtitleTimeline.read(text, speakers, performance.now(), turns), true);
   }
 
   function reserveObjectiveSpace() {
@@ -528,12 +536,17 @@
     SubtitleRenderer.clearLayout(view.subtitle);
     lastSubtitleKey = '';
     showSpeakerNames = appearance.showSpeakerNames === true;
+    if (!appearanceDraft) subtitleTimeline.setLimit(appearance.subtitleCount);
     subtitleTimeline.setScale(appearance.durationScale || 100, performance.now());
     view.subtitle.dataset.position = appearance.position;
     view.subtitle.style.setProperty('--subtitle-offset', appearance.offset + '%');
     view.subtitle.style.setProperty('--subtitle-size', appearance.fontSize + 'px');
     view.subtitle.style.setProperty('--subtitle-background', appearance.background
       ? 'rgba(0, 0, 0, ' + appearance.opacity / 100 + ')' : 'transparent');
+    var blur = appearance.background && appearance.opacity > 0 ? appearance.backgroundBlur : 0;
+    if (blur) view.subtitle.dataset.backgroundBlur = 'true';
+    else delete view.subtitle.dataset.backgroundBlur;
+    view.subtitle.style.setProperty('--subtitle-background-blur', blur ? blur + 'px' : '');
     view.subtitle.style.setProperty('--subtitle-padding-x', appearance.background ? appearance.paddingX + 'px' : '');
     view.subtitle.style.setProperty('--subtitle-padding-y', appearance.background ? appearance.paddingY + 'px' : '');
     if (saved.source === 'hdmi') placeHdmiOverlay(appearance);
@@ -553,7 +566,10 @@
     view.appearanceNamesValue.textContent = draft.showSpeakerNames ? 'Açık' : 'Kapalı';
     view.appearanceOffset.value = draft.offset;
     view.appearanceSize.value = draft.fontSize;
+    view.appearanceCount.value = draft.subtitleCount || 3;
+    view.appearanceCountValue.textContent = String(view.appearanceCount.value);
     view.appearanceOpacity.value = draft.opacity;
+    view.appearanceBlur.value = draft.backgroundBlur || 0;
     view.appearancePaddingX.value = draft.paddingX;
     view.appearancePaddingY.value = draft.paddingY;
     view.appearanceDuration.value = draft.durationScale || 100;
@@ -561,6 +577,7 @@
     view.appearanceOffsetValue.textContent = '%' + draft.offset;
     view.appearanceSizeValue.textContent = draft.fontSize + ' px';
     view.appearanceOpacityValue.textContent = '%' + draft.opacity;
+    view.appearanceBlurValue.textContent = view.appearanceBlur.value + ' px';
     view.appearancePaddingXValue.textContent = draft.paddingX + ' px';
     view.appearancePaddingYValue.textContent = draft.paddingY + ' px';
     appearanceControls.forEach(function (control) { control.disabled = appearanceSaving; });
@@ -569,7 +586,14 @@
       control.labels[0].dataset.disabled = String(!draft.background);
     });
     applyAppearance(draft);
-    SubtitleRenderer.render(view.subtitle, 'Örnek altyazı', [{ offset: 0, name: 'Jason', color: '#D4DF98' }], draft.showSpeakerNames);
+    var preview = SubtitleRenderer.createTimeline();
+    preview.setLimit(draft.subtitleCount);
+    ['Beni duyuyor musun?', 'Evet, duyuyorum.', 'Hazırsan başlayalım.'].forEach(function (text) {
+      preview.read(text, [], 0);
+    });
+    SubtitleRenderer.renderTimeline(view.subtitle,
+      preview.read('Örnek altyazı', [{ offset: 0, name: 'Jason', color: '#D4DF98' }], 0), draft.showSpeakerNames,
+      { region: draft.background ? saved.region : null });
   }
 
   function appearanceError(text) {
@@ -583,8 +607,8 @@
     view.settings.hidden = true;
     view.notice.hidden = true;
     appearanceError('');
-    drawAppearanceEditor();
     view.subtitle.hidden = false;
+    drawAppearanceEditor();
     view.appearanceEditor.hidden = false;
     view.appearancePosition.focus();
   }
@@ -756,7 +780,8 @@
           if (video.ocrRate) labels.push('Okuma sıklığı · ' + video.ocrRate + '/sn');
           if (video.region) labels.push('Altyazı alanı · ' + video.region.width + ' × ' + video.region.height + '%');
           if (video.appearance) labels.push('Altyazı görünümü · ' +
-            (video.appearance.position === 'top' ? 'Üst orta' : 'Alt orta') + ' · ' + video.appearance.fontSize + ' px');
+            (video.appearance.position === 'top' ? 'Üst orta' : 'Alt orta') + ' · ' + video.appearance.fontSize + ' px' +
+            ' · ' + video.appearance.subtitleCount + ' altyazı');
         }
         view.remoteSetupCodePanel.hidden = true;
         view.remoteSetupApply.hidden = false;
@@ -1083,7 +1108,8 @@
     appearanceDraft.showSpeakerNames = !appearanceDraft.showSpeakerNames;
     drawAppearanceEditor();
   });
-  [[view.appearanceOffset, 'offset'], [view.appearanceSize, 'fontSize'], [view.appearanceOpacity, 'opacity'],
+  [[view.appearanceOffset, 'offset'], [view.appearanceSize, 'fontSize'], [view.appearanceCount, 'subtitleCount'],
+    [view.appearanceOpacity, 'opacity'], [view.appearanceBlur, 'backgroundBlur'],
     [view.appearancePaddingX, 'paddingX'], [view.appearancePaddingY, 'paddingY'], [view.appearanceDuration, 'durationScale']]
     .forEach(function (entry) {
       bindRangeChange(entry[0], function (value) {

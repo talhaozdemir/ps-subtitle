@@ -654,7 +654,7 @@ stream.on('request', function (message) {
       const reply = { returnValue: true, type: 'subtitle', text: text, speakers: speakers || [], turns: turns };
       if (details && typeof details.sourceActive === 'boolean') reply.sourceActive = details.sourceActive;
       message.respond(reply);
-    }, notify, localSession, archive);
+    }, notify, localSession, archive, { minApiWords: 2 });
     function createHudFeed(type, lookup, archiveHud) {
       let lastKey = '', source = null, packMatch, displayed = '';
       function show(text) {

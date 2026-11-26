@@ -218,7 +218,7 @@ test('moving the objective box previews only its lines, persists the box, and st
   assert.equal(stream.messages.at(-1).text, 'Hedef');
 });
 
-test('a blank task read cancels the pending API translation before a late response can show it', async () => {
+test('single-word dialogue requires a local hit, two-word dialogue can use the API, and blank tasks cancel', async () => {
   const requests = [];
   const api = { module: { exports: {} }, Buffer, setTimeout, clearTimeout, require(name) {
     if (name === 'https') return { Agent: class {}, request(options, reply) {
@@ -230,19 +230,25 @@ test('a blank task read cancels the pending API translation before a late respon
     return require(path.join(serviceDirectory, name));
   } };
   vm.runInNewContext(fs.readFileSync(path.join(serviceDirectory, 'translation.js'), 'utf8'), api);
-  const service = harness({ api: api.module.exports, settings: {
+  const service = harness({ api: api.module.exports, match: text => text === 'Wait!' ? 'Bekle!' : null, settings: {
     translation: { mode: 'api', provider: 'gemini', keys: { gemini: 'test-key' } }
   } });
   const stream = service.start();
   await settle();
   const worker = service.workers[0];
-  function read(text) {
+  function read(text, y = 96) {
     worker.send({ type: 'ocr', revision: 0, text, confidence: 95,
-      lines: text ? [{ text, x: 50, y: 96, height: 2, confidence: 95 }] : [] });
+      lines: text ? [{ text, x: 50, y, height: 2, confidence: 95 }] : [] });
   }
-  read('Hold L2 to aim');
-  read('HoldL2 to aim!');
-  assert.deepEqual(requests.map(request => request.body.input), ['Hold L2 to aim']);
+  read('8ABC-123', 90);
+  assert.equal(stream.messages.at(-1).type, 'subtitleIdle');
+  read('Wait!', 90);
+  assert.equal(stream.messages.at(-1).text, 'Bekle!');
+  assert.equal(requests.length, 0);
+
+  read('Hold L2');
+  read('HoldL2!');
+  assert.deepEqual(requests.map(request => request.body.input), ['Hold L2']);
   read('');
   assert.equal(requests[0].request.destroyed, true);
 
@@ -256,6 +262,10 @@ test('a blank task read cancels the pending API translation before a late respon
   response.emit('end');
   await settle();
   assert.equal(stream.messages.some(message => message.type === 'objective'), false);
+
+  read('Come here!', 90);
+  assert.deepEqual(requests.map(request => request.body.input), ['Hold L2', 'Come here!']);
+  stream.cancel();
 });
 
 test('native line cache and thread counters reach diagnostics without accepting invalid values', async () => {
