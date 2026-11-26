@@ -210,6 +210,7 @@
 
   function createTimeline() {
     var entries = [], sourceKeys = [], scale = 100, nextId = 0, lastChange = 0, limit = 3;
+    var sourceActive = false;
     // Keep the current source through slow inference, but not a dead stream.
     var watchdog = 10000;
 
@@ -220,7 +221,7 @@
 
     function expire(now) {
       entries = entries.filter(function (entry) { return entry.until > now; });
-      if (!entries.length) sourceKeys = [];
+      if (!entries.length || (!sourceActive && entries[entries.length - 1].id !== nextId)) sourceKeys = [];
     }
 
     function snapshot(now) {
@@ -246,7 +247,8 @@
     }
 
     function release(now) {
-      sourceKeys = [];
+      // A missed OCR read shortens visibility without replacing a turn that is still on screen.
+      sourceActive = false;
       entries.forEach(function (entry) { entry.until = readingDeadline(entry); });
       return snapshot(now);
     }
@@ -295,6 +297,7 @@
         }
       });
       sourceKeys = keys;
+      sourceActive = true;
       entries = entries.slice(-limit);
       if (nextId !== previousId) lastChange = now;
       entries.forEach(function (entry) {
@@ -305,7 +308,7 @@
     }
 
     return { read: read, release: release, snapshot: snapshot,
-      clear: function () { entries = []; sourceKeys = []; },
+      clear: function () { entries = []; sourceKeys = []; sourceActive = false; },
       setLimit: function (value) {
         limit = value === 2 || value === 4 ? value : 3;
         entries = entries.slice(-limit);
@@ -314,7 +317,7 @@
         scale = value || 100;
         entries.forEach(function (entry) {
           entry.minimum = entry.at + readingDuration(entry.text, scale);
-          if (entry.id !== nextId || sourceKeys.indexOf(entry.key) === -1) entry.until = readingDeadline(entry);
+          if (!sourceActive || entry.id !== nextId || sourceKeys.indexOf(entry.key) === -1) entry.until = readingDeadline(entry);
           else entry.until = Math.max(entry.until, entry.minimum);
         });
         return snapshot(now);

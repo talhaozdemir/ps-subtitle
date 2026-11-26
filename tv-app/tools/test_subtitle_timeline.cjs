@@ -102,6 +102,24 @@ test('identical turns stay distinct and repeated OCR does not revive the previou
   assert.deepEqual(timeline.read('Tamam.', [], 15100).blocks, [pair[1]]);
 });
 
+test('brief OCR gaps keep a visible caption in the same slot', () => {
+  const timeline = createTimeline();
+  const text = 'Kapıyı aç.\nArka tarafta bekle.';
+  const first = timeline.read(text, [], 0).blocks;
+  for (const at of [100, 300, 500]) {
+    timeline.release(at);
+    assert.deepEqual(timeline.read(text, [], at + 50).blocks, first);
+  }
+
+  // The same words can be a new turn after the current one has expired.
+  const short = timeline.read('Tamam.', [], 600).blocks[1];
+  timeline.release(700);
+  assert.equal(timeline.snapshot(1100).text, text);
+  const repeated = timeline.read('Tamam.', [], 1200).blocks;
+  assert.equal(repeated.length, 2);
+  assert.notEqual(repeated[1].id, short.id);
+});
+
 test('a composed group never conceals the individual speakers inside that group', () => {
   const timeline = createTimeline();
   const state = timeline.read('A\nB\nC', [
